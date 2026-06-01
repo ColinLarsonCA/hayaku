@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&family=Sora:wght@500;700&display=swap');
+
+:root {
+  --font-body: 'M PLUS 1p', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
+  --font-display: 'Sora', 'M PLUS 1p', sans-serif;
+
+  --text-strong: #11212b;
+  --text-body: #243743;
+  --text-muted: #5a727f;
+
+  --surface-base: #f6f9f8;
+  --surface-elevated: rgba(255, 255, 255, 0.85);
+  --surface-border: #d4e1dd;
+  --surface-shadow: rgba(21, 51, 60, 0.24);
+
+  --accent-soft: #c8dfd3;
+  --accent-strong: #82a892;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --text-strong: #e7f0f6;
+  --text-body: #d1dde5;
+  --text-muted: #9cb2bf;
+
+  --surface-base: #101b23;
+  --surface-elevated: rgba(22, 34, 43, 0.8);
+  --surface-border: #29404f;
+  --surface-shadow: rgba(1, 5, 9, 0.6);
+
+  --accent-soft: #294652;
+  --accent-strong: #4f8397;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--text-body);
+  background:
+    radial-gradient(circle at 10% 15%, rgba(184, 216, 197, 0.35), transparent 40%),
+    radial-gradient(circle at 85% 20%, rgba(124, 165, 194, 0.16), transparent 42%),
+    linear-gradient(160deg, var(--surface-base), color-mix(in srgb, var(--surface-base), #ffffff 12%));
+}
+
+:root[data-theme='dark'] body {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(52, 91, 80, 0.35), transparent 42%),
+    radial-gradient(circle at 82% 12%, rgba(61, 91, 115, 0.25), transparent 40%),
+    linear-gradient(165deg, var(--surface-base), color-mix(in srgb, var(--surface-base), #000000 20%));
+}
+
+button {
+  cursor: pointer;
+}
