@@ -336,6 +336,11 @@ function App() {
     return parseStoredSession(saved, KATAKANA_CARDS) ?? createNewKatakanaSession()
   })
   const answerInputRef = useRef<HTMLInputElement>(null)
+  const focusAnswerInput = () => {
+    requestAnimationFrame(() => {
+      answerInputRef.current?.focus()
+    })
+  }
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
@@ -357,7 +362,7 @@ function App() {
 
   useEffect(() => {
     if (mode === 'hiragana' || mode === 'katakana') {
-      answerInputRef.current?.focus()
+      focusAnswerInput()
     }
   }, [mode, hiraganaSession.remainingCharacters.length, katakanaSession.remainingCharacters.length])
 
@@ -403,6 +408,7 @@ function App() {
 
   const startNewSession = () => {
     setCurrentSession(createNewSession())
+    focusAnswerInput()
   }
 
   const renderPractice = (modeName: string) => (

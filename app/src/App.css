@@ -144,7 +144,6 @@ h2 {
 
 .drill-card {
   margin-top: 0.2rem;
-  border: 1px solid var(--surface-border);
   border-radius: 14px;
   background: color-mix(in srgb, var(--surface-elevated), var(--surface-base) 24%);
   padding: clamp(1.1rem, 2.2vw, 1.5rem);
@@ -167,13 +166,14 @@ h2 {
 }
 
 .answer-input {
-  width: min(420px, calc(100% - 5.8rem));
-  padding: 0.72rem 0.82rem;
+  width: min(210px, calc((100% - 5.8rem) / 2));
+  padding: 0.5rem 0.68rem;
   border-radius: 12px;
   border: 1px solid var(--surface-border);
   background: var(--surface-base);
   color: var(--text-strong);
   font: inherit;
+  font-size: 0.95rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -252,7 +252,7 @@ h2 {
   }
 
   .answer-input {
-    width: calc(100% - 5rem);
+    width: calc((100% - 5rem) / 2);
   }
 
   .panel-header {
