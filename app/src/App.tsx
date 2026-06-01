@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Sun, Moon, RotateCcw } from 'lucide-react'
+import { japaneseFrequencyData } from './data/japaneseFrequencyData'
 import './App.css'
 
 type Theme = 'light' | 'dark'
@@ -14,6 +15,20 @@ type HiraganaSession = {
   remainingCharacters: string[]
   currentInput: string
 }
+
+type WordSession = {
+  remainingIndexes: number[]
+  currentInput: string
+}
+
+type WordSelection = {
+  word: string
+  reading?: string
+  type?: string
+}
+
+type WordSetMode = 'test' | 'full'
+type JapaneseFrequencyEntry = (typeof japaneseFrequencyData)[number]
 
 const modes: Record<PracticeMode, { label: string; mobileLabel: string; title: string }> = {
   hiragana: {
@@ -258,8 +273,60 @@ const KATAKANA_CARDS: HiraganaCard[] = [
 
 const HIRAGANA_SESSION_KEY = 'hayaku-hiragana-session-v1'
 const KATAKANA_SESSION_KEY = 'hayaku-katakana-session-v1'
+const WORD_SESSION_KEY = 'hayaku-word-session-v3'
+const WORD_SET_MODE_KEY = 'hayaku-word-set-mode-v1'
+
+const WORDS_TEST_SELECTIONS: WordSelection[] = [
+  { word: '私', reading: 'わたし', type: 'pronoun' },
+  { word: '神', type: 'noun' },
+  { word: 'ありがとう', type: 'interjection' },
+  { word: 'の', type: 'case particle' },
+  { word: '物', type: 'noun' },
+  { word: 'いろいろ', type: 'adverb, na-adjective' },
+  { word: 'と', type: 'case particle' },
+  { word: '今日', reading: 'きょう', type: 'noun' },
+]
 
 const normalizeInput = (value: string) => value.trim().toLowerCase()
+const containsKanji = (value: string) => /[\u3400-\u9FFF]/.test(value)
+
+const normalizeMeaning = (value: string) =>
+  normalizeInput(value.replace(/^["']+/, '').replace(/["']+$/, ''))
+
+const parseMeaningAnswers = (meaning: string) => {
+  const fullMeaning = normalizeMeaning(meaning)
+  const splitMeanings = meaning
+    .split(/[;,]/)
+    .map(normalizeMeaning)
+    .filter(Boolean)
+
+  return [...new Set([fullMeaning, ...splitMeanings].filter(Boolean))]
+}
+
+const matchesSelection = (entry: JapaneseFrequencyEntry, selection: WordSelection) => {
+  if (entry.word !== selection.word) {
+    return false
+  }
+
+  if (selection.reading && entry.reading !== selection.reading) {
+    return false
+  }
+
+  if (selection.type && entry.type !== selection.type) {
+    return false
+  }
+
+  return true
+}
+
+const createWordsTestCards = () => {
+  return WORDS_TEST_SELECTIONS.map((selection) =>
+    japaneseFrequencyData.find((entry) => matchesSelection(entry, selection)),
+  ).filter((entry): entry is JapaneseFrequencyEntry => Boolean(entry))
+}
+
+const getWordCardsForMode = (wordSetMode: WordSetMode): JapaneseFrequencyEntry[] =>
+  wordSetMode === 'test' ? createWordsTestCards() : japaneseFrequencyData
 
 const shuffle = <T,>(items: T[]): T[] => {
   const copy = [...items]
@@ -277,6 +344,11 @@ const createNewHiraganaSession = (): HiraganaSession => ({
 
 const createNewKatakanaSession = (): HiraganaSession => ({
   remainingCharacters: shuffle(KATAKANA_CARDS.map((card) => card.character)),
+  currentInput: '',
+})
+
+const createNewWordSession = (wordCards: JapaneseFrequencyEntry[]): WordSession => ({
+  remainingIndexes: shuffle(wordCards.map((_, index) => index)),
   currentInput: '',
 })
 
@@ -312,6 +384,41 @@ const parseStoredSession = (value: string | null, validCards: HiraganaCard[]): H
   }
 }
 
+const parseStoredWordSession = (
+  value: string | null,
+  wordCards: JapaneseFrequencyEntry[],
+): WordSession | null => {
+  if (!value) {
+    return null
+  }
+
+  try {
+    const parsed = JSON.parse(value) as WordSession
+    if (!Array.isArray(parsed.remainingIndexes) || typeof parsed.currentInput !== 'string') {
+      return null
+    }
+
+    const deduped = parsed.remainingIndexes.filter(
+      (index, arrayIndex, collection) =>
+        Number.isInteger(index) &&
+        index >= 0 &&
+        index < wordCards.length &&
+        collection.indexOf(index) === arrayIndex,
+    )
+
+    if (deduped.length === 0) {
+      return null
+    }
+
+    return {
+      remainingIndexes: deduped,
+      currentInput: parsed.currentInput,
+    }
+  } catch {
+    return null
+  }
+}
+
 function App() {
   const [theme, setTheme] = useState<Theme>(() => {
     const saved = window.localStorage.getItem('hayaku-theme')
@@ -335,6 +442,21 @@ function App() {
     const saved = window.localStorage.getItem(KATAKANA_SESSION_KEY)
     return parseStoredSession(saved, KATAKANA_CARDS) ?? createNewKatakanaSession()
   })
+  const [wordSetMode, setWordSetMode] = useState<WordSetMode>(() => {
+    const saved = window.localStorage.getItem(WORD_SET_MODE_KEY)
+    if (saved === 'full' || saved === 'test') {
+      return saved
+    }
+    return 'test'
+  })
+  const wordCards = useMemo(() => getWordCardsForMode(wordSetMode), [wordSetMode])
+  const [wordSession, setWordSession] = useState<WordSession>(() => {
+    const savedSetMode = window.localStorage.getItem(WORD_SET_MODE_KEY)
+    const initialSetMode = savedSetMode === 'full' || savedSetMode === 'test' ? savedSetMode : 'test'
+    const initialWordCards = getWordCardsForMode(initialSetMode)
+    const saved = window.localStorage.getItem(`${WORD_SESSION_KEY}-${initialSetMode}`)
+    return parseStoredWordSession(saved, initialWordCards) ?? createNewWordSession(initialWordCards)
+  })
   const answerInputRef = useRef<HTMLInputElement>(null)
   const focusAnswerInput = () => {
     requestAnimationFrame(() => {
@@ -357,14 +479,22 @@ function App() {
   }, [katakanaSession])
 
   useEffect(() => {
+    window.localStorage.setItem(`${WORD_SESSION_KEY}-${wordSetMode}`, JSON.stringify(wordSession))
+  }, [wordSession, wordSetMode])
+
+  useEffect(() => {
+    window.localStorage.setItem(WORD_SET_MODE_KEY, wordSetMode)
+  }, [wordSetMode])
+
+  useEffect(() => {
     window.localStorage.setItem('hayaku-mode', mode)
   }, [mode])
 
   useEffect(() => {
-    if (mode === 'hiragana' || mode === 'katakana') {
+    if (mode === 'hiragana' || mode === 'katakana' || mode === 'frequency') {
       focusAnswerInput()
     }
-  }, [mode, hiraganaSession.remainingCharacters.length, katakanaSession.remainingCharacters.length])
+  }, [mode, hiraganaSession.remainingCharacters.length, katakanaSession.remainingCharacters.length, wordSession.remainingIndexes.length])
 
   const modeContent = useMemo(() => modes[mode], [mode])
 
@@ -380,6 +510,10 @@ function App() {
   const currentCharacter = currentSession.remainingCharacters[0]
   const currentCard = cards.find((card) => card.character === currentCharacter)
   const completedCount = cards.length - currentSession.remainingCharacters.length
+
+  const currentWordIndex = wordSession.remainingIndexes[0]
+  const currentWordCard = wordCards[currentWordIndex]
+  const wordCompletedCount = wordCards.length - wordSession.remainingIndexes.length
 
   const updateInputAndCheckAnswer = (nextValue: string) => {
     const normalizedInput = normalizeInput(nextValue)
@@ -411,6 +545,47 @@ function App() {
     focusAnswerInput()
   }
 
+  const updateWordInputAndCheckAnswer = (nextValue: string) => {
+    const normalizedInput = normalizeMeaning(nextValue)
+    if (!currentWordCard) {
+      return
+    }
+
+    const acceptedMeanings = parseMeaningAnswers(currentWordCard.meaning)
+    const isMatch = acceptedMeanings.includes(normalizedInput)
+    if (isMatch) {
+      setWordSession((currentWordSession) => ({
+        ...(currentWordSession.remainingIndexes.length <= 1
+          ? createNewWordSession(wordCards)
+          : {
+              remainingIndexes: currentWordSession.remainingIndexes.slice(1),
+              currentInput: '',
+            }),
+      }))
+      return
+    }
+
+    setWordSession((currentWordSession) => ({
+      ...currentWordSession,
+      currentInput: nextValue,
+    }))
+  }
+
+  const startNewWordSession = () => {
+    setWordSession(createNewWordSession(wordCards))
+    focusAnswerInput()
+  }
+
+  const toggleWordSetMode = () => {
+    setWordSetMode((current) => {
+      const nextMode: WordSetMode = current === 'test' ? 'full' : 'test'
+      const nextWordCards = getWordCardsForMode(nextMode)
+      setWordSession(createNewWordSession(nextWordCards))
+      return nextMode
+    })
+    focusAnswerInput()
+  }
+
   const renderPractice = (modeName: string) => (
     <>
       <div className="panel-header">
@@ -419,7 +594,6 @@ function App() {
           <span>
             Correct: {completedCount}/{cards.length}
           </span>
-          <span>Remaining: {currentSession.remainingCharacters.length}</span>
         </div>
       </div>
 
@@ -445,6 +619,65 @@ function App() {
           type="button"
           className="ghost-action session-reset-btn"
           onClick={startNewSession}
+          aria-label="Start new session"
+        >
+          <RotateCcw size={20} />
+        </button>
+      </div>
+    </>
+  )
+
+  const renderWordPractice = () => (
+    <>
+      <div className="panel-header">
+        <h2>{modeContent.title}</h2>
+        <div className="session-meta" role="status" aria-live="polite">
+          <span>
+            Correct: {wordCompletedCount}/{wordCards.length}
+          </span>
+        </div>
+      </div>
+
+      <div className="drill-card">
+        <button
+          type="button"
+          className="ghost-action words-set-toggle"
+          onClick={toggleWordSetMode}
+          aria-label="Toggle words source"
+        >
+          {wordSetMode === 'test' ? 'TEST SET' : 'FULL SET'}
+        </button>
+        <p className="word-type-hint" aria-label="Part of speech">
+          {currentWordCard?.type ?? 'unknown'}
+        </p>
+        <p className="hiragana-character word-character" aria-live="polite">
+          {currentWordCard?.reading && currentWordCard.word && containsKanji(currentWordCard.word) ? (
+            <ruby className="word-ruby">
+              {currentWordCard.word}
+              <rt>{currentWordCard.reading}</rt>
+            </ruby>
+          ) : (
+            currentWordCard?.word
+          )}
+        </p>
+        <input
+          id="frequency-answer"
+          ref={answerInputRef}
+          className="answer-input"
+          type="text"
+          autoCapitalize="off"
+          autoCorrect="off"
+          autoComplete="off"
+          spellCheck={false}
+          value={wordSession.currentInput}
+          onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
+          placeholder="Type one meaning"
+          aria-label="Meaning answer"
+        />
+        <button
+          type="button"
+          className="ghost-action session-reset-btn"
+          onClick={startNewWordSession}
           aria-label="Start new session"
         >
           <RotateCcw size={20} />
@@ -486,9 +719,7 @@ function App() {
         {mode === 'hiragana' || mode === 'katakana' ? (
           renderPractice(mode)
         ) : (
-          <div style={{ textAlign: 'center', paddingTop: '3rem', fontSize: '1.5rem', fontFamily: 'inherit' }}>
-            <p style={{ lineHeight: '1.8' }}>ちょっと待てください<br />(人 •͈ᴗ•͈)</p>
-          </div>
+          renderWordPractice()
         )}
       </section>
     </main>
