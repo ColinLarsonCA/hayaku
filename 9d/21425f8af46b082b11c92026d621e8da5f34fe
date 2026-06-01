@@ -1,0 +1,19 @@
+app/vite.config.ts
+  s_fa2482e6916e20::t_97bd065c4de986 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9d21425f8af46b082b11c92026d621e8da5f34fe",
+  "prompts": {},
+  "sessions": {
+    "s_fa2482e6916e20": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "752e2811-e7f6-4aca-9da3-1e6ecf05f4cd",
+        "model": "claude-sonnet-4.6"
+      },
+      "human_author": "Colin Larson <9647933+ColinLarsonCA@users.noreply.github.com>"
+    }
+  }
+}
