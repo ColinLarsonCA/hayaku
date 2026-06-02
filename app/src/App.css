@@ -323,7 +323,7 @@ h1 {
   color: inherit;
   padding: 0.38rem 0.5rem;
   display: grid;
-  grid-template-columns: 0.9rem 3rem minmax(3.2rem, 0.9fr) minmax(2.2rem, 0.8fr) minmax(0, 2.2fr);
+  grid-template-columns: 0.9rem 3rem minmax(3.2rem, 1.2fr) minmax(0, 2fr);
   gap: 0.45rem;
   align-items: center;
   text-align: left;
@@ -363,6 +363,21 @@ h1 {
   background: var(--accent-strong);
 }
 
+.word-deck-radio,
+.word-deck-frequency {
+  grid-row: auto;
+  align-self: center;
+}
+
+.word-deck-primary,
+.word-deck-secondary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  min-width: 0;
+  align-items: baseline;
+}
+
 .word-deck-frequency,
 .word-deck-type {
   font-size: 0.74rem;
@@ -374,6 +389,11 @@ h1 {
   color: var(--text-strong);
 }
 
+.word-deck-reading {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
 .word-deck-type {
   text-transform: lowercase;
 }
@@ -381,6 +401,7 @@ h1 {
 .word-deck-meaning {
   font-size: 0.82rem;
   color: var(--text-body);
+  min-width: 0;
 }
 
 .deck-table-block {
@@ -710,6 +731,7 @@ h1 {
 
   .word-deck-row-toggle {
     grid-template-columns: 0.9rem 2.2rem minmax(2.7rem, 1fr);
+    align-items: start;
   }
 
   .word-deck-search {
@@ -726,8 +748,13 @@ h1 {
     margin-left: 0;
   }
 
-  .word-deck-type,
-  .word-deck-meaning {
+  .word-deck-radio,
+  .word-deck-frequency {
+    grid-row: 1 / span 2;
+  }
+
+  .word-deck-primary,
+  .word-deck-secondary {
     grid-column: 3;
   }
 

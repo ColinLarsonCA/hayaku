@@ -302,16 +302,24 @@ const normalizeMeaning = (value: string) =>
     .replace(/\s+/g, ' ')
     .trim()
 
+const stripBracketQualifiers = (value: string) =>
+  value.replace(/\([^)]*\)|\[[^\]]*\]|\{[^}]*\}|（[^）]*）|［[^］]*］|【[^】]*】/g, ' ')
+
 const stripLeadingTo = (value: string) => value.replace(/^to\s+/, '').trim()
 
 const parseMeaningAnswers = (meaning: string) => {
   const fullMeaning = normalizeMeaning(meaning)
+  const simplifiedFullMeaning = normalizeMeaning(stripBracketQualifiers(meaning))
   const splitMeanings = meaning
     .split(/[;,]/)
-    .map(normalizeMeaning)
+    .flatMap((part) => {
+      const normalizedPart = normalizeMeaning(part)
+      const simplifiedPart = normalizeMeaning(stripBracketQualifiers(part))
+      return [normalizedPart, simplifiedPart]
+    })
     .filter(Boolean)
 
-  return [...new Set([fullMeaning, ...splitMeanings].filter(Boolean))]
+  return [...new Set([fullMeaning, simplifiedFullMeaning, ...splitMeanings].filter(Boolean))]
 }
 
 const shuffle = <T,>(items: T[]): T[] => {
@@ -873,7 +881,7 @@ function App() {
     }
 
     return allWordDeckEntries.filter((entry) => {
-      const haystacks = [entry.word, entry.meaning]
+      const haystacks = [entry.word, entry.reading, entry.meaning]
       return haystacks.some((value) => normalizeInput(value).includes(normalizedWordDeckSearch))
     })
   }, [allWordDeckEntries, normalizedWordDeckSearch])
@@ -1254,8 +1262,8 @@ function App() {
           className="word-deck-search"
           value={wordDeckSearch}
           onChange={(event) => setWordDeckSearch(event.target.value)}
-          placeholder="Search by word or meaning"
-          aria-label="Search by word or meaning"
+          placeholder="Search by word, reading, or meaning"
+          aria-label="Search by word, reading, or meaning"
         />
         <div className="word-deck-actions" role="group" aria-label="Word deck quick actions">
           <button
@@ -1335,6 +1343,8 @@ function App() {
               <div className="word-deck-group-rows">
                 {group.entries.map((entry, index) => {
                   const isSelected = selectedWordFrequencies.has(entry.frequency)
+                  const showReading =
+                    entry.reading.length > 0 && normalizeInput(entry.reading) !== normalizeInput(entry.word)
                   return (
                     <div
                       key={`${group.groupStart}-${index}-${entry.frequency}-${entry.word}-${entry.reading}-${entry.type}-${entry.meaning}`}
@@ -1348,9 +1358,14 @@ function App() {
                       >
                         <span className={`word-deck-radio ${isSelected ? 'is-selected' : ''}`} aria-hidden="true" />
                         <span className="word-deck-frequency">{entry.frequency}</span>
-                        <span className="word-deck-word">{entry.word}</span>
-                        <span className="word-deck-type">{entry.type}</span>
-                        <span className="word-deck-meaning">{entry.meaning}</span>
+                        <span className="word-deck-primary">
+                          <span className="word-deck-word">{entry.word}</span>
+                          {showReading ? <span className="word-deck-reading">{entry.reading}</span> : null}
+                        </span>
+                        <span className="word-deck-secondary">
+                          <span className="word-deck-type">{entry.type}</span>
+                          <span className="word-deck-meaning">{entry.meaning}</span>
+                        </span>
                       </button>
                       <a
                         href={getJishoSearchUrl(entry.word)}
