@@ -1309,7 +1309,7 @@ function App() {
                   const shouldAbbreviateType = normalizedType === previousType || normalizedType === nextType
                   return (
                     <div
-                      key={`${entry.frequency}-${entry.word}-${entry.reading}`}
+                      key={`${group.groupStart}-${index}-${entry.frequency}-${entry.word}-${entry.reading}-${entry.type}-${entry.meaning}`}
                       className={`word-deck-row ${isSelected ? 'is-selected' : ''}`}
                     >
                       <button
