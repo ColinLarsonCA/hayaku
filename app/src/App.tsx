@@ -20,17 +20,13 @@ type WordSession = {
   remainingIndexes: number[]
   currentInput: string
 }
-
-type WordSelection = {
-  word: string
-  reading?: string
-  type?: string
-}
-
-type WordSetMode = 'test' | 'full'
 type JapaneseFrequencyEntry = (typeof japaneseFrequencyData)[number]
 type DeckConfig = {
   includedCharacters: string[]
+}
+
+type WordDeckConfig = {
+  includedFrequencies: number[]
 }
 
 type DeckCell = {
@@ -293,20 +289,9 @@ const KATAKANA_CARDS: HiraganaCard[] = [
 const HIRAGANA_SESSION_KEY = 'hayaku-hiragana-session-v1'
 const KATAKANA_SESSION_KEY = 'hayaku-katakana-session-v1'
 const WORD_SESSION_KEY = 'hayaku-word-session-v3'
-const WORD_SET_MODE_KEY = 'hayaku-word-set-mode-v1'
+const WORD_DECK_KEY = 'hayaku-word-deck-v1'
 const HIRAGANA_DECK_KEY = 'hayaku-hiragana-deck-v1'
 const KATAKANA_DECK_KEY = 'hayaku-katakana-deck-v1'
-
-const WORDS_TEST_SELECTIONS: WordSelection[] = [
-  { word: '私', reading: 'わたし', type: 'pronoun' },
-  { word: '神', type: 'noun' },
-  { word: 'ありがとう', type: 'interjection' },
-  { word: 'の', type: 'case particle' },
-  { word: '物', type: 'noun' },
-  { word: 'いろいろ', type: 'adverb, na-adjective' },
-  { word: 'と', type: 'case particle' },
-  { word: '今日', reading: 'きょう', type: 'noun' },
-]
 
 const normalizeInput = (value: string) => value.trim().toLowerCase()
 const containsKanji = (value: string) => /[\u3400-\u9FFF]/.test(value)
@@ -323,31 +308,6 @@ const parseMeaningAnswers = (meaning: string) => {
 
   return [...new Set([fullMeaning, ...splitMeanings].filter(Boolean))]
 }
-
-const matchesSelection = (entry: JapaneseFrequencyEntry, selection: WordSelection) => {
-  if (entry.word !== selection.word) {
-    return false
-  }
-
-  if (selection.reading && entry.reading !== selection.reading) {
-    return false
-  }
-
-  if (selection.type && entry.type !== selection.type) {
-    return false
-  }
-
-  return true
-}
-
-const createWordsTestCards = () => {
-  return WORDS_TEST_SELECTIONS.map((selection) =>
-    japaneseFrequencyData.find((entry) => matchesSelection(entry, selection)),
-  ).filter((entry): entry is JapaneseFrequencyEntry => Boolean(entry))
-}
-
-const getWordCardsForMode = (wordSetMode: WordSetMode): JapaneseFrequencyEntry[] =>
-  wordSetMode === 'test' ? createWordsTestCards() : japaneseFrequencyData
 
 const shuffle = <T,>(items: T[]): T[] => {
   const copy = [...items]
@@ -367,6 +327,83 @@ const createNewWordSession = (wordCards: JapaneseFrequencyEntry[]): WordSession 
   remainingIndexes: shuffle(wordCards.map((_, index) => index)),
   currentInput: '',
 })
+
+const createDefaultWordDeckConfig = (wordCards: JapaneseFrequencyEntry[]): WordDeckConfig => ({
+  includedFrequencies: wordCards.map((card) => card.frequency),
+})
+
+const parseStoredWordDeckConfig = (
+  value: string | null,
+  wordCards: JapaneseFrequencyEntry[],
+): WordDeckConfig | null => {
+  if (!value) {
+    return null
+  }
+
+  try {
+    const parsed = JSON.parse(value) as WordDeckConfig
+    if (!Array.isArray(parsed.includedFrequencies)) {
+      return null
+    }
+
+    const validFrequencies = new Set(wordCards.map((card) => card.frequency))
+    const deduped = parsed.includedFrequencies.filter(
+      (frequency, index, collection) =>
+        Number.isInteger(frequency) &&
+        validFrequencies.has(frequency) &&
+        collection.indexOf(frequency) === index,
+    )
+
+    return {
+      includedFrequencies: deduped,
+    }
+  } catch {
+    return null
+  }
+}
+
+const getWordsForDeck = (
+  wordCards: JapaneseFrequencyEntry[],
+  wordDeckConfig: WordDeckConfig,
+): JapaneseFrequencyEntry[] => {
+  const includedFrequencies = new Set(wordDeckConfig.includedFrequencies)
+  return wordCards.filter((card) => includedFrequencies.has(card.frequency))
+}
+
+const WORD_TYPE_ABBREVIATIONS: Record<string, string> = {
+  noun: 'n',
+  verb: 'v',
+  adjective: 'adj',
+  'na-adjective': 'na-adj',
+  'i-adjective': 'i-adj',
+  adverb: 'adv',
+  pronoun: 'pron',
+  particle: 'ptcl',
+  'case particle': 'case-ptcl',
+  'conjunctive particle': 'conj-ptcl',
+  interjection: 'intj',
+  conjunction: 'conj',
+  auxiliary: 'aux',
+  prefix: 'pref',
+  suffix: 'suf',
+  counter: 'ctr',
+  expression: 'expr',
+  numeral: 'num',
+}
+
+const abbreviateWordType = (wordType: string) =>
+  wordType
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => WORD_TYPE_ABBREVIATIONS[part.toLowerCase()] ?? part)
+    .join(', ')
+
+const getFrequencyGroupStart = (frequency: number) => Math.floor((frequency - 1) / 100) * 100 + 1
+
+const clampRangeValue = (value: number, min: number, max: number) => Math.max(min, Math.min(max, value))
+
+const getJishoSearchUrl = (word: string) => `https://jisho.org/search/${encodeURIComponent(word)}`
 
 const parseStoredSession = (value: string | null, validCards: HiraganaCard[]): HiraganaSession | null => {
   if (!value) {
@@ -688,6 +725,7 @@ function App() {
     return parseStoredDeckConfig(saved, KATAKANA_CARDS) ?? createDefaultDeckConfig(KATAKANA_CARDS)
   })
   const [isDeckEditorOpen, setIsDeckEditorOpen] = useState(false)
+  const [isWordDeckEditorOpen, setIsWordDeckEditorOpen] = useState(false)
   const hiraganaDeckCards = useMemo(() => getCardsForDeck(HIRAGANA_CARDS, hiraganaDeck), [hiraganaDeck])
   const katakanaDeckCards = useMemo(() => getCardsForDeck(KATAKANA_CARDS, katakanaDeck), [katakanaDeck])
   const [hiraganaSession, setHiraganaSession] = useState<HiraganaSession>(() => {
@@ -702,19 +740,25 @@ function App() {
     const activeCards = getCardsForDeck(KATAKANA_CARDS, savedDeck ?? createDefaultDeckConfig(KATAKANA_CARDS))
     return parseStoredSession(saved, activeCards) ?? createNewKanaSession(activeCards)
   })
-  const [wordSetMode, setWordSetMode] = useState<WordSetMode>(() => {
-    const saved = window.localStorage.getItem(WORD_SET_MODE_KEY)
-    if (saved === 'full' || saved === 'test') {
-      return saved
-    }
-    return 'test'
+  const [wordDeck, setWordDeck] = useState<WordDeckConfig>(() => {
+    const saved = window.localStorage.getItem(WORD_DECK_KEY)
+    return (
+      parseStoredWordDeckConfig(saved, japaneseFrequencyData) ?? createDefaultWordDeckConfig(japaneseFrequencyData)
+    )
   })
-  const wordCards = useMemo(() => getWordCardsForMode(wordSetMode), [wordSetMode])
+  const [wordDeckSearch, setWordDeckSearch] = useState('')
+  const [wordDeckRangeStart, setWordDeckRangeStart] = useState('1')
+  const [wordDeckRangeEnd, setWordDeckRangeEnd] = useState('100')
+  const wordCards = useMemo(() => getWordsForDeck(japaneseFrequencyData, wordDeck), [wordDeck])
   const [wordSession, setWordSession] = useState<WordSession>(() => {
-    const savedSetMode = window.localStorage.getItem(WORD_SET_MODE_KEY)
-    const initialSetMode = savedSetMode === 'full' || savedSetMode === 'test' ? savedSetMode : 'test'
-    const initialWordCards = getWordCardsForMode(initialSetMode)
-    const saved = window.localStorage.getItem(`${WORD_SESSION_KEY}-${initialSetMode}`)
+    const initialDeck =
+      parseStoredWordDeckConfig(window.localStorage.getItem(WORD_DECK_KEY), japaneseFrequencyData) ??
+      createDefaultWordDeckConfig(japaneseFrequencyData)
+    const initialWordCards = getWordsForDeck(japaneseFrequencyData, initialDeck)
+    const saved =
+      window.localStorage.getItem(WORD_SESSION_KEY) ??
+      window.localStorage.getItem(`${WORD_SESSION_KEY}-full`) ??
+      window.localStorage.getItem(`${WORD_SESSION_KEY}-test`)
     return parseStoredWordSession(saved, initialWordCards) ?? createNewWordSession(initialWordCards)
   })
   const answerInputRef = useRef<HTMLInputElement>(null)
@@ -762,12 +806,12 @@ function App() {
   }, [katakanaDeck])
 
   useEffect(() => {
-    window.localStorage.setItem(`${WORD_SESSION_KEY}-${wordSetMode}`, JSON.stringify(wordSession))
-  }, [wordSession, wordSetMode])
+    window.localStorage.setItem(WORD_SESSION_KEY, JSON.stringify(wordSession))
+  }, [wordSession])
 
   useEffect(() => {
-    window.localStorage.setItem(WORD_SET_MODE_KEY, wordSetMode)
-  }, [wordSetMode])
+    window.localStorage.setItem(WORD_DECK_KEY, JSON.stringify(wordDeck))
+  }, [wordDeck])
 
   useEffect(() => {
     window.localStorage.setItem('hayaku-mode', mode)
@@ -775,6 +819,9 @@ function App() {
 
   useEffect(() => {
     if ((mode === 'hiragana' || mode === 'katakana') && isDeckEditorOpen) {
+      return
+    }
+    if (mode === 'frequency' && isWordDeckEditorOpen) {
       return
     }
     if (mode === 'hiragana' || mode === 'katakana' || mode === 'frequency') {
@@ -786,6 +833,7 @@ function App() {
     katakanaSession.remainingCharacters.length,
     wordSession.remainingIndexes.length,
     isDeckEditorOpen,
+    isWordDeckEditorOpen,
   ])
 
   const toggleTheme = () => {
@@ -803,6 +851,46 @@ function App() {
   const currentWordIndex = wordSession.remainingIndexes[0]
   const currentWordCard = wordCards[currentWordIndex]
   const wordCompletedCount = wordCards.length - wordSession.remainingIndexes.length
+  const allWordDeckEntries = useMemo(
+    () => [...japaneseFrequencyData].sort((a, b) => a.frequency - b.frequency),
+    [],
+  )
+  const allWordFrequencies = useMemo(
+    () => allWordDeckEntries.map((entry) => entry.frequency),
+    [allWordDeckEntries],
+  )
+  const selectedWordFrequencies = useMemo(
+    () => new Set(wordDeck.includedFrequencies),
+    [wordDeck.includedFrequencies],
+  )
+  const normalizedWordDeckSearch = normalizeInput(wordDeckSearch)
+  const visibleWordDeckEntries = useMemo(() => {
+    if (!normalizedWordDeckSearch) {
+      return allWordDeckEntries
+    }
+
+    return allWordDeckEntries.filter((entry) => {
+      const haystacks = [entry.word, entry.meaning]
+      return haystacks.some((value) => normalizeInput(value).includes(normalizedWordDeckSearch))
+    })
+  }, [allWordDeckEntries, normalizedWordDeckSearch])
+  const wordDeckGroups = useMemo(() => {
+    const groups = new Map<number, JapaneseFrequencyEntry[]>()
+    visibleWordDeckEntries.forEach((entry) => {
+      const groupStart = getFrequencyGroupStart(entry.frequency)
+      const group = groups.get(groupStart) ?? []
+      group.push(entry)
+      groups.set(groupStart, group)
+    })
+
+    return [...groups.entries()]
+      .sort((a, b) => a[0] - b[0])
+      .map(([groupStart, entries]) => ({
+        groupStart,
+        groupEnd: groupStart + 99,
+        entries,
+      }))
+  }, [visibleWordDeckEntries])
 
   const updateInputAndCheckAnswer = (nextValue: string) => {
     const normalizedInput = normalizeInput(nextValue)
@@ -865,14 +953,60 @@ function App() {
     focusAnswerInput(true)
   }
 
-  const toggleWordSetMode = () => {
-    setWordSetMode((current) => {
-      const nextMode: WordSetMode = current === 'test' ? 'full' : 'test'
-      const nextWordCards = getWordCardsForMode(nextMode)
-      setWordSession(createNewWordSession(nextWordCards))
-      return nextMode
+  const applyWordDeckConfig = (nextWordDeck: WordDeckConfig) => {
+    setWordDeck(nextWordDeck)
+    const nextWordCards = getWordsForDeck(japaneseFrequencyData, nextWordDeck)
+    setWordSession(createNewWordSession(nextWordCards))
+  }
+
+  const selectWordFrequencies = (selectedFrequencies: number[]) => {
+    const selected = new Set(selectedFrequencies)
+    applyWordDeckConfig({
+      includedFrequencies: allWordFrequencies.filter((frequency) => selected.has(frequency)),
     })
-    focusAnswerInput(true)
+  }
+
+  const toggleWordFrequency = (frequency: number) => {
+    const selected = new Set(wordDeck.includedFrequencies)
+    if (selected.has(frequency)) {
+      selected.delete(frequency)
+    } else {
+      selected.add(frequency)
+    }
+    selectWordFrequencies([...selected])
+  }
+
+  const toggleWordGroup = (groupFrequencies: number[]) => {
+    const allSelected = groupFrequencies.every((frequency) => selectedWordFrequencies.has(frequency))
+    const selected = new Set(wordDeck.includedFrequencies)
+
+    if (allSelected) {
+      groupFrequencies.forEach((frequency) => selected.delete(frequency))
+    } else {
+      groupFrequencies.forEach((frequency) => selected.add(frequency))
+    }
+
+    selectWordFrequencies([...selected])
+  }
+
+  const selectWordRange = () => {
+    const minFrequency = allWordFrequencies[0] ?? 1
+    const maxFrequency = allWordFrequencies[allWordFrequencies.length - 1] ?? 1
+    const parsedStart = Number.parseInt(wordDeckRangeStart, 10)
+    const parsedEnd = Number.parseInt(wordDeckRangeEnd, 10)
+    if (Number.isNaN(parsedStart) || Number.isNaN(parsedEnd)) {
+      return
+    }
+
+    const start = clampRangeValue(parsedStart, minFrequency, maxFrequency)
+    const end = clampRangeValue(parsedEnd, minFrequency, maxFrequency)
+    const rangeStart = Math.min(start, end)
+    const rangeEnd = Math.max(start, end)
+    const rangeFrequencies = allWordFrequencies.filter(
+      (frequency) => frequency >= rangeStart && frequency <= rangeEnd,
+    )
+
+    selectWordFrequencies(rangeFrequencies)
   }
 
   const kanaDeck = mode === 'katakana' ? katakanaDeck : hiraganaDeck
@@ -1061,6 +1195,128 @@ function App() {
     </div>
   )
 
+  const renderWordDeckEditor = () => (
+    <div className="deck-panel word-deck-panel">
+      <div className="word-deck-header">
+        <input
+          type="text"
+          className="word-deck-search"
+          value={wordDeckSearch}
+          onChange={(event) => setWordDeckSearch(event.target.value)}
+          placeholder="Search by word or meaning"
+          aria-label="Search by word or meaning"
+        />
+        <div className="word-deck-actions" role="group" aria-label="Word deck quick actions">
+          <button
+            type="button"
+            className="ghost-action deck-quick-action-btn"
+            onClick={() => selectWordFrequencies(allWordFrequencies)}
+          >
+            Select all
+          </button>
+          <button
+            type="button"
+            className="ghost-action deck-quick-action-btn"
+            onClick={() => selectWordFrequencies([])}
+          >
+            Clear all
+          </button>
+          <div className="word-deck-range">
+            <input
+              type="number"
+              className="word-range-input"
+              min={allWordFrequencies[0] ?? 1}
+              max={allWordFrequencies[allWordFrequencies.length - 1] ?? 1}
+              value={wordDeckRangeStart}
+              onChange={(event) => setWordDeckRangeStart(event.target.value)}
+              aria-label="Frequency range start"
+            />
+            <span aria-hidden="true">-</span>
+            <input
+              type="number"
+              className="word-range-input"
+              min={allWordFrequencies[0] ?? 1}
+              max={allWordFrequencies[allWordFrequencies.length - 1] ?? 1}
+              value={wordDeckRangeEnd}
+              onChange={(event) => setWordDeckRangeEnd(event.target.value)}
+              aria-label="Frequency range end"
+            />
+            <button
+              type="button"
+              className="ghost-action deck-quick-action-btn"
+              onClick={selectWordRange}
+            >
+              Select range
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="word-deck-list" role="list" aria-label="Word deck by frequency">
+        {wordDeckGroups.map((group) => {
+          const groupFrequencies = group.entries.map((entry) => entry.frequency)
+          const groupAllSelected = groupFrequencies.every((frequency) => selectedWordFrequencies.has(frequency))
+          return (
+            <section key={group.groupStart} className="word-deck-group">
+              <div className="word-deck-group-header">
+                <p className="word-deck-group-label">
+                  {group.groupStart}-{group.groupEnd}
+                </p>
+                <button
+                  type="button"
+                  className="ghost-action deck-quick-action-btn"
+                  onClick={() => toggleWordGroup(groupFrequencies)}
+                >
+                  {groupAllSelected ? 'Unselect group' : 'Select group'}
+                </button>
+              </div>
+
+              <div className="word-deck-group-rows">
+                {group.entries.map((entry, index, entries) => {
+                  const isSelected = selectedWordFrequencies.has(entry.frequency)
+                  const normalizedType = normalizeInput(entry.type)
+                  const previousType = normalizeInput(entries[index - 1]?.type ?? '')
+                  const nextType = normalizeInput(entries[index + 1]?.type ?? '')
+                  const shouldAbbreviateType = normalizedType === previousType || normalizedType === nextType
+                  return (
+                    <div
+                      key={`${entry.frequency}-${entry.word}-${entry.reading}`}
+                      className={`word-deck-row ${isSelected ? 'is-selected' : ''}`}
+                    >
+                      <button
+                        type="button"
+                        className="word-deck-row-toggle"
+                        onClick={() => toggleWordFrequency(entry.frequency)}
+                        aria-pressed={isSelected}
+                      >
+                        <span className={`word-deck-radio ${isSelected ? 'is-selected' : ''}`} aria-hidden="true" />
+                        <span className="word-deck-frequency">{entry.frequency}</span>
+                        <span className="word-deck-word">{entry.word}</span>
+                        <span className="word-deck-type">
+                          {shouldAbbreviateType ? abbreviateWordType(entry.type) : entry.type}
+                        </span>
+                        <span className="word-deck-meaning">{entry.meaning}</span>
+                      </button>
+                      <a
+                        href={getJishoSearchUrl(entry.word)}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="word-deck-jisho-link"
+                        aria-label={`Open ${entry.word} in Jisho`}
+                      >
+                        jisho
+                      </a>
+                    </div>
+                  )
+                })}
+              </div>
+            </section>
+          )
+        })}
+      </div>
+    </div>
+  )
+
   const renderPractice = (modeName: string) => (
     <>
       <div className="practice-toolbar">
@@ -1125,7 +1381,14 @@ function App() {
   const renderWordPractice = () => (
     <>
       <div className="practice-toolbar">
-        <div />
+        <button
+          type="button"
+          className="ghost-action deck-toggle-btn"
+          onClick={() => setIsWordDeckEditorOpen((current) => !current)}
+          aria-pressed={isWordDeckEditorOpen}
+        >
+          Deck
+        </button>
         <div className="session-meta" role="status" aria-live="polite">
           <span>
             Correct: {wordCompletedCount}/{wordCards.length}
@@ -1133,53 +1396,67 @@ function App() {
         </div>
       </div>
 
-      <div className="drill-card">
-        <button
-          type="button"
-          className="ghost-action words-set-toggle"
-          onClick={toggleWordSetMode}
-          aria-label="Toggle words source"
-        >
-          {wordSetMode === 'test' ? 'TEST SET' : 'FULL SET'}
-        </button>
-        <p className="word-type-hint" aria-label="Part of speech">
-          {currentWordCard?.type ?? 'unknown'}
-        </p>
-        <p className="hiragana-character word-character" aria-live="polite">
-          {currentWordCard?.reading && currentWordCard.word && containsKanji(currentWordCard.word) ? (
-            <ruby className="word-ruby">
-              {currentWordCard.word}
-              <rt>{currentWordCard.reading}</rt>
-            </ruby>
-          ) : (
-            currentWordCard?.word
-          )}
-        </p>
-        <div className="card-controls">
-          <input
-            id="frequency-answer"
-            ref={answerInputRef}
-            className="answer-input"
-            type="text"
-            autoCapitalize="off"
-            autoCorrect="off"
-            autoComplete="off"
-            spellCheck={false}
-            value={wordSession.currentInput}
-            onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
-            placeholder="Type one meaning"
-            aria-label="Meaning answer"
-          />
-          <button
-            type="button"
-            className="ghost-action session-reset-btn"
-            onClick={startNewWordSession}
-            aria-label="Start new session"
-          >
-            <RotateCcw size={20} />
-          </button>
+      {isWordDeckEditorOpen ? (
+        renderWordDeckEditor()
+      ) : wordCards.length === 0 ? (
+        <div className="drill-card">
+          <div className="deck-empty-state" role="status" aria-live="polite">
+            <p className="deck-empty-title">No words selected.</p>
+            <p className="deck-empty-copy">Open Deck and choose at least one word.</p>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="drill-card">
+          {currentWordCard ? (
+            <a
+              href={getJishoSearchUrl(currentWordCard.word)}
+              target="_blank"
+              rel="noreferrer"
+              className="word-jisho-link"
+              aria-label={`Open ${currentWordCard.word} in Jisho`}
+            >
+              jisho
+            </a>
+          ) : null}
+          <p className="word-type-hint" aria-label="Part of speech">
+            {currentWordCard?.type ?? 'unknown'}
+          </p>
+          <p className="hiragana-character word-character" aria-live="polite">
+            {currentWordCard?.reading && currentWordCard.word && containsKanji(currentWordCard.word) ? (
+              <ruby className="word-ruby">
+                {currentWordCard.word}
+                <rt>{currentWordCard.reading}</rt>
+              </ruby>
+            ) : (
+              currentWordCard?.word
+            )}
+          </p>
+          <div className="card-controls">
+            <input
+              id="frequency-answer"
+              ref={answerInputRef}
+              className="answer-input"
+              type="text"
+              autoCapitalize="off"
+              autoCorrect="off"
+              autoComplete="off"
+              spellCheck={false}
+              value={wordSession.currentInput}
+              onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
+              placeholder="Type one meaning"
+              aria-label="Meaning answer"
+            />
+            <button
+              type="button"
+              className="ghost-action session-reset-btn"
+              onClick={startNewWordSession}
+              aria-label="Start new session"
+            >
+              <RotateCcw size={20} />
+            </button>
+          </div>
+        </div>
+      )}
     </>
   )
 
@@ -1206,6 +1483,7 @@ function App() {
             onClick={() => {
               setMode(key)
               setIsDeckEditorOpen(false)
+              setIsWordDeckEditorOpen(false)
               focusAnswerInput(true)
             }}
             aria-pressed={mode === key}
