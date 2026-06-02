@@ -1496,18 +1496,24 @@ function App() {
               <div className="word-deck-group-rows">
                 {group.entries.map((entry, index) => {
                   const isSelected = selectedWordFrequencies.has(entry.frequency)
+                  const isGrammarEntry = hasGrammarType(entry.type)
+                  const isDisabledByGrammarFilter = excludeGrammarOnSelect && isGrammarEntry
                   const showReading =
                     entry.reading.length > 0 && normalizeInput(entry.reading) !== normalizeInput(entry.word)
                   return (
                     <div
                       key={`${group.groupStart}-${index}-${entry.frequency}-${entry.word}-${entry.reading}-${entry.type}-${entry.meaning}`}
-                      className={`word-deck-row ${isSelected ? 'is-selected' : ''}`}
+                      className={`word-deck-row ${isSelected ? 'is-selected' : ''} ${
+                        isDisabledByGrammarFilter ? 'is-disabled' : ''
+                      }`}
                     >
                       <button
                         type="button"
                         className="word-deck-row-toggle"
                         onClick={() => toggleWordFrequency(entry.frequency)}
                         aria-pressed={isSelected}
+                        disabled={isDisabledByGrammarFilter}
+                        aria-disabled={isDisabledByGrammarFilter}
                       >
                         <span className={`word-deck-radio ${isSelected ? 'is-selected' : ''}`} aria-hidden="true" />
                         <span className="word-deck-frequency">{entry.frequency}</span>

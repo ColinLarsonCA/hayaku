@@ -368,6 +368,18 @@ h1 {
   color: var(--text-strong);
 }
 
+.word-deck-row.is-disabled {
+  opacity: 0.5;
+}
+
+.word-deck-row.is-disabled .word-deck-row-toggle {
+  cursor: not-allowed;
+}
+
+.word-deck-row-toggle:disabled {
+  pointer-events: none;
+}
+
 .word-deck-jisho-link {
   justify-self: end;
   margin-right: 0.45rem;
