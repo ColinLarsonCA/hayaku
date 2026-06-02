@@ -135,6 +135,39 @@ h1 {
   gap: 0.75rem;
 }
 
+.word-quiz-toolbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.word-quiz-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.12rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 999px;
+  background: var(--surface-base);
+}
+
+.word-quiz-mode-btn {
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--text-muted);
+}
+
+.word-quiz-mode-btn.is-active {
+  background: var(--accent-soft);
+  color: var(--text-strong);
+  border-color: var(--accent-strong);
+}
+
 .session-actions {
   display: flex;
   align-items: center;
@@ -713,11 +746,26 @@ h1 {
 @media (max-width: 760px) {
   .practice-toolbar {
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .deck-toggle-btn {
     padding: 0.28rem 0.58rem;
     font-size: 0.72rem;
+  }
+
+  .word-quiz-toolbar-controls {
+    width: 100%;
+  }
+
+  .word-quiz-mode-toggle {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .word-quiz-mode-btn {
+    flex: 1 1 0;
+    text-align: center;
   }
 
   .deck-grid-row {

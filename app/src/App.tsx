@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Sun, Moon, RotateCcw, Eye } from 'lucide-react'
+import { toHiragana } from 'wanakana'
 import { japaneseFrequencyData } from './data/japaneseFrequencyData'
 import './App.css'
 
@@ -27,6 +28,13 @@ type DeckConfig = {
 
 type WordDeckConfig = {
   includedFrequencies: number[]
+}
+
+type WordQuizMode = 'meaning' | 'reading'
+
+type WordQuizState = {
+  deck: WordDeckConfig
+  session: WordSession
 }
 
 type DeckCell = {
@@ -288,19 +296,26 @@ const KATAKANA_CARDS: HiraganaCard[] = [
 
 const HIRAGANA_SESSION_KEY = 'hayaku-hiragana-session-v1'
 const KATAKANA_SESSION_KEY = 'hayaku-katakana-session-v1'
-const WORD_SESSION_KEY = 'hayaku-word-session-v3'
-const WORD_DECK_KEY = 'hayaku-word-deck-v1'
+const WORD_QUIZ_MODE_KEY = 'hayaku-word-quiz-mode-v1'
+const WORD_MEANING_SESSION_KEY = 'hayaku-word-meaning-session-v1'
+const WORD_MEANING_DECK_KEY = 'hayaku-word-meaning-deck-v1'
+const WORD_READING_SESSION_KEY = 'hayaku-word-reading-session-v1'
+const WORD_READING_DECK_KEY = 'hayaku-word-reading-deck-v1'
+const LEGACY_WORD_SESSION_KEY = 'hayaku-word-session-v3'
+const LEGACY_WORD_DECK_KEY = 'hayaku-word-deck-v1'
 const HIRAGANA_DECK_KEY = 'hayaku-hiragana-deck-v1'
 const KATAKANA_DECK_KEY = 'hayaku-katakana-deck-v1'
 
 const normalizeInput = (value: string) => value.trim().toLowerCase()
-const containsKanji = (value: string) => /[\u3400-\u9FFF]/.test(value)
 
 const normalizeMeaning = (value: string) =>
   normalizeInput(value.replace(/^["']+/, '').replace(/["']+$/, ''))
     .replace(/[^\p{L}\p{N}\s]/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim()
+
+const normalizeReading = (value: string) => normalizeInput(toHiragana(value))
+const toLiveHiragana = (value: string) => toHiragana(value, { IMEMode: true })
 
 const stripBracketQualifiers = (value: string) =>
   value.replace(/\([^)]*\)|\[[^\]]*\]|\{[^}]*\}|（[^）]*）|［[^］]*］|【[^】]*】/g, ' ')
@@ -320,6 +335,17 @@ const parseMeaningAnswers = (meaning: string) => {
     .filter(Boolean)
 
   return [...new Set([fullMeaning, simplifiedFullMeaning, ...splitMeanings].filter(Boolean))]
+}
+
+const parseReadingAnswers = (card: JapaneseFrequencyEntry) => {
+  const normalizedReading = normalizeReading(card.reading)
+  const normalizedWord = normalizeReading(card.word)
+
+  if (!normalizedReading || normalizedReading === normalizedWord) {
+    return [normalizedWord]
+  }
+
+  return [...new Set([normalizedReading, normalizedWord].filter(Boolean))]
 }
 
 const shuffle = <T,>(items: T[]): T[] => {
@@ -344,6 +370,39 @@ const createNewWordSession = (wordCards: JapaneseFrequencyEntry[]): WordSession 
 const createDefaultWordDeckConfig = (wordCards: JapaneseFrequencyEntry[]): WordDeckConfig => ({
   includedFrequencies: wordCards.map((card) => card.frequency),
 })
+
+const getStoredWordQuizDeckValue = (mode: WordQuizMode) => {
+  if (mode === 'meaning') {
+    return window.localStorage.getItem(WORD_MEANING_DECK_KEY) ?? window.localStorage.getItem(LEGACY_WORD_DECK_KEY)
+  }
+
+  return window.localStorage.getItem(WORD_READING_DECK_KEY)
+}
+
+const getStoredWordQuizSessionValue = (mode: WordQuizMode) => {
+  if (mode === 'meaning') {
+    return (
+      window.localStorage.getItem(WORD_MEANING_SESSION_KEY) ??
+      window.localStorage.getItem(LEGACY_WORD_SESSION_KEY) ??
+      window.localStorage.getItem(`${LEGACY_WORD_SESSION_KEY}-full`) ??
+      window.localStorage.getItem(`${LEGACY_WORD_SESSION_KEY}-test`)
+    )
+  }
+
+  return window.localStorage.getItem(WORD_READING_SESSION_KEY)
+}
+
+const loadWordQuizState = (mode: WordQuizMode, wordCards: JapaneseFrequencyEntry[]): WordQuizState => {
+  const savedDeck = getStoredWordQuizDeckValue(mode)
+  const deck = parseStoredWordDeckConfig(savedDeck, wordCards) ?? createDefaultWordDeckConfig(wordCards)
+  const activeWordCards = getWordsForDeck(wordCards, deck)
+  const savedSession = getStoredWordQuizSessionValue(mode)
+
+  return {
+    deck,
+    session: parseStoredWordSession(savedSession, activeWordCards) ?? createNewWordSession(activeWordCards),
+  }
+}
 
 const parseStoredWordDeckConfig = (
   value: string | null,
@@ -734,6 +793,18 @@ function App() {
   const [isWordDeckEditorOpen, setIsWordDeckEditorOpen] = useState(false)
   const [isKanaPeekVisible, setIsKanaPeekVisible] = useState(false)
   const [isWordPeekVisible, setIsWordPeekVisible] = useState(false)
+  const [wordQuizMode, setWordQuizMode] = useState<WordQuizMode>(() => {
+    const saved = window.localStorage.getItem(WORD_QUIZ_MODE_KEY)
+    if (saved === 'meaning' || saved === 'reading') {
+      return saved
+    }
+
+    return 'meaning'
+  })
+  const [wordQuizStates, setWordQuizStates] = useState<Record<WordQuizMode, WordQuizState>>(() => ({
+    meaning: loadWordQuizState('meaning', japaneseFrequencyData),
+    reading: loadWordQuizState('reading', japaneseFrequencyData),
+  }))
   const hiraganaDeckCards = useMemo(() => getCardsForDeck(HIRAGANA_CARDS, hiraganaDeck), [hiraganaDeck])
   const katakanaDeckCards = useMemo(() => getCardsForDeck(KATAKANA_CARDS, katakanaDeck), [katakanaDeck])
   const [hiraganaSession, setHiraganaSession] = useState<HiraganaSession>(() => {
@@ -748,28 +819,11 @@ function App() {
     const activeCards = getCardsForDeck(KATAKANA_CARDS, savedDeck ?? createDefaultDeckConfig(KATAKANA_CARDS))
     return parseStoredSession(saved, activeCards) ?? createNewKanaSession(activeCards)
   })
-  const [wordDeck, setWordDeck] = useState<WordDeckConfig>(() => {
-    const saved = window.localStorage.getItem(WORD_DECK_KEY)
-    return (
-      parseStoredWordDeckConfig(saved, japaneseFrequencyData) ?? createDefaultWordDeckConfig(japaneseFrequencyData)
-    )
-  })
   const [wordDeckSearch, setWordDeckSearch] = useState('')
   const [wordDeckRangeStart, setWordDeckRangeStart] = useState('1')
   const [wordDeckRangeEnd, setWordDeckRangeEnd] = useState('100')
   const [excludeGrammarOnSelect, setExcludeGrammarOnSelect] = useState(false)
-  const wordCards = useMemo(() => getWordsForDeck(japaneseFrequencyData, wordDeck), [wordDeck])
-  const [wordSession, setWordSession] = useState<WordSession>(() => {
-    const initialDeck =
-      parseStoredWordDeckConfig(window.localStorage.getItem(WORD_DECK_KEY), japaneseFrequencyData) ??
-      createDefaultWordDeckConfig(japaneseFrequencyData)
-    const initialWordCards = getWordsForDeck(japaneseFrequencyData, initialDeck)
-    const saved =
-      window.localStorage.getItem(WORD_SESSION_KEY) ??
-      window.localStorage.getItem(`${WORD_SESSION_KEY}-full`) ??
-      window.localStorage.getItem(`${WORD_SESSION_KEY}-test`)
-    return parseStoredWordSession(saved, initialWordCards) ?? createNewWordSession(initialWordCards)
-  })
+  const activeWordSessionLength = wordQuizStates[wordQuizMode].session.remainingIndexes.length
   const answerInputRef = useRef<HTMLInputElement>(null)
   const focusAnswerInput = (immediate = false) => {
     const tryFocus = () => {
@@ -815,12 +869,22 @@ function App() {
   }, [katakanaDeck])
 
   useEffect(() => {
-    window.localStorage.setItem(WORD_SESSION_KEY, JSON.stringify(wordSession))
-  }, [wordSession])
+    window.localStorage.setItem(WORD_QUIZ_MODE_KEY, wordQuizMode)
+  }, [wordQuizMode])
 
   useEffect(() => {
-    window.localStorage.setItem(WORD_DECK_KEY, JSON.stringify(wordDeck))
-  }, [wordDeck])
+    const meaningState = wordQuizStates.meaning
+    window.localStorage.setItem(WORD_MEANING_SESSION_KEY, JSON.stringify(meaningState.session))
+    window.localStorage.setItem(WORD_MEANING_DECK_KEY, JSON.stringify(meaningState.deck))
+    window.localStorage.setItem(LEGACY_WORD_SESSION_KEY, JSON.stringify(meaningState.session))
+    window.localStorage.setItem(LEGACY_WORD_DECK_KEY, JSON.stringify(meaningState.deck))
+  }, [wordQuizStates.meaning])
+
+  useEffect(() => {
+    const readingState = wordQuizStates.reading
+    window.localStorage.setItem(WORD_READING_SESSION_KEY, JSON.stringify(readingState.session))
+    window.localStorage.setItem(WORD_READING_DECK_KEY, JSON.stringify(readingState.deck))
+  }, [wordQuizStates.reading])
 
   useEffect(() => {
     window.localStorage.setItem('hayaku-mode', mode)
@@ -840,7 +904,8 @@ function App() {
     mode,
     hiraganaSession.remainingCharacters.length,
     katakanaSession.remainingCharacters.length,
-    wordSession.remainingIndexes.length,
+    wordQuizMode,
+    activeWordSessionLength,
     isDeckEditorOpen,
     isWordDeckEditorOpen,
   ])
@@ -848,6 +913,12 @@ function App() {
   const toggleTheme = () => {
     setTheme((current) => (current === 'light' ? 'dark' : 'light'))
   }
+
+  const wordQuizState = wordQuizStates[wordQuizMode]
+  const wordDeck = wordQuizState.deck
+  const wordSession = wordQuizState.session
+  const wordCards = useMemo(() => getWordsForDeck(japaneseFrequencyData, wordDeck), [wordDeck])
+  const isReadingWordQuiz = mode === 'frequency' && wordQuizMode === 'reading'
 
   const currentSession = mode === 'katakana' ? katakanaSession : hiraganaSession
   const setCurrentSession = mode === 'katakana' ? setKatakanaSession : setHiraganaSession
@@ -861,7 +932,6 @@ function App() {
   const currentWordCard = wordCards[currentWordIndex]
   const wordCompletedCount = wordCards.length - wordSession.remainingIndexes.length
   const kanaPeekAnswer = currentCard?.answers.join(' / ') ?? ''
-  const wordPeekAnswer = currentWordCard?.meaning ?? ''
   const allWordDeckEntries = useMemo(
     () => [...japaneseFrequencyData].sort((a, b) => a.frequency - b.frequency),
     [],
@@ -903,6 +973,17 @@ function App() {
       }))
   }, [visibleWordDeckEntries])
 
+  const wordPeekAnswer = currentWordCard
+    ? isReadingWordQuiz
+      ? parseReadingAnswers(currentWordCard)[0] ?? ''
+      : currentWordCard.meaning
+    : ''
+  const showWordReading =
+    !isReadingWordQuiz &&
+    Boolean(currentWordCard?.reading) &&
+    Boolean(currentWordCard?.word) &&
+    normalizeReading(currentWordCard.reading) !== normalizeReading(currentWordCard.word)
+
   const updateInputAndCheckAnswer = (nextValue: string) => {
     const normalizedInput = normalizeInput(nextValue)
     if (!currentCard) {
@@ -935,41 +1016,84 @@ function App() {
     focusAnswerInput(true)
   }
 
-  const updateWordInputAndCheckAnswer = (nextValue: string) => {
-    const normalizedInput = normalizeMeaning(nextValue)
+  const updateWordInputAndCheckAnswer = (nextValue: string, inputElement?: HTMLInputElement) => {
     if (!currentWordCard) {
       return
     }
 
-    const acceptedMeanings = parseMeaningAnswers(currentWordCard.meaning)
-    const isVerbType = normalizeInput(currentWordCard.type).includes('verb')
-    const comparedInput = isVerbType ? stripLeadingTo(normalizedInput) : normalizedInput
-    const isMatch = acceptedMeanings.some((meaning) => {
-      const comparedMeaning = isVerbType ? stripLeadingTo(meaning) : meaning
-      return comparedMeaning === comparedInput
-    })
+    const readingInputValue = isReadingWordQuiz ? toLiveHiragana(nextValue) : nextValue
+    if (isReadingWordQuiz && inputElement && inputElement.value !== readingInputValue) {
+      inputElement.value = readingInputValue
+      const cursorPosition = readingInputValue.length
+      inputElement.setSelectionRange(cursorPosition, cursorPosition)
+    }
+
+    const normalizedInput = isReadingWordQuiz
+      ? normalizeReading(readingInputValue)
+      : normalizeMeaning(nextValue)
+    const isMatch = isReadingWordQuiz
+      ? parseReadingAnswers(currentWordCard).includes(normalizedInput)
+      : (() => {
+          const acceptedMeanings = parseMeaningAnswers(currentWordCard.meaning)
+          const isVerbType = normalizeInput(currentWordCard.type).includes('verb')
+          const comparedInput = isVerbType ? stripLeadingTo(normalizedInput) : normalizedInput
+          return acceptedMeanings.some((meaning) => {
+            const comparedMeaning = isVerbType ? stripLeadingTo(meaning) : meaning
+            return comparedMeaning === comparedInput
+          })
+        })()
     if (isMatch) {
       setIsWordPeekVisible(false)
-      setWordSession((currentWordSession) => ({
-        ...(currentWordSession.remainingIndexes.length <= 1
-          ? createNewWordSession(wordCards)
-          : {
-              remainingIndexes: currentWordSession.remainingIndexes.slice(1),
-              currentInput: '',
-            }),
-      }))
+      setWordQuizStates((currentWordQuizStates) => {
+        const currentWordQuizState = currentWordQuizStates[wordQuizMode]
+        return {
+          ...currentWordQuizStates,
+          [wordQuizMode]: {
+            ...currentWordQuizState,
+            session:
+              currentWordQuizState.session.remainingIndexes.length <= 1
+                ? createNewWordSession(wordCards)
+                : {
+                    remainingIndexes: currentWordQuizState.session.remainingIndexes.slice(1),
+                    currentInput: '',
+                  },
+          },
+        }
+      })
       return
     }
 
-    setWordSession((currentWordSession) => ({
-      ...currentWordSession,
-      currentInput: nextValue,
-    }))
+    if (isReadingWordQuiz) {
+      return
+    }
+
+    setWordQuizStates((currentWordQuizStates) => {
+      const currentWordQuizState = currentWordQuizStates[wordQuizMode]
+      return {
+        ...currentWordQuizStates,
+        [wordQuizMode]: {
+          ...currentWordQuizState,
+          session: {
+            ...currentWordQuizState.session,
+            currentInput: nextValue,
+          },
+        },
+      }
+    })
   }
 
   const startNewWordSession = () => {
     setIsWordPeekVisible(false)
-    setWordSession(createNewWordSession(wordCards))
+    setWordQuizStates((currentWordQuizStates) => {
+      const currentWordQuizState = currentWordQuizStates[wordQuizMode]
+      return {
+        ...currentWordQuizStates,
+        [wordQuizMode]: {
+          ...currentWordQuizState,
+          session: createNewWordSession(wordCards),
+        },
+      }
+    })
     focusAnswerInput(true)
   }
 
@@ -985,9 +1109,14 @@ function App() {
 
   const applyWordDeckConfig = (nextWordDeck: WordDeckConfig) => {
     setIsWordPeekVisible(false)
-    setWordDeck(nextWordDeck)
     const nextWordCards = getWordsForDeck(japaneseFrequencyData, nextWordDeck)
-    setWordSession(createNewWordSession(nextWordCards))
+    setWordQuizStates((currentWordQuizStates) => ({
+      ...currentWordQuizStates,
+      [wordQuizMode]: {
+        deck: nextWordDeck,
+        session: createNewWordSession(nextWordCards),
+      },
+    }))
   }
 
   const filterWordFrequenciesForSelection = (
@@ -1387,6 +1516,35 @@ function App() {
     </div>
   )
 
+  const renderWordQuizModeToggle = () => (
+    <div className="word-quiz-mode-toggle" role="group" aria-label="Word quiz type">
+      <button
+        type="button"
+        className={`ghost-action word-quiz-mode-btn ${wordQuizMode === 'meaning' ? 'is-active' : ''}`}
+        onClick={() => {
+          setWordQuizMode('meaning')
+          setIsWordPeekVisible(false)
+          focusAnswerInput(true)
+        }}
+        aria-pressed={wordQuizMode === 'meaning'}
+      >
+        Meaning
+      </button>
+      <button
+        type="button"
+        className={`ghost-action word-quiz-mode-btn ${wordQuizMode === 'reading' ? 'is-active' : ''}`}
+        onClick={() => {
+          setWordQuizMode('reading')
+          setIsWordPeekVisible(false)
+          focusAnswerInput(true)
+        }}
+        aria-pressed={wordQuizMode === 'reading'}
+      >
+        Reading
+      </button>
+    </div>
+  )
+
   const renderPractice = (modeName: string) => (
     <>
       <div className="practice-toolbar">
@@ -1468,14 +1626,17 @@ function App() {
   const renderWordPractice = () => (
     <>
       <div className="practice-toolbar">
-        <button
-          type="button"
-          className="ghost-action deck-toggle-btn"
-          onClick={() => setIsWordDeckEditorOpen((current) => !current)}
-          aria-pressed={isWordDeckEditorOpen}
-        >
-          Deck
-        </button>
+        <div className="word-quiz-toolbar-controls">
+          {renderWordQuizModeToggle()}
+          <button
+            type="button"
+            className="ghost-action deck-toggle-btn"
+            onClick={() => setIsWordDeckEditorOpen((current) => !current)}
+            aria-pressed={isWordDeckEditorOpen}
+          >
+            Deck
+          </button>
+        </div>
         <div className="session-actions">
           <div className="session-meta" role="status" aria-live="polite">
             <span>
@@ -1519,7 +1680,7 @@ function App() {
             {currentWordCard?.type ?? 'unknown'}
           </p>
           <p className="hiragana-character word-character" aria-live="polite">
-            {currentWordCard?.reading && currentWordCard.word && containsKanji(currentWordCard.word) ? (
+            {showWordReading && currentWordCard?.reading && currentWordCard.word ? (
               <ruby className="word-ruby">
                 {currentWordCard.word}
                 <rt>{currentWordCard.reading}</rt>
@@ -1543,20 +1704,39 @@ function App() {
                   <Eye size={16} />
                 </button>
               )}
-              <input
-                id="frequency-answer"
-                ref={answerInputRef}
-                className="answer-input"
-                type="text"
-                autoCapitalize="off"
-                autoCorrect="off"
-                autoComplete="off"
-                spellCheck={false}
-                value={wordSession.currentInput}
-                onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
-                placeholder="Type one meaning"
-                aria-label="Meaning answer"
-              />
+              {isReadingWordQuiz ? (
+                <input
+                  key={`reading-${wordQuizMode}-${currentWordIndex ?? 'none'}`}
+                  id="frequency-answer"
+                  ref={answerInputRef}
+                  className="answer-input"
+                  type="text"
+                  autoCapitalize="off"
+                  autoCorrect="off"
+                  autoComplete="off"
+                  spellCheck={false}
+                  defaultValue={wordSession.currentInput}
+                  onChange={(event) => updateWordInputAndCheckAnswer(event.target.value, event.currentTarget)}
+                  placeholder="Type the reading"
+                  aria-label="Reading answer"
+                />
+              ) : (
+                <input
+                  key={`meaning-${wordQuizMode}-${currentWordIndex ?? 'none'}`}
+                  id="frequency-answer"
+                  ref={answerInputRef}
+                  className="answer-input"
+                  type="text"
+                  autoCapitalize="off"
+                  autoCorrect="off"
+                  autoComplete="off"
+                  spellCheck={false}
+                  value={wordSession.currentInput}
+                  onChange={(event) => updateWordInputAndCheckAnswer(event.target.value, event.currentTarget)}
+                  placeholder="Type one meaning"
+                  aria-label="Meaning answer"
+                />
+              )}
             </div>
           </div>
         </div>
