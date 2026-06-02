@@ -375,30 +375,6 @@ const getWordsForDeck = (
   return wordCards.filter((card) => includedFrequencies.has(card.frequency))
 }
 
-const WORD_TYPE_ABBREVIATIONS: Record<string, string> = {
-  noun: 'n',
-  verb: 'v',
-  adjective: 'adj',
-  'na-adjective': 'na-adj',
-  'i-adjective': 'i-adj',
-  adnominal: 'adn',
-  adverb: 'adv',
-  pronoun: 'pron',
-  particle: 'ptcl',
-  'discourse particle': 'disc-ptcl',
-  'case particle': 'case-ptcl',
-  'conjunctive particle': 'conj-ptcl',
-  interjection: 'intj',
-  conjunction: 'conj',
-  auxiliary: 'aux',
-  compound: 'cmpd',
-  prefix: 'pref',
-  suffix: 'suf',
-  counter: 'ctr',
-  expression: 'expr',
-  numeral: 'num',
-}
-
 const GRAMMAR_WORD_TYPES = new Set([
   'adnominal',
   'particle',
@@ -410,7 +386,6 @@ const GRAMMAR_WORD_TYPES = new Set([
   'prefix',
   'suffix',
   'counter',
-  'pronoun',
 ])
 
 const parseWordTypeParts = (wordType: string) =>
@@ -421,14 +396,6 @@ const parseWordTypeParts = (wordType: string) =>
 
 const hasGrammarType = (wordType: string) =>
   parseWordTypeParts(wordType).some((part) => GRAMMAR_WORD_TYPES.has(part))
-
-const abbreviateWordType = (wordType: string) =>
-  wordType
-    .split(',')
-    .map((part) => part.trim())
-    .filter(Boolean)
-    .map((part) => WORD_TYPE_ABBREVIATIONS[part.toLowerCase()] ?? part)
-    .join(', ')
 
 const getFrequencyGroupStart = (frequency: number) => Math.floor((frequency - 1) / 100) * 100 + 1
 
@@ -1366,12 +1333,8 @@ function App() {
               </div>
 
               <div className="word-deck-group-rows">
-                {group.entries.map((entry, index, entries) => {
+                {group.entries.map((entry, index) => {
                   const isSelected = selectedWordFrequencies.has(entry.frequency)
-                  const normalizedType = normalizeInput(entry.type)
-                  const previousType = normalizeInput(entries[index - 1]?.type ?? '')
-                  const nextType = normalizeInput(entries[index + 1]?.type ?? '')
-                  const shouldAbbreviateType = normalizedType === previousType || normalizedType === nextType
                   return (
                     <div
                       key={`${group.groupStart}-${index}-${entry.frequency}-${entry.word}-${entry.reading}-${entry.type}-${entry.meaning}`}
@@ -1386,9 +1349,7 @@ function App() {
                         <span className={`word-deck-radio ${isSelected ? 'is-selected' : ''}`} aria-hidden="true" />
                         <span className="word-deck-frequency">{entry.frequency}</span>
                         <span className="word-deck-word">{entry.word}</span>
-                        <span className="word-deck-type">
-                          {shouldAbbreviateType ? abbreviateWordType(entry.type) : entry.type}
-                        </span>
+                        <span className="word-deck-type">{entry.type}</span>
                         <span className="word-deck-meaning">{entry.meaning}</span>
                       </button>
                       <a
