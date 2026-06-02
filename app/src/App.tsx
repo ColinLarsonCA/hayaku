@@ -29,6 +29,25 @@ type WordSelection = {
 
 type WordSetMode = 'test' | 'full'
 type JapaneseFrequencyEntry = (typeof japaneseFrequencyData)[number]
+type DeckConfig = {
+  includedCharacters: string[]
+}
+
+type DeckCell = {
+  character: string
+  displayRomaji: string
+  positionRomaji: string
+  row: string
+  column: string
+}
+
+type DeckMatrix = {
+  rows: string[]
+  columns: string[]
+  rowCharacters: Map<string, string[]>
+  columnCharacters: Map<string, string[]>
+  cellMap: Map<string, DeckCell>
+}
 
 const modes: Record<PracticeMode, { label: string; mobileLabel: string; title: string }> = {
   hiragana: {
@@ -275,6 +294,8 @@ const HIRAGANA_SESSION_KEY = 'hayaku-hiragana-session-v1'
 const KATAKANA_SESSION_KEY = 'hayaku-katakana-session-v1'
 const WORD_SESSION_KEY = 'hayaku-word-session-v3'
 const WORD_SET_MODE_KEY = 'hayaku-word-set-mode-v1'
+const HIRAGANA_DECK_KEY = 'hayaku-hiragana-deck-v1'
+const KATAKANA_DECK_KEY = 'hayaku-katakana-deck-v1'
 
 const WORDS_TEST_SELECTIONS: WordSelection[] = [
   { word: '私', reading: 'わたし', type: 'pronoun' },
@@ -337,13 +358,8 @@ const shuffle = <T,>(items: T[]): T[] => {
   return copy
 }
 
-const createNewHiraganaSession = (): HiraganaSession => ({
-  remainingCharacters: shuffle(HIRAGANA_CARDS.map((card) => card.character)),
-  currentInput: '',
-})
-
-const createNewKatakanaSession = (): HiraganaSession => ({
-  remainingCharacters: shuffle(KATAKANA_CARDS.map((card) => card.character)),
+const createNewKanaSession = (cards: HiraganaCard[]): HiraganaSession => ({
+  remainingCharacters: shuffle(cards.map((card) => card.character)),
   currentInput: '',
 })
 
@@ -419,6 +435,235 @@ const parseStoredWordSession = (
   }
 }
 
+const getDeckPositionRomajiForCard = (card: HiraganaCard) => {
+  const overrideByCharacter: Record<string, string> = {
+    'し': 'si',
+    'シ': 'si',
+    'ち': 'ti',
+    'チ': 'ti',
+    'じ': 'zi',
+    'ジ': 'zi',
+    'ぢ': 'di',
+    'ヂ': 'di',
+    'つ': 'tu',
+    'ツ': 'tu',
+    'づ': 'du',
+    'ヅ': 'du',
+    'ふ': 'hu',
+    'フ': 'hu',
+  }
+
+  return overrideByCharacter[card.character] ?? card.answers[0]
+}
+
+const getDeckDisplayRomajiForCard = (card: HiraganaCard) => card.answers[0]
+
+const parseRomajiToGridPosition = (romaji: string) => {
+  const normalized = normalizeInput(romaji)
+  if (normalized === 'n') {
+    return { row: 'n', column: 'n' }
+  }
+
+  const match = normalized.match(/^(.*?)([aiueo])$/)
+  if (!match) {
+    return { row: normalized, column: 'other' }
+  }
+
+  return {
+    row: match[1],
+    column: match[2],
+  }
+}
+
+const buildDeckCells = (cards: HiraganaCard[]): DeckCell[] => {
+  return cards.map((card) => {
+    const positionRomaji = getDeckPositionRomajiForCard(card)
+    const displayRomaji = getDeckDisplayRomajiForCard(card)
+    const position = parseRomajiToGridPosition(positionRomaji)
+    return {
+      character: card.character,
+      displayRomaji,
+      positionRomaji,
+      row: position.row,
+      column: position.column,
+    }
+  })
+}
+
+const ROW_ORDER = [
+  '',
+  'k',
+  's',
+  't',
+  'n',
+  'h',
+  'm',
+  'y',
+  'r',
+  'w',
+  'g',
+  'z',
+  'd',
+  'b',
+  'p',
+  'f',
+  'ts',
+  'j',
+  'ch',
+  'sh',
+  'ky',
+  'ny',
+  'hy',
+  'my',
+  'ry',
+  'gy',
+  'by',
+  'py',
+  'dy',
+]
+
+const COLUMN_ORDER = ['a', 'i', 'u', 'e', 'o', 'n', 'other']
+
+const sortByKnownOrder = (items: string[], order: string[]) => {
+  const orderIndex = new Map(order.map((item, index) => [item, index]))
+  return [...items].sort((a, b) => {
+    const aIndex = orderIndex.get(a)
+    const bIndex = orderIndex.get(b)
+    if (aIndex !== undefined && bIndex !== undefined) {
+      return aIndex - bIndex
+    }
+    if (aIndex !== undefined) {
+      return -1
+    }
+    if (bIndex !== undefined) {
+      return 1
+    }
+    return a.localeCompare(b)
+  })
+}
+
+const buildDeckMatrix = (cells: DeckCell[]): DeckMatrix => {
+  const rows = sortByKnownOrder([...new Set(cells.map((cell) => cell.row))], ROW_ORDER)
+  const columns = sortByKnownOrder([...new Set(cells.map((cell) => cell.column))], COLUMN_ORDER)
+
+  const rowCharacters = new Map<string, string[]>()
+  rows.forEach((row) => {
+    rowCharacters.set(
+      row,
+      cells.filter((cell) => cell.row === row).map((cell) => cell.character),
+    )
+  })
+
+  const columnCharacters = new Map<string, string[]>()
+  columns.forEach((column) => {
+    columnCharacters.set(
+      column,
+      cells.filter((cell) => cell.column === column).map((cell) => cell.character),
+    )
+  })
+
+  const cellMap = new Map<string, DeckCell>()
+  cells.forEach((cell) => {
+    cellMap.set(`${cell.row}:${cell.column}`, cell)
+  })
+
+  return {
+    rows,
+    columns,
+    rowCharacters,
+    columnCharacters,
+    cellMap,
+  }
+}
+
+const createDefaultDeckConfig = (cards: HiraganaCard[]): DeckConfig => ({
+  includedCharacters: cards.map((card) => card.character),
+})
+
+const parseStoredDeckConfig = (value: string | null, cards: HiraganaCard[]): DeckConfig | null => {
+  if (!value) {
+    return null
+  }
+
+  try {
+    const parsed = JSON.parse(value) as DeckConfig
+    if (!Array.isArray(parsed.includedCharacters)) {
+      return null
+    }
+
+    const validCharacters = new Set(cards.map((card) => card.character))
+    const deduped = parsed.includedCharacters.filter(
+      (character, index, collection) =>
+        typeof character === 'string' &&
+        validCharacters.has(character) &&
+        collection.indexOf(character) === index,
+    )
+
+    return {
+      includedCharacters: deduped,
+    }
+  } catch {
+    return null
+  }
+}
+
+const getCardsForDeck = (cards: HiraganaCard[], deckConfig: DeckConfig): HiraganaCard[] => {
+  const includedCharacters = new Set(deckConfig.includedCharacters)
+  return cards.filter((card) => includedCharacters.has(card.character))
+}
+
+const toggleDeckCharacters = (
+  currentDeck: DeckConfig,
+  characters: string[],
+  allCharacters: string[],
+): DeckConfig => {
+  const included = new Set(currentDeck.includedCharacters)
+  const uniqueTargets = [...new Set(characters)]
+  const areAllSelected = uniqueTargets.every((character) => included.has(character))
+
+  if (areAllSelected) {
+    uniqueTargets.forEach((character) => included.delete(character))
+  } else {
+    uniqueTargets.forEach((character) => included.add(character))
+  }
+
+  if (included.size === 0) {
+    return currentDeck
+  }
+
+  return {
+    includedCharacters: allCharacters.filter((character) => included.has(character)),
+  }
+}
+
+const getSelectionState = (characters: string[], selectedCharacters: Set<string>) => {
+  const selectedCount = characters.filter((character) => selectedCharacters.has(character)).length
+  if (selectedCount === 0) {
+    return 'none'
+  }
+  if (selectedCount === characters.length) {
+    return 'all'
+  }
+  return 'partial'
+}
+
+const formatDeckRowLabel = (row: string) => {
+  if (row === '') {
+    return 'vowels'
+  }
+  if (row === 'n') {
+    return 'n'
+  }
+  return `${row}-`
+}
+
+const formatDeckColumnLabel = (column: string) => {
+  if (column === 'other') {
+    return 'other'
+  }
+  return column
+}
+
 function App() {
   const [theme, setTheme] = useState<Theme>(() => {
     const saved = window.localStorage.getItem('hayaku-theme')
@@ -434,13 +679,28 @@ function App() {
     }
     return 'hiragana'
   })
+  const [hiraganaDeck, setHiraganaDeck] = useState<DeckConfig>(() => {
+    const saved = window.localStorage.getItem(HIRAGANA_DECK_KEY)
+    return parseStoredDeckConfig(saved, HIRAGANA_CARDS) ?? createDefaultDeckConfig(HIRAGANA_CARDS)
+  })
+  const [katakanaDeck, setKatakanaDeck] = useState<DeckConfig>(() => {
+    const saved = window.localStorage.getItem(KATAKANA_DECK_KEY)
+    return parseStoredDeckConfig(saved, KATAKANA_CARDS) ?? createDefaultDeckConfig(KATAKANA_CARDS)
+  })
+  const [isDeckEditorOpen, setIsDeckEditorOpen] = useState(false)
+  const hiraganaDeckCards = useMemo(() => getCardsForDeck(HIRAGANA_CARDS, hiraganaDeck), [hiraganaDeck])
+  const katakanaDeckCards = useMemo(() => getCardsForDeck(KATAKANA_CARDS, katakanaDeck), [katakanaDeck])
   const [hiraganaSession, setHiraganaSession] = useState<HiraganaSession>(() => {
     const saved = window.localStorage.getItem(HIRAGANA_SESSION_KEY)
-    return parseStoredSession(saved, HIRAGANA_CARDS) ?? createNewHiraganaSession()
+    const savedDeck = parseStoredDeckConfig(window.localStorage.getItem(HIRAGANA_DECK_KEY), HIRAGANA_CARDS)
+    const activeCards = getCardsForDeck(HIRAGANA_CARDS, savedDeck ?? createDefaultDeckConfig(HIRAGANA_CARDS))
+    return parseStoredSession(saved, activeCards) ?? createNewKanaSession(activeCards)
   })
   const [katakanaSession, setKatakanaSession] = useState<HiraganaSession>(() => {
     const saved = window.localStorage.getItem(KATAKANA_SESSION_KEY)
-    return parseStoredSession(saved, KATAKANA_CARDS) ?? createNewKatakanaSession()
+    const savedDeck = parseStoredDeckConfig(window.localStorage.getItem(KATAKANA_DECK_KEY), KATAKANA_CARDS)
+    const activeCards = getCardsForDeck(KATAKANA_CARDS, savedDeck ?? createDefaultDeckConfig(KATAKANA_CARDS))
+    return parseStoredSession(saved, activeCards) ?? createNewKanaSession(activeCards)
   })
   const [wordSetMode, setWordSetMode] = useState<WordSetMode>(() => {
     const saved = window.localStorage.getItem(WORD_SET_MODE_KEY)
@@ -458,10 +718,25 @@ function App() {
     return parseStoredWordSession(saved, initialWordCards) ?? createNewWordSession(initialWordCards)
   })
   const answerInputRef = useRef<HTMLInputElement>(null)
-  const focusAnswerInput = () => {
-    requestAnimationFrame(() => {
-      answerInputRef.current?.focus()
-    })
+  const focusAnswerInput = (immediate = false) => {
+    const tryFocus = () => {
+      const input = answerInputRef.current
+      if (!input) {
+        return
+      }
+
+      input.focus({ preventScroll: true })
+      // iOS Safari is more likely to keep focus when selection is explicitly set.
+      const length = input.value.length
+      input.setSelectionRange(length, length)
+    }
+
+    if (immediate) {
+      tryFocus()
+    }
+
+    requestAnimationFrame(tryFocus)
+    setTimeout(tryFocus, 0)
   }
 
   useEffect(() => {
@@ -479,6 +754,14 @@ function App() {
   }, [katakanaSession])
 
   useEffect(() => {
+    window.localStorage.setItem(HIRAGANA_DECK_KEY, JSON.stringify(hiraganaDeck))
+  }, [hiraganaDeck])
+
+  useEffect(() => {
+    window.localStorage.setItem(KATAKANA_DECK_KEY, JSON.stringify(katakanaDeck))
+  }, [katakanaDeck])
+
+  useEffect(() => {
     window.localStorage.setItem(`${WORD_SESSION_KEY}-${wordSetMode}`, JSON.stringify(wordSession))
   }, [wordSession, wordSetMode])
 
@@ -491,12 +774,19 @@ function App() {
   }, [mode])
 
   useEffect(() => {
+    if ((mode === 'hiragana' || mode === 'katakana') && isDeckEditorOpen) {
+      return
+    }
     if (mode === 'hiragana' || mode === 'katakana' || mode === 'frequency') {
       focusAnswerInput()
     }
-  }, [mode, hiraganaSession.remainingCharacters.length, katakanaSession.remainingCharacters.length, wordSession.remainingIndexes.length])
-
-  const modeContent = useMemo(() => modes[mode], [mode])
+  }, [
+    mode,
+    hiraganaSession.remainingCharacters.length,
+    katakanaSession.remainingCharacters.length,
+    wordSession.remainingIndexes.length,
+    isDeckEditorOpen,
+  ])
 
   const toggleTheme = () => {
     setTheme((current) => (current === 'light' ? 'dark' : 'light'))
@@ -504,8 +794,7 @@ function App() {
 
   const currentSession = mode === 'katakana' ? katakanaSession : hiraganaSession
   const setCurrentSession = mode === 'katakana' ? setKatakanaSession : setHiraganaSession
-  const cards = mode === 'katakana' ? KATAKANA_CARDS : HIRAGANA_CARDS
-  const createNewSession = mode === 'katakana' ? createNewKatakanaSession : createNewHiraganaSession
+  const cards = mode === 'katakana' ? katakanaDeckCards : hiraganaDeckCards
 
   const currentCharacter = currentSession.remainingCharacters[0]
   const currentCard = cards.find((card) => card.character === currentCharacter)
@@ -525,7 +814,7 @@ function App() {
     if (isMatch) {
       setCurrentSession((currentSessionState) => ({
         ...(currentSessionState.remainingCharacters.length <= 1
-          ? createNewSession()
+          ? createNewKanaSession(cards)
           : {
               remainingCharacters: currentSessionState.remainingCharacters.slice(1),
               currentInput: '',
@@ -541,8 +830,8 @@ function App() {
   }
 
   const startNewSession = () => {
-    setCurrentSession(createNewSession())
-    focusAnswerInput()
+    setCurrentSession(createNewKanaSession(cards))
+    focusAnswerInput(true)
   }
 
   const updateWordInputAndCheckAnswer = (nextValue: string) => {
@@ -573,7 +862,7 @@ function App() {
 
   const startNewWordSession = () => {
     setWordSession(createNewWordSession(wordCards))
-    focusAnswerInput()
+    focusAnswerInput(true)
   }
 
   const toggleWordSetMode = () => {
@@ -583,13 +872,206 @@ function App() {
       setWordSession(createNewWordSession(nextWordCards))
       return nextMode
     })
-    focusAnswerInput()
+    focusAnswerInput(true)
   }
+
+  const kanaDeck = mode === 'katakana' ? katakanaDeck : hiraganaDeck
+  const kanaDeckSourceCards = mode === 'katakana' ? KATAKANA_CARDS : HIRAGANA_CARDS
+  const kanaDeckCells = useMemo(() => buildDeckCells(kanaDeckSourceCards), [kanaDeckSourceCards])
+  const selectedKanaCharacters = useMemo(
+    () => new Set(kanaDeck.includedCharacters),
+    [kanaDeck.includedCharacters],
+  )
+  const singleKanaCells = useMemo(
+    () => kanaDeckCells.filter((cell) => cell.character.length === 1),
+    [kanaDeckCells],
+  )
+  const doubleKanaCells = useMemo(
+    () => kanaDeckCells.filter((cell) => cell.character.length > 1),
+    [kanaDeckCells],
+  )
+  const singleKanaMatrix = useMemo(() => buildDeckMatrix(singleKanaCells), [singleKanaCells])
+  const doubleKanaMatrix = useMemo(() => buildDeckMatrix(doubleKanaCells), [doubleKanaCells])
+  const allKanaCharacters = useMemo(
+    () => kanaDeckSourceCards.map((card) => card.character),
+    [kanaDeckSourceCards],
+  )
+  const singleKanaCharacters = useMemo(
+    () => singleKanaCells.map((cell) => cell.character),
+    [singleKanaCells],
+  )
+  const doubleKanaCharacters = useMemo(
+    () => doubleKanaCells.map((cell) => cell.character),
+    [doubleKanaCells],
+  )
+
+  const applyDeckConfig = (nextDeck: DeckConfig) => {
+    if (mode === 'katakana') {
+      setKatakanaDeck(nextDeck)
+      const nextCards = getCardsForDeck(KATAKANA_CARDS, nextDeck)
+      setKatakanaSession(createNewKanaSession(nextCards))
+      return
+    }
+
+    setHiraganaDeck(nextDeck)
+    const nextCards = getCardsForDeck(HIRAGANA_CARDS, nextDeck)
+    setHiraganaSession(createNewKanaSession(nextCards))
+  }
+
+  const toggleDeckRow = (row: string, matrix: DeckMatrix) => {
+    const characters = matrix.rowCharacters.get(row) ?? []
+    applyDeckConfig(toggleDeckCharacters(kanaDeck, characters, allKanaCharacters))
+  }
+
+  const toggleDeckColumn = (column: string, matrix: DeckMatrix) => {
+    const characters = matrix.columnCharacters.get(column) ?? []
+    applyDeckConfig(toggleDeckCharacters(kanaDeck, characters, allKanaCharacters))
+  }
+
+  const toggleDeckCharacter = (character: string) => {
+    applyDeckConfig(toggleDeckCharacters(kanaDeck, [character], allKanaCharacters))
+  }
+
+  const selectDeckCharacters = (selectedCharacters: string[]) => {
+    const selected = new Set(selectedCharacters)
+    applyDeckConfig({
+      includedCharacters: allKanaCharacters.filter((character) => selected.has(character)),
+    })
+  }
+
+  const renderDeckTable = (title: string, matrix: DeckMatrix, tableId: string) => (
+    <div className="deck-table-block">
+      <h3 className="deck-table-title">{title}</h3>
+      <div
+        className="deck-grid"
+        role="table"
+        aria-label={title}
+        style={{ '--deck-columns': matrix.rows.length } as React.CSSProperties}
+      >
+        <div className="deck-grid-row deck-grid-header" role="row">
+          <div className="deck-grid-row-label" role="columnheader" />
+          {matrix.rows.map((row) => {
+            const rowState = getSelectionState(matrix.rowCharacters.get(row) ?? [], selectedKanaCharacters)
+            return (
+              <div key={`${tableId}-head-${row}`} className="deck-grid-col-label" role="columnheader">
+                <button
+                  type="button"
+                  className={`deck-axis-toggle ${rowState === 'all' ? 'is-selected' : ''} ${
+                    rowState === 'partial' ? 'is-partial' : ''
+                  }`}
+                  onClick={() => toggleDeckRow(row, matrix)}
+                  aria-pressed={rowState === 'all'}
+                  aria-label={`Toggle ${formatDeckRowLabel(row)} group`}
+                >
+                  ▾
+                </button>
+              </div>
+            )
+          })}
+        </div>
+
+        {matrix.columns.map((column) => {
+          const columnState = getSelectionState(
+            matrix.columnCharacters.get(column) ?? [],
+            selectedKanaCharacters,
+          )
+          return (
+            <div key={`${tableId}-row-${column}`} className="deck-grid-row" role="row">
+              <div className="deck-grid-row-label" role="rowheader">
+                <button
+                  type="button"
+                  className={`deck-axis-toggle ${columnState === 'all' ? 'is-selected' : ''} ${
+                    columnState === 'partial' ? 'is-partial' : ''
+                  }`}
+                  onClick={() => toggleDeckColumn(column, matrix)}
+                  aria-pressed={columnState === 'all'}
+                  aria-label={`Toggle ${formatDeckColumnLabel(column)} group`}
+                >
+                  ▸
+                </button>
+              </div>
+              {matrix.rows.map((row) => {
+                const cell = matrix.cellMap.get(`${row}:${column}`)
+                if (!cell) {
+                  return (
+                    <div
+                      key={`${tableId}-empty-${column}-${row}`}
+                      className="deck-grid-empty"
+                      aria-hidden="true"
+                    />
+                  )
+                }
+
+                const isSelected = selectedKanaCharacters.has(cell.character)
+                return (
+                  <button
+                    key={`${tableId}-cell-${column}-${row}`}
+                    type="button"
+                    className={`deck-kana-cell ${isSelected ? 'is-selected' : ''}`}
+                    onClick={() => toggleDeckCharacter(cell.character)}
+                    aria-pressed={isSelected}
+                  >
+                    <span className="deck-kana-character">{cell.character}</span>
+                    <span className="deck-kana-romaji">{cell.displayRomaji}</span>
+                  </button>
+                )
+              })}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+
+  const renderDeckEditor = () => (
+    <div className="deck-panel">
+      <p className="deck-description">Choose what to include in this deck. Changes reset your progress.</p>
+      <div className="deck-quick-actions" role="group" aria-label="Deck quick actions">
+        <button
+          type="button"
+          className="ghost-action deck-quick-action-btn"
+          onClick={() => selectDeckCharacters(allKanaCharacters)}
+        >
+          Select all
+        </button>
+        <button
+          type="button"
+          className="ghost-action deck-quick-action-btn"
+          onClick={() => selectDeckCharacters([])}
+        >
+          Clear all
+        </button>
+        <button
+          type="button"
+          className="ghost-action deck-quick-action-btn"
+          onClick={() => selectDeckCharacters(singleKanaCharacters)}
+        >
+          Singles only
+        </button>
+        <button
+          type="button"
+          className="ghost-action deck-quick-action-btn"
+          onClick={() => selectDeckCharacters(doubleKanaCharacters)}
+        >
+          Doubles only
+        </button>
+      </div>
+      {renderDeckTable('Single Characters', singleKanaMatrix, 'single')}
+      {renderDeckTable('Double Characters', doubleKanaMatrix, 'double')}
+    </div>
+  )
 
   const renderPractice = (modeName: string) => (
     <>
-      <div className="panel-header">
-        <h2>{modeContent.title}</h2>
+      <div className="practice-toolbar">
+        <button
+          type="button"
+          className="ghost-action deck-toggle-btn"
+          onClick={() => setIsDeckEditorOpen((current) => !current)}
+          aria-pressed={isDeckEditorOpen}
+        >
+          Deck
+        </button>
         <div className="session-meta" role="status" aria-live="polite">
           <span>
             Correct: {completedCount}/{cards.length}
@@ -597,40 +1079,53 @@ function App() {
         </div>
       </div>
 
-      <div className="drill-card">
-        <p className="hiragana-character" aria-live="polite">
-          {currentCharacter}
-        </p>
-        <input
-          id={`${modeName}-answer`}
-          ref={answerInputRef}
-          className="answer-input"
-          type="text"
-          autoCapitalize="off"
-          autoCorrect="off"
-          autoComplete="off"
-          spellCheck={false}
-          value={currentSession.currentInput}
-          onChange={(event) => updateInputAndCheckAnswer(event.target.value)}
-          placeholder="Type romaji answer"
-          aria-label="Romaji answer"
-        />
-        <button
-          type="button"
-          className="ghost-action session-reset-btn"
-          onClick={startNewSession}
-          aria-label="Start new session"
-        >
-          <RotateCcw size={20} />
-        </button>
-      </div>
+      {isDeckEditorOpen ? (
+        renderDeckEditor()
+      ) : cards.length === 0 ? (
+        <div className="drill-card">
+          <div className="deck-empty-state" role="status" aria-live="polite">
+            <p className="deck-empty-title">No characters selected.</p>
+            <p className="deck-empty-copy">Open Deck and choose at least one character.</p>
+          </div>
+        </div>
+      ) : (
+        <div className="drill-card">
+          <p className="hiragana-character" aria-live="polite">
+            {currentCharacter}
+          </p>
+          <div className="card-controls">
+            <input
+              id={`${modeName}-answer`}
+              ref={answerInputRef}
+              className="answer-input"
+              type="text"
+              autoCapitalize="off"
+              autoCorrect="off"
+              autoComplete="off"
+              spellCheck={false}
+              value={currentSession.currentInput}
+              onChange={(event) => updateInputAndCheckAnswer(event.target.value)}
+              placeholder="Type romaji answer"
+              aria-label="Romaji answer"
+            />
+            <button
+              type="button"
+              className="ghost-action session-reset-btn"
+              onClick={startNewSession}
+              aria-label="Start new session"
+            >
+              <RotateCcw size={20} />
+            </button>
+          </div>
+        </div>
+      )}
     </>
   )
 
   const renderWordPractice = () => (
     <>
-      <div className="panel-header">
-        <h2>{modeContent.title}</h2>
+      <div className="practice-toolbar">
+        <div />
         <div className="session-meta" role="status" aria-live="polite">
           <span>
             Correct: {wordCompletedCount}/{wordCards.length}
@@ -660,28 +1155,30 @@ function App() {
             currentWordCard?.word
           )}
         </p>
-        <input
-          id="frequency-answer"
-          ref={answerInputRef}
-          className="answer-input"
-          type="text"
-          autoCapitalize="off"
-          autoCorrect="off"
-          autoComplete="off"
-          spellCheck={false}
-          value={wordSession.currentInput}
-          onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
-          placeholder="Type one meaning"
-          aria-label="Meaning answer"
-        />
-        <button
-          type="button"
-          className="ghost-action session-reset-btn"
-          onClick={startNewWordSession}
-          aria-label="Start new session"
-        >
-          <RotateCcw size={20} />
-        </button>
+        <div className="card-controls">
+          <input
+            id="frequency-answer"
+            ref={answerInputRef}
+            className="answer-input"
+            type="text"
+            autoCapitalize="off"
+            autoCorrect="off"
+            autoComplete="off"
+            spellCheck={false}
+            value={wordSession.currentInput}
+            onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
+            placeholder="Type one meaning"
+            aria-label="Meaning answer"
+          />
+          <button
+            type="button"
+            className="ghost-action session-reset-btn"
+            onClick={startNewWordSession}
+            aria-label="Start new session"
+          >
+            <RotateCcw size={20} />
+          </button>
+        </div>
       </div>
     </>
   )
@@ -706,7 +1203,11 @@ function App() {
             key={key}
             type="button"
             className={`mode-btn ${mode === key ? 'is-active' : ''}`}
-            onClick={() => setMode(key)}
+            onClick={() => {
+              setMode(key)
+              setIsDeckEditorOpen(false)
+              focusAnswerInput(true)
+            }}
             aria-pressed={mode === key}
           >
             <span className="mode-label-desktop">{modes[key].label}</span>
