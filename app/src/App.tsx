@@ -381,20 +381,46 @@ const WORD_TYPE_ABBREVIATIONS: Record<string, string> = {
   adjective: 'adj',
   'na-adjective': 'na-adj',
   'i-adjective': 'i-adj',
+  adnominal: 'adn',
   adverb: 'adv',
   pronoun: 'pron',
   particle: 'ptcl',
+  'discourse particle': 'disc-ptcl',
   'case particle': 'case-ptcl',
   'conjunctive particle': 'conj-ptcl',
   interjection: 'intj',
   conjunction: 'conj',
   auxiliary: 'aux',
+  compound: 'cmpd',
   prefix: 'pref',
   suffix: 'suf',
   counter: 'ctr',
   expression: 'expr',
   numeral: 'num',
 }
+
+const GRAMMAR_WORD_TYPES = new Set([
+  'adnominal',
+  'particle',
+  'discourse particle',
+  'case particle',
+  'conjunctive particle',
+  'conjunction',
+  'auxiliary',
+  'prefix',
+  'suffix',
+  'counter',
+  'pronoun',
+])
+
+const parseWordTypeParts = (wordType: string) =>
+  wordType
+    .split(',')
+    .map((part) => normalizeInput(part))
+    .filter(Boolean)
+
+const hasGrammarType = (wordType: string) =>
+  parseWordTypeParts(wordType).some((part) => GRAMMAR_WORD_TYPES.has(part))
 
 const abbreviateWordType = (wordType: string) =>
   wordType
@@ -756,6 +782,7 @@ function App() {
   const [wordDeckSearch, setWordDeckSearch] = useState('')
   const [wordDeckRangeStart, setWordDeckRangeStart] = useState('1')
   const [wordDeckRangeEnd, setWordDeckRangeEnd] = useState('100')
+  const [excludeGrammarOnSelect, setExcludeGrammarOnSelect] = useState(false)
   const wordCards = useMemo(() => getWordsForDeck(japaneseFrequencyData, wordDeck), [wordDeck])
   const [wordSession, setWordSession] = useState<WordSession>(() => {
     const initialDeck =
@@ -988,8 +1015,29 @@ function App() {
     setWordSession(createNewWordSession(nextWordCards))
   }
 
-  const selectWordFrequencies = (selectedFrequencies: number[]) => {
+  const filterWordFrequenciesForSelection = (
+    selectedFrequencies: number[],
+    shouldExcludeGrammar: boolean,
+  ) => {
+    if (!shouldExcludeGrammar) {
+      return selectedFrequencies
+    }
+
     const selected = new Set(selectedFrequencies)
+    return allWordDeckEntries
+      .filter((entry) => selected.has(entry.frequency) && !hasGrammarType(entry.type))
+      .map((entry) => entry.frequency)
+  }
+
+  const selectWordFrequencies = (
+    selectedFrequencies: number[],
+    options?: { shouldExcludeGrammar?: boolean },
+  ) => {
+    const nextSelectedFrequencies = filterWordFrequenciesForSelection(
+      selectedFrequencies,
+      options?.shouldExcludeGrammar ?? excludeGrammarOnSelect,
+    )
+    const selected = new Set(nextSelectedFrequencies)
     applyWordDeckConfig({
       includedFrequencies: allWordFrequencies.filter((frequency) => selected.has(frequency)),
     })
@@ -1036,6 +1084,13 @@ function App() {
     )
 
     selectWordFrequencies(rangeFrequencies)
+  }
+
+  const toggleExcludeGrammarOnSelect = (nextValue: boolean) => {
+    setExcludeGrammarOnSelect(nextValue)
+    if (nextValue) {
+      selectWordFrequencies(wordDeck.includedFrequencies, { shouldExcludeGrammar: true })
+    }
   }
 
   const kanaDeck = mode === 'katakana' ? katakanaDeck : hiraganaDeck
@@ -1278,6 +1333,16 @@ function App() {
               Select range
             </button>
           </div>
+        </div>
+        <div className="word-deck-secondary-row">
+          <label className="word-deck-checkbox">
+            <input
+              type="checkbox"
+              checked={excludeGrammarOnSelect}
+              onChange={(event) => toggleExcludeGrammarOnSelect(event.target.checked)}
+            />
+            Exclude grammar
+          </label>
         </div>
       </div>
 

@@ -233,6 +233,24 @@ h1 {
   min-width: 0;
 }
 
+.word-deck-secondary-row {
+  flex-basis: 100%;
+}
+
+.word-deck-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.1rem 0.2rem;
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  user-select: none;
+}
+
+.word-deck-checkbox input {
+  margin: 0;
+}
+
 .word-deck-range {
   display: flex;
   align-items: center;
