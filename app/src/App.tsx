@@ -316,6 +316,12 @@ const normalizeMeaning = (value: string) =>
 
 const normalizeReading = (value: string) => normalizeInput(toHiragana(value))
 const toLiveHiragana = (value: string) => toHiragana(value, { IMEMode: true })
+const isKanaOnly = (value: string) => /^[\u3040-\u309f\u30a0-\u30ffー]+$/.test(value)
+const splitReadingVariants = (value: string) =>
+  value
+    .split(/[、,，/;]/)
+    .map(normalizeReading)
+    .filter(Boolean)
 
 const stripBracketQualifiers = (value: string) =>
   value.replace(/\([^)]*\)|\[[^\]]*\]|\{[^}]*\}|（[^）]*）|［[^］]*］|【[^】]*】/g, ' ')
@@ -337,15 +343,33 @@ const parseMeaningAnswers = (meaning: string) => {
   return [...new Set([fullMeaning, simplifiedFullMeaning, ...splitMeanings].filter(Boolean))]
 }
 
-const parseReadingAnswers = (card: JapaneseFrequencyEntry) => {
-  const normalizedReading = normalizeReading(card.reading)
-  const normalizedWord = normalizeReading(card.word)
+const WORD_READINGS_BY_WORD = japaneseFrequencyData.reduce((map, entry) => {
+  const wordKey = normalizeInput(entry.word)
+  const existing = map.get(wordKey) ?? new Set<string>()
 
-  if (!normalizedReading || normalizedReading === normalizedWord) {
-    return [normalizedWord]
+  splitReadingVariants(entry.reading).forEach((reading) => existing.add(reading))
+  if (!entry.reading && isKanaOnly(entry.word)) {
+    existing.add(normalizeReading(entry.word))
   }
 
-  return [...new Set([normalizedReading, normalizedWord].filter(Boolean))]
+  map.set(wordKey, existing)
+  return map
+}, new Map<string, Set<string>>())
+
+const parseReadingAnswers = (card: JapaneseFrequencyEntry) => {
+  const wordKey = normalizeInput(card.word)
+  const readingsForWord = WORD_READINGS_BY_WORD.get(wordKey)
+  const aggregatedReadings = new Set<string>(readingsForWord ?? [])
+  const normalizedReading = normalizeReading(card.reading)
+  if (normalizedReading) {
+    aggregatedReadings.add(normalizedReading)
+  }
+
+  if (!normalizedReading || isKanaOnly(card.word)) {
+    aggregatedReadings.add(normalizeReading(card.word))
+  }
+
+  return [...aggregatedReadings].filter(Boolean)
 }
 
 const shuffle = <T,>(items: T[]): T[] => {
