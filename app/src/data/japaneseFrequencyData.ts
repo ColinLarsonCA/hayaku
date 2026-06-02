@@ -1099,7 +1099,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 152,
     "word": "仕事する",
-    "reading": "",
+    "reading": "しごとする",
     "type": "verb",
     "meaning": "work"
   },
@@ -1470,7 +1470,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 201,
     "word": "意味する",
-    "reading": "",
+    "reading": "いみする",
     "type": "verb",
     "meaning": "mean"
   },
@@ -1631,7 +1631,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 223,
     "word": "生活する",
-    "reading": "",
+    "reading": "せいかつする",
     "type": "verb",
     "meaning": "live"
   },
@@ -2345,7 +2345,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 324,
     "word": "電話する",
-    "reading": "",
+    "reading": "でんわする",
     "type": "verb",
     "meaning": "phone, call"
   },
@@ -2681,7 +2681,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 370,
     "word": "説明する",
-    "reading": "",
+    "reading": "せつめいする",
     "type": "verb",
     "meaning": "explain"
   },
@@ -2800,7 +2800,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 385,
     "word": "勉強する",
-    "reading": "",
+    "reading": "べんきょうする",
     "type": "verb",
     "meaning": "learn, study"
   },
@@ -2975,7 +2975,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 409,
     "word": "経験する",
-    "reading": "",
+    "reading": "けいけんする",
     "type": "verb",
     "meaning": "experience"
   },
@@ -3052,7 +3052,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 417,
     "word": "利用する",
-    "reading": "",
+    "reading": "りようする",
     "type": "verb",
     "meaning": "utilize"
   },
@@ -3101,7 +3101,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 423,
     "word": "存在する",
-    "reading": "",
+    "reading": "そんざいする",
     "type": "verb",
     "meaning": "exist"
   },
@@ -3423,7 +3423,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 468,
     "word": "影響する",
-    "reading": "",
+    "reading": "えいきょうする",
     "type": "verb",
     "meaning": "affect, influence"
   },
@@ -3584,7 +3584,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 489,
     "word": "結婚する",
-    "reading": "",
+    "reading": "けっこんする",
     "type": "verb",
     "meaning": "marry, get married"
   },
@@ -3710,7 +3710,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 506,
     "word": "質問する",
-    "reading": "",
+    "reading": "しつもんする",
     "type": "verb",
     "meaning": "question"
   },
@@ -3801,7 +3801,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 518,
     "word": "紹介する",
-    "reading": "",
+    "reading": "しょうかいする",
     "type": "verb",
     "meaning": "introduce"
   },
@@ -3843,7 +3843,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 523,
     "word": "規定する",
-    "reading": "",
+    "reading": "きていする",
     "type": "verb",
     "meaning": "prescribe"
   },
@@ -3962,7 +3962,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 539,
     "word": "変化する",
-    "reading": "",
+    "reading": "へんかする",
     "type": "verb",
     "meaning": "change, vary"
   },
@@ -3997,7 +3997,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 543,
     "word": "参加する",
-    "reading": "",
+    "reading": "さんかする",
     "type": "verb",
     "meaning": "take part in, participate"
   },
@@ -4025,7 +4025,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 546,
     "word": "理解する",
-    "reading": "",
+    "reading": "りかいする",
     "type": "verb",
     "meaning": "understand"
   },
@@ -4144,7 +4144,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 560,
     "word": "心配する",
-    "reading": "",
+    "reading": "しんぱいする",
     "type": "verb",
     "meaning": "worry, be anxious"
   },
@@ -4242,7 +4242,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 572,
     "word": "対応する",
-    "reading": "",
+    "reading": "たいおうする",
     "type": "verb",
     "meaning": "respond to"
   },
@@ -4270,7 +4270,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 575,
     "word": "食事する",
-    "reading": "",
+    "reading": "しょくじする",
     "type": "verb",
     "meaning": "have a meal"
   },
@@ -4319,7 +4319,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 581,
     "word": "実施する",
-    "reading": "",
+    "reading": "じっしする",
     "type": "verb",
     "meaning": "enforce, conduct"
   },
@@ -4347,7 +4347,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 584,
     "word": "練習する",
-    "reading": "",
+    "reading": "れんしゅうする",
     "type": "verb",
     "meaning": "practice, train"
   },
@@ -4361,7 +4361,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 585,
     "word": "使用する",
-    "reading": "",
+    "reading": "しようする",
     "type": "verb",
     "meaning": "use"
   },
@@ -4634,7 +4634,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 622,
     "word": "確認する",
-    "reading": "",
+    "reading": "かくにんする",
     "type": "verb",
     "meaning": "confirm"
   },
@@ -4725,7 +4725,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 634,
     "word": "料理する",
-    "reading": "",
+    "reading": "りょうりする",
     "type": "verb",
     "meaning": "cook"
   },
@@ -4858,7 +4858,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 652,
     "word": "記憶する",
-    "reading": "",
+    "reading": "きおくする",
     "type": "verb",
     "meaning": "memorize"
   },
@@ -4928,7 +4928,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 661,
     "word": "旅行する",
-    "reading": "",
+    "reading": "りょこうする",
     "type": "verb",
     "meaning": "travel"
   },
@@ -5110,7 +5110,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 685,
     "word": "活動する",
-    "reading": "",
+    "reading": "かつどうする",
     "type": "verb",
     "meaning": "be active"
   },
@@ -5187,7 +5187,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 694,
     "word": "研究する",
-    "reading": "",
+    "reading": "けんきゅうする",
     "type": "verb",
     "meaning": "do research, study"
   },
@@ -5250,7 +5250,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 701,
     "word": "期待する",
-    "reading": "",
+    "reading": "きたいする",
     "type": "verb",
     "meaning": "expect"
   },
@@ -5467,7 +5467,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 730,
     "word": "意識する",
-    "reading": "",
+    "reading": "いしきする",
     "type": "verb",
     "meaning": "be conscious"
   },
@@ -5488,7 +5488,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 732,
     "word": "行動する",
-    "reading": "",
+    "reading": "こうどうする",
     "type": "verb",
     "meaning": "act, behave"
   },
@@ -5621,7 +5621,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 748,
     "word": "評価する",
-    "reading": "",
+    "reading": "ひょうかする",
     "type": "verb",
     "meaning": "evaluate"
   },
@@ -5761,7 +5761,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 766,
     "word": "表現する",
-    "reading": "",
+    "reading": "ひょうげんする",
     "type": "verb",
     "meaning": "express"
   },
@@ -5782,7 +5782,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 768,
     "word": "注意する",
-    "reading": "",
+    "reading": "ちゅういする",
     "type": "verb",
     "meaning": "notice, be careful"
   },
@@ -5964,7 +5964,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 793,
     "word": "発生する",
-    "reading": "",
+    "reading": "はっせいする",
     "type": "verb",
     "meaning": "occur, happen"
   },
@@ -6013,7 +6013,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 799,
     "word": "努力する",
-    "reading": "",
+    "reading": "どりょくする",
     "type": "verb",
     "meaning": "make an effort"
   },
@@ -6027,7 +6027,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 800,
     "word": "増加する",
-    "reading": "",
+    "reading": "ぞうかする",
     "type": "verb",
     "meaning": "increase, grow"
   },
@@ -6041,7 +6041,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 801,
     "word": "判断する",
-    "reading": "",
+    "reading": "はんだんする",
     "type": "verb",
     "meaning": "judge"
   },
@@ -6265,7 +6265,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 831,
     "word": "開発する",
-    "reading": "",
+    "reading": "かいはつする",
     "type": "verb",
     "meaning": "develop"
   },
@@ -6335,7 +6335,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 840,
     "word": "整備する",
-    "reading": "",
+    "reading": "せいびする",
     "type": "verb",
     "meaning": "prepare"
   },
@@ -6363,7 +6363,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 843,
     "word": "発見する",
-    "reading": "",
+    "reading": "はっけんする",
     "type": "verb",
     "meaning": "discover"
   },
@@ -6377,7 +6377,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 844,
     "word": "相談する",
-    "reading": "",
+    "reading": "そうだんする",
     "type": "verb",
     "meaning": "consult"
   },
@@ -6391,7 +6391,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 845,
     "word": "連絡する",
-    "reading": "",
+    "reading": "れんらくする",
     "type": "verb",
     "meaning": "contact"
   },
@@ -6419,7 +6419,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 848,
     "word": "用意する",
-    "reading": "",
+    "reading": "よういする",
     "type": "verb",
     "meaning": "prepare"
   },
@@ -6468,7 +6468,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 854,
     "word": "設定する",
-    "reading": "",
+    "reading": "せっていする",
     "type": "verb",
     "meaning": "establish, set"
   },
@@ -6720,7 +6720,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 889,
     "word": "体験する",
-    "reading": "",
+    "reading": "たいけんする",
     "type": "verb",
     "meaning": "experience, have experience of"
   },
@@ -6769,7 +6769,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 895,
     "word": "運動する",
-    "reading": "",
+    "reading": "うんどうする",
     "type": "verb",
     "meaning": "exercise, move"
   },
@@ -6853,7 +6853,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 905,
     "word": "予定する",
-    "reading": "",
+    "reading": "よていする",
     "type": "verb",
     "meaning": "plan"
   },
@@ -6916,7 +6916,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 913,
     "word": "位置する",
-    "reading": "",
+    "reading": "いちする",
     "type": "verb",
     "meaning": "be located"
   },
@@ -6930,7 +6930,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 914,
     "word": "発展する",
-    "reading": "",
+    "reading": "はってんする",
     "type": "verb",
     "meaning": "develop, expand"
   },
@@ -7014,7 +7014,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 924,
     "word": "教育する",
-    "reading": "",
+    "reading": "きょういくする",
     "type": "verb",
     "meaning": "educate"
   },
@@ -7028,7 +7028,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 925,
     "word": "想像する",
-    "reading": "",
+    "reading": "そうぞうする",
     "type": "verb",
     "meaning": "imagine"
   },
@@ -7098,7 +7098,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 934,
     "word": "準備する",
-    "reading": "",
+    "reading": "じゅんびする",
     "type": "verb",
     "meaning": "prepare"
   },
@@ -7231,7 +7231,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 952,
     "word": "選択する",
-    "reading": "",
+    "reading": "せんたくする",
     "type": "verb",
     "meaning": "choose"
   },
@@ -7329,7 +7329,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 965,
     "word": "推進する",
-    "reading": "",
+    "reading": "すいしんする",
     "type": "verb",
     "meaning": "promote, drive"
   },
@@ -7350,7 +7350,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 967,
     "word": "作業する",
-    "reading": "",
+    "reading": "さぎょうする",
     "type": "verb",
     "meaning": "work"
   },
@@ -7420,7 +7420,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 976,
     "word": "表示する",
-    "reading": "",
+    "reading": "ひょうじする",
     "type": "verb",
     "meaning": "display, indicate"
   },
@@ -7469,7 +7469,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 981,
     "word": "相当する",
-    "reading": "",
+    "reading": "そうとうする",
     "type": "verb",
     "meaning": "be equivalent"
   },
@@ -7490,7 +7490,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 983,
     "word": "検討する",
-    "reading": "",
+    "reading": "けんとうする",
     "type": "verb",
     "meaning": "consider, discuss"
   },
@@ -7539,7 +7539,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 989,
     "word": "調査する",
-    "reading": "",
+    "reading": "ちょうさする",
     "type": "verb",
     "meaning": "investigate, inquire, explore"
   },
@@ -7567,7 +7567,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 992,
     "word": "発表する",
-    "reading": "",
+    "reading": "はっぴょうする",
     "type": "verb",
     "meaning": "announce, publish"
   },
@@ -7602,7 +7602,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 996,
     "word": "確保する",
-    "reading": "",
+    "reading": "かくほする",
     "type": "verb",
     "meaning": "secure, maintain, guarantee"
   },
@@ -7770,7 +7770,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1019,
     "word": "成長する",
-    "reading": "",
+    "reading": "せいちょうする",
     "type": "verb",
     "meaning": "grow"
   },
@@ -7791,7 +7791,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1021,
     "word": "機能する",
-    "reading": "",
+    "reading": "きのうする",
     "type": "verb",
     "meaning": "function, work"
   },
@@ -7861,7 +7861,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1029,
     "word": "指摘する",
-    "reading": "",
+    "reading": "してきする",
     "type": "verb",
     "meaning": "point out, indicate"
   },
@@ -7938,7 +7938,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1039,
     "word": "計画する",
-    "reading": "",
+    "reading": "けいかくする",
     "type": "verb",
     "meaning": "plan"
   },
@@ -7973,7 +7973,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1043,
     "word": "感動する",
-    "reading": "",
+    "reading": "かんどうする",
     "type": "verb",
     "meaning": "be impressed, be moved"
   },
@@ -8064,7 +8064,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1055,
     "word": "希望する",
-    "reading": "",
+    "reading": "きぼうする",
     "type": "verb",
     "meaning": "hope, wish, desire"
   },
@@ -8204,7 +8204,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1074,
     "word": "反対する",
-    "reading": "",
+    "reading": "はんたいする",
     "type": "verb",
     "meaning": "oppose"
   },
@@ -8225,7 +8225,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1076,
     "word": "提供する",
-    "reading": "",
+    "reading": "ていきょうする",
     "type": "verb",
     "meaning": "supply, sponsor"
   },
@@ -8281,7 +8281,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1083,
     "word": "実現する",
-    "reading": "",
+    "reading": "じつげんする",
     "type": "verb",
     "meaning": "realize, put into practice"
   },
@@ -8302,7 +8302,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1085,
     "word": "購入する",
-    "reading": "",
+    "reading": "こうにゅうする",
     "type": "verb",
     "meaning": "purchase, buy"
   },
@@ -8344,7 +8344,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1090,
     "word": "認識する",
-    "reading": "",
+    "reading": "にんしきする",
     "type": "verb",
     "meaning": "recognize, be aware"
   },
@@ -8358,7 +8358,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1091,
     "word": "安心する",
-    "reading": "",
+    "reading": "あんしんする",
     "type": "verb",
     "meaning": "feel relieved"
   },
@@ -8428,7 +8428,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1100,
     "word": "解決する",
-    "reading": "",
+    "reading": "かいけつする",
     "type": "verb",
     "meaning": "solve, settle"
   },
@@ -8456,7 +8456,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1103,
     "word": "失敗する",
-    "reading": "",
+    "reading": "しっぱいする",
     "type": "verb",
     "meaning": "fail"
   },
@@ -8477,7 +8477,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1105,
     "word": "成功する",
-    "reading": "",
+    "reading": "せいこうする",
     "type": "verb",
     "meaning": "succeed"
   },
@@ -8498,7 +8498,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1107,
     "word": "協力する",
-    "reading": "",
+    "reading": "きょうりょくする",
     "type": "verb",
     "meaning": "cooperate, collaborate"
   },
@@ -8533,7 +8533,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1111,
     "word": "卒業する",
-    "reading": "",
+    "reading": "そつぎょうする",
     "type": "verb",
     "meaning": "graduate"
   },
@@ -8568,7 +8568,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1115,
     "word": "報告する",
-    "reading": "",
+    "reading": "ほうこくする",
     "type": "verb",
     "meaning": "inform"
   },
@@ -8589,7 +8589,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1117,
     "word": "決定する",
-    "reading": "",
+    "reading": "けっていする",
     "type": "verb",
     "meaning": "decide, determine"
   },
@@ -8617,7 +8617,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1119,
     "word": "移動する",
-    "reading": "",
+    "reading": "いどうする",
     "type": "verb",
     "meaning": "transfer, move, migrate"
   },
@@ -8785,7 +8785,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1141,
     "word": "開催する",
-    "reading": "",
+    "reading": "かいさいする",
     "type": "verb",
     "meaning": "hold, open"
   },
@@ -8897,7 +8897,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1155,
     "word": "変更する",
-    "reading": "",
+    "reading": "へんこうする",
     "type": "verb",
     "meaning": "change, revise"
   },
@@ -8911,7 +8911,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1156,
     "word": "感謝する",
-    "reading": "",
+    "reading": "かんしゃする",
     "type": "verb",
     "meaning": "thank, be grateful"
   },
@@ -8932,7 +8932,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1158,
     "word": "手術する",
-    "reading": "",
+    "reading": "しゅじゅつする",
     "type": "verb",
     "meaning": "operate"
   },
@@ -9016,7 +9016,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1168,
     "word": "苦労する",
-    "reading": "",
+    "reading": "くろうする",
     "type": "verb",
     "meaning": "have trouble, have a hard time"
   },
@@ -9072,7 +9072,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1175,
     "word": "主張する",
-    "reading": "",
+    "reading": "しゅちょうする",
     "type": "verb",
     "meaning": "argue, insist"
   },
@@ -9121,7 +9121,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1180,
     "word": "展開する",
-    "reading": "",
+    "reading": "てんかいする",
     "type": "verb",
     "meaning": "develop, unfold"
   },
@@ -9198,7 +9198,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1190,
     "word": "議論する",
-    "reading": "",
+    "reading": "ぎろんする",
     "type": "verb",
     "meaning": "discuss"
   },
@@ -9212,7 +9212,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1191,
     "word": "記録する",
-    "reading": "",
+    "reading": "きろくする",
     "type": "verb",
     "meaning": "record, write down"
   },
@@ -9282,7 +9282,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1199,
     "word": "設置する",
-    "reading": "",
+    "reading": "せっちする",
     "type": "verb",
     "meaning": "set up, place"
   },
@@ -9303,7 +9303,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1201,
     "word": "入院する",
-    "reading": "",
+    "reading": "にゅういんする",
     "type": "verb",
     "meaning": "hospitalize"
   },
@@ -9345,7 +9345,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1206,
     "word": "会話する",
-    "reading": "",
+    "reading": "かいわする",
     "type": "verb",
     "meaning": "talk, chat"
   },
@@ -9471,7 +9471,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1222,
     "word": "お勧めする",
-    "reading": "",
+    "reading": "おすすめする",
     "type": "verb",
     "meaning": "recommend, advise"
   },
@@ -9527,7 +9527,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1228,
     "word": "減少する",
-    "reading": "",
+    "reading": "げんしょうする",
     "type": "verb",
     "meaning": "decline, decrease"
   },
@@ -9590,7 +9590,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1236,
     "word": "買い物する",
-    "reading": "",
+    "reading": "かいものする",
     "type": "verb",
     "meaning": "go shopping"
   },
@@ -9611,7 +9611,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1238,
     "word": "登場する",
-    "reading": "",
+    "reading": "とうじょうする",
     "type": "verb",
     "meaning": "appear, emerge"
   },
@@ -9716,7 +9716,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1251,
     "word": "拡大する",
-    "reading": "",
+    "reading": "かくだいする",
     "type": "verb",
     "meaning": "enlarge, expand"
   },
@@ -9856,7 +9856,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1270,
     "word": "世話する",
-    "reading": "",
+    "reading": "せわする",
     "type": "verb",
     "meaning": "take care of, look after"
   },
@@ -9905,7 +9905,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1276,
     "word": "負担する",
-    "reading": "",
+    "reading": "ふたんする",
     "type": "verb",
     "meaning": "bear"
   },
@@ -10031,7 +10031,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1293,
     "word": "計算する",
-    "reading": "",
+    "reading": "けいさんする",
     "type": "verb",
     "meaning": "calculate, count, figure"
   },
@@ -10066,7 +10066,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1297,
     "word": "納得する",
-    "reading": "",
+    "reading": "なっとくする",
     "type": "verb",
     "meaning": "understand, be convinced"
   },
@@ -10080,7 +10080,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1298,
     "word": "組織する",
-    "reading": "",
+    "reading": "そしきする",
     "type": "verb",
     "meaning": "organize"
   },
@@ -10129,7 +10129,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1304,
     "word": "治療する",
-    "reading": "",
+    "reading": "ちりょうする",
     "type": "verb",
     "meaning": "treat, cure"
   },
@@ -10290,7 +10290,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1324,
     "word": "撮影する",
-    "reading": "",
+    "reading": "さつえいする",
     "type": "verb",
     "meaning": "shoot, photograph"
   },
@@ -10304,7 +10304,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1325,
     "word": "指導する",
-    "reading": "",
+    "reading": "しどうする",
     "type": "verb",
     "meaning": "guide, coach"
   },
@@ -10339,7 +10339,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1329,
     "word": "指定する",
-    "reading": "",
+    "reading": "していする",
     "type": "verb",
     "meaning": "specify"
   },
@@ -10353,7 +10353,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1330,
     "word": "経営する",
-    "reading": "",
+    "reading": "けいえいする",
     "type": "verb",
     "meaning": "manage, run"
   },
@@ -10388,7 +10388,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1334,
     "word": "成立する",
-    "reading": "",
+    "reading": "せいりつする",
     "type": "verb",
     "meaning": "establish, conclude, come into existence"
   },
@@ -10409,7 +10409,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1336,
     "word": "導入する",
-    "reading": "",
+    "reading": "どうにゅうする",
     "type": "verb",
     "meaning": "introduce"
   },
@@ -10493,7 +10493,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1347,
     "word": "充実する",
-    "reading": "",
+    "reading": "じゅうじつする",
     "type": "verb",
     "meaning": "enrich, fullfill"
   },
@@ -10570,7 +10570,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1356,
     "word": "挨拶する",
-    "reading": "",
+    "reading": "あいさつする",
     "type": "verb",
     "meaning": "greet"
   },
@@ -10591,7 +10591,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1358,
     "word": "比較する",
-    "reading": "",
+    "reading": "ひかくする",
     "type": "verb",
     "meaning": "compare"
   },
@@ -10633,7 +10633,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1363,
     "word": "注目する",
-    "reading": "",
+    "reading": "ちゅうもくする",
     "type": "verb",
     "meaning": "pay attention, watch"
   },
@@ -10647,7 +10647,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1364,
     "word": "携帯する",
-    "reading": "",
+    "reading": "けいたいする",
     "type": "verb",
     "meaning": "carry"
   },
@@ -10717,7 +10717,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1373,
     "word": "要求する",
-    "reading": "",
+    "reading": "ようきゅうする",
     "type": "verb",
     "meaning": "demand, request, claim"
   },
@@ -10801,7 +10801,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1384,
     "word": "改善する",
-    "reading": "",
+    "reading": "かいぜんする",
     "type": "verb",
     "meaning": "improve"
   },
@@ -10871,7 +10871,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1393,
     "word": "我慢する",
-    "reading": "",
+    "reading": "がまんする",
     "type": "verb",
     "meaning": "be patient, endure"
   },
@@ -10948,7 +10948,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1403,
     "word": "構成する",
-    "reading": "",
+    "reading": "こうせいする",
     "type": "verb",
     "meaning": "compose"
   },
@@ -10962,7 +10962,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1404,
     "word": "反応する",
-    "reading": "",
+    "reading": "はんのうする",
     "type": "verb",
     "meaning": "respond"
   },
@@ -10997,7 +10997,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1408,
     "word": "活用する",
-    "reading": "",
+    "reading": "かつようする",
     "type": "verb",
     "meaning": "exploit, take advantage of"
   },
@@ -11074,7 +11074,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1416,
     "word": "就職する",
-    "reading": "",
+    "reading": "しゅうしょくする",
     "type": "verb",
     "meaning": "find employment, get a job"
   },
@@ -11116,7 +11116,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1421,
     "word": "提出する",
-    "reading": "",
+    "reading": "ていしゅつする",
     "type": "verb",
     "meaning": "submit, hand in"
   },
@@ -11277,7 +11277,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1443,
     "word": "回答する",
-    "reading": "",
+    "reading": "かいとうする",
     "type": "verb",
     "meaning": "answer, respond, reply"
   },
@@ -11312,7 +11312,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1447,
     "word": "活躍する",
-    "reading": "",
+    "reading": "かつやくする",
     "type": "verb",
     "meaning": "be active, flourish"
   },
@@ -11326,7 +11326,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1448,
     "word": "試験する",
-    "reading": "",
+    "reading": "しけんする",
     "type": "verb",
     "meaning": "examine"
   },
@@ -11375,7 +11375,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1454,
     "word": "検査する",
-    "reading": "",
+    "reading": "けんさする",
     "type": "verb",
     "meaning": "inspect"
   },
@@ -11410,7 +11410,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1458,
     "word": "代表する",
-    "reading": "",
+    "reading": "だいひょうする",
     "type": "verb",
     "meaning": "represent, stand for"
   },
@@ -11438,7 +11438,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1461,
     "word": "実感する",
-    "reading": "",
+    "reading": "じっかんする",
     "type": "verb",
     "meaning": "actually feel"
   },
@@ -11585,7 +11585,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1480,
     "word": "処理する",
-    "reading": "",
+    "reading": "しょりする",
     "type": "verb",
     "meaning": "manage, process"
   },
@@ -11676,7 +11676,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1491,
     "word": "緊張する",
-    "reading": "",
+    "reading": "きんちょうする",
     "type": "verb",
     "meaning": "get tense"
   },
@@ -11844,7 +11844,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1512,
     "word": "維持する",
-    "reading": "",
+    "reading": "いじする",
     "type": "verb",
     "meaning": "keep, maintain"
   },
@@ -11900,7 +11900,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1519,
     "word": "約束する",
-    "reading": "",
+    "reading": "やくそくする",
     "type": "verb",
     "meaning": "promise, make an appointment"
   },
@@ -12040,7 +12040,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1538,
     "word": "安定する",
-    "reading": "",
+    "reading": "あんていする",
     "type": "verb",
     "meaning": "become stable"
   },
@@ -12054,7 +12054,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1539,
     "word": "完成する",
-    "reading": "",
+    "reading": "かんせいする",
     "type": "verb",
     "meaning": "complete"
   },
@@ -12124,7 +12124,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1548,
     "word": "適用する",
-    "reading": "",
+    "reading": "てきようする",
     "type": "verb",
     "meaning": "apply"
   },
@@ -12180,7 +12180,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1555,
     "word": "低下する",
-    "reading": "",
+    "reading": "ていかする",
     "type": "verb",
     "meaning": "decline, fall"
   },
@@ -12250,7 +12250,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1564,
     "word": "担当する",
-    "reading": "",
+    "reading": "たんとうする",
     "type": "verb",
     "meaning": "be in charge of"
   },
@@ -12264,7 +12264,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1565,
     "word": "向上する",
-    "reading": "",
+    "reading": "こうじょうする",
     "type": "verb",
     "meaning": "improve, advance"
   },
@@ -12313,7 +12313,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1571,
     "word": "運転する",
-    "reading": "",
+    "reading": "うんてんする",
     "type": "verb",
     "meaning": "drive"
   },
@@ -12348,7 +12348,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1575,
     "word": "予想する",
-    "reading": "",
+    "reading": "よそうする",
     "type": "verb",
     "meaning": "expect"
   },
@@ -12411,7 +12411,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1583,
     "word": "採用する",
-    "reading": "",
+    "reading": "さいようする",
     "type": "verb",
     "meaning": "employ"
   },
@@ -12607,7 +12607,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1609,
     "word": "形成する",
-    "reading": "",
+    "reading": "けいせいする",
     "type": "verb",
     "meaning": "take form"
   },
@@ -12670,7 +12670,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1616,
     "word": "管理する",
-    "reading": "",
+    "reading": "かんりする",
     "type": "verb",
     "meaning": "manage, control"
   },
@@ -12712,7 +12712,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1621,
     "word": "監督する",
-    "reading": "",
+    "reading": "かんとくする",
     "type": "verb",
     "meaning": "supervise, direct"
   },
@@ -12789,7 +12789,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1631,
     "word": "発達する",
-    "reading": "",
+    "reading": "はったつする",
     "type": "verb",
     "meaning": "develop"
   },
@@ -12852,7 +12852,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1639,
     "word": "回復する",
-    "reading": "",
+    "reading": "かいふくする",
     "type": "verb",
     "meaning": "recover"
   },
@@ -12922,7 +12922,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1647,
     "word": "開始する",
-    "reading": "",
+    "reading": "かいしする",
     "type": "verb",
     "meaning": "begin, start"
   },
@@ -12964,7 +12964,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1652,
     "word": "販売する",
-    "reading": "",
+    "reading": "はんばいする",
     "type": "verb",
     "meaning": "sell"
   },
@@ -13027,7 +13027,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1660,
     "word": "関連する",
-    "reading": "",
+    "reading": "かんれんする",
     "type": "verb",
     "meaning": "be related, be connected"
   },
@@ -13125,7 +13125,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1671,
     "word": "迷惑する",
-    "reading": "",
+    "reading": "めいわくする",
     "type": "verb",
     "meaning": "be inconvenienced"
   },
@@ -13251,7 +13251,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1688,
     "word": "保存する",
-    "reading": "",
+    "reading": "ほぞんする",
     "type": "verb",
     "meaning": "preserve, store"
   },
@@ -13279,7 +13279,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1691,
     "word": "保護する",
-    "reading": "",
+    "reading": "ほごする",
     "type": "verb",
     "meaning": "protect"
   },
@@ -13314,7 +13314,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1695,
     "word": "演奏する",
-    "reading": "",
+    "reading": "えんそうする",
     "type": "verb",
     "meaning": "perform, play"
   },
@@ -13342,7 +13342,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1698,
     "word": "工夫する",
-    "reading": "",
+    "reading": "くふうする",
     "type": "verb",
     "meaning": "devise, plan"
   },
@@ -13370,7 +13370,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1701,
     "word": "登録する",
-    "reading": "",
+    "reading": "とうろくする",
     "type": "verb",
     "meaning": "register, enroll"
   },
@@ -13405,7 +13405,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1705,
     "word": "記載する",
-    "reading": "",
+    "reading": "きさいする",
     "type": "verb",
     "meaning": "record, write down"
   },
@@ -13440,7 +13440,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1709,
     "word": "普及する",
-    "reading": "",
+    "reading": "ふきゅうする",
     "type": "verb",
     "meaning": "spread"
   },
@@ -13468,7 +13468,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1712,
     "word": "返事する",
-    "reading": "",
+    "reading": "へんじする",
     "type": "verb",
     "meaning": "answer, reply"
   },
@@ -13580,7 +13580,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1725,
     "word": "支援する",
-    "reading": "",
+    "reading": "しえんする",
     "type": "verb",
     "meaning": "support, assist"
   },
@@ -13594,7 +13594,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1726,
     "word": "実行する",
-    "reading": "",
+    "reading": "じっこうする",
     "type": "verb",
     "meaning": "carry out"
   },
@@ -13699,7 +13699,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1740,
     "word": "批判する",
-    "reading": "",
+    "reading": "ひはんする",
     "type": "verb",
     "meaning": "criticize"
   },
@@ -13713,7 +13713,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1741,
     "word": "出発する",
-    "reading": "",
+    "reading": "しゅっぱつする",
     "type": "verb",
     "meaning": "leave"
   },
@@ -13937,7 +13937,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1770,
     "word": "把握する",
-    "reading": "",
+    "reading": "はあくする",
     "type": "verb",
     "meaning": "grasp"
   },
@@ -13979,7 +13979,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1775,
     "word": "応援する",
-    "reading": "",
+    "reading": "おうえんする",
     "type": "verb",
     "meaning": "cheer, support"
   },
@@ -14000,7 +14000,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1777,
     "word": "上昇する",
-    "reading": "",
+    "reading": "じょうしょうする",
     "type": "verb",
     "meaning": "rise"
   },
@@ -14028,7 +14028,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1780,
     "word": "特定する",
-    "reading": "",
+    "reading": "とくていする",
     "type": "verb",
     "meaning": "specify"
   },
@@ -14168,7 +14168,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1798,
     "word": "終了する",
-    "reading": "",
+    "reading": "しゅうりょうする",
     "type": "verb",
     "meaning": "end, be over"
   },
@@ -14231,7 +14231,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1806,
     "word": "推移する",
-    "reading": "",
+    "reading": "すいいする",
     "type": "verb",
     "meaning": "change, shift"
   },
@@ -14287,7 +14287,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1813,
     "word": "都合する",
-    "reading": "",
+    "reading": "つごうする",
     "type": "verb",
     "meaning": "arrange"
   },
@@ -14385,7 +14385,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1825,
     "word": "誕生する",
-    "reading": "",
+    "reading": "たんじょうする",
     "type": "verb",
     "meaning": "be born, be created"
   },
@@ -14427,7 +14427,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1830,
     "word": "提案する",
-    "reading": "",
+    "reading": "ていあんする",
     "type": "verb",
     "meaning": "propose"
   },
@@ -14532,7 +14532,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1842,
     "word": "集中する",
-    "reading": "",
+    "reading": "しゅうちゅうする",
     "type": "verb",
     "meaning": "concentrate"
   },
@@ -14553,7 +14553,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1844,
     "word": "指示する",
-    "reading": "",
+    "reading": "しじする",
     "type": "verb",
     "meaning": "instruct, direct"
   },
@@ -14588,7 +14588,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1848,
     "word": "確立する",
-    "reading": "",
+    "reading": "かくりつする",
     "type": "verb",
     "meaning": "establish"
   },
@@ -14602,7 +14602,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1849,
     "word": "到着する",
-    "reading": "",
+    "reading": "とうちゃくする",
     "type": "verb",
     "meaning": "arrive"
   },
@@ -14665,7 +14665,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1857,
     "word": "受験する",
-    "reading": "",
+    "reading": "じゅけんする",
     "type": "verb",
     "meaning": "take an examination"
   },
@@ -14749,7 +14749,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1867,
     "word": "入力する",
-    "reading": "",
+    "reading": "にゅうりょくする",
     "type": "verb",
     "meaning": "type"
   },
@@ -14798,7 +14798,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1873,
     "word": "生産する",
-    "reading": "",
+    "reading": "せいさんする",
     "type": "verb",
     "meaning": "produce"
   },
@@ -14826,7 +14826,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1876,
     "word": "掃除する",
-    "reading": "",
+    "reading": "そうじする",
     "type": "verb",
     "meaning": "clean"
   },
@@ -14903,7 +14903,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1885,
     "word": "規制する",
-    "reading": "",
+    "reading": "きせいする",
     "type": "verb",
     "meaning": "regulate"
   },
@@ -14931,7 +14931,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1888,
     "word": "左右する",
-    "reading": "",
+    "reading": "さゆうする",
     "type": "verb",
     "meaning": "determine, influence"
   },
@@ -14945,7 +14945,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1889,
     "word": "促進する",
-    "reading": "",
+    "reading": "そくしんする",
     "type": "verb",
     "meaning": "promote"
   },
@@ -14980,7 +14980,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1893,
     "word": "交流する",
-    "reading": "",
+    "reading": "こうりゅうする",
     "type": "verb",
     "meaning": "interact"
   },
@@ -14994,7 +14994,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1894,
     "word": "報道する",
-    "reading": "",
+    "reading": "ほうどうする",
     "type": "verb",
     "meaning": "report"
   },
@@ -15029,7 +15029,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1897,
     "word": "観察する",
-    "reading": "",
+    "reading": "かんさつする",
     "type": "verb",
     "meaning": "observe"
   },
@@ -15211,7 +15211,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1922,
     "word": "措置する",
-    "reading": "",
+    "reading": "そちする",
     "type": "verb",
     "meaning": "take measures"
   },
@@ -15337,7 +15337,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1938,
     "word": "引っ越しする",
-    "reading": "",
+    "reading": "ひっこしする",
     "type": "verb",
     "meaning": "move house"
   },
@@ -15351,7 +15351,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1939,
     "word": "失礼する",
-    "reading": "",
+    "reading": "しつれいする",
     "type": "verb",
     "meaning": "be rude, be impolite"
   },
@@ -15421,7 +15421,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1947,
     "word": "発言する",
-    "reading": "",
+    "reading": "はつげんする",
     "type": "verb",
     "meaning": "speak"
   },
@@ -15491,7 +15491,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1956,
     "word": "証明する",
-    "reading": "",
+    "reading": "しょうめいする",
     "type": "verb",
     "meaning": "prove"
   },
@@ -15666,7 +15666,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1978,
     "word": "否定する",
-    "reading": "",
+    "reading": "ひていする",
     "type": "verb",
     "meaning": "deny"
   },
@@ -15722,7 +15722,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1984,
     "word": "面接する",
-    "reading": "",
+    "reading": "めんせつする",
     "type": "verb",
     "meaning": "interview"
   },
@@ -15799,7 +15799,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1994,
     "word": "調整する",
-    "reading": "",
+    "reading": "ちょうせいする",
     "type": "verb",
     "meaning": "adjust"
   },
@@ -15841,7 +15841,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1999,
     "word": "攻撃する",
-    "reading": "",
+    "reading": "こうげきする",
     "type": "verb",
     "meaning": "attack"
   },
@@ -15918,7 +15918,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2009,
     "word": "取得する",
-    "reading": "",
+    "reading": "とりえする",
     "type": "verb",
     "meaning": "acquire"
   },
@@ -15932,7 +15932,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2010,
     "word": "挑戦する",
-    "reading": "",
+    "reading": "ちょうせんする",
     "type": "verb",
     "meaning": "challenge, try"
   },
@@ -15946,7 +15946,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2011,
     "word": "独立する",
-    "reading": "",
+    "reading": "どくりつする",
     "type": "verb",
     "meaning": "be independent"
   },
@@ -16037,7 +16037,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2023,
     "word": "輸入する",
-    "reading": "",
+    "reading": "ゆにゅうする",
     "type": "verb",
     "meaning": "import"
   },
@@ -16135,7 +16135,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2035,
     "word": "経過する",
-    "reading": "",
+    "reading": "けいかする",
     "type": "verb",
     "meaning": "pass"
   },
@@ -16240,7 +16240,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2049,
     "word": "整理する",
-    "reading": "",
+    "reading": "せいりする",
     "type": "verb",
     "meaning": "arrange, put in order, dispose of"
   },
@@ -16289,7 +16289,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2054,
     "word": "発揮する",
-    "reading": "",
+    "reading": "はっきする",
     "type": "verb",
     "meaning": "display, exhibit"
   },
@@ -16317,7 +16317,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2057,
     "word": "分析する",
-    "reading": "",
+    "reading": "ぶんせきする",
     "type": "verb",
     "meaning": "analyze"
   },
@@ -16331,7 +16331,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2058,
     "word": "解釈する",
-    "reading": "",
+    "reading": "かいしゃくする",
     "type": "verb",
     "meaning": "interpret"
   },
@@ -16359,7 +16359,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2061,
     "word": "注文する",
-    "reading": "",
+    "reading": "ちゅうもんする",
     "type": "verb",
     "meaning": "order"
   },
@@ -16408,7 +16408,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2067,
     "word": "配慮する",
-    "reading": "",
+    "reading": "はいりょする",
     "type": "verb",
     "meaning": "consider"
   },
@@ -16443,7 +16443,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2071,
     "word": "営業する",
-    "reading": "",
+    "reading": "えいぎょうする",
     "type": "verb",
     "meaning": "do business"
   },
@@ -16478,7 +16478,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2075,
     "word": "交換する",
-    "reading": "",
+    "reading": "こうかんする",
     "type": "verb",
     "meaning": "exchange"
   },
@@ -16513,7 +16513,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2079,
     "word": "妊娠する",
-    "reading": "",
+    "reading": "にんしんする",
     "type": "verb",
     "meaning": "get pregnant"
   },
@@ -16583,7 +16583,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2087,
     "word": "破壊する",
-    "reading": "",
+    "reading": "はかいする",
     "type": "verb",
     "meaning": "destroy, demolish"
   },
@@ -16597,7 +16597,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2088,
     "word": "削除する",
-    "reading": "",
+    "reading": "さくじょする",
     "type": "verb",
     "meaning": "delete"
   },
@@ -16625,7 +16625,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2091,
     "word": "改正する",
-    "reading": "",
+    "reading": "かいせいする",
     "type": "verb",
     "meaning": "amend"
   },
@@ -16772,7 +16772,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2110,
     "word": "建設する",
-    "reading": "",
+    "reading": "けんせつする",
     "type": "verb",
     "meaning": "build, construct"
   },
@@ -16849,7 +16849,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2120,
     "word": "募集する",
-    "reading": "",
+    "reading": "ぼしゅうする",
     "type": "verb",
     "meaning": "recruit"
   },
@@ -16884,7 +16884,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2124,
     "word": "優勝する",
-    "reading": "",
+    "reading": "ゆうしょうする",
     "type": "verb",
     "meaning": "win"
   },
@@ -17087,7 +17087,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2152,
     "word": "設立する",
-    "reading": "",
+    "reading": "せつりつする",
     "type": "verb",
     "meaning": "establish, set up"
   },
@@ -17143,7 +17143,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2159,
     "word": "反映する",
-    "reading": "",
+    "reading": "はんえいする",
     "type": "verb",
     "meaning": "reflect"
   },
@@ -17199,7 +17199,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2166,
     "word": "合格する",
-    "reading": "",
+    "reading": "ごうかくする",
     "type": "verb",
     "meaning": "pass an exam"
   },
@@ -17290,7 +17290,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2177,
     "word": "承知する",
-    "reading": "",
+    "reading": "しょうちする",
     "type": "verb",
     "meaning": "agree, understand"
   },
@@ -17311,7 +17311,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2179,
     "word": "運営する",
-    "reading": "",
+    "reading": "うんえいする",
     "type": "verb",
     "meaning": "manage, run"
   },
@@ -17353,7 +17353,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2184,
     "word": "考慮する",
-    "reading": "",
+    "reading": "こうりょする",
     "type": "verb",
     "meaning": "think over, consider"
   },
@@ -17605,7 +17605,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2216,
     "word": "制限する",
-    "reading": "",
+    "reading": "せいげんする",
     "type": "verb",
     "meaning": "limit, restrict"
   },
@@ -17619,7 +17619,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2217,
     "word": "実験する",
-    "reading": "",
+    "reading": "じっけんする",
     "type": "verb",
     "meaning": "experiment"
   },
@@ -17696,7 +17696,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2226,
     "word": "満足する",
-    "reading": "",
+    "reading": "まんぞくする",
     "type": "verb",
     "meaning": "be satisfied"
   },
@@ -17766,7 +17766,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2235,
     "word": "訓練する",
-    "reading": "",
+    "reading": "くんれんする",
     "type": "verb",
     "meaning": "train"
   },
@@ -17780,7 +17780,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2236,
     "word": "区別する",
-    "reading": "",
+    "reading": "くべつする",
     "type": "verb",
     "meaning": "distinguish"
   },
@@ -17864,7 +17864,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2247,
     "word": "反省する",
-    "reading": "",
+    "reading": "はんせいする",
     "type": "verb",
     "meaning": "reflect on"
   },
@@ -17878,7 +17878,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2248,
     "word": "放送する",
-    "reading": "",
+    "reading": "ほうそうする",
     "type": "verb",
     "meaning": "broadcast"
   },
@@ -18025,7 +18025,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2268,
     "word": "許可する",
-    "reading": "",
+    "reading": "きょかする",
     "type": "verb",
     "meaning": "permit, authorize"
   },
@@ -18123,7 +18123,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2280,
     "word": "発行する",
-    "reading": "",
+    "reading": "はっこうする",
     "type": "verb",
     "meaning": "publish, issue"
   },
@@ -18151,7 +18151,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2283,
     "word": "請求する",
-    "reading": "",
+    "reading": "せいきゅうする",
     "type": "verb",
     "meaning": "demand, claim"
   },
@@ -18165,7 +18165,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2284,
     "word": "企画する",
-    "reading": "",
+    "reading": "きかくする",
     "type": "verb",
     "meaning": "plan"
   },
@@ -18270,7 +18270,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2298,
     "word": "合計する",
-    "reading": "",
+    "reading": "ごうけいする",
     "type": "verb",
     "meaning": "total"
   },
@@ -18326,7 +18326,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2305,
     "word": "対処する",
-    "reading": "",
+    "reading": "たいしょする",
     "type": "verb",
     "meaning": "deal with"
   },
@@ -18473,7 +18473,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2325,
     "word": "抵抗する",
-    "reading": "",
+    "reading": "ていこうする",
     "type": "verb",
     "meaning": "resist, offer opposition"
   },
@@ -18501,7 +18501,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2328,
     "word": "支配する",
-    "reading": "",
+    "reading": "しはいする",
     "type": "verb",
     "meaning": "rule, control, govern"
   },
@@ -18536,7 +18536,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2332,
     "word": "禁止する",
-    "reading": "",
+    "reading": "きんしする",
     "type": "verb",
     "meaning": "prohibit, ban"
   },
@@ -18564,7 +18564,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2335,
     "word": "命令する",
-    "reading": "",
+    "reading": "めいれいする",
     "type": "verb",
     "meaning": "order, command"
   },
@@ -18585,7 +18585,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2337,
     "word": "援助する",
-    "reading": "",
+    "reading": "えんじょする",
     "type": "verb",
     "meaning": "help, support, assist"
   },
@@ -18627,7 +18627,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2342,
     "word": "介護する",
-    "reading": "",
+    "reading": "かいごする",
     "type": "verb",
     "meaning": "nurse, look after"
   },
@@ -18648,7 +18648,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2344,
     "word": "広告する",
-    "reading": "",
+    "reading": "こうこくする",
     "type": "verb",
     "meaning": "advertise"
   },
@@ -18669,7 +18669,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2346,
     "word": "強調する",
-    "reading": "",
+    "reading": "きょうちょうする",
     "type": "verb",
     "meaning": "emphasize, stress"
   },
@@ -18739,7 +18739,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2355,
     "word": "依頼する",
-    "reading": "",
+    "reading": "いらいする",
     "type": "verb",
     "meaning": "request, ask"
   },
@@ -18767,7 +18767,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2358,
     "word": "出産する",
-    "reading": "",
+    "reading": "しゅっさんする",
     "type": "verb",
     "meaning": "give birth"
   },
@@ -18781,7 +18781,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2359,
     "word": "達成する",
-    "reading": "",
+    "reading": "たっせいする",
     "type": "verb",
     "meaning": "achieve, attain"
   },
@@ -18795,7 +18795,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2360,
     "word": "申請する",
-    "reading": "",
+    "reading": "しんせいする",
     "type": "verb",
     "meaning": "apply"
   },
@@ -18991,7 +18991,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2387,
     "word": "発売する",
-    "reading": "",
+    "reading": "はつばいする",
     "type": "verb",
     "meaning": "sell, put on sale"
   },
@@ -19488,7 +19488,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2457,
     "word": "離婚する",
-    "reading": "",
+    "reading": "りこんする",
     "type": "verb",
     "meaning": "divorce, get divorced"
   },
@@ -19509,7 +19509,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2459,
     "word": "掲載する",
-    "reading": "",
+    "reading": "けいさいする",
     "type": "verb",
     "meaning": "publish, print"
   },
@@ -19537,7 +19537,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2462,
     "word": "操作する",
-    "reading": "",
+    "reading": "そうさする",
     "type": "verb",
     "meaning": "operate"
   },
@@ -19628,7 +19628,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2474,
     "word": "予約する",
-    "reading": "",
+    "reading": "よやくする",
     "type": "verb",
     "meaning": "reserve, book"
   },
@@ -19656,7 +19656,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2477,
     "word": "進行する",
-    "reading": "",
+    "reading": "しんこうする",
     "type": "verb",
     "meaning": "progress"
   },
@@ -19670,7 +19670,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2478,
     "word": "解説する",
-    "reading": "",
+    "reading": "かいせつする",
     "type": "verb",
     "meaning": "explain"
   },
@@ -19740,7 +19740,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2487,
     "word": "重視する",
-    "reading": "",
+    "reading": "じゅうしする",
     "type": "verb",
     "meaning": "make a point of, consider important"
   },
@@ -19768,7 +19768,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2490,
     "word": "興奮する",
-    "reading": "",
+    "reading": "こうふんする",
     "type": "verb",
     "meaning": "be excited"
   },
@@ -19824,7 +19824,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2497,
     "word": "参照する",
-    "reading": "",
+    "reading": "さんしょうする",
     "type": "verb",
     "meaning": "consult, refer"
   },
@@ -19859,7 +19859,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2501,
     "word": "自殺する",
-    "reading": "",
+    "reading": "じさつする",
     "type": "verb",
     "meaning": "commit suicide"
   },
@@ -20076,7 +20076,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2531,
     "word": "検索する",
-    "reading": "",
+    "reading": "けんさくする",
     "type": "verb",
     "meaning": "search, look up"
   },
@@ -20118,7 +20118,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2535,
     "word": "取材する",
-    "reading": "",
+    "reading": "しゅざいする",
     "type": "verb",
     "meaning": "gather information"
   },
@@ -20174,7 +20174,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2542,
     "word": "分類する",
-    "reading": "",
+    "reading": "ぶんるいする",
     "type": "verb",
     "meaning": "classify"
   },
@@ -20202,7 +20202,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2545,
     "word": "覚悟する",
-    "reading": "",
+    "reading": "かくごする",
     "type": "verb",
     "meaning": "be ready"
   },
@@ -20223,7 +20223,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2547,
     "word": "逮捕する",
-    "reading": "",
+    "reading": "たいほする",
     "type": "verb",
     "meaning": "arrest"
   },
@@ -20244,7 +20244,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2549,
     "word": "交渉する",
-    "reading": "",
+    "reading": "こうしょうする",
     "type": "verb",
     "meaning": "negotiate"
   },
@@ -20370,7 +20370,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2566,
     "word": "所属する",
-    "reading": "",
+    "reading": "しょぞくする",
     "type": "verb",
     "meaning": "attach, be attached, belong"
   },
@@ -20503,7 +20503,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2584,
     "word": "進化する",
-    "reading": "",
+    "reading": "しんかする",
     "type": "verb",
     "meaning": "evolve, develop"
   },
@@ -20552,7 +20552,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2590,
     "word": "公開する",
-    "reading": "",
+    "reading": "こうかいする",
     "type": "verb",
     "meaning": "release"
   },
@@ -20573,7 +20573,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2592,
     "word": "貢献する",
-    "reading": "",
+    "reading": "こうけんする",
     "type": "verb",
     "meaning": "contribute"
   },
@@ -20615,7 +20615,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2597,
     "word": "入学する",
-    "reading": "",
+    "reading": "にゅうがくする",
     "type": "verb",
     "meaning": "enter (school etc.)"
   },
@@ -20671,7 +20671,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2604,
     "word": "改革する",
-    "reading": "",
+    "reading": "かいかくする",
     "type": "verb",
     "meaning": "make reforms"
   },
@@ -20685,7 +20685,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2605,
     "word": "一致する",
-    "reading": "",
+    "reading": "いっちする",
     "type": "verb",
     "meaning": "consent, agree"
   },
@@ -20713,7 +20713,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2608,
     "word": "出席する",
-    "reading": "",
+    "reading": "しゅっせきする",
     "type": "verb",
     "meaning": "attend"
   },
@@ -20734,7 +20734,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2610,
     "word": "処分する",
-    "reading": "",
+    "reading": "しょぶんする",
     "type": "verb",
     "meaning": "dispose of"
   },
@@ -20769,7 +20769,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2614,
     "word": "設計する",
-    "reading": "",
+    "reading": "せっけいする",
     "type": "verb",
     "meaning": "plan, design"
   },
@@ -20790,7 +20790,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2616,
     "word": "邪魔する",
-    "reading": "",
+    "reading": "じゃまする",
     "type": "verb",
     "meaning": "disturb, interrupt"
   },
@@ -20853,7 +20853,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2624,
     "word": "真似する",
-    "reading": "",
+    "reading": "まねする",
     "type": "verb",
     "meaning": "imitate, copy"
   },
@@ -20965,7 +20965,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2639,
     "word": "接続する",
-    "reading": "",
+    "reading": "せつぞくする",
     "type": "verb",
     "meaning": "connect"
   },
@@ -21021,7 +21021,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2646,
     "word": "出演する",
-    "reading": "",
+    "reading": "しゅつえんする",
     "type": "verb",
     "meaning": "appear (on stage, TV)"
   },
@@ -21063,7 +21063,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2651,
     "word": "継続する",
-    "reading": "",
+    "reading": "けいぞくする",
     "type": "verb",
     "meaning": "continue"
   },
@@ -21301,7 +21301,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2684,
     "word": "想定する",
-    "reading": "",
+    "reading": "そうていする",
     "type": "verb",
     "meaning": "assume, suppose"
   },
@@ -21315,7 +21315,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2685,
     "word": "学習する",
-    "reading": "",
+    "reading": "がくしゅうする",
     "type": "verb",
     "meaning": "learn, study"
   },
@@ -21364,7 +21364,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2691,
     "word": "競争する",
-    "reading": "",
+    "reading": "きょうそうする",
     "type": "verb",
     "meaning": "compete"
   },
@@ -21378,7 +21378,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2692,
     "word": "投資する",
-    "reading": "",
+    "reading": "とうしする",
     "type": "verb",
     "meaning": "invest"
   },
@@ -21406,7 +21406,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2695,
     "word": "記述する",
-    "reading": "",
+    "reading": "きじゅつする",
     "type": "verb",
     "meaning": "describe"
   },
@@ -21434,7 +21434,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2698,
     "word": "獲得する",
-    "reading": "",
+    "reading": "かくとくする",
     "type": "verb",
     "meaning": "get, gain"
   },
@@ -21497,7 +21497,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2706,
     "word": "自慢する",
-    "reading": "",
+    "reading": "じまんする",
     "type": "verb",
     "meaning": "boast, brag"
   },
@@ -21525,7 +21525,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2709,
     "word": "更新する",
-    "reading": "",
+    "reading": "こうしんする",
     "type": "verb",
     "meaning": "renew, update"
   },
@@ -21651,7 +21651,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2726,
     "word": "予測する",
-    "reading": "",
+    "reading": "よそくする",
     "type": "verb",
     "meaning": "predict, estimate"
   },
@@ -21742,7 +21742,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2738,
     "word": "防止する",
-    "reading": "",
+    "reading": "ぼうしする",
     "type": "verb",
     "meaning": "prevent"
   },
@@ -21826,7 +21826,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2749,
     "word": "滞在する",
-    "reading": "",
+    "reading": "たいざいする",
     "type": "verb",
     "meaning": "stay, visit, stop"
   },
@@ -21840,7 +21840,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2750,
     "word": "連携する",
-    "reading": "",
+    "reading": "れんけいする",
     "type": "verb",
     "meaning": "work together with"
   },
@@ -21868,7 +21868,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2753,
     "word": "廃止する",
-    "reading": "",
+    "reading": "はいしする",
     "type": "verb",
     "meaning": "repeal"
   },
@@ -21882,7 +21882,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2754,
     "word": "復活する",
-    "reading": "",
+    "reading": "ふっかつする",
     "type": "verb",
     "meaning": "revive, restore"
   },
@@ -21896,7 +21896,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2755,
     "word": "借金する",
-    "reading": "",
+    "reading": "しゃっきんする",
     "type": "verb",
     "meaning": "borrow (money)"
   },
@@ -22050,7 +22050,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2775,
     "word": "乾燥する",
-    "reading": "",
+    "reading": "かんそうする",
     "type": "verb",
     "meaning": "dry"
   },
@@ -22106,7 +22106,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2782,
     "word": "配置する",
-    "reading": "",
+    "reading": "はいちする",
     "type": "verb",
     "meaning": "arrange"
   },
@@ -22120,7 +22120,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2783,
     "word": "輸出する",
-    "reading": "",
+    "reading": "ゆしゅつする",
     "type": "verb",
     "meaning": "export"
   },
@@ -22225,7 +22225,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2797,
     "word": "進歩する",
-    "reading": "",
+    "reading": "しんぽする",
     "type": "verb",
     "meaning": "progress, advance"
   },
@@ -22274,7 +22274,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2803,
     "word": "吸収する",
-    "reading": "",
+    "reading": "きゅうしゅうする",
     "type": "verb",
     "meaning": "absorb, assimilate"
   },
@@ -22351,7 +22351,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2813,
     "word": "観光する",
-    "reading": "",
+    "reading": "かんこうする",
     "type": "verb",
     "meaning": "go sightseeing"
   },
@@ -22421,7 +22421,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2821,
     "word": "記入する",
-    "reading": "",
+    "reading": "きにゅうする",
     "type": "verb",
     "meaning": "fill in"
   },
@@ -22491,7 +22491,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2830,
     "word": "後悔する",
-    "reading": "",
+    "reading": "こうかいする",
     "type": "verb",
     "meaning": "regret"
   },
@@ -22519,7 +22519,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2833,
     "word": "自覚する",
-    "reading": "",
+    "reading": "じかくする",
     "type": "verb",
     "meaning": "realize"
   },
@@ -22575,7 +22575,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2840,
     "word": "留学する",
-    "reading": "",
+    "reading": "りゅうがくする",
     "type": "verb",
     "meaning": "study abroad"
   },
@@ -22708,7 +22708,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2858,
     "word": "進展する",
-    "reading": "",
+    "reading": "しんてんする",
     "type": "verb",
     "meaning": "develop, progress, advance"
   },
@@ -22729,7 +22729,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2860,
     "word": "死亡する",
-    "reading": "",
+    "reading": "しぼうする",
     "type": "verb",
     "meaning": "die"
   },
@@ -22771,7 +22771,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2865,
     "word": "対立する",
-    "reading": "",
+    "reading": "たいりつする",
     "type": "verb",
     "meaning": "be opposed to"
   },
@@ -22834,7 +22834,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2873,
     "word": "出現する",
-    "reading": "",
+    "reading": "しゅつげんする",
     "type": "verb",
     "meaning": "appear"
   },
@@ -22862,7 +22862,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2876,
     "word": "工事する",
-    "reading": "",
+    "reading": "こうじする",
     "type": "verb",
     "meaning": "construct"
   },
@@ -22897,7 +22897,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2880,
     "word": "不足する",
-    "reading": "",
+    "reading": "ふそくする",
     "type": "verb",
     "meaning": "be insufficient"
   },
@@ -22918,7 +22918,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2882,
     "word": "限定する",
-    "reading": "",
+    "reading": "げんていする",
     "type": "verb",
     "meaning": "restrict, limit"
   },
@@ -22974,7 +22974,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2889,
     "word": "追加する",
-    "reading": "",
+    "reading": "ついかする",
     "type": "verb",
     "meaning": "add, supplement"
   },
@@ -23079,7 +23079,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2903,
     "word": "感激する",
-    "reading": "",
+    "reading": "かんげきする",
     "type": "verb",
     "meaning": "be impressed"
   },
@@ -23163,7 +23163,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2914,
     "word": "違反する",
-    "reading": "",
+    "reading": "いはんする",
     "type": "verb",
     "meaning": "violate"
   },
@@ -23226,7 +23226,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2922,
     "word": "解放する",
-    "reading": "",
+    "reading": "かいほうする",
     "type": "verb",
     "meaning": "liberate"
   },
@@ -23275,7 +23275,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2927,
     "word": "実践する",
-    "reading": "",
+    "reading": "じっせんする",
     "type": "verb",
     "meaning": "practice"
   },
@@ -23317,7 +23317,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2932,
     "word": "作用する",
-    "reading": "",
+    "reading": "さようする",
     "type": "verb",
     "meaning": "act"
   },
@@ -23352,7 +23352,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2936,
     "word": "差別する",
-    "reading": "",
+    "reading": "さべつする",
     "type": "verb",
     "meaning": "discriminate"
   },
@@ -23401,7 +23401,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2942,
     "word": "研修する",
-    "reading": "",
+    "reading": "けんしゅうする",
     "type": "verb",
     "meaning": "study"
   },
@@ -23527,7 +23527,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2959,
     "word": "支持する",
-    "reading": "",
+    "reading": "しじする",
     "type": "verb",
     "meaning": "support"
   },
@@ -23583,7 +23583,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2966,
     "word": "訪問する",
-    "reading": "",
+    "reading": "ほうもんする",
     "type": "verb",
     "meaning": "visit, call (on)"
   },
@@ -23653,7 +23653,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2975,
     "word": "支給する",
-    "reading": "",
+    "reading": "しきゅうする",
     "type": "verb",
     "meaning": "provide, pay"
   },
@@ -23681,7 +23681,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2978,
     "word": "感心する",
-    "reading": "",
+    "reading": "かんしんする",
     "type": "verb",
     "meaning": "admire"
   },
@@ -23702,7 +23702,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2980,
     "word": "決意する",
-    "reading": "",
+    "reading": "けついする",
     "type": "verb",
     "meaning": "resolve"
   },
@@ -23751,7 +23751,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2986,
     "word": "尊敬する",
-    "reading": "",
+    "reading": "そんけいする",
     "type": "verb",
     "meaning": "respect"
   },
@@ -23877,7 +23877,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3003,
     "word": "加入する",
-    "reading": "",
+    "reading": "かにゅうする",
     "type": "verb",
     "meaning": "join"
   },
@@ -23926,7 +23926,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3009,
     "word": "供給する",
-    "reading": "",
+    "reading": "きょうきゅうする",
     "type": "verb",
     "meaning": "supply"
   },
@@ -23954,7 +23954,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3012,
     "word": "建築する",
-    "reading": "",
+    "reading": "けんちくする",
     "type": "verb",
     "meaning": "build"
   },
@@ -24031,7 +24031,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3022,
     "word": "悪化する",
-    "reading": "",
+    "reading": "あっかする",
     "type": "verb",
     "meaning": "worsen"
   },
@@ -24073,7 +24073,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3027,
     "word": "消費する",
-    "reading": "",
+    "reading": "しょうひする",
     "type": "verb",
     "meaning": "consume"
   },
@@ -24122,7 +24122,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3033,
     "word": "活性化する",
-    "reading": "",
+    "reading": "かっせいかする",
     "type": "verb",
     "meaning": "revitalize"
   },
@@ -24150,7 +24150,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3036,
     "word": "混乱する",
-    "reading": "",
+    "reading": "こんらんする",
     "type": "verb",
     "meaning": "get confused"
   },
@@ -24185,7 +24185,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3040,
     "word": "動作する",
-    "reading": "",
+    "reading": "どうさする",
     "type": "verb",
     "meaning": "operate"
   },
@@ -24220,7 +24220,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3044,
     "word": "賛成する",
-    "reading": "",
+    "reading": "さんせいする",
     "type": "verb",
     "meaning": "agree"
   },
@@ -24269,7 +24269,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3050,
     "word": "勤務する",
-    "reading": "",
+    "reading": "きんむする",
     "type": "verb",
     "meaning": "work, serve"
   },
@@ -24283,7 +24283,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3051,
     "word": "恋愛する",
-    "reading": "",
+    "reading": "れんあいする",
     "type": "verb",
     "meaning": "love"
   },
@@ -24304,7 +24304,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3053,
     "word": "誤解する",
-    "reading": "",
+    "reading": "ごかいする",
     "type": "verb",
     "meaning": "misunderstand"
   },
@@ -24325,7 +24325,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3055,
     "word": "平均する",
-    "reading": "",
+    "reading": "へいきんする",
     "type": "verb",
     "meaning": "average"
   },
@@ -24367,7 +24367,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3060,
     "word": "翻訳する",
-    "reading": "",
+    "reading": "ほんやくする",
     "type": "verb",
     "meaning": "translate"
   },
@@ -24479,7 +24479,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3075,
     "word": "通過する",
-    "reading": "",
+    "reading": "つうかする",
     "type": "verb",
     "meaning": "pass"
   },
@@ -24493,7 +24493,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3076,
     "word": "確信する",
-    "reading": "",
+    "reading": "かくしんする",
     "type": "verb",
     "meaning": "be convinced"
   },
@@ -24577,7 +24577,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3087,
     "word": "崩壊する",
-    "reading": "",
+    "reading": "ほうかいする",
     "type": "verb",
     "meaning": "collapse"
   },
@@ -24647,7 +24647,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3096,
     "word": "製造する",
-    "reading": "",
+    "reading": "せいぞうする",
     "type": "verb",
     "meaning": "produce"
   },
@@ -24689,7 +24689,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3101,
     "word": "流行する",
-    "reading": "",
+    "reading": "りゅうこうする",
     "type": "verb",
     "meaning": "come into fashion, be rife"
   },
@@ -24710,7 +24710,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3103,
     "word": "承認する",
-    "reading": "",
+    "reading": "しょうにんする",
     "type": "verb",
     "meaning": "approve"
   },
@@ -24787,7 +24787,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3113,
     "word": "発音する",
-    "reading": "",
+    "reading": "はつおんする",
     "type": "verb",
     "meaning": "pronounce"
   },
@@ -24801,7 +24801,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3114,
     "word": "共有する",
-    "reading": "",
+    "reading": "きょうゆうする",
     "type": "verb",
     "meaning": "share"
   },
@@ -24815,7 +24815,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3115,
     "word": "勝負する",
-    "reading": "",
+    "reading": "しょうぶする",
     "type": "verb",
     "meaning": "play"
   },
@@ -24871,7 +24871,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3122,
     "word": "出品する",
-    "reading": "",
+    "reading": "しゅっぴんする",
     "type": "verb",
     "meaning": "submit"
   },
@@ -24976,7 +24976,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3135,
     "word": "合併する",
-    "reading": "",
+    "reading": "がっぺいする",
     "type": "verb",
     "meaning": "combine, merge"
   },
@@ -24997,7 +24997,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3137,
     "word": "徹底する",
-    "reading": "",
+    "reading": "てっていする",
     "type": "verb",
     "meaning": "be thorough"
   },
@@ -25053,7 +25053,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3144,
     "word": "構築する",
-    "reading": "",
+    "reading": "こうちくする",
     "type": "verb",
     "meaning": "construct"
   },
@@ -25165,7 +25165,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3159,
     "word": "退職する",
-    "reading": "",
+    "reading": "たいしょくする",
     "type": "verb",
     "meaning": "retire, resign"
   },
@@ -25452,7 +25452,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3198,
     "word": "移行する",
-    "reading": "",
+    "reading": "いこうする",
     "type": "verb",
     "meaning": "shift"
   },
@@ -25466,7 +25466,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3199,
     "word": "味方する",
-    "reading": "",
+    "reading": "みかたする",
     "type": "verb",
     "meaning": "support"
   },
@@ -25487,7 +25487,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3201,
     "word": "転勤する",
-    "reading": "",
+    "reading": "てんきんする",
     "type": "verb",
     "meaning": "be transferred"
   },
@@ -25592,7 +25592,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3215,
     "word": "退院する",
-    "reading": "",
+    "reading": "たいいんする",
     "type": "verb",
     "meaning": "be discharged from hospital"
   },
@@ -25662,7 +25662,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3224,
     "word": "展示する",
-    "reading": "",
+    "reading": "てんじする",
     "type": "verb",
     "meaning": "display, exhibit"
   },
@@ -25690,7 +25690,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3227,
     "word": "診断する",
-    "reading": "",
+    "reading": "しんだんする",
     "type": "verb",
     "meaning": "diagnose"
   },
@@ -25746,7 +25746,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3234,
     "word": "出版する",
-    "reading": "",
+    "reading": "しゅっぱんする",
     "type": "verb",
     "meaning": "publish"
   },
@@ -25774,7 +25774,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3237,
     "word": "由来する",
-    "reading": "",
+    "reading": "ゆらいする",
     "type": "verb",
     "meaning": "originate"
   },
@@ -25809,7 +25809,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3241,
     "word": "同意する",
-    "reading": "",
+    "reading": "どういする",
     "type": "verb",
     "meaning": "agree"
   },
@@ -25830,7 +25830,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3243,
     "word": "認定する",
-    "reading": "",
+    "reading": "にんていする",
     "type": "verb",
     "meaning": "authorize"
   },
@@ -25949,7 +25949,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3258,
     "word": "制定する",
-    "reading": "",
+    "reading": "せいていする",
     "type": "verb",
     "meaning": "enact"
   },
@@ -26089,7 +26089,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3277,
     "word": "市販する",
-    "reading": "",
+    "reading": "しはんする",
     "type": "verb",
     "meaning": "market"
   },
@@ -26159,7 +26159,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3285,
     "word": "呼吸する",
-    "reading": "",
+    "reading": "こきゅうする",
     "type": "verb",
     "meaning": "breathe"
   },
@@ -26187,7 +26187,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3288,
     "word": "延長する",
-    "reading": "",
+    "reading": "えんちょうする",
     "type": "verb",
     "meaning": "extend"
   },
@@ -26264,7 +26264,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3298,
     "word": "紅葉する",
-    "reading": "",
+    "reading": "こうようする",
     "type": "verb",
     "meaning": "put on fall colors"
   },
@@ -26285,7 +26285,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3300,
     "word": "信仰する",
-    "reading": "",
+    "reading": "しんこうする",
     "type": "verb",
     "meaning": "believe"
   },
@@ -26327,7 +26327,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3305,
     "word": "運用する",
-    "reading": "",
+    "reading": "うんようする",
     "type": "verb",
     "meaning": "manage"
   },
@@ -26376,7 +26376,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3310,
     "word": "拒否する",
-    "reading": "",
+    "reading": "きょひする",
     "type": "verb",
     "meaning": "refuse, reject"
   },
@@ -26432,7 +26432,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3317,
     "word": "落札する",
-    "reading": "",
+    "reading": "らくさつする",
     "type": "verb",
     "meaning": "make a successful bid"
   },
@@ -26446,7 +26446,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3318,
     "word": "出場する",
-    "reading": "",
+    "reading": "しゅつじょうする",
     "type": "verb",
     "meaning": "participate"
   },
@@ -26488,7 +26488,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3323,
     "word": "雇用する",
-    "reading": "",
+    "reading": "こようする",
     "type": "verb",
     "meaning": "employ"
   },
@@ -26544,7 +26544,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3330,
     "word": "印刷する",
-    "reading": "",
+    "reading": "いんさつする",
     "type": "verb",
     "meaning": "print"
   },
@@ -26579,7 +26579,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3334,
     "word": "中止する",
-    "reading": "",
+    "reading": "ちゅうしする",
     "type": "verb",
     "meaning": "cancel, call off"
   },
@@ -26593,7 +26593,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3335,
     "word": "連続する",
-    "reading": "",
+    "reading": "れんぞくする",
     "type": "verb",
     "meaning": "continue"
   },
@@ -26663,7 +26663,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3344,
     "word": "説得する",
-    "reading": "",
+    "reading": "せっとくする",
     "type": "verb",
     "meaning": "persuade"
   },
@@ -26691,7 +26691,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3347,
     "word": "放置する",
-    "reading": "",
+    "reading": "ほうちする",
     "type": "verb",
     "meaning": "neglect"
   },
@@ -26726,7 +26726,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3351,
     "word": "編集する",
-    "reading": "",
+    "reading": "へんしゅうする",
     "type": "verb",
     "meaning": "edit"
   },
@@ -26761,7 +26761,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3355,
     "word": "象徴する",
-    "reading": "",
+    "reading": "しょうちょうする",
     "type": "verb",
     "meaning": "symbolize"
   },
@@ -26789,7 +26789,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3358,
     "word": "見学する",
-    "reading": "",
+    "reading": "けんがくする",
     "type": "verb",
     "meaning": "visit for study, go on a field trip"
   },
@@ -26817,7 +26817,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3361,
     "word": "応募する",
-    "reading": "",
+    "reading": "おうぼする",
     "type": "verb",
     "meaning": "apply for"
   },
@@ -26859,7 +26859,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3366,
     "word": "固定する",
-    "reading": "",
+    "reading": "こていする",
     "type": "verb",
     "meaning": "fix"
   },
@@ -26873,7 +26873,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3367,
     "word": "告白する",
-    "reading": "",
+    "reading": "こくはくする",
     "type": "verb",
     "meaning": "confess"
   },
@@ -26894,7 +26894,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3369,
     "word": "策定する",
-    "reading": "",
+    "reading": "さくていする",
     "type": "verb",
     "meaning": "settle on"
   },
@@ -26908,7 +26908,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3370,
     "word": "矛盾する",
-    "reading": "",
+    "reading": "むじゅんする",
     "type": "verb",
     "meaning": "contradict"
   },
@@ -26929,7 +26929,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3372,
     "word": "保証する",
-    "reading": "",
+    "reading": "ほしょうする",
     "type": "verb",
     "meaning": "guarantee"
   },
@@ -27013,7 +27013,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3383,
     "word": "公表する",
-    "reading": "",
+    "reading": "こうひょうする",
     "type": "verb",
     "meaning": "make public"
   },
@@ -27132,7 +27132,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3398,
     "word": "入手する",
-    "reading": "",
+    "reading": "にゅうしゅする",
     "type": "verb",
     "meaning": "get, obtain"
   },
@@ -27223,7 +27223,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3409,
     "word": "通知する",
-    "reading": "",
+    "reading": "つうちする",
     "type": "verb",
     "meaning": "notify"
   },
@@ -27237,7 +27237,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3410,
     "word": "要望する",
-    "reading": "",
+    "reading": "ようぼうする",
     "type": "verb",
     "meaning": "make demands"
   },
@@ -27321,7 +27321,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3421,
     "word": "定着する",
-    "reading": "",
+    "reading": "ていちゃくする",
     "type": "verb",
     "meaning": "fix; become established"
   },
@@ -27419,7 +27419,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3434,
     "word": "提示する",
-    "reading": "",
+    "reading": "ていじする",
     "type": "verb",
     "meaning": "present"
   },
@@ -27454,7 +27454,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3438,
     "word": "優先する",
-    "reading": "",
+    "reading": "ゆうせんする",
     "type": "verb",
     "meaning": "have priority"
   },
@@ -27489,7 +27489,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3441,
     "word": "制作する",
-    "reading": "",
+    "reading": "せいさくする",
     "type": "verb",
     "meaning": "produce"
   },
@@ -27657,7 +27657,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3464,
     "word": "合意する",
-    "reading": "",
+    "reading": "ごういする",
     "type": "verb",
     "meaning": "agree"
   },
@@ -27727,7 +27727,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3473,
     "word": "回収する",
-    "reading": "",
+    "reading": "かいしゅうする",
     "type": "verb",
     "meaning": "collect"
   },
@@ -27741,7 +27741,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3474,
     "word": "再生する",
-    "reading": "",
+    "reading": "さいせいする",
     "type": "verb",
     "meaning": "regenerate"
   },
@@ -27825,7 +27825,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3483,
     "word": "施行する",
-    "reading": "",
+    "reading": "しこうする",
     "type": "verb",
     "meaning": "enforce"
   },
@@ -27853,7 +27853,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3486,
     "word": "追及する",
-    "reading": "",
+    "reading": "ついきゅうする",
     "type": "verb",
     "meaning": "pursue the question"
   },
@@ -27895,7 +27895,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3491,
     "word": "労働する",
-    "reading": "",
+    "reading": "ろうどうする",
     "type": "verb",
     "meaning": "work, labor"
   },
@@ -27937,7 +27937,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3496,
     "word": "帰宅する",
-    "reading": "",
+    "reading": "きたくする",
     "type": "verb",
     "meaning": "come home"
   },
@@ -27965,7 +27965,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3499,
     "word": "汚染する",
-    "reading": "",
+    "reading": "おせんする",
     "type": "verb",
     "meaning": "pollute"
   },
@@ -27979,7 +27979,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3500,
     "word": "転換する",
-    "reading": "",
+    "reading": "てんかんする",
     "type": "verb",
     "meaning": "convert, change"
   },
@@ -28007,7 +28007,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3503,
     "word": "予防する",
-    "reading": "",
+    "reading": "よぼうする",
     "type": "verb",
     "meaning": "prevent"
   },
@@ -28063,7 +28063,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3510,
     "word": "宣言する",
-    "reading": "",
+    "reading": "せんげんする",
     "type": "verb",
     "meaning": "declare"
   },
@@ -28105,7 +28105,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3515,
     "word": "解散する",
-    "reading": "",
+    "reading": "かいさんする",
     "type": "verb",
     "meaning": "dissolve, break up"
   },
@@ -28126,7 +28126,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3517,
     "word": "回転する",
-    "reading": "",
+    "reading": "かいてんする",
     "type": "verb",
     "meaning": "revolve, turn round, spin"
   },
@@ -28217,7 +28217,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3529,
     "word": "合宿する",
-    "reading": "",
+    "reading": "がっしゅくする",
     "type": "verb",
     "meaning": "stay together in a camp"
   },
@@ -28329,7 +28329,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3543,
     "word": "所有する",
-    "reading": "",
+    "reading": "しょゆうする",
     "type": "verb",
     "meaning": "own"
   },
@@ -28343,7 +28343,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3544,
     "word": "進出する",
-    "reading": "",
+    "reading": "しんしゅつする",
     "type": "verb",
     "meaning": "launch into"
   },
@@ -28364,7 +28364,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3546,
     "word": "測定する",
-    "reading": "",
+    "reading": "そくていする",
     "type": "verb",
     "meaning": "measure"
   },
@@ -28420,7 +28420,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3553,
     "word": "修理する",
-    "reading": "",
+    "reading": "しゅうりする",
     "type": "verb",
     "meaning": "repair"
   },
@@ -28441,7 +28441,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3555,
     "word": "加工する",
-    "reading": "",
+    "reading": "かこうする",
     "type": "verb",
     "meaning": "process"
   },
@@ -28504,7 +28504,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3563,
     "word": "排除する",
-    "reading": "",
+    "reading": "はいじょする",
     "type": "verb",
     "meaning": "remove"
   },
@@ -28518,7 +28518,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3564,
     "word": "育成する",
-    "reading": "",
+    "reading": "いくせいする",
     "type": "verb",
     "meaning": "bring up, cultivate, mold"
   },
@@ -28532,7 +28532,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3565,
     "word": "移転する",
-    "reading": "",
+    "reading": "いてんする",
     "type": "verb",
     "meaning": "move"
   },
@@ -28567,7 +28567,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3569,
     "word": "自立する",
-    "reading": "",
+    "reading": "じりつする",
     "type": "verb",
     "meaning": "be independent"
   },
@@ -28770,7 +28770,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3597,
     "word": "収穫する",
-    "reading": "",
+    "reading": "しゅうかくする",
     "type": "verb",
     "meaning": "harvest"
   },
@@ -28826,7 +28826,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3604,
     "word": "抽選する",
-    "reading": "",
+    "reading": "ちゅうせんする",
     "type": "verb",
     "meaning": "draw lots"
   },
@@ -28875,7 +28875,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3610,
     "word": "協議する",
-    "reading": "",
+    "reading": "きょうぎする",
     "type": "verb",
     "meaning": "consult, discuss"
   },
@@ -28896,7 +28896,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3612,
     "word": "発酵する",
-    "reading": "",
+    "reading": "はっこうする",
     "type": "verb",
     "meaning": "ferment"
   },
@@ -28917,7 +28917,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3614,
     "word": "入札する",
-    "reading": "",
+    "reading": "にゅうさつする",
     "type": "verb",
     "meaning": "bid, tender"
   },
@@ -28987,7 +28987,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3623,
     "word": "感染する",
-    "reading": "",
+    "reading": "かんせんする",
     "type": "verb",
     "meaning": "contract, catch, be infected"
   },
@@ -29001,7 +29001,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3624,
     "word": "尊重する",
-    "reading": "",
+    "reading": "そんちょうする",
     "type": "verb",
     "meaning": "give something serious consideration"
   },
@@ -29050,7 +29050,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3630,
     "word": "洗濯する",
-    "reading": "",
+    "reading": "せんたくする",
     "type": "verb",
     "meaning": "wash"
   },
@@ -29099,7 +29099,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3637,
     "word": "勘違いする",
-    "reading": "",
+    "reading": "かんちがいする",
     "type": "verb",
     "meaning": "misunderstand, mistake"
   },
@@ -29162,7 +29162,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3645,
     "word": "修正する",
-    "reading": "",
+    "reading": "しゅうせいする",
     "type": "verb",
     "meaning": "revise"
   },
@@ -29225,7 +29225,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3652,
     "word": "削減する",
-    "reading": "",
+    "reading": "さくげんする",
     "type": "verb",
     "meaning": "cut, slash"
   },
@@ -29246,7 +29246,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3654,
     "word": "爆発する",
-    "reading": "",
+    "reading": "ばくはつする",
     "type": "verb",
     "meaning": "explode"
   },
@@ -29295,7 +29295,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3660,
     "word": "決心する",
-    "reading": "",
+    "reading": "けっしんする",
     "type": "verb",
     "meaning": "decide"
   },
@@ -29330,7 +29330,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3664,
     "word": "調理する",
-    "reading": "",
+    "reading": "ちょうりする",
     "type": "verb",
     "meaning": "cook"
   },
@@ -29407,7 +29407,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3673,
     "word": "停止する",
-    "reading": "",
+    "reading": "ていしする",
     "type": "verb",
     "meaning": "stop, suspend"
   },
@@ -29505,7 +29505,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3685,
     "word": "統一する",
-    "reading": "",
+    "reading": "とういつする",
     "type": "verb",
     "meaning": "unify"
   },
@@ -29645,7 +29645,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3704,
     "word": "発明する",
-    "reading": "",
+    "reading": "はつめいする",
     "type": "verb",
     "meaning": "invent"
   },
@@ -29687,7 +29687,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3709,
     "word": "非難する",
-    "reading": "",
+    "reading": "ひなんする",
     "type": "verb",
     "meaning": "criticize"
   },
@@ -29855,7 +29855,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3732,
     "word": "栽培する",
-    "reading": "",
+    "reading": "さいばいする",
     "type": "verb",
     "meaning": "cultivate"
   },
@@ -29883,7 +29883,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3735,
     "word": "保障する",
-    "reading": "",
+    "reading": "ほしょうする",
     "type": "verb",
     "meaning": "guarantee"
   },
@@ -29932,7 +29932,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3740,
     "word": "審査する",
-    "reading": "",
+    "reading": "しんさする",
     "type": "verb",
     "meaning": "examine"
   },
@@ -29967,7 +29967,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3744,
     "word": "通勤する",
-    "reading": "",
+    "reading": "つうきんする",
     "type": "verb",
     "meaning": "commute"
   },
@@ -29995,7 +29995,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3747,
     "word": "推測する",
-    "reading": "",
+    "reading": "すいそくする",
     "type": "verb",
     "meaning": "guess, presume"
   },
@@ -30051,7 +30051,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3754,
     "word": "接触する",
-    "reading": "",
+    "reading": "せっしょくする",
     "type": "verb",
     "meaning": "touch"
   },
@@ -30170,7 +30170,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3770,
     "word": "結成する",
-    "reading": "",
+    "reading": "けっせいする",
     "type": "verb",
     "meaning": "form, organize"
   },
@@ -30205,7 +30205,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3774,
     "word": "就職活動する",
-    "reading": "",
+    "reading": "しゅうしょくかつどうする",
     "type": "verb",
     "meaning": "look for a job"
   },
@@ -30219,7 +30219,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3775,
     "word": "捜査する",
-    "reading": "",
+    "reading": "そうさする",
     "type": "verb",
     "meaning": "investigate"
   },
@@ -30352,7 +30352,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3792,
     "word": "判決する",
-    "reading": "",
+    "reading": "はんけつする",
     "type": "verb",
     "meaning": "decide"
   },
@@ -30401,7 +30401,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3798,
     "word": "関与する",
-    "reading": "",
+    "reading": "かんよする",
     "type": "verb",
     "meaning": "participate"
   },
@@ -30478,7 +30478,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3807,
     "word": "録音する",
-    "reading": "",
+    "reading": "ろくおんする",
     "type": "verb",
     "meaning": "record"
   },
@@ -30492,7 +30492,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3808,
     "word": "沈黙する",
-    "reading": "",
+    "reading": "ちんもくする",
     "type": "verb",
     "meaning": "be silent"
   },
@@ -30548,7 +30548,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3815,
     "word": "懸念する",
-    "reading": "",
+    "reading": "けねんする",
     "type": "verb",
     "meaning": "fear"
   },
@@ -30597,7 +30597,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3821,
     "word": "定年する",
-    "reading": "",
+    "reading": "ていねんする",
     "type": "verb",
     "meaning": "retire"
   },
@@ -30611,7 +30611,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3822,
     "word": "育児する",
-    "reading": "",
+    "reading": "いくじする",
     "type": "verb",
     "meaning": "take care of a child"
   },
@@ -30646,7 +30646,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3826,
     "word": "完了する",
-    "reading": "",
+    "reading": "かんりょうする",
     "type": "verb",
     "meaning": "complete"
   },
@@ -30688,7 +30688,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3831,
     "word": "宣伝する",
-    "reading": "",
+    "reading": "せんでんする",
     "type": "verb",
     "meaning": "advertise"
   },
@@ -30716,7 +30716,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3834,
     "word": "思考する",
-    "reading": "",
+    "reading": "しこうする",
     "type": "verb",
     "meaning": "think"
   },
@@ -30814,7 +30814,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3846,
     "word": "記念する",
-    "reading": "",
+    "reading": "きねんする",
     "type": "verb",
     "meaning": "commemorate"
   },
@@ -30849,7 +30849,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3850,
     "word": "引退する",
-    "reading": "",
+    "reading": "いんたいする",
     "type": "verb",
     "meaning": "retire"
   },
@@ -30947,7 +30947,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3862,
     "word": "抑制する",
-    "reading": "",
+    "reading": "よくせいする",
     "type": "verb",
     "meaning": "control, restrain"
   },
@@ -31059,7 +31059,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3877,
     "word": "推定する",
-    "reading": "",
+    "reading": "すいていする",
     "type": "verb",
     "meaning": "presume, estimate"
   },
@@ -31185,7 +31185,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3892,
     "word": "直面する",
-    "reading": "",
+    "reading": "ちょくめんする",
     "type": "verb",
     "meaning": "confront, face"
   },
@@ -31227,7 +31227,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3897,
     "word": "休憩する",
-    "reading": "",
+    "reading": "きゅうけいする",
     "type": "verb",
     "meaning": "take a rest"
   },
@@ -31276,7 +31276,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3903,
     "word": "従事する",
-    "reading": "",
+    "reading": "じゅうじする",
     "type": "verb",
     "meaning": "be engaged in"
   },
@@ -31290,7 +31290,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3904,
     "word": "蓄積する",
-    "reading": "",
+    "reading": "ちくせきする",
     "type": "verb",
     "meaning": "store, accumulate"
   },
@@ -31465,7 +31465,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3927,
     "word": "交付する",
-    "reading": "",
+    "reading": "こうふする",
     "type": "verb",
     "meaning": "issue, grant"
   },
@@ -31479,7 +31479,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3928,
     "word": "証言する",
-    "reading": "",
+    "reading": "しょうげんする",
     "type": "verb",
     "meaning": "give testimony"
   },
@@ -31507,7 +31507,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3931,
     "word": "解明する",
-    "reading": "",
+    "reading": "かいめいする",
     "type": "verb",
     "meaning": "solve"
   },
@@ -31570,7 +31570,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3938,
     "word": "化粧する",
-    "reading": "",
+    "reading": "けしょうする",
     "type": "verb",
     "meaning": "put on makeup"
   },
@@ -31598,7 +31598,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3941,
     "word": "持参する",
-    "reading": "",
+    "reading": "じさんする",
     "type": "verb",
     "meaning": "bring, take"
   },
@@ -31612,7 +31612,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3942,
     "word": "引用する",
-    "reading": "",
+    "reading": "いんようする",
     "type": "verb",
     "meaning": "quote"
   },
@@ -31871,7 +31871,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3976,
     "word": "交代する",
-    "reading": "",
+    "reading": "こうたいする",
     "type": "verb",
     "meaning": "take turns"
   },
@@ -31927,7 +31927,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3983,
     "word": "締結する",
-    "reading": "",
+    "reading": "ていけつする",
     "type": "verb",
     "meaning": "conclude"
   },
@@ -31962,7 +31962,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3987,
     "word": "収集する",
-    "reading": "",
+    "reading": "しゅうしゅうする",
     "type": "verb",
     "meaning": "collect"
   },
@@ -31983,7 +31983,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3989,
     "word": "脱出する",
-    "reading": "",
+    "reading": "だっしゅつする",
     "type": "verb",
     "meaning": "escape, break out"
   },
@@ -32074,7 +32074,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4001,
     "word": "上達する",
-    "reading": "",
+    "reading": "じょうたつする",
     "type": "verb",
     "meaning": "improve, progress"
   },
@@ -32102,7 +32102,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4004,
     "word": "表明する",
-    "reading": "",
+    "reading": "ひょうめいする",
     "type": "verb",
     "meaning": "express, manifest"
   },
@@ -32144,7 +32144,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4009,
     "word": "通用する",
-    "reading": "",
+    "reading": "つうようする",
     "type": "verb",
     "meaning": "accept, obtain"
   },
@@ -32242,7 +32242,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4021,
     "word": "仮定する",
-    "reading": "",
+    "reading": "かていする",
     "type": "verb",
     "meaning": "assume, suppose"
   },
@@ -32270,7 +32270,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4024,
     "word": "依存する",
-    "reading": "",
+    "reading": "いぞんする",
     "type": "verb",
     "meaning": "depend, rely,"
   },
@@ -32291,7 +32291,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4026,
     "word": "同居する",
-    "reading": "",
+    "reading": "どうきょする",
     "type": "verb",
     "meaning": "live together, live with"
   },
@@ -32347,7 +32347,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4033,
     "word": "制約する",
-    "reading": "",
+    "reading": "せいやくする",
     "type": "verb",
     "meaning": "restrict, constrain"
   },
@@ -32487,7 +32487,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4052,
     "word": "決断する",
-    "reading": "",
+    "reading": "けつだんする",
     "type": "verb",
     "meaning": "decide"
   },
@@ -32522,7 +32522,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4056,
     "word": "監視する",
-    "reading": "",
+    "reading": "かんしする",
     "type": "verb",
     "meaning": "watch"
   },
@@ -32592,7 +32592,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4065,
     "word": "虐待する",
-    "reading": "",
+    "reading": "ぎゃくたいする",
     "type": "verb",
     "meaning": "abuse"
   },
@@ -32620,7 +32620,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4068,
     "word": "配布する",
-    "reading": "",
+    "reading": "はいふする",
     "type": "verb",
     "meaning": "distribute"
   },
@@ -32774,7 +32774,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4089,
     "word": "外出する",
-    "reading": "",
+    "reading": "がいしゅつする",
     "type": "verb",
     "meaning": "go out"
   },
@@ -32914,7 +32914,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4108,
     "word": "節約する",
-    "reading": "",
+    "reading": "せつやくする",
     "type": "verb",
     "meaning": "save, economize on"
   },
@@ -33173,7 +33173,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4144,
     "word": "分割する",
-    "reading": "",
+    "reading": "ぶんかつする",
     "type": "verb",
     "meaning": "divide"
   },
@@ -33187,7 +33187,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4145,
     "word": "縮小する",
-    "reading": "",
+    "reading": "しゅくしょうする",
     "type": "verb",
     "meaning": "reduce"
   },
@@ -33320,7 +33320,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4163,
     "word": "消滅する",
-    "reading": "",
+    "reading": "しょうめつする",
     "type": "verb",
     "meaning": "disappear"
   },
@@ -33362,7 +33362,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4168,
     "word": "保有する",
-    "reading": "",
+    "reading": "ほゆうする",
     "type": "verb",
     "meaning": "hold, possess"
   },
@@ -33376,7 +33376,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4169,
     "word": "反発する",
-    "reading": "",
+    "reading": "はんぱつする",
     "type": "verb",
     "meaning": "react, resist, rebel, repel"
   },
@@ -33635,7 +33635,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4203,
     "word": "倒産する",
-    "reading": "",
+    "reading": "とうさんする",
     "type": "verb",
     "meaning": "go bankrupt"
   },
@@ -33663,7 +33663,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4206,
     "word": "保全する",
-    "reading": "",
+    "reading": "ほぜんする",
     "type": "verb",
     "meaning": "preserve, maintain"
   },
@@ -33677,7 +33677,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4207,
     "word": "結合する",
-    "reading": "",
+    "reading": "けつごうする",
     "type": "verb",
     "meaning": "combine, join"
   },
@@ -33810,7 +33810,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4225,
     "word": "確定する",
-    "reading": "",
+    "reading": "かくていする",
     "type": "verb",
     "meaning": "determine, decide"
   },
@@ -33852,7 +33852,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4230,
     "word": "分布する",
-    "reading": "",
+    "reading": "ぶんぷする",
     "type": "verb",
     "meaning": "distribute"
   },
@@ -33901,7 +33901,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4236,
     "word": "調和する",
-    "reading": "",
+    "reading": "ちょうわする",
     "type": "verb",
     "meaning": "harmonize, match"
   },
@@ -33978,7 +33978,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4246,
     "word": "稽古する",
-    "reading": "",
+    "reading": "けいこする",
     "type": "verb",
     "meaning": "practice"
   },
@@ -34020,7 +34020,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4251,
     "word": "創造する",
-    "reading": "",
+    "reading": "そうぞうする",
     "type": "verb",
     "meaning": "create"
   },
@@ -34125,7 +34125,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4265,
     "word": "軽減する",
-    "reading": "",
+    "reading": "けいげんする",
     "type": "verb",
     "meaning": "reduce"
   },
@@ -34160,7 +34160,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4269,
     "word": "融資する",
-    "reading": "",
+    "reading": "ゆうしする",
     "type": "verb",
     "meaning": "loan, lend"
   },
@@ -34174,7 +34174,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4270,
     "word": "破綻する",
-    "reading": "",
+    "reading": "はたんする",
     "type": "verb",
     "meaning": "fail, go bankrupt"
   },
@@ -34321,7 +34321,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4288,
     "word": "補助する",
-    "reading": "",
+    "reading": "ほじょする",
     "type": "verb",
     "meaning": "help, aid, assist"
   },
@@ -34426,7 +34426,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4302,
     "word": "侵入する",
-    "reading": "",
+    "reading": "しんにゅうする",
     "type": "verb",
     "meaning": "break into, invade"
   },
@@ -34524,7 +34524,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4314,
     "word": "復帰する",
-    "reading": "",
+    "reading": "ふっきする",
     "type": "verb",
     "meaning": "return, come back, make a comeback"
   },
@@ -34538,7 +34538,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4315,
     "word": "衝突する",
-    "reading": "",
+    "reading": "しょうとつする",
     "type": "verb",
     "meaning": "collide, clash"
   },
@@ -34580,7 +34580,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4320,
     "word": "変動する",
-    "reading": "",
+    "reading": "へんどうする",
     "type": "verb",
     "meaning": "change, fluctuate"
   },
@@ -34769,7 +34769,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4346,
     "word": "克服する",
-    "reading": "",
+    "reading": "こくふくする",
     "type": "verb",
     "meaning": "conquer, overcome"
   },
@@ -34874,7 +34874,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4360,
     "word": "応用する",
-    "reading": "",
+    "reading": "おうようする",
     "type": "verb",
     "meaning": "apply"
   },
@@ -35028,7 +35028,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4380,
     "word": "判定する",
-    "reading": "",
+    "reading": "はんていする",
     "type": "verb",
     "meaning": "decide, judge"
   },
@@ -35063,7 +35063,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4384,
     "word": "対話する",
-    "reading": "",
+    "reading": "たいわする",
     "type": "verb",
     "meaning": "converse, discuss"
   },
@@ -35189,7 +35189,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4401,
     "word": "判明する",
-    "reading": "",
+    "reading": "はんめいする",
     "type": "verb",
     "meaning": "turn out, identify"
   },
@@ -35203,7 +35203,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4402,
     "word": "統合する",
-    "reading": "",
+    "reading": "とうごうする",
     "type": "verb",
     "meaning": "integrate, combine"
   },
@@ -35294,7 +35294,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4414,
     "word": "創設する",
-    "reading": "",
+    "reading": "そうせつする",
     "type": "verb",
     "meaning": "found, create"
   },
@@ -35392,7 +35392,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4427,
     "word": "流通する",
-    "reading": "",
+    "reading": "りゅうつうする",
     "type": "verb",
     "meaning": "circulate, distribute"
   },
@@ -35448,7 +35448,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4434,
     "word": "入社する",
-    "reading": "",
+    "reading": "にゅうしゃする",
     "type": "verb",
     "meaning": "enter a company, get a job"
   },
@@ -35483,7 +35483,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4438,
     "word": "成人する",
-    "reading": "",
+    "reading": "せいじんする",
     "type": "verb",
     "meaning": "come of age"
   },
@@ -35616,7 +35616,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4455,
     "word": "始末する",
-    "reading": "",
+    "reading": "しまつする",
     "type": "verb",
     "meaning": "manage, deal with, dispose of"
   },
@@ -35665,7 +35665,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4461,
     "word": "渋滞する",
-    "reading": "",
+    "reading": "じゅうたいする",
     "type": "verb",
     "meaning": "be delayed"
   },
@@ -35679,7 +35679,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4462,
     "word": "遠慮する",
-    "reading": "",
+    "reading": "えんりょする",
     "type": "verb",
     "meaning": "hesitate"
   },
@@ -35721,7 +35721,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4467,
     "word": "開設する",
-    "reading": "",
+    "reading": "かいせつする",
     "type": "verb",
     "meaning": "establish, set up"
   },
@@ -35770,7 +35770,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4473,
     "word": "予感する",
-    "reading": "",
+    "reading": "よかんする",
     "type": "verb",
     "meaning": "have a presentiment/foreboding/hunch"
   },
@@ -35903,7 +35903,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4491,
     "word": "行列する",
-    "reading": "",
+    "reading": "ぎょうれつする",
     "type": "verb",
     "meaning": "line up, queue"
   },
@@ -35917,7 +35917,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4492,
     "word": "計上する",
-    "reading": "",
+    "reading": "けいじょうする",
     "type": "verb",
     "meaning": "appropriate"
   },
@@ -35931,7 +35931,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4493,
     "word": "受診する",
-    "reading": "",
+    "reading": "じゅしんする",
     "type": "verb",
     "meaning": "consult, have a medical examination"
   },
@@ -35945,7 +35945,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4494,
     "word": "指揮する",
-    "reading": "",
+    "reading": "しきする",
     "type": "verb",
     "meaning": "conduct, direct"
   },
@@ -35959,7 +35959,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4495,
     "word": "保管する",
-    "reading": "",
+    "reading": "ほかんする",
     "type": "verb",
     "meaning": "keep"
   },
@@ -35980,7 +35980,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4497,
     "word": "発足する",
-    "reading": "",
+    "reading": "ほっそくする",
     "type": "verb",
     "meaning": "start"
   },
@@ -36008,7 +36008,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4500,
     "word": "考察する",
-    "reading": "",
+    "reading": "こうさつする",
     "type": "verb",
     "meaning": "consider, examine"
   },
@@ -36043,7 +36043,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4504,
     "word": "認可する",
-    "reading": "",
+    "reading": "にんかする",
     "type": "verb",
     "meaning": "permit, approve"
   },
@@ -36127,7 +36127,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4514,
     "word": "審議する",
-    "reading": "",
+    "reading": "しんぎする",
     "type": "verb",
     "meaning": "discuss, deliberate"
   },
@@ -36218,7 +36218,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4525,
     "word": "分解する",
-    "reading": "",
+    "reading": "ぶんかいする",
     "type": "verb",
     "meaning": "resolve, dismantle, take apart, analyze"
   },
@@ -36246,7 +36246,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4528,
     "word": "調達する",
-    "reading": "",
+    "reading": "ちょうたつする",
     "type": "verb",
     "meaning": "supply, procure"
   },
@@ -36372,7 +36372,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4545,
     "word": "繁栄する",
-    "reading": "",
+    "reading": "はんえいする",
     "type": "verb",
     "meaning": "prosper, flourish"
   },
@@ -36435,7 +36435,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4553,
     "word": "主催する",
-    "reading": "",
+    "reading": "しゅさいする",
     "type": "verb",
     "meaning": "host, promote, organize"
   },
@@ -36477,7 +36477,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4558,
     "word": "錯覚する",
-    "reading": "",
+    "reading": "さっかくする",
     "type": "verb",
     "meaning": "have the illusion/impression"
   },
@@ -36505,7 +36505,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4561,
     "word": "隣接する",
-    "reading": "",
+    "reading": "りんせつする",
     "type": "verb",
     "meaning": "be adjacent, adjoin, be next to"
   },
@@ -36568,7 +36568,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4569,
     "word": "到達する",
-    "reading": "",
+    "reading": "とうたつする",
     "type": "verb",
     "meaning": "reach"
   },
@@ -36722,7 +36722,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4588,
     "word": "浸透する",
-    "reading": "",
+    "reading": "しんとうする",
     "type": "verb",
     "meaning": "soak, penetrate"
   },
@@ -36736,7 +36736,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4589,
     "word": "合図する",
-    "reading": "",
+    "reading": "あいずする",
     "type": "verb",
     "meaning": "signal, sign"
   },
@@ -36771,7 +36771,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4593,
     "word": "招待する",
-    "reading": "",
+    "reading": "しょうたいする",
     "type": "verb",
     "meaning": "invite"
   },
@@ -36813,7 +36813,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4598,
     "word": "対抗する",
-    "reading": "",
+    "reading": "たいこうする",
     "type": "verb",
     "meaning": "oppose, rival"
   },
@@ -36862,7 +36862,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4604,
     "word": "挿入する",
-    "reading": "",
+    "reading": "そうにゅうする",
     "type": "verb",
     "meaning": "insert"
   },
@@ -36981,7 +36981,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4620,
     "word": "分離する",
-    "reading": "",
+    "reading": "ぶんりする",
     "type": "verb",
     "meaning": "separate, detach"
   },
@@ -37072,7 +37072,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4632,
     "word": "正解する",
-    "reading": "",
+    "reading": "せいかいする",
     "type": "verb",
     "meaning": "answer correctly"
   },
@@ -37107,7 +37107,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4636,
     "word": "再会する",
-    "reading": "",
+    "reading": "さいかいする",
     "type": "verb",
     "meaning": "meet again"
   },
@@ -37198,7 +37198,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4648,
     "word": "進学する",
-    "reading": "",
+    "reading": "しんがくする",
     "type": "verb",
     "meaning": "go on to the next level of education"
   },
@@ -37324,7 +37324,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4665,
     "word": "就任する",
-    "reading": "",
+    "reading": "しゅうにんする",
     "type": "verb",
     "meaning": "assume"
   },
@@ -37345,7 +37345,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4667,
     "word": "装置する",
-    "reading": "",
+    "reading": "そうちする",
     "type": "verb",
     "meaning": "be equipped with"
   },
@@ -37394,7 +37394,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4673,
     "word": "上京する",
-    "reading": "",
+    "reading": "じょうきょうする",
     "type": "verb",
     "meaning": "come/go to Tokyo"
   },
@@ -37625,7 +37625,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4701,
     "word": "共感する",
-    "reading": "",
+    "reading": "きょうかんする",
     "type": "verb",
     "meaning": "sympathize"
   },
@@ -37660,7 +37660,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4705,
     "word": "司会する",
-    "reading": "",
+    "reading": "しかいする",
     "type": "verb",
     "meaning": "host, emcee, take the chair"
   },
@@ -37688,7 +37688,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4707,
     "word": "緩和する",
-    "reading": "",
+    "reading": "かんわする",
     "type": "verb",
     "meaning": "relieve"
   },
@@ -37716,7 +37716,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4710,
     "word": "反論する",
-    "reading": "",
+    "reading": "はんろんする",
     "type": "verb",
     "meaning": "argue, object"
   },
@@ -37828,7 +37828,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4725,
     "word": "寄与する",
-    "reading": "",
+    "reading": "きよする",
     "type": "verb",
     "meaning": "contribute"
   },
@@ -37968,7 +37968,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4744,
     "word": "投入する",
-    "reading": "",
+    "reading": "とうにゅうする",
     "type": "verb",
     "meaning": "throw, invest"
   },
@@ -38045,7 +38045,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4753,
     "word": "製作する",
-    "reading": "",
+    "reading": "せいさくする",
     "type": "verb",
     "meaning": "manufacture"
   },
@@ -38073,7 +38073,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4756,
     "word": "区分する",
-    "reading": "",
+    "reading": "くぶんする",
     "type": "verb",
     "meaning": "separate"
   },
@@ -38087,7 +38087,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4757,
     "word": "放棄する",
-    "reading": "",
+    "reading": "ほうきする",
     "type": "verb",
     "meaning": "abandon, renounce"
   },
@@ -38101,7 +38101,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4758,
     "word": "転職する",
-    "reading": "",
+    "reading": "てんしょくする",
     "type": "verb",
     "meaning": "change job"
   },
@@ -38143,7 +38143,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4763,
     "word": "避難する",
-    "reading": "",
+    "reading": "ひなんする",
     "type": "verb",
     "meaning": "evacuate"
   },
@@ -38185,7 +38185,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4768,
     "word": "変換する",
-    "reading": "",
+    "reading": "へんかんする",
     "type": "verb",
     "meaning": "convert"
   },
@@ -38199,7 +38199,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4769,
     "word": "歓迎する",
-    "reading": "",
+    "reading": "かんげいする",
     "type": "verb",
     "meaning": "welcome"
   },
@@ -38332,7 +38332,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4786,
     "word": "披露する",
-    "reading": "",
+    "reading": "ひろうする",
     "type": "verb",
     "meaning": "announce, introduce"
   },
@@ -38479,7 +38479,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4805,
     "word": "起動する",
-    "reading": "",
+    "reading": "きどうする",
     "type": "verb",
     "meaning": "start"
   },
@@ -38500,7 +38500,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4807,
     "word": "助成する",
-    "reading": "",
+    "reading": "じょせいする",
     "type": "verb",
     "meaning": "subsidize"
   },
@@ -38591,7 +38591,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4819,
     "word": "沸騰する",
-    "reading": "",
+    "reading": "ふっとうする",
     "type": "verb",
     "meaning": "boil"
   },
@@ -38647,7 +38647,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4826,
     "word": "譲渡する",
-    "reading": "",
+    "reading": "じょうとする",
     "type": "verb",
     "meaning": "transfer, hand over"
   },
@@ -38668,7 +38668,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4828,
     "word": "挫折する",
-    "reading": "",
+    "reading": "ざせつする",
     "type": "verb",
     "meaning": "fail"
   },
@@ -38689,7 +38689,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4830,
     "word": "検証する",
-    "reading": "",
+    "reading": "けんしょうする",
     "type": "verb",
     "meaning": "verify"
   },
@@ -38780,7 +38780,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4841,
     "word": "禁煙する",
-    "reading": "",
+    "reading": "きんえんする",
     "type": "verb",
     "meaning": "stop smoking"
   },
@@ -38857,7 +38857,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4851,
     "word": "多様化する",
-    "reading": "",
+    "reading": "たようかする",
     "type": "verb",
     "meaning": "diversify"
   },
@@ -39074,7 +39074,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4880,
     "word": "調節する",
-    "reading": "",
+    "reading": "ちょうせつする",
     "type": "verb",
     "meaning": "adjust"
   },
@@ -39088,7 +39088,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4881,
     "word": "回避する",
-    "reading": "",
+    "reading": "かいひする",
     "type": "verb",
     "meaning": "avoid"
   },
@@ -39221,7 +39221,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4899,
     "word": "明記する",
-    "reading": "",
+    "reading": "めいきする",
     "type": "verb",
     "meaning": "write clearly"
   },
@@ -39375,7 +39375,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4920,
     "word": "執行する",
-    "reading": "",
+    "reading": "しっこうする",
     "type": "verb",
     "meaning": "carry out, enforce"
   },
@@ -39452,7 +39452,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4930,
     "word": "支度する",
-    "reading": "",
+    "reading": "したくする",
     "type": "verb",
     "meaning": "prepare"
   },
@@ -39480,7 +39480,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4933,
     "word": "受賞する",
-    "reading": "",
+    "reading": "じゅしょうする",
     "type": "verb",
     "meaning": "win (receive) a prize, be awarded a prize"
   },
@@ -39571,7 +39571,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4945,
     "word": "作曲する",
-    "reading": "",
+    "reading": "さっきょくする",
     "type": "verb",
     "meaning": "compose"
   },
@@ -39655,7 +39655,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4956,
     "word": "抗議する",
-    "reading": "",
+    "reading": "こうぎする",
     "type": "verb",
     "meaning": "object"
   },
@@ -39781,7 +39781,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4973,
     "word": "返済する",
-    "reading": "",
+    "reading": "へんさいする",
     "type": "verb",
     "meaning": "repay"
   },
@@ -39830,7 +39830,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4979,
     "word": "解除する",
-    "reading": "",
+    "reading": "かいじょする",
     "type": "verb",
     "meaning": "cancel, lift"
   },
@@ -39844,7 +39844,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4980,
     "word": "放出する",
-    "reading": "",
+    "reading": "ほうしゅつする",
     "type": "verb",
     "meaning": "emit"
   },
@@ -39879,7 +39879,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4984,
     "word": "診察する",
-    "reading": "",
+    "reading": "しんさつする",
     "type": "verb",
     "meaning": "examine"
   },
@@ -39907,7 +39907,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4987,
     "word": "給付する",
-    "reading": "",
+    "reading": "きゅうふする",
     "type": "verb",
     "meaning": "provide"
   },
@@ -39921,7 +39921,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4988,
     "word": "署名する",
-    "reading": "",
+    "reading": "しょめいする",
     "type": "verb",
     "meaning": "sign"
   },
@@ -39949,7 +39949,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4991,
     "word": "示唆する",
-    "reading": "",
+    "reading": "しさする",
     "type": "verb",
     "meaning": "suggest"
   },
@@ -40012,7 +40012,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4999,
     "word": "動揺する",
-    "reading": "",
+    "reading": "どうようする",
     "type": "verb",
     "meaning": "be agitated"
   },

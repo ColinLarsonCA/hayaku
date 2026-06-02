@@ -118,6 +118,17 @@ def choose_fallback_reading(word: str, reading_index: dict[str, list[str]]) -> s
     if candidates:
         return candidates[0]
 
+    # Common frequency-list form: kanji root + する (e.g. 勉強する).
+    # JMdict may only contain the root entry, so compose the reading.
+    if word.endswith("する") and len(word) > 2:
+        root = word[:-2]
+        root_candidates = reading_index.get(root)
+        if root_candidates:
+            root_reading = root_candidates[0]
+            if root_reading.endswith("する"):
+                return root_reading
+            return f"{root_reading}する"
+
     return ""
 
 
