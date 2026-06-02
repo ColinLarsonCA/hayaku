@@ -1357,10 +1357,20 @@ function App() {
         >
           Deck
         </button>
-        <div className="session-meta" role="status" aria-live="polite">
-          <span>
-            {completedCount}/{cards.length}
-          </span>
+        <div className="session-actions">
+          <div className="session-meta" role="status" aria-live="polite">
+            <span>
+              {completedCount}/{cards.length}
+            </span>
+          </div>
+          <button
+            type="button"
+            className="ghost-action toolbar-reset-btn"
+            onClick={startNewSession}
+            aria-label="Start new session"
+          >
+            <RotateCcw size={18} />
+          </button>
         </div>
       </div>
 
@@ -1408,14 +1418,6 @@ function App() {
                 aria-label="Romaji answer"
               />
             </div>
-            <button
-              type="button"
-              className="ghost-action session-reset-btn"
-              onClick={startNewSession}
-              aria-label="Start new session"
-            >
-              <RotateCcw size={20} />
-            </button>
           </div>
         </div>
       )}
@@ -1433,10 +1435,20 @@ function App() {
         >
           Deck
         </button>
-        <div className="session-meta" role="status" aria-live="polite">
-          <span>
-            {wordCompletedCount}/{wordCards.length}
-          </span>
+        <div className="session-actions">
+          <div className="session-meta" role="status" aria-live="polite">
+            <span>
+              {wordCompletedCount}/{wordCards.length}
+            </span>
+          </div>
+          <button
+            type="button"
+            className="ghost-action toolbar-reset-btn"
+            onClick={startNewWordSession}
+            aria-label="Start new session"
+          >
+            <RotateCcw size={18} />
+          </button>
         </div>
       </div>
 
@@ -1505,14 +1517,6 @@ function App() {
                 aria-label="Meaning answer"
               />
             </div>
-            <button
-              type="button"
-              className="ghost-action session-reset-btn"
-              onClick={startNewWordSession}
-              aria-label="Start new session"
-            >
-              <RotateCcw size={20} />
-            </button>
           </div>
         </div>
       )}

@@ -135,6 +135,22 @@ h1 {
   gap: 0.75rem;
 }
 
+.session-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.toolbar-reset-btn {
+  min-width: 2rem;
+  min-height: 2rem;
+  padding: 0;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .deck-toggle-btn {
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
@@ -629,23 +645,6 @@ h1 {
   color: var(--text-muted);
 }
 
-.session-reset-btn {
-  flex: 0 0 auto;
-  min-width: 2.15rem;
-  min-height: 2.15rem;
-  border-radius: 999px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  color: var(--text-muted);
-}
-
-.session-reset-btn:hover {
-  color: var(--text-strong);
-  border-color: var(--accent-soft);
-}
-
 .ghost-action:disabled {
   opacity: 0.8;
   cursor: not-allowed;
@@ -780,12 +779,6 @@ h1 {
 @media (min-width: 761px) {
   .card-controls {
     justify-content: center;
-  }
-
-  .session-reset-btn {
-    position: absolute;
-    right: clamp(0.7rem, 2vw, 0.9rem);
-    bottom: 0;
   }
 }
 
