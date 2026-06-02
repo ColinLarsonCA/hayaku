@@ -14,84 +14,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1,
     "word": "の",
-    "reading": "",
+    "reading": "の",
     "type": "case particle",
     "meaning": "of; in; at; for; by"
   },
   {
     "frequency": 2,
     "word": "に",
-    "reading": "",
+    "reading": "に",
     "type": "case particle",
     "meaning": "at; on; in; to; for"
   },
   {
     "frequency": 3,
     "word": "は",
-    "reading": "",
+    "reading": "は",
     "type": "particle",
     "meaning": "TOPIC"
   },
   {
     "frequency": 4,
     "word": "た",
-    "reading": "",
+    "reading": "た",
     "type": "auxiliary",
     "meaning": "PAST"
   },
   {
     "frequency": 5,
     "word": "を",
-    "reading": "",
+    "reading": "を",
     "type": "case particle",
     "meaning": "ACCUSATIVE"
   },
   {
     "frequency": 6,
     "word": "だ",
-    "reading": "",
+    "reading": "だ",
     "type": "auxiliary",
     "meaning": "COPULA"
   },
   {
     "frequency": 7,
     "word": "が",
-    "reading": "",
+    "reading": "が",
     "type": "case particle",
     "meaning": "NOMINATIVE"
   },
   {
     "frequency": 8,
     "word": "て",
-    "reading": "",
+    "reading": "て",
     "type": "conjunctive particle",
     "meaning": "REASON"
   },
   {
     "frequency": 9,
     "word": "と",
-    "reading": "",
+    "reading": "と",
     "type": "case particle",
     "meaning": "and; or; with; if"
   },
   {
     "frequency": 10,
     "word": "ます",
-    "reading": "",
+    "reading": "ます",
     "type": "auxiliary",
     "meaning": "POLITE (after verb)"
   },
   {
     "frequency": 11,
     "word": "も",
-    "reading": "",
+    "reading": "も",
     "type": "particle",
     "meaning": "too, also"
   },
   {
     "frequency": 12,
     "word": "で",
-    "reading": "",
+    "reading": "で",
     "type": "case particle",
     "meaning": "in; at; from; by"
   },
@@ -105,14 +105,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 14,
     "word": "です",
-    "reading": "",
+    "reading": "です",
     "type": "auxiliary",
     "meaning": "COPULA (polite)"
   },
   {
     "frequency": 15,
     "word": "れる",
-    "reading": "",
+    "reading": "れる",
     "type": "auxiliary",
     "meaning": "PASSIVE"
   },
@@ -126,7 +126,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 17,
     "word": "事",
-    "reading": "",
+    "reading": "こと",
     "type": "noun",
     "meaning": "thing"
   },
@@ -140,7 +140,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 19,
     "word": "言う",
-    "reading": "",
+    "reading": "いう",
     "type": "verb",
     "meaning": "say, speak, talk"
   },
@@ -161,7 +161,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 22,
     "word": "する",
-    "reading": "",
+    "reading": "する",
     "type": "verb",
     "meaning": "do; make"
   },
@@ -175,126 +175,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 24,
     "word": "の",
-    "reading": "",
+    "reading": "の",
     "type": "particle",
     "meaning": "PARTICLE"
   },
   {
     "frequency": 25,
     "word": "ある",
-    "reading": "",
+    "reading": "ある",
     "type": "verb",
     "meaning": "be (existence), have (possession), happen, occur"
   },
   {
     "frequency": 26,
     "word": "ね",
-    "reading": "",
+    "reading": "ね",
     "type": "discourse particle",
     "meaning": "isn’t it?, don’t you?"
   },
   {
     "frequency": 27,
     "word": "ない",
-    "reading": "",
+    "reading": "ない",
     "type": "auxiliary",
     "meaning": "not"
   },
   {
     "frequency": 28,
     "word": "なる",
-    "reading": "",
+    "reading": "なる",
     "type": "verb",
     "meaning": "become, get; come to do, start to do; turn into"
   },
   {
     "frequency": 29,
     "word": "か",
-    "reading": "",
+    "reading": "か",
     "type": "discourse particle",
     "meaning": "QUESTION"
   },
   {
     "frequency": 30,
     "word": "その",
-    "reading": "",
+    "reading": "その",
     "type": "adnominal",
     "meaning": "that"
   },
   {
     "frequency": 31,
     "word": "けれど",
-    "reading": "",
+    "reading": "けれど",
     "type": "conjunction",
     "meaning": "though, although"
   },
   {
     "frequency": 32,
     "word": "から",
-    "reading": "",
+    "reading": "から",
     "type": "case particle",
     "meaning": "from"
   },
   {
     "frequency": 33,
     "word": "よう",
-    "reading": "",
+    "reading": "よう",
     "type": "auxiliary",
     "meaning": "INDUCEMENT"
   },
   {
     "frequency": 34,
     "word": "思う",
-    "reading": "",
+    "reading": "おもう",
     "type": "verb",
     "meaning": "think, believe; feel; expect"
   },
   {
     "frequency": 35,
     "word": "で",
-    "reading": "",
+    "reading": "で",
     "type": "conjunction",
     "meaning": "so, then"
   },
   {
     "frequency": 36,
     "word": "か",
-    "reading": "",
+    "reading": "か",
     "type": "particle",
     "meaning": "if; or"
   },
   {
     "frequency": 37,
     "word": "が",
-    "reading": "",
+    "reading": "が",
     "type": "conjunctive particle",
     "meaning": "ADVERSATIVE"
   },
   {
     "frequency": 38,
     "word": "物",
-    "reading": "",
+    "reading": "もの",
     "type": "noun",
     "meaning": "thing, object, stuff"
   },
   {
     "frequency": 39,
     "word": "そう",
-    "reading": "",
+    "reading": "そう",
     "type": "adverb",
     "meaning": "so, such"
   },
   {
     "frequency": 40,
     "word": "何",
-    "reading": "",
+    "reading": "なに",
     "type": "pronoun",
     "meaning": "what; something; anything; nothing"
   },
   {
     "frequency": 41,
     "word": "と",
-    "reading": "",
+    "reading": "と",
     "type": "conjunctive particle",
     "meaning": "if, when; with"
   },
@@ -322,42 +322,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 43,
     "word": "てしまう",
-    "reading": "",
+    "reading": "てしまう",
     "type": "compound",
     "meaning": "end up doing ..."
   },
   {
     "frequency": 44,
     "word": "それ",
-    "reading": "",
+    "reading": "それ",
     "type": "pronoun",
     "meaning": "that"
   },
   {
     "frequency": 45,
     "word": "とか",
-    "reading": "",
+    "reading": "とか",
     "type": "particle",
     "meaning": "and; or"
   },
   {
     "frequency": 46,
     "word": "この",
-    "reading": "",
+    "reading": "この",
     "type": "adnominal",
     "meaning": "this"
   },
   {
     "frequency": 47,
     "word": "無い",
-    "reading": "",
+    "reading": "ない",
     "type": "i-adjective",
     "meaning": "There is no ... , no ..."
   },
   {
     "frequency": 48,
     "word": "行く",
-    "reading": "",
+    "reading": "いく",
     "type": "verb",
     "meaning": "go; come"
   },
@@ -371,49 +371,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 50,
     "word": "せる",
-    "reading": "",
+    "reading": "せる",
     "type": "auxiliary",
     "meaning": "CAUSATIVE"
   },
   {
     "frequency": 51,
     "word": "これ",
-    "reading": "",
+    "reading": "これ",
     "type": "pronoun",
     "meaning": "this"
   },
   {
     "frequency": 52,
     "word": "もう",
-    "reading": "",
+    "reading": "もう",
     "type": "adverb",
     "meaning": "already; soon; again"
   },
   {
     "frequency": 53,
     "word": "である",
-    "reading": "",
+    "reading": "である",
     "type": "compound",
     "meaning": "COPULA (formal)"
   },
   {
     "frequency": 54,
     "word": "時",
-    "reading": "",
+    "reading": "とき",
     "type": "noun",
     "meaning": "time"
   },
   {
     "frequency": 55,
     "word": "な",
-    "reading": "",
+    "reading": "な",
     "type": "discourse particle",
     "meaning": "PROHIBITION"
   },
   {
     "frequency": 56,
     "word": "ず",
-    "reading": "",
+    "reading": "ず",
     "type": "auxiliary",
     "meaning": "NEGATION"
   },
@@ -434,35 +434,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 59,
     "word": "よ",
-    "reading": "",
+    "reading": "よ",
     "type": "discourse particle",
     "meaning": "ASSERTION, REMINDING (informal)"
   },
   {
     "frequency": 60,
     "word": "こう",
-    "reading": "",
+    "reading": "こう",
     "type": "adverb",
     "meaning": "so, like this"
   },
   {
     "frequency": 61,
     "word": "から",
-    "reading": "",
+    "reading": "から",
     "type": "conjunctive particle",
     "meaning": "because, since"
   },
   {
     "frequency": 62,
     "word": "ば",
-    "reading": "",
+    "reading": "ば",
     "type": "conjunctive particle",
     "meaning": "if"
   },
   {
     "frequency": 63,
     "word": "や",
-    "reading": "",
+    "reading": "や",
     "type": "particle",
     "meaning": "and; or"
   },
@@ -476,35 +476,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 65,
     "word": "その",
-    "reading": "",
+    "reading": "その",
     "type": "interjection",
     "meaning": "uh, er, um, mm"
   },
   {
     "frequency": 66,
     "word": "まで",
-    "reading": "",
+    "reading": "まで",
     "type": "particle",
     "meaning": "to, till, until"
   },
   {
     "frequency": 67,
     "word": "見る",
-    "reading": "",
+    "reading": "みる",
     "type": "verb",
     "meaning": "see; look at, watch; check"
   },
   {
     "frequency": 68,
     "word": "たり",
-    "reading": "",
+    "reading": "たり",
     "type": "particle",
     "meaning": "and"
   },
   {
     "frequency": 69,
     "word": "今",
-    "reading": "",
+    "reading": "いま",
     "type": "noun",
     "meaning": "now"
   },
@@ -518,28 +518,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 71,
     "word": "所",
-    "reading": "",
+    "reading": "ところ",
     "type": "noun",
     "meaning": "place, point; part; aspect"
   },
   {
     "frequency": 72,
     "word": "自分",
-    "reading": "",
+    "reading": "じぶん",
     "type": "noun",
     "meaning": "oneself"
   },
   {
     "frequency": 73,
     "word": "ん",
-    "reading": "",
+    "reading": "ん",
     "type": "interjection",
     "meaning": "oh, mm, well"
   },
   {
     "frequency": 74,
     "word": "あー",
-    "reading": "",
+    "reading": "あー",
     "type": "interjection",
     "meaning": "er, uh, um, hmm, ah, oh"
   },
@@ -553,14 +553,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 76,
     "word": "たい",
-    "reading": "",
+    "reading": "たい",
     "type": "auxiliary",
     "meaning": "want to, like to"
   },
   {
     "frequency": 77,
     "word": "やる",
-    "reading": "",
+    "reading": "やる",
     "type": "verb",
     "meaning": "do; make; give"
   },
@@ -574,28 +574,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 79,
     "word": "いる",
-    "reading": "",
+    "reading": "いる",
     "type": "verb",
     "meaning": "be, exist; stay"
   },
   {
     "frequency": 80,
     "word": "できる",
-    "reading": "",
+    "reading": "できる",
     "type": "verb",
     "meaning": "be ready"
   },
   {
     "frequency": 81,
     "word": "など",
-    "reading": "",
+    "reading": "など",
     "type": "particle",
     "meaning": "and so on, etc."
   },
   {
     "frequency": 82,
     "word": "として",
-    "reading": "",
+    "reading": "として",
     "type": "compound",
     "meaning": "as"
   },
@@ -609,35 +609,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 84,
     "word": "また",
-    "reading": "",
+    "reading": "また",
     "type": "adverb",
     "meaning": "additionally, moreover"
   },
   {
     "frequency": 84,
     "word": "また",
-    "reading": "",
+    "reading": "また",
     "type": "conjunction",
     "meaning": "again; too, and"
   },
   {
     "frequency": 85,
     "word": "ちょっと",
-    "reading": "",
+    "reading": "ちょっと",
     "type": "adverb",
     "meaning": "(just) a little, a bit"
   },
   {
     "frequency": 86,
     "word": "てくる",
-    "reading": "",
+    "reading": "てくる",
     "type": "compound",
     "meaning": "go and ..."
   },
   {
     "frequency": 87,
     "word": "だけ",
-    "reading": "",
+    "reading": "だけ",
     "type": "particle",
     "meaning": "only, alone, merely"
   },
@@ -651,14 +651,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 89,
     "word": "ではない",
-    "reading": "",
+    "reading": "ではない",
     "type": "compound",
     "meaning": "it is not the case that ..."
   },
   {
     "frequency": 90,
     "word": "えーと",
-    "reading": "",
+    "reading": "えーと",
     "type": "interjection",
     "meaning": "well, let me see"
   },
@@ -686,105 +686,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 94,
     "word": "へ",
-    "reading": "",
+    "reading": "へ",
     "type": "case particle",
     "meaning": "DESTINATION"
   },
   {
     "frequency": 95,
     "word": "どう",
-    "reading": "",
+    "reading": "どう",
     "type": "adverb",
     "meaning": "how, what"
   },
   {
     "frequency": 96,
     "word": "し",
-    "reading": "",
+    "reading": "し",
     "type": "conjunctive particle",
     "meaning": "and, besides"
   },
   {
     "frequency": 97,
     "word": "本当",
-    "reading": "",
+    "reading": "ほんとう",
     "type": "noun",
     "meaning": "truth, right"
   },
   {
     "frequency": 98,
     "word": "持つ",
-    "reading": "",
+    "reading": "もつ",
     "type": "verb",
     "meaning": "have, take, hold"
   },
   {
     "frequency": 99,
     "word": "出る",
-    "reading": "",
+    "reading": "でる",
     "type": "verb",
     "meaning": "go out, come out; attend"
   },
   {
     "frequency": 100,
     "word": "ため",
-    "reading": "",
+    "reading": "ため",
     "type": "noun",
     "meaning": "for"
   },
   {
     "frequency": 101,
     "word": "すごい",
-    "reading": "",
+    "reading": "すごい",
     "type": "i-adjective",
     "meaning": "fantastic, wonderful; terrible"
   },
   {
     "frequency": 102,
     "word": "考える",
-    "reading": "",
+    "reading": "かんがえる",
     "type": "verb",
     "meaning": "think"
   },
   {
     "frequency": 103,
     "word": "そこ",
-    "reading": "",
+    "reading": "そこ",
     "type": "pronoun",
     "meaning": "there; then"
   },
   {
     "frequency": 104,
     "word": "う",
-    "reading": "",
+    "reading": "う",
     "type": "auxiliary",
     "meaning": "SOLICITATION"
   },
   {
     "frequency": 105,
     "word": "分かる",
-    "reading": "",
+    "reading": "わかる",
     "type": "verb",
     "meaning": "understand, see"
   },
   {
     "frequency": 106,
     "word": "ておる",
-    "reading": "",
+    "reading": "ておる",
     "type": "compound",
     "meaning": "CONTINUATION (polite)"
   },
   {
     "frequency": 107,
     "word": "について",
-    "reading": "",
+    "reading": "について",
     "type": "compound",
     "meaning": "about, concerning, as to"
   },
   {
     "frequency": 108,
     "word": "それで",
-    "reading": "",
+    "reading": "それで",
     "type": "conjunction",
     "meaning": "and then; so; that is why"
   },
@@ -798,14 +798,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 110,
     "word": "作る",
-    "reading": "",
+    "reading": "つくる",
     "type": "verb",
     "meaning": "make, create, cook"
   },
   {
     "frequency": 111,
     "word": "てみる",
-    "reading": "",
+    "reading": "てみる",
     "type": "compound",
     "meaning": "try ... ing"
   },
@@ -819,56 +819,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 113,
     "word": "そして",
-    "reading": "",
+    "reading": "そして",
     "type": "conjunction",
     "meaning": "and, so"
   },
   {
     "frequency": 114,
     "word": "てくれる",
-    "reading": "",
+    "reading": "てくれる",
     "type": "compound",
     "meaning": "[do something as a favor]"
   },
   {
     "frequency": 115,
     "word": "場合",
-    "reading": "",
+    "reading": "ばあい",
     "type": "noun",
     "meaning": "case, occasion"
   },
   {
     "frequency": 116,
     "word": "話",
-    "reading": "",
+    "reading": "はなし",
     "type": "noun",
     "meaning": "story, talk"
   },
   {
     "frequency": 117,
     "word": "ながら",
-    "reading": "",
+    "reading": "ながら",
     "type": "conjunctive particle",
     "meaning": "with, over, while"
   },
   {
     "frequency": 118,
     "word": "そんな",
-    "reading": "",
+    "reading": "そんな",
     "type": "adnominal",
     "meaning": "that, such"
   },
   {
     "frequency": 119,
     "word": "使う",
-    "reading": "",
+    "reading": "つかう",
     "type": "verb",
     "meaning": "use, handle"
   },
   {
     "frequency": 120,
     "word": "日本",
-    "reading": "",
+    "reading": "にほん",
     "type": "noun",
     "meaning": "Japan"
   },
@@ -882,7 +882,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 122,
     "word": "おー",
-    "reading": "",
+    "reading": "おー",
     "type": "interjection",
     "meaning": "Oh, Wow!"
   },
@@ -896,7 +896,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 124,
     "word": "多い",
-    "reading": "",
+    "reading": "おおい",
     "type": "i-adjective",
     "meaning": "many, much, a lot of"
   },
@@ -910,112 +910,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 126,
     "word": "よく",
-    "reading": "",
+    "reading": "よく",
     "type": "adverb",
     "meaning": "good, well; often"
   },
   {
     "frequency": 127,
     "word": "一つ",
-    "reading": "",
+    "reading": "ひとつ",
     "type": "noun",
     "meaning": "one"
   },
   {
     "frequency": 128,
     "word": "子供",
-    "reading": "",
+    "reading": "こども",
     "type": "noun",
     "meaning": "child"
   },
   {
     "frequency": 129,
     "word": "非常",
-    "reading": "",
+    "reading": "ひじょう",
     "type": "na-adjective",
     "meaning": "very, extremely"
   },
   {
     "frequency": 130,
     "word": "気",
-    "reading": "",
+    "reading": "き",
     "type": "noun",
     "meaning": "mind, heart"
   },
   {
     "frequency": 131,
     "word": "ても",
-    "reading": "",
+    "reading": "ても",
     "type": "conjunctive particle",
     "meaning": "even if"
   },
   {
     "frequency": 132,
     "word": "取る",
-    "reading": "",
+    "reading": "とる",
     "type": "verb",
     "meaning": "take, get; have; pass"
   },
   {
     "frequency": 133,
     "word": "うち",
-    "reading": "",
+    "reading": "うち",
     "type": "noun",
     "meaning": "inside; of; before"
   },
   {
     "frequency": 134,
     "word": "知る",
-    "reading": "",
+    "reading": "しる",
     "type": "verb",
     "meaning": "know"
   },
   {
     "frequency": 135,
     "word": "より",
-    "reading": "",
+    "reading": "より",
     "type": "case particle",
     "meaning": "than; from"
   },
   {
     "frequency": 136,
     "word": "それから",
-    "reading": "",
+    "reading": "それから",
     "type": "conjunction",
     "meaning": "and then, after that, and"
   },
   {
     "frequency": 137,
     "word": "うー",
-    "reading": "",
+    "reading": "うー",
     "type": "interjection",
     "meaning": "Woo, Oooh"
   },
   {
     "frequency": 138,
     "word": "感じ",
-    "reading": "",
+    "reading": "かんじ",
     "type": "noun",
     "meaning": "feeling, impression; atmosphere"
   },
   {
     "frequency": 139,
     "word": "みたい",
-    "reading": "",
+    "reading": "みたい",
     "type": "na-adjective",
     "meaning": "like"
   },
   {
     "frequency": 140,
     "word": "でも",
-    "reading": "",
+    "reading": "でも",
     "type": "conjunction",
     "meaning": "but, however"
   },
   {
     "frequency": 141,
     "word": "ここ",
-    "reading": "",
+    "reading": "ここ",
     "type": "pronoun",
     "meaning": "here"
   },
@@ -1029,70 +1029,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 143,
     "word": "いろいろ",
-    "reading": "",
+    "reading": "いろいろ",
     "type": "adverb, na-adjective",
     "meaning": "various"
   },
   {
     "frequency": 144,
     "word": "一",
-    "reading": "",
+    "reading": "いち",
     "type": "noun",
     "meaning": "one"
   },
   {
     "frequency": 145,
     "word": "そう",
-    "reading": "",
+    "reading": "そう",
     "type": "noun, na-adjective",
     "meaning": "be about to"
   },
   {
     "frequency": 146,
     "word": "行なう",
-    "reading": "",
+    "reading": "おこなう",
     "type": "verb",
     "meaning": "do, carry out, hold"
   },
   {
     "frequency": 147,
     "word": "一番",
-    "reading": "",
+    "reading": "いちばん",
     "type": "adverb",
     "meaning": "number one, first, most"
   },
   {
     "frequency": 148,
     "word": "二",
-    "reading": "",
+    "reading": "に",
     "type": "noun",
     "meaning": "two"
   },
   {
     "frequency": 149,
     "word": "同じ",
-    "reading": "",
+    "reading": "おなじ",
     "type": "adnominal",
     "meaning": "same"
   },
   {
     "frequency": 150,
     "word": "まず",
-    "reading": "",
+    "reading": "まず",
     "type": "adverb",
     "meaning": "first; anyway"
   },
   {
     "frequency": 151,
     "word": "必要",
-    "reading": "",
+    "reading": "ひつよう",
     "type": "na-adjective",
     "meaning": "necessary n necessity"
   },
   {
     "frequency": 152,
     "word": "仕事",
-    "reading": "",
+    "reading": "しごと",
     "type": "noun",
     "meaning": "work, job"
   },
@@ -1106,28 +1106,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 153,
     "word": "余り",
-    "reading": "",
+    "reading": "あまり",
     "type": "adverb",
     "meaning": "the rest"
   },
   {
     "frequency": 153,
     "word": "余り",
-    "reading": "",
+    "reading": "あまり",
     "type": "noun",
     "meaning": "(not) much"
   },
   {
     "frequency": 154,
     "word": "によって",
-    "reading": "",
+    "reading": "によって",
     "type": "compound",
     "meaning": "by, because of; depend on, depending on"
   },
   {
     "frequency": 155,
     "word": "かもしれない",
-    "reading": "",
+    "reading": "かもしれない",
     "type": "compound",
     "meaning": "perhaps, maybe"
   },
@@ -1141,7 +1141,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 157,
     "word": "皆",
-    "reading": "",
+    "reading": "みな",
     "type": "noun",
     "meaning": "everyone; everything"
   },
@@ -1162,35 +1162,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 160,
     "word": "食べる",
-    "reading": "",
+    "reading": "たべる",
     "type": "verb",
     "meaning": "eat"
   },
   {
     "frequency": 161,
     "word": "ほど",
-    "reading": "",
+    "reading": "ほど",
     "type": "particle",
     "meaning": "about; extent"
   },
   {
     "frequency": 162,
     "word": "しかし",
-    "reading": "",
+    "reading": "しかし",
     "type": "conjunction",
     "meaning": "but, however"
   },
   {
     "frequency": 163,
     "word": "書く",
-    "reading": "",
+    "reading": "かく",
     "type": "verb",
     "meaning": "write"
   },
   {
     "frequency": 164,
     "word": "入れる",
-    "reading": "",
+    "reading": "いれる",
     "type": "verb",
     "meaning": "put in; include"
   },
@@ -1204,35 +1204,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 166,
     "word": "結構",
-    "reading": "",
+    "reading": "けっこう",
     "type": "adverb",
     "meaning": "quite"
   },
   {
     "frequency": 166,
     "word": "結構",
-    "reading": "",
+    "reading": "けっこう",
     "type": "na-adjective",
     "meaning": "good"
   },
   {
     "frequency": 167,
     "word": "問題",
-    "reading": "",
+    "reading": "もんだい",
     "type": "noun",
     "meaning": "problem, question"
   },
   {
     "frequency": 168,
     "word": "例えば",
-    "reading": "",
+    "reading": "たとえば",
     "type": "adverb",
     "meaning": "for example, such as"
   },
   {
     "frequency": 169,
     "word": "目、眼",
-    "reading": "",
+    "reading": "め",
     "type": "noun",
     "meaning": "eye"
   },
@@ -1253,7 +1253,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 172,
     "word": "てくださる",
-    "reading": "",
+    "reading": "てくださる",
     "type": "compound",
     "meaning": "[do something as a favor (honorific)]"
   },
@@ -1267,7 +1267,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 174,
     "word": "いつ",
-    "reading": "",
+    "reading": "いつ",
     "type": "pronoun",
     "meaning": "when"
   },
@@ -1281,42 +1281,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 176,
     "word": "付く",
-    "reading": "",
+    "reading": "つく",
     "type": "verb",
     "meaning": "stick; be stained with"
   },
   {
     "frequency": 177,
     "word": "日、陽",
-    "reading": "",
+    "reading": "ひ",
     "type": "noun",
     "meaning": "day; sun"
   },
   {
     "frequency": 178,
     "word": "出す",
-    "reading": "",
+    "reading": "だす",
     "type": "verb",
     "meaning": "take out; pay; send"
   },
   {
     "frequency": 179,
     "word": "一人",
-    "reading": "",
+    "reading": "ひとり",
     "type": "noun",
     "meaning": "one person; alone"
   },
   {
     "frequency": 180,
     "word": "人間",
-    "reading": "",
+    "reading": "にんげん",
     "type": "noun",
     "meaning": "human being, man"
   },
   {
     "frequency": 181,
     "word": "どこ",
-    "reading": "",
+    "reading": "どこ",
     "type": "pronoun",
     "meaning": "where"
   },
@@ -1330,140 +1330,140 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 183,
     "word": "時間",
-    "reading": "",
+    "reading": "じかん",
     "type": "noun",
     "meaning": "time"
   },
   {
     "frequency": 184,
     "word": "ただ",
-    "reading": "",
+    "reading": "ただ",
     "type": "conjunction",
     "meaning": "just"
   },
   {
     "frequency": 184,
     "word": "ただ",
-    "reading": "",
+    "reading": "ただ",
     "type": "adverb",
     "meaning": "only, just, merely"
   },
   {
     "frequency": 185,
     "word": "だから",
-    "reading": "",
+    "reading": "だから",
     "type": "conjunction",
     "meaning": "so, therefore, because"
   },
   {
     "frequency": 186,
     "word": "違う",
-    "reading": "",
+    "reading": "ちがう",
     "type": "verb",
     "meaning": "be different; be wrong"
   },
   {
     "frequency": 187,
     "word": "受ける",
-    "reading": "",
+    "reading": "うける",
     "type": "verb",
     "meaning": "get, receive, take"
   },
   {
     "frequency": 188,
     "word": "言葉",
-    "reading": "",
+    "reading": "ことば",
     "type": "noun",
     "meaning": "word; language"
   },
   {
     "frequency": 189,
     "word": "なんか",
-    "reading": "",
+    "reading": "なんか",
     "type": "particle",
     "meaning": "such as, like"
   },
   {
     "frequency": 190,
     "word": "少し",
-    "reading": "",
+    "reading": "すこし",
     "type": "adverb",
     "meaning": "a little, a few"
   },
   {
     "frequency": 191,
     "word": "まま",
-    "reading": "",
-    "type": "verb",
+    "reading": "まま",
+    "type": "noun",
     "meaning": "as it is"
   },
   {
     "frequency": 192,
     "word": "買う",
-    "reading": "",
-    "type": "adverb",
+    "reading": "かう",
+    "type": "verb",
     "meaning": "buy"
   },
   {
     "frequency": 193,
     "word": "まだ",
-    "reading": "",
-    "type": "noun",
+    "reading": "まだ",
+    "type": "adverb",
     "meaning": "yet, still"
   },
   {
     "frequency": 194,
     "word": "手",
-    "reading": "",
+    "reading": "て",
     "type": "noun",
     "meaning": "hand"
   },
   {
     "frequency": 195,
     "word": "話す",
-    "reading": "",
+    "reading": "はなす",
     "type": "verb",
     "meaning": "talk, tell, speak"
   },
   {
     "frequency": 196,
     "word": "好き",
-    "reading": "",
+    "reading": "すき",
     "type": "na-adjective",
     "meaning": "favorite, like, love"
   },
   {
     "frequency": 197,
     "word": "返る",
-    "reading": "",
+    "reading": "かえる",
     "type": "verb",
     "meaning": "return"
   },
   {
     "frequency": 198,
     "word": "てもらう",
-    "reading": "",
+    "reading": "てもらう",
     "type": "compound",
     "meaning": "[receive a favor]"
   },
   {
     "frequency": 199,
     "word": "掛ける",
-    "reading": "",
+    "reading": "かける",
     "type": "verb",
     "meaning": "hang; take; cost"
   },
   {
     "frequency": 200,
     "word": "終わる",
-    "reading": "",
+    "reading": "おわる",
     "type": "verb",
     "meaning": "end, finish"
   },
   {
     "frequency": 201,
     "word": "意味",
-    "reading": "",
+    "reading": "いみ",
     "type": "noun",
     "meaning": "meaning, sense"
   },
@@ -1477,35 +1477,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 202,
     "word": "のである",
-    "reading": "",
+    "reading": "のである",
     "type": "compound",
     "meaning": "ASSERTION (formal)"
   },
   {
     "frequency": 203,
     "word": "いろんな",
-    "reading": "",
+    "reading": "いろんな",
     "type": "adnominal",
     "meaning": "various"
   },
   {
     "frequency": 204,
     "word": "付ける",
-    "reading": "",
+    "reading": "つける",
     "type": "verb",
     "meaning": "put; attach; apply"
   },
   {
     "frequency": 205,
     "word": "形",
-    "reading": "",
+    "reading": "かたち",
     "type": "noun",
     "meaning": "form, shape, figure"
   },
   {
     "frequency": 206,
     "word": "かなり",
-    "reading": "",
+    "reading": "かなり",
     "type": "adverb",
     "meaning": "considerably, rather"
   },
@@ -1519,7 +1519,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 208,
     "word": "最初",
-    "reading": "",
+    "reading": "さいしょ",
     "type": "noun",
     "meaning": "first"
   },
@@ -1533,98 +1533,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 210,
     "word": "感じる",
-    "reading": "",
+    "reading": "かんじる",
     "type": "verb",
     "meaning": "feel"
   },
   {
     "frequency": 211,
     "word": "しか",
-    "reading": "",
+    "reading": "しか",
     "type": "particle",
     "meaning": "only, just, no more than"
   },
   {
     "frequency": 212,
     "word": "かかる",
-    "reading": "",
+    "reading": "かかる",
     "type": "verb",
     "meaning": "hang; take; cost"
   },
   {
     "frequency": 213,
     "word": "大きな",
-    "reading": "",
+    "reading": "おおきな",
     "type": "adnominal",
     "meaning": "big, large, great"
   },
   {
     "frequency": 214,
     "word": "住む",
-    "reading": "",
+    "reading": "すむ",
     "type": "verb",
     "meaning": "live"
   },
   {
     "frequency": 215,
     "word": "最近",
-    "reading": "",
+    "reading": "さいきん",
     "type": "noun",
     "meaning": "recently, lately"
   },
   {
     "frequency": 216,
     "word": "特に",
-    "reading": "",
+    "reading": "とくに",
     "type": "adverb",
     "meaning": "especially, particularly"
   },
   {
     "frequency": 217,
     "word": "誰",
-    "reading": "",
+    "reading": "だれ",
     "type": "pronoun",
     "meaning": "who, whose, whom"
   },
   {
     "frequency": 218,
     "word": "こんな",
-    "reading": "",
+    "reading": "こんな",
     "type": "adnominal",
     "meaning": "such, like that"
   },
   {
     "frequency": 219,
     "word": "友達",
-    "reading": "",
+    "reading": "ともだち",
     "type": "noun",
     "meaning": "friend"
   },
   {
     "frequency": 220,
     "word": "大きい",
-    "reading": "",
+    "reading": "おおきい",
     "type": "i-adjective",
     "meaning": "big, large, great"
   },
   {
     "frequency": 221,
     "word": "すぐ",
-    "reading": "",
+    "reading": "すぐ",
     "type": "adverb",
     "meaning": "soon"
   },
   {
     "frequency": 222,
     "word": "一緒",
-    "reading": "",
+    "reading": "いっしょ",
     "type": "noun",
     "meaning": "together, with"
   },
   {
     "frequency": 223,
     "word": "生活",
-    "reading": "",
+    "reading": "せいかつ",
     "type": "noun",
     "meaning": "life"
   },
@@ -1638,14 +1638,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 224,
     "word": "国",
-    "reading": "",
+    "reading": "くに",
     "type": "noun",
     "meaning": "country"
   },
   {
     "frequency": 225,
     "word": "あげる",
-    "reading": "",
+    "reading": "あげる",
     "type": "verb",
     "meaning": "raise, lift"
   },
@@ -1659,161 +1659,161 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 227,
     "word": "現在",
-    "reading": "",
+    "reading": "げんざい",
     "type": "noun",
     "meaning": "present time, now"
   },
   {
     "frequency": 228,
     "word": "高い",
-    "reading": "",
+    "reading": "たかい",
     "type": "i-adjective",
     "meaning": "high, tall; expensive"
   },
   {
     "frequency": 229,
     "word": "なんて",
-    "reading": "",
+    "reading": "なんて",
     "type": "particle",
     "meaning": "[expresses belittlement]"
   },
   {
     "frequency": 230,
     "word": "悪い",
-    "reading": "",
+    "reading": "わるい",
     "type": "i-adjective",
     "meaning": "bad"
   },
   {
     "frequency": 231,
     "word": "気持ち",
-    "reading": "",
+    "reading": "きもち",
     "type": "noun",
     "meaning": "feeling"
   },
   {
     "frequency": 232,
     "word": "乗る",
-    "reading": "",
+    "reading": "のる",
     "type": "verb",
     "meaning": "ride, get on, take"
   },
   {
     "frequency": 233,
     "word": "において",
-    "reading": "",
+    "reading": "において",
     "type": "compound",
     "meaning": "at; in; on"
   },
   {
     "frequency": 234,
     "word": "見える",
-    "reading": "",
+    "reading": "みえる",
     "type": "verb",
     "meaning": "see, be seen"
   },
   {
     "frequency": 235,
     "word": "変わる",
-    "reading": "",
+    "reading": "かわる",
     "type": "verb",
     "meaning": "change"
   },
   {
     "frequency": 236,
     "word": "べし",
-    "reading": "",
+    "reading": "べし",
     "type": "auxiliary",
     "meaning": "must, should"
   },
   {
     "frequency": 237,
     "word": "あるいは",
-    "reading": "",
+    "reading": "あるいは",
     "type": "conjunction",
     "meaning": "or; perhaps, probably, maybe"
   },
   {
     "frequency": 238,
     "word": "大変",
-    "reading": "",
+    "reading": "たいへん",
     "type": "na-adjective",
     "meaning": "serious, terrible; hard, difficult"
   },
   {
     "frequency": 239,
     "word": "による",
-    "reading": "",
+    "reading": "による",
     "type": "compound",
     "meaning": "be due to, be based on"
   },
   {
     "frequency": 240,
     "word": "会社",
-    "reading": "",
+    "reading": "かいしゃ",
     "type": "noun",
     "meaning": "company, firm"
   },
   {
     "frequency": 241,
     "word": "ほとんど",
-    "reading": "",
+    "reading": "ほとんど",
     "type": "adverb",
     "meaning": "almost, nearly"
   },
   {
     "frequency": 242,
     "word": "実際",
-    "reading": "",
+    "reading": "じっさい",
     "type": "noun",
     "meaning": "actually, in fact"
   },
   {
     "frequency": 243,
     "word": "先生",
-    "reading": "",
+    "reading": "せんせい",
     "type": "noun",
     "meaning": "teacher"
   },
   {
     "frequency": 244,
     "word": "彼女",
-    "reading": "",
+    "reading": "かのじょ",
     "type": "pronoun",
     "meaning": "she; girlfriend"
   },
   {
     "frequency": 245,
     "word": "二人",
-    "reading": "",
+    "reading": "ふたり",
     "type": "noun",
     "meaning": "two people"
   },
   {
     "frequency": 246,
     "word": "心",
-    "reading": "",
+    "reading": "こころ",
     "type": "noun",
     "meaning": "mind, heart; thought; feeling"
   },
   {
     "frequency": 247,
     "word": "あの",
-    "reading": "",
+    "reading": "あの",
     "type": "adnominal",
     "meaning": "that, those"
   },
   {
     "frequency": 248,
     "word": "らしい",
-    "reading": "",
+    "reading": "らしい",
     "type": "auxiliary",
     "meaning": "seem, look"
   },
   {
     "frequency": 249,
     "word": "ある",
-    "reading": "",
+    "reading": "ある",
     "type": "adnominal",
     "meaning": "one, a, some, a certain"
   },
@@ -1827,84 +1827,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 251,
     "word": "顔",
-    "reading": "",
+    "reading": "かお",
     "type": "noun",
     "meaning": "face"
   },
   {
     "frequency": 252,
     "word": "ていただく",
-    "reading": "",
+    "reading": "ていただく",
     "type": "compound",
     "meaning": "[receive a favor (humble)]"
   },
   {
     "frequency": 253,
     "word": "ずっと",
-    "reading": "",
+    "reading": "ずっと",
     "type": "adverb",
     "meaning": "all the time, for a long time"
   },
   {
     "frequency": 254,
     "word": "さらに",
-    "reading": "",
+    "reading": "さらに",
     "type": "adverb",
     "meaning": "again, still more, moreover"
   },
   {
     "frequency": 255,
     "word": "町、街",
-    "reading": "",
+    "reading": "まち",
     "type": "noun",
     "meaning": "town, city"
   },
   {
     "frequency": 256,
     "word": "及び",
-    "reading": "",
+    "reading": "および",
     "type": "conjunction",
     "meaning": "and, as well as"
   },
   {
     "frequency": 257,
     "word": "たくさん",
-    "reading": "",
+    "reading": "たくさん",
     "type": "adverb",
     "meaning": "many, much"
   },
   {
     "frequency": 258,
     "word": "いー",
-    "reading": "",
+    "reading": "いー",
     "type": "interjection",
     "meaning": "good, great"
   },
   {
     "frequency": 259,
     "word": "大体",
-    "reading": "",
+    "reading": "だいたい",
     "type": "adverb",
     "meaning": "almost, nearly"
   },
   {
     "frequency": 260,
     "word": "もちろん",
-    "reading": "",
+    "reading": "もちろん",
     "type": "adverb",
     "meaning": "of course, needless to say"
   },
   {
     "frequency": 261,
     "word": "読む",
-    "reading": "",
+    "reading": "よむ",
     "type": "verb",
     "meaning": "read"
   },
   {
     "frequency": 262,
     "word": "人たち",
-    "reading": "",
+    "reading": "ひとたち",
     "type": "noun",
     "meaning": "people"
   },
@@ -1918,63 +1918,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 264,
     "word": "昔",
-    "reading": "",
+    "reading": "むかし",
     "type": "noun",
     "meaning": "ancient times, in the past, once"
   },
   {
     "frequency": 265,
     "word": "うん",
-    "reading": "",
+    "reading": "うん",
     "type": "interjection",
     "meaning": "yes, yeah"
   },
   {
     "frequency": 266,
     "word": "すべて",
-    "reading": "",
+    "reading": "すべて",
     "type": "noun",
     "meaning": "everything, all"
   },
   {
     "frequency": 267,
     "word": "教える",
-    "reading": "",
+    "reading": "おしえる",
     "type": "verb",
     "meaning": "teach, tell"
   },
   {
     "frequency": 268,
     "word": "子",
-    "reading": "",
+    "reading": "こ",
     "type": "noun",
     "meaning": "child"
   },
   {
     "frequency": 269,
     "word": "ておく",
-    "reading": "",
+    "reading": "ておく",
     "type": "compound",
     "meaning": "do something in advance, in preparation for something"
   },
   {
     "frequency": 270,
     "word": "に対して",
-    "reading": "",
+    "reading": "にたいして",
     "type": "compound",
     "meaning": "to, toward; for; against"
   },
   {
     "frequency": 271,
     "word": "ばかり",
-    "reading": "",
+    "reading": "ばかり",
     "type": "particle",
     "meaning": "only, just, almost"
   },
   {
     "frequency": 272,
     "word": "なぜ",
-    "reading": "",
+    "reading": "なぜ",
     "type": "adverb",
     "meaning": "why"
   },
@@ -1988,84 +1988,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 274,
     "word": "当時",
-    "reading": "",
+    "reading": "とうじ",
     "type": "noun",
     "meaning": "then, at that time"
   },
   {
     "frequency": 275,
     "word": "場所",
-    "reading": "",
+    "reading": "ばしょ",
     "type": "noun",
     "meaning": "place, spot"
   },
   {
     "frequency": 276,
     "word": "置く",
-    "reading": "",
+    "reading": "おく",
     "type": "verb",
     "meaning": "put, place; leave"
   },
   {
     "frequency": 277,
     "word": "楽しい",
-    "reading": "",
+    "reading": "たのしい",
     "type": "i-adjective",
     "meaning": "pleasant, happy, enjoyable"
   },
   {
     "frequency": 278,
     "word": "にとって",
-    "reading": "",
+    "reading": "にとって",
     "type": "compound",
     "meaning": "for"
   },
   {
     "frequency": 279,
     "word": "声",
-    "reading": "",
+    "reading": "こえ",
     "type": "noun",
     "meaning": "voice"
   },
   {
     "frequency": 280,
     "word": "普通",
-    "reading": "",
+    "reading": "ふつう",
     "type": "na-adjective",
     "meaning": "normal, regular, ordinary, common"
   },
   {
     "frequency": 281,
     "word": "残る",
-    "reading": "",
+    "reading": "のこる",
     "type": "verb",
     "meaning": "remain, be left"
   },
   {
     "frequency": 282,
     "word": "最後",
-    "reading": "",
+    "reading": "さいご",
     "type": "noun",
     "meaning": "last, end"
   },
   {
     "frequency": 283,
     "word": "車",
-    "reading": "",
+    "reading": "くるま",
     "type": "noun",
     "meaning": "car; wheel"
   },
   {
     "frequency": 284,
     "word": "初めて",
-    "reading": "",
+    "reading": "はじめて",
     "type": "adverb",
     "meaning": "for the first time, first"
   },
   {
     "frequency": 285,
     "word": "今度",
-    "reading": "",
+    "reading": "こんど",
     "type": "noun",
     "meaning": "this time, next time"
   },
@@ -2079,77 +2079,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 287,
     "word": "私達",
-    "reading": "",
+    "reading": "わたしたち",
     "type": "pronoun",
     "meaning": "we"
   },
   {
     "frequency": 288,
     "word": "強い",
-    "reading": "",
+    "reading": "つよい",
     "type": "i-adjective",
     "meaning": "strong, powerful"
   },
   {
     "frequency": 289,
     "word": "全く",
-    "reading": "",
+    "reading": "まったく",
     "type": "adverb",
     "meaning": "entirely, completely; (not) at all"
   },
   {
     "frequency": 290,
     "word": "呼ぶ",
-    "reading": "",
+    "reading": "よぶ",
     "type": "verb",
     "meaning": "call"
   },
   {
     "frequency": 291,
     "word": "結局",
-    "reading": "",
+    "reading": "けっきょく",
     "type": "adverb",
     "meaning": "after all, in the end, finally"
   },
   {
     "frequency": 292,
     "word": "歩く",
-    "reading": "",
+    "reading": "あるく",
     "type": "verb",
     "meaning": "walk"
   },
   {
     "frequency": 293,
     "word": "男",
-    "reading": "",
+    "reading": "おとこ",
     "type": "noun",
     "meaning": "man, male"
   },
   {
     "frequency": 294,
     "word": "女性",
-    "reading": "",
+    "reading": "じょせい",
     "type": "noun",
     "meaning": "woman, female"
   },
   {
     "frequency": 295,
     "word": "学校",
-    "reading": "",
+    "reading": "がっこう",
     "type": "noun",
     "meaning": "school"
   },
   {
     "frequency": 296,
     "word": "生きる",
-    "reading": "",
+    "reading": "いきる",
     "type": "verb",
     "meaning": "live"
   },
   {
     "frequency": 297,
     "word": "なかなか",
-    "reading": "",
+    "reading": "なかなか",
     "type": "adverb",
     "meaning": "very, quite; (not) easily"
   },
@@ -2163,182 +2163,182 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 299,
     "word": "もっと",
-    "reading": "",
+    "reading": "もっと",
     "type": "adverb",
     "meaning": "more"
   },
   {
     "frequency": 300,
     "word": "ことができる",
-    "reading": "",
+    "reading": "ことができる",
     "type": "compound",
     "meaning": "can, be able to"
   },
   {
     "frequency": 301,
     "word": "テーマ",
-    "reading": "",
+    "reading": "テーマ",
     "type": "noun",
     "meaning": "theme, subject"
   },
   {
     "frequency": 302,
     "word": "世界",
-    "reading": "",
+    "reading": "せかい",
     "type": "noun",
     "meaning": "world"
   },
   {
     "frequency": 303,
     "word": "状態",
-    "reading": "",
+    "reading": "じょうたい",
     "type": "noun",
     "meaning": "state, conditions"
   },
   {
     "frequency": 304,
     "word": "と",
-    "reading": "",
+    "reading": "と",
     "type": "interjection",
     "meaning": "well, erm (abbreviation of “eeto”)"
   },
   {
     "frequency": 305,
     "word": "もし",
-    "reading": "",
+    "reading": "もし",
     "type": "adverb",
     "meaning": "if, in case"
   },
   {
     "frequency": 306,
     "word": "全然",
-    "reading": "",
+    "reading": "ぜんぜん",
     "type": "adverb",
     "meaning": "(not) at all; utterly, completely"
   },
   {
     "frequency": 307,
     "word": "飲む",
-    "reading": "",
+    "reading": "のむ",
     "type": "verb",
     "meaning": "drink"
   },
   {
     "frequency": 308,
     "word": "新しい",
-    "reading": "",
+    "reading": "あたらしい",
     "type": "i-adjective",
     "meaning": "new, fresh"
   },
   {
     "frequency": 309,
     "word": "の",
-    "reading": "",
+    "reading": "の",
     "type": "discourse particle",
     "meaning": "EMOTION/QUESTION"
   },
   {
     "frequency": 310,
     "word": "早い",
-    "reading": "",
+    "reading": "はやい",
     "type": "i-adjective",
     "meaning": "early, soon"
   },
   {
     "frequency": 311,
     "word": "会う",
-    "reading": "",
+    "reading": "あう",
     "type": "verb",
     "meaning": "meet, see"
   },
   {
     "frequency": 312,
     "word": "アメリカ",
-    "reading": "",
+    "reading": "アメリカ",
     "type": "noun",
     "meaning": "America"
   },
   {
     "frequency": 313,
     "word": "あれ",
-    "reading": "",
+    "reading": "あれ",
     "type": "pronoun",
     "meaning": "that"
   },
   {
     "frequency": 314,
     "word": "小さい",
-    "reading": "",
+    "reading": "ちいさい",
     "type": "i-adjective",
     "meaning": "small, little, tiny"
   },
   {
     "frequency": 315,
     "word": "相手",
-    "reading": "",
+    "reading": "あいて",
     "type": "noun",
     "meaning": "companion; partner"
   },
   {
     "frequency": 316,
     "word": "母",
-    "reading": "",
+    "reading": "はは",
     "type": "noun",
     "meaning": "mother"
   },
   {
     "frequency": 317,
     "word": "以上",
-    "reading": "",
+    "reading": "いじょう",
     "type": "noun",
     "meaning": "more than; mentioned above; since"
   },
   {
     "frequency": 318,
     "word": "関係",
-    "reading": "",
+    "reading": "かんけい",
     "type": "noun",
     "meaning": "relationship, connection"
   },
   {
     "frequency": 319,
     "word": "四",
-    "reading": "",
+    "reading": "し",
     "type": "numeral",
     "meaning": "four"
   },
   {
     "frequency": 320,
     "word": "たぶん",
-    "reading": "",
+    "reading": "たぶん",
     "type": "adverb",
     "meaning": "probably, perhaps, maybe"
   },
   {
     "frequency": 321,
     "word": "店",
-    "reading": "店",
+    "reading": "みせ",
     "type": "noun",
     "meaning": "store, shop"
   },
   {
     "frequency": 322,
     "word": "どんな",
-    "reading": "",
+    "reading": "どんな",
     "type": "adnominal",
     "meaning": "what, what kind of"
   },
   {
     "frequency": 323,
     "word": "頭",
-    "reading": "",
+    "reading": "あたま",
     "type": "noun",
     "meaning": "head"
   },
   {
     "frequency": 324,
     "word": "電話",
-    "reading": "",
+    "reading": "でんわ",
     "type": "noun",
     "meaning": "telephone, call"
   },
@@ -2352,217 +2352,217 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 325,
     "word": "長い",
-    "reading": "",
+    "reading": "ながい",
     "type": "i-adjective",
     "meaning": "long"
   },
   {
     "frequency": 326,
     "word": "ことになる",
-    "reading": "",
+    "reading": "ことになる",
     "type": "compound",
     "meaning": "it happens that ... , it is decided that"
   },
   {
     "frequency": 327,
     "word": "本",
-    "reading": "",
+    "reading": "ほん",
     "type": "noun",
     "meaning": "book"
   },
   {
     "frequency": 328,
     "word": "どの",
-    "reading": "",
+    "reading": "どの",
     "type": "adnominal",
     "meaning": "which, what"
   },
   {
     "frequency": 329,
     "word": "こちら",
-    "reading": "",
+    "reading": "こちら",
     "type": "pronoun",
     "meaning": "this place, here; this way; this"
   },
   {
     "frequency": 330,
     "word": "いわゆる",
-    "reading": "",
+    "reading": "いわゆる",
     "type": "adnominal",
     "meaning": "what is called, what you call, so-called"
   },
   {
     "frequency": 331,
     "word": "わ",
-    "reading": "",
+    "reading": "わ",
     "type": "discourse particle",
     "meaning": "EXCLAMATION"
   },
   {
     "frequency": 332,
     "word": "夜",
-    "reading": "",
+    "reading": "よる",
     "type": "noun",
     "meaning": "night, evening"
   },
   {
     "frequency": 333,
     "word": "別",
-    "reading": "",
+    "reading": "べつ",
     "type": "na-adjective",
     "meaning": "separate, different"
   },
   {
     "frequency": 334,
     "word": "者",
-    "reading": "",
+    "reading": "もの",
     "type": "noun",
     "meaning": "person, people"
   },
   {
     "frequency": 335,
     "word": "タイトル",
-    "reading": "",
+    "reading": "タイトル",
     "type": "noun",
     "meaning": "title"
   },
   {
     "frequency": 336,
     "word": "親",
-    "reading": "",
+    "reading": "おや",
     "type": "noun",
     "meaning": "parent"
   },
   {
     "frequency": 337,
     "word": "名前",
-    "reading": "",
+    "reading": "なまえ",
     "type": "noun",
     "meaning": "name"
   },
   {
     "frequency": 338,
     "word": "全部",
-    "reading": "",
+    "reading": "ぜんぶ",
     "type": "adverb",
     "meaning": "all, whole, entire"
   },
   {
     "frequency": 339,
     "word": "皆さん",
-    "reading": "",
+    "reading": "みなさん",
     "type": "noun",
     "meaning": "everybody, everyone"
   },
   {
     "frequency": 340,
     "word": "により",
-    "reading": "",
+    "reading": "により",
     "type": "compound",
     "meaning": "by; with; depending on"
   },
   {
     "frequency": 341,
     "word": "きれい",
-    "reading": "",
+    "reading": "きれい",
     "type": "na-adjective",
     "meaning": "beautiful, pretty; clean"
   },
   {
     "frequency": 342,
     "word": "立つ",
-    "reading": "",
+    "reading": "たつ",
     "type": "verb",
     "meaning": "stand"
   },
   {
     "frequency": 343,
     "word": "毎日",
-    "reading": "",
+    "reading": "まいにち",
     "type": "adverb",
     "meaning": "every day"
   },
   {
     "frequency": 344,
     "word": "ために",
-    "reading": "",
+    "reading": "ために",
     "type": "compound",
     "meaning": "for"
   },
   {
     "frequency": 345,
     "word": "おいしい",
-    "reading": "",
+    "reading": "おいしい",
     "type": "i-adjective",
     "meaning": "delicious, tasty"
   },
   {
     "frequency": 346,
     "word": "または",
-    "reading": "",
+    "reading": "または",
     "type": "conjunction",
     "meaning": "or"
   },
   {
     "frequency": 347,
     "word": "家族",
-    "reading": "",
+    "reading": "かぞく",
     "type": "noun",
     "meaning": "family"
   },
   {
     "frequency": 348,
     "word": "に対する",
-    "reading": "",
+    "reading": "にたいする",
     "type": "compound",
     "meaning": "to; for; against"
   },
   {
     "frequency": 349,
     "word": "部分",
-    "reading": "",
+    "reading": "ぶぶん",
     "type": "noun",
     "meaning": "part, section"
   },
   {
     "frequency": 350,
     "word": "一度",
-    "reading": "",
+    "reading": "いちど",
     "type": "noun",
     "meaning": "once"
   },
   {
     "frequency": 351,
     "word": "結果",
-    "reading": "",
+    "reading": "けっか",
     "type": "noun",
     "meaning": "result"
   },
   {
     "frequency": 352,
     "word": "じゃ",
-    "reading": "",
+    "reading": "じゃ",
     "type": "conjunction",
     "meaning": "well, so, then"
   },
   {
     "frequency": 353,
     "word": "状況",
-    "reading": "",
+    "reading": "じょうきょう",
     "type": "noun",
     "meaning": "state of affairs, situation"
   },
   {
     "frequency": 354,
     "word": "時代",
-    "reading": "",
+    "reading": "じだい",
     "type": "noun",
     "meaning": "time, era"
   },
   {
     "frequency": 355,
     "word": "少ない",
-    "reading": "",
+    "reading": "すくない",
     "type": "i-adjective",
     "meaning": "a little, a few"
   },
@@ -2576,105 +2576,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 357,
     "word": "うまい",
-    "reading": "",
+    "reading": "うまい",
     "type": "i-adjective",
     "meaning": "delicious, tasty; good at"
   },
   {
     "frequency": 358,
     "word": "覚える",
-    "reading": "",
+    "reading": "おぼえる",
     "type": "verb",
     "meaning": "learn, remember, memorize"
   },
   {
     "frequency": 359,
     "word": "東京",
-    "reading": "",
+    "reading": "とうきょう",
     "type": "noun",
     "meaning": "Tokyo"
   },
   {
     "frequency": 360,
     "word": "てある",
-    "reading": "",
+    "reading": "てある",
     "type": "compound",
     "meaning": "[describes a state resulting from someone’s action]"
   },
   {
     "frequency": 361,
     "word": "続く",
-    "reading": "",
+    "reading": "つづく",
     "type": "verb",
     "meaning": "continue, go on, last"
   },
   {
     "frequency": 362,
     "word": "における",
-    "reading": "",
+    "reading": "における",
     "type": "compound",
     "meaning": "in"
   },
   {
     "frequency": 363,
     "word": "俺",
-    "reading": "",
+    "reading": "おれ",
     "type": "pronoun",
     "meaning": "I (used by male speakers)"
   },
   {
     "frequency": 364,
     "word": "生まれる",
-    "reading": "",
+    "reading": "うまれる",
     "type": "verb",
     "meaning": "be born"
   },
   {
     "frequency": 365,
     "word": "父",
-    "reading": "",
+    "reading": "ちち",
     "type": "noun",
     "meaning": "father"
   },
   {
     "frequency": 366,
     "word": "確か",
-    "reading": "",
+    "reading": "たしか",
     "type": "na-adjective, adverb",
     "meaning": "sure, certain, reliable"
   },
   {
     "frequency": 366,
     "word": "確か",
-    "reading": "",
+    "reading": "たしか",
     "type": "adverb",
     "meaning": "maybe, probably; if I remember rightly, it’s my understanding that"
   },
   {
     "frequency": 367,
     "word": "それぞれ",
-    "reading": "",
+    "reading": "それぞれ",
     "type": "noun",
     "meaning": "each"
   },
   {
     "frequency": 368,
     "word": "方法",
-    "reading": "",
+    "reading": "ほうほう",
     "type": "noun",
     "meaning": "way, method"
   },
   {
     "frequency": 369,
     "word": "はず",
-    "reading": "",
+    "reading": "はず",
     "type": "noun",
     "meaning": "ought to, should"
   },
   {
     "frequency": 370,
     "word": "説明",
-    "reading": "",
+    "reading": "せつめい",
     "type": "noun",
     "meaning": "explanation"
   },
@@ -2688,42 +2688,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 371,
     "word": "なければいけない",
-    "reading": "",
+    "reading": "なければいけない",
     "type": "compound",
     "meaning": "must, have to, need to"
   },
   {
     "frequency": 372,
     "word": "部屋",
-    "reading": "",
+    "reading": "へや",
     "type": "noun",
     "meaning": "room"
   },
   {
     "frequency": 373,
     "word": "ちょうど",
-    "reading": "",
+    "reading": "ちょうど",
     "type": "adverb",
     "meaning": "just, exactly"
   },
   {
     "frequency": 374,
     "word": "当然",
-    "reading": "",
+    "reading": "とうぜん",
     "type": "adverb, noun",
     "meaning": "naturally, as a matter of course"
   },
   {
     "frequency": 375,
     "word": "大学",
-    "reading": "",
+    "reading": "だいがく",
     "type": "noun",
     "meaning": "university, college"
   },
   {
     "frequency": 376,
     "word": "ですから",
-    "reading": "",
+    "reading": "ですから",
     "type": "conjunction",
     "meaning": "so, therefore"
   },
@@ -2737,14 +2737,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 378,
     "word": "朝",
-    "reading": "",
+    "reading": "あさ",
     "type": "noun",
     "meaning": "morning"
   },
   {
     "frequency": 379,
     "word": "どんどん",
-    "reading": "",
+    "reading": "どんどん",
     "type": "adverb",
     "meaning": "rapidly, fast, soon"
   },
@@ -2765,35 +2765,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 381,
     "word": "とにかく",
-    "reading": "",
+    "reading": "とにかく",
     "type": "adverb",
     "meaning": "anyway, regardless"
   },
   {
     "frequency": 382,
     "word": "選ぶ",
-    "reading": "",
+    "reading": "えらぶ",
     "type": "verb",
     "meaning": "choose, select"
   },
   {
     "frequency": 383,
     "word": "面白い",
-    "reading": "",
+    "reading": "おもしろい",
     "type": "i-adjective",
     "meaning": "interesting; fun; funny"
   },
   {
     "frequency": 384,
     "word": "戻る",
-    "reading": "",
+    "reading": "もどる",
     "type": "verb",
     "meaning": "return, go back"
   },
   {
     "frequency": 385,
     "word": "勉強",
-    "reading": "",
+    "reading": "べんきょう",
     "type": "noun",
     "meaning": "study"
   },
@@ -2807,7 +2807,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 386,
     "word": "やめる",
-    "reading": "",
+    "reading": "やめる",
     "type": "verb",
     "meaning": "stop, give up"
   },
@@ -2821,112 +2821,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 388,
     "word": "始める",
-    "reading": "",
+    "reading": "はじめる",
     "type": "verb",
     "meaning": "start, begin"
   },
   {
     "frequency": 389,
     "word": "まわり",
-    "reading": "",
+    "reading": "まわり",
     "type": "noun",
     "meaning": "circumference; surroundings, neighborhood, around"
   },
   {
     "frequency": 390,
     "word": "犬",
-    "reading": "",
+    "reading": "いぬ",
     "type": "noun",
     "meaning": "dog"
   },
   {
     "frequency": 391,
     "word": "必ず",
-    "reading": "",
+    "reading": "かならず",
     "type": "adverb",
     "meaning": "always, certainly, surely"
   },
   {
     "frequency": 392,
     "word": "残す",
-    "reading": "",
+    "reading": "のこす",
     "type": "verb",
     "meaning": "leave"
   },
   {
     "frequency": 393,
     "word": "大事",
-    "reading": "",
+    "reading": "だいじ",
     "type": "na-adjective",
     "meaning": "important, serious"
   },
   {
     "frequency": 394,
     "word": "嬉しい",
-    "reading": "",
+    "reading": "うれしい",
     "type": "i-adjective",
     "meaning": "glad, happy"
   },
   {
     "frequency": 395,
     "word": "力",
-    "reading": "",
+    "reading": "ちから",
     "type": "noun",
     "meaning": "power, strength"
   },
   {
     "frequency": 396,
     "word": "遊ぶ",
-    "reading": "",
+    "reading": "あそぶ",
     "type": "verb",
     "meaning": "play"
   },
   {
     "frequency": 397,
     "word": "若い",
-    "reading": "",
+    "reading": "わかい",
     "type": "i-adjective",
     "meaning": "young"
   },
   {
     "frequency": 398,
     "word": "理由",
-    "reading": "",
+    "reading": "りゆう",
     "type": "noun",
     "meaning": "reason"
   },
   {
     "frequency": 399,
     "word": "女",
-    "reading": "",
+    "reading": "おんな",
     "type": "noun",
     "meaning": "woman, female"
   },
   {
     "frequency": 400,
     "word": "簡単",
-    "reading": "",
+    "reading": "かんたん",
     "type": "na-adjective",
     "meaning": "easy"
   },
   {
     "frequency": 401,
     "word": "始まる",
-    "reading": "",
+    "reading": "はじまる",
     "type": "verb",
     "meaning": "start, begin"
   },
   {
     "frequency": 402,
     "word": "死ぬ",
-    "reading": "",
+    "reading": "しぬ",
     "type": "verb",
     "meaning": "die"
   },
   {
     "frequency": 403,
     "word": "今回",
-    "reading": "",
+    "reading": "こんかい",
     "type": "noun",
     "meaning": "this time"
   },
@@ -2940,35 +2940,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 405,
     "word": "人生",
-    "reading": "",
+    "reading": "じんせい",
     "type": "noun",
     "meaning": "life"
   },
   {
     "frequency": 406,
     "word": "通り",
-    "reading": "",
+    "reading": "とおり",
     "type": "noun",
     "meaning": "street; as"
   },
   {
     "frequency": 407,
     "word": "内容",
-    "reading": "",
+    "reading": "ないよう",
     "type": "noun",
     "meaning": "contents"
   },
   {
     "frequency": 408,
     "word": "テレビ",
-    "reading": "",
+    "reading": "テレビ",
     "type": "noun",
     "meaning": "television, TV"
   },
   {
     "frequency": 409,
     "word": "経験",
-    "reading": "",
+    "reading": "けいけん",
     "type": "noun",
     "meaning": "experience"
   },
@@ -2982,70 +2982,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 410,
     "word": "木",
-    "reading": "",
+    "reading": "き",
     "type": "noun",
     "meaning": "wood; tree"
   },
   {
     "frequency": 411,
     "word": "点",
-    "reading": "",
+    "reading": "てん",
     "type": "noun",
     "meaning": "point, score"
   },
   {
     "frequency": 412,
     "word": "自然",
-    "reading": "",
+    "reading": "しぜん",
     "type": "noun",
     "meaning": "nature"
   },
   {
     "frequency": 412,
     "word": "自然",
-    "reading": "",
+    "reading": "しぜん",
     "type": "na-adjective",
     "meaning": "natural"
   },
   {
     "frequency": 412,
     "word": "自然",
-    "reading": "",
+    "reading": "しぜん",
     "type": "adverb",
     "meaning": "naturally"
   },
   {
     "frequency": 413,
     "word": "音",
-    "reading": "",
+    "reading": "おと",
     "type": "noun",
     "meaning": "sound, noise"
   },
   {
     "frequency": 414,
     "word": "海",
-    "reading": "",
+    "reading": "うみ",
     "type": "noun",
     "meaning": "sea, ocean"
   },
   {
     "frequency": 415,
     "word": "一応",
-    "reading": "",
+    "reading": "いちおう",
     "type": "adverb",
     "meaning": "at first glance; at least, just"
   },
   {
     "frequency": 416,
     "word": "与える",
-    "reading": "",
+    "reading": "あたえる",
     "type": "verb",
     "meaning": "give, present"
   },
   {
     "frequency": 417,
     "word": "利用",
-    "reading": "",
+    "reading": "りよう",
     "type": "noun",
     "meaning": "use, utilization"
   },
@@ -3059,42 +3059,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 418,
     "word": "働く",
-    "reading": "",
+    "reading": "はたらく",
     "type": "verb",
     "meaning": "work"
   },
   {
     "frequency": 419,
     "word": "一杯",
-    "reading": "",
+    "reading": "いっぱい",
     "type": "noun, adverb",
     "meaning": "cup(ful), glass(ful), be full of, a lot of"
   },
   {
     "frequency": 420,
     "word": "近く",
-    "reading": "",
+    "reading": "ちかく",
     "type": "noun",
     "meaning": "near, nearby"
   },
   {
     "frequency": 421,
     "word": "つまり",
-    "reading": "",
+    "reading": "つまり",
     "type": "adverb",
     "meaning": "in short, that is to say, after all"
   },
   {
     "frequency": 422,
     "word": "共",
-    "reading": "",
+    "reading": "ども",
     "type": "noun",
     "meaning": "with, together"
   },
   {
     "frequency": 423,
     "word": "存在",
-    "reading": "",
+    "reading": "そんざい",
     "type": "noun",
     "meaning": "existence"
   },
@@ -3108,315 +3108,315 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 424,
     "word": "絶対",
-    "reading": "",
+    "reading": "ぜったい",
     "type": "noun, adverb",
     "meaning": "absolute, absolutely, whatever"
   },
   {
     "frequency": 425,
     "word": "日本人",
-    "reading": "",
+    "reading": "にほんじん",
     "type": "noun",
     "meaning": "Japanese (person)"
   },
   {
     "frequency": 426,
     "word": "大切",
-    "reading": "",
+    "reading": "たいせつ",
     "type": "na-adjective",
     "meaning": "important"
   },
   {
     "frequency": 427,
     "word": "足",
-    "reading": "",
+    "reading": "あし",
     "type": "noun",
     "meaning": "foot; leg"
   },
   {
     "frequency": 428,
     "word": "切る",
-    "reading": "",
+    "reading": "きる",
     "type": "verb",
     "meaning": "cut"
   },
   {
     "frequency": 429,
     "word": "走る",
-    "reading": "",
+    "reading": "はしる",
     "type": "verb",
     "meaning": "run"
   },
   {
     "frequency": 430,
     "word": "待つ",
-    "reading": "",
+    "reading": "まつ",
     "type": "verb",
     "meaning": "wait"
   },
   {
     "frequency": 431,
     "word": "写真",
-    "reading": "",
+    "reading": "しゃしん",
     "type": "noun",
     "meaning": "picture, photo"
   },
   {
     "frequency": 432,
     "word": "子供たち",
-    "reading": "",
+    "reading": "こどもたち",
     "type": "noun",
     "meaning": "children"
   },
   {
     "frequency": 433,
     "word": "だんだん",
-    "reading": "",
+    "reading": "だんだん",
     "type": "adverb",
     "meaning": "gradually, more and more, less and less"
   },
   {
     "frequency": 434,
     "word": "二つ",
-    "reading": "",
+    "reading": "ふたつ",
     "type": "numeral",
     "meaning": "two"
   },
   {
     "frequency": 435,
     "word": "楽しむ",
-    "reading": "",
+    "reading": "たのしむ",
     "type": "verb",
     "meaning": "enjoy, have a good time"
   },
   {
     "frequency": 436,
     "word": "五",
-    "reading": "",
+    "reading": "ご",
     "type": "noun",
     "meaning": "five"
   },
   {
     "frequency": 437,
     "word": "多く",
-    "reading": "",
+    "reading": "おおく",
     "type": "noun",
     "meaning": "many, most"
   },
   {
     "frequency": 438,
     "word": "寝る",
-    "reading": "",
+    "reading": "ねる",
     "type": "verb",
     "meaning": "sleep; lie down, go to bed"
   },
   {
     "frequency": 439,
     "word": "英語",
-    "reading": "",
+    "reading": "えいご",
     "type": "noun",
     "meaning": "English language"
   },
   {
     "frequency": 440,
     "word": "決める",
-    "reading": "",
+    "reading": "きめる",
     "type": "verb",
     "meaning": "decide, fix"
   },
   {
     "frequency": 441,
     "word": "忘れる",
-    "reading": "",
+    "reading": "わすれる",
     "type": "verb",
     "meaning": "forget"
   },
   {
     "frequency": 442,
     "word": "口",
-    "reading": "",
+    "reading": "くち",
     "type": "noun",
     "meaning": "mouth"
   },
   {
     "frequency": 443,
     "word": "送る",
-    "reading": "",
+    "reading": "おくる",
     "type": "verb",
     "meaning": "send; spend (time)"
   },
   {
     "frequency": 444,
     "word": "姿",
-    "reading": "",
+    "reading": "すがた",
     "type": "noun",
     "meaning": "figure, shape, appearance"
   },
   {
     "frequency": 445,
     "word": "なくなる",
-    "reading": "",
+    "reading": "なくなる",
     "type": "verb",
     "meaning": "disappear; be gone"
   },
   {
     "frequency": 446,
     "word": "時期",
-    "reading": "",
+    "reading": "じき",
     "type": "noun",
     "meaning": "time, period, season"
   },
   {
     "frequency": 447,
     "word": "逆",
-    "reading": "",
+    "reading": "ぎゃく",
     "type": "noun, na-adjective",
     "meaning": "contrary, opposite"
   },
   {
     "frequency": 448,
     "word": "頑張る",
-    "reading": "",
+    "reading": "がんばる",
     "type": "verb",
     "meaning": "do one’s best"
   },
   {
     "frequency": 449,
     "word": "示す",
-    "reading": "",
+    "reading": "しめす",
     "type": "verb",
     "meaning": "show"
   },
   {
     "frequency": 450,
     "word": "こそ",
-    "reading": "",
+    "reading": "こそ",
     "type": "particle",
     "meaning": "EMPHATIC"
   },
   {
     "frequency": 451,
     "word": "人々",
-    "reading": "",
+    "reading": "ひとびと",
     "type": "noun",
     "meaning": "people"
   },
   {
     "frequency": 452,
     "word": "道",
-    "reading": "",
+    "reading": "みち",
     "type": "noun",
     "meaning": "way, road"
   },
   {
     "frequency": 453,
     "word": "有名",
-    "reading": "",
+    "reading": "ゆうめい",
     "type": "na-adjective",
     "meaning": "famous, well-known"
   },
   {
     "frequency": 454,
     "word": "てもいい",
-    "reading": "",
+    "reading": "てもいい",
     "type": "compound",
     "meaning": "(I) don’t mind if"
   },
   {
     "frequency": 455,
     "word": "思い",
-    "reading": "",
+    "reading": "おもい",
     "type": "noun",
     "meaning": "thought, mind, heart"
   },
   {
     "frequency": 456,
     "word": "しかも",
-    "reading": "",
+    "reading": "しかも",
     "type": "conjunction",
     "meaning": "moreover, besides"
   },
   {
     "frequency": 457,
     "word": "難しい",
-    "reading": "",
+    "reading": "むずかしい",
     "type": "i-adjective",
     "meaning": "difficult, hard"
   },
   {
     "frequency": 458,
     "word": "彼ら",
-    "reading": "",
+    "reading": "かれら",
     "type": "pronoun",
     "meaning": "they"
   },
   {
     "frequency": 459,
     "word": "山",
-    "reading": "",
+    "reading": "やま",
     "type": "noun",
     "meaning": "mountain"
   },
   {
     "frequency": 460,
     "word": "程度",
-    "reading": "",
+    "reading": "ていど",
     "type": "noun",
     "meaning": "degree, grade, level, limit"
   },
   {
     "frequency": 461,
     "word": "でない",
-    "reading": "",
+    "reading": "でない",
     "type": "compound",
     "meaning": "COPULA (NEGATIVE)"
   },
   {
     "frequency": 462,
     "word": "願う",
-    "reading": "",
+    "reading": "ねがう",
     "type": "verb",
     "meaning": "wish, ask, pray"
   },
   {
     "frequency": 463,
     "word": "すでに",
-    "reading": "",
+    "reading": "すでに",
     "type": "adverb",
     "meaning": "already, before"
   },
   {
     "frequency": 464,
     "word": "昭和",
-    "reading": "",
+    "reading": "しょうわ",
     "type": "noun",
     "meaning": "Showa era"
   },
   {
     "frequency": 465,
     "word": "向かう",
-    "reading": "",
+    "reading": "むかう",
     "type": "verb",
     "meaning": "face; go (toward, in the direction of）"
   },
   {
     "frequency": 466,
     "word": "連れる",
-    "reading": "",
+    "reading": "つれる",
     "type": "verb",
     "meaning": "take somebody, accompany"
   },
   {
     "frequency": 467,
     "word": "変える",
-    "reading": "",
+    "reading": "かえる",
     "type": "verb",
     "meaning": "change"
   },
   {
     "frequency": 468,
     "word": "影響",
-    "reading": "",
+    "reading": "えいきょう",
     "type": "noun",
     "meaning": "influence"
   },
@@ -3430,7 +3430,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 469,
     "word": "病院",
-    "reading": "",
+    "reading": "びょういん",
     "type": "noun",
     "meaning": "hospital, clinic"
   },
@@ -3444,63 +3444,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 471,
     "word": "花",
-    "reading": "",
+    "reading": "はな",
     "type": "noun",
     "meaning": "flower"
   },
   {
     "frequency": 472,
     "word": "求める",
-    "reading": "",
+    "reading": "もとめる",
     "type": "verb",
     "meaning": "ask for, request, demand"
   },
   {
     "frequency": 473,
     "word": "情報",
-    "reading": "",
+    "reading": "じょうほう",
     "type": "noun",
     "meaning": "information"
   },
   {
     "frequency": 474,
     "word": "もらう",
-    "reading": "",
+    "reading": "もらう",
     "type": "verb",
     "meaning": "get, have, receive"
   },
   {
     "frequency": 475,
     "word": "友人",
-    "reading": "",
+    "reading": "ゆうじん",
     "type": "noun",
     "meaning": "friend"
   },
   {
     "frequency": 476,
     "word": "だめ",
-    "reading": "",
+    "reading": "だめ",
     "type": "na-adjective",
     "meaning": "useless, hopeless, impossible"
   },
   {
     "frequency": 477,
     "word": "経つ",
-    "reading": "",
+    "reading": "たつ",
     "type": "verb",
     "meaning": "pass, go by"
   },
   {
     "frequency": 478,
     "word": "先程",
-    "reading": "",
+    "reading": "さきほど",
     "type": "noun",
     "meaning": "a short while ago"
   },
   {
     "frequency": 479,
     "word": "一回",
-    "reading": "",
+    "reading": "いっかい",
     "type": "noun",
     "meaning": "once"
   },
@@ -3521,7 +3521,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 481,
     "word": "小さな",
-    "reading": "",
+    "reading": "ちいさな",
     "type": "adnominal",
     "meaning": "small, little, tiny"
   },
@@ -3535,49 +3535,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 483,
     "word": "無人島",
-    "reading": "",
+    "reading": "むじんとう",
     "type": "noun",
     "meaning": "uninhabited island"
   },
   {
     "frequency": 484,
     "word": "続ける",
-    "reading": "",
+    "reading": "つづける",
     "type": "verb",
     "meaning": "continue, keep up, go on"
   },
   {
     "frequency": 485,
     "word": "重要",
-    "reading": "",
+    "reading": "じゅうよう",
     "type": "na-adjective",
     "meaning": "important"
   },
   {
     "frequency": 486,
     "word": "といった",
-    "reading": "",
+    "reading": "といった",
     "type": "compound",
     "meaning": "like, such as"
   },
   {
     "frequency": 487,
     "word": "当たる",
-    "reading": "",
+    "reading": "あたる",
     "type": "verb",
     "meaning": "hit, bump, touch; guess right, win"
   },
   {
     "frequency": 488,
     "word": "近い",
-    "reading": "",
+    "reading": "ちかい",
     "type": "i-adjective",
     "meaning": "near, close"
   },
   {
     "frequency": 489,
     "word": "結婚",
-    "reading": "",
+    "reading": "けっこん",
     "type": "noun",
     "meaning": "marriage"
   },
@@ -3598,112 +3598,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 491,
     "word": "これら",
-    "reading": "",
+    "reading": "これら",
     "type": "pronoun",
     "meaning": "these"
   },
   {
     "frequency": 492,
     "word": "歴史",
-    "reading": "",
+    "reading": "れきし",
     "type": "noun",
     "meaning": "history"
   },
   {
     "frequency": 493,
     "word": "増える",
-    "reading": "",
+    "reading": "ふえる",
     "type": "verb",
     "meaning": "increase, gain"
   },
   {
     "frequency": 494,
     "word": "音楽",
-    "reading": "",
+    "reading": "おんがく",
     "type": "noun",
     "meaning": "music"
   },
   {
     "frequency": 495,
     "word": "なければならない",
-    "reading": "",
+    "reading": "なければならない",
     "type": "compound",
     "meaning": "must"
   },
   {
     "frequency": 496,
     "word": "外",
-    "reading": "",
+    "reading": "そと",
     "type": "noun",
     "meaning": "outside"
   },
   {
     "frequency": 497,
     "word": "進む",
-    "reading": "",
+    "reading": "すすむ",
     "type": "verb",
     "meaning": "to go forward, make progress"
   },
   {
     "frequency": 498,
     "word": "起きる",
-    "reading": "",
+    "reading": "おきる",
     "type": "verb",
     "meaning": "get up; wake; happen"
   },
   {
     "frequency": 499,
     "word": "嫌",
-    "reading": "",
+    "reading": "いや",
     "type": "noun, na-adjective",
     "meaning": "unpleasant, disagreeable"
   },
   {
     "frequency": 500,
     "word": "駅",
-    "reading": "",
+    "reading": "えき",
     "type": "noun",
     "meaning": "station"
   },
   {
     "frequency": 501,
     "word": "いや",
-    "reading": "",
+    "reading": "いや",
     "type": "interjection",
     "meaning": "No"
   },
   {
     "frequency": 502,
     "word": "はい",
-    "reading": "",
+    "reading": "はい",
     "type": "interjection",
     "meaning": "yes; all right"
   },
   {
     "frequency": 503,
     "word": "映画",
-    "reading": "",
+    "reading": "えいが",
     "type": "noun",
     "meaning": "movie"
   },
   {
     "frequency": 504,
     "word": "身",
-    "reading": "",
+    "reading": "み",
     "type": "noun",
     "meaning": "body, oneself; position"
   },
   {
     "frequency": 505,
     "word": "客",
-    "reading": "",
+    "reading": "きゃく",
     "type": "noun",
     "meaning": "guest, visitor; customer"
   },
   {
     "frequency": 506,
     "word": "質問",
-    "reading": "",
+    "reading": "しつもん",
     "type": "noun",
     "meaning": "question"
   },
@@ -3717,49 +3717,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 507,
     "word": "含む",
-    "reading": "",
+    "reading": "ふくむ",
     "type": "verb",
     "meaning": "contain, include"
   },
   {
     "frequency": 508,
     "word": "地域",
-    "reading": "",
+    "reading": "ちいき",
     "type": "noun",
     "meaning": "region, area"
   },
   {
     "frequency": 509,
     "word": "我が",
-    "reading": "",
+    "reading": "わが",
     "type": "adnominal",
     "meaning": "my, our, one’s"
   },
   {
     "frequency": 510,
     "word": "どうしても",
-    "reading": "",
+    "reading": "どうしても",
     "type": "adverb",
     "meaning": "by all means, at any cost, no matter what, after all"
   },
   {
     "frequency": 511,
     "word": "のに",
-    "reading": "",
+    "reading": "のに",
     "type": "conjunctive particle",
     "meaning": "although, though; in order to"
   },
   {
     "frequency": 512,
     "word": "娘",
-    "reading": "",
+    "reading": "むすめ",
     "type": "noun",
     "meaning": "daughter"
   },
   {
     "frequency": 513,
     "word": "見せる",
-    "reading": "",
+    "reading": "みせる",
     "type": "verb",
     "meaning": "show"
   },
@@ -3773,28 +3773,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 515,
     "word": "今年",
-    "reading": "",
+    "reading": "ことし",
     "type": "noun",
     "meaning": "this year"
   },
   {
     "frequency": 516,
     "word": "平成",
-    "reading": "",
+    "reading": "へいせい",
     "type": "noun",
     "meaning": "Heisei era"
   },
   {
     "frequency": 517,
     "word": "図",
-    "reading": "",
+    "reading": "ず",
     "type": "noun",
     "meaning": "drawing, figure, diagram"
   },
   {
     "frequency": 518,
     "word": "紹介",
-    "reading": "",
+    "reading": "しょうかい",
     "type": "noun",
     "meaning": "introduction"
   },
@@ -3808,35 +3808,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 519,
     "word": "合わせる",
-    "reading": "",
+    "reading": "あわせる",
     "type": "verb",
     "meaning": "join, add up; adjust"
   },
   {
     "frequency": 520,
     "word": "安い",
-    "reading": "",
+    "reading": "やすい",
     "type": "i-adjective",
     "meaning": "low, cheap"
   },
   {
     "frequency": 521,
     "word": "夢",
-    "reading": "",
+    "reading": "ゆめ",
     "type": "noun",
     "meaning": "dream"
   },
   {
     "frequency": 522,
     "word": "つらい",
-    "reading": "",
+    "reading": "つらい",
     "type": "i-adjective",
     "meaning": "hard, difficult, painful"
   },
   {
     "frequency": 523,
     "word": "規定",
-    "reading": "",
+    "reading": "きてい",
     "type": "noun",
     "meaning": "regulations, stipulations"
   },
@@ -3850,28 +3850,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 524,
     "word": "どちら",
-    "reading": "",
+    "reading": "どちら",
     "type": "pronoun",
     "meaning": "where; which; who"
   },
   {
     "frequency": 525,
     "word": "中心",
-    "reading": "",
+    "reading": "ちゅうしん",
     "type": "noun",
     "meaning": "center"
   },
   {
     "frequency": 526,
     "word": "起こる",
-    "reading": "",
+    "reading": "おこる",
     "type": "verb",
     "meaning": "happen, occur, take place"
   },
   {
     "frequency": 527,
     "word": "我々",
-    "reading": "",
+    "reading": "われわれ",
     "type": "pronoun",
     "meaning": "we"
   },
@@ -3885,77 +3885,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 529,
     "word": "立てる",
-    "reading": "",
+    "reading": "たてる",
     "type": "verb",
     "meaning": "stand, set up, put up"
   },
   {
     "frequency": 530,
     "word": "最も",
-    "reading": "",
+    "reading": "もっとも",
     "type": "adverb",
     "meaning": "most, extremely"
   },
   {
     "frequency": 531,
     "word": "色",
-    "reading": "",
+    "reading": "いろ",
     "type": "noun",
     "meaning": "color"
   },
   {
     "frequency": 532,
     "word": "探す",
-    "reading": "",
+    "reading": "さがす",
     "type": "verb",
     "meaning": "look for, search for, seek"
   },
   {
     "frequency": 533,
     "word": "ちゃんと",
-    "reading": "",
+    "reading": "ちゃんと",
     "type": "adverb",
     "meaning": "exactly, regularly, properly"
   },
   {
     "frequency": 534,
     "word": "興味",
-    "reading": "",
+    "reading": "きょうみ",
     "type": "noun",
     "meaning": "interest"
   },
   {
     "frequency": 535,
     "word": "三つ",
-    "reading": "",
+    "reading": "みっつ",
     "type": "numeral",
     "meaning": "three"
   },
   {
     "frequency": 536,
     "word": "てほしい",
-    "reading": "",
+    "reading": "てほしい",
     "type": "compound",
     "meaning": "want /ask someone to do"
   },
   {
     "frequency": 537,
     "word": "いただく",
-    "reading": "",
+    "reading": "いただく",
     "type": "verb",
     "meaning": "get, receive (humble)"
   },
   {
     "frequency": 538,
     "word": "売る",
-    "reading": "",
+    "reading": "うる",
     "type": "verb",
     "meaning": "sell"
   },
   {
     "frequency": 539,
     "word": "変化",
-    "reading": "",
+    "reading": "へんか",
     "type": "noun",
     "meaning": "change"
   },
@@ -3969,28 +3969,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 540,
     "word": "印象",
-    "reading": "",
+    "reading": "いんしょう",
     "type": "noun",
     "meaning": "impression"
   },
   {
     "frequency": 541,
     "word": "作品",
-    "reading": "",
+    "reading": "さくひん",
     "type": "noun",
     "meaning": "work, production"
   },
   {
     "frequency": 542,
     "word": "でございます",
-    "reading": "",
+    "reading": "でございます",
     "type": "compound",
     "meaning": "be (formal)"
   },
   {
     "frequency": 543,
     "word": "参加",
-    "reading": "",
+    "reading": "さんか",
     "type": "noun",
     "meaning": "participation"
   },
@@ -4004,21 +4004,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 544,
     "word": "夏",
-    "reading": "",
+    "reading": "なつ",
     "type": "noun",
     "meaning": "summer"
   },
   {
     "frequency": 545,
     "word": "よる",
-    "reading": "",
+    "reading": "よる",
     "type": "verb",
     "meaning": "be due to"
   },
   {
     "frequency": 546,
     "word": "理解",
-    "reading": "",
+    "reading": "りかい",
     "type": "noun",
     "meaning": "understanding"
   },
@@ -4032,112 +4032,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 547,
     "word": "事件",
-    "reading": "",
+    "reading": "じけん",
     "type": "noun",
     "meaning": "incident, event"
   },
   {
     "frequency": 548,
     "word": "中国",
-    "reading": "",
+    "reading": "ちゅうごく",
     "type": "noun",
     "meaning": "China"
   },
   {
     "frequency": 549,
     "word": "ずつ",
-    "reading": "",
+    "reading": "ずつ",
     "type": "particle",
     "meaning": "each, ... by ..."
   },
   {
     "frequency": 550,
     "word": "母親",
-    "reading": "",
+    "reading": "ははおや",
     "type": "noun",
     "meaning": "mother"
   },
   {
     "frequency": 551,
     "word": "取り敢えず",
-    "reading": "",
+    "reading": "とりあえず",
     "type": "adverb",
     "meaning": "for the time being; at once"
   },
   {
     "frequency": 552,
     "word": "ところが",
-    "reading": "",
+    "reading": "ところが",
     "type": "conjunction",
     "meaning": "however"
   },
   {
     "frequency": 553,
     "word": "目的",
-    "reading": "",
+    "reading": "もくてき",
     "type": "noun",
     "meaning": "purpose"
   },
   {
     "frequency": 554,
     "word": "様々",
-    "reading": "",
+    "reading": "さまざま",
     "type": "na-adjective",
     "meaning": "various, all kinds of"
   },
   {
     "frequency": 555,
     "word": "答える",
-    "reading": "",
+    "reading": "こたえる",
     "type": "verb",
     "meaning": "answer, respond"
   },
   {
     "frequency": 556,
     "word": "過ごす",
-    "reading": "",
+    "reading": "すごす",
     "type": "verb",
     "meaning": "spend, live"
   },
   {
     "frequency": 557,
     "word": "上がる",
-    "reading": "",
+    "reading": "あがる",
     "type": "verb",
     "meaning": "go up, rise; end; get nervous"
   },
   {
     "frequency": 558,
     "word": "一方",
-    "reading": "",
+    "reading": "いっぽう",
     "type": "noun",
     "meaning": "one side"
   },
   {
     "frequency": 558,
     "word": "一方",
-    "reading": "",
+    "reading": "いっぽう",
     "type": "conjunction",
     "meaning": "on the other hand"
   },
   {
     "frequency": 559,
     "word": "病気",
-    "reading": "",
+    "reading": "びょうき",
     "type": "noun",
     "meaning": "sickness, illness"
   },
   {
     "frequency": 560,
     "word": "心配",
-    "reading": "",
+    "reading": "しんぱい",
     "type": "na-adjective",
     "meaning": "anxious, worried"
   },
   {
     "frequency": 560,
     "word": "心配",
-    "reading": "",
+    "reading": "しんぱい",
     "type": "noun",
     "meaning": "anxiety, worry, care"
   },
@@ -4151,35 +4151,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 561,
     "word": "それでも",
-    "reading": "",
+    "reading": "それでも",
     "type": "conjunction",
     "meaning": "but, still"
   },
   {
     "frequency": 562,
     "word": "イメージ",
-    "reading": "",
+    "reading": "イメージ",
     "type": "noun",
     "meaning": "image"
   },
   {
     "frequency": 562,
     "word": "イメージする",
-    "reading": "",
+    "reading": "イメージする",
     "type": "verb",
     "meaning": "imagine, have an impression"
   },
   {
     "frequency": 563,
     "word": "笑い",
-    "reading": "",
+    "reading": "わらい",
     "type": "noun",
     "meaning": "laugh, laughter"
   },
   {
     "frequency": 564,
     "word": "午後",
-    "reading": "",
+    "reading": "ごご",
     "type": "noun",
     "meaning": "afternoon, p.m."
   },
@@ -4193,49 +4193,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 566,
     "word": "動く",
-    "reading": "",
+    "reading": "うごく",
     "type": "verb",
     "meaning": "move; work (machine)"
   },
   {
     "frequency": 567,
     "word": "主人",
-    "reading": "",
+    "reading": "しゅじん",
     "type": "noun",
     "meaning": "shop owner; husband"
   },
   {
     "frequency": 568,
     "word": "加える",
-    "reading": "",
+    "reading": "くわえる",
     "type": "verb",
     "meaning": "add, include"
   },
   {
     "frequency": 569,
     "word": "困る",
-    "reading": "",
+    "reading": "こまる",
     "type": "verb",
     "meaning": "have difficulty, be in trouble"
   },
   {
     "frequency": 570,
     "word": "取れる",
-    "reading": "",
+    "reading": "とれる",
     "type": "verb",
     "meaning": "come off; be removed"
   },
   {
     "frequency": 571,
     "word": "環境",
-    "reading": "",
+    "reading": "かんきょう",
     "type": "noun",
     "meaning": "environment"
   },
   {
     "frequency": 572,
     "word": "対応",
-    "reading": "",
+    "reading": "たいおう",
     "type": "noun",
     "meaning": "correspondence, response"
   },
@@ -4249,21 +4249,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 573,
     "word": "比べる",
-    "reading": "",
+    "reading": "くらべる",
     "type": "verb",
     "meaning": "compare, contrast"
   },
   {
     "frequency": 574,
     "word": "高校",
-    "reading": "",
+    "reading": "こうこう",
     "type": "noun",
     "meaning": "high school"
   },
   {
     "frequency": 575,
     "word": "食事",
-    "reading": "",
+    "reading": "しょくじ",
     "type": "noun",
     "meaning": "meal"
   },
@@ -4277,28 +4277,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 576,
     "word": "引く",
-    "reading": "",
+    "reading": "ひく",
     "type": "verb",
     "meaning": "pull, draw, lead; subtract"
   },
   {
     "frequency": 577,
     "word": "辺",
-    "reading": "",
+    "reading": "へん",
     "type": "noun",
     "meaning": "region, area around"
   },
   {
     "frequency": 578,
     "word": "要するに",
-    "reading": "",
+    "reading": "ようするに",
     "type": "conjunction",
     "meaning": "in short, to sum up"
   },
   {
     "frequency": 579,
     "word": "離れる",
-    "reading": "",
+    "reading": "はなれる",
     "type": "verb",
     "meaning": "separate; leave; be away from"
   },
@@ -4312,7 +4312,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 581,
     "word": "実施",
-    "reading": "",
+    "reading": "じっし",
     "type": "noun",
     "meaning": "operation"
   },
@@ -4326,21 +4326,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 582,
     "word": "今後",
-    "reading": "",
+    "reading": "こんご",
     "type": "adverb",
     "meaning": "in the future, from now on"
   },
   {
     "frequency": 583,
     "word": "社会",
-    "reading": "",
+    "reading": "しゃかい",
     "type": "noun",
     "meaning": "society"
   },
   {
     "frequency": 584,
     "word": "練習",
-    "reading": "",
+    "reading": "れんしゅう",
     "type": "noun",
     "meaning": "practice, training"
   },
@@ -4354,7 +4354,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 585,
     "word": "使用",
-    "reading": "",
+    "reading": "しよう",
     "type": "noun",
     "meaning": "use"
   },
@@ -4368,42 +4368,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 586,
     "word": "越える",
-    "reading": "",
+    "reading": "こえる",
     "type": "verb",
     "meaning": "cross over, go over"
   },
   {
     "frequency": 587,
     "word": "図る",
-    "reading": "",
+    "reading": "はかる",
     "type": "verb",
     "meaning": "attempt; plan; strive"
   },
   {
     "frequency": 588,
     "word": "企業",
-    "reading": "",
+    "reading": "きぎょう",
     "type": "noun",
     "meaning": "company, business"
   },
   {
     "frequency": 589,
     "word": "奴",
-    "reading": "",
+    "reading": "やっこ",
     "type": "noun",
     "meaning": "guy, fellow"
   },
   {
     "frequency": 590,
     "word": "はっきり",
-    "reading": "",
+    "reading": "はっきり",
     "type": "adverb",
     "meaning": "clearly, certainly"
   },
   {
     "frequency": 591,
     "word": "怖い",
-    "reading": "",
+    "reading": "こわい",
     "type": "i-adjective",
     "meaning": "frightening, scary; terrified"
   },
@@ -4417,189 +4417,189 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 593,
     "word": "絵",
-    "reading": "",
+    "reading": "え",
     "type": "noun",
     "meaning": "picture, painting"
   },
   {
     "frequency": 594,
     "word": "思い出す",
-    "reading": "",
+    "reading": "おもいだす",
     "type": "verb",
     "meaning": "remember"
   },
   {
     "frequency": 595,
     "word": "に関して",
-    "reading": "",
+    "reading": "にかんして",
     "type": "compound",
     "meaning": "about, regarding, concerning"
   },
   {
     "frequency": 596,
     "word": "酒",
-    "reading": "",
+    "reading": "さけ",
     "type": "noun",
     "meaning": "alcohol, sake, rice wine"
   },
   {
     "frequency": 597,
     "word": "原因",
-    "reading": "",
+    "reading": "げんいん",
     "type": "noun",
     "meaning": "cause"
   },
   {
     "frequency": 598,
     "word": "お前",
-    "reading": "",
+    "reading": "おまえ",
     "type": "noun",
     "meaning": "you (colloquial)"
   },
   {
     "frequency": 599,
     "word": "守る",
-    "reading": "",
+    "reading": "まもる",
     "type": "verb",
     "meaning": "protect, defend; keep, obey"
   },
   {
     "frequency": 600,
     "word": "小学校",
-    "reading": "",
+    "reading": "しょうがっこう",
     "type": "noun",
     "meaning": "elementary school, primary school"
   },
   {
     "frequency": 601,
     "word": "回る",
-    "reading": "",
+    "reading": "めぐる",
     "type": "verb",
     "meaning": "spin, turn, go around; go via"
   },
   {
     "frequency": 602,
     "word": "広い",
-    "reading": "",
+    "reading": "ひろい",
     "type": "i-adjective",
     "meaning": "wide, broad, large"
   },
   {
     "frequency": 603,
     "word": "猫",
-    "reading": "",
+    "reading": "ねこ",
     "type": "noun",
     "meaning": "cat"
   },
   {
     "frequency": 604,
     "word": "向こう",
-    "reading": "",
+    "reading": "むこう",
     "type": "noun",
     "meaning": "other side; over there"
   },
   {
     "frequency": 605,
     "word": "同時",
-    "reading": "",
+    "reading": "どうじ",
     "type": "noun",
     "meaning": "simultaneous, at the same time"
   },
   {
     "frequency": 606,
     "word": "調べる",
-    "reading": "",
+    "reading": "しらべる",
     "type": "verb",
     "meaning": "investigate; look up; examine; check"
   },
   {
     "frequency": 607,
     "word": "のぼる",
-    "reading": "",
+    "reading": "のぼる",
     "type": "verb",
     "meaning": "go up, rise; reach"
   },
   {
     "frequency": 608,
     "word": "六",
-    "reading": "",
+    "reading": "ろく",
     "type": "numeral",
     "meaning": "six"
   },
   {
     "frequency": 609,
     "word": "のみ",
-    "reading": "",
+    "reading": "のみ",
     "type": "particle",
     "meaning": "only, merely"
   },
   {
     "frequency": 610,
     "word": "向ける",
-    "reading": "",
+    "reading": "むける",
     "type": "verb",
     "meaning": "turn, point"
   },
   {
     "frequency": 611,
     "word": "落ちる",
-    "reading": "",
+    "reading": "おちる",
     "type": "verb",
     "meaning": "fall, drop"
   },
   {
     "frequency": 612,
     "word": "だが",
-    "reading": "",
+    "reading": "だが",
     "type": "conjunction",
     "meaning": "but, however"
   },
   {
     "frequency": 613,
     "word": "決まる",
-    "reading": "",
+    "reading": "きまる",
     "type": "verb",
     "meaning": "be decided"
   },
   {
     "frequency": 614,
     "word": "起こす",
-    "reading": "",
+    "reading": "おこす",
     "type": "verb",
     "meaning": "wake; raise; cause"
   },
   {
     "frequency": 615,
     "word": "場",
-    "reading": "",
+    "reading": "ば",
     "type": "noun",
     "meaning": "field; place; occasion"
   },
   {
     "frequency": 616,
     "word": "いずれ",
-    "reading": "",
+    "reading": "いずれ",
     "type": "adverb",
     "meaning": "anyway, sooner or later"
   },
   {
     "frequency": 616,
     "word": "いずれ",
-    "reading": "",
+    "reading": "いずれ",
     "type": "pronoun",
     "meaning": "either"
   },
   {
     "frequency": 617,
     "word": "ホテル",
-    "reading": "",
+    "reading": "ホテル",
     "type": "noun",
     "meaning": "hotel"
   },
   {
     "frequency": 618,
     "word": "対象",
-    "reading": "",
+    "reading": "たいしょう",
     "type": "noun",
     "meaning": "object, target, subject"
   },
@@ -4613,21 +4613,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 620,
     "word": "以前",
-    "reading": "",
+    "reading": "いぜん",
     "type": "noun",
     "meaning": "before, formerly"
   },
   {
     "frequency": 621,
     "word": "夫",
-    "reading": "",
+    "reading": "おっと",
     "type": "noun",
     "meaning": "husband"
   },
   {
     "frequency": 622,
     "word": "確認",
-    "reading": "",
+    "reading": "かくにん",
     "type": "noun",
     "meaning": "confirmation"
   },
@@ -4648,77 +4648,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 624,
     "word": "意見",
-    "reading": "",
+    "reading": "いけん",
     "type": "noun",
     "meaning": "opinion, idea"
   },
   {
     "frequency": 625,
     "word": "割と",
-    "reading": "",
+    "reading": "わりと",
     "type": "adverb",
     "meaning": "comparatively, rather"
   },
   {
     "frequency": 626,
     "word": "大丈夫",
-    "reading": "",
+    "reading": "だいじょうぶ",
     "type": "na-adjective",
     "meaning": "safe, all right"
   },
   {
     "frequency": 627,
     "word": "通う",
-    "reading": "",
+    "reading": "かよう",
     "type": "verb",
     "meaning": "attend, go to, commute"
   },
   {
     "frequency": 628,
     "word": "申し上げる",
-    "reading": "",
+    "reading": "もうしあげる",
     "type": "verb",
     "meaning": "tell, say (humble)"
   },
   {
     "frequency": 629,
     "word": "可能性",
-    "reading": "",
+    "reading": "かのうせい",
     "type": "noun",
     "meaning": "possibility"
   },
   {
     "frequency": 630,
     "word": "述べる",
-    "reading": "",
+    "reading": "のべる",
     "type": "verb",
     "meaning": "describe, say, state"
   },
   {
     "frequency": 631,
     "word": "是非",
-    "reading": "",
+    "reading": "ぜひ",
     "type": "adverb",
     "meaning": "by all means, please; definitely, certainly"
   },
   {
     "frequency": 632,
     "word": "さえ",
-    "reading": "",
+    "reading": "さえ",
     "type": "particle",
     "meaning": "even; besides; if only"
   },
   {
     "frequency": 633,
     "word": "三人",
-    "reading": "",
+    "reading": "さんにん",
     "type": "noun",
     "meaning": "three people"
   },
   {
     "frequency": 634,
     "word": "料理",
-    "reading": "",
+    "reading": "りょうり",
     "type": "noun",
     "meaning": "cooking, dish"
   },
@@ -4732,126 +4732,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 635,
     "word": "一部",
-    "reading": "",
+    "reading": "いちぶ",
     "type": "noun",
     "meaning": "part"
   },
   {
     "frequency": 636,
     "word": "きっと",
-    "reading": "",
+    "reading": "きっと",
     "type": "adverb",
     "meaning": "surely, certainly"
   },
   {
     "frequency": 637,
     "word": "どうして",
-    "reading": "",
+    "reading": "どうして",
     "type": "adverb",
     "meaning": "why"
   },
   {
     "frequency": 638,
     "word": "歌う",
-    "reading": "",
+    "reading": "うたう",
     "type": "verb",
     "meaning": "sing"
   },
   {
     "frequency": 639,
     "word": "なお",
-    "reading": "",
+    "reading": "なお",
     "type": "adverb",
     "meaning": "more, still"
   },
   {
     "frequency": 640,
     "word": "幾つ",
-    "reading": "",
+    "reading": "いくつ",
     "type": "noun",
     "meaning": "how many, how old"
   },
   {
     "frequency": 641,
     "word": "ぞ",
-    "reading": "",
+    "reading": "ぞ",
     "type": "discourse particle",
     "meaning": "EMPHASIS"
   },
   {
     "frequency": 642,
     "word": "ほしい",
-    "reading": "",
+    "reading": "ほしい",
     "type": "i-adjective",
     "meaning": "want, desire"
   },
   {
     "frequency": 643,
     "word": "新聞",
-    "reading": "",
+    "reading": "しんぶん",
     "type": "noun",
     "meaning": "newspaper"
   },
   {
     "frequency": 644,
     "word": "気付く",
-    "reading": "",
+    "reading": "きづく",
     "type": "verb",
     "meaning": "notice, become aware"
   },
   {
     "frequency": 645,
     "word": "歌",
-    "reading": "",
+    "reading": "うた",
     "type": "noun",
     "meaning": "song"
   },
   {
     "frequency": 646,
     "word": "開ける",
-    "reading": "",
+    "reading": "あける",
     "type": "verb",
     "meaning": "open"
   },
   {
     "frequency": 647,
     "word": "互い",
-    "reading": "",
+    "reading": "たがい",
     "type": "noun",
     "meaning": "each other"
   },
   {
     "frequency": 648,
     "word": "着る",
-    "reading": "",
+    "reading": "きる",
     "type": "verb",
     "meaning": "put on, wear"
   },
   {
     "frequency": 649,
     "word": "違い",
-    "reading": "",
+    "reading": "ちがい",
     "type": "noun",
     "meaning": "difference"
   },
   {
     "frequency": 650,
     "word": "しっかり",
-    "reading": "",
+    "reading": "しっかり",
     "type": "adverb",
     "meaning": "hard, tight"
   },
   {
     "frequency": 651,
     "word": "過ぎる",
-    "reading": "",
+    "reading": "すぎる",
     "type": "verb",
     "meaning": "pass, exceed"
   },
   {
     "frequency": 652,
     "word": "記憶",
-    "reading": "",
+    "reading": "きおく",
     "type": "noun",
     "meaning": "memory"
   },
@@ -4865,28 +4865,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 653,
     "word": "思い出",
-    "reading": "",
+    "reading": "おもいで",
     "type": "noun",
     "meaning": "memory, reminiscence"
   },
   {
     "frequency": 654,
     "word": "しばらく",
-    "reading": "",
+    "reading": "しばらく",
     "type": "adverb",
     "meaning": "for a while, a minute, for a long time"
   },
   {
     "frequency": 655,
     "word": "基本的",
-    "reading": "",
+    "reading": "きほんてき",
     "type": "na-adjective",
     "meaning": "basic, fundamental"
   },
   {
     "frequency": 656,
     "word": "四月",
-    "reading": "",
+    "reading": "しがつ",
     "type": "noun",
     "meaning": "April"
   },
@@ -4900,28 +4900,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 658,
     "word": "笑う",
-    "reading": "",
+    "reading": "わらう",
     "type": "verb",
     "meaning": "laugh; smile"
   },
   {
     "frequency": 659,
     "word": "いくら",
-    "reading": "",
+    "reading": "いくら",
     "type": "adverb",
     "meaning": "how much, however"
   },
   {
     "frequency": 660,
     "word": "魚",
-    "reading": "",
+    "reading": "さかな",
     "type": "noun",
     "meaning": "fish"
   },
   {
     "frequency": 661,
     "word": "旅行",
-    "reading": "",
+    "reading": "りょこう",
     "type": "noun",
     "meaning": "journey, travel"
   },
@@ -4935,175 +4935,175 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 662,
     "word": "父親",
-    "reading": "",
+    "reading": "ちちおや",
     "type": "noun",
     "meaning": "father"
   },
   {
     "frequency": 663,
     "word": "どれ",
-    "reading": "",
+    "reading": "どれ",
     "type": "pronoun",
     "meaning": "which"
   },
   {
     "frequency": 664,
     "word": "見付ける",
-    "reading": "",
+    "reading": "みつける",
     "type": "verb",
     "meaning": "find, look for"
   },
   {
     "frequency": 665,
     "word": "関わる",
-    "reading": "",
+    "reading": "かかわる",
     "type": "verb",
     "meaning": "concern, affect, be involved"
   },
   {
     "frequency": 666,
     "word": "無理",
-    "reading": "",
+    "reading": "むり",
     "type": "na-adjective",
     "meaning": "unreasonable, impossible; compulsory"
   },
   {
     "frequency": 667,
     "word": "健康",
-    "reading": "",
+    "reading": "けんこう",
     "type": "noun",
     "meaning": "health"
   },
   {
     "frequency": 668,
     "word": "味",
-    "reading": "",
+    "reading": "あじ",
     "type": "noun",
     "meaning": "flavor, taste"
   },
   {
     "frequency": 669,
     "word": "深い",
-    "reading": "",
+    "reading": "ふかい",
     "type": "i-adjective",
     "meaning": "deep"
   },
   {
     "frequency": 670,
     "word": "伝える",
-    "reading": "",
+    "reading": "つたえる",
     "type": "verb",
     "meaning": "tell; deliver; hand down"
   },
   {
     "frequency": 671,
     "word": "自由",
-    "reading": "",
+    "reading": "じゆう",
     "type": "noun",
     "meaning": "freedom, liberty"
   },
   {
     "frequency": 671,
     "word": "自由",
-    "reading": "",
+    "reading": "じゆう",
     "type": "na-adjective",
     "meaning": "free"
   },
   {
     "frequency": 672,
     "word": "集まる",
-    "reading": "",
+    "reading": "あつまる",
     "type": "verb",
     "meaning": "gather, crowd"
   },
   {
     "frequency": 673,
     "word": "戦争",
-    "reading": "",
+    "reading": "せんそう",
     "type": "noun",
     "meaning": "war"
   },
   {
     "frequency": 674,
     "word": "流れる",
-    "reading": "",
+    "reading": "ながれる",
     "type": "verb",
     "meaning": "flow, float, pass"
   },
   {
     "frequency": 675,
     "word": "男性",
-    "reading": "",
+    "reading": "だんせい",
     "type": "noun",
     "meaning": "male, man"
   },
   {
     "frequency": 676,
     "word": "電車",
-    "reading": "",
+    "reading": "でんしゃ",
     "type": "noun",
     "meaning": "train"
   },
   {
     "frequency": 677,
     "word": "進める",
-    "reading": "",
+    "reading": "すすめる",
     "type": "verb",
     "meaning": "advance, move forward"
   },
   {
     "frequency": 678,
     "word": "含める",
-    "reading": "",
+    "reading": "ふくめる",
     "type": "verb",
     "meaning": "include, add"
   },
   {
     "frequency": 679,
     "word": "致す",
-    "reading": "",
+    "reading": "いたす",
     "type": "verb",
     "meaning": "do (humble)"
   },
   {
     "frequency": 680,
     "word": "着く",
-    "reading": "",
+    "reading": "つく",
     "type": "verb",
     "meaning": "arrive, reach"
   },
   {
     "frequency": 681,
     "word": "厳しい",
-    "reading": "",
+    "reading": "きびしい",
     "type": "i-adjective",
     "meaning": "strict, hard"
   },
   {
     "frequency": 682,
     "word": "女の子",
-    "reading": "",
+    "reading": "おんなのこ",
     "type": "noun",
     "meaning": "girl"
   },
   {
     "frequency": 683,
     "word": "パソコン",
-    "reading": "",
+    "reading": "パソコン",
     "type": "noun",
     "meaning": "personal computer"
   },
   {
     "frequency": 684,
     "word": "おる",
-    "reading": "",
+    "reading": "おる",
     "type": "verb",
     "meaning": "be, exist (humble)"
   },
   {
     "frequency": 685,
     "word": "活動",
-    "reading": "",
+    "reading": "かつどう",
     "type": "noun",
     "meaning": "activity"
   },
@@ -5117,49 +5117,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 686,
     "word": "不安",
-    "reading": "",
+    "reading": "ふあん",
     "type": "noun",
     "meaning": "anxiety, concern"
   },
   {
     "frequency": 686,
     "word": "不安",
-    "reading": "",
+    "reading": "ふあん",
     "type": "na-adjective",
     "meaning": "uneasy, insecure"
   },
   {
     "frequency": 687,
     "word": "三十分",
-    "reading": "",
+    "reading": "さんじゅっぷん",
     "type": "noun",
     "meaning": "thirty minutes"
   },
   {
     "frequency": 688,
     "word": "限り",
-    "reading": "",
+    "reading": "かぎり",
     "type": "noun",
     "meaning": "limit"
   },
   {
     "frequency": 689,
     "word": "いらっしゃる",
-    "reading": "",
+    "reading": "いらっしゃる",
     "type": "verb",
     "meaning": "come, go (honorific); be (honorific)"
   },
   {
     "frequency": 690,
     "word": "可能",
-    "reading": "",
+    "reading": "かのう",
     "type": "na-adjective",
     "meaning": "possible"
   },
   {
     "frequency": 691,
     "word": "可愛い",
-    "reading": "",
+    "reading": "かわいい",
     "type": "i-adjective",
     "meaning": "cute, nice, lovely"
   },
@@ -5173,14 +5173,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 693,
     "word": "途中",
-    "reading": "",
+    "reading": "とちゅう",
     "type": "noun",
     "meaning": "on the way; in the middle of"
   },
   {
     "frequency": 694,
     "word": "研究",
-    "reading": "",
+    "reading": "けんきゅう",
     "type": "noun",
     "meaning": "research, study"
   },
@@ -5194,56 +5194,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 695,
     "word": "様子",
-    "reading": "",
+    "reading": "ようす",
     "type": "noun",
     "meaning": "state of affairs, situation; appearance"
   },
   {
     "frequency": 696,
     "word": "ものすごい",
-    "reading": "",
+    "reading": "ものすごい",
     "type": "i-adjective",
     "meaning": "terrible"
   },
   {
     "frequency": 696,
     "word": "ものすごい",
-    "reading": "",
+    "reading": "ものすごい",
     "type": "adverb",
     "meaning": "terribly"
   },
   {
     "frequency": 697,
     "word": "合う",
-    "reading": "",
+    "reading": "あう",
     "type": "verb",
     "meaning": "fit, suit, agree"
   },
   {
     "frequency": 698,
     "word": "済む",
-    "reading": "",
+    "reading": "すむ",
     "type": "verb",
     "meaning": "end, finish"
   },
   {
     "frequency": 699,
     "word": "通る",
-    "reading": "",
+    "reading": "とおる",
     "type": "verb",
     "meaning": "pass, go along"
   },
   {
     "frequency": 700,
     "word": "大人",
-    "reading": "",
+    "reading": "おとな",
     "type": "noun",
     "meaning": "adult"
   },
   {
     "frequency": 701,
     "word": "期待",
-    "reading": "",
+    "reading": "きたい",
     "type": "noun",
     "meaning": "expectation"
   },
@@ -5257,28 +5257,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 702,
     "word": "事実",
-    "reading": "",
+    "reading": "じじつ",
     "type": "noun",
     "meaning": "fact, actuality"
   },
   {
     "frequency": 703,
     "word": "せい",
-    "reading": "",
+    "reading": "せい",
     "type": "noun",
     "meaning": "fault, cause for blame, because of"
   },
   {
     "frequency": 704,
     "word": "一年",
-    "reading": "",
+    "reading": "いちねん",
     "type": "noun",
     "meaning": "one year"
   },
   {
     "frequency": 705,
     "word": "一体",
-    "reading": "",
+    "reading": "いったい",
     "type": "noun, adverb",
     "meaning": "how, what, why, who"
   },
@@ -5292,105 +5292,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 707,
     "word": "描く",
-    "reading": "",
+    "reading": "えがく",
     "type": "verb",
     "meaning": "draw; describe"
   },
   {
     "frequency": 708,
     "word": "驚く",
-    "reading": "",
+    "reading": "おどろく",
     "type": "verb",
     "meaning": "be surprised"
   },
   {
     "frequency": 709,
     "word": "動物",
-    "reading": "",
+    "reading": "どうぶつ",
     "type": "noun",
     "meaning": "animal"
   },
   {
     "frequency": 710,
     "word": "何度",
-    "reading": "",
+    "reading": "なんど",
     "type": "noun",
     "meaning": "how many times, how often"
   },
   {
     "frequency": 711,
     "word": "元々",
-    "reading": "",
+    "reading": "もともと",
     "type": "adverb",
     "meaning": "from the first, originally"
   },
   {
     "frequency": 712,
     "word": "素晴らしい",
-    "reading": "",
+    "reading": "すばらしい",
     "type": "i-adjective",
     "meaning": "wonderful, marvelous"
   },
   {
     "frequency": 713,
     "word": "座る",
-    "reading": "",
+    "reading": "すわる",
     "type": "verb",
     "meaning": "sit"
   },
   {
     "frequency": 714,
     "word": "定める",
-    "reading": "",
+    "reading": "さだめる",
     "type": "verb",
     "meaning": "provide; stipulate, decide"
   },
   {
     "frequency": 715,
     "word": "機会",
-    "reading": "",
+    "reading": "きかい",
     "type": "noun",
     "meaning": "opportunity"
   },
   {
     "frequency": 716,
     "word": "楽しみ",
-    "reading": "",
+    "reading": "たのしみ",
     "type": "noun",
     "meaning": "pleasure, enjoyment"
   },
   {
     "frequency": 717,
     "word": "考え",
-    "reading": "",
+    "reading": "かんがえ",
     "type": "noun",
     "meaning": "idea, thought"
   },
   {
     "frequency": 718,
     "word": "信じる",
-    "reading": "",
+    "reading": "しんじる",
     "type": "verb",
     "meaning": "believe, trust"
   },
   {
     "frequency": 719,
     "word": "たまたま",
-    "reading": "",
+    "reading": "たまたま",
     "type": "adverb",
     "meaning": "accidentally, by chance"
   },
   {
     "frequency": 720,
     "word": "古い",
-    "reading": "",
+    "reading": "ふるい",
     "type": "i-adjective",
     "meaning": "old"
   },
   {
     "frequency": 721,
     "word": "さ",
-    "reading": "",
+    "reading": "さ",
     "type": "discourse particle",
     "meaning": "ATTRACT ATTENTION"
   },
@@ -5404,63 +5404,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 723,
     "word": "三月",
-    "reading": "",
+    "reading": "さんがつ",
     "type": "noun",
     "meaning": "March"
   },
   {
     "frequency": 724,
     "word": "ただし",
-    "reading": "",
+    "reading": "ただし",
     "type": "conjunction",
     "meaning": "but, however, though"
   },
   {
     "frequency": 725,
     "word": "常",
-    "reading": "",
+    "reading": "とこ",
     "type": "noun",
     "meaning": "way"
   },
   {
     "frequency": 725,
     "word": "常",
-    "reading": "",
+    "reading": "とこ",
     "type": "adverb",
     "meaning": "always, usually"
   },
   {
     "frequency": 726,
     "word": "より",
-    "reading": "",
+    "reading": "より",
     "type": "adverb",
     "meaning": "more, better"
   },
   {
     "frequency": 727,
     "word": "つもり",
-    "reading": "",
+    "reading": "つもり",
     "type": "noun",
     "meaning": "intention"
   },
   {
     "frequency": 728,
     "word": "考え方",
-    "reading": "",
+    "reading": "かんがえかた",
     "type": "noun",
     "meaning": "way of thinking, attitude"
   },
   {
     "frequency": 729,
     "word": "ニュース",
-    "reading": "",
+    "reading": "ニュース",
     "type": "noun",
     "meaning": "news"
   },
   {
     "frequency": 730,
     "word": "意識",
-    "reading": "",
+    "reading": "いしき",
     "type": "noun",
     "meaning": "consciousness, awareness"
   },
@@ -5481,7 +5481,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 732,
     "word": "行動",
-    "reading": "",
+    "reading": "こうどう",
     "type": "noun",
     "meaning": "action, act"
   },
@@ -5495,126 +5495,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 733,
     "word": "低い",
-    "reading": "",
+    "reading": "ひくい",
     "type": "i-adjective",
     "meaning": "low, short"
   },
   {
     "frequency": 734,
     "word": "びっくり",
-    "reading": "",
+    "reading": "びっくり",
     "type": "noun",
     "meaning": "surprise"
   },
   {
     "frequency": 734,
     "word": "びっくりする",
-    "reading": "",
+    "reading": "びっくりする",
     "type": "verb",
     "meaning": "be surprised, be amazed"
   },
   {
     "frequency": 735,
     "word": "作り方",
-    "reading": "",
+    "reading": "つくりかた",
     "type": "noun",
     "meaning": "how to make"
   },
   {
     "frequency": 736,
     "word": "元気",
-    "reading": "",
+    "reading": "げんき",
     "type": "noun",
     "meaning": "health, vigor"
   },
   {
     "frequency": 736,
     "word": "元気",
-    "reading": "",
+    "reading": "げんき",
     "type": "na-adjective",
     "meaning": "lively, vigorous, well"
   },
   {
     "frequency": 737,
     "word": "現われる",
-    "reading": "",
+    "reading": "あらわれる",
     "type": "verb",
     "meaning": "appear, come into sight"
   },
   {
     "frequency": 738,
     "word": "聞こえる",
-    "reading": "",
+    "reading": "きこえる",
     "type": "verb",
     "meaning": "hear; sound"
   },
   {
     "frequency": 739,
     "word": "曲",
-    "reading": "",
+    "reading": "きょく",
     "type": "noun",
     "meaning": "piece (music), song, tune"
   },
   {
     "frequency": 740,
     "word": "過去",
-    "reading": "",
+    "reading": "かこ",
     "type": "noun",
     "meaning": "past"
   },
   {
     "frequency": 741,
     "word": "やっと",
-    "reading": "",
+    "reading": "やっと",
     "type": "adverb",
     "meaning": "at last"
   },
   {
     "frequency": 742,
     "word": "思える",
-    "reading": "",
+    "reading": "おもえる",
     "type": "verb",
     "meaning": "it seems that"
   },
   {
     "frequency": 743,
     "word": "明らか",
-    "reading": "",
+    "reading": "あきらか",
     "type": "na-adjective",
     "meaning": "clear, obvious"
   },
   {
     "frequency": 744,
     "word": "つつ",
-    "reading": "",
+    "reading": "つつ",
     "type": "conjunctive particle",
     "meaning": "while doing; though"
   },
   {
     "frequency": 745,
     "word": "土地",
-    "reading": "",
+    "reading": "とち",
     "type": "noun",
     "meaning": "land, ground"
   },
   {
     "frequency": 746,
     "word": "振り返る",
-    "reading": "",
+    "reading": "ふりかえる",
     "type": "verb",
     "meaning": "turn one’s head, look back"
   },
   {
     "frequency": 747,
     "word": "初め",
-    "reading": "",
+    "reading": "はじめ",
     "type": "noun",
     "meaning": "beginning"
   },
   {
     "frequency": 748,
     "word": "評価",
-    "reading": "",
+    "reading": "ひょうか",
     "type": "noun",
     "meaning": "evaluation"
   },
@@ -5628,35 +5628,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 749,
     "word": "息子",
-    "reading": "",
+    "reading": "むすこ",
     "type": "noun",
     "meaning": "son"
   },
   {
     "frequency": 750,
     "word": "限る",
-    "reading": "",
+    "reading": "かぎる",
     "type": "verb",
     "meaning": "limit, restrict"
   },
   {
     "frequency": 751,
     "word": "似る",
-    "reading": "",
+    "reading": "にる",
     "type": "verb",
     "meaning": "look like, resemble"
   },
   {
     "frequency": 752,
     "word": "悲しい",
-    "reading": "",
+    "reading": "かなしい",
     "type": "i-adjective",
     "meaning": "sad, unhappy"
   },
   {
     "frequency": 753,
     "word": "雨",
-    "reading": "",
+    "reading": "あめ",
     "type": "noun",
     "meaning": "rain"
   },
@@ -5670,91 +5670,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 755,
     "word": "詳しい",
-    "reading": "",
+    "reading": "くわしい",
     "type": "i-adjective",
     "meaning": "detailed, know well, in detail"
   },
   {
     "frequency": 756,
     "word": "二十一世紀",
-    "reading": "",
+    "reading": "にじゅういっせいき",
     "type": "noun",
     "meaning": "twenty-first century"
   },
   {
     "frequency": 757,
     "word": "ひどい",
-    "reading": "",
+    "reading": "ひどい",
     "type": "i-adjective",
     "meaning": "cruel, serious, terrible"
   },
   {
     "frequency": 758,
     "word": "昨日",
-    "reading": "",
+    "reading": "きのう",
     "type": "noun",
     "meaning": "yesterday"
   },
   {
     "frequency": 759,
     "word": "下りる",
-    "reading": "",
+    "reading": "おりる",
     "type": "verb",
     "meaning": "go down; come down"
   },
   {
     "frequency": 760,
     "word": "メール",
-    "reading": "",
+    "reading": "メール",
     "type": "noun",
     "meaning": "e-mail"
   },
   {
     "frequency": 761,
     "word": "まあ",
-    "reading": "",
+    "reading": "まあ",
     "type": "adverb",
     "meaning": "Oh!, well, now"
   },
   {
     "frequency": 762,
     "word": "喜ぶ",
-    "reading": "",
+    "reading": "よろこぶ",
     "type": "verb",
     "meaning": "be glad, rejoice"
   },
   {
     "frequency": 763,
     "word": "便利",
-    "reading": "",
+    "reading": "べんり",
     "type": "noun",
     "meaning": "convenience"
   },
   {
     "frequency": 763,
     "word": "便利",
-    "reading": "",
+    "reading": "べんり",
     "type": "na-adjective",
     "meaning": "useful, convenient"
   },
   {
     "frequency": 764,
     "word": "迎える",
-    "reading": "",
+    "reading": "むかえる",
     "type": "verb",
     "meaning": "go to meet, invite, receive"
   },
   {
     "frequency": 765,
     "word": "耳",
-    "reading": "",
+    "reading": "みみ",
     "type": "noun",
     "meaning": "ear"
   },
   {
     "frequency": 766,
     "word": "表現",
-    "reading": "",
+    "reading": "ひょうげん",
     "type": "noun",
     "meaning": "expression"
   },
@@ -5768,14 +5768,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 767,
     "word": "動き",
-    "reading": "",
+    "reading": "うごき",
     "type": "noun",
     "meaning": "movement, action, motion"
   },
   {
     "frequency": 768,
     "word": "注意",
-    "reading": "",
+    "reading": "ちゅうい",
     "type": "noun",
     "meaning": "attention"
   },
@@ -5789,35 +5789,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 769,
     "word": "では",
-    "reading": "",
+    "reading": "では",
     "type": "conjunction",
     "meaning": "then, well"
   },
   {
     "frequency": 770,
     "word": "てあげる",
-    "reading": "",
+    "reading": "てあげる",
     "type": "compound",
     "meaning": "do something for somebody"
   },
   {
     "frequency": 771,
     "word": "雰囲気",
-    "reading": "",
+    "reading": "ふんいき",
     "type": "noun",
     "meaning": "atmosphere, ambience"
   },
   {
     "frequency": 772,
     "word": "立場",
-    "reading": "",
+    "reading": "たちば",
     "type": "noun",
     "meaning": "position, standpoint, situation"
   },
   {
     "frequency": 773,
     "word": "基づく",
-    "reading": "",
+    "reading": "もとづく",
     "type": "verb",
     "meaning": "be based"
   },
@@ -5831,133 +5831,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 775,
     "word": "ことがある",
-    "reading": "",
+    "reading": "ことがある",
     "type": "compound",
     "meaning": "have done; there are sometimes"
   },
   {
     "frequency": 776,
     "word": "痛い",
-    "reading": "",
+    "reading": "いたい",
     "type": "i-adjective",
     "meaning": "painful, hurt"
   },
   {
     "frequency": 777,
     "word": "お父さん",
-    "reading": "",
+    "reading": "おとうさん",
     "type": "noun",
     "meaning": "father"
   },
   {
     "frequency": 778,
     "word": "辺り",
-    "reading": "",
+    "reading": "あたり",
     "type": "noun",
     "meaning": "area around"
   },
   {
     "frequency": 779,
     "word": "てやる",
-    "reading": "",
+    "reading": "てやる",
     "type": "compound",
     "meaning": "do something for somebody/something"
   },
   {
     "frequency": 780,
     "word": "将来",
-    "reading": "",
+    "reading": "しょうらい",
     "type": "noun",
     "meaning": "future"
   },
   {
     "frequency": 781,
     "word": "乗せる",
-    "reading": "",
+    "reading": "のせる",
     "type": "verb",
     "meaning": "take on, put on, pick up"
   },
   {
     "frequency": 782,
     "word": "自転車",
-    "reading": "",
+    "reading": "じてんしゃ",
     "type": "noun",
     "meaning": "bicycle"
   },
   {
     "frequency": 783,
     "word": "白い",
-    "reading": "",
+    "reading": "しろい",
     "type": "i-adjective",
     "meaning": "white"
   },
   {
     "frequency": 784,
     "word": "川",
-    "reading": "",
+    "reading": "かわ",
     "type": "noun",
     "meaning": "river, stream"
   },
   {
     "frequency": 785,
     "word": "用いる",
-    "reading": "",
+    "reading": "もちいる",
     "type": "verb",
     "meaning": "use, adopt"
   },
   {
     "frequency": 786,
     "word": "隣り",
-    "reading": "",
+    "reading": "となり",
     "type": "noun",
     "meaning": "next door, next"
   },
   {
     "frequency": 787,
     "word": "普段",
-    "reading": "",
+    "reading": "ふだん",
     "type": "noun",
     "meaning": "usually, ordinarily"
   },
   {
     "frequency": 788,
     "word": "法律",
-    "reading": "",
+    "reading": "ほうりつ",
     "type": "noun",
     "meaning": "law"
   },
   {
     "frequency": 789,
     "word": "妻",
-    "reading": "",
+    "reading": "つま",
     "type": "noun",
     "meaning": "wife"
   },
   {
     "frequency": 790,
     "word": "冬",
-    "reading": "",
+    "reading": "ふゆ",
     "type": "noun",
     "meaning": "winter"
   },
   {
     "frequency": 791,
     "word": "具体的",
-    "reading": "",
+    "reading": "ぐたいてき",
     "type": "na-adjective",
     "meaning": "specific, concrete"
   },
   {
     "frequency": 792,
     "word": "もと",
-    "reading": "",
+    "reading": "もと",
     "type": "noun",
     "meaning": "under"
   },
   {
     "frequency": 793,
     "word": "発生",
-    "reading": "",
+    "reading": "はっせい",
     "type": "noun",
     "meaning": "occurrence"
   },
@@ -5971,42 +5971,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 794,
     "word": "繰り返す",
-    "reading": "",
+    "reading": "くりかえす",
     "type": "verb",
     "meaning": "repeat, do over again"
   },
   {
     "frequency": 795,
     "word": "泣く",
-    "reading": "",
+    "reading": "なく",
     "type": "verb",
     "meaning": "cry"
   },
   {
     "frequency": 796,
     "word": "七",
-    "reading": "",
+    "reading": "しち",
     "type": "noun",
     "meaning": "seven"
   },
   {
     "frequency": 797,
     "word": "手紙",
-    "reading": "",
+    "reading": "てがみ",
     "type": "noun",
     "meaning": "letter"
   },
   {
     "frequency": 798,
     "word": "出かける",
-    "reading": "",
+    "reading": "でかける",
     "type": "verb",
     "meaning": "go out, leave"
   },
   {
     "frequency": 799,
     "word": "努力",
-    "reading": "",
+    "reading": "どりょく",
     "type": "noun",
     "meaning": "effort"
   },
@@ -6020,7 +6020,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 800,
     "word": "増加",
-    "reading": "",
+    "reading": "ぞうか",
     "type": "noun",
     "meaning": "increase, gain"
   },
@@ -6034,7 +6034,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 801,
     "word": "判断",
-    "reading": "",
+    "reading": "はんだん",
     "type": "noun",
     "meaning": "judgment"
   },
@@ -6048,84 +6048,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 802,
     "word": "両親",
-    "reading": "",
+    "reading": "りょうしん",
     "type": "noun",
     "meaning": "(both) parents"
   },
   {
     "frequency": 803,
     "word": "残念",
-    "reading": "",
+    "reading": "ざんねん",
     "type": "na-adjective",
     "meaning": "disappointing, regrettable"
   },
   {
     "frequency": 804,
     "word": "おそらく",
-    "reading": "",
+    "reading": "おそらく",
     "type": "adverb",
     "meaning": "probably, likely"
   },
   {
     "frequency": 805,
     "word": "家庭",
-    "reading": "",
+    "reading": "かてい",
     "type": "noun",
     "meaning": "home, household, family"
   },
   {
     "frequency": 806,
     "word": "軽い",
-    "reading": "",
+    "reading": "かるい",
     "type": "i-adjective",
     "meaning": "light, slight"
   },
   {
     "frequency": 807,
     "word": "払う",
-    "reading": "",
+    "reading": "はらう",
     "type": "verb",
     "meaning": "pay; sweep away"
   },
   {
     "frequency": 808,
     "word": "つながる",
-    "reading": "",
+    "reading": "つながる",
     "type": "verb",
     "meaning": "be connected, be related"
   },
   {
     "frequency": 809,
     "word": "船",
-    "reading": "",
+    "reading": "ふね",
     "type": "noun",
     "meaning": "ship, boat"
   },
   {
     "frequency": 810,
     "word": "九月",
-    "reading": "",
+    "reading": "くがつ",
     "type": "noun",
     "meaning": "September"
   },
   {
     "frequency": 811,
     "word": "きっかけ",
-    "reading": "",
+    "reading": "きっかけ",
     "type": "noun",
     "meaning": "opportunity, motive"
   },
   {
     "frequency": 812,
     "word": "授業",
-    "reading": "",
+    "reading": "じゅぎょう",
     "type": "noun",
     "meaning": "class, lesson at school"
   },
   {
     "frequency": 813,
     "word": "亡くなる",
-    "reading": "",
+    "reading": "なくなる",
     "type": "verb",
     "meaning": "die, pass away"
   },
@@ -6139,126 +6139,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 815,
     "word": "不思議",
-    "reading": "",
+    "reading": "ふしぎ",
     "type": "noun",
     "meaning": "wonder"
   },
   {
     "frequency": 815,
     "word": "不思議",
-    "reading": "",
+    "reading": "ふしぎ",
     "type": "na-adjective",
     "meaning": "wonderful, strange, mysterious"
   },
   {
     "frequency": 816,
     "word": "茶",
-    "reading": "",
+    "reading": "ちゃ",
     "type": "noun",
     "meaning": "tea; brown"
   },
   {
     "frequency": 817,
     "word": "直接",
-    "reading": "",
+    "reading": "ちょくせつ",
     "type": "noun, adverb",
     "meaning": "directly, direct"
   },
   {
     "frequency": 818,
     "word": "バス",
-    "reading": "",
+    "reading": "バス",
     "type": "noun",
     "meaning": "bus"
   },
   {
     "frequency": 819,
     "word": "効果",
-    "reading": "",
+    "reading": "こうか",
     "type": "noun",
     "meaning": "effectiveness, effect"
   },
   {
     "frequency": 820,
     "word": "現実",
-    "reading": "",
+    "reading": "げんじつ",
     "type": "noun",
     "meaning": "reality, actuality"
   },
   {
     "frequency": 821,
     "word": "触れる",
-    "reading": "",
+    "reading": "ふれる",
     "type": "verb",
     "meaning": "touch; experience"
   },
   {
     "frequency": 822,
     "word": "飼う",
-    "reading": "",
+    "reading": "かう",
     "type": "verb",
     "meaning": "keep, have, breed"
   },
   {
     "frequency": 823,
     "word": "しゃべる",
-    "reading": "",
+    "reading": "しゃべる",
     "type": "verb",
     "meaning": "talk, chat"
   },
   {
     "frequency": 824,
     "word": "国民",
-    "reading": "",
+    "reading": "こくみん",
     "type": "noun",
     "meaning": "nation, people (of country), public"
   },
   {
     "frequency": 825,
     "word": "さす",
-    "reading": "",
+    "reading": "さす",
     "type": "verb",
     "meaning": "shine; pour; put"
   },
   {
     "frequency": 826,
     "word": "やり方",
-    "reading": "",
+    "reading": "やりかた",
     "type": "noun",
     "meaning": "way of doing, how to, approach"
   },
   {
     "frequency": 827,
     "word": "ずいぶん",
-    "reading": "",
+    "reading": "ずいぶん",
     "type": "adverb",
     "meaning": "very, pretty, quite"
   },
   {
     "frequency": 828,
     "word": "日本語",
-    "reading": "",
+    "reading": "にほんご",
     "type": "noun",
     "meaning": "Japanese language"
   },
   {
     "frequency": 829,
     "word": "十月",
-    "reading": "",
+    "reading": "じゅうがつ",
     "type": "noun",
     "meaning": "October"
   },
   {
     "frequency": 830,
     "word": "気分",
-    "reading": "",
+    "reading": "きぶん",
     "type": "noun",
     "meaning": "feeling, mood"
   },
   {
     "frequency": 831,
     "word": "開発",
-    "reading": "",
+    "reading": "かいはつ",
     "type": "noun",
     "meaning": "development"
   },
@@ -6272,63 +6272,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 832,
     "word": "殺す",
-    "reading": "",
+    "reading": "ころす",
     "type": "verb",
     "meaning": "kill"
   },
   {
     "frequency": 833,
     "word": "特徴",
-    "reading": "",
+    "reading": "とくちょう",
     "type": "noun",
     "meaning": "characteristic, feature"
   },
   {
     "frequency": 834,
     "word": "神",
-    "reading": "",
+    "reading": "かみ",
     "type": "noun",
     "meaning": "God, deity, spirit"
   },
   {
     "frequency": 835,
     "word": "暮らす",
-    "reading": "",
+    "reading": "くらす",
     "type": "verb",
     "meaning": "live"
   },
   {
     "frequency": 836,
     "word": "飛ぶ",
-    "reading": "",
+    "reading": "とぶ",
     "type": "verb",
     "meaning": "fly"
   },
   {
     "frequency": 837,
     "word": "終わり",
-    "reading": "",
+    "reading": "おわり",
     "type": "noun",
     "meaning": "end"
   },
   {
     "frequency": 838,
     "word": "雑誌",
-    "reading": "",
+    "reading": "ざっし",
     "type": "noun",
     "meaning": "magazine"
   },
   {
     "frequency": 839,
     "word": "怒る",
-    "reading": "",
+    "reading": "おこる",
     "type": "verb",
     "meaning": "get angry"
   },
   {
     "frequency": 840,
     "word": "整備",
-    "reading": "",
+    "reading": "せいび",
     "type": "noun",
     "meaning": "maintenance, service"
   },
@@ -6342,21 +6342,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 841,
     "word": "んと",
-    "reading": "",
+    "reading": "んと",
     "type": "interjection",
     "meaning": "well"
   },
   {
     "frequency": 842,
     "word": "建物",
-    "reading": "",
+    "reading": "たてもの",
     "type": "noun",
     "meaning": "building"
   },
   {
     "frequency": 843,
     "word": "発見",
-    "reading": "",
+    "reading": "はっけん",
     "type": "noun",
     "meaning": "discovery"
   },
@@ -6370,7 +6370,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 844,
     "word": "相談",
-    "reading": "",
+    "reading": "そうだん",
     "type": "noun",
     "meaning": "consultation"
   },
@@ -6384,7 +6384,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 845,
     "word": "連絡",
-    "reading": "",
+    "reading": "れんらく",
     "type": "noun",
     "meaning": "connection, contact"
   },
@@ -6405,14 +6405,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 847,
     "word": "一生懸命",
-    "reading": "",
+    "reading": "いっしょうけんめい",
     "type": "na-adjective",
     "meaning": "hard, as hard as one can"
   },
   {
     "frequency": 848,
     "word": "用意",
-    "reading": "",
+    "reading": "ようい",
     "type": "noun",
     "meaning": "preparation"
   },
@@ -6426,42 +6426,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 849,
     "word": "変",
-    "reading": "",
+    "reading": "へん",
     "type": "na-adjective",
     "meaning": "strange, unusual, funny"
   },
   {
     "frequency": 850,
     "word": "十二月",
-    "reading": "",
+    "reading": "じゅうにがつ",
     "type": "noun",
     "meaning": "December"
   },
   {
     "frequency": 851,
     "word": "学ぶ",
-    "reading": "",
+    "reading": "まなぶ",
     "type": "verb",
     "meaning": "learn"
   },
   {
     "frequency": 852,
     "word": "突然",
-    "reading": "",
+    "reading": "とつぜん",
     "type": "adverb",
     "meaning": "suddenly"
   },
   {
     "frequency": 853,
     "word": "首",
-    "reading": "",
+    "reading": "くび",
     "type": "noun",
     "meaning": "neck, head; firing, sacking (of an employee)"
   },
   {
     "frequency": 854,
     "word": "設定",
-    "reading": "",
+    "reading": "せってい",
     "type": "noun",
     "meaning": "establishment"
   },
@@ -6475,154 +6475,154 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 855,
     "word": "ゆっくり",
-    "reading": "",
+    "reading": "ゆっくり",
     "type": "adverb",
     "meaning": "slowly, leisurely; plenty of time"
   },
   {
     "frequency": 856,
     "word": "目指す",
-    "reading": "",
+    "reading": "めざす",
     "type": "verb",
     "meaning": "aim, go toward"
   },
   {
     "frequency": 857,
     "word": "したがって",
-    "reading": "",
+    "reading": "したがって",
     "type": "conjunction",
     "meaning": "accordingly, consequently"
   },
   {
     "frequency": 858,
     "word": "一月",
-    "reading": "",
+    "reading": "いちがつ",
     "type": "noun",
     "meaning": "January"
   },
   {
     "frequency": 859,
     "word": "成す",
-    "reading": "",
+    "reading": "なす",
     "type": "verb",
     "meaning": "form, constitute"
   },
   {
     "frequency": 860,
     "word": "集める",
-    "reading": "",
+    "reading": "あつめる",
     "type": "verb",
     "meaning": "gather, collect"
   },
   {
     "frequency": 861,
     "word": "失う",
-    "reading": "",
+    "reading": "うしなう",
     "type": "verb",
     "meaning": "lose"
   },
   {
     "frequency": 862,
     "word": "光",
-    "reading": "",
+    "reading": "ひかり",
     "type": "noun",
     "meaning": "light"
   },
   {
     "frequency": 863,
     "word": "並ぶ",
-    "reading": "",
+    "reading": "ならぶ",
     "type": "verb",
     "meaning": "line, stand in line"
   },
   {
     "frequency": 864,
     "word": "八月",
-    "reading": "",
+    "reading": "はちがつ",
     "type": "noun",
     "meaning": "August"
   },
   {
     "frequency": 865,
     "word": "とく",
-    "reading": "",
+    "reading": "とく",
     "type": "auxiliary",
     "meaning": "[shortened form of “te oku”]"
   },
   {
     "frequency": 866,
     "word": "七月",
-    "reading": "",
+    "reading": "しちがつ",
     "type": "noun",
     "meaning": "July"
   },
   {
     "frequency": 867,
     "word": "美しい",
-    "reading": "",
+    "reading": "うつくしい",
     "type": "i-adjective",
     "meaning": "beautiful"
   },
   {
     "frequency": 868,
     "word": "五月",
-    "reading": "",
+    "reading": "ごがつ",
     "type": "noun",
     "meaning": "May"
   },
   {
     "frequency": 869,
     "word": "優しい",
-    "reading": "",
+    "reading": "やさしい",
     "type": "i-adjective",
     "meaning": "gentle, tender, kind, friendly"
   },
   {
     "frequency": 870,
     "word": "タバコ",
-    "reading": "",
+    "reading": "タバコ",
     "type": "noun",
     "meaning": "cigarette, tobacco"
   },
   {
     "frequency": 871,
     "word": "後ろ",
-    "reading": "",
+    "reading": "うしろ",
     "type": "noun",
     "meaning": "behind, back"
   },
   {
     "frequency": 872,
     "word": "六月",
-    "reading": "",
+    "reading": "ろくがつ",
     "type": "noun",
     "meaning": "June"
   },
   {
     "frequency": 873,
     "word": "異なる",
-    "reading": "",
+    "reading": "ことなる",
     "type": "verb",
     "meaning": "be different"
   },
   {
     "frequency": 874,
     "word": "十一月",
-    "reading": "",
+    "reading": "じゅういちがつ",
     "type": "noun",
     "meaning": "November"
   },
   {
     "frequency": 875,
     "word": "新た",
-    "reading": "",
+    "reading": "あらた",
     "type": "na-adjective",
     "meaning": "another"
   },
   {
     "frequency": 876,
     "word": "飛行機",
-    "reading": "",
+    "reading": "ひこうき",
     "type": "noun",
     "meaning": "airplane"
   },
@@ -6636,84 +6636,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 878,
     "word": "至る",
-    "reading": "",
+    "reading": "いたる",
     "type": "verb",
     "meaning": "lead to, get"
   },
   {
     "frequency": 879,
     "word": "午前",
-    "reading": "",
+    "reading": "ごぜん",
     "type": "noun",
     "meaning": "morning, a.m."
   },
   {
     "frequency": 880,
     "word": "育てる",
-    "reading": "",
+    "reading": "そだてる",
     "type": "verb",
     "meaning": "bring up, train, develop"
   },
   {
     "frequency": 881,
     "word": "種類",
-    "reading": "",
+    "reading": "しゅるい",
     "type": "noun",
     "meaning": "kind, sort, variety"
   },
   {
     "frequency": 882,
     "word": "商品",
-    "reading": "",
+    "reading": "しょうひん",
     "type": "noun",
     "meaning": "goods, item of merchandise"
   },
   {
     "frequency": 883,
     "word": "生じる",
-    "reading": "",
+    "reading": "しょうじる",
     "type": "verb",
     "meaning": "bring about, cause, arise"
   },
   {
     "frequency": 884,
     "word": "イギリス",
-    "reading": "",
+    "reading": "イギリス",
     "type": "noun",
     "meaning": "United Kingdom, Britain, England"
   },
   {
     "frequency": 885,
     "word": "大好き",
-    "reading": "",
+    "reading": "だいすき",
     "type": "na-adjective",
     "meaning": "love"
   },
   {
     "frequency": 886,
     "word": "語る",
-    "reading": "",
+    "reading": "かたる",
     "type": "verb",
     "meaning": "talk, tell"
   },
   {
     "frequency": 887,
     "word": "胸",
-    "reading": "",
+    "reading": "むね",
     "type": "noun",
     "meaning": "chest, heart"
   },
   {
     "frequency": 888,
     "word": "頼む",
-    "reading": "",
+    "reading": "たのむ",
     "type": "verb",
     "meaning": "ask, order"
   },
   {
     "frequency": 889,
     "word": "体験",
-    "reading": "",
+    "reading": "たいけん",
     "type": "noun",
     "meaning": "experience"
   },
@@ -6727,42 +6727,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 890,
     "word": "材料",
-    "reading": "",
+    "reading": "ざいりょう",
     "type": "noun",
     "meaning": "materials, ingredient"
   },
   {
     "frequency": 891,
     "word": "広がる",
-    "reading": "",
+    "reading": "ひろがる",
     "type": "verb",
     "meaning": "spread, stretch"
   },
   {
     "frequency": 892,
     "word": "きちんと",
-    "reading": "",
+    "reading": "きちんと",
     "type": "adverb",
     "meaning": "precisely, accurately, neatly"
   },
   {
     "frequency": 893,
     "word": "そちら",
-    "reading": "",
+    "reading": "そちら",
     "type": "pronoun",
     "meaning": "your place; there; you"
   },
   {
     "frequency": 894,
     "word": "勝つ",
-    "reading": "",
+    "reading": "かつ",
     "type": "verb",
     "meaning": "win, defeat"
   },
   {
     "frequency": 895,
     "word": "運動",
-    "reading": "",
+    "reading": "うんどう",
     "type": "noun",
     "meaning": "exercise"
   },
@@ -6776,77 +6776,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 896,
     "word": "捨てる",
-    "reading": "",
+    "reading": "すてる",
     "type": "verb",
     "meaning": "throw away, abandon"
   },
   {
     "frequency": 897,
     "word": "幸せ",
-    "reading": "",
+    "reading": "しあわせ",
     "type": "na-adjective",
     "meaning": "happy"
   },
   {
     "frequency": 897,
     "word": "幸せ",
-    "reading": "",
+    "reading": "しあわせ",
     "type": "noun",
     "meaning": "happiness; fortune, luck"
   },
   {
     "frequency": 898,
     "word": "通す",
-    "reading": "",
+    "reading": "とおす",
     "type": "verb",
     "meaning": "pass, show ... into"
   },
   {
     "frequency": 899,
     "word": "横",
-    "reading": "",
+    "reading": "よこ",
     "type": "noun",
     "meaning": "side, beside"
   },
   {
     "frequency": 900,
     "word": "伴う",
-    "reading": "",
+    "reading": "ともなう",
     "type": "verb",
     "meaning": "accompany, involve"
   },
   {
     "frequency": 901,
     "word": "命",
-    "reading": "",
+    "reading": "いのち",
     "type": "noun",
     "meaning": "life"
   },
   {
     "frequency": 902,
     "word": "流れ",
-    "reading": "",
+    "reading": "ながれ",
     "type": "noun",
     "meaning": "stream, flow, current"
   },
   {
     "frequency": 903,
     "word": "育つ",
-    "reading": "",
+    "reading": "そだつ",
     "type": "verb",
     "meaning": "grow up"
   },
   {
     "frequency": 904,
     "word": "ちなみに",
-    "reading": "",
+    "reading": "ちなみに",
     "type": "conjunction",
     "meaning": "by the way, incidentally"
   },
   {
     "frequency": 905,
     "word": "予定",
-    "reading": "",
+    "reading": "よてい",
     "type": "noun",
     "meaning": "plan, schedule"
   },
@@ -6860,28 +6860,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 906,
     "word": "決して",
-    "reading": "",
+    "reading": "けっして",
     "type": "adverb",
     "meaning": "never, by no means"
   },
   {
     "frequency": 907,
     "word": "馬",
-    "reading": "",
+    "reading": "うま",
     "type": "noun",
     "meaning": "horse"
   },
   {
     "frequency": 908,
     "word": "完全",
-    "reading": "",
+    "reading": "かんぜん",
     "type": "na-adjective",
     "meaning": "perfect, complete"
   },
   {
     "frequency": 909,
     "word": "学生",
-    "reading": "",
+    "reading": "がくせい",
     "type": "noun",
     "meaning": "student"
   },
@@ -6895,21 +6895,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 911,
     "word": "性格",
-    "reading": "",
+    "reading": "せいかく",
     "type": "noun",
     "meaning": "character, personality"
   },
   {
     "frequency": 912,
     "word": "死",
-    "reading": "",
+    "reading": "し",
     "type": "noun",
     "meaning": "death"
   },
   {
     "frequency": 913,
     "word": "位置",
-    "reading": "",
+    "reading": "いち",
     "type": "noun",
     "meaning": "position, location"
   },
@@ -6923,7 +6923,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 914,
     "word": "発展",
-    "reading": "",
+    "reading": "はってん",
     "type": "noun",
     "meaning": "development"
   },
@@ -6937,77 +6937,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 915,
     "word": "おかしい",
-    "reading": "",
+    "reading": "おかしい",
     "type": "i-adjective",
     "meaning": "funny, amusing"
   },
   {
     "frequency": 916,
     "word": "近所",
-    "reading": "",
+    "reading": "きんじょ",
     "type": "noun",
     "meaning": "neighborhood"
   },
   {
     "frequency": 917,
     "word": "一本",
-    "reading": "",
+    "reading": "いっぽん",
     "type": "noun",
     "meaning": "one (long/cylindrical object)"
   },
   {
     "frequency": 918,
     "word": "張る",
-    "reading": "",
+    "reading": "はる",
     "type": "verb",
     "meaning": "stretch, put up"
   },
   {
     "frequency": 919,
     "word": "ご飯",
-    "reading": "",
+    "reading": "ごはん",
     "type": "noun",
     "meaning": "rice, meal"
   },
   {
     "frequency": 920,
     "word": "危険",
-    "reading": "",
+    "reading": "きけん",
     "type": "noun",
     "meaning": "danger, hazard"
   },
   {
     "frequency": 920,
     "word": "危険",
-    "reading": "",
+    "reading": "きけん",
     "type": "na-adjective",
     "meaning": "dangerous"
   },
   {
     "frequency": 921,
     "word": "かしら",
-    "reading": "",
+    "reading": "かしら",
     "type": "discourse particle",
     "meaning": "I wonder"
   },
   {
     "frequency": 922,
     "word": "すなわち",
-    "reading": "",
+    "reading": "すなわち",
     "type": "conjunction",
     "meaning": "that is (to say), namely"
   },
   {
     "frequency": 923,
     "word": "海外",
-    "reading": "",
+    "reading": "かいがい",
     "type": "noun",
     "meaning": "overseas, abroad, foreign"
   },
   {
     "frequency": 924,
     "word": "教育",
-    "reading": "",
+    "reading": "きょういく",
     "type": "noun",
     "meaning": "education"
   },
@@ -7021,7 +7021,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 925,
     "word": "想像",
-    "reading": "",
+    "reading": "そうぞう",
     "type": "noun",
     "meaning": "imagination, image"
   },
@@ -7035,14 +7035,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 926,
     "word": "実は",
-    "reading": "",
+    "reading": "じつは",
     "type": "adverb",
     "meaning": "actually, in fact"
   },
   {
     "frequency": 927,
     "word": "許す",
-    "reading": "",
+    "reading": "ゆるす",
     "type": "verb",
     "meaning": "allow, permit, forgive"
   },
@@ -7056,42 +7056,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 929,
     "word": "文化",
-    "reading": "",
+    "reading": "ぶんか",
     "type": "noun",
     "meaning": "culture"
   },
   {
     "frequency": 930,
     "word": "八",
-    "reading": "",
+    "reading": "はち",
     "type": "noun",
     "meaning": "eight"
   },
   {
     "frequency": 931,
     "word": "食べ物",
-    "reading": "",
+    "reading": "たべもの",
     "type": "noun",
     "meaning": "food"
   },
   {
     "frequency": 932,
     "word": "借りる",
-    "reading": "",
+    "reading": "かりる",
     "type": "verb",
     "meaning": "borrow, rent"
   },
   {
     "frequency": 933,
     "word": "だけれど",
-    "reading": "",
+    "reading": "だけれど",
     "type": "conjunction",
     "meaning": "despite, though"
   },
   {
     "frequency": 934,
     "word": "準備",
-    "reading": "",
+    "reading": "じゅんび",
     "type": "noun",
     "meaning": "preparation"
   },
@@ -7105,14 +7105,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 935,
     "word": "二月",
-    "reading": "",
+    "reading": "にがつ",
     "type": "noun",
     "meaning": "February"
   },
   {
     "frequency": 936,
     "word": "や",
-    "reading": "",
+    "reading": "や",
     "type": "auxiliary",
     "meaning": "COPULA (dialectal)"
   },
@@ -7126,28 +7126,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 938,
     "word": "世の中",
-    "reading": "",
+    "reading": "よのなか",
     "type": "noun",
     "meaning": "world, society"
   },
   {
     "frequency": 939,
     "word": "インターネット",
-    "reading": "",
+    "reading": "インターネット",
     "type": "noun",
     "meaning": "Internet"
   },
   {
     "frequency": 940,
     "word": "春",
-    "reading": "",
+    "reading": "はる",
     "type": "noun",
     "meaning": "spring"
   },
   {
     "frequency": 941,
     "word": "旅",
-    "reading": "",
+    "reading": "たび",
     "type": "noun",
     "meaning": "trip, journey"
   },
@@ -7161,7 +7161,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 943,
     "word": "寒い",
-    "reading": "",
+    "reading": "さむい",
     "type": "i-adjective",
     "meaning": "cold"
   },
@@ -7175,56 +7175,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 945,
     "word": "同様",
-    "reading": "",
+    "reading": "どうよう",
     "type": "na-adjective",
     "meaning": "similar, same"
   },
   {
     "frequency": 946,
     "word": "一般",
-    "reading": "",
+    "reading": "いっぱん",
     "type": "noun",
     "meaning": "general"
   },
   {
     "frequency": 947,
     "word": "第一",
-    "reading": "",
+    "reading": "だいいち",
     "type": "noun",
     "meaning": "first"
   },
   {
     "frequency": 948,
     "word": "三年",
-    "reading": "",
+    "reading": "さんねん",
     "type": "noun",
     "meaning": "three years"
   },
   {
     "frequency": 949,
     "word": "申す",
-    "reading": "",
+    "reading": "もうす",
     "type": "verb",
     "meaning": "say, be (humble)"
   },
   {
     "frequency": 950,
     "word": "押す",
-    "reading": "",
+    "reading": "おす",
     "type": "verb",
     "meaning": "push, press"
   },
   {
     "frequency": 951,
     "word": "責任",
-    "reading": "",
+    "reading": "せきにん",
     "type": "noun",
     "meaning": "responsibility"
   },
   {
     "frequency": 952,
     "word": "選択",
-    "reading": "",
+    "reading": "せんたく",
     "type": "noun",
     "meaning": "selection, choice"
   },
@@ -7238,91 +7238,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 953,
     "word": "負ける",
-    "reading": "",
+    "reading": "まける",
     "type": "verb",
     "meaning": "lose, be beaten"
   },
   {
     "frequency": 954,
     "word": "技術",
-    "reading": "",
+    "reading": "ぎじゅつ",
     "type": "noun",
     "meaning": "technique, skill"
   },
   {
     "frequency": 955,
     "word": "一般的",
-    "reading": "",
+    "reading": "いっぱんてき",
     "type": "na-adjective",
     "meaning": "general, common, ordinary"
   },
   {
     "frequency": 956,
     "word": "そば",
-    "reading": "",
+    "reading": "そば",
     "type": "noun",
     "meaning": "side, beside"
   },
   {
     "frequency": 957,
     "word": "減る",
-    "reading": "",
+    "reading": "へる",
     "type": "verb",
     "meaning": "decrease, become less"
   },
   {
     "frequency": 958,
     "word": "記事",
-    "reading": "",
+    "reading": "きじ",
     "type": "noun",
     "meaning": "article"
   },
   {
     "frequency": 959,
     "word": "本人",
-    "reading": "",
+    "reading": "ほんにん",
     "type": "noun",
     "meaning": "person himself/herself, person in question"
   },
   {
     "frequency": 960,
     "word": "焼く",
-    "reading": "",
+    "reading": "やく",
     "type": "verb",
     "meaning": "roast, bake"
   },
   {
     "frequency": 961,
     "word": "たまに",
-    "reading": "",
+    "reading": "たまに",
     "type": "adverb",
     "meaning": "occasionally, once in a while"
   },
   {
     "frequency": 962,
     "word": "慣れる",
-    "reading": "",
+    "reading": "なれる",
     "type": "verb",
     "meaning": "get used to"
   },
   {
     "frequency": 963,
     "word": "もしくは",
-    "reading": "",
+    "reading": "もしくは",
     "type": "conjunction",
     "meaning": "or, otherwise"
   },
   {
     "frequency": 964,
     "word": "出会う",
-    "reading": "",
+    "reading": "であう",
     "type": "verb",
     "meaning": "meet, come across"
   },
   {
     "frequency": 965,
     "word": "推進",
-    "reading": "",
+    "reading": "すいしん",
     "type": "noun",
     "meaning": "propulsion"
   },
@@ -7336,14 +7336,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 966,
     "word": "自ら",
-    "reading": "",
+    "reading": "おのずから",
     "type": "noun",
     "meaning": "personally, oneself, own"
   },
   {
     "frequency": 967,
     "word": "作業",
-    "reading": "",
+    "reading": "さぎょう",
     "type": "noun",
     "meaning": "operation, work"
   },
@@ -7357,63 +7357,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 968,
     "word": "私自身",
-    "reading": "",
+    "reading": "わたしじしん",
     "type": "noun",
     "meaning": "myself, my own"
   },
   {
     "frequency": 969,
     "word": "たび",
-    "reading": "",
+    "reading": "たび",
     "type": "noun",
     "meaning": "every time"
   },
   {
     "frequency": 970,
     "word": "付き合う",
-    "reading": "",
+    "reading": "つきあう",
     "type": "verb",
     "meaning": "associate with, go out with, go along with"
   },
   {
     "frequency": 971,
     "word": "半分",
-    "reading": "",
+    "reading": "はんぶん",
     "type": "noun",
     "meaning": "half"
   },
   {
     "frequency": 972,
     "word": "条件",
-    "reading": "",
+    "reading": "じょうけん",
     "type": "noun",
     "meaning": "condition"
   },
   {
     "frequency": 973,
     "word": "医者",
-    "reading": "",
+    "reading": "いしゃ",
     "type": "noun",
     "meaning": "doctor"
   },
   {
     "frequency": 974,
     "word": "振る",
-    "reading": "",
+    "reading": "ふる",
     "type": "verb",
     "meaning": "wave, shake, swing"
   },
   {
     "frequency": 975,
     "word": "関心",
-    "reading": "",
+    "reading": "かんしん",
     "type": "noun",
     "meaning": "interest"
   },
   {
     "frequency": 976,
     "word": "表示",
-    "reading": "",
+    "reading": "ひょうじ",
     "type": "noun",
     "meaning": "indication"
   },
@@ -7427,42 +7427,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 977,
     "word": "秋",
-    "reading": "",
+    "reading": "とき",
     "type": "noun",
     "meaning": "autumn, fall"
   },
   {
     "frequency": 978,
     "word": "明るい",
-    "reading": "",
+    "reading": "あかるい",
     "type": "i-adjective",
     "meaning": "bright, light; cheerful"
   },
   {
     "frequency": 979,
     "word": "趣味",
-    "reading": "",
+    "reading": "しゅみ",
     "type": "noun",
     "meaning": "hobby"
   },
   {
     "frequency": 980,
     "word": "生徒",
-    "reading": "",
+    "reading": "せいと",
     "type": "noun",
     "meaning": "student, pupil"
   },
   {
     "frequency": 981,
     "word": "相当",
-    "reading": "",
+    "reading": "そうとう",
     "type": "na-adjective",
     "meaning": "considerable"
   },
   {
     "frequency": 981,
     "word": "相当",
-    "reading": "",
+    "reading": "そうとう",
     "type": "noun",
     "meaning": "equivalence"
   },
@@ -7476,14 +7476,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 982,
     "word": "従う",
-    "reading": "",
+    "reading": "したがう",
     "type": "verb",
     "meaning": "obey, follow"
   },
   {
     "frequency": 983,
     "word": "検討",
-    "reading": "",
+    "reading": "けんとう",
     "type": "noun",
     "meaning": "consideration, discussion, examination"
   },
@@ -7497,42 +7497,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 984,
     "word": "占める",
-    "reading": "",
+    "reading": "しめる",
     "type": "verb",
     "meaning": "occupy, account for"
   },
   {
     "frequency": 985,
     "word": "まさに",
-    "reading": "",
+    "reading": "まさに",
     "type": "adverb",
     "meaning": "exactly"
   },
   {
     "frequency": 986,
     "word": "選手",
-    "reading": "",
+    "reading": "せんしゅ",
     "type": "noun",
     "meaning": "player, athlete"
   },
   {
     "frequency": 987,
     "word": "以下",
-    "reading": "",
+    "reading": "いか",
     "type": "noun",
     "meaning": "below, the following"
   },
   {
     "frequency": 988,
     "word": "大きさ",
-    "reading": "",
+    "reading": "おおきさ",
     "type": "noun",
     "meaning": "size"
   },
   {
     "frequency": 989,
     "word": "調査",
-    "reading": "",
+    "reading": "ちょうさ",
     "type": "noun",
     "meaning": "investigation"
   },
@@ -7553,14 +7553,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 991,
     "word": "実家",
-    "reading": "",
+    "reading": "じっか",
     "type": "noun",
     "meaning": "one’s parents’ home"
   },
   {
     "frequency": 992,
     "word": "発表",
-    "reading": "",
+    "reading": "はっぴょう",
     "type": "noun",
     "meaning": "announcement, publication"
   },
@@ -7574,28 +7574,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 993,
     "word": "むしろ",
-    "reading": "",
+    "reading": "むしろ",
     "type": "adverb",
     "meaning": "rather, if anything"
   },
   {
     "frequency": 994,
     "word": "作成",
-    "reading": "",
+    "reading": "さくせい",
     "type": "noun, verb",
     "meaning": "make, create"
   },
   {
     "frequency": 995,
     "word": "名",
-    "reading": "",
+    "reading": "な",
     "type": "noun",
     "meaning": "name"
   },
   {
     "frequency": 996,
     "word": "確保",
-    "reading": "",
+    "reading": "かくほ",
     "type": "noun",
     "meaning": "securement, reservation"
   },
@@ -7609,21 +7609,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 997,
     "word": "まるで",
-    "reading": "",
+    "reading": "まるで",
     "type": "adverb",
     "meaning": "just like, quite"
   },
   {
     "frequency": 998,
     "word": "運ぶ",
-    "reading": "",
+    "reading": "はこぶ",
     "type": "verb",
     "meaning": "carry, transport, move"
   },
   {
     "frequency": 999,
     "word": "こともある",
-    "reading": "",
+    "reading": "こともある",
     "type": "compound",
     "meaning": "sometimes, can be"
   },
@@ -7637,35 +7637,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1001,
     "word": "正しい",
-    "reading": "",
+    "reading": "ただしい",
     "type": "i-adjective",
     "meaning": "right, accurate, proper"
   },
   {
     "frequency": 1002,
     "word": "ほぼ",
-    "reading": "",
+    "reading": "ほぼ",
     "type": "adverb",
     "meaning": "about, nearly, almost"
   },
   {
     "frequency": 1003,
     "word": "表わす",
-    "reading": "",
+    "reading": "あらわす",
     "type": "verb",
     "meaning": "show, express, symbolize"
   },
   {
     "frequency": 1004,
     "word": "毎年",
-    "reading": "",
+    "reading": "まいとし",
     "type": "adverb, noun",
     "meaning": "every year, annually"
   },
   {
     "frequency": 1005,
     "word": "文字",
-    "reading": "",
+    "reading": "もじ",
     "type": "noun",
     "meaning": "letter, character, writing"
   },
@@ -7679,91 +7679,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1007,
     "word": "に対し",
-    "reading": "",
+    "reading": "にたいし",
     "type": "compound",
     "meaning": "toward; against; in contrast to"
   },
   {
     "frequency": 1008,
     "word": "明日",
-    "reading": "",
+    "reading": "あした",
     "type": "adverb, noun",
     "meaning": "tomorrow"
   },
   {
     "frequency": 1009,
     "word": "役割",
-    "reading": "",
+    "reading": "やくわり",
     "type": "noun",
     "meaning": "part, role"
   },
   {
     "frequency": 1010,
     "word": "地球",
-    "reading": "",
+    "reading": "ちきゅう",
     "type": "noun",
     "meaning": "earth, globe"
   },
   {
     "frequency": 1011,
     "word": "公園",
-    "reading": "",
+    "reading": "こうえん",
     "type": "noun",
     "meaning": "park"
   },
   {
     "frequency": 1012,
     "word": "個人",
-    "reading": "",
+    "reading": "こじん",
     "type": "noun",
     "meaning": "individual"
   },
   {
     "frequency": 1013,
     "word": "やら",
-    "reading": "",
+    "reading": "やら",
     "type": "particle",
     "meaning": "and, or"
   },
   {
     "frequency": 1014,
     "word": "消える",
-    "reading": "",
+    "reading": "きえる",
     "type": "verb",
     "meaning": "go off; disappear"
   },
   {
     "frequency": 1015,
     "word": "激しい",
-    "reading": "",
+    "reading": "はげしい",
     "type": "i-adjective",
     "meaning": "fierce, intense, severe"
   },
   {
     "frequency": 1016,
     "word": "短い",
-    "reading": "",
+    "reading": "みじかい",
     "type": "i-adjective",
     "meaning": "short"
   },
   {
     "frequency": 1017,
     "word": "薬",
-    "reading": "",
+    "reading": "くすり",
     "type": "noun",
     "meaning": "medicine"
   },
   {
     "frequency": 1018,
     "word": "試合",
-    "reading": "",
+    "reading": "しあい",
     "type": "noun",
     "meaning": "match, game, bout"
   },
   {
     "frequency": 1019,
     "word": "成長",
-    "reading": "",
+    "reading": "せいちょう",
     "type": "noun",
     "meaning": "growth"
   },
@@ -7777,14 +7777,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1020,
     "word": "おなか",
-    "reading": "",
+    "reading": "おなか",
     "type": "noun",
     "meaning": "stomach, belly"
   },
   {
     "frequency": 1021,
     "word": "機能",
-    "reading": "",
+    "reading": "きのう",
     "type": "noun",
     "meaning": "function, capability, feature"
   },
@@ -7798,63 +7798,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1022,
     "word": "ボール",
-    "reading": "",
+    "reading": "ボール",
     "type": "noun",
     "meaning": "ball"
   },
   {
     "frequency": 1023,
     "word": "少年",
-    "reading": "",
+    "reading": "しょうねん",
     "type": "noun",
     "meaning": "boy, juvenile"
   },
   {
     "frequency": 1024,
     "word": "方向",
-    "reading": "",
+    "reading": "ほうこう",
     "type": "noun",
     "meaning": "direction, course"
   },
   {
     "frequency": 1025,
     "word": "遅い",
-    "reading": "",
+    "reading": "おそい",
     "type": "i-adjective",
     "meaning": "late; slow"
   },
   {
     "frequency": 1026,
     "word": "資料",
-    "reading": "",
+    "reading": "しりょう",
     "type": "noun",
     "meaning": "document, material, data"
   },
   {
     "frequency": 1027,
     "word": "タイプ",
-    "reading": "",
+    "reading": "タイプ",
     "type": "noun",
     "meaning": "type"
   },
   {
     "frequency": 1027,
     "word": "タイプする",
-    "reading": "",
+    "reading": "タイプする",
     "type": "verb",
     "meaning": "type"
   },
   {
     "frequency": 1028,
     "word": "扱う",
-    "reading": "",
+    "reading": "あつかう",
     "type": "verb",
     "meaning": "deal with, handle, treat"
   },
   {
     "frequency": 1029,
     "word": "指摘",
-    "reading": "",
+    "reading": "してき",
     "type": "noun",
     "meaning": "designation"
   },
@@ -7868,70 +7868,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1030,
     "word": "ヨーロッパ",
-    "reading": "",
+    "reading": "ヨーロッパ",
     "type": "noun",
     "meaning": "Europe"
   },
   {
     "frequency": 1031,
     "word": "除く",
-    "reading": "",
+    "reading": "のぞく",
     "type": "verb",
     "meaning": "remove; except; get rid of"
   },
   {
     "frequency": 1032,
     "word": "それら",
-    "reading": "",
+    "reading": "それら",
     "type": "pronoun",
     "meaning": "those, these, they"
   },
   {
     "frequency": 1033,
     "word": "ご存じ",
-    "reading": "",
+    "reading": "ごぞんじ",
     "type": "noun",
     "meaning": "know, knowing (honorific)"
   },
   {
     "frequency": 1034,
     "word": "意外",
-    "reading": "",
+    "reading": "いがい",
     "type": "na-adjective",
     "meaning": "unexpected, surprising"
   },
   {
     "frequency": 1035,
     "word": "一週間",
-    "reading": "",
+    "reading": "いっしゅうかん",
     "type": "noun",
     "meaning": "one week"
   },
   {
     "frequency": 1036,
     "word": "何回",
-    "reading": "",
+    "reading": "なんかい",
     "type": "noun",
     "meaning": "how many times"
   },
   {
     "frequency": 1037,
     "word": "政府",
-    "reading": "",
+    "reading": "せいふ",
     "type": "noun",
     "meaning": "government"
   },
   {
     "frequency": 1038,
     "word": "分ける",
-    "reading": "",
+    "reading": "わける",
     "type": "verb",
     "meaning": "divide, distribute; classify"
   },
   {
     "frequency": 1039,
     "word": "計画",
-    "reading": "",
+    "reading": "けいかく",
     "type": "noun",
     "meaning": "project, schedule, plan"
   },
@@ -7945,28 +7945,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1040,
     "word": "段階",
-    "reading": "",
+    "reading": "だんかい",
     "type": "noun",
     "meaning": "grade, stage, step"
   },
   {
     "frequency": 1041,
     "word": "量",
-    "reading": "",
+    "reading": "りょう",
     "type": "noun",
     "meaning": "quantity, volume, amount"
   },
   {
     "frequency": 1042,
     "word": "田舎",
-    "reading": "",
+    "reading": "いなか",
     "type": "noun",
     "meaning": "countryside; one’s hometown"
   },
   {
     "frequency": 1043,
     "word": "感動",
-    "reading": "",
+    "reading": "かんどう",
     "type": "noun",
     "meaning": "deep emotion"
   },
@@ -7980,84 +7980,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1044,
     "word": "スポーツ",
-    "reading": "",
+    "reading": "スポーツ",
     "type": "noun",
     "meaning": "sports"
   },
   {
     "frequency": 1045,
     "word": "感覚",
-    "reading": "",
+    "reading": "かんかく",
     "type": "noun",
     "meaning": "sense; sensation, feeling"
   },
   {
     "frequency": 1046,
     "word": "地元",
-    "reading": "",
+    "reading": "じもと",
     "type": "noun",
     "meaning": "home area, local area"
   },
   {
     "frequency": 1047,
     "word": "勝手",
-    "reading": "",
+    "reading": "かって",
     "type": "na-adjective",
     "meaning": "on one’s own, at one’s convenience"
   },
   {
     "frequency": 1048,
     "word": "さすが",
-    "reading": "",
+    "reading": "さすが",
     "type": "adverb",
     "meaning": "as might be expected, as one would expect"
   },
   {
     "frequency": 1049,
     "word": "寂しい",
-    "reading": "",
+    "reading": "さびしい",
     "type": "i-adjective",
     "meaning": "lonely, lonesome"
   },
   {
     "frequency": 1050,
     "word": "再び",
-    "reading": "",
+    "reading": "ふたたび",
     "type": "adverb",
     "meaning": "again, once more"
   },
   {
     "frequency": 1051,
     "word": "利く",
-    "reading": "",
+    "reading": "きく",
     "type": "verb",
     "meaning": "act, work"
   },
   {
     "frequency": 1052,
     "word": "勤める",
-    "reading": "",
+    "reading": "つとめる",
     "type": "verb",
     "meaning": "be employed, work for"
   },
   {
     "frequency": 1053,
     "word": "吸う",
-    "reading": "",
+    "reading": "すう",
     "type": "verb",
     "meaning": "breathe in, sip, smoke"
   },
   {
     "frequency": 1054,
     "word": "流す",
-    "reading": "",
+    "reading": "ながす",
     "type": "verb",
     "meaning": "flush; pour; drain"
   },
   {
     "frequency": 1055,
     "word": "希望",
-    "reading": "",
+    "reading": "きぼう",
     "type": "noun",
     "meaning": "hope, wish, request"
   },
@@ -8071,133 +8071,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1056,
     "word": "急",
-    "reading": "",
+    "reading": "きゅう",
     "type": "na-adjective",
     "meaning": "urgent, sudden; steep; sharp"
   },
   {
     "frequency": 1057,
     "word": "勧める",
-    "reading": "",
+    "reading": "すすめる",
     "type": "verb",
     "meaning": "encourage, recommend"
   },
   {
     "frequency": 1058,
     "word": "年齢",
-    "reading": "",
+    "reading": "ねんれい",
     "type": "noun",
     "meaning": "age, years"
   },
   {
     "frequency": 1059,
     "word": "フランス",
-    "reading": "",
+    "reading": "フランス",
     "type": "noun",
     "meaning": "France"
   },
   {
     "frequency": 1060,
     "word": "仕方",
-    "reading": "",
+    "reading": "しかた",
     "type": "noun",
     "meaning": "way, method"
   },
   {
     "frequency": 1061,
     "word": "なし",
-    "reading": "",
+    "reading": "なし",
     "type": "noun",
     "meaning": "without, no"
   },
   {
     "frequency": 1062,
     "word": "さて",
-    "reading": "",
+    "reading": "さて",
     "type": "conjunction",
     "meaning": "well, now"
   },
   {
     "frequency": 1063,
     "word": "疲れる",
-    "reading": "",
+    "reading": "つかれる",
     "type": "verb",
     "meaning": "get tired"
   },
   {
     "frequency": 1064,
     "word": "落とす",
-    "reading": "",
+    "reading": "おとす",
     "type": "verb",
     "meaning": "drop, lose, turn down"
   },
   {
     "frequency": 1065,
     "word": "人気",
-    "reading": "",
+    "reading": "にんき",
     "type": "noun",
     "meaning": "popularity"
   },
   {
     "frequency": 1066,
     "word": "弱い",
-    "reading": "",
+    "reading": "よわい",
     "type": "i-adjective",
     "meaning": "weak, faint, light"
   },
   {
     "frequency": 1067,
     "word": "まとめる",
-    "reading": "",
+    "reading": "まとめる",
     "type": "verb",
     "meaning": "summarize, settle, gather"
   },
   {
     "frequency": 1068,
     "word": "格好",
-    "reading": "",
+    "reading": "かっこう",
     "type": "noun",
     "meaning": "appearance, shape, look"
   },
   {
     "frequency": 1069,
     "word": "渡る",
-    "reading": "",
+    "reading": "わたる",
     "type": "verb",
     "meaning": "cross, go across"
   },
   {
     "frequency": 1070,
     "word": "患者",
-    "reading": "",
+    "reading": "かんじゃ",
     "type": "noun",
     "meaning": "patient, case"
   },
   {
     "frequency": 1071,
     "word": "壁",
-    "reading": "",
+    "reading": "かべ",
     "type": "noun",
     "meaning": "wall, barrier"
   },
   {
     "frequency": 1072,
     "word": "道路",
-    "reading": "",
+    "reading": "どうろ",
     "type": "noun",
     "meaning": "road, way, street"
   },
   {
     "frequency": 1073,
     "word": "参る",
-    "reading": "",
+    "reading": "まいる",
     "type": "verb",
     "meaning": "go, come, visit (humble); be in trouble, be embarrassed"
   },
   {
     "frequency": 1074,
     "word": "反対",
-    "reading": "",
+    "reading": "はんたい",
     "type": "noun",
     "meaning": "opposition, contrast, objection"
   },
@@ -8211,14 +8211,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1075,
     "word": "他人",
-    "reading": "",
+    "reading": "たにん",
     "type": "noun",
     "meaning": "others, unrelated person, stranger"
   },
   {
     "frequency": 1076,
     "word": "提供",
-    "reading": "",
+    "reading": "ていきょう",
     "type": "noun",
     "meaning": "offer"
   },
@@ -8232,49 +8232,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1077,
     "word": "空気",
-    "reading": "",
+    "reading": "くうき",
     "type": "noun",
     "meaning": "air, atmosphere"
   },
   {
     "frequency": 1078,
     "word": "去年",
-    "reading": "",
+    "reading": "きょねん",
     "type": "adverb, noun",
     "meaning": "last year"
   },
   {
     "frequency": 1079,
     "word": "肩",
-    "reading": "",
+    "reading": "かた",
     "type": "noun",
     "meaning": "shoulder"
   },
   {
     "frequency": 1080,
     "word": "知れる",
-    "reading": "",
+    "reading": "しれる",
     "type": "verb",
     "meaning": "come out, come to light, be discovered"
   },
   {
     "frequency": 1081,
     "word": "匂い",
-    "reading": "",
+    "reading": "におい",
     "type": "noun",
     "meaning": "smell, odor, scent"
   },
   {
     "frequency": 1082,
     "word": "銀行",
-    "reading": "",
+    "reading": "ぎんこう",
     "type": "noun",
     "meaning": "bank"
   },
   {
     "frequency": 1083,
     "word": "実現",
-    "reading": "",
+    "reading": "じつげん",
     "type": "noun",
     "meaning": "realization, implementation"
   },
@@ -8288,14 +8288,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1084,
     "word": "ありがとう",
-    "reading": "",
+    "reading": "ありがとう",
     "type": "interjection",
     "meaning": "thank you"
   },
   {
     "frequency": 1085,
     "word": "購入",
-    "reading": "",
+    "reading": "こうにゅう",
     "type": "noun",
     "meaning": "buying"
   },
@@ -8309,35 +8309,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1086,
     "word": "十年",
-    "reading": "",
+    "reading": "じゅうねん",
     "type": "noun",
     "meaning": "ten years, decade"
   },
   {
     "frequency": 1087,
     "word": "右",
-    "reading": "",
+    "reading": "みぎ",
     "type": "noun",
     "meaning": "right"
   },
   {
     "frequency": 1088,
     "word": "全体",
-    "reading": "",
+    "reading": "ぜんたい",
     "type": "noun",
     "meaning": "total, whole, entire"
   },
   {
     "frequency": 1089,
     "word": "話題",
-    "reading": "",
+    "reading": "わだい",
     "type": "noun",
     "meaning": "topic, subject"
   },
   {
     "frequency": 1090,
     "word": "認識",
-    "reading": "",
+    "reading": "にんしき",
     "type": "noun",
     "meaning": "recognition, awareness"
   },
@@ -8351,7 +8351,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1091,
     "word": "安心",
-    "reading": "",
+    "reading": "あんしん",
     "type": "noun",
     "meaning": "peace of mind, relief"
   },
@@ -8365,63 +8365,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1092,
     "word": "雪",
-    "reading": "",
+    "reading": "ゆき",
     "type": "noun",
     "meaning": "snow"
   },
   {
     "frequency": 1093,
     "word": "ポイント",
-    "reading": "",
+    "reading": "ポイント",
     "type": "noun",
     "meaning": "point"
   },
   {
     "frequency": 1094,
     "word": "十",
-    "reading": "",
+    "reading": "じゅう",
     "type": "numeral",
     "meaning": "ten"
   },
   {
     "frequency": 1095,
     "word": "仲間",
-    "reading": "",
+    "reading": "ちゅうげん",
     "type": "noun",
     "meaning": "company, fellow, mate, group"
   },
   {
     "frequency": 1096,
     "word": "かつ",
-    "reading": "",
+    "reading": "かつ",
     "type": "conjunction",
     "meaning": "besides, also, as well"
   },
   {
     "frequency": 1097,
     "word": "知識",
-    "reading": "",
+    "reading": "ちしき",
     "type": "noun",
     "meaning": "knowledge, information"
   },
   {
     "frequency": 1098,
     "word": "多少",
-    "reading": "",
+    "reading": "たしょう",
     "type": "adverb, noun",
     "meaning": "more or less; somewhat; a little"
   },
   {
     "frequency": 1099,
     "word": "緑",
-    "reading": "",
+    "reading": "みどり",
     "type": "noun",
     "meaning": "green; greenery"
   },
   {
     "frequency": 1100,
     "word": "解決",
-    "reading": "",
+    "reading": "かいけつ",
     "type": "noun",
     "meaning": "solution, settlement"
   },
@@ -8435,21 +8435,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1101,
     "word": "狭い",
-    "reading": "",
+    "reading": "せまい",
     "type": "i-adjective",
     "meaning": "narrow, small"
   },
   {
     "frequency": 1102,
     "word": "一時間",
-    "reading": "",
+    "reading": "いちじかん",
     "type": "noun",
     "meaning": "one hour"
   },
   {
     "frequency": 1103,
     "word": "失敗",
-    "reading": "",
+    "reading": "しっぱい",
     "type": "noun",
     "meaning": "failure, mistake"
   },
@@ -8463,14 +8463,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1104,
     "word": "いきなり",
-    "reading": "",
+    "reading": "いきなり",
     "type": "adverb",
     "meaning": "suddenly, without notice"
   },
   {
     "frequency": 1105,
     "word": "成功",
-    "reading": "",
+    "reading": "せいこう",
     "type": "noun",
     "meaning": "success, achievement"
   },
@@ -8484,14 +8484,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1106,
     "word": "マンション",
-    "reading": "",
+    "reading": "マンション",
     "type": "noun",
     "meaning": "apartment, condominium, flat"
   },
   {
     "frequency": 1107,
     "word": "協力",
-    "reading": "",
+    "reading": "きょうりょく",
     "type": "noun",
     "meaning": "cooperation, collaboration"
   },
@@ -8505,14 +8505,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1108,
     "word": "伯父",
-    "reading": "",
+    "reading": "おじ",
     "type": "noun",
     "meaning": "uncle"
   },
   {
     "frequency": 1109,
     "word": "時々",
-    "reading": "",
+    "reading": "ときどき",
     "type": "adverb",
     "meaning": "sometimes, once in a while, on occasion"
   },
@@ -8526,7 +8526,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1111,
     "word": "卒業",
-    "reading": "",
+    "reading": "そつぎょう",
     "type": "noun",
     "meaning": "graduation"
   },
@@ -8540,28 +8540,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1112,
     "word": "降る",
-    "reading": "",
+    "reading": "くだる",
     "type": "verb",
     "meaning": "fall, come down"
   },
   {
     "frequency": 1113,
     "word": "野菜",
-    "reading": "",
+    "reading": "やさい",
     "type": "noun",
     "meaning": "vegetable"
   },
   {
     "frequency": 1114,
     "word": "自分自身",
-    "reading": "",
+    "reading": "じぶんじしん",
     "type": "noun",
     "meaning": "oneself"
   },
   {
     "frequency": 1115,
     "word": "報告",
-    "reading": "",
+    "reading": "ほうこく",
     "type": "noun",
     "meaning": "report, information, account"
   },
@@ -8575,14 +8575,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1116,
     "word": "落ち着く",
-    "reading": "",
+    "reading": "おちつく",
     "type": "verb",
     "meaning": "settle, calm down"
   },
   {
     "frequency": 1117,
     "word": "決定",
-    "reading": "",
+    "reading": "けってい",
     "type": "noun",
     "meaning": "decision, determination"
   },
@@ -8596,21 +8596,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1118,
     "word": "割合",
-    "reading": "",
+    "reading": "わりあい",
     "type": "adverb",
     "meaning": "comparatively"
   },
   {
     "frequency": 1118,
     "word": "割合",
-    "reading": "",
+    "reading": "わりあい",
     "type": "noun",
     "meaning": "ratio, percentage"
   },
   {
     "frequency": 1119,
     "word": "移動",
-    "reading": "",
+    "reading": "いどう",
     "type": "noun",
     "meaning": "movement"
   },
@@ -8624,14 +8624,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1120,
     "word": "いまだ",
-    "reading": "",
+    "reading": "いまだ",
     "type": "adverb",
     "meaning": "still, yet, so far"
   },
   {
     "frequency": 1121,
     "word": "血",
-    "reading": "",
+    "reading": "ち",
     "type": "noun",
     "meaning": "blood"
   },
@@ -8645,56 +8645,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1123,
     "word": "涙",
-    "reading": "",
+    "reading": "なみだ",
     "type": "noun",
     "meaning": "tear"
   },
   {
     "frequency": 1124,
     "word": "表情",
-    "reading": "",
+    "reading": "ひょうじょう",
     "type": "noun",
     "meaning": "expression, facial expression, look"
   },
   {
     "frequency": 1125,
     "word": "ああ",
-    "reading": "",
+    "reading": "ああ",
     "type": "adverb",
     "meaning": "like that"
   },
   {
     "frequency": 1126,
     "word": "逃げる",
-    "reading": "",
+    "reading": "にげる",
     "type": "verb",
     "meaning": "run away, escape"
   },
   {
     "frequency": 1127,
     "word": "次第",
-    "reading": "",
+    "reading": "しだい",
     "type": "adverb",
     "meaning": "depend on; as soon as"
   },
   {
     "frequency": 1127,
     "word": "次第",
-    "reading": "",
+    "reading": "しだい",
     "type": "noun",
     "meaning": "order"
   },
   {
     "frequency": 1128,
     "word": "楽",
-    "reading": "",
+    "reading": "らく",
     "type": "na-adjective",
     "meaning": "comfort, ease, comfortable"
   },
   {
     "frequency": 1129,
     "word": "やがて",
-    "reading": "",
+    "reading": "やがて",
     "type": "adverb",
     "meaning": "soon, before long, after all"
   },
@@ -8708,77 +8708,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1131,
     "word": "かつて",
-    "reading": "",
+    "reading": "かつて",
     "type": "adverb",
     "meaning": "once, before, ever, former"
   },
   {
     "frequency": 1132,
     "word": "ごみ",
-    "reading": "",
+    "reading": "ごみ",
     "type": "noun",
     "meaning": "rubbish, garbage, trash"
   },
   {
     "frequency": 1133,
     "word": "警察",
-    "reading": "",
+    "reading": "けいさつ",
     "type": "noun",
     "meaning": "police"
   },
   {
     "frequency": 1134,
     "word": "兄",
-    "reading": "",
+    "reading": "あに",
     "type": "noun",
     "meaning": "elder brother"
   },
   {
     "frequency": 1135,
     "word": "くれる",
-    "reading": "",
+    "reading": "くれる",
     "type": "verb",
     "meaning": "give"
   },
   {
     "frequency": 1136,
     "word": "代わり",
-    "reading": "",
+    "reading": "かわり",
     "type": "noun",
     "meaning": "substitute, replacement, alternative"
   },
   {
     "frequency": 1137,
     "word": "外国",
-    "reading": "",
+    "reading": "がいこく",
     "type": "noun",
     "meaning": "foreign country"
   },
   {
     "frequency": 1138,
     "word": "細かい",
-    "reading": "",
+    "reading": "こまかい",
     "type": "i-adjective",
     "meaning": "small, fine; trivial; sensitive"
   },
   {
     "frequency": 1139,
     "word": "静か",
-    "reading": "",
+    "reading": "しずか",
     "type": "na-adjective",
     "meaning": "quiet, silent"
   },
   {
     "frequency": 1140,
     "word": "腰",
-    "reading": "",
+    "reading": "こし",
     "type": "noun",
     "meaning": "back, lower back, waist, hip"
   },
   {
     "frequency": 1141,
     "word": "開催",
-    "reading": "",
+    "reading": "かいさい",
     "type": "noun",
     "meaning": "holding, opening"
   },
@@ -8792,105 +8792,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1142,
     "word": "瞬間",
-    "reading": "",
+    "reading": "しゅんかん",
     "type": "adverb, noun",
     "meaning": "moment, instant, second"
   },
   {
     "frequency": 1143,
     "word": "近付く",
-    "reading": "",
+    "reading": "ちかづく",
     "type": "verb",
     "meaning": "approach, get closer to"
   },
   {
     "frequency": 1144,
     "word": "わずか",
-    "reading": "",
+    "reading": "わずか",
     "type": "na-adjective",
     "meaning": "a few, a little, a bit"
   },
   {
     "frequency": 1144,
     "word": "わずか",
-    "reading": "",
+    "reading": "わずか",
     "type": "adverb",
     "meaning": "only"
   },
   {
     "frequency": 1145,
     "word": "暗い",
-    "reading": "",
+    "reading": "くらい",
     "type": "i-adjective",
     "meaning": "dark; depressed"
   },
   {
     "frequency": 1146,
     "word": "届く",
-    "reading": "",
+    "reading": "とどく",
     "type": "verb",
     "meaning": "reach, arrive"
   },
   {
     "frequency": 1147,
     "word": "窓",
-    "reading": "",
+    "reading": "まど",
     "type": "noun",
     "meaning": "window"
   },
   {
     "frequency": 1148,
     "word": "ストレス",
-    "reading": "",
+    "reading": "ストレス",
     "type": "noun",
     "meaning": "stress"
   },
   {
     "frequency": 1149,
     "word": "伸ばす",
-    "reading": "",
+    "reading": "のばす",
     "type": "verb",
     "meaning": "extend, lengthen; postpone"
   },
   {
     "frequency": 1150,
     "word": "ドア",
-    "reading": "",
+    "reading": "ドア",
     "type": "noun",
     "meaning": "door"
   },
   {
     "frequency": 1151,
     "word": "森",
-    "reading": "",
+    "reading": "もり",
     "type": "noun",
     "meaning": "forest, woods, grove"
   },
   {
     "frequency": 1152,
     "word": "目標",
-    "reading": "",
+    "reading": "めじるし",
     "type": "noun",
     "meaning": "goal, objective, target"
   },
   {
     "frequency": 1153,
     "word": "本来",
-    "reading": "",
+    "reading": "ほんらい",
     "type": "adverb, noun",
     "meaning": "originally, essentially, by nature, proper"
   },
   {
     "frequency": 1154,
     "word": "重い",
-    "reading": "",
+    "reading": "おもい",
     "type": "i-adjective",
     "meaning": "heavy, important"
   },
   {
     "frequency": 1155,
     "word": "変更",
-    "reading": "",
+    "reading": "へんこう",
     "type": "noun",
     "meaning": "change, modification, revision"
   },
@@ -8904,7 +8904,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1156,
     "word": "感謝",
-    "reading": "",
+    "reading": "かんしゃ",
     "type": "noun",
     "meaning": "gratitude, appreciation"
   },
@@ -8918,14 +8918,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1157,
     "word": "腕",
-    "reading": "",
+    "reading": "うで",
     "type": "noun",
     "meaning": "arm; skill, ability"
   },
   {
     "frequency": 1158,
     "word": "手術",
-    "reading": "",
+    "reading": "しゅじゅつ",
     "type": "noun",
     "meaning": "surgery, operation"
   },
@@ -8939,14 +8939,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1159,
     "word": "当たり前",
-    "reading": "",
+    "reading": "あたりまえ",
     "type": "na-adjective",
     "meaning": "natural, usual, common, ordinary"
   },
   {
     "frequency": 1160,
     "word": "時点",
-    "reading": "",
+    "reading": "じてん",
     "type": "noun",
     "meaning": "point of time, as of"
   },
@@ -8960,35 +8960,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1162,
     "word": "馬鹿",
-    "reading": "",
+    "reading": "ばか",
     "type": "na-adjective",
     "meaning": "foolish"
   },
   {
     "frequency": 1162,
     "word": "馬鹿",
-    "reading": "",
+    "reading": "ばか",
     "type": "noun",
     "meaning": "fool"
   },
   {
     "frequency": 1163,
     "word": "忙しい",
-    "reading": "",
+    "reading": "いそがしい",
     "type": "i-adjective",
     "meaning": "busy, occupied"
   },
   {
     "frequency": 1164,
     "word": "おく",
-    "reading": "",
+    "reading": "おく",
     "type": "verb",
     "meaning": "at; in; on"
   },
   {
     "frequency": 1165,
     "word": "愛する",
-    "reading": "",
+    "reading": "あいする",
     "type": "verb",
     "meaning": "love, care"
   },
@@ -9002,14 +9002,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1167,
     "word": "遠い",
-    "reading": "",
+    "reading": "とおい",
     "type": "i-adjective",
     "meaning": "far, distant"
   },
   {
     "frequency": 1168,
     "word": "苦労",
-    "reading": "",
+    "reading": "くろう",
     "type": "noun",
     "meaning": "hardship, difficulty, trouble"
   },
@@ -9023,49 +9023,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1169,
     "word": "押さえる",
-    "reading": "",
+    "reading": "おさえる",
     "type": "verb",
     "meaning": "press down, hold"
   },
   {
     "frequency": 1170,
     "word": "課題",
-    "reading": "",
+    "reading": "かだい",
     "type": "noun",
     "meaning": "subject; assignment, task"
   },
   {
     "frequency": 1171,
     "word": "とともに",
-    "reading": "",
+    "reading": "とともに",
     "type": "compound",
     "meaning": "together with, with"
   },
   {
     "frequency": 1172,
     "word": "見付かる",
-    "reading": "",
+    "reading": "みつかる",
     "type": "verb",
     "meaning": "be found, be discovered"
   },
   {
     "frequency": 1173,
     "word": "うそ",
-    "reading": "",
+    "reading": "うそ",
     "type": "noun",
     "meaning": "lie, falsehood"
   },
   {
     "frequency": 1174,
     "word": "仰る",
-    "reading": "",
+    "reading": "おっしゃる",
     "type": "verb",
     "meaning": "say, tell, speak (honorific)"
   },
   {
     "frequency": 1175,
     "word": "主張",
-    "reading": "",
+    "reading": "しゅちょう",
     "type": "noun",
     "meaning": "argument, claim"
   },
@@ -9079,42 +9079,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1176,
     "word": "施設",
-    "reading": "",
+    "reading": "しせつ",
     "type": "noun",
     "meaning": "facility, institution, plant"
   },
   {
     "frequency": 1177,
     "word": "チェック",
-    "reading": "",
+    "reading": "チェック",
     "type": "noun",
     "meaning": "check"
   },
   {
     "frequency": 1177,
     "word": "チェックする",
-    "reading": "",
+    "reading": "チェックする",
     "type": "verb",
     "meaning": "check"
   },
   {
     "frequency": 1178,
     "word": "一ヶ月",
-    "reading": "",
+    "reading": "いっかげつ",
     "type": "noun",
     "meaning": "one month"
   },
   {
     "frequency": 1179,
     "word": "ものの",
-    "reading": "",
+    "reading": "ものの",
     "type": "conjunctive particle",
     "meaning": "but, although, despite"
   },
   {
     "frequency": 1180,
     "word": "展開",
-    "reading": "",
+    "reading": "てんかい",
     "type": "noun",
     "meaning": "development"
   },
@@ -9128,14 +9128,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1181,
     "word": "事業",
-    "reading": "",
+    "reading": "じぎょう",
     "type": "noun",
     "meaning": "business, enterprise, project"
   },
   {
     "frequency": 1182,
     "word": "データ",
-    "reading": "",
+    "reading": "データ",
     "type": "noun",
     "meaning": "data"
   },
@@ -9149,49 +9149,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1184,
     "word": "伸びる",
-    "reading": "",
+    "reading": "のびる",
     "type": "verb",
     "meaning": "grow, stretch, extend"
   },
   {
     "frequency": 1185,
     "word": "通常",
-    "reading": "",
+    "reading": "つうじょう",
     "type": "adverb, noun",
     "meaning": "normally, ordinary, regular"
   },
   {
     "frequency": 1186,
     "word": "ピアノ",
-    "reading": "",
+    "reading": "ピアノ",
     "type": "noun",
     "meaning": "piano"
   },
   {
     "frequency": 1187,
     "word": "行為",
-    "reading": "",
+    "reading": "こうい",
     "type": "noun",
     "meaning": "action; motion; behavior"
   },
   {
     "frequency": 1188,
     "word": "悩む",
-    "reading": "",
+    "reading": "なやむ",
     "type": "verb",
     "meaning": "be worried, be troubled, suffer"
   },
   {
     "frequency": 1189,
     "word": "第二",
-    "reading": "",
+    "reading": "だいに",
     "type": "numeral",
     "meaning": "second, secondary; another"
   },
   {
     "frequency": 1190,
     "word": "議論",
-    "reading": "",
+    "reading": "ぎろん",
     "type": "noun",
     "meaning": "argument, discussion, controversy"
   },
@@ -9205,7 +9205,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1191,
     "word": "記録",
-    "reading": "",
+    "reading": "きろく",
     "type": "noun",
     "meaning": "record, document"
   },
@@ -9219,63 +9219,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1192,
     "word": "当てる",
-    "reading": "",
+    "reading": "あてる",
     "type": "verb",
     "meaning": "hit, put, expose, guess"
   },
   {
     "frequency": 1193,
     "word": "出来事",
-    "reading": "",
+    "reading": "できごと",
     "type": "noun",
     "meaning": "event, affair, happening"
   },
   {
     "frequency": 1194,
     "word": "温かい",
-    "reading": "",
+    "reading": "あたたかい",
     "type": "i-adjective",
     "meaning": "warm, genial"
   },
   {
     "frequency": 1195,
     "word": "おかげ",
-    "reading": "",
+    "reading": "おかげ",
     "type": "noun",
     "meaning": "thanks, virtue"
   },
   {
     "frequency": 1196,
     "word": "安全",
-    "reading": "",
+    "reading": "あんぜん",
     "type": "na-adjective",
     "meaning": "safe"
   },
   {
     "frequency": 1196,
     "word": "安全",
-    "reading": "",
+    "reading": "あんぜん",
     "type": "noun",
     "meaning": "safety, security"
   },
   {
     "frequency": 1197,
     "word": "眺める",
-    "reading": "",
+    "reading": "ながめる",
     "type": "verb",
     "meaning": "see, view, gaze"
   },
   {
     "frequency": 1198,
     "word": "いかに",
-    "reading": "",
+    "reading": "いかに",
     "type": "adverb",
     "meaning": "how, in what way"
   },
   {
     "frequency": 1199,
     "word": "設置",
-    "reading": "",
+    "reading": "せっち",
     "type": "noun",
     "meaning": "installation"
   },
@@ -9289,14 +9289,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1200,
     "word": "極めて",
-    "reading": "",
+    "reading": "きわめて",
     "type": "adverb",
     "meaning": "very, extremely"
   },
   {
     "frequency": 1201,
     "word": "入院",
-    "reading": "",
+    "reading": "にゅういん",
     "type": "noun",
     "meaning": "hospitalization, admission to hospital"
   },
@@ -9310,35 +9310,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1202,
     "word": "積極的",
-    "reading": "",
+    "reading": "せっきょくてき",
     "type": "na-adjective",
     "meaning": "active, positive, aggressive"
   },
   {
     "frequency": 1203,
     "word": "事故",
-    "reading": "",
+    "reading": "じこ",
     "type": "noun",
     "meaning": "accident, incident, trouble"
   },
   {
     "frequency": 1204,
     "word": "たたく",
-    "reading": "",
+    "reading": "たたく",
     "type": "verb",
     "meaning": "slap, hit, knock, clap"
   },
   {
     "frequency": 1205,
     "word": "としても",
-    "reading": "",
+    "reading": "としても",
     "type": "compound",
     "meaning": "assuming, even if"
   },
   {
     "frequency": 1206,
     "word": "会話",
-    "reading": "",
+    "reading": "かいわ",
     "type": "noun",
     "meaning": "conversation"
   },
@@ -9359,28 +9359,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1208,
     "word": "要る",
-    "reading": "",
+    "reading": "いる",
     "type": "verb",
     "meaning": "need, want"
   },
   {
     "frequency": 1209,
     "word": "鳥",
-    "reading": "",
+    "reading": "とり",
     "type": "noun",
     "meaning": "bird; poultry"
   },
   {
     "frequency": 1210,
     "word": "何とか",
-    "reading": "",
+    "reading": "なんとか",
     "type": "adverb",
     "meaning": "somehow"
   },
   {
     "frequency": 1210,
     "word": "何とか",
-    "reading": "",
+    "reading": "なんとか",
     "type": "noun",
     "meaning": "something"
   },
@@ -9394,77 +9394,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1212,
     "word": "眠る",
-    "reading": "",
+    "reading": "ねむる",
     "type": "verb",
     "meaning": "sleep"
   },
   {
     "frequency": 1213,
     "word": "自信",
-    "reading": "",
+    "reading": "じしん",
     "type": "noun",
     "meaning": "confidence"
   },
   {
     "frequency": 1214,
     "word": "固い",
-    "reading": "",
+    "reading": "かたい",
     "type": "i-adjective",
     "meaning": "hard, solid, stiff"
   },
   {
     "frequency": 1215,
     "word": "戦後",
-    "reading": "",
+    "reading": "せんご",
     "type": "adverb, noun",
     "meaning": "postwar, after the war"
   },
   {
     "frequency": 1216,
     "word": "値段",
-    "reading": "",
+    "reading": "ねだん",
     "type": "noun",
     "meaning": "price, value, cost"
   },
   {
     "frequency": 1217,
     "word": "通じる",
-    "reading": "",
+    "reading": "つうじる",
     "type": "verb",
     "meaning": "lead; communicate, understand"
   },
   {
     "frequency": 1218,
     "word": "動かす",
-    "reading": "",
+    "reading": "うごかす",
     "type": "verb",
     "meaning": "move, shift, operate"
   },
   {
     "frequency": 1219,
     "word": "トイレ",
-    "reading": "",
+    "reading": "トイレ",
     "type": "noun",
     "meaning": "toilet, restroom, bathroom"
   },
   {
     "frequency": 1220,
     "word": "あんな",
-    "reading": "",
+    "reading": "あんな",
     "type": "adnominal",
     "meaning": "such, like that"
   },
   {
     "frequency": 1221,
     "word": "避ける",
-    "reading": "",
+    "reading": "さける",
     "type": "verb",
     "meaning": "avoid, keep away from"
   },
   {
     "frequency": 1222,
     "word": "お勧め",
-    "reading": "",
+    "reading": "おすすめ",
     "type": "noun",
     "meaning": "recommendation, advice"
   },
@@ -9478,49 +9478,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1223,
     "word": "野球",
-    "reading": "",
+    "reading": "やきゅう",
     "type": "noun",
     "meaning": "baseball"
   },
   {
     "frequency": 1224,
     "word": "穴",
-    "reading": "",
+    "reading": "あな",
     "type": "noun",
     "meaning": "hole, pit"
   },
   {
     "frequency": 1225,
     "word": "クリック",
-    "reading": "",
+    "reading": "クリック",
     "type": "noun",
     "meaning": "click"
   },
   {
     "frequency": 1225,
     "word": "クリックする",
-    "reading": "",
+    "reading": "クリックする",
     "type": "verb",
     "meaning": "click"
   },
   {
     "frequency": 1226,
     "word": "捕らえる",
-    "reading": "",
+    "reading": "とらえる",
     "type": "verb",
     "meaning": "catch, grasp, seize, arrest"
   },
   {
     "frequency": 1227,
     "word": "昨年",
-    "reading": "",
+    "reading": "さくねん",
     "type": "adverb, noun",
     "meaning": "last year"
   },
   {
     "frequency": 1228,
     "word": "減少",
-    "reading": "",
+    "reading": "げんしょう",
     "type": "noun",
     "meaning": "decrease, reduction"
   },
@@ -9534,56 +9534,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1229,
     "word": "洗う",
-    "reading": "",
+    "reading": "あらう",
     "type": "verb",
     "meaning": "wash"
   },
   {
     "frequency": 1230,
     "word": "左",
-    "reading": "",
+    "reading": "ひだり",
     "type": "noun",
     "meaning": "left"
   },
   {
     "frequency": 1231,
     "word": "珍しい",
-    "reading": "",
+    "reading": "めずらしい",
     "type": "i-adjective",
     "meaning": "rare, unusual, unique"
   },
   {
     "frequency": 1232,
     "word": "尋ねる",
-    "reading": "",
+    "reading": "たずねる",
     "type": "verb",
     "meaning": "ask, look for"
   },
   {
     "frequency": 1233,
     "word": "一言",
-    "reading": "",
+    "reading": "ひとこと",
     "type": "noun",
     "meaning": "one word, single word, brief comment"
   },
   {
     "frequency": 1234,
     "word": "男の子",
-    "reading": "",
+    "reading": "おとこのこ",
     "type": "noun",
     "meaning": "boy, male child"
   },
   {
     "frequency": 1235,
     "word": "制度",
-    "reading": "",
+    "reading": "せいど",
     "type": "noun",
     "meaning": "system, institution"
   },
   {
     "frequency": 1236,
     "word": "買い物",
-    "reading": "",
+    "reading": "かいもの",
     "type": "noun",
     "meaning": "shopping"
   },
@@ -9597,14 +9597,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1237,
     "word": "チーム",
-    "reading": "",
+    "reading": "チーム",
     "type": "noun",
     "meaning": "team"
   },
   {
     "frequency": 1238,
     "word": "登場",
-    "reading": "",
+    "reading": "とうじょう",
     "type": "noun",
     "meaning": "entry, appearance"
   },
@@ -9618,98 +9618,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1239,
     "word": "期間",
-    "reading": "",
+    "reading": "きかん",
     "type": "noun",
     "meaning": "period, term, interval"
   },
   {
     "frequency": 1240,
     "word": "金額",
-    "reading": "",
+    "reading": "きんがく",
     "type": "noun",
     "meaning": "amount of money"
   },
   {
     "frequency": 1241,
     "word": "塩",
-    "reading": "",
+    "reading": "しお",
     "type": "noun",
     "meaning": "salt"
   },
   {
     "frequency": 1242,
     "word": "奥",
-    "reading": "",
+    "reading": "おく",
     "type": "noun",
     "meaning": "inner part, back; bottom"
   },
   {
     "frequency": 1243,
     "word": "九",
-    "reading": "",
+    "reading": "きゅう",
     "type": "numeral",
     "meaning": "nine"
   },
   {
     "frequency": 1244,
     "word": "まだまだ",
-    "reading": "",
+    "reading": "まだまだ",
     "type": "adverb",
     "meaning": "still, still more"
   },
   {
     "frequency": 1245,
     "word": "習う",
-    "reading": "",
+    "reading": "ならう",
     "type": "verb",
     "meaning": "take lessons, be taught, learn"
   },
   {
     "frequency": 1246,
     "word": "番組",
-    "reading": "",
+    "reading": "ばんぐみ",
     "type": "noun",
     "meaning": "show, program"
   },
   {
     "frequency": 1247,
     "word": "一時",
-    "reading": "",
+    "reading": "ひととき",
     "type": "adverb, noun",
     "meaning": "at one time, temporary, for a while"
   },
   {
     "frequency": 1248,
     "word": "ケース",
-    "reading": "",
+    "reading": "ケース",
     "type": "noun",
     "meaning": "case"
   },
   {
     "frequency": 1249,
     "word": "傾向",
-    "reading": "",
+    "reading": "けいこう",
     "type": "noun",
     "meaning": "tendency, trend, inclination"
   },
   {
     "frequency": 1250,
     "word": "日々",
-    "reading": "",
+    "reading": "ひび",
     "type": "adverb",
     "meaning": "every day, daily"
   },
   {
     "frequency": 1250,
     "word": "日々",
-    "reading": "",
+    "reading": "ひび",
     "type": "noun",
     "meaning": "days"
   },
   {
     "frequency": 1251,
     "word": "拡大",
-    "reading": "",
+    "reading": "かくだい",
     "type": "noun",
     "meaning": "enlargement, expansion"
   },
@@ -9723,133 +9723,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1252,
     "word": "レベル",
-    "reading": "",
+    "reading": "レベル",
     "type": "noun",
     "meaning": "level"
   },
   {
     "frequency": 1253,
     "word": "よろしく",
-    "reading": "",
+    "reading": "よろしく",
     "type": "adverb",
     "meaning": "well, properly, best regards"
   },
   {
     "frequency": 1254,
     "word": "疑問",
-    "reading": "",
+    "reading": "ぎもん",
     "type": "noun",
     "meaning": "question, problem, doubt"
   },
   {
     "frequency": 1255,
     "word": "それなり",
-    "reading": "",
+    "reading": "それなり",
     "type": "noun",
     "meaning": "in itself, as it is, in its way"
   },
   {
     "frequency": 1256,
     "word": "現状",
-    "reading": "",
+    "reading": "げんじょう",
     "type": "noun",
     "meaning": "present condition, existing state"
   },
   {
     "frequency": 1257,
     "word": "ドイツ",
-    "reading": "",
+    "reading": "ドイツ",
     "type": "noun",
     "meaning": "Germany"
   },
   {
     "frequency": 1258,
     "word": "取り上げる",
-    "reading": "",
+    "reading": "とりあげる",
     "type": "verb",
     "meaning": "pick up, adopt; take away"
   },
   {
     "frequency": 1259,
     "word": "主に",
-    "reading": "",
+    "reading": "おもに",
     "type": "adverb",
     "meaning": "mainly, for the most part, chiefly"
   },
   {
     "frequency": 1260,
     "word": "伯母",
-    "reading": "",
+    "reading": "おば",
     "type": "noun",
     "meaning": "aunt"
   },
   {
     "frequency": 1261,
     "word": "パン",
-    "reading": "",
+    "reading": "パン",
     "type": "noun",
     "meaning": "bread"
   },
   {
     "frequency": 1262,
     "word": "クラス",
-    "reading": "",
+    "reading": "クラス",
     "type": "noun",
     "meaning": "class"
   },
   {
     "frequency": 1263,
     "word": "肉",
-    "reading": "",
+    "reading": "にく",
     "type": "noun",
     "meaning": "meat, flesh, fat"
   },
   {
     "frequency": 1264,
     "word": "なるべく",
-    "reading": "",
+    "reading": "なるべく",
     "type": "adverb",
     "meaning": "as ... as possible, if possible"
   },
   {
     "frequency": 1265,
     "word": "指",
-    "reading": "",
+    "reading": "ゆび",
     "type": "noun",
     "meaning": "finger"
   },
   {
     "frequency": 1266,
     "word": "態度",
-    "reading": "",
+    "reading": "たいど",
     "type": "noun",
     "meaning": "attitude, manner, behavior"
   },
   {
     "frequency": 1267,
     "word": "地",
-    "reading": "",
+    "reading": "ち",
     "type": "noun",
     "meaning": "earth, ground, land, place"
   },
   {
     "frequency": 1268,
     "word": "全国",
-    "reading": "",
+    "reading": "ぜんこく",
     "type": "noun",
     "meaning": "nationwide, whole country, national"
   },
   {
     "frequency": 1269,
     "word": "答え",
-    "reading": "",
+    "reading": "こたえ",
     "type": "noun",
     "meaning": "answer, solution"
   },
   {
     "frequency": 1270,
     "word": "世話",
-    "reading": "",
+    "reading": "せわ",
     "type": "noun",
     "meaning": "care"
   },
@@ -9863,42 +9863,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1271,
     "word": "差",
-    "reading": "",
+    "reading": "さ",
     "type": "noun",
     "meaning": "difference, gap, margin"
   },
   {
     "frequency": 1272,
     "word": "一切",
-    "reading": "",
+    "reading": "いっさい",
     "type": "adverb, noun",
     "meaning": "all, entirely, not ... at all"
   },
   {
     "frequency": 1273,
     "word": "食う",
-    "reading": "",
+    "reading": "くう",
     "type": "verb",
     "meaning": "eat, consume"
   },
   {
     "frequency": 1274,
     "word": "文章",
-    "reading": "",
+    "reading": "ぶんしょう",
     "type": "noun",
     "meaning": "sentence; writing, text"
   },
   {
     "frequency": 1275,
     "word": "背景",
-    "reading": "",
+    "reading": "はいけい",
     "type": "noun",
     "meaning": "background, context, setting"
   },
   {
     "frequency": 1276,
     "word": "負担",
-    "reading": "",
+    "reading": "ふたん",
     "type": "noun",
     "meaning": "burden, load, charge"
   },
@@ -9912,21 +9912,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1277,
     "word": "事情",
-    "reading": "",
+    "reading": "じじょう",
     "type": "noun",
     "meaning": "circumstance, situation, reason"
   },
   {
     "frequency": 1278,
     "word": "メンバー",
-    "reading": "",
+    "reading": "メンバー",
     "type": "noun",
     "meaning": "member, participant"
   },
   {
     "frequency": 1279,
     "word": "ようやく",
-    "reading": "",
+    "reading": "ようやく",
     "type": "adverb",
     "meaning": "at last, gradually, barely"
   },
@@ -9940,91 +9940,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1281,
     "word": "豊か",
-    "reading": "",
+    "reading": "ゆたか",
     "type": "na-adjective",
     "meaning": "abundant, plentiful, rich"
   },
   {
     "frequency": 1282,
     "word": "助ける",
-    "reading": "",
+    "reading": "たすける",
     "type": "verb",
     "meaning": "help, rescue, save"
   },
   {
     "frequency": 1283,
     "word": "詰まる",
-    "reading": "",
+    "reading": "つまる",
     "type": "verb",
     "meaning": "be blocked, be packed, be clogged"
   },
   {
     "frequency": 1284,
     "word": "一個",
-    "reading": "",
+    "reading": "いっこ",
     "type": "noun",
     "meaning": "one, piece"
   },
   {
     "frequency": 1285,
     "word": "大阪",
-    "reading": "",
+    "reading": "おおさか",
     "type": "noun",
     "meaning": "Osaka"
   },
   {
     "frequency": 1286,
     "word": "果たす",
-    "reading": "",
+    "reading": "はたす",
     "type": "verb",
     "meaning": "carry out, achieve, fulfil"
   },
   {
     "frequency": 1287,
     "word": "支える",
-    "reading": "",
+    "reading": "ささえる",
     "type": "verb",
     "meaning": "support, hold, sustain"
   },
   {
     "frequency": 1288,
     "word": "抱える",
-    "reading": "",
+    "reading": "かかえる",
     "type": "verb",
     "meaning": "hold, carry, employ"
   },
   {
     "frequency": 1289,
     "word": "大分",
-    "reading": "",
+    "reading": "だいぶ",
     "type": "adverb",
     "meaning": "very, a lot, much"
   },
   {
     "frequency": 1290,
     "word": "追う",
-    "reading": "",
+    "reading": "おう",
     "type": "verb",
     "meaning": "follow, chase, pursue"
   },
   {
     "frequency": 1291,
     "word": "権利",
-    "reading": "",
+    "reading": "けんり",
     "type": "noun",
     "meaning": "right, claim, entitlement"
   },
   {
     "frequency": 1292,
     "word": "何々",
-    "reading": "",
+    "reading": "なになに",
     "type": "pronoun",
     "meaning": "such and such, this and that"
   },
   {
     "frequency": 1293,
     "word": "計算",
-    "reading": "",
+    "reading": "けいさん",
     "type": "noun",
     "meaning": "calculation"
   },
@@ -10038,28 +10038,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1294,
     "word": "痛み",
-    "reading": "",
+    "reading": "いたみ",
     "type": "noun",
     "meaning": "pain, ache"
   },
   {
     "frequency": 1295,
     "word": "返す",
-    "reading": "",
+    "reading": "かえす",
     "type": "verb",
     "meaning": "return; repay; turn over"
   },
   {
     "frequency": 1296,
     "word": "庭",
-    "reading": "",
+    "reading": "にわ",
     "type": "noun",
     "meaning": "garden, yard"
   },
   {
     "frequency": 1297,
     "word": "納得",
-    "reading": "",
+    "reading": "なっとく",
     "type": "noun",
     "meaning": "agreement"
   },
@@ -10073,7 +10073,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1298,
     "word": "組織",
-    "reading": "",
+    "reading": "そしき",
     "type": "noun",
     "meaning": "organization, structure"
   },
@@ -10087,42 +10087,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1299,
     "word": "能力",
-    "reading": "",
+    "reading": "のうりょく",
     "type": "noun",
     "meaning": "ability, capacity, power; proficiency"
   },
   {
     "frequency": 1300,
     "word": "人口",
-    "reading": "",
+    "reading": "じんこう",
     "type": "noun",
     "meaning": "population"
   },
   {
     "frequency": 1301,
     "word": "薄い",
-    "reading": "",
+    "reading": "うすい",
     "type": "i-adjective",
     "meaning": "thin, light, weak"
   },
   {
     "frequency": 1302,
     "word": "注",
-    "reading": "",
+    "reading": "ちゅう",
     "type": "noun",
     "meaning": "note, annotation, comment"
   },
   {
     "frequency": 1303,
     "word": "二回",
-    "reading": "",
+    "reading": "にかい",
     "type": "noun",
     "meaning": "twice"
   },
   {
     "frequency": 1304,
     "word": "治療",
-    "reading": "",
+    "reading": "ちりょう",
     "type": "noun",
     "meaning": "cure, treatment, therapy"
   },
@@ -10136,7 +10136,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1305,
     "word": "昼",
-    "reading": "",
+    "reading": "ひる",
     "type": "noun",
     "meaning": "noon; daytime"
   },
@@ -10150,140 +10150,140 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1307,
     "word": "せっかく",
-    "reading": "",
+    "reading": "せっかく",
     "type": "adverb",
     "meaning": "with effort, take the trouble to"
   },
   {
     "frequency": 1308,
     "word": "赤い",
-    "reading": "",
+    "reading": "あかい",
     "type": "i-adjective",
     "meaning": "red"
   },
   {
     "frequency": 1309,
     "word": "比較的",
-    "reading": "",
+    "reading": "ひかくてき",
     "type": "na-adjective",
     "meaning": "comparative, relative"
   },
   {
     "frequency": 1310,
     "word": "サービス",
-    "reading": "",
+    "reading": "サービス",
     "type": "noun",
     "meaning": "service"
   },
   {
     "frequency": 1310,
     "word": "サービスする",
-    "reading": "",
+    "reading": "サービスする",
     "type": "verb",
     "meaning": "attend, serve"
   },
   {
     "frequency": 1311,
     "word": "何人",
-    "reading": "",
+    "reading": "なんにん",
     "type": "noun",
     "meaning": "how many people"
   },
   {
     "frequency": 1312,
     "word": "荷物",
-    "reading": "",
+    "reading": "にもつ",
     "type": "noun",
     "meaning": "baggage, parcel, burden"
   },
   {
     "frequency": 1313,
     "word": "魅力",
-    "reading": "",
+    "reading": "みりょく",
     "type": "noun",
     "meaning": "charm, attraction, appeal"
   },
   {
     "frequency": 1314,
     "word": "現場",
-    "reading": "",
+    "reading": "げんば",
     "type": "noun",
     "meaning": "field, scene, spot"
   },
   {
     "frequency": 1315,
     "word": "道具",
-    "reading": "",
+    "reading": "どうぐ",
     "type": "noun",
     "meaning": "tool, instrument"
   },
   {
     "frequency": 1316,
     "word": "遠く",
-    "reading": "",
+    "reading": "とおく",
     "type": "adverb",
     "meaning": "far, remote"
   },
   {
     "frequency": 1316,
     "word": "遠く",
-    "reading": "",
+    "reading": "とおく",
     "type": "noun",
     "meaning": "distance"
   },
   {
     "frequency": 1317,
     "word": "中学",
-    "reading": "",
+    "reading": "ちゅうがく",
     "type": "noun",
     "meaning": "junior high school"
   },
   {
     "frequency": 1318,
     "word": "村",
-    "reading": "",
+    "reading": "むら",
     "type": "noun",
     "meaning": "village"
   },
   {
     "frequency": 1319,
     "word": "システム",
-    "reading": "",
+    "reading": "システム",
     "type": "noun",
     "meaning": "system"
   },
   {
     "frequency": 1320,
     "word": "あそこ",
-    "reading": "",
+    "reading": "あそこ",
     "type": "pronoun",
     "meaning": "there, over there"
   },
   {
     "frequency": 1321,
     "word": "十時",
-    "reading": "",
+    "reading": "じゅうじ",
     "type": "noun",
     "meaning": "ten o’clock"
   },
   {
     "frequency": 1322,
     "word": "息",
-    "reading": "",
+    "reading": "いき",
     "type": "noun",
     "meaning": "breath, respiration"
   },
   {
     "frequency": 1323,
     "word": "伝わる",
-    "reading": "",
+    "reading": "つたわる",
     "type": "verb",
     "meaning": "spread, descend, travel"
   },
   {
     "frequency": 1324,
     "word": "撮影",
-    "reading": "",
+    "reading": "さつえい",
     "type": "noun",
     "meaning": "shooting"
   },
@@ -10297,7 +10297,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1325,
     "word": "指導",
-    "reading": "",
+    "reading": "しどう",
     "type": "noun",
     "meaning": "guidance"
   },
@@ -10311,14 +10311,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1326,
     "word": "生かす",
-    "reading": "",
+    "reading": "いかす",
     "type": "verb",
     "meaning": "keep alive; make use of"
   },
   {
     "frequency": 1327,
     "word": "韓国",
-    "reading": "",
+    "reading": "かんこく",
     "type": "noun",
     "meaning": "Korea, South Korea, Republic of Korea"
   },
@@ -10332,7 +10332,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1329,
     "word": "指定",
-    "reading": "",
+    "reading": "してい",
     "type": "noun",
     "meaning": "appointment"
   },
@@ -10346,7 +10346,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1330,
     "word": "経営",
-    "reading": "",
+    "reading": "けいえい",
     "type": "noun",
     "meaning": "management"
   },
@@ -10360,28 +10360,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1331,
     "word": "あらゆる",
-    "reading": "",
+    "reading": "あらゆる",
     "type": "adnominal",
     "meaning": "every, all, any"
   },
   {
     "frequency": 1332,
     "word": "価値",
-    "reading": "",
+    "reading": "かち",
     "type": "noun",
     "meaning": "value, worth"
   },
   {
     "frequency": 1333,
     "word": "南",
-    "reading": "",
+    "reading": "みなみ",
     "type": "noun",
     "meaning": "south"
   },
   {
     "frequency": 1334,
     "word": "成立",
-    "reading": "",
+    "reading": "せいりつ",
     "type": "noun",
     "meaning": "completion"
   },
@@ -10395,14 +10395,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1335,
     "word": "季節",
-    "reading": "",
+    "reading": "きせつ",
     "type": "noun",
     "meaning": "season"
   },
   {
     "frequency": 1336,
     "word": "導入",
-    "reading": "",
+    "reading": "どうにゅう",
     "type": "noun",
     "meaning": "introduction"
   },
@@ -10416,77 +10416,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1337,
     "word": "ことにする",
-    "reading": "",
+    "reading": "ことにする",
     "type": "auxiliary",
     "meaning": "decide to, pretend to"
   },
   {
     "frequency": 1338,
     "word": "一枚",
-    "reading": "",
+    "reading": "いちまい",
     "type": "noun",
     "meaning": "one (sheet, slice)"
   },
   {
     "frequency": 1339,
     "word": "い",
-    "reading": "",
+    "reading": "い",
     "type": "discourse particle",
     "meaning": "QUESTION"
   },
   {
     "frequency": 1340,
     "word": "先輩",
-    "reading": "",
+    "reading": "せんぱい",
     "type": "noun",
     "meaning": "senior, elder"
   },
   {
     "frequency": 1341,
     "word": "全員",
-    "reading": "",
+    "reading": "ぜんいん",
     "type": "adverb, noun",
     "meaning": "all members, everyone"
   },
   {
     "frequency": 1342,
     "word": "にしても",
-    "reading": "",
+    "reading": "にしても",
     "type": "compound",
     "meaning": "even if, even though"
   },
   {
     "frequency": 1343,
     "word": "四人",
-    "reading": "",
+    "reading": "よにん",
     "type": "noun",
     "meaning": "four people"
   },
   {
     "frequency": 1344,
     "word": "人物",
-    "reading": "",
+    "reading": "じんぶつ",
     "type": "noun",
     "meaning": "person, character"
   },
   {
     "frequency": 1345,
     "word": "距離",
-    "reading": "",
+    "reading": "きょり",
     "type": "noun",
     "meaning": "distance"
   },
   {
     "frequency": 1346,
     "word": "泊まる",
-    "reading": "",
+    "reading": "とまる",
     "type": "verb",
     "meaning": "stay"
   },
   {
     "frequency": 1347,
     "word": "充実",
-    "reading": "",
+    "reading": "じゅうじつ",
     "type": "noun",
     "meaning": "fullness"
   },
@@ -10500,70 +10500,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1348,
     "word": "によると",
-    "reading": "",
+    "reading": "によると",
     "type": "compound",
     "meaning": "according to"
   },
   {
     "frequency": 1349,
     "word": "コミュニケーション",
-    "reading": "",
+    "reading": "コミュニケーション",
     "type": "noun",
     "meaning": "communication"
   },
   {
     "frequency": 1349,
     "word": "コミュニケーションする",
-    "reading": "",
+    "reading": "コミュニケーションする",
     "type": "verb",
     "meaning": "communicate"
   },
   {
     "frequency": 1350,
     "word": "散歩",
-    "reading": "",
+    "reading": "さんぽ",
     "type": "noun, verb",
     "meaning": "walk, stroll"
   },
   {
     "frequency": 1351,
     "word": "グループ",
-    "reading": "",
+    "reading": "グループ",
     "type": "noun",
     "meaning": "group, team"
   },
   {
     "frequency": 1352,
     "word": "黒い",
-    "reading": "",
+    "reading": "くろい",
     "type": "i-adjective",
     "meaning": "black"
   },
   {
     "frequency": 1353,
     "word": "九時",
-    "reading": "",
+    "reading": "くじ",
     "type": "noun",
     "meaning": "nine o’clock"
   },
   {
     "frequency": 1354,
     "word": "石",
-    "reading": "",
+    "reading": "いし",
     "type": "noun",
     "meaning": "stone, rock"
   },
   {
     "frequency": 1355,
     "word": "エネルギー",
-    "reading": "",
+    "reading": "エネルギー",
     "type": "noun",
     "meaning": "energy, power"
   },
   {
     "frequency": 1356,
     "word": "挨拶",
-    "reading": "",
+    "reading": "あいさつ",
     "type": "noun",
     "meaning": "greeting"
   },
@@ -10577,14 +10577,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1357,
     "word": "愛",
-    "reading": "",
+    "reading": "あい",
     "type": "noun",
     "meaning": "love, affection"
   },
   {
     "frequency": 1358,
     "word": "比較",
-    "reading": "",
+    "reading": "ひかく",
     "type": "noun",
     "meaning": "comparison"
   },
@@ -10598,35 +10598,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1359,
     "word": "結ぶ",
-    "reading": "",
+    "reading": "むすぶ",
     "type": "verb",
     "meaning": "tie, connect, unite"
   },
   {
     "frequency": 1360,
     "word": "移る",
-    "reading": "",
+    "reading": "うつる",
     "type": "verb",
     "meaning": "move, transfer, shift"
   },
   {
     "frequency": 1361,
     "word": "従来",
-    "reading": "",
+    "reading": "じゅうらい",
     "type": "adverb, noun",
     "meaning": "up to now, conventional, traditional"
   },
   {
     "frequency": 1362,
     "word": "嫌い",
-    "reading": "",
+    "reading": "きらい",
     "type": "na-adjective",
     "meaning": "dislike, hate"
   },
   {
     "frequency": 1363,
     "word": "注目",
-    "reading": "",
+    "reading": "ちゅうもく",
     "type": "noun",
     "meaning": "attention"
   },
@@ -10640,7 +10640,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1364,
     "word": "携帯",
-    "reading": "",
+    "reading": "けいたい",
     "type": "noun",
     "meaning": "portable"
   },
@@ -10654,63 +10654,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1365,
     "word": "休む",
-    "reading": "",
+    "reading": "やすむ",
     "type": "verb",
     "meaning": "take a rest, be absent from"
   },
   {
     "frequency": 1366,
     "word": "甘い",
-    "reading": "",
+    "reading": "あまい",
     "type": "i-adjective",
     "meaning": "sweet; soft"
   },
   {
     "frequency": 1367,
     "word": "最高",
-    "reading": "",
+    "reading": "さいこう",
     "type": "noun, na-adjective",
     "meaning": "best, highest"
   },
   {
     "frequency": 1368,
     "word": "弟",
-    "reading": "",
+    "reading": "おとうと",
     "type": "noun",
     "meaning": "younger brother"
   },
   {
     "frequency": 1369,
     "word": "卵",
-    "reading": "",
+    "reading": "たまご",
     "type": "noun",
     "meaning": "egg, spawn"
   },
   {
     "frequency": 1370,
     "word": "服",
-    "reading": "",
+    "reading": "ふく",
     "type": "noun",
     "meaning": "clothes, dress, outfit"
   },
   {
     "frequency": 1371,
     "word": "赤ちゃん",
-    "reading": "",
+    "reading": "あかちゃん",
     "type": "noun",
     "meaning": "baby, infant"
   },
   {
     "frequency": 1372,
     "word": "始め",
-    "reading": "",
+    "reading": "はじめ",
     "type": "adverb, noun",
     "meaning": "beginning, origin"
   },
   {
     "frequency": 1373,
     "word": "要求",
-    "reading": "",
+    "reading": "ようきゅう",
     "type": "noun",
     "meaning": "demand, request, claim"
   },
@@ -10724,14 +10724,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1374,
     "word": "紙",
-    "reading": "",
+    "reading": "かみ",
     "type": "noun",
     "meaning": "paper"
   },
   {
     "frequency": 1375,
     "word": "妹",
-    "reading": "",
+    "reading": "いもうと",
     "type": "noun",
     "meaning": "younger sister"
   },
@@ -10745,56 +10745,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1377,
     "word": "交ぜる",
-    "reading": "",
+    "reading": "まぜる",
     "type": "verb",
     "meaning": "mix, shuffle"
   },
   {
     "frequency": 1378,
     "word": "抱く",
-    "reading": "",
+    "reading": "いだく",
     "type": "verb",
     "meaning": "have, hold, embrace"
   },
   {
     "frequency": 1379,
     "word": "出来上がる",
-    "reading": "",
+    "reading": "できあがる",
     "type": "verb",
     "meaning": "be completed, be finished, be ready"
   },
   {
     "frequency": 1380,
     "word": "小説",
-    "reading": "",
+    "reading": "しょうせつ",
     "type": "noun",
     "meaning": "novel, fiction, story"
   },
   {
     "frequency": 1381,
     "word": "訪れる",
-    "reading": "",
+    "reading": "おとずれる",
     "type": "verb",
     "meaning": "visit, call on, arrive"
   },
   {
     "frequency": 1382,
     "word": "汗",
-    "reading": "",
+    "reading": "あせ",
     "type": "noun",
     "meaning": "sweat, perspiration"
   },
   {
     "frequency": 1383,
     "word": "特別",
-    "reading": "",
+    "reading": "とくべつ",
     "type": "na-adjective",
     "meaning": "special, particular"
   },
   {
     "frequency": 1384,
     "word": "改善",
-    "reading": "",
+    "reading": "かいぜん",
     "type": "noun",
     "meaning": "improvement, reform"
   },
@@ -10808,63 +10808,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1385,
     "word": "休み",
-    "reading": "",
+    "reading": "やすみ",
     "type": "noun",
     "meaning": "holiday; rest; be closed"
   },
   {
     "frequency": 1386,
     "word": "咲く",
-    "reading": "",
+    "reading": "さく",
     "type": "verb",
     "meaning": "bloom"
   },
   {
     "frequency": 1387,
     "word": "基本",
-    "reading": "",
+    "reading": "きほん",
     "type": "noun",
     "meaning": "foundation, basis, basic"
   },
   {
     "frequency": 1388,
     "word": "暑い",
-    "reading": "",
+    "reading": "あつい",
     "type": "i-adjective",
     "meaning": "hot, warm"
   },
   {
     "frequency": 1389,
     "word": "向く",
-    "reading": "",
+    "reading": "むく",
     "type": "verb",
     "meaning": "turn, face, look"
   },
   {
     "frequency": 1390,
     "word": "ますます",
-    "reading": "",
+    "reading": "ますます",
     "type": "adverb",
     "meaning": "more and more, increasingly"
   },
   {
     "frequency": 1391,
     "word": "最終的",
-    "reading": "",
+    "reading": "さいしゅうてき",
     "type": "na-adjective",
     "meaning": "final, last, ultimate"
   },
   {
     "frequency": 1392,
     "word": "感情",
-    "reading": "",
+    "reading": "かんじょう",
     "type": "noun",
     "meaning": "feeling, emotion"
   },
   {
     "frequency": 1393,
     "word": "我慢",
-    "reading": "",
+    "reading": "がまん",
     "type": "noun",
     "meaning": "patience, endurance, tolerance"
   },
@@ -10878,70 +10878,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1394,
     "word": "浮かぶ",
-    "reading": "",
+    "reading": "うかぶ",
     "type": "verb",
     "meaning": "float, rise"
   },
   {
     "frequency": 1395,
     "word": "利益",
-    "reading": "",
+    "reading": "りえき",
     "type": "noun",
     "meaning": "profit, benefit, gain"
   },
   {
     "frequency": 1396,
     "word": "先日",
-    "reading": "",
+    "reading": "せんじつ",
     "type": "adverb, noun",
     "meaning": "the other day, recently"
   },
   {
     "frequency": 1397,
     "word": "裏",
-    "reading": "",
+    "reading": "うち",
     "type": "noun",
     "meaning": "reverse, back; rear"
   },
   {
     "frequency": 1398,
     "word": "もたらす",
-    "reading": "",
+    "reading": "もたらす",
     "type": "verb",
     "meaning": "bring, cause,"
   },
   {
     "frequency": 1399,
     "word": "姉",
-    "reading": "",
+    "reading": "あね",
     "type": "noun",
     "meaning": "elder sister"
   },
   {
     "frequency": 1400,
     "word": "問う",
-    "reading": "",
+    "reading": "とう",
     "type": "verb",
     "meaning": "ask, question; charge"
   },
   {
     "frequency": 1401,
     "word": "継ぐ",
-    "reading": "",
+    "reading": "つぐ",
     "type": "verb",
     "meaning": "succeed, take over"
   },
   {
     "frequency": 1402,
     "word": "北海道",
-    "reading": "",
+    "reading": "ほっかいどう",
     "type": "noun",
     "meaning": "Hokkaido"
   },
   {
     "frequency": 1403,
     "word": "構成",
-    "reading": "",
+    "reading": "こうせい",
     "type": "noun",
     "meaning": "constitution, structure"
   },
@@ -10955,7 +10955,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1404,
     "word": "反応",
-    "reading": "",
+    "reading": "はんのう",
     "type": "noun",
     "meaning": "reaction, response"
   },
@@ -10969,7 +10969,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1405,
     "word": "ナイフ",
-    "reading": "",
+    "reading": "ナイフ",
     "type": "noun",
     "meaning": "knife"
   },
@@ -10990,7 +10990,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1408,
     "word": "活用",
-    "reading": "",
+    "reading": "かつよう",
     "type": "noun",
     "meaning": "application"
   },
@@ -11004,70 +11004,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1409,
     "word": "正直",
-    "reading": "",
+    "reading": "しょうじき",
     "type": "noun",
     "meaning": "honesty"
   },
   {
     "frequency": 1409,
     "word": "正直",
-    "reading": "",
+    "reading": "しょうじき",
     "type": "na-adjective",
     "meaning": "honest, truthful"
   },
   {
     "frequency": 1409,
     "word": "正直",
-    "reading": "",
+    "reading": "しょうじき",
     "type": "adverb",
     "meaning": "honestly"
   },
   {
     "frequency": 1410,
     "word": "黒",
-    "reading": "",
+    "reading": "くろ",
     "type": "noun",
     "meaning": "black"
   },
   {
     "frequency": 1411,
     "word": "スーパー",
-    "reading": "",
+    "reading": "スーパー",
     "type": "noun",
     "meaning": "supermarket"
   },
   {
     "frequency": 1412,
     "word": "プロ",
-    "reading": "",
+    "reading": "プロ",
     "type": "noun",
     "meaning": "professional, pro"
   },
   {
     "frequency": 1413,
     "word": "渡す",
-    "reading": "",
+    "reading": "わたす",
     "type": "verb",
     "meaning": "carry across, hand, transfer"
   },
   {
     "frequency": 1414,
     "word": "掲げる",
-    "reading": "",
+    "reading": "かかげる",
     "type": "verb",
     "meaning": "hang out, hold up"
   },
   {
     "frequency": 1415,
     "word": "京都",
-    "reading": "",
+    "reading": "きょうと",
     "type": "noun",
     "meaning": "Kyoto"
   },
   {
     "frequency": 1416,
     "word": "就職",
-    "reading": "",
+    "reading": "しゅうしょく",
     "type": "noun",
     "meaning": "job hunting"
   },
@@ -11081,35 +11081,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1417,
     "word": "立派",
-    "reading": "",
+    "reading": "りっぱ",
     "type": "na-adjective",
     "meaning": "fine, splendid, great"
   },
   {
     "frequency": 1418,
     "word": "舞台",
-    "reading": "",
+    "reading": "ぶたい",
     "type": "noun",
     "meaning": "stage, scene"
   },
   {
     "frequency": 1419,
     "word": "現地",
-    "reading": "",
+    "reading": "げんち",
     "type": "noun",
     "meaning": "field, on-site, local"
   },
   {
     "frequency": 1420,
     "word": "数字",
-    "reading": "",
+    "reading": "すうじ",
     "type": "noun",
     "meaning": "number, figure"
   },
   {
     "frequency": 1421,
     "word": "提出",
-    "reading": "",
+    "reading": "ていしゅつ",
     "type": "noun",
     "meaning": "submission"
   },
@@ -11123,21 +11123,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1422,
     "word": "コンピュータ",
-    "reading": "",
+    "reading": "コンピュータ",
     "type": "noun",
     "meaning": "computer"
   },
   {
     "frequency": 1423,
     "word": "東京都",
-    "reading": "",
+    "reading": "とうきょうと",
     "type": "noun",
     "meaning": "Tokyo, Tokyo metropolitan government, Tokyo metropolitan area"
   },
   {
     "frequency": 1424,
     "word": "から",
-    "reading": "",
+    "reading": "から",
     "type": "conjunction",
     "meaning": "because"
   },
@@ -11151,21 +11151,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1426,
     "word": "自宅",
-    "reading": "",
+    "reading": "じたく",
     "type": "noun",
     "meaning": "home, house"
   },
   {
     "frequency": 1427,
     "word": "腹",
-    "reading": "",
+    "reading": "はら",
     "type": "noun",
     "meaning": "belly, stomach"
   },
   {
     "frequency": 1428,
     "word": "喜び",
-    "reading": "",
+    "reading": "よろこび",
     "type": "noun",
     "meaning": "pleasure, delight"
   },
@@ -11179,98 +11179,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1430,
     "word": "風呂",
-    "reading": "",
+    "reading": "ふろ",
     "type": "noun",
     "meaning": "bath"
   },
   {
     "frequency": 1431,
     "word": "香り",
-    "reading": "",
+    "reading": "かおり",
     "type": "noun",
     "meaning": "smell, scent"
   },
   {
     "frequency": 1432,
     "word": "スキー",
-    "reading": "",
+    "reading": "スキー",
     "type": "noun",
     "meaning": "ski; skiing"
   },
   {
     "frequency": 1433,
     "word": "構う",
-    "reading": "",
+    "reading": "かまう",
     "type": "verb",
     "meaning": "mind, care about"
   },
   {
     "frequency": 1434,
     "word": "受け入れる",
-    "reading": "",
+    "reading": "うけいれる",
     "type": "verb",
     "meaning": "receive, accept, agree"
   },
   {
     "frequency": 1435,
     "word": "お菓子",
-    "reading": "",
+    "reading": "おかし",
     "type": "noun",
     "meaning": "sweets, snack food"
   },
   {
     "frequency": 1436,
     "word": "無料",
-    "reading": "",
+    "reading": "むりょう",
     "type": "noun",
     "meaning": "free, no charge"
   },
   {
     "frequency": 1437,
     "word": "付き合い",
-    "reading": "",
+    "reading": "つきあい",
     "type": "noun",
     "meaning": "association, acquaintance"
   },
   {
     "frequency": 1438,
     "word": "私共",
-    "reading": "",
+    "reading": "わたくしども",
     "type": "pronoun",
     "meaning": "we"
   },
   {
     "frequency": 1439,
     "word": "被害",
-    "reading": "",
+    "reading": "ひがい",
     "type": "noun",
     "meaning": "damage, harm"
   },
   {
     "frequency": 1440,
     "word": "椅子",
-    "reading": "",
+    "reading": "いす",
     "type": "noun",
     "meaning": "chair"
   },
   {
     "frequency": 1441,
     "word": "直す",
-    "reading": "",
+    "reading": "なおす",
     "type": "verb",
     "meaning": "fix, repair, mend"
   },
   {
     "frequency": 1442,
     "word": "桜",
-    "reading": "",
+    "reading": "さくら",
     "type": "noun",
     "meaning": "cherry tree; cherry blossom"
   },
   {
     "frequency": 1443,
     "word": "回答",
-    "reading": "",
+    "reading": "かいとう",
     "type": "noun",
     "meaning": "answer, response, reply"
   },
@@ -11284,28 +11284,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1444,
     "word": "ゲーム",
-    "reading": "",
+    "reading": "ゲーム",
     "type": "noun",
     "meaning": "game"
   },
   {
     "frequency": 1445,
     "word": "ことはない",
-    "reading": "",
+    "reading": "ことはない",
     "type": "auxiliary",
     "meaning": "not have to, there is no need for"
   },
   {
     "frequency": 1446,
     "word": "個人的",
-    "reading": "",
+    "reading": "こじんてき",
     "type": "na-adjective",
     "meaning": "private, personal, individual"
   },
   {
     "frequency": 1447,
     "word": "活躍",
-    "reading": "",
+    "reading": "かつやく",
     "type": "noun",
     "meaning": "activity, action"
   },
@@ -11319,7 +11319,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1448,
     "word": "試験",
-    "reading": "",
+    "reading": "しけん",
     "type": "noun",
     "meaning": "exam, test, trial"
   },
@@ -11333,21 +11333,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1449,
     "word": "身近",
-    "reading": "",
+    "reading": "みぢか",
     "type": "na-adjective",
     "meaning": "familiar, close"
   },
   {
     "frequency": 1450,
     "word": "苦しい",
-    "reading": "",
+    "reading": "くるしい",
     "type": "i-adjective",
     "meaning": "painful, hard, difficult"
   },
   {
     "frequency": 1451,
     "word": "恥ずかしい",
-    "reading": "",
+    "reading": "はずかしい",
     "type": "i-adjective",
     "meaning": "ashamed, embarrassed"
   },
@@ -11361,14 +11361,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1453,
     "word": "ただ",
-    "reading": "",
+    "reading": "ただ",
     "type": "noun",
     "meaning": "just, mere, only"
   },
   {
     "frequency": 1454,
     "word": "検査",
-    "reading": "",
+    "reading": "けんさ",
     "type": "noun",
     "meaning": "inspection"
   },
@@ -11389,21 +11389,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1456,
     "word": "白",
-    "reading": "",
+    "reading": "しろ",
     "type": "noun",
     "meaning": "white; innocence"
   },
   {
     "frequency": 1457,
     "word": "足りる",
-    "reading": "",
+    "reading": "たりる",
     "type": "verb",
     "meaning": "be sufficient, be enough, be worthy"
   },
   {
     "frequency": 1458,
     "word": "代表",
-    "reading": "",
+    "reading": "だいひょう",
     "type": "noun",
     "meaning": "representative"
   },
@@ -11417,21 +11417,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1459,
     "word": "夕方",
-    "reading": "",
+    "reading": "ゆうがた",
     "type": "adverb, noun",
     "meaning": "evening"
   },
   {
     "frequency": 1460,
     "word": "下がる",
-    "reading": "",
+    "reading": "さがる",
     "type": "verb",
     "meaning": "fall, drop, step back"
   },
   {
     "frequency": 1461,
     "word": "実感",
-    "reading": "",
+    "reading": "じっかん",
     "type": "noun",
     "meaning": "real feeling"
   },
@@ -11445,21 +11445,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1462,
     "word": "有する",
-    "reading": "",
+    "reading": "ゆうする",
     "type": "verb",
     "meaning": "have"
   },
   {
     "frequency": 1463,
     "word": "抜く",
-    "reading": "",
+    "reading": "ぬく",
     "type": "verb",
     "meaning": "pull, extract"
   },
   {
     "frequency": 1464,
     "word": "回す",
-    "reading": "",
+    "reading": "まわす",
     "type": "verb",
     "meaning": "turn, rotate, spin"
   },
@@ -11480,105 +11480,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1467,
     "word": "分かれる",
-    "reading": "",
+    "reading": "わかれる",
     "type": "verb",
     "meaning": "divide, split, part"
   },
   {
     "frequency": 1468,
     "word": "見つめる",
-    "reading": "",
+    "reading": "みつめる",
     "type": "verb",
     "meaning": "stare, gaze"
   },
   {
     "frequency": 1469,
     "word": "祭り",
-    "reading": "",
+    "reading": "まつり",
     "type": "noun",
     "meaning": "festival"
   },
   {
     "frequency": 1470,
     "word": "抜ける",
-    "reading": "",
+    "reading": "ぬける",
     "type": "verb",
     "meaning": "fall out; come loose; be omitted; leave"
   },
   {
     "frequency": 1471,
     "word": "仕様",
-    "reading": "",
+    "reading": "しよう",
     "type": "noun",
     "meaning": "style, specification, method"
   },
   {
     "frequency": 1472,
     "word": "最大",
-    "reading": "",
+    "reading": "さいだい",
     "type": "noun",
     "meaning": "biggest, largest"
   },
   {
     "frequency": 1473,
     "word": "スタート",
-    "reading": "",
+    "reading": "スタート",
     "type": "noun",
     "meaning": "start"
   },
   {
     "frequency": 1473,
     "word": "スタートする",
-    "reading": "",
+    "reading": "スタートする",
     "type": "verb",
     "meaning": "get off, start"
   },
   {
     "frequency": 1474,
     "word": "なり",
-    "reading": "",
+    "reading": "なり",
     "type": "particle",
     "meaning": "or, whether or not"
   },
   {
     "frequency": 1475,
     "word": "沖縄",
-    "reading": "",
+    "reading": "おきなわ",
     "type": "noun",
     "meaning": "Okinawa"
   },
   {
     "frequency": 1476,
     "word": "設ける",
-    "reading": "",
+    "reading": "もうける",
     "type": "verb",
     "meaning": "institute, set up"
   },
   {
     "frequency": 1477,
     "word": "でもって",
-    "reading": "",
+    "reading": "でもって",
     "type": "compound",
     "meaning": "by, with, in"
   },
   {
     "frequency": 1478,
     "word": "幼稚園",
-    "reading": "",
+    "reading": "ようちえん",
     "type": "noun",
     "meaning": "preschool, kindergarten"
   },
   {
     "frequency": 1479,
     "word": "二度",
-    "reading": "",
+    "reading": "ふたたび",
     "type": "noun",
     "meaning": "twice"
   },
   {
     "frequency": 1480,
     "word": "処理",
-    "reading": "",
+    "reading": "しょり",
     "type": "noun",
     "meaning": "management, processing"
   },
@@ -11592,63 +11592,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1481,
     "word": "困難",
-    "reading": "",
+    "reading": "こんなん",
     "type": "noun",
     "meaning": "difficulty"
   },
   {
     "frequency": 1481,
     "word": "困難",
-    "reading": "",
+    "reading": "こんなん",
     "type": "na-adjective",
     "meaning": "difficult"
   },
   {
     "frequency": 1482,
     "word": "あくまで",
-    "reading": "",
+    "reading": "あくまで",
     "type": "adverb",
     "meaning": "only, to the last"
   },
   {
     "frequency": 1483,
     "word": "分野",
-    "reading": "",
+    "reading": "ぶんや",
     "type": "noun",
     "meaning": "field, discipline"
   },
   {
     "frequency": 1484,
     "word": "間違う",
-    "reading": "",
+    "reading": "まちがう",
     "type": "verb",
     "meaning": "be wrong, make a mistake"
   },
   {
     "frequency": 1485,
     "word": "姿勢",
-    "reading": "",
+    "reading": "しせい",
     "type": "noun",
     "meaning": "posture, attitude"
   },
   {
     "frequency": 1486,
     "word": "ショック",
-    "reading": "",
+    "reading": "ショック",
     "type": "noun",
     "meaning": "shock"
   },
   {
     "frequency": 1487,
     "word": "暇",
-    "reading": "",
+    "reading": "ひま",
     "type": "na-adjective, noun",
     "meaning": "free, not busy"
   },
   {
     "frequency": 1488,
     "word": "つい",
-    "reading": "",
+    "reading": "つい",
     "type": "adverb",
     "meaning": "without thinking, unintentionally"
   },
@@ -11662,14 +11662,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1490,
     "word": "隠す",
-    "reading": "",
+    "reading": "かくす",
     "type": "verb",
     "meaning": "hide, conceal"
   },
   {
     "frequency": 1491,
     "word": "緊張",
-    "reading": "",
+    "reading": "きんちょう",
     "type": "noun",
     "meaning": "tension"
   },
@@ -11683,161 +11683,161 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1492,
     "word": "それとも",
-    "reading": "",
+    "reading": "それとも",
     "type": "conjunction",
     "meaning": "or"
   },
   {
     "frequency": 1493,
     "word": "帰り",
-    "reading": "",
+    "reading": "かえり",
     "type": "noun",
     "meaning": "return"
   },
   {
     "frequency": 1494,
     "word": "三日",
-    "reading": "",
+    "reading": "みっか",
     "type": "noun",
     "meaning": "third (date); three days"
   },
   {
     "frequency": 1495,
     "word": "戦う",
-    "reading": "",
+    "reading": "たたかう",
     "type": "verb",
     "meaning": "fight"
   },
   {
     "frequency": 1496,
     "word": "単に",
-    "reading": "",
+    "reading": "たんに",
     "type": "adverb",
     "meaning": "just, simply"
   },
   {
     "frequency": 1497,
     "word": "席",
-    "reading": "",
+    "reading": "せき",
     "type": "noun",
     "meaning": "seat"
   },
   {
     "frequency": 1498,
     "word": "つる",
-    "reading": "",
+    "reading": "つる",
     "type": "verb",
     "meaning": "hang"
   },
   {
     "frequency": 1499,
     "word": "達する",
-    "reading": "",
+    "reading": "たっする",
     "type": "verb",
     "meaning": "reach"
   },
   {
     "frequency": 1500,
     "word": "小学生",
-    "reading": "",
+    "reading": "しょうがくせい",
     "type": "noun",
     "meaning": "elementary school pupil, primary school pupil"
   },
   {
     "frequency": 1501,
     "word": "ついに",
-    "reading": "",
+    "reading": "ついに",
     "type": "adverb",
     "meaning": "at last, finally"
   },
   {
     "frequency": 1502,
     "word": "具合",
-    "reading": "",
+    "reading": "ぐあい",
     "type": "noun",
     "meaning": "condition"
   },
   {
     "frequency": 1503,
     "word": "歯",
-    "reading": "",
+    "reading": "は",
     "type": "noun",
     "meaning": "tooth"
   },
   {
     "frequency": 1504,
     "word": "ベッド",
-    "reading": "",
+    "reading": "ベッド",
     "type": "noun",
     "meaning": "bed"
   },
   {
     "frequency": 1505,
     "word": "無事",
-    "reading": "",
+    "reading": "ぶじ",
     "type": "adverb",
     "meaning": "safely"
   },
   {
     "frequency": 1505,
     "word": "無事",
-    "reading": "",
+    "reading": "ぶじ",
     "type": "noun",
     "meaning": "safety"
   },
   {
     "frequency": 1505,
     "word": "無事",
-    "reading": "",
+    "reading": "ぶじ",
     "type": "na-adjective",
     "meaning": "safe"
   },
   {
     "frequency": 1506,
     "word": "身体",
-    "reading": "",
+    "reading": "からだ",
     "type": "noun",
     "meaning": "body"
   },
   {
     "frequency": 1507,
     "word": "何年",
-    "reading": "",
+    "reading": "なんねん",
     "type": "noun",
     "meaning": "what year, how many years"
   },
   {
     "frequency": 1508,
     "word": "星",
-    "reading": "",
+    "reading": "ほし",
     "type": "noun",
     "meaning": "star"
   },
   {
     "frequency": 1509,
     "word": "携帯電話",
-    "reading": "",
+    "reading": "けいたいでんわ",
     "type": "noun",
     "meaning": "cell phone"
   },
   {
     "frequency": 1510,
     "word": "砂糖",
-    "reading": "",
+    "reading": "さとう",
     "type": "noun",
     "meaning": "sugar"
   },
   {
     "frequency": 1511,
     "word": "切れる",
-    "reading": "",
+    "reading": "きれる",
     "type": "verb",
     "meaning": "expire, run out"
   },
   {
     "frequency": 1512,
     "word": "維持",
-    "reading": "",
+    "reading": "いじ",
     "type": "noun",
     "meaning": "maintenance, preservation"
   },
@@ -11851,49 +11851,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1513,
     "word": "高さ",
-    "reading": "",
+    "reading": "たかさ",
     "type": "noun",
     "meaning": "height"
   },
   {
     "frequency": 1514,
     "word": "太陽",
-    "reading": "",
+    "reading": "たいよう",
     "type": "noun",
     "meaning": "sun"
   },
   {
     "frequency": 1515,
     "word": "会場",
-    "reading": "",
+    "reading": "かいじょう",
     "type": "noun",
     "meaning": "hall; site"
   },
   {
     "frequency": 1516,
     "word": "素敵",
-    "reading": "",
+    "reading": "すてき",
     "type": "na-adjective",
     "meaning": "lovely, nice, wonderful"
   },
   {
     "frequency": 1517,
     "word": "湯",
-    "reading": "",
+    "reading": "ゆ",
     "type": "noun",
     "meaning": "hot water"
   },
   {
     "frequency": 1518,
     "word": "そもそも",
-    "reading": "",
+    "reading": "そもそも",
     "type": "adverb, noun",
     "meaning": "in the first place"
   },
   {
     "frequency": 1519,
     "word": "約束",
-    "reading": "",
+    "reading": "やくそく",
     "type": "noun",
     "meaning": "promise, appointment"
   },
@@ -11907,119 +11907,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1520,
     "word": "ワイン",
-    "reading": "",
+    "reading": "ワイン",
     "type": "noun",
     "meaning": "wine"
   },
   {
     "frequency": 1521,
     "word": "高校生",
-    "reading": "",
+    "reading": "こうこうせい",
     "type": "noun",
     "meaning": "high school student"
   },
   {
     "frequency": 1522,
     "word": "イベント",
-    "reading": "",
+    "reading": "イベント",
     "type": "noun",
     "meaning": "event"
   },
   {
     "frequency": 1523,
     "word": "二日",
-    "reading": "",
+    "reading": "ふつか",
     "type": "noun",
     "meaning": "second (date); two days"
   },
   {
     "frequency": 1524,
     "word": "売れる",
-    "reading": "",
+    "reading": "うれる",
     "type": "verb",
     "meaning": "sell"
   },
   {
     "frequency": 1525,
     "word": "少なくとも",
-    "reading": "",
+    "reading": "すくなくとも",
     "type": "adverb",
     "meaning": "at least"
   },
   {
     "frequency": 1526,
     "word": "米国",
-    "reading": "",
+    "reading": "べいこく",
     "type": "noun",
     "meaning": "United States"
   },
   {
     "frequency": 1527,
     "word": "周囲",
-    "reading": "",
+    "reading": "しゅうい",
     "type": "noun",
     "meaning": "surroundings"
   },
   {
     "frequency": 1528,
     "word": "伺う",
-    "reading": "",
+    "reading": "うかがう",
     "type": "verb",
     "meaning": "ask, inquire"
   },
   {
     "frequency": 1529,
     "word": "引っ越す",
-    "reading": "",
+    "reading": "ひっこす",
     "type": "verb",
     "meaning": "move (house)"
   },
   {
     "frequency": 1530,
     "word": "二十年",
-    "reading": "",
+    "reading": "はたとせ",
     "type": "noun",
     "meaning": "twenty years"
   },
   {
     "frequency": 1531,
     "word": "たまる",
-    "reading": "",
+    "reading": "たまる",
     "type": "verb",
     "meaning": "accumulate, build up"
   },
   {
     "frequency": 1532,
     "word": "精神的",
-    "reading": "",
+    "reading": "せいしんてき",
     "type": "na-adjective",
     "meaning": "spiritual"
   },
   {
     "frequency": 1533,
     "word": "中学校",
-    "reading": "",
+    "reading": "ちゅうがっこう",
     "type": "noun",
     "meaning": "junior high school"
   },
   {
     "frequency": 1534,
     "word": "仲良く",
-    "reading": "",
+    "reading": "なかよく",
     "type": "adverb",
     "meaning": "friendly"
   },
   {
     "frequency": 1535,
     "word": "言い方",
-    "reading": "",
+    "reading": "いいかた",
     "type": "noun",
     "meaning": "way to say"
   },
   {
     "frequency": 1536,
     "word": "バランス",
-    "reading": "",
+    "reading": "バランス",
     "type": "noun",
     "meaning": "balance"
   },
@@ -12033,7 +12033,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1538,
     "word": "安定",
-    "reading": "",
+    "reading": "あんてい",
     "type": "noun",
     "meaning": "stability"
   },
@@ -12047,7 +12047,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1539,
     "word": "完成",
-    "reading": "",
+    "reading": "かんせい",
     "type": "noun",
     "meaning": "completion"
   },
@@ -12061,63 +12061,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1540,
     "word": "我が家",
-    "reading": "",
+    "reading": "わがや",
     "type": "noun",
     "meaning": "one’s house, one’s family, one’s home"
   },
   {
     "frequency": 1541,
     "word": "見かける",
-    "reading": "",
+    "reading": "みかける",
     "type": "verb",
     "meaning": "see"
   },
   {
     "frequency": 1542,
     "word": "広げる",
-    "reading": "",
+    "reading": "ひろげる",
     "type": "verb",
     "meaning": "spread, expand"
   },
   {
     "frequency": 1543,
     "word": "参考",
-    "reading": "",
+    "reading": "さんこう",
     "type": "noun",
     "meaning": "reference"
   },
   {
     "frequency": 1544,
     "word": "たとえ",
-    "reading": "",
+    "reading": "たとえ",
     "type": "adverb",
     "meaning": "even if"
   },
   {
     "frequency": 1545,
     "word": "受け取る",
-    "reading": "",
+    "reading": "うけとる",
     "type": "verb",
     "meaning": "get, accept"
   },
   {
     "frequency": 1546,
     "word": "冷たい",
-    "reading": "",
+    "reading": "つめたい",
     "type": "i-adjective",
     "meaning": "cold"
   },
   {
     "frequency": 1547,
     "word": "望む",
-    "reading": "",
+    "reading": "のぞむ",
     "type": "verb",
     "meaning": "hope"
   },
   {
     "frequency": 1548,
     "word": "適用",
-    "reading": "",
+    "reading": "てきよう",
     "type": "noun",
     "meaning": "application"
   },
@@ -12131,49 +12131,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1549,
     "word": "宗教",
-    "reading": "",
+    "reading": "しゅうきょう",
     "type": "noun",
     "meaning": "religion"
   },
   {
     "frequency": 1550,
     "word": "一年間",
-    "reading": "",
+    "reading": "いちねんかん",
     "type": "noun",
     "meaning": "one year"
   },
   {
     "frequency": 1551,
     "word": "範囲",
-    "reading": "",
+    "reading": "はんい",
     "type": "noun",
     "meaning": "extent, range"
   },
   {
     "frequency": 1552,
     "word": "接する",
-    "reading": "",
+    "reading": "せっする",
     "type": "verb",
     "meaning": "adjoin, come in contact"
   },
   {
     "frequency": 1553,
     "word": "戻す",
-    "reading": "",
+    "reading": "もどす",
     "type": "verb",
     "meaning": "put back, restore"
   },
   {
     "frequency": 1554,
     "word": "すっかり",
-    "reading": "",
+    "reading": "すっかり",
     "type": "adverb",
     "meaning": "entirely, completely"
   },
   {
     "frequency": 1555,
     "word": "低下",
-    "reading": "",
+    "reading": "ていか",
     "type": "noun",
     "meaning": "decline, fall"
   },
@@ -12187,63 +12187,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1556,
     "word": "政治",
-    "reading": "",
+    "reading": "せいじ",
     "type": "noun",
     "meaning": "politics"
   },
   {
     "frequency": 1557,
     "word": "なんら",
-    "reading": "",
+    "reading": "なんら",
     "type": "adverb",
     "meaning": "nothing"
   },
   {
     "frequency": 1558,
     "word": "取り組む",
-    "reading": "",
+    "reading": "とりくむ",
     "type": "verb",
     "meaning": "tackle, deal with"
   },
   {
     "frequency": 1559,
     "word": "余裕",
-    "reading": "",
+    "reading": "よゆう",
     "type": "noun",
     "meaning": "leeway"
   },
   {
     "frequency": 1560,
     "word": "パリ",
-    "reading": "",
+    "reading": "パリ",
     "type": "noun",
     "meaning": "Paris"
   },
   {
     "frequency": 1561,
     "word": "にて",
-    "reading": "",
+    "reading": "にて",
     "type": "case particle",
     "meaning": "by; in; at"
   },
   {
     "frequency": 1562,
     "word": "奥さん",
-    "reading": "",
+    "reading": "おくさん",
     "type": "noun",
     "meaning": "wife"
   },
   {
     "frequency": 1563,
     "word": "遅れる",
-    "reading": "",
+    "reading": "おくれる",
     "type": "verb",
     "meaning": "be late, be delayed"
   },
   {
     "frequency": 1564,
     "word": "担当",
-    "reading": "",
+    "reading": "たんとう",
     "type": "noun",
     "meaning": "charge"
   },
@@ -12257,7 +12257,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1565,
     "word": "向上",
-    "reading": "",
+    "reading": "こうじょう",
     "type": "noun",
     "meaning": "improvement, progress"
   },
@@ -12271,7 +12271,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1566,
     "word": "機械",
-    "reading": "",
+    "reading": "きかい",
     "type": "noun",
     "meaning": "machine"
   },
@@ -12285,28 +12285,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1568,
     "word": "寄る",
-    "reading": "",
+    "reading": "よる",
     "type": "verb",
     "meaning": "stop by; move to one side"
   },
   {
     "frequency": 1569,
     "word": "都市",
-    "reading": "",
+    "reading": "とし",
     "type": "noun",
     "meaning": "city"
   },
   {
     "frequency": 1570,
     "word": "費用",
-    "reading": "",
+    "reading": "ひよう",
     "type": "noun",
     "meaning": "cost"
   },
   {
     "frequency": 1571,
     "word": "運転",
-    "reading": "",
+    "reading": "うんてん",
     "type": "noun",
     "meaning": "driving, operation"
   },
@@ -12320,28 +12320,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1572,
     "word": "生地",
-    "reading": "",
+    "reading": "きじ",
     "type": "noun",
     "meaning": "cloth, material; dough"
   },
   {
     "frequency": 1573,
     "word": "さあ",
-    "reading": "",
+    "reading": "さあ",
     "type": "interjection",
     "meaning": "come on, now, well"
   },
   {
     "frequency": 1574,
     "word": "だけでなく",
-    "reading": "",
+    "reading": "だけでなく",
     "type": "compound",
     "meaning": "not only"
   },
   {
     "frequency": 1575,
     "word": "予想",
-    "reading": "",
+    "reading": "よそう",
     "type": "noun",
     "meaning": "expectation"
   },
@@ -12355,56 +12355,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1576,
     "word": "一層",
-    "reading": "",
+    "reading": "いっそう",
     "type": "adverb, noun",
     "meaning": "more"
   },
   {
     "frequency": 1577,
     "word": "旦那",
-    "reading": "",
+    "reading": "だんな",
     "type": "noun",
     "meaning": "husband"
   },
   {
     "frequency": 1578,
     "word": "経る",
-    "reading": "",
+    "reading": "へる",
     "type": "verb",
     "meaning": "pass through, experience"
   },
   {
     "frequency": 1579,
     "word": "揃う",
-    "reading": "",
+    "reading": "そろう",
     "type": "verb",
     "meaning": "become complete; be equal"
   },
   {
     "frequency": 1580,
     "word": "下げる",
-    "reading": "",
+    "reading": "さげる",
     "type": "verb",
     "meaning": "lower; hang"
   },
   {
     "frequency": 1581,
     "word": "誘う",
-    "reading": "",
+    "reading": "さそう",
     "type": "verb",
     "meaning": "invite"
   },
   {
     "frequency": 1582,
     "word": "重ねる",
-    "reading": "",
+    "reading": "かさねる",
     "type": "verb",
     "meaning": "stack; repeat"
   },
   {
     "frequency": 1583,
     "word": "採用",
-    "reading": "",
+    "reading": "さいよう",
     "type": "noun",
     "meaning": "adoption, employment"
   },
@@ -12418,21 +12418,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1584,
     "word": "価格",
-    "reading": "",
+    "reading": "かかく",
     "type": "noun",
     "meaning": "price"
   },
   {
     "frequency": 1585,
     "word": "飾る",
-    "reading": "",
+    "reading": "かざる",
     "type": "verb",
     "meaning": "decorate"
   },
   {
     "frequency": 1586,
     "word": "がん",
-    "reading": "",
+    "reading": "がん",
     "type": "noun",
     "meaning": "cancer."
   },
@@ -12446,77 +12446,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1588,
     "word": "週",
-    "reading": "",
+    "reading": "しゅう",
     "type": "noun",
     "meaning": "week"
   },
   {
     "frequency": 1589,
     "word": "細い",
-    "reading": "",
+    "reading": "ほそい",
     "type": "i-adjective",
     "meaning": "thin, narrow, slender"
   },
   {
     "frequency": 1590,
     "word": "直る",
-    "reading": "",
+    "reading": "なおる",
     "type": "verb",
     "meaning": "be repaired; be corrected; get better"
   },
   {
     "frequency": 1591,
     "word": "単純",
-    "reading": "",
+    "reading": "たんじゅん",
     "type": "na-adjective",
     "meaning": "simple"
   },
   {
     "frequency": 1592,
     "word": "ファックス",
-    "reading": "",
+    "reading": "ファックス",
     "type": "noun",
     "meaning": "fax"
   },
   {
     "frequency": 1592,
     "word": "ファックスする",
-    "reading": "",
+    "reading": "ファックスする",
     "type": "verb",
     "meaning": "fax"
   },
   {
     "frequency": 1593,
     "word": "アルバイト",
-    "reading": "",
+    "reading": "アルバイト",
     "type": "noun",
     "meaning": "part-time job"
   },
   {
     "frequency": 1594,
     "word": "北",
-    "reading": "",
+    "reading": "きた",
     "type": "noun",
     "meaning": "north"
   },
   {
     "frequency": 1595,
     "word": "一生",
-    "reading": "",
+    "reading": "いっしょう",
     "type": "noun",
     "meaning": "life"
   },
   {
     "frequency": 1596,
     "word": "ファン",
-    "reading": "",
+    "reading": "ファン",
     "type": "noun",
     "meaning": "fan"
   },
   {
     "frequency": 1597,
     "word": "及ぶ",
-    "reading": "",
+    "reading": "およぶ",
     "type": "verb",
     "meaning": "reach"
   },
@@ -12530,77 +12530,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1599,
     "word": "調子",
-    "reading": "",
+    "reading": "ちょうし",
     "type": "noun",
     "meaning": "condition, tone"
   },
   {
     "frequency": 1600,
     "word": "基準",
-    "reading": "",
+    "reading": "きじゅん",
     "type": "noun",
     "meaning": "standard"
   },
   {
     "frequency": 1601,
     "word": "植物",
-    "reading": "",
+    "reading": "しょくぶつ",
     "type": "noun",
     "meaning": "plant"
   },
   {
     "frequency": 1602,
     "word": "契約",
-    "reading": "",
+    "reading": "けいやく",
     "type": "noun, verb",
     "meaning": "contract"
   },
   {
     "frequency": 1603,
     "word": "組む",
-    "reading": "",
+    "reading": "くむ",
     "type": "verb",
     "meaning": "pair with; cross"
   },
   {
     "frequency": 1604,
     "word": "叫ぶ",
-    "reading": "",
+    "reading": "さけぶ",
     "type": "verb",
     "meaning": "shout"
   },
   {
     "frequency": 1605,
     "word": "若者",
-    "reading": "",
+    "reading": "わかもの",
     "type": "noun",
     "meaning": "youth"
   },
   {
     "frequency": 1606,
     "word": "手段",
-    "reading": "",
+    "reading": "しゅだん",
     "type": "noun",
     "meaning": "means"
   },
   {
     "frequency": 1607,
     "word": "下ろす",
-    "reading": "",
+    "reading": "おろす",
     "type": "verb",
     "meaning": "take down; unload; withdraw; fillet (fish); grate"
   },
   {
     "frequency": 1608,
     "word": "明治",
-    "reading": "",
+    "reading": "めいじ",
     "type": "noun",
     "meaning": "Meiji period"
   },
   {
     "frequency": 1609,
     "word": "形成",
-    "reading": "",
+    "reading": "けいせい",
     "type": "noun",
     "meaning": "formation"
   },
@@ -12614,56 +12614,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1610,
     "word": "マンガ",
-    "reading": "",
+    "reading": "マンガ",
     "type": "noun",
     "meaning": "comics, cartoon"
   },
   {
     "frequency": 1611,
     "word": "ドラマ",
-    "reading": "",
+    "reading": "ドラマ",
     "type": "noun",
     "meaning": "TV drama, drama"
   },
   {
     "frequency": 1612,
     "word": "いよいよ",
-    "reading": "",
+    "reading": "いよいよ",
     "type": "adverb",
     "meaning": "finally, at last"
   },
   {
     "frequency": 1613,
     "word": "高齢者",
-    "reading": "",
+    "reading": "こうれいしゃ",
     "type": "noun",
     "meaning": "senior citizen"
   },
   {
     "frequency": 1614,
     "word": "無駄",
-    "reading": "",
+    "reading": "むだ",
     "type": "na-adjective",
     "meaning": "useless, futile"
   },
   {
     "frequency": 1614,
     "word": "無駄",
-    "reading": "",
+    "reading": "むだ",
     "type": "noun",
     "meaning": "waste"
   },
   {
     "frequency": 1615,
     "word": "髪",
-    "reading": "",
+    "reading": "かみ",
     "type": "noun",
     "meaning": "hair"
   },
   {
     "frequency": 1616,
     "word": "管理",
-    "reading": "",
+    "reading": "かんり",
     "type": "noun",
     "meaning": "control, management"
   },
@@ -12677,35 +12677,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1617,
     "word": "サッカー",
-    "reading": "",
+    "reading": "サッカー",
     "type": "noun",
     "meaning": "football, soccer"
   },
   {
     "frequency": 1618,
     "word": "工場",
-    "reading": "",
+    "reading": "こうじょう",
     "type": "noun",
     "meaning": "factory"
   },
   {
     "frequency": 1619,
     "word": "正確",
-    "reading": "",
+    "reading": "せいかく",
     "type": "na-adjective",
     "meaning": "correct, exact, accurate"
   },
   {
     "frequency": 1620,
     "word": "夫婦",
-    "reading": "",
+    "reading": "ふうふ",
     "type": "noun",
     "meaning": "(married) couple"
   },
   {
     "frequency": 1621,
     "word": "監督",
-    "reading": "",
+    "reading": "かんとく",
     "type": "noun",
     "meaning": "manager, director, proctor, invigilator"
   },
@@ -12719,14 +12719,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1622,
     "word": "鍋",
-    "reading": "",
+    "reading": "なべ",
     "type": "noun",
     "meaning": "pan, pot; hot-pot"
   },
   {
     "frequency": 1623,
     "word": "バイト",
-    "reading": "",
+    "reading": "バイト",
     "type": "noun",
     "meaning": "part-time job"
   },
@@ -12740,49 +12740,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1625,
     "word": "外す",
-    "reading": "",
+    "reading": "はずす",
     "type": "verb",
     "meaning": "undo; take off, remove"
   },
   {
     "frequency": 1626,
     "word": "何でも",
-    "reading": "",
+    "reading": "なんでも",
     "type": "adverb",
     "meaning": "anything; nothing; everything"
   },
   {
     "frequency": 1627,
     "word": "階段",
-    "reading": "",
+    "reading": "かいだん",
     "type": "noun",
     "meaning": "stairs"
   },
   {
     "frequency": 1628,
     "word": "オーストラリア",
-    "reading": "",
+    "reading": "オーストラリア",
     "type": "noun",
     "meaning": "Australia"
   },
   {
     "frequency": 1629,
     "word": "そこで",
-    "reading": "",
+    "reading": "そこで",
     "type": "conjunction",
     "meaning": "so"
   },
   {
     "frequency": 1630,
     "word": "オーケー",
-    "reading": "",
+    "reading": "オーケー",
     "type": "noun",
     "meaning": "O.K."
   },
   {
     "frequency": 1631,
     "word": "発達",
-    "reading": "",
+    "reading": "はったつ",
     "type": "noun",
     "meaning": "development"
   },
@@ -12796,28 +12796,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1632,
     "word": "適当",
-    "reading": "",
+    "reading": "てきとう",
     "type": "na-adjective",
     "meaning": "proper, appropriate, suitable; irresponsible, whimsical"
   },
   {
     "frequency": 1633,
     "word": "戦い",
-    "reading": "",
+    "reading": "たたかい",
     "type": "noun",
     "meaning": "fight, battle"
   },
   {
     "frequency": 1634,
     "word": "挟む",
-    "reading": "",
+    "reading": "はさむ",
     "type": "verb",
     "meaning": "put in, sandwich between; catch in"
   },
   {
     "frequency": 1635,
     "word": "鼻",
-    "reading": "",
+    "reading": "はな",
     "type": "noun",
     "meaning": "nose"
   },
@@ -12831,21 +12831,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1637,
     "word": "数年",
-    "reading": "",
+    "reading": "すうねん",
     "type": "noun",
     "meaning": "several years"
   },
   {
     "frequency": 1638,
     "word": "現代",
-    "reading": "",
+    "reading": "げんだい",
     "type": "noun",
     "meaning": "the present age, today"
   },
   {
     "frequency": 1639,
     "word": "回復",
-    "reading": "",
+    "reading": "かいふく",
     "type": "noun",
     "meaning": "recovery"
   },
@@ -12859,63 +12859,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1640,
     "word": "すみません",
-    "reading": "",
+    "reading": "すみません",
     "type": "interjection",
     "meaning": "Thank you; I am sorry; Excuse me"
   },
   {
     "frequency": 1641,
     "word": "コーヒー",
-    "reading": "",
+    "reading": "コーヒー",
     "type": "noun",
     "meaning": "coffee"
   },
   {
     "frequency": 1642,
     "word": "塗る",
-    "reading": "",
+    "reading": "ぬる",
     "type": "verb",
     "meaning": "spread; paint"
   },
   {
     "frequency": 1643,
     "word": "老人",
-    "reading": "",
+    "reading": "ろうじん",
     "type": "noun",
     "meaning": "old person, the old"
   },
   {
     "frequency": 1644,
     "word": "共通",
-    "reading": "",
+    "reading": "きょうつう",
     "type": "noun, verb",
     "meaning": "common"
   },
   {
     "frequency": 1645,
     "word": "一瞬",
-    "reading": "",
+    "reading": "いっしゅん",
     "type": "noun, adverb",
     "meaning": "a moment, an instant"
   },
   {
     "frequency": 1646,
     "word": "面倒",
-    "reading": "",
+    "reading": "めんどう",
     "type": "na-adjective",
     "meaning": "troublesome"
   },
   {
     "frequency": 1646,
     "word": "面倒",
-    "reading": "",
+    "reading": "めんどう",
     "type": "noun",
     "meaning": "bother, care"
   },
   {
     "frequency": 1647,
     "word": "開始",
-    "reading": "",
+    "reading": "かいし",
     "type": "noun",
     "meaning": "beginning, start"
   },
@@ -12929,35 +12929,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1648,
     "word": "翌日",
-    "reading": "",
+    "reading": "よくじつ",
     "type": "noun",
     "meaning": "next day"
   },
   {
     "frequency": 1649,
     "word": "しまう",
-    "reading": "",
+    "reading": "しまう",
     "type": "verb",
     "meaning": "put away"
   },
   {
     "frequency": 1650,
     "word": "商店街",
-    "reading": "",
+    "reading": "しょうてんがい",
     "type": "noun",
     "meaning": "shopping street"
   },
   {
     "frequency": 1651,
     "word": "原則",
-    "reading": "",
+    "reading": "げんそく",
     "type": "noun",
     "meaning": "principle"
   },
   {
     "frequency": 1652,
     "word": "販売",
-    "reading": "",
+    "reading": "はんばい",
     "type": "noun",
     "meaning": "sale"
   },
@@ -12971,42 +12971,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1653,
     "word": "諦める",
-    "reading": "",
+    "reading": "あきらめる",
     "type": "verb",
     "meaning": "give up, quit"
   },
   {
     "frequency": 1654,
     "word": "場面",
-    "reading": "",
+    "reading": "ばめん",
     "type": "noun",
     "meaning": "scene, sight"
   },
   {
     "frequency": 1655,
     "word": "障害",
-    "reading": "",
+    "reading": "しょうがい",
     "type": "noun",
     "meaning": "obstacle, handicap"
   },
   {
     "frequency": 1656,
     "word": "やや",
-    "reading": "",
+    "reading": "やや",
     "type": "adverb",
     "meaning": "a little, slightly"
   },
   {
     "frequency": 1657,
     "word": "一定",
-    "reading": "",
+    "reading": "いってい",
     "type": "noun, verb",
     "meaning": "a certain, fixed, constant"
   },
   {
     "frequency": 1658,
     "word": "いかが",
-    "reading": "",
+    "reading": "いかが",
     "type": "na-adjective",
     "meaning": "how"
   },
@@ -13020,7 +13020,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1660,
     "word": "関連",
-    "reading": "",
+    "reading": "かんれん",
     "type": "noun",
     "meaning": "relation, connection"
   },
@@ -13034,70 +13034,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1661,
     "word": "笑顔",
-    "reading": "",
+    "reading": "えがお",
     "type": "noun",
     "meaning": "smile"
   },
   {
     "frequency": 1662,
     "word": "真ん中",
-    "reading": "",
+    "reading": "まんなか",
     "type": "noun",
     "meaning": "middle"
   },
   {
     "frequency": 1663,
     "word": "ビール",
-    "reading": "",
+    "reading": "ビール",
     "type": "noun",
     "meaning": "beer"
   },
   {
     "frequency": 1664,
     "word": "正月",
-    "reading": "",
+    "reading": "しょうがつ",
     "type": "noun",
     "meaning": "New Year"
   },
   {
     "frequency": 1665,
     "word": "すら",
-    "reading": "",
+    "reading": "すら",
     "type": "particle",
     "meaning": "even"
   },
   {
     "frequency": 1666,
     "word": "デザイン",
-    "reading": "",
+    "reading": "デザイン",
     "type": "noun",
     "meaning": "design"
   },
   {
     "frequency": 1666,
     "word": "デザインする",
-    "reading": "",
+    "reading": "デザインする",
     "type": "verb",
     "meaning": "design"
   },
   {
     "frequency": 1667,
     "word": "わざわざ",
-    "reading": "",
+    "reading": "わざわざ",
     "type": "adverb",
     "meaning": "take the trouble, especially"
   },
   {
     "frequency": 1668,
     "word": "あふれる",
-    "reading": "",
+    "reading": "あふれる",
     "type": "verb",
     "meaning": "overflow, be filled with"
   },
   {
     "frequency": 1669,
     "word": "葉",
-    "reading": "",
+    "reading": "は",
     "type": "noun",
     "meaning": "leaf"
   },
@@ -13111,14 +13111,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1671,
     "word": "迷惑",
-    "reading": "",
+    "reading": "めいわく",
     "type": "na-adjective",
     "meaning": "troublesome, annoying"
   },
   {
     "frequency": 1671,
     "word": "迷惑",
-    "reading": "",
+    "reading": "めいわく",
     "type": "noun",
     "meaning": "annoyance, nuisance, trouble"
   },
@@ -13132,21 +13132,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1672,
     "word": "つかむ",
-    "reading": "",
+    "reading": "つかむ",
     "type": "verb",
     "meaning": "catch, grasp"
   },
   {
     "frequency": 1673,
     "word": "締める",
-    "reading": "",
+    "reading": "しめる",
     "type": "verb",
     "meaning": "tie; tighten"
   },
   {
     "frequency": 1674,
     "word": "ラジオ",
-    "reading": "",
+    "reading": "ラジオ",
     "type": "noun",
     "meaning": "radio"
   },
@@ -13160,35 +13160,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1676,
     "word": "じっと",
-    "reading": "",
+    "reading": "じっと",
     "type": "adverb, verb",
     "meaning": "still, fixedly, intently"
   },
   {
     "frequency": 1677,
     "word": "うなずく",
-    "reading": "",
+    "reading": "うなずく",
     "type": "verb",
     "meaning": "nod"
   },
   {
     "frequency": 1678,
     "word": "餌",
-    "reading": "",
+    "reading": "えさ",
     "type": "noun",
     "meaning": "feed; bait"
   },
   {
     "frequency": 1679,
     "word": "背中",
-    "reading": "",
+    "reading": "せなか",
     "type": "noun",
     "meaning": "back"
   },
   {
     "frequency": 1680,
     "word": "両方",
-    "reading": "",
+    "reading": "りょうほう",
     "type": "noun",
     "meaning": "both"
   },
@@ -13202,49 +13202,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1682,
     "word": "囲む",
-    "reading": "",
+    "reading": "かこむ",
     "type": "verb",
     "meaning": "surround"
   },
   {
     "frequency": 1683,
     "word": "並べる",
-    "reading": "",
+    "reading": "ならべる",
     "type": "verb",
     "meaning": "arrange; line up; enumerate"
   },
   {
     "frequency": 1684,
     "word": "黙る",
-    "reading": "",
+    "reading": "だまる",
     "type": "verb",
     "meaning": "hold one’s tongue, become silent"
   },
   {
     "frequency": 1685,
     "word": "きり",
-    "reading": "",
+    "reading": "きり",
     "type": "particle",
     "meaning": "only"
   },
   {
     "frequency": 1686,
     "word": "風景",
-    "reading": "",
+    "reading": "ふうけい",
     "type": "noun",
     "meaning": "scenery, landscape"
   },
   {
     "frequency": 1687,
     "word": "ごとし",
-    "reading": "",
+    "reading": "ごとし",
     "type": "auxiliary",
     "meaning": "like, as if (Classical)"
   },
   {
     "frequency": 1688,
     "word": "保存",
-    "reading": "",
+    "reading": "ほぞん",
     "type": "noun",
     "meaning": "preservation, storage"
   },
@@ -13258,21 +13258,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1689,
     "word": "社長",
-    "reading": "",
+    "reading": "しゃちょう",
     "type": "noun",
     "meaning": "company president"
   },
   {
     "frequency": 1690,
     "word": "目立つ",
-    "reading": "",
+    "reading": "めだつ",
     "type": "verb",
     "meaning": "be conspicuous, stand out"
   },
   {
     "frequency": 1691,
     "word": "保護",
-    "reading": "",
+    "reading": "ほご",
     "type": "noun",
     "meaning": "protection"
   },
@@ -13286,14 +13286,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1692,
     "word": "確実",
-    "reading": "",
+    "reading": "かくじつ",
     "type": "na-adjective",
     "meaning": "certain, sure"
   },
   {
     "frequency": 1693,
     "word": "経済",
-    "reading": "",
+    "reading": "けいざい",
     "type": "noun",
     "meaning": "economy; finance"
   },
@@ -13307,7 +13307,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1695,
     "word": "演奏",
-    "reading": "",
+    "reading": "えんそう",
     "type": "noun",
     "meaning": "(musical) performance"
   },
@@ -13321,21 +13321,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1696,
     "word": "増やす",
-    "reading": "",
+    "reading": "ふやす",
     "type": "verb",
     "meaning": "increase, add"
   },
   {
     "frequency": 1697,
     "word": "温泉",
-    "reading": "",
+    "reading": "おんせん",
     "type": "noun",
     "meaning": "hot spring, spa"
   },
   {
     "frequency": 1698,
     "word": "工夫",
-    "reading": "",
+    "reading": "くふう",
     "type": "noun",
     "meaning": "device, idea"
   },
@@ -13349,21 +13349,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1699,
     "word": "触る",
-    "reading": "",
+    "reading": "さわる",
     "type": "verb",
     "meaning": "touch"
   },
   {
     "frequency": 1700,
     "word": "教室",
-    "reading": "",
+    "reading": "きょうしつ",
     "type": "noun",
     "meaning": "classroom, ... school"
   },
   {
     "frequency": 1701,
     "word": "登録",
-    "reading": "",
+    "reading": "とうろく",
     "type": "noun",
     "meaning": "registration, entry"
   },
@@ -13377,28 +13377,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1702,
     "word": "長さ",
-    "reading": "",
+    "reading": "ながさ",
     "type": "noun",
     "meaning": "length"
   },
   {
     "frequency": 1703,
     "word": "資格",
-    "reading": "",
+    "reading": "しかく",
     "type": "noun",
     "meaning": "qualification; capacity"
   },
   {
     "frequency": 1704,
     "word": "明確",
-    "reading": "",
+    "reading": "めいかく",
     "type": "na-adjective",
     "meaning": "clear, definite"
   },
   {
     "frequency": 1705,
     "word": "記載",
-    "reading": "",
+    "reading": "きさい",
     "type": "noun",
     "meaning": "registration entry"
   },
@@ -13412,28 +13412,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1706,
     "word": "肌",
-    "reading": "",
+    "reading": "はだ",
     "type": "noun",
     "meaning": "skin"
   },
   {
     "frequency": 1707,
     "word": "倒れる",
-    "reading": "",
+    "reading": "たおれる",
     "type": "verb",
     "meaning": "fall (down), collapse"
   },
   {
     "frequency": 1708,
     "word": "症状",
-    "reading": "",
+    "reading": "しょうじょう",
     "type": "noun",
     "meaning": "symptom"
   },
   {
     "frequency": 1709,
     "word": "普及",
-    "reading": "",
+    "reading": "ふきゅう",
     "type": "noun",
     "meaning": "spread, diffusion"
   },
@@ -13447,21 +13447,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1710,
     "word": "すると",
-    "reading": "",
+    "reading": "すると",
     "type": "conjunction",
     "meaning": "then, if so"
   },
   {
     "frequency": 1711,
     "word": "優れる",
-    "reading": "",
+    "reading": "すぐれる",
     "type": "verb",
     "meaning": "be superior"
   },
   {
     "frequency": 1712,
     "word": "返事",
-    "reading": "",
+    "reading": "へんじ",
     "type": "noun",
     "meaning": "answer, reply"
   },
@@ -13475,14 +13475,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1713,
     "word": "職場",
-    "reading": "",
+    "reading": "しょくば",
     "type": "noun",
     "meaning": "workplace"
   },
   {
     "frequency": 1714,
     "word": "取り出す",
-    "reading": "",
+    "reading": "とりだす",
     "type": "verb",
     "meaning": "take out, extract"
   },
@@ -13496,84 +13496,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1716,
     "word": "平和",
-    "reading": "",
+    "reading": "へいわ",
     "type": "noun",
     "meaning": "peace"
   },
   {
     "frequency": 1716,
     "word": "平和",
-    "reading": "",
+    "reading": "へいわ",
     "type": "na-adjective",
     "meaning": "peaceful"
   },
   {
     "frequency": 1717,
     "word": "間違い",
-    "reading": "",
+    "reading": "まちがい",
     "type": "noun",
     "meaning": "mistake, error"
   },
   {
     "frequency": 1718,
     "word": "まい",
-    "reading": "",
+    "reading": "まい",
     "type": "auxiliary",
     "meaning": "INTENTION OF NEGATION"
   },
   {
     "frequency": 1719,
     "word": "けんか",
-    "reading": "",
+    "reading": "けんか",
     "type": "noun",
     "meaning": "fight, quarrel"
   },
   {
     "frequency": 1719,
     "word": "けんかする",
-    "reading": "",
+    "reading": "けんかする",
     "type": "verb",
     "meaning": "fight, quarrel"
   },
   {
     "frequency": 1720,
     "word": "偉い",
-    "reading": "",
+    "reading": "えらい",
     "type": "i-adjective",
     "meaning": "great, big"
   },
   {
     "frequency": 1721,
     "word": "くださる",
-    "reading": "",
+    "reading": "くださる",
     "type": "verb",
     "meaning": "give (honorific)"
   },
   {
     "frequency": 1722,
     "word": "熱い",
-    "reading": "",
+    "reading": "あつい",
     "type": "i-adjective",
     "meaning": "hot, heated"
   },
   {
     "frequency": 1723,
     "word": "当日",
-    "reading": "",
+    "reading": "とうじつ",
     "type": "noun",
     "meaning": "that day, current day"
   },
   {
     "frequency": 1724,
     "word": "残り",
-    "reading": "",
+    "reading": "のこり",
     "type": "noun",
     "meaning": "rest, remainder"
   },
   {
     "frequency": 1725,
     "word": "支援",
-    "reading": "",
+    "reading": "しえん",
     "type": "noun",
     "meaning": "support, assistance"
   },
@@ -13587,7 +13587,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1726,
     "word": "実行",
-    "reading": "",
+    "reading": "じっこう",
     "type": "noun",
     "meaning": "practice"
   },
@@ -13601,98 +13601,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1727,
     "word": "握る",
-    "reading": "",
+    "reading": "にぎる",
     "type": "verb",
     "meaning": "hold, grasp, clasp"
   },
   {
     "frequency": 1728,
     "word": "出会い",
-    "reading": "",
+    "reading": "であい",
     "type": "noun",
     "meaning": "encounter"
   },
   {
     "frequency": 1729,
     "word": "体重",
-    "reading": "",
+    "reading": "たいじゅう",
     "type": "noun",
     "meaning": "(body) weight"
   },
   {
     "frequency": 1730,
     "word": "上司",
-    "reading": "",
+    "reading": "じょうし",
     "type": "noun",
     "meaning": "boss"
   },
   {
     "frequency": 1731,
     "word": "結論",
-    "reading": "",
+    "reading": "けつろん",
     "type": "noun",
     "meaning": "conclusion"
   },
   {
     "frequency": 1732,
     "word": "け",
-    "reading": "",
+    "reading": "け",
     "type": "discourse particle",
     "meaning": "QUESTION ABOUT SOMETHING SPEAKER FORGOT"
   },
   {
     "frequency": 1733,
     "word": "テーブル",
-    "reading": "",
+    "reading": "テーブル",
     "type": "noun",
     "meaning": "table"
   },
   {
     "frequency": 1734,
     "word": "盛ん",
-    "reading": "",
+    "reading": "さかん",
     "type": "na-adjective",
     "meaning": "popular; active; prosperous"
   },
   {
     "frequency": 1735,
     "word": "急ぐ",
-    "reading": "",
+    "reading": "いそぐ",
     "type": "verb",
     "meaning": "hurry"
   },
   {
     "frequency": 1736,
     "word": "ともかく",
-    "reading": "",
+    "reading": "ともかく",
     "type": "adverb",
     "meaning": "in any case, anyway"
   },
   {
     "frequency": 1737,
     "word": "犯人",
-    "reading": "",
+    "reading": "はんにん",
     "type": "noun",
     "meaning": "criminal, culprit"
   },
   {
     "frequency": 1738,
     "word": "熱",
-    "reading": "",
+    "reading": "ねつ",
     "type": "noun",
     "meaning": "fever; heat"
   },
   {
     "frequency": 1739,
     "word": "犯罪",
-    "reading": "",
+    "reading": "はんざい",
     "type": "noun",
     "meaning": "crime, offense"
   },
   {
     "frequency": 1740,
     "word": "批判",
-    "reading": "",
+    "reading": "ひはん",
     "type": "noun",
     "meaning": "criticism"
   },
@@ -13706,7 +13706,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1741,
     "word": "出発",
-    "reading": "",
+    "reading": "しゅっぱつ",
     "type": "noun",
     "meaning": "departure"
   },
@@ -13720,168 +13720,168 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1742,
     "word": "遊び",
-    "reading": "",
+    "reading": "あそび",
     "type": "noun",
     "meaning": "play, game"
   },
   {
     "frequency": 1743,
     "word": "教師",
-    "reading": "",
+    "reading": "きょうし",
     "type": "noun",
     "meaning": "teacher"
   },
   {
     "frequency": 1744,
     "word": "横浜",
-    "reading": "",
+    "reading": "よこはま",
     "type": "noun",
     "meaning": "Yokohama"
   },
   {
     "frequency": 1745,
     "word": "脳",
-    "reading": "",
+    "reading": "のう",
     "type": "noun",
     "meaning": "brain"
   },
   {
     "frequency": 1746,
     "word": "レストラン",
-    "reading": "",
+    "reading": "レストラン",
     "type": "noun",
     "meaning": "restaurant"
   },
   {
     "frequency": 1747,
     "word": "そろそろ",
-    "reading": "",
+    "reading": "そろそろ",
     "type": "adverb",
     "meaning": "soon; slowly"
   },
   {
     "frequency": 1748,
     "word": "日曜日",
-    "reading": "",
+    "reading": "にちようび",
     "type": "noun",
     "meaning": "Sunday"
   },
   {
     "frequency": 1749,
     "word": "けが",
-    "reading": "",
+    "reading": "けが",
     "type": "noun",
     "meaning": "injury"
   },
   {
     "frequency": 1749,
     "word": "けがする",
-    "reading": "",
+    "reading": "けがする",
     "type": "verb",
     "meaning": "hurt, injure"
   },
   {
     "frequency": 1750,
     "word": "兄弟",
-    "reading": "",
+    "reading": "きょうだい",
     "type": "noun",
     "meaning": "brother; sister; sibling"
   },
   {
     "frequency": 1751,
     "word": "楽器",
-    "reading": "",
+    "reading": "がっき",
     "type": "noun",
     "meaning": "musical instrument"
   },
   {
     "frequency": 1752,
     "word": "保つ",
-    "reading": "",
+    "reading": "たもつ",
     "type": "verb",
     "meaning": "keep, maintain"
   },
   {
     "frequency": 1753,
     "word": "自動車",
-    "reading": "",
+    "reading": "じどうしゃ",
     "type": "noun",
     "meaning": "car"
   },
   {
     "frequency": 1754,
     "word": "ほんの",
-    "reading": "",
+    "reading": "ほんの",
     "type": "adnominal",
     "meaning": "just, nothing but, only"
   },
   {
     "frequency": 1755,
     "word": "カメラ",
-    "reading": "",
+    "reading": "カメラ",
     "type": "noun",
     "meaning": "camera"
   },
   {
     "frequency": 1756,
     "word": "寺",
-    "reading": "",
+    "reading": "てら",
     "type": "noun",
     "meaning": "temple"
   },
   {
     "frequency": 1757,
     "word": "ビデオ",
-    "reading": "",
+    "reading": "ビデオ",
     "type": "noun",
     "meaning": "video"
   },
   {
     "frequency": 1758,
     "word": "適切",
-    "reading": "",
+    "reading": "てきせつ",
     "type": "na-adjective",
     "meaning": "suitable, proper"
   },
   {
     "frequency": 1759,
     "word": "見事",
-    "reading": "",
+    "reading": "みごと",
     "type": "na-adjective",
     "meaning": "excellent"
   },
   {
     "frequency": 1759,
     "word": "見事",
-    "reading": "",
+    "reading": "みごと",
     "type": "adverb",
     "meaning": "completely"
   },
   {
     "frequency": 1760,
     "word": "底",
-    "reading": "",
+    "reading": "そこ",
     "type": "noun",
     "meaning": "bottom; sole"
   },
   {
     "frequency": 1761,
     "word": "刺激",
-    "reading": "",
+    "reading": "しげき",
     "type": "noun, verb",
     "meaning": "stimulate, incite, excite"
   },
   {
     "frequency": 1762,
     "word": "勢い",
-    "reading": "",
+    "reading": "いきおい",
     "type": "noun",
     "meaning": "speed; force; vigor"
   },
   {
     "frequency": 1763,
     "word": "吹く",
-    "reading": "",
+    "reading": "ふく",
     "type": "verb",
     "meaning": "blow; breathe out; play (musical instrument)"
   },
@@ -13895,7 +13895,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1765,
     "word": "迷う",
-    "reading": "",
+    "reading": "まよう",
     "type": "verb",
     "meaning": "get lost; cannot decide"
   },
@@ -13916,21 +13916,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1768,
     "word": "訴える",
-    "reading": "",
+    "reading": "うったえる",
     "type": "verb",
     "meaning": "sue; complain; appeal"
   },
   {
     "frequency": 1769,
     "word": "精神",
-    "reading": "",
+    "reading": "せいしん",
     "type": "noun",
     "meaning": "mind, spirit"
   },
   {
     "frequency": 1770,
     "word": "把握",
-    "reading": "",
+    "reading": "はあく",
     "type": "noun",
     "meaning": "grasp"
   },
@@ -13944,35 +13944,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1771,
     "word": "対する",
-    "reading": "",
+    "reading": "たいする",
     "type": "verb",
     "meaning": "toward, against; compare, receive"
   },
   {
     "frequency": 1772,
     "word": "十二",
-    "reading": "",
+    "reading": "じゅうに",
     "type": "numeral",
     "meaning": "twelve"
   },
   {
     "frequency": 1773,
     "word": "じゃ",
-    "reading": "",
+    "reading": "じゃ",
     "type": "auxiliary",
     "meaning": "COPULA is, are"
   },
   {
     "frequency": 1774,
     "word": "地震",
-    "reading": "",
+    "reading": "じしん",
     "type": "noun",
     "meaning": "earthquake"
   },
   {
     "frequency": 1775,
     "word": "応援",
-    "reading": "",
+    "reading": "おうえん",
     "type": "noun",
     "meaning": "support"
   },
@@ -13986,14 +13986,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1776,
     "word": "人類",
-    "reading": "",
+    "reading": "じんるい",
     "type": "noun",
     "meaning": "human race, mankind"
   },
   {
     "frequency": 1777,
     "word": "上昇",
-    "reading": "",
+    "reading": "じょうしょう",
     "type": "noun",
     "meaning": "rise"
   },
@@ -14007,21 +14007,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1778,
     "word": "空間",
-    "reading": "",
+    "reading": "くうかん",
     "type": "noun",
     "meaning": "space"
   },
   {
     "frequency": 1779,
     "word": "複雑",
-    "reading": "",
+    "reading": "ふくざつ",
     "type": "na-adjective",
     "meaning": "complicated, complex"
   },
   {
     "frequency": 1780,
     "word": "特定",
-    "reading": "",
+    "reading": "とくてい",
     "type": "noun",
     "meaning": "specific"
   },
@@ -14035,28 +14035,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1781,
     "word": "高める",
-    "reading": "",
+    "reading": "たかめる",
     "type": "verb",
     "meaning": "raise"
   },
   {
     "frequency": 1782,
     "word": "以外",
-    "reading": "",
+    "reading": "いがい",
     "type": "noun",
     "meaning": "except"
   },
   {
     "frequency": 1783,
     "word": "観点",
-    "reading": "",
+    "reading": "かんてん",
     "type": "noun",
     "meaning": "viewpoint, standpoint"
   },
   {
     "frequency": 1784,
     "word": "努める",
-    "reading": "",
+    "reading": "つとめる",
     "type": "verb",
     "meaning": "make efforts"
   },
@@ -14070,98 +14070,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1786,
     "word": "きつい",
-    "reading": "",
+    "reading": "きつい",
     "type": "i-adjective",
     "meaning": "tight; hard, severe; strong"
   },
   {
     "frequency": 1787,
     "word": "祖母",
-    "reading": "",
+    "reading": "そぼ",
     "type": "noun",
     "meaning": "grandmother"
   },
   {
     "frequency": 1788,
     "word": "プラス",
-    "reading": "",
+    "reading": "プラス",
     "type": "noun",
     "meaning": "plus, benefit"
   },
   {
     "frequency": 1788,
     "word": "プラスする",
-    "reading": "",
+    "reading": "プラスする",
     "type": "verb",
     "meaning": "benefit, add to"
   },
   {
     "frequency": 1789,
     "word": "大抵",
-    "reading": "",
+    "reading": "たいてい",
     "type": "adverb",
     "meaning": "usually"
   },
   {
     "frequency": 1790,
     "word": "狙う",
-    "reading": "",
+    "reading": "ねらう",
     "type": "verb",
     "meaning": "aim at"
   },
   {
     "frequency": 1791,
     "word": "知り合い",
-    "reading": "",
+    "reading": "しりあい",
     "type": "noun",
     "meaning": "acquaintance"
   },
   {
     "frequency": 1792,
     "word": "迫る",
-    "reading": "",
+    "reading": "せまる",
     "type": "verb",
     "meaning": "approach, draw near; demand"
   },
   {
     "frequency": 1793,
     "word": "どうぞ",
-    "reading": "",
+    "reading": "どうぞ",
     "type": "adverb",
     "meaning": "please"
   },
   {
     "frequency": 1794,
     "word": "消す",
-    "reading": "",
+    "reading": "けす",
     "type": "verb",
     "meaning": "put out, turn off; erase"
   },
   {
     "frequency": 1795,
     "word": "唯一",
-    "reading": "",
+    "reading": "ゆいいつ",
     "type": "noun, adverb",
     "meaning": "only"
   },
   {
     "frequency": 1796,
     "word": "連中",
-    "reading": "",
+    "reading": "れんちゅう",
     "type": "noun",
     "meaning": "company, crowd; those guys"
   },
   {
     "frequency": 1797,
     "word": "青い",
-    "reading": "",
+    "reading": "あおい",
     "type": "i-adjective",
     "meaning": "blue; pale; unripe"
   },
   {
     "frequency": 1798,
     "word": "終了",
-    "reading": "",
+    "reading": "しゅうりょう",
     "type": "noun",
     "meaning": "end"
   },
@@ -14175,56 +14175,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1799,
     "word": "をもって",
-    "reading": "",
+    "reading": "をもって",
     "type": "compound",
     "meaning": "by; with; as of"
   },
   {
     "frequency": 1800,
     "word": "前提",
-    "reading": "",
+    "reading": "ぜんてい",
     "type": "noun",
     "meaning": "assumption, premise"
   },
   {
     "frequency": 1801,
     "word": "四つ",
-    "reading": "",
+    "reading": "よっつ",
     "type": "numeral",
     "meaning": "four"
   },
   {
     "frequency": 1802,
     "word": "未来",
-    "reading": "",
+    "reading": "みらい",
     "type": "noun",
     "meaning": "future"
   },
   {
     "frequency": 1803,
     "word": "僕ら",
-    "reading": "",
+    "reading": "ぼくら",
     "type": "pronoun",
     "meaning": "we"
   },
   {
     "frequency": 1804,
     "word": "立ち上がる",
-    "reading": "",
+    "reading": "たちあがる",
     "type": "verb",
     "meaning": "stand up, rise"
   },
   {
     "frequency": 1805,
     "word": "同",
-    "reading": "",
+    "reading": "どう",
     "type": "noun",
     "meaning": "same"
   },
   {
     "frequency": 1806,
     "word": "推移",
-    "reading": "",
+    "reading": "すいい",
     "type": "noun",
     "meaning": "transition, change"
   },
@@ -14238,21 +14238,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1807,
     "word": "なくす",
-    "reading": "",
+    "reading": "なくす",
     "type": "verb",
     "meaning": "lose"
   },
   {
     "frequency": 1808,
     "word": "有効",
-    "reading": "",
+    "reading": "ゆうこう",
     "type": "na-adjective",
     "meaning": "valid; effective"
   },
   {
     "frequency": 1809,
     "word": "次々",
-    "reading": "",
+    "reading": "つぎつぎ",
     "type": "adverb",
     "meaning": "one after another"
   },
@@ -14266,21 +14266,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1811,
     "word": "国内",
-    "reading": "",
+    "reading": "こくない",
     "type": "noun",
     "meaning": "domestic, home"
   },
   {
     "frequency": 1812,
     "word": "が",
-    "reading": "",
+    "reading": "が",
     "type": "conjunction",
     "meaning": "but"
   },
   {
     "frequency": 1813,
     "word": "都合",
-    "reading": "",
+    "reading": "つごう",
     "type": "noun",
     "meaning": "convenience, circumstances"
   },
@@ -14294,91 +14294,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1813,
     "word": "都合",
-    "reading": "",
+    "reading": "つごう",
     "type": "adverb",
     "meaning": "altogether"
   },
   {
     "frequency": 1814,
     "word": "主な",
-    "reading": "",
+    "reading": "おもな",
     "type": "adnominal",
     "meaning": "main, chief"
   },
   {
     "frequency": 1815,
     "word": "ふと",
-    "reading": "",
+    "reading": "ふと",
     "type": "adverb",
     "meaning": "casually; suddenly"
   },
   {
     "frequency": 1816,
     "word": "四年",
-    "reading": "",
+    "reading": "よねん",
     "type": "noun",
     "meaning": "four years"
   },
   {
     "frequency": 1817,
     "word": "無視",
-    "reading": "",
+    "reading": "むし",
     "type": "noun, verb",
     "meaning": "neglect, ignore"
   },
   {
     "frequency": 1818,
     "word": "一気",
-    "reading": "",
+    "reading": "いっき",
     "type": "adverb, noun",
     "meaning": "at a stretch, in one gulp"
   },
   {
     "frequency": 1819,
     "word": "手続き",
-    "reading": "",
+    "reading": "てつづき",
     "type": "noun",
     "meaning": "procedure, formalities"
   },
   {
     "frequency": 1820,
     "word": "波",
-    "reading": "",
+    "reading": "なみ",
     "type": "noun",
     "meaning": "wave"
   },
   {
     "frequency": 1821,
     "word": "仲",
-    "reading": "",
+    "reading": "なか",
     "type": "noun",
     "meaning": "relations, terms"
   },
   {
     "frequency": 1822,
     "word": "中学生",
-    "reading": "",
+    "reading": "ちゅうがくせい",
     "type": "noun",
     "meaning": "junior high school student"
   },
   {
     "frequency": 1823,
     "word": "イタリア",
-    "reading": "",
+    "reading": "イタリア",
     "type": "noun",
     "meaning": "Italy"
   },
   {
     "frequency": 1824,
     "word": "のぞく",
-    "reading": "",
+    "reading": "のぞく",
     "type": "verb",
     "meaning": "look through, look down; drop in"
   },
   {
     "frequency": 1825,
     "word": "誕生",
-    "reading": "",
+    "reading": "たんじょう",
     "type": "noun",
     "meaning": "birth"
   },
@@ -14392,35 +14392,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1826,
     "word": "汚い",
-    "reading": "",
+    "reading": "きたない",
     "type": "i-adjective",
     "meaning": "dirty; unfair; vulgar"
   },
   {
     "frequency": 1827,
     "word": "畑",
-    "reading": "",
+    "reading": "はたけ",
     "type": "noun",
     "meaning": "field (for fruit, vegetables); garden"
   },
   {
     "frequency": 1828,
     "word": "履く",
-    "reading": "",
+    "reading": "はく",
     "type": "verb",
     "meaning": "put on, wear"
   },
   {
     "frequency": 1829,
     "word": "膝",
-    "reading": "",
+    "reading": "ひざ",
     "type": "noun",
     "meaning": "knee, lap"
   },
   {
     "frequency": 1830,
     "word": "提案",
-    "reading": "",
+    "reading": "ていあん",
     "type": "noun",
     "meaning": "proposal"
   },
@@ -14434,77 +14434,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1831,
     "word": "業務",
-    "reading": "",
+    "reading": "ぎょうむ",
     "type": "noun",
     "meaning": "business, work"
   },
   {
     "frequency": 1832,
     "word": "幸い",
-    "reading": "",
+    "reading": "さいわい",
     "type": "na-adjective",
     "meaning": "lucky, fortunate"
   },
   {
     "frequency": 1832,
     "word": "幸い",
-    "reading": "",
+    "reading": "さいわい",
     "type": "noun",
     "meaning": "happiness"
   },
   {
     "frequency": 1832,
     "word": "幸い",
-    "reading": "",
+    "reading": "さいわい",
     "type": "adverb",
     "meaning": "fortunately"
   },
   {
     "frequency": 1833,
     "word": "かわいそう",
-    "reading": "",
+    "reading": "かわいそう",
     "type": "na-adjective",
     "meaning": "pitiful, miserable"
   },
   {
     "frequency": 1834,
     "word": "画像",
-    "reading": "",
+    "reading": "がぞう",
     "type": "noun",
     "meaning": "picture, image"
   },
   {
     "frequency": 1835,
     "word": "孫",
-    "reading": "",
+    "reading": "まご",
     "type": "noun",
     "meaning": "grandchild"
   },
   {
     "frequency": 1836,
     "word": "つなぐ",
-    "reading": "",
+    "reading": "つなぐ",
     "type": "verb",
     "meaning": "connect, tie"
   },
   {
     "frequency": 1837,
     "word": "包む",
-    "reading": "",
+    "reading": "つつむ",
     "type": "verb",
     "meaning": "wrap"
   },
   {
     "frequency": 1838,
     "word": "思い切る",
-    "reading": "",
+    "reading": "おもいきる",
     "type": "verb",
     "meaning": "give up; venture"
   },
   {
     "frequency": 1839,
     "word": "事態",
-    "reading": "",
+    "reading": "じたい",
     "type": "noun",
     "meaning": "situation"
   },
@@ -14518,14 +14518,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1841,
     "word": "改める",
-    "reading": "",
+    "reading": "あらためる",
     "type": "verb",
     "meaning": "change; reform"
   },
   {
     "frequency": 1842,
     "word": "集中",
-    "reading": "",
+    "reading": "しゅうちゅう",
     "type": "noun",
     "meaning": "concentration"
   },
@@ -14539,14 +14539,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1843,
     "word": "両手",
-    "reading": "",
+    "reading": "りょうて",
     "type": "noun",
     "meaning": "both hands, both arms"
   },
   {
     "frequency": 1844,
     "word": "指示",
-    "reading": "",
+    "reading": "しじ",
     "type": "noun",
     "meaning": "instruction, direction"
   },
@@ -14560,28 +14560,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1845,
     "word": "結婚式",
-    "reading": "",
+    "reading": "けっこんしき",
     "type": "noun",
     "meaning": "wedding ceremony"
   },
   {
     "frequency": 1846,
     "word": "虫",
-    "reading": "",
+    "reading": "むし",
     "type": "noun",
     "meaning": "insect, bug; worm"
   },
   {
     "frequency": 1847,
     "word": "バイク",
-    "reading": "",
+    "reading": "バイク",
     "type": "noun",
     "meaning": "motorcycle, motorbike"
   },
   {
     "frequency": 1848,
     "word": "確立",
-    "reading": "",
+    "reading": "かくりつ",
     "type": "noun",
     "meaning": "establishment"
   },
@@ -14595,7 +14595,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1849,
     "word": "到着",
-    "reading": "",
+    "reading": "とうちゃく",
     "type": "noun",
     "meaning": "arrival"
   },
@@ -14609,56 +14609,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1850,
     "word": "かく",
-    "reading": "",
+    "reading": "かく",
     "type": "verb",
     "meaning": "scratch; paddle; shovel"
   },
   {
     "frequency": 1851,
     "word": "痩せる",
-    "reading": "",
+    "reading": "やせる",
     "type": "verb",
     "meaning": "become thin, lose weight"
   },
   {
     "frequency": 1852,
     "word": "親父",
-    "reading": "",
+    "reading": "おやじ",
     "type": "noun",
     "meaning": "father; old man; boss"
   },
   {
     "frequency": 1853,
     "word": "なくてはいけない",
-    "reading": "",
+    "reading": "なくてはいけない",
     "type": "compound",
     "meaning": "have to, must"
   },
   {
     "frequency": 1854,
     "word": "試す",
-    "reading": "",
+    "reading": "ためす",
     "type": "verb",
     "meaning": "try, attempt"
   },
   {
     "frequency": 1855,
     "word": "終える",
-    "reading": "",
+    "reading": "おえる",
     "type": "verb",
     "meaning": "finish, end"
   },
   {
     "frequency": 1856,
     "word": "遥か",
-    "reading": "",
+    "reading": "はるか",
     "type": "na-adjective",
     "meaning": "faraway, far"
   },
   {
     "frequency": 1857,
     "word": "受験",
-    "reading": "",
+    "reading": "じゅけん",
     "type": "noun",
     "meaning": "examination"
   },
@@ -14672,49 +14672,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1858,
     "word": "医師",
-    "reading": "",
+    "reading": "いし",
     "type": "noun",
     "meaning": "doctor"
   },
   {
     "frequency": 1859,
     "word": "バンド",
-    "reading": "",
+    "reading": "バンド",
     "type": "noun",
     "meaning": "band; belt"
   },
   {
     "frequency": 1860,
     "word": "体力",
-    "reading": "",
+    "reading": "たいりょく",
     "type": "noun",
     "meaning": "physical strength"
   },
   {
     "frequency": 1861,
     "word": "国家",
-    "reading": "",
+    "reading": "こっか",
     "type": "noun",
     "meaning": "state, country, nation"
   },
   {
     "frequency": 1862,
     "word": "ソフト",
-    "reading": "",
+    "reading": "ソフト",
     "type": "noun",
     "meaning": "software"
   },
   {
     "frequency": 1862,
     "word": "ソフト",
-    "reading": "",
+    "reading": "ソフト",
     "type": "na-adjective",
     "meaning": "soft"
   },
   {
     "frequency": 1863,
     "word": "長男",
-    "reading": "",
+    "reading": "ちょうなん",
     "type": "noun",
     "meaning": "eldest son"
   },
@@ -14728,21 +14728,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1865,
     "word": "さっき",
-    "reading": "",
+    "reading": "さっき",
     "type": "adverb, noun",
     "meaning": "a little while ago"
   },
   {
     "frequency": 1866,
     "word": "ごく",
-    "reading": "",
+    "reading": "ごく",
     "type": "adverb",
     "meaning": "very"
   },
   {
     "frequency": 1867,
     "word": "入力",
-    "reading": "",
+    "reading": "にゅうりょく",
     "type": "noun",
     "meaning": "input"
   },
@@ -14763,35 +14763,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1869,
     "word": "十一",
-    "reading": "",
+    "reading": "じゅういち",
     "type": "numeral",
     "meaning": "eleven"
   },
   {
     "frequency": 1870,
     "word": "チャンス",
-    "reading": "",
+    "reading": "チャンス",
     "type": "noun",
     "meaning": "chance"
   },
   {
     "frequency": 1871,
     "word": "別れる",
-    "reading": "",
+    "reading": "わかれる",
     "type": "verb",
     "meaning": "part; divorce, break up"
   },
   {
     "frequency": 1872,
     "word": "昼間",
-    "reading": "",
+    "reading": "ひるま",
     "type": "noun",
     "meaning": "daytime"
   },
   {
     "frequency": 1873,
     "word": "生産",
-    "reading": "",
+    "reading": "せいさん",
     "type": "noun",
     "meaning": "production"
   },
@@ -14805,21 +14805,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1874,
     "word": "要",
-    "reading": "",
+    "reading": "かなめ",
     "type": "noun",
     "meaning": "in short"
   },
   {
     "frequency": 1875,
     "word": "収める",
-    "reading": "",
+    "reading": "おさめる",
     "type": "verb",
     "meaning": "obtain, gain; put; keep"
   },
   {
     "frequency": 1876,
     "word": "掃除",
-    "reading": "",
+    "reading": "そうじ",
     "type": "noun",
     "meaning": "cleaning"
   },
@@ -14833,70 +14833,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1877,
     "word": "強化",
-    "reading": "",
+    "reading": "きょうか",
     "type": "noun, verb",
     "meaning": "tighten, strengthen"
   },
   {
     "frequency": 1878,
     "word": "主婦",
-    "reading": "",
+    "reading": "しゅふ",
     "type": "noun",
     "meaning": "housewife"
   },
   {
     "frequency": 1879,
     "word": "徐々",
-    "reading": "",
+    "reading": "じょじょ",
     "type": "noun",
     "meaning": "gradually"
   },
   {
     "frequency": 1880,
     "word": "メーカー",
-    "reading": "",
+    "reading": "メーカー",
     "type": "noun",
     "meaning": "maker, manufacturer"
   },
   {
     "frequency": 1881,
     "word": "あり得る",
-    "reading": "",
+    "reading": "ありうる",
     "type": "verb",
     "meaning": "be possible, be likely, be probable"
   },
   {
     "frequency": 1882,
     "word": "記す",
-    "reading": "",
+    "reading": "しるす",
     "type": "verb",
     "meaning": "write down; mark"
   },
   {
     "frequency": 1883,
     "word": "うわさ",
-    "reading": "",
+    "reading": "うわさ",
     "type": "noun",
     "meaning": "gossip, rumor"
   },
   {
     "frequency": 1883,
     "word": "うわさする",
-    "reading": "",
+    "reading": "うわさする",
     "type": "verb",
     "meaning": "talk about"
   },
   {
     "frequency": 1884,
     "word": "保険",
-    "reading": "",
+    "reading": "ほけん",
     "type": "noun",
     "meaning": "insurance"
   },
   {
     "frequency": 1885,
     "word": "規制",
-    "reading": "",
+    "reading": "きせい",
     "type": "noun",
     "meaning": "regulation"
   },
@@ -14910,21 +14910,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1886,
     "word": "もの",
-    "reading": "",
+    "reading": "もの",
     "type": "particle",
     "meaning": "because"
   },
   {
     "frequency": 1887,
     "word": "感想",
-    "reading": "",
+    "reading": "かんそう",
     "type": "noun",
     "meaning": "feeling, impression"
   },
   {
     "frequency": 1888,
     "word": "左右",
-    "reading": "",
+    "reading": "さゆう",
     "type": "noun",
     "meaning": "right and left"
   },
@@ -14938,7 +14938,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1889,
     "word": "促進",
-    "reading": "",
+    "reading": "そくしん",
     "type": "noun",
     "meaning": "promotion"
   },
@@ -14952,28 +14952,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1890,
     "word": "景色",
-    "reading": "",
+    "reading": "けしき",
     "type": "noun",
     "meaning": "scenery, view, scene"
   },
   {
     "frequency": 1891,
     "word": "味わう",
-    "reading": "",
+    "reading": "あじわう",
     "type": "verb",
     "meaning": "taste, savor"
   },
   {
     "frequency": 1892,
     "word": "アジア",
-    "reading": "",
+    "reading": "アジア",
     "type": "noun",
     "meaning": "Asia"
   },
   {
     "frequency": 1893,
     "word": "交流",
-    "reading": "",
+    "reading": "こうりゅう",
     "type": "noun",
     "meaning": "interchange, exchange"
   },
@@ -14987,7 +14987,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1894,
     "word": "報道",
-    "reading": "",
+    "reading": "ほうどう",
     "type": "noun",
     "meaning": "report"
   },
@@ -15001,28 +15001,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1895,
     "word": "当初",
-    "reading": "",
+    "reading": "とうしょ",
     "type": "noun",
     "meaning": "beginning, original"
   },
   {
     "frequency": 1895,
     "word": "当初",
-    "reading": "",
+    "reading": "とうしょ",
     "type": "adverb",
     "meaning": "at first"
   },
   {
     "frequency": 1896,
     "word": "インド",
-    "reading": "",
+    "reading": "インド",
     "type": "noun",
     "meaning": "India"
   },
   {
     "frequency": 1897,
     "word": "観察",
-    "reading": "",
+    "reading": "かんさつ",
     "type": "noun",
     "meaning": "observation"
   },
@@ -15036,119 +15036,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1898,
     "word": "電気",
-    "reading": "",
+    "reading": "でんき",
     "type": "noun",
     "meaning": "electricity; electric light"
   },
   {
     "frequency": 1899,
     "word": "癖",
-    "reading": "",
+    "reading": "くせ",
     "type": "noun",
     "meaning": "habit, peculiarity"
   },
   {
     "frequency": 1900,
     "word": "たいした",
-    "reading": "",
+    "reading": "たいした",
     "type": "adnominal",
     "meaning": "not big, not much; great, quite"
   },
   {
     "frequency": 1901,
     "word": "あり方",
-    "reading": "",
+    "reading": "ありかた",
     "type": "noun",
     "meaning": "way something ought to be, state of things"
   },
   {
     "frequency": 1902,
     "word": "どころ",
-    "reading": "",
+    "reading": "どころ",
     "type": "particle",
     "meaning": "far from, on the contrary, can’t even"
   },
   {
     "frequency": 1903,
     "word": "好み",
-    "reading": "",
+    "reading": "このみ",
     "type": "noun",
     "meaning": "liking, taste"
   },
   {
     "frequency": 1904,
     "word": "はまる",
-    "reading": "",
+    "reading": "はまる",
     "type": "verb",
     "meaning": "fit; fall; be addicted to"
   },
   {
     "frequency": 1905,
     "word": "早速",
-    "reading": "",
+    "reading": "さっそく",
     "type": "adverb",
     "meaning": "at once, lose no time in doing"
   },
   {
     "frequency": 1906,
     "word": "支払う",
-    "reading": "",
+    "reading": "しはらう",
     "type": "verb",
     "meaning": "pay"
   },
   {
     "frequency": 1907,
     "word": "市民",
-    "reading": "",
+    "reading": "しみん",
     "type": "noun",
     "meaning": "resident (of a city), citizen"
   },
   {
     "frequency": 1908,
     "word": "メリット",
-    "reading": "",
+    "reading": "メリット",
     "type": "noun",
     "meaning": "merit, advantage"
   },
   {
     "frequency": 1909,
     "word": "近年",
-    "reading": "",
+    "reading": "きんねん",
     "type": "adverb",
     "meaning": "in recent years"
   },
   {
     "frequency": 1910,
     "word": "分かりやすい",
-    "reading": "",
+    "reading": "わかりやすい",
     "type": "i-adjective",
     "meaning": "easy to understand"
   },
   {
     "frequency": 1911,
     "word": "製品",
-    "reading": "",
+    "reading": "せいひん",
     "type": "noun",
     "meaning": "product"
   },
   {
     "frequency": 1912,
     "word": "果たして",
-    "reading": "",
+    "reading": "はたして",
     "type": "adverb",
     "meaning": "really; just as one thought"
   },
   {
     "frequency": 1913,
     "word": "得意",
-    "reading": "",
+    "reading": "とくい",
     "type": "na-adjective",
     "meaning": "n. be good at, be proud; customer"
   },
   {
     "frequency": 1914,
     "word": "二週間",
-    "reading": "",
+    "reading": "にしゅうかん",
     "type": "noun",
     "meaning": "two weeks"
   },
@@ -15162,49 +15162,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1916,
     "word": "あっ",
-    "reading": "",
+    "reading": "あっ",
     "type": "interjection",
     "meaning": "Ah!, Oh!, Hey!"
   },
   {
     "frequency": 1917,
     "word": "何だか",
-    "reading": "",
+    "reading": "なんだか",
     "type": "adverb",
     "meaning": "somewhat; somehow"
   },
   {
     "frequency": 1918,
     "word": "過程",
-    "reading": "",
+    "reading": "かてい",
     "type": "noun",
     "meaning": "process"
   },
   {
     "frequency": 1919,
     "word": "仕組み",
-    "reading": "",
+    "reading": "しくみ",
     "type": "noun",
     "meaning": "structure, mechanism"
   },
   {
     "frequency": 1920,
     "word": "慌てる",
-    "reading": "",
+    "reading": "あわてる",
     "type": "verb",
     "meaning": "be flustered, be in a hurry"
   },
   {
     "frequency": 1921,
     "word": "ざるを得ない",
-    "reading": "",
+    "reading": "ざるをえない",
     "type": "compound",
     "meaning": "have to, cannot help doing"
   },
   {
     "frequency": 1922,
     "word": "措置",
-    "reading": "",
+    "reading": "そち",
     "type": "noun",
     "meaning": "measure"
   },
@@ -15218,119 +15218,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1923,
     "word": "油",
-    "reading": "",
+    "reading": "あぶら",
     "type": "noun",
     "meaning": "oil"
   },
   {
     "frequency": 1924,
     "word": "半年",
-    "reading": "",
+    "reading": "はんとし",
     "type": "noun",
     "meaning": "half a year"
   },
   {
     "frequency": 1925,
     "word": "視線",
-    "reading": "",
+    "reading": "しせん",
     "type": "noun",
     "meaning": "eyes, gaze, look"
   },
   {
     "frequency": 1926,
     "word": "構造",
-    "reading": "",
+    "reading": "こうぞう",
     "type": "noun",
     "meaning": "structure"
   },
   {
     "frequency": 1927,
     "word": "筋肉",
-    "reading": "",
+    "reading": "きんにく",
     "type": "noun",
     "meaning": "muscle"
   },
   {
     "frequency": 1928,
     "word": "少々",
-    "reading": "",
+    "reading": "しょうしょう",
     "type": "adverb",
     "meaning": "a little, a minute"
   },
   {
     "frequency": 1929,
     "word": "対策",
-    "reading": "",
+    "reading": "たいさく",
     "type": "noun",
     "meaning": "measure"
   },
   {
     "frequency": 1930,
     "word": "濃い",
-    "reading": "",
+    "reading": "こい",
     "type": "i-adjective",
     "meaning": "thick; strong; heavy; deep"
   },
   {
     "frequency": 1931,
     "word": "異常",
-    "reading": "",
+    "reading": "いじょう",
     "type": "na-adjective",
     "meaning": "abnormal"
   },
   {
     "frequency": 1931,
     "word": "異常",
-    "reading": "",
+    "reading": "いじょう",
     "type": "noun",
     "meaning": "disorder"
   },
   {
     "frequency": 1932,
     "word": "図書館",
-    "reading": "",
+    "reading": "としょかん",
     "type": "noun",
     "meaning": "library"
   },
   {
     "frequency": 1933,
     "word": "靴",
-    "reading": "",
+    "reading": "くつ",
     "type": "noun",
     "meaning": "shoe"
   },
   {
     "frequency": 1934,
     "word": "おそれ",
-    "reading": "",
+    "reading": "おそれ",
     "type": "noun",
     "meaning": "fear, danger"
   },
   {
     "frequency": 1935,
     "word": "二階",
-    "reading": "",
+    "reading": "にかい",
     "type": "noun",
     "meaning": "second floor"
   },
   {
     "frequency": 1936,
     "word": "あえて",
-    "reading": "",
+    "reading": "あえて",
     "type": "adverb",
     "meaning": "dare"
   },
   {
     "frequency": 1937,
     "word": "三回",
-    "reading": "",
+    "reading": "さんかい",
     "type": "noun",
     "meaning": "three times"
   },
   {
     "frequency": 1938,
     "word": "引っ越し",
-    "reading": "",
+    "reading": "ひっこし",
     "type": "noun",
     "meaning": "moving, removal"
   },
@@ -15344,7 +15344,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1939,
     "word": "失礼",
-    "reading": "",
+    "reading": "しつれい",
     "type": "noun",
     "meaning": "rudeness, impoliteness"
   },
@@ -15358,14 +15358,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1939,
     "word": "失礼",
-    "reading": "",
+    "reading": "しつれい",
     "type": "na-adjective",
     "meaning": "rude, impolite"
   },
   {
     "frequency": 1940,
     "word": "太る",
-    "reading": "",
+    "reading": "ふとる",
     "type": "verb",
     "meaning": "get fat, gain weight"
   },
@@ -15379,42 +15379,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1942,
     "word": "いったん",
-    "reading": "",
+    "reading": "いったん",
     "type": "adverb",
     "meaning": "once; for a moment"
   },
   {
     "frequency": 1943,
     "word": "取り入れる",
-    "reading": "",
+    "reading": "とりいれる",
     "type": "verb",
     "meaning": "take in; adopt; harvest"
   },
   {
     "frequency": 1944,
     "word": "モテる",
-    "reading": "",
+    "reading": "モテる",
     "type": "verb",
     "meaning": "be popular"
   },
   {
     "frequency": 1945,
     "word": "都会",
-    "reading": "",
+    "reading": "とかい",
     "type": "noun",
     "meaning": "city"
   },
   {
     "frequency": 1946,
     "word": "大量",
-    "reading": "",
+    "reading": "たいりょう",
     "type": "noun, na-adjective",
     "meaning": "large quantity, a lot"
   },
   {
     "frequency": 1947,
     "word": "発言",
-    "reading": "",
+    "reading": "はつげん",
     "type": "noun",
     "meaning": "remark"
   },
@@ -15428,63 +15428,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1948,
     "word": "炒める",
-    "reading": "",
+    "reading": "いためる",
     "type": "verb",
     "meaning": "fry, stir-fry"
   },
   {
     "frequency": 1949,
     "word": "投げる",
-    "reading": "",
+    "reading": "なげる",
     "type": "verb",
     "meaning": "throw; give up"
   },
   {
     "frequency": 1950,
     "word": "玄関",
-    "reading": "",
+    "reading": "げんかん",
     "type": "noun",
     "meaning": "entrance, front door"
   },
   {
     "frequency": 1951,
     "word": "一種",
-    "reading": "",
+    "reading": "いっしゅ",
     "type": "noun",
     "meaning": "kind, sort, species"
   },
   {
     "frequency": 1952,
     "word": "世代",
-    "reading": "",
+    "reading": "せだい",
     "type": "noun",
     "meaning": "generation"
   },
   {
     "frequency": 1953,
     "word": "にあたって",
-    "reading": "",
+    "reading": "にあたって",
     "type": "compound",
     "meaning": "at the time of"
   },
   {
     "frequency": 1954,
     "word": "申し込み",
-    "reading": "",
+    "reading": "もうしこみ",
     "type": "noun",
     "meaning": "application"
   },
   {
     "frequency": 1955,
     "word": "高まる",
-    "reading": "",
+    "reading": "たかまる",
     "type": "verb",
     "meaning": "rise, heighten, grow"
   },
   {
     "frequency": 1956,
     "word": "証明",
-    "reading": "",
+    "reading": "しょうめい",
     "type": "noun",
     "meaning": "proof"
   },
@@ -15498,49 +15498,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1957,
     "word": "沸く",
-    "reading": "",
+    "reading": "わく",
     "type": "verb",
     "meaning": "boil; be in uproar"
   },
   {
     "frequency": 1958,
     "word": "必死",
-    "reading": "",
+    "reading": "ひっし",
     "type": "na-adjective",
     "meaning": "desperate"
   },
   {
     "frequency": 1959,
     "word": "真剣",
-    "reading": "",
+    "reading": "しんけん",
     "type": "na-adjective",
     "meaning": "serious"
   },
   {
     "frequency": 1960,
     "word": "まさか",
-    "reading": "",
+    "reading": "まさか",
     "type": "adverb",
     "meaning": "surely not, cannot possibly"
   },
   {
     "frequency": 1960,
     "word": "まさか",
-    "reading": "",
+    "reading": "まさか",
     "type": "noun",
     "meaning": "the worst"
   },
   {
     "frequency": 1961,
     "word": "ごめんなさい",
-    "reading": "",
+    "reading": "ごめんなさい",
     "type": "interjection",
     "meaning": "I’m sorry, Excuse me"
   },
   {
     "frequency": 1962,
     "word": "画面",
-    "reading": "",
+    "reading": "がめん",
     "type": "noun",
     "meaning": "screen"
   },
@@ -15554,112 +15554,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1964,
     "word": "成果",
-    "reading": "",
+    "reading": "せいか",
     "type": "noun",
     "meaning": "result, product"
   },
   {
     "frequency": 1965,
     "word": "物語",
-    "reading": "",
+    "reading": "ものがたり",
     "type": "noun",
     "meaning": "tale, story"
   },
   {
     "frequency": 1966,
     "word": "日時",
-    "reading": "",
+    "reading": "にちじ",
     "type": "noun",
     "meaning": "date and time"
   },
   {
     "frequency": 1967,
     "word": "来年",
-    "reading": "",
+    "reading": "らいねん",
     "type": "noun",
     "meaning": "next year"
   },
   {
     "frequency": 1968,
     "word": "巻く",
-    "reading": "",
+    "reading": "まく",
     "type": "verb",
     "meaning": "roll up, wind up; wear around"
   },
   {
     "frequency": 1969,
     "word": "こっち",
-    "reading": "",
+    "reading": "こっち",
     "type": "pronoun",
     "meaning": "here; this; I; we"
   },
   {
     "frequency": 1970,
     "word": "必ずしも",
-    "reading": "",
+    "reading": "かならずしも",
     "type": "adverb",
     "meaning": "not necessarily, not always"
   },
   {
     "frequency": 1971,
     "word": "たっぷり",
-    "reading": "",
+    "reading": "たっぷり",
     "type": "adverb",
     "meaning": "full, plenty"
   },
   {
     "frequency": 1971,
     "word": "たっぷり",
-    "reading": "",
+    "reading": "たっぷり",
     "type": "noun",
     "meaning": "fullness"
   },
   {
     "frequency": 1972,
     "word": "はやる",
-    "reading": "",
+    "reading": "はやる",
     "type": "verb",
     "meaning": "be fashionable, be popular, go around"
   },
   {
     "frequency": 1973,
     "word": "恐ろしい",
-    "reading": "",
+    "reading": "おそろしい",
     "type": "i-adjective",
     "meaning": "terrible, frightful, amazing, awful"
   },
   {
     "frequency": 1974,
     "word": "中身",
-    "reading": "",
+    "reading": "あてみ",
     "type": "noun",
     "meaning": "contents; substance"
   },
   {
     "frequency": 1975,
     "word": "スピード",
-    "reading": "",
+    "reading": "スピード",
     "type": "noun",
     "meaning": "speed"
   },
   {
     "frequency": 1976,
     "word": "一歩",
-    "reading": "",
+    "reading": "いっぽ",
     "type": "noun",
     "meaning": "step"
   },
   {
     "frequency": 1977,
     "word": "牛乳",
-    "reading": "",
+    "reading": "ぎゅうにゅう",
     "type": "noun",
     "meaning": "(cow’s) milk"
   },
   {
     "frequency": 1978,
     "word": "否定",
-    "reading": "",
+    "reading": "ひてい",
     "type": "noun",
     "meaning": "denial, negative"
   },
@@ -15673,49 +15673,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1979,
     "word": "踏まえる",
-    "reading": "",
+    "reading": "ふまえる",
     "type": "verb",
     "meaning": "be based on"
   },
   {
     "frequency": 1980,
     "word": "若干",
-    "reading": "",
+    "reading": "じゃっかん",
     "type": "adverb",
     "meaning": "slightly"
   },
   {
     "frequency": 1980,
     "word": "若干",
-    "reading": "",
+    "reading": "じゃっかん",
     "type": "noun",
     "meaning": "a little, few, some"
   },
   {
     "frequency": 1981,
     "word": "箱",
-    "reading": "",
+    "reading": "はこ",
     "type": "noun",
     "meaning": "box, case"
   },
   {
     "frequency": 1982,
     "word": "テニス",
-    "reading": "",
+    "reading": "テニス",
     "type": "noun",
     "meaning": "tennis"
   },
   {
     "frequency": 1983,
     "word": "アパート",
-    "reading": "",
+    "reading": "アパート",
     "type": "noun",
     "meaning": "apartment"
   },
   {
     "frequency": 1984,
     "word": "面接",
-    "reading": "",
+    "reading": "めんせつ",
     "type": "noun",
     "meaning": "interview"
   },
@@ -15729,7 +15729,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1985,
     "word": "住民",
-    "reading": "",
+    "reading": "じゅうみん",
     "type": "noun",
     "meaning": "inhabitant, resident"
   },
@@ -15743,56 +15743,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1987,
     "word": "ギター",
-    "reading": "",
+    "reading": "ギター",
     "type": "noun",
     "meaning": "guitar"
   },
   {
     "frequency": 1988,
     "word": "要素",
-    "reading": "",
+    "reading": "ようそ",
     "type": "noun",
     "meaning": "element, factor"
   },
   {
     "frequency": 1989,
     "word": "泳ぐ",
-    "reading": "",
+    "reading": "およぐ",
     "type": "verb",
     "meaning": "swim"
   },
   {
     "frequency": 1990,
     "word": "大勢",
-    "reading": "",
+    "reading": "おおぜい",
     "type": "noun",
     "meaning": "a large number of, many"
   },
   {
     "frequency": 1991,
     "word": "習慣",
-    "reading": "",
+    "reading": "しゅうかん",
     "type": "noun",
     "meaning": "custom, habit"
   },
   {
     "frequency": 1992,
     "word": "込める",
-    "reading": "",
+    "reading": "こめる",
     "type": "verb",
     "meaning": "put into, pour into"
   },
   {
     "frequency": 1993,
     "word": "風邪",
-    "reading": "",
+    "reading": "かぜ",
     "type": "noun",
     "meaning": "cold"
   },
   {
     "frequency": 1994,
     "word": "調整",
-    "reading": "",
+    "reading": "ちょうせい",
     "type": "noun",
     "meaning": "adjustment"
   },
@@ -15806,35 +15806,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 1995,
     "word": "踊る",
-    "reading": "",
+    "reading": "おどる",
     "type": "verb",
     "meaning": "dance"
   },
   {
     "frequency": 1996,
     "word": "とも",
-    "reading": "",
+    "reading": "とも",
     "type": "particle",
     "meaning": "all, both"
   },
   {
     "frequency": 1997,
     "word": "タクシー",
-    "reading": "",
+    "reading": "タクシー",
     "type": "noun",
     "meaning": "taxi"
   },
   {
     "frequency": 1998,
     "word": "教会",
-    "reading": "",
+    "reading": "きょうかい",
     "type": "noun",
     "meaning": "church"
   },
   {
     "frequency": 1999,
     "word": "攻撃",
-    "reading": "",
+    "reading": "こうげき",
     "type": "noun",
     "meaning": "attack"
   },
@@ -15848,7 +15848,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2000,
     "word": "五時",
-    "reading": "",
+    "reading": "ごじ",
     "type": "noun",
     "meaning": "five o’clock"
   },
@@ -15862,56 +15862,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2002,
     "word": "方達",
-    "reading": "",
+    "reading": "かたたち",
     "type": "noun",
     "meaning": "people (honorific)"
   },
   {
     "frequency": 2003,
     "word": "久しぶり",
-    "reading": "",
+    "reading": "ひさしぶり",
     "type": "noun",
     "meaning": "after a long time"
   },
   {
     "frequency": 2004,
     "word": "とたん",
-    "reading": "",
+    "reading": "とたん",
     "type": "noun",
     "meaning": "as soon as"
   },
   {
     "frequency": 2005,
     "word": "要する",
-    "reading": "",
+    "reading": "ようする",
     "type": "verb",
     "meaning": "need, take"
   },
   {
     "frequency": 2006,
     "word": "幅",
-    "reading": "",
+    "reading": "はば",
     "type": "noun",
     "meaning": "width, breadth; difference; latitude"
   },
   {
     "frequency": 2007,
     "word": "周辺",
-    "reading": "",
+    "reading": "しゅうへん",
     "type": "noun",
     "meaning": "outskirts, around"
   },
   {
     "frequency": 2008,
     "word": "十日",
-    "reading": "",
+    "reading": "とおか",
     "type": "noun",
     "meaning": "tenth (date); ten days"
   },
   {
     "frequency": 2009,
     "word": "取得",
-    "reading": "",
+    "reading": "とりえ",
     "type": "noun",
     "meaning": "acquisition"
   },
@@ -15925,7 +15925,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2010,
     "word": "挑戦",
-    "reading": "",
+    "reading": "ちょうせん",
     "type": "noun",
     "meaning": "challenge"
   },
@@ -15939,7 +15939,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2011,
     "word": "独立",
-    "reading": "",
+    "reading": "どくりつ",
     "type": "noun",
     "meaning": "independence"
   },
@@ -15953,84 +15953,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2012,
     "word": "収入",
-    "reading": "",
+    "reading": "しゅうにゅう",
     "type": "noun",
     "meaning": "income"
   },
   {
     "frequency": 2013,
     "word": "ぜ",
-    "reading": "",
+    "reading": "ぜ",
     "type": "particle",
     "meaning": "EMPHASIS"
   },
   {
     "frequency": 2014,
     "word": "市場",
-    "reading": "",
+    "reading": "いちば",
     "type": "noun",
     "meaning": "market"
   },
   {
     "frequency": 2015,
     "word": "着物",
-    "reading": "",
+    "reading": "きもの",
     "type": "noun",
     "meaning": "kimono"
   },
   {
     "frequency": 2016,
     "word": "メニュー",
-    "reading": "",
+    "reading": "メニュー",
     "type": "noun",
     "meaning": "menu"
   },
   {
     "frequency": 2017,
     "word": "夏休み",
-    "reading": "",
+    "reading": "なつやすみ",
     "type": "noun",
     "meaning": "summer holiday"
   },
   {
     "frequency": 2018,
     "word": "壊す",
-    "reading": "",
+    "reading": "こわす",
     "type": "verb",
     "meaning": "break; impair; upset"
   },
   {
     "frequency": 2019,
     "word": "なさる",
-    "reading": "",
+    "reading": "なさる",
     "type": "verb",
     "meaning": "do (honorific)"
   },
   {
     "frequency": 2020,
     "word": "仮",
-    "reading": "",
+    "reading": "け",
     "type": "noun",
     "meaning": "temporary, provisional; assumed"
   },
   {
     "frequency": 2021,
     "word": "かえって",
-    "reading": "",
+    "reading": "かえって",
     "type": "adverb",
     "meaning": "on the contrary, rather"
   },
   {
     "frequency": 2022,
     "word": "関する",
-    "reading": "",
+    "reading": "かんする",
     "type": "verb",
     "meaning": "be related to, be concerned with"
   },
   {
     "frequency": 2023,
     "word": "輸入",
-    "reading": "",
+    "reading": "ゆにゅう",
     "type": "noun",
     "meaning": "import"
   },
@@ -16044,91 +16044,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2024,
     "word": "満たす",
-    "reading": "",
+    "reading": "みたす",
     "type": "verb",
     "meaning": "fill, satisfy, meet"
   },
   {
     "frequency": 2025,
     "word": "いわば",
-    "reading": "",
+    "reading": "いわば",
     "type": "adverb",
     "meaning": "so to speak, as it were"
   },
   {
     "frequency": 2026,
     "word": "スタッフ",
-    "reading": "",
+    "reading": "スタッフ",
     "type": "noun",
     "meaning": "staff"
   },
   {
     "frequency": 2027,
     "word": "住所",
-    "reading": "",
+    "reading": "じゅうしょ",
     "type": "noun",
     "meaning": "address"
   },
   {
     "frequency": 2028,
     "word": "平気",
-    "reading": "",
+    "reading": "へいき",
     "type": "na-adjective",
     "meaning": "insensitive, fine"
   },
   {
     "frequency": 2028,
     "word": "平気",
-    "reading": "",
+    "reading": "へいき",
     "type": "noun",
     "meaning": "calmness"
   },
   {
     "frequency": 2029,
     "word": "コース",
-    "reading": "",
+    "reading": "コース",
     "type": "noun",
     "meaning": "course, route, lane"
   },
   {
     "frequency": 2030,
     "word": "訪ねる",
-    "reading": "",
+    "reading": "たずねる",
     "type": "verb",
     "meaning": "visit, go to see"
   },
   {
     "frequency": 2031,
     "word": "鍵",
-    "reading": "",
+    "reading": "かぎ",
     "type": "noun",
     "meaning": "key"
   },
   {
     "frequency": 2032,
     "word": "世界中",
-    "reading": "",
+    "reading": "せかいじゅう",
     "type": "noun",
     "meaning": "around the world, throughout the world"
   },
   {
     "frequency": 2033,
     "word": "下手",
-    "reading": "",
+    "reading": "したて",
     "type": "na-adjective",
     "meaning": "not good at, poor, bad, unskilled"
   },
   {
     "frequency": 2034,
     "word": "詩",
-    "reading": "",
+    "reading": "うた",
     "type": "noun",
     "meaning": "poem, poetry"
   },
   {
     "frequency": 2035,
     "word": "経過",
-    "reading": "",
+    "reading": "けいか",
     "type": "noun",
     "meaning": "progress, development"
   },
@@ -16142,98 +16142,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2036,
     "word": "整える",
-    "reading": "",
+    "reading": "ととのえる",
     "type": "verb",
     "meaning": "arrange, prepare"
   },
   {
     "frequency": 2037,
     "word": "ツアー",
-    "reading": "",
+    "reading": "ツアー",
     "type": "noun",
     "meaning": "tour"
   },
   {
     "frequency": 2038,
     "word": "西",
-    "reading": "",
+    "reading": "にし",
     "type": "noun",
     "meaning": "west"
   },
   {
     "frequency": 2039,
     "word": "事項",
-    "reading": "",
+    "reading": "じこう",
     "type": "noun",
     "meaning": "matter, fact, item"
   },
   {
     "frequency": 2040,
     "word": "塾",
-    "reading": "",
+    "reading": "じゅく",
     "type": "noun",
     "meaning": "cram school"
   },
   {
     "frequency": 2041,
     "word": "去る",
-    "reading": "",
+    "reading": "さる",
     "type": "verb, adnominal",
     "meaning": "leave, pass, be gone"
   },
   {
     "frequency": 2042,
     "word": "五人",
-    "reading": "",
+    "reading": "ごにん",
     "type": "noun",
     "meaning": "five people"
   },
   {
     "frequency": 2043,
     "word": "入り口",
-    "reading": "",
+    "reading": "いりぐち",
     "type": "noun",
     "meaning": "entrance"
   },
   {
     "frequency": 2044,
     "word": "改めて",
-    "reading": "",
+    "reading": "あらためて",
     "type": "adverb",
     "meaning": "over again; some other time"
   },
   {
     "frequency": 2045,
     "word": "県",
-    "reading": "",
+    "reading": "けん",
     "type": "noun",
     "meaning": "prefecture"
   },
   {
     "frequency": 2046,
     "word": "断る",
-    "reading": "",
+    "reading": "ことわる",
     "type": "verb",
     "meaning": "decline, refuse, reject, turn down; ask permission; give notice"
   },
   {
     "frequency": 2047,
     "word": "事務所",
-    "reading": "",
+    "reading": "じむしょ",
     "type": "noun",
     "meaning": "office"
   },
   {
     "frequency": 2048,
     "word": "大さじ",
-    "reading": "",
+    "reading": "おおさじ",
     "type": "noun",
     "meaning": "tablespoon"
   },
   {
     "frequency": 2049,
     "word": "整理",
-    "reading": "",
+    "reading": "せいり",
     "type": "noun",
     "meaning": "arrangement"
   },
@@ -16247,42 +16247,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2050,
     "word": "耐える",
-    "reading": "",
+    "reading": "たえる",
     "type": "verb",
     "meaning": "stand, endure, bear"
   },
   {
     "frequency": 2051,
     "word": "職員",
-    "reading": "",
+    "reading": "しょくいん",
     "type": "noun",
     "meaning": "staff member"
   },
   {
     "frequency": 2052,
     "word": "コメント",
-    "reading": "",
+    "reading": "コメント",
     "type": "noun",
     "meaning": "comment"
   },
   {
     "frequency": 2052,
     "word": "コメントする",
-    "reading": "",
+    "reading": "コメントする",
     "type": "verb",
     "meaning": "comment"
   },
   {
     "frequency": 2053,
     "word": "五分",
-    "reading": "",
+    "reading": "ごぶ",
     "type": "noun",
     "meaning": "five minutes"
   },
   {
     "frequency": 2054,
     "word": "発揮",
-    "reading": "",
+    "reading": "はっき",
     "type": "noun",
     "meaning": "exhibition, show"
   },
@@ -16296,21 +16296,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2055,
     "word": "閉じる",
-    "reading": "",
+    "reading": "とじる",
     "type": "verb",
     "meaning": "close, shut"
   },
   {
     "frequency": 2056,
     "word": "芝居",
-    "reading": "",
+    "reading": "しばい",
     "type": "noun",
     "meaning": "play, drama"
   },
   {
     "frequency": 2057,
     "word": "分析",
-    "reading": "",
+    "reading": "ぶんせき",
     "type": "noun",
     "meaning": "analysis"
   },
@@ -16324,7 +16324,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2058,
     "word": "解釈",
-    "reading": "",
+    "reading": "かいしゃく",
     "type": "noun",
     "meaning": "interpretation"
   },
@@ -16338,7 +16338,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2059,
     "word": "奪う",
-    "reading": "",
+    "reading": "うばう",
     "type": "verb",
     "meaning": "rob, take by force; fascinate"
   },
@@ -16352,7 +16352,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2061,
     "word": "注文",
-    "reading": "",
+    "reading": "ちゅうもん",
     "type": "noun",
     "meaning": "order"
   },
@@ -16366,42 +16366,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2062,
     "word": "傷",
-    "reading": "",
+    "reading": "きず",
     "type": "noun",
     "meaning": "injury; scratch; bruise; flaw; stain"
   },
   {
     "frequency": 2063,
     "word": "外国人",
-    "reading": "",
+    "reading": "がいこくじん",
     "type": "noun",
     "meaning": "foreigner"
   },
   {
     "frequency": 2064,
     "word": "八時",
-    "reading": "",
+    "reading": "はちじ",
     "type": "noun",
     "meaning": "eight o’clock"
   },
   {
     "frequency": 2065,
     "word": "冷蔵庫",
-    "reading": "",
+    "reading": "れいぞうこ",
     "type": "noun",
     "meaning": "refrigerator"
   },
   {
     "frequency": 2066,
     "word": "任せる",
-    "reading": "",
+    "reading": "まかせる",
     "type": "verb",
     "meaning": "entrust, leave"
   },
   {
     "frequency": 2067,
     "word": "配慮",
-    "reading": "",
+    "reading": "はいりょ",
     "type": "noun",
     "meaning": "consideration"
   },
@@ -16415,28 +16415,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2068,
     "word": "赤",
-    "reading": "",
+    "reading": "あか",
     "type": "noun",
     "meaning": "red"
   },
   {
     "frequency": 2069,
     "word": "かぶる",
-    "reading": "",
+    "reading": "かぶる",
     "type": "verb",
     "meaning": "put on, cover"
   },
   {
     "frequency": 2070,
     "word": "海外旅行",
-    "reading": "",
+    "reading": "かいがいりょこう",
     "type": "noun",
     "meaning": "travel abroad, foreign trip"
   },
   {
     "frequency": 2071,
     "word": "営業",
-    "reading": "",
+    "reading": "えいぎょう",
     "type": "noun",
     "meaning": "business, sales"
   },
@@ -16457,21 +16457,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2073,
     "word": "なるほど",
-    "reading": "",
+    "reading": "なるほど",
     "type": "adverb",
     "meaning": "I see, indeed, to be sure, of course"
   },
   {
     "frequency": 2074,
     "word": "空港",
-    "reading": "",
+    "reading": "くうこう",
     "type": "noun",
     "meaning": "airport"
   },
   {
     "frequency": 2075,
     "word": "交換",
-    "reading": "",
+    "reading": "こうかん",
     "type": "noun",
     "meaning": "exchange"
   },
@@ -16485,28 +16485,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2076,
     "word": "生える",
-    "reading": "",
+    "reading": "はえる",
     "type": "verb",
     "meaning": "grow, sprout, cut (teeth),"
   },
   {
     "frequency": 2077,
     "word": "防ぐ",
-    "reading": "",
+    "reading": "ふせぐ",
     "type": "verb",
     "meaning": "defend, protect; prevent, keep away"
   },
   {
     "frequency": 2078,
     "word": "ホームページ",
-    "reading": "",
+    "reading": "ホームページ",
     "type": "noun",
     "meaning": "home page"
   },
   {
     "frequency": 2079,
     "word": "妊娠",
-    "reading": "",
+    "reading": "にんしん",
     "type": "noun",
     "meaning": "pregnancy"
   },
@@ -16520,14 +16520,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2080,
     "word": "貸す",
-    "reading": "",
+    "reading": "かす",
     "type": "verb",
     "meaning": "lend, rent"
   },
   {
     "frequency": 2081,
     "word": "ママ",
-    "reading": "",
+    "reading": "ママ",
     "type": "noun",
     "meaning": "mom, mummy"
   },
@@ -16541,42 +16541,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2083,
     "word": "危ない",
-    "reading": "",
+    "reading": "あぶない",
     "type": "i-adjective",
     "meaning": "dangerous, risky; questionable"
   },
   {
     "frequency": 2084,
     "word": "まっすぐ",
-    "reading": "",
+    "reading": "まっすぐ",
     "type": "noun",
     "meaning": "straight, direct"
   },
   {
     "frequency": 2084,
     "word": "まっすぐ",
-    "reading": "",
+    "reading": "まっすぐ",
     "type": "adverb",
     "meaning": "honest"
   },
   {
     "frequency": 2085,
     "word": "映像",
-    "reading": "",
+    "reading": "えいぞう",
     "type": "noun",
     "meaning": "picture, image, video"
   },
   {
     "frequency": 2086,
     "word": "壊れる",
-    "reading": "",
+    "reading": "こわれる",
     "type": "verb",
     "meaning": "be broken, be damaged; be destroyed"
   },
   {
     "frequency": 2087,
     "word": "破壊",
-    "reading": "",
+    "reading": "はかい",
     "type": "noun",
     "meaning": "destruction, demolition"
   },
@@ -16590,7 +16590,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2088,
     "word": "削除",
-    "reading": "",
+    "reading": "さくじょ",
     "type": "noun",
     "meaning": "deletion"
   },
@@ -16604,21 +16604,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2089,
     "word": "派遣",
-    "reading": "",
+    "reading": "はけん",
     "type": "noun, verb",
     "meaning": "dispatch, send"
   },
   {
     "frequency": 2090,
     "word": "カード",
-    "reading": "",
+    "reading": "カード",
     "type": "noun",
     "meaning": "card"
   },
   {
     "frequency": 2091,
     "word": "改正",
-    "reading": "",
+    "reading": "かいせい",
     "type": "noun",
     "meaning": "amendment"
   },
@@ -16632,21 +16632,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2092,
     "word": "世間",
-    "reading": "",
+    "reading": "せけん",
     "type": "noun",
     "meaning": "world, public, society"
   },
   {
     "frequency": 2093,
     "word": "手伝う",
-    "reading": "",
+    "reading": "てつだう",
     "type": "verb",
     "meaning": "help"
   },
   {
     "frequency": 2094,
     "word": "社員",
-    "reading": "",
+    "reading": "しゃいん",
     "type": "noun",
     "meaning": "employee, member of staff"
   },
@@ -16660,112 +16660,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2096,
     "word": "信頼",
-    "reading": "",
+    "reading": "しんらい",
     "type": "noun, verb",
     "meaning": "trust, rely on"
   },
   {
     "frequency": 2097,
     "word": "沿う",
-    "reading": "",
+    "reading": "そう",
     "type": "verb",
     "meaning": "along; in line with, according to, meet"
   },
   {
     "frequency": 2098,
     "word": "輝く",
-    "reading": "",
+    "reading": "かがやく",
     "type": "verb",
     "meaning": "shine, glitter, twinkle, glow"
   },
   {
     "frequency": 2099,
     "word": "三時",
-    "reading": "",
+    "reading": "さんじ",
     "type": "noun",
     "meaning": "three o’clock"
   },
   {
     "frequency": 2100,
     "word": "ペット",
-    "reading": "",
+    "reading": "ペット",
     "type": "noun",
     "meaning": "pet"
   },
   {
     "frequency": 2101,
     "word": "世",
-    "reading": "",
+    "reading": "よ",
     "type": "noun",
     "meaning": "world, public; age, reign"
   },
   {
     "frequency": 2102,
     "word": "不可能",
-    "reading": "",
+    "reading": "ふかのう",
     "type": "na-adjective",
     "meaning": "impossible"
   },
   {
     "frequency": 2102,
     "word": "不可能",
-    "reading": "",
+    "reading": "ふかのう",
     "type": "noun",
     "meaning": "impossibility"
   },
   {
     "frequency": 2103,
     "word": "襲う",
-    "reading": "",
+    "reading": "おそう",
     "type": "verb",
     "meaning": "attack, hit; seize"
   },
   {
     "frequency": 2104,
     "word": "問",
-    "reading": "",
+    "reading": "とい",
     "type": "noun",
     "meaning": "question number; counter for questions"
   },
   {
     "frequency": 2105,
     "word": "サイト",
-    "reading": "",
+    "reading": "サイト",
     "type": "noun",
     "meaning": "website"
   },
   {
     "frequency": 2106,
     "word": "ボランティア",
-    "reading": "",
+    "reading": "ボランティア",
     "type": "noun",
     "meaning": "volunteer"
   },
   {
     "frequency": 2107,
     "word": "問題点",
-    "reading": "",
+    "reading": "もんだいてん",
     "type": "noun",
     "meaning": "problem, point at issue"
   },
   {
     "frequency": 2108,
     "word": "一人一人",
-    "reading": "",
+    "reading": "ひとりひとり",
     "type": "noun",
     "meaning": "one by one, each (people)"
   },
   {
     "frequency": 2109,
     "word": "サイズ",
-    "reading": "",
+    "reading": "サイズ",
     "type": "noun",
     "meaning": "size"
   },
   {
     "frequency": 2110,
     "word": "建設",
-    "reading": "",
+    "reading": "けんせつ",
     "type": "noun",
     "meaning": "construction"
   },
@@ -16779,28 +16779,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2111,
     "word": "線",
-    "reading": "",
+    "reading": "せん",
     "type": "noun",
     "meaning": "line"
   },
   {
     "frequency": 2112,
     "word": "子育て",
-    "reading": "",
+    "reading": "こそだて",
     "type": "noun",
     "meaning": "child rearing, bringing up one’s child"
   },
   {
     "frequency": 2113,
     "word": "願い",
-    "reading": "",
+    "reading": "ねがい",
     "type": "noun",
     "meaning": "wish, hope"
   },
   {
     "frequency": 2114,
     "word": "よろしい",
-    "reading": "",
+    "reading": "よろしい",
     "type": "i-adjective",
     "meaning": "all right, good, may (I) (formal)"
   },
@@ -16814,35 +16814,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2116,
     "word": "モデル",
-    "reading": "",
+    "reading": "モデル",
     "type": "noun",
     "meaning": "model"
   },
   {
     "frequency": 2117,
     "word": "余計",
-    "reading": "",
+    "reading": "よけい",
     "type": "na-adjective",
     "meaning": "additional, extra"
   },
   {
     "frequency": 2118,
     "word": "引き続く",
-    "reading": "",
+    "reading": "ひきつづく",
     "type": "verb",
     "meaning": "continue; follow"
   },
   {
     "frequency": 2119,
     "word": "移す",
-    "reading": "",
+    "reading": "うつす",
     "type": "verb",
     "meaning": "move, transfer, shift"
   },
   {
     "frequency": 2120,
     "word": "募集",
-    "reading": "",
+    "reading": "ぼしゅう",
     "type": "noun",
     "meaning": "recruitment"
   },
@@ -16856,28 +16856,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2121,
     "word": "りんご",
-    "reading": "",
+    "reading": "りんご",
     "type": "noun",
     "meaning": "apple"
   },
   {
     "frequency": 2122,
     "word": "まずい",
-    "reading": "",
+    "reading": "まずい",
     "type": "i-adjective",
     "meaning": "not taste good; awkward"
   },
   {
     "frequency": 2123,
     "word": "食料",
-    "reading": "",
+    "reading": "しょくりょう",
     "type": "noun",
     "meaning": "food, provisions"
   },
   {
     "frequency": 2124,
     "word": "優勝",
-    "reading": "",
+    "reading": "ゆうしょう",
     "type": "noun",
     "meaning": "championship, victory"
   },
@@ -16898,35 +16898,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2126,
     "word": "属する",
-    "reading": "",
+    "reading": "ぞくする",
     "type": "verb",
     "meaning": "belong to, be a member of"
   },
   {
     "frequency": 2127,
     "word": "豊富",
-    "reading": "",
+    "reading": "ほうふ",
     "type": "na-adjective",
     "meaning": "rich, abundant"
   },
   {
     "frequency": 2128,
     "word": "消費者",
-    "reading": "",
+    "reading": "しょうひしゃ",
     "type": "noun",
     "meaning": "consumer"
   },
   {
     "frequency": 2129,
     "word": "喉",
-    "reading": "",
+    "reading": "のど",
     "type": "noun",
     "meaning": "throat; voice"
   },
   {
     "frequency": 2130,
     "word": "布団",
-    "reading": "",
+    "reading": "ふとん",
     "type": "noun",
     "meaning": "futon, Japanese-style bedding"
   },
@@ -16940,147 +16940,147 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2132,
     "word": "宇宙",
-    "reading": "",
+    "reading": "うちゅう",
     "type": "noun",
     "meaning": "universe, space"
   },
   {
     "frequency": 2133,
     "word": "同じく",
-    "reading": "",
+    "reading": "おなじく",
     "type": "adverb",
     "meaning": "likewise, like, as"
   },
   {
     "frequency": 2134,
     "word": "資金",
-    "reading": "",
+    "reading": "しきん",
     "type": "noun",
     "meaning": "funds"
   },
   {
     "frequency": 2135,
     "word": "しかたない",
-    "reading": "",
+    "reading": "しかたない",
     "type": "i-adjective",
     "meaning": "It can’t be helped, be beyond any help, I can’t help ..."
   },
   {
     "frequency": 2136,
     "word": "料金",
-    "reading": "",
+    "reading": "りょうきん",
     "type": "noun",
     "meaning": "charge, fee, fare"
   },
   {
     "frequency": 2137,
     "word": "デパート",
-    "reading": "",
+    "reading": "デパート",
     "type": "noun",
     "meaning": "department store"
   },
   {
     "frequency": 2138,
     "word": "地図",
-    "reading": "",
+    "reading": "ちず",
     "type": "noun",
     "meaning": "map"
   },
   {
     "frequency": 2139,
     "word": "唇",
-    "reading": "",
+    "reading": "くちびる",
     "type": "noun",
     "meaning": "lip"
   },
   {
     "frequency": 2140,
     "word": "釣り",
-    "reading": "",
+    "reading": "つり",
     "type": "noun",
     "meaning": "fishing"
   },
   {
     "frequency": 2141,
     "word": "十五日",
-    "reading": "",
+    "reading": "じゅうごにち",
     "type": "noun",
     "meaning": "fifteenth (date); fifteen days"
   },
   {
     "frequency": 2142,
     "word": "駅前",
-    "reading": "",
+    "reading": "えきまえ",
     "type": "noun",
     "meaning": "in front of the station"
   },
   {
     "frequency": 2143,
     "word": "つつある",
-    "reading": "",
+    "reading": "つつある",
     "type": "compound",
     "meaning": "be in the process of doing, be doing"
   },
   {
     "frequency": 2144,
     "word": "ご覧",
-    "reading": "",
+    "reading": "ごらん",
     "type": "noun",
     "meaning": "looking, seeing (honorific)"
   },
   {
     "frequency": 2145,
     "word": "大会",
-    "reading": "",
+    "reading": "たいかい",
     "type": "noun",
     "meaning": "convention, mass meeting, tournament"
   },
   {
     "frequency": 2146,
     "word": "拾う",
-    "reading": "",
+    "reading": "ひろう",
     "type": "verb",
     "meaning": "pick up, gather, pick out"
   },
   {
     "frequency": 2147,
     "word": "いざ",
-    "reading": "",
+    "reading": "いざ",
     "type": "adverb",
     "meaning": "when one comes to, if compelled"
   },
   {
     "frequency": 2148,
     "word": "二番目",
-    "reading": "",
+    "reading": "にばんめ",
     "type": "noun",
     "meaning": "second"
   },
   {
     "frequency": 2149,
     "word": "良さ",
-    "reading": "",
+    "reading": "よさ",
     "type": "noun",
     "meaning": "good point, good"
   },
   {
     "frequency": 2150,
     "word": "たって",
-    "reading": "",
+    "reading": "たって",
     "type": "particle",
     "meaning": "even if"
   },
   {
     "frequency": 2151,
     "word": "素材",
-    "reading": "",
+    "reading": "そざい",
     "type": "noun",
     "meaning": "material"
   },
   {
     "frequency": 2152,
     "word": "設立",
-    "reading": "",
+    "reading": "せつりつ",
     "type": "noun",
     "meaning": "establishment"
   },
@@ -17094,49 +17094,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2153,
     "word": "なので",
-    "reading": "",
+    "reading": "なので",
     "type": "conjunction",
     "meaning": "because, as"
   },
   {
     "frequency": 2154,
     "word": "絞る",
-    "reading": "",
+    "reading": "しぼる",
     "type": "verb",
     "meaning": "squeeze"
   },
   {
     "frequency": 2155,
     "word": "ところで",
-    "reading": "",
+    "reading": "ところで",
     "type": "conjunction",
     "meaning": "by the way, well"
   },
   {
     "frequency": 2156,
     "word": "江戸",
-    "reading": "",
+    "reading": "えど",
     "type": "noun",
     "meaning": "Edo"
   },
   {
     "frequency": 2157,
     "word": "下る",
-    "reading": "",
+    "reading": "さがる",
     "type": "verb",
     "meaning": "go down"
   },
   {
     "frequency": 2158,
     "word": "二十",
-    "reading": "",
+    "reading": "にじゅう",
     "type": "numeral",
     "meaning": "twenty"
   },
   {
     "frequency": 2159,
     "word": "反映",
-    "reading": "",
+    "reading": "はんえい",
     "type": "noun",
     "meaning": "reflection"
   },
@@ -17150,49 +17150,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2160,
     "word": "天気",
-    "reading": "",
+    "reading": "てんき",
     "type": "noun",
     "meaning": "weather"
   },
   {
     "frequency": 2161,
     "word": "作家",
-    "reading": "",
+    "reading": "さっか",
     "type": "noun",
     "meaning": "writer"
   },
   {
     "frequency": 2162,
     "word": "減らす",
-    "reading": "",
+    "reading": "へらす",
     "type": "verb",
     "meaning": "reduce, cut down"
   },
   {
     "frequency": 2163,
     "word": "十五",
-    "reading": "",
+    "reading": "じゅうご",
     "type": "numeral",
     "meaning": "fifteen"
   },
   {
     "frequency": 2164,
     "word": "ゴルフ",
-    "reading": "",
+    "reading": "ゴルフ",
     "type": "noun",
     "meaning": "golf"
   },
   {
     "frequency": 2165,
     "word": "敷く",
-    "reading": "",
+    "reading": "しく",
     "type": "verb",
     "meaning": "spread, lay"
   },
   {
     "frequency": 2166,
     "word": "合格",
-    "reading": "",
+    "reading": "ごうかく",
     "type": "noun",
     "meaning": "passing an exam"
   },
@@ -17206,84 +17206,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2167,
     "word": "日常",
-    "reading": "",
+    "reading": "にちじょう",
     "type": "noun, adverb",
     "meaning": "everyday, daily, usually"
   },
   {
     "frequency": 2168,
     "word": "毎回",
-    "reading": "",
+    "reading": "まいかい",
     "type": "noun",
     "meaning": "every time"
   },
   {
     "frequency": 2169,
     "word": "影",
-    "reading": "",
+    "reading": "かげ",
     "type": "noun",
     "meaning": "shadow"
   },
   {
     "frequency": 2170,
     "word": "うるさい",
-    "reading": "",
+    "reading": "うるさい",
     "type": "i-adjective",
     "meaning": "noisy; annoying"
   },
   {
     "frequency": 2171,
     "word": "法",
-    "reading": "",
+    "reading": "のり",
     "type": "noun",
     "meaning": "law"
   },
   {
     "frequency": 2172,
     "word": "罪",
-    "reading": "",
+    "reading": "つみ",
     "type": "noun",
     "meaning": "crime; guilt"
   },
   {
     "frequency": 2173,
     "word": "まるい",
-    "reading": "",
+    "reading": "まるい",
     "type": "i-adjective",
     "meaning": "round, circular"
   },
   {
     "frequency": 2174,
     "word": "団体",
-    "reading": "",
+    "reading": "だんたい",
     "type": "noun",
     "meaning": "party, group, organization"
   },
   {
     "frequency": 2175,
     "word": "詳細",
-    "reading": "",
+    "reading": "しょうさい",
     "type": "noun",
     "meaning": "details"
   },
   {
     "frequency": 2175,
     "word": "詳細",
-    "reading": "",
+    "reading": "しょうさい",
     "type": "na-adjective",
     "meaning": "detailed"
   },
   {
     "frequency": 2176,
     "word": "洋服",
-    "reading": "",
+    "reading": "ようふく",
     "type": "noun",
     "meaning": "clothes, suit, dress"
   },
   {
     "frequency": 2177,
     "word": "承知",
-    "reading": "",
+    "reading": "しょうち",
     "type": "noun",
     "meaning": "agreement"
   },
@@ -17297,14 +17297,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2178,
     "word": "多数",
-    "reading": "",
+    "reading": "たすう",
     "type": "noun",
     "meaning": "many, a number of"
   },
   {
     "frequency": 2179,
     "word": "運営",
-    "reading": "",
+    "reading": "うんえい",
     "type": "noun",
     "meaning": "management"
   },
@@ -17318,35 +17318,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2180,
     "word": "生き方",
-    "reading": "",
+    "reading": "いきかた",
     "type": "noun",
     "meaning": "way of life"
   },
   {
     "frequency": 2181,
     "word": "備える",
-    "reading": "",
+    "reading": "そなえる",
     "type": "verb",
     "meaning": "get something ready, prepare"
   },
   {
     "frequency": 2182,
     "word": "おしゃれ",
-    "reading": "",
+    "reading": "おしゃれ",
     "type": "na-adjective",
     "meaning": "fashionable, smart"
   },
   {
     "frequency": 2183,
     "word": "住宅",
-    "reading": "",
+    "reading": "じゅうたく",
     "type": "noun",
     "meaning": "house, residence"
   },
   {
     "frequency": 2184,
     "word": "考慮",
-    "reading": "",
+    "reading": "こうりょ",
     "type": "noun",
     "meaning": "thought"
   },
@@ -17360,42 +17360,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2185,
     "word": "働き",
-    "reading": "",
+    "reading": "はたらき",
     "type": "noun",
     "meaning": "work"
   },
   {
     "frequency": 2186,
     "word": "踏む",
-    "reading": "",
+    "reading": "ふむ",
     "type": "verb",
     "meaning": "step on, tread on"
   },
   {
     "frequency": 2187,
     "word": "ファイル",
-    "reading": "",
+    "reading": "ファイル",
     "type": "noun",
     "meaning": "file"
   },
   {
     "frequency": 2188,
     "word": "有り",
-    "reading": "",
+    "reading": "あり",
     "type": "verb",
     "meaning": "n. exist; live"
   },
   {
     "frequency": 2189,
     "word": "要因",
-    "reading": "",
+    "reading": "よういん",
     "type": "noun",
     "meaning": "factor, main cause"
   },
   {
     "frequency": 2190,
     "word": "わし",
-    "reading": "",
+    "reading": "わし",
     "type": "noun",
     "meaning": "I (used by old men)"
   },
@@ -17409,196 +17409,196 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2192,
     "word": "偶然",
-    "reading": "",
+    "reading": "ぐうぜん",
     "type": "adverb",
     "meaning": "by chance"
   },
   {
     "frequency": 2192,
     "word": "偶然",
-    "reading": "",
+    "reading": "ぐうぜん",
     "type": "noun",
     "meaning": "chance, accident"
   },
   {
     "frequency": 2193,
     "word": "だって",
-    "reading": "",
+    "reading": "だって",
     "type": "conjunction",
     "meaning": "because, but"
   },
   {
     "frequency": 2194,
     "word": "不満",
-    "reading": "",
+    "reading": "ふまん",
     "type": "noun",
     "meaning": "dissatisfaction, discontent"
   },
   {
     "frequency": 2194,
     "word": "不満",
-    "reading": "",
+    "reading": "ふまん",
     "type": "na-adjective",
     "meaning": "discontented"
   },
   {
     "frequency": 2195,
     "word": "クラブ",
-    "reading": "",
+    "reading": "クラブ",
     "type": "noun",
     "meaning": "club"
   },
   {
     "frequency": 2196,
     "word": "懐かしい",
-    "reading": "",
+    "reading": "なつかしい",
     "type": "i-adjective",
     "meaning": "nostalgic"
   },
   {
     "frequency": 2197,
     "word": "ページ",
-    "reading": "",
+    "reading": "ページ",
     "type": "noun",
     "meaning": "page"
   },
   {
     "frequency": 2198,
     "word": "止む",
-    "reading": "",
+    "reading": "やむ",
     "type": "verb",
     "meaning": "stop"
   },
   {
     "frequency": 2199,
     "word": "外れる",
-    "reading": "",
+    "reading": "はずれる",
     "type": "verb",
     "meaning": "be off, get out of place, be dislocated"
   },
   {
     "frequency": 2200,
     "word": "経済的",
-    "reading": "",
+    "reading": "けいざいてき",
     "type": "na-adjective",
     "meaning": "economical; economic; financial"
   },
   {
     "frequency": 2201,
     "word": "机",
-    "reading": "",
+    "reading": "つくえ",
     "type": "noun",
     "meaning": "desk"
   },
   {
     "frequency": 2202,
     "word": "使い方",
-    "reading": "",
+    "reading": "つかいかた",
     "type": "noun",
     "meaning": "how to use"
   },
   {
     "frequency": 2203,
     "word": "ハワイ",
-    "reading": "",
+    "reading": "ハワイ",
     "type": "noun",
     "meaning": "Hawaii"
   },
   {
     "frequency": 2204,
     "word": "予算",
-    "reading": "",
+    "reading": "よさん",
     "type": "noun",
     "meaning": "estimate, budget"
   },
   {
     "frequency": 2205,
     "word": "真面目",
-    "reading": "",
+    "reading": "しんめんもく",
     "type": "na-adjective",
     "meaning": "serious; steady; honest"
   },
   {
     "frequency": 2206,
     "word": "勇気",
-    "reading": "",
+    "reading": "ゆうき",
     "type": "noun",
     "meaning": "courage, bravery"
   },
   {
     "frequency": 2207,
     "word": "皿",
-    "reading": "",
+    "reading": "さら",
     "type": "noun",
     "meaning": "plate, dish"
   },
   {
     "frequency": 2208,
     "word": "ありがたい",
-    "reading": "",
+    "reading": "ありがたい",
     "type": "i-adjective",
     "meaning": "kind, welcome"
   },
   {
     "frequency": 2209,
     "word": "視点",
-    "reading": "",
+    "reading": "してん",
     "type": "noun",
     "meaning": "viewpoint"
   },
   {
     "frequency": 2210,
     "word": "素直",
-    "reading": "",
+    "reading": "すなお",
     "type": "na-adjective",
     "meaning": "obedient, tame"
   },
   {
     "frequency": 2211,
     "word": "表面",
-    "reading": "",
+    "reading": "ひょうめん",
     "type": "noun",
     "meaning": "surface, outside, appearance"
   },
   {
     "frequency": 2212,
     "word": "コピー",
-    "reading": "",
+    "reading": "コピー",
     "type": "noun",
     "meaning": "copy"
   },
   {
     "frequency": 2212,
     "word": "コピーする",
-    "reading": "",
+    "reading": "コピーする",
     "type": "verb",
     "meaning": "copy"
   },
   {
     "frequency": 2213,
     "word": "削る",
-    "reading": "",
+    "reading": "けずる",
     "type": "verb",
     "meaning": "shave; sharpen, plane"
   },
   {
     "frequency": 2214,
     "word": "部活",
-    "reading": "",
+    "reading": "ぶかつ",
     "type": "noun",
     "meaning": "club"
   },
   {
     "frequency": 2215,
     "word": "サラリーマン",
-    "reading": "",
+    "reading": "サラリーマン",
     "type": "noun",
     "meaning": "salaried worker, office worker"
   },
   {
     "frequency": 2216,
     "word": "制限",
-    "reading": "",
+    "reading": "せいげん",
     "type": "noun",
     "meaning": "restriction"
   },
@@ -17612,7 +17612,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2217,
     "word": "実験",
-    "reading": "",
+    "reading": "じっけん",
     "type": "noun",
     "meaning": "experimentation"
   },
@@ -17626,14 +17626,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2218,
     "word": "ニューヨーク",
-    "reading": "",
+    "reading": "ニューヨーク",
     "type": "noun",
     "meaning": "New York"
   },
   {
     "frequency": 2219,
     "word": "確かめる",
-    "reading": "",
+    "reading": "たしかめる",
     "type": "verb",
     "meaning": "confirm, make sure"
   },
@@ -17647,49 +17647,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2221,
     "word": "主人公",
-    "reading": "",
+    "reading": "しゅじんこう",
     "type": "noun",
     "meaning": "hero, heroine"
   },
   {
     "frequency": 2222,
     "word": "もっとも",
-    "reading": "",
+    "reading": "もっとも",
     "type": "conjunction",
     "meaning": "though, although"
   },
   {
     "frequency": 2223,
     "word": "アメリカ人",
-    "reading": "",
+    "reading": "アメリカじん",
     "type": "noun",
     "meaning": "American (person)"
   },
   {
     "frequency": 2224,
     "word": "テスト",
-    "reading": "",
+    "reading": "テスト",
     "type": "noun",
     "meaning": "test"
   },
   {
     "frequency": 2224,
     "word": "テストする",
-    "reading": "",
+    "reading": "テストする",
     "type": "verb",
     "meaning": "test"
   },
   {
     "frequency": 2225,
     "word": "高校時代",
-    "reading": "",
+    "reading": "こうこうじだい",
     "type": "noun",
     "meaning": "high school days"
   },
   {
     "frequency": 2226,
     "word": "満足",
-    "reading": "",
+    "reading": "まんぞく",
     "type": "noun",
     "meaning": "satisfaction"
   },
@@ -17703,63 +17703,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2227,
     "word": "愛情",
-    "reading": "",
+    "reading": "あいじょう",
     "type": "noun",
     "meaning": "love, affection"
   },
   {
     "frequency": 2228,
     "word": "微妙",
-    "reading": "",
+    "reading": "びみょう",
     "type": "na-adjective",
     "meaning": "delicate, subtle"
   },
   {
     "frequency": 2229,
     "word": "生み出す",
-    "reading": "",
+    "reading": "うみだす",
     "type": "verb",
     "meaning": "create, invent"
   },
   {
     "frequency": 2230,
     "word": "ビル",
-    "reading": "",
+    "reading": "ビル",
     "type": "noun",
     "meaning": "building"
   },
   {
     "frequency": 2231,
     "word": "あらかじめ",
-    "reading": "",
+    "reading": "あらかじめ",
     "type": "adverb",
     "meaning": "beforehand, in advance"
   },
   {
     "frequency": 2232,
     "word": "財産",
-    "reading": "",
+    "reading": "ざいさん",
     "type": "noun",
     "meaning": "property; fortune"
   },
   {
     "frequency": 2233,
     "word": "証拠",
-    "reading": "",
+    "reading": "しょうこ",
     "type": "noun",
     "meaning": "evidence"
   },
   {
     "frequency": 2234,
     "word": "我",
-    "reading": "",
+    "reading": "われ",
     "type": "pronoun",
     "meaning": "I; oneself"
   },
   {
     "frequency": 2235,
     "word": "訓練",
-    "reading": "",
+    "reading": "くんれん",
     "type": "noun",
     "meaning": "training"
   },
@@ -17773,7 +17773,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2236,
     "word": "区別",
-    "reading": "",
+    "reading": "くべつ",
     "type": "noun",
     "meaning": "distinction"
   },
@@ -17787,77 +17787,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2237,
     "word": "四日",
-    "reading": "",
+    "reading": "よっか",
     "type": "noun",
     "meaning": "fourth (date); four days"
   },
   {
     "frequency": 2238,
     "word": "サークル",
-    "reading": "",
+    "reading": "サークル",
     "type": "noun",
     "meaning": "circle, club"
   },
   {
     "frequency": 2239,
     "word": "皆様",
-    "reading": "",
+    "reading": "みなさま",
     "type": "noun",
     "meaning": "everybody"
   },
   {
     "frequency": 2240,
     "word": "光景",
-    "reading": "",
+    "reading": "こうけい",
     "type": "noun",
     "meaning": "sight, spectacle"
   },
   {
     "frequency": 2241,
     "word": "パターン",
-    "reading": "",
+    "reading": "パターン",
     "type": "noun",
     "meaning": "pattern"
   },
   {
     "frequency": 2242,
     "word": "シーン",
-    "reading": "",
+    "reading": "シーン",
     "type": "noun",
     "meaning": "scene"
   },
   {
     "frequency": 2243,
     "word": "新鮮",
-    "reading": "",
+    "reading": "しんせん",
     "type": "na-adjective",
     "meaning": "fresh"
   },
   {
     "frequency": 2244,
     "word": "恵まれる",
-    "reading": "",
+    "reading": "めぐまれる",
     "type": "verb",
     "meaning": "be blessed"
   },
   {
     "frequency": 2245,
     "word": "煮る",
-    "reading": "",
+    "reading": "にる",
     "type": "verb",
     "meaning": "boil, cook"
   },
   {
     "frequency": 2246,
     "word": "旨",
-    "reading": "",
+    "reading": "むね",
     "type": "noun",
     "meaning": "effect; principle"
   },
   {
     "frequency": 2247,
     "word": "反省",
-    "reading": "",
+    "reading": "はんせい",
     "type": "noun",
     "meaning": "soul-searching, reflection"
   },
@@ -17871,7 +17871,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2248,
     "word": "放送",
-    "reading": "",
+    "reading": "ほうそう",
     "type": "noun",
     "meaning": "broadcasting, telecasting"
   },
@@ -17885,42 +17885,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2249,
     "word": "人間関係",
-    "reading": "",
+    "reading": "にんげんかんけい",
     "type": "noun",
     "meaning": "interpersonal relationship"
   },
   {
     "frequency": 2250,
     "word": "ボタン",
-    "reading": "",
+    "reading": "ボタン",
     "type": "noun",
     "meaning": "button"
   },
   {
     "frequency": 2251,
     "word": "少女",
-    "reading": "",
+    "reading": "しょうじょ",
     "type": "noun",
     "meaning": "girl"
   },
   {
     "frequency": 2252,
     "word": "命ずる",
-    "reading": "",
+    "reading": "めいずる",
     "type": "verb",
     "meaning": "order"
   },
   {
     "frequency": 2253,
     "word": "自己",
-    "reading": "",
+    "reading": "じこ",
     "type": "noun",
     "meaning": "oneself, self"
   },
   {
     "frequency": 2254,
     "word": "ロンドン",
-    "reading": "",
+    "reading": "ロンドン",
     "type": "noun",
     "meaning": "London"
   },
@@ -17934,91 +17934,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2256,
     "word": "加わる",
-    "reading": "",
+    "reading": "くわわる",
     "type": "verb",
     "meaning": "increase, add; join"
   },
   {
     "frequency": 2257,
     "word": "規模",
-    "reading": "",
+    "reading": "きぼ",
     "type": "noun",
     "meaning": "scale"
   },
   {
     "frequency": 2258,
     "word": "悩み",
-    "reading": "",
+    "reading": "なやみ",
     "type": "noun",
     "meaning": "trouble, worry"
   },
   {
     "frequency": 2259,
     "word": "鳴る",
-    "reading": "",
+    "reading": "なる",
     "type": "verb",
     "meaning": "sound; ring"
   },
   {
     "frequency": 2260,
     "word": "運",
-    "reading": "",
+    "reading": "うん",
     "type": "noun",
     "meaning": "luck, fortune"
   },
   {
     "frequency": 2261,
     "word": "ルール",
-    "reading": "",
+    "reading": "ルール",
     "type": "noun",
     "meaning": "rule"
   },
   {
     "frequency": 2262,
     "word": "妙",
-    "reading": "",
+    "reading": "みょう",
     "type": "na-adjective",
     "meaning": "strange, curious"
   },
   {
     "frequency": 2263,
     "word": "告げる",
-    "reading": "",
+    "reading": "つげる",
     "type": "verb",
     "meaning": "tell, announce"
   },
   {
     "frequency": 2264,
     "word": "恋",
-    "reading": "",
+    "reading": "こい",
     "type": "noun",
     "meaning": "love (romantic)"
   },
   {
     "frequency": 2265,
     "word": "現象",
-    "reading": "",
+    "reading": "げんしょう",
     "type": "noun",
     "meaning": "phenomenon, happening; phase"
   },
   {
     "frequency": 2266,
     "word": "ベース",
-    "reading": "",
+    "reading": "ベース",
     "type": "noun",
     "meaning": "base, basis"
   },
   {
     "frequency": 2267,
     "word": "ネット",
-    "reading": "",
+    "reading": "ネット",
     "type": "noun",
     "meaning": "net"
   },
   {
     "frequency": 2268,
     "word": "許可",
-    "reading": "",
+    "reading": "きょか",
     "type": "noun",
     "meaning": "permission, leave"
   },
@@ -18032,91 +18032,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2269,
     "word": "商売",
-    "reading": "",
+    "reading": "しょうばい",
     "type": "noun",
     "meaning": "business"
   },
   {
     "frequency": 2270,
     "word": "積む",
-    "reading": "",
+    "reading": "つむ",
     "type": "verb",
     "meaning": "pile up, heap up; acquire, accumulate"
   },
   {
     "frequency": 2271,
     "word": "文句",
-    "reading": "",
+    "reading": "もんく",
     "type": "noun",
     "meaning": "words; complaint"
   },
   {
     "frequency": 2272,
     "word": "発想",
-    "reading": "",
+    "reading": "はっそう",
     "type": "noun",
     "meaning": "idea, conception"
   },
   {
     "frequency": 2273,
     "word": "見なす",
-    "reading": "",
+    "reading": "みなす",
     "type": "verb",
     "meaning": "be considered, look upon"
   },
   {
     "frequency": 2274,
     "word": "親戚",
-    "reading": "",
+    "reading": "しんせき",
     "type": "noun",
     "meaning": "relative"
   },
   {
     "frequency": 2275,
     "word": "大幅",
-    "reading": "",
+    "reading": "おおはば",
     "type": "na-adjective",
     "meaning": "steep, big, sharp"
   },
   {
     "frequency": 2276,
     "word": "アドバイス",
-    "reading": "",
+    "reading": "アドバイス",
     "type": "noun",
     "meaning": "advice"
   },
   {
     "frequency": 2277,
     "word": "ダイエット",
-    "reading": "",
+    "reading": "ダイエット",
     "type": "noun",
     "meaning": "diet"
   },
   {
     "frequency": 2277,
     "word": "ダイエットする",
-    "reading": "",
+    "reading": "ダイエットする",
     "type": "verb",
     "meaning": "go on a diet"
   },
   {
     "frequency": 2278,
     "word": "生命",
-    "reading": "",
+    "reading": "せいめい",
     "type": "noun",
     "meaning": "life"
   },
   {
     "frequency": 2279,
     "word": "中央",
-    "reading": "",
+    "reading": "ちゅうおう",
     "type": "noun",
     "meaning": "center adj. central"
   },
   {
     "frequency": 2280,
     "word": "発行",
-    "reading": "",
+    "reading": "はっこう",
     "type": "noun",
     "meaning": "publication, issue"
   },
@@ -18130,21 +18130,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2281,
     "word": "ほめる",
-    "reading": "",
+    "reading": "ほめる",
     "type": "verb",
     "meaning": "praise, speak well of, commend"
   },
   {
     "frequency": 2282,
     "word": "カナダ",
-    "reading": "",
+    "reading": "カナダ",
     "type": "noun",
     "meaning": "Canada"
   },
   {
     "frequency": 2283,
     "word": "請求",
-    "reading": "",
+    "reading": "せいきゅう",
     "type": "noun",
     "meaning": "demand, request, charge"
   },
@@ -18158,7 +18158,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2284,
     "word": "企画",
-    "reading": "",
+    "reading": "きかく",
     "type": "noun",
     "meaning": "planning"
   },
@@ -18172,7 +18172,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2285,
     "word": "話し合う",
-    "reading": "",
+    "reading": "はなしあう",
     "type": "verb",
     "meaning": "talk, discuss"
   },
@@ -18186,14 +18186,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2287,
     "word": "増す",
-    "reading": "",
+    "reading": "ます",
     "type": "verb",
     "meaning": "increase"
   },
   {
     "frequency": 2288,
     "word": "浴びる",
-    "reading": "",
+    "reading": "あびる",
     "type": "verb",
     "meaning": "bathe; pour"
   },
@@ -18214,56 +18214,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2291,
     "word": "渋谷",
-    "reading": "",
+    "reading": "しぶや",
     "type": "noun",
     "meaning": "Shibuya (place name)"
   },
   {
     "frequency": 2292,
     "word": "間違える",
-    "reading": "",
+    "reading": "まちがえる",
     "type": "verb",
     "meaning": "make a mistake"
   },
   {
     "frequency": 2293,
     "word": "セット",
-    "reading": "",
+    "reading": "セット",
     "type": "noun",
     "meaning": "set"
   },
   {
     "frequency": 2294,
     "word": "てはならない",
-    "reading": "",
+    "reading": "てはならない",
     "type": "compound",
     "meaning": "must not, should not"
   },
   {
     "frequency": 2295,
     "word": "明かり",
-    "reading": "",
+    "reading": "あかり",
     "type": "noun",
     "meaning": "light"
   },
   {
     "frequency": 2296,
     "word": "玉ねぎ",
-    "reading": "",
+    "reading": "たまねぎ",
     "type": "noun",
     "meaning": "onion"
   },
   {
     "frequency": 2297,
     "word": "しかない",
-    "reading": "",
+    "reading": "しかない",
     "type": "compound",
     "meaning": "can’t but, can only, have no choice"
   },
   {
     "frequency": 2298,
     "word": "合計",
-    "reading": "",
+    "reading": "ごうけい",
     "type": "noun",
     "meaning": "sum total"
   },
@@ -18277,49 +18277,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2299,
     "word": "良し",
-    "reading": "",
+    "reading": "よし",
     "type": "i-adjective",
     "meaning": "good, OK"
   },
   {
     "frequency": 2300,
     "word": "二本",
-    "reading": "",
+    "reading": "にほん",
     "type": "noun",
     "meaning": "two (long/cylindrical objects)"
   },
   {
     "frequency": 2301,
     "word": "御",
-    "reading": "",
+    "reading": "ご",
     "type": "prefix",
     "meaning": "POLITENESS PREFIX"
   },
   {
     "frequency": 2302,
     "word": "貴重",
-    "reading": "",
+    "reading": "きちょう",
     "type": "na-adjective",
     "meaning": "precious, valuable"
   },
   {
     "frequency": 2303,
     "word": "引っ張る",
-    "reading": "",
+    "reading": "ひっぱる",
     "type": "verb",
     "meaning": "pull"
   },
   {
     "frequency": 2304,
     "word": "城",
-    "reading": "",
+    "reading": "しろ",
     "type": "noun",
     "meaning": "castle"
   },
   {
     "frequency": 2305,
     "word": "対処",
-    "reading": "",
+    "reading": "たいしょ",
     "type": "noun",
     "meaning": "handling, coping"
   },
@@ -18333,140 +18333,140 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2306,
     "word": "覆う",
-    "reading": "",
+    "reading": "おおう",
     "type": "verb",
     "meaning": "cover"
   },
   {
     "frequency": 2307,
     "word": "教授",
-    "reading": "",
+    "reading": "きょうじゅ",
     "type": "noun",
     "meaning": "professor"
   },
   {
     "frequency": 2308,
     "word": "橋",
-    "reading": "",
+    "reading": "はし",
     "type": "noun",
     "meaning": "bridge"
   },
   {
     "frequency": 2309,
     "word": "巨大",
-    "reading": "",
+    "reading": "きょだい",
     "type": "na-adjective",
     "meaning": "huge, enormous, gigantic"
   },
   {
     "frequency": 2310,
     "word": "あちらこちら",
-    "reading": "",
+    "reading": "あちらこちら",
     "type": "pronoun",
     "meaning": "here and there"
   },
   {
     "frequency": 2311,
     "word": "苦手",
-    "reading": "",
+    "reading": "にがて",
     "type": "na-adjective",
     "meaning": "not good at, weak point"
   },
   {
     "frequency": 2312,
     "word": "スタイル",
-    "reading": "",
+    "reading": "スタイル",
     "type": "noun",
     "meaning": "style, body, figure"
   },
   {
     "frequency": 2313,
     "word": "テント",
-    "reading": "",
+    "reading": "テント",
     "type": "noun",
     "meaning": "tent"
   },
   {
     "frequency": 2314,
     "word": "ユダヤ人",
-    "reading": "",
+    "reading": "ユダヤじん",
     "type": "noun",
     "meaning": "Jew, Jewish person"
   },
   {
     "frequency": 2315,
     "word": "主",
-    "reading": "",
+    "reading": "おも",
     "type": "noun",
     "meaning": "head, master"
   },
   {
     "frequency": 2316,
     "word": "意志",
-    "reading": "",
+    "reading": "いし",
     "type": "noun",
     "meaning": "will, willpower"
   },
   {
     "frequency": 2317,
     "word": "容易",
-    "reading": "",
+    "reading": "ようい",
     "type": "na-adjective",
     "meaning": "easy"
   },
   {
     "frequency": 2318,
     "word": "しばしば",
-    "reading": "",
+    "reading": "しばしば",
     "type": "adverb",
     "meaning": "always, often"
   },
   {
     "frequency": 2319,
     "word": "のんびり",
-    "reading": "",
+    "reading": "のんびり",
     "type": "adverb",
     "meaning": "tranquil, leisurely, easygoing"
   },
   {
     "frequency": 2320,
     "word": "話しかける",
-    "reading": "",
+    "reading": "はなしかける",
     "type": "verb",
     "meaning": "speak to"
   },
   {
     "frequency": 2321,
     "word": "揃える",
-    "reading": "",
+    "reading": "そろえる",
     "type": "verb",
     "meaning": "arrange, prepare"
   },
   {
     "frequency": 2322,
     "word": "毎月",
-    "reading": "",
+    "reading": "まいつき",
     "type": "noun",
     "meaning": "every month"
   },
   {
     "frequency": 2323,
     "word": "礼",
-    "reading": "",
+    "reading": "れい",
     "type": "noun",
     "meaning": "bow; courtesy"
   },
   {
     "frequency": 2324,
     "word": "つぶやく",
-    "reading": "",
+    "reading": "つぶやく",
     "type": "verb",
     "meaning": "mutter, murmur"
   },
   {
     "frequency": 2325,
     "word": "抵抗",
-    "reading": "",
+    "reading": "ていこう",
     "type": "noun",
     "meaning": "resistance"
   },
@@ -18480,21 +18480,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2326,
     "word": "十一時",
-    "reading": "",
+    "reading": "じゅういちじ",
     "type": "noun",
     "meaning": "eleven o’clock"
   },
   {
     "frequency": 2327,
     "word": "恐怖",
-    "reading": "",
+    "reading": "きょうふ",
     "type": "noun",
     "meaning": "fear, dread, terror"
   },
   {
     "frequency": 2328,
     "word": "支配",
-    "reading": "",
+    "reading": "しはい",
     "type": "noun",
     "meaning": "rule, control"
   },
@@ -18508,28 +18508,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2329,
     "word": "右手",
-    "reading": "",
+    "reading": "みぎて",
     "type": "noun",
     "meaning": "right hand"
   },
   {
     "frequency": 2330,
     "word": "親しい",
-    "reading": "",
+    "reading": "したしい",
     "type": "i-adjective",
     "meaning": "close, friendly"
   },
   {
     "frequency": 2331,
     "word": "間違い無い",
-    "reading": "",
+    "reading": "まちがいない",
     "type": "i-adjective",
     "meaning": "must be"
   },
   {
     "frequency": 2332,
     "word": "禁止",
-    "reading": "",
+    "reading": "きんし",
     "type": "noun",
     "meaning": "prohibition, ban"
   },
@@ -18543,21 +18543,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2333,
     "word": "怒り",
-    "reading": "",
+    "reading": "いかり",
     "type": "noun",
     "meaning": "anger, rage, fury"
   },
   {
     "frequency": 2334,
     "word": "本格的",
-    "reading": "",
+    "reading": "ほんかくてき",
     "type": "na-adjective",
     "meaning": "genuine, real; full-scale"
   },
   {
     "frequency": 2335,
     "word": "命令",
-    "reading": "",
+    "reading": "めいれい",
     "type": "noun",
     "meaning": "order, command, direction"
   },
@@ -18571,14 +18571,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2336,
     "word": "四時",
-    "reading": "",
+    "reading": "よじ",
     "type": "noun",
     "meaning": "four o’clock"
   },
   {
     "frequency": 2337,
     "word": "援助",
-    "reading": "",
+    "reading": "えんじょ",
     "type": "noun",
     "meaning": "assistance, aid, support"
   },
@@ -18592,35 +18592,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2338,
     "word": "二人共",
-    "reading": "",
+    "reading": "ふたりとも",
     "type": "adverb",
     "meaning": "both of them, two people"
   },
   {
     "frequency": 2339,
     "word": "好む",
-    "reading": "",
+    "reading": "このむ",
     "type": "verb",
     "meaning": "like, be fond of, love, care"
   },
   {
     "frequency": 2340,
     "word": "苦しむ",
-    "reading": "",
+    "reading": "くるしむ",
     "type": "verb",
     "meaning": "feel pain, suffer"
   },
   {
     "frequency": 2341,
     "word": "見方",
-    "reading": "",
+    "reading": "みかた",
     "type": "noun",
     "meaning": "point of view, way of looking"
   },
   {
     "frequency": 2342,
     "word": "介護",
-    "reading": "",
+    "reading": "かいご",
     "type": "noun",
     "meaning": "nursing, care"
   },
@@ -18634,14 +18634,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2343,
     "word": "成績",
-    "reading": "",
+    "reading": "せいせき",
     "type": "noun",
     "meaning": "record, result, grade, mark"
   },
   {
     "frequency": 2344,
     "word": "広告",
-    "reading": "",
+    "reading": "こうこく",
     "type": "noun",
     "meaning": "advertisement, flyer"
   },
@@ -18655,14 +18655,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2345,
     "word": "本日",
-    "reading": "",
+    "reading": "ほんじつ",
     "type": "noun",
     "meaning": "today"
   },
   {
     "frequency": 2346,
     "word": "強調",
-    "reading": "",
+    "reading": "きょうちょう",
     "type": "noun",
     "meaning": "emphasis, stress"
   },
@@ -18676,63 +18676,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2347,
     "word": "大いに",
-    "reading": "",
+    "reading": "おおいに",
     "type": "adverb",
     "meaning": "very, greatly"
   },
   {
     "frequency": 2348,
     "word": "たまる",
-    "reading": "",
+    "reading": "たまる",
     "type": "verb",
     "meaning": "bear, endure"
   },
   {
     "frequency": 2349,
     "word": "お子さん",
-    "reading": "",
+    "reading": "おこさん",
     "type": "noun",
     "meaning": "(someone else’s) child"
   },
   {
     "frequency": 2350,
     "word": "実態",
-    "reading": "",
+    "reading": "じったい",
     "type": "noun",
     "meaning": "actual situation"
   },
   {
     "frequency": 2351,
     "word": "によれば",
-    "reading": "",
+    "reading": "によれば",
     "type": "compound",
     "meaning": "according to, ... say"
   },
   {
     "frequency": 2352,
     "word": "隠れる",
-    "reading": "",
+    "reading": "かくれる",
     "type": "verb",
     "meaning": "be hidden, hide"
   },
   {
     "frequency": 2353,
     "word": "埋める",
-    "reading": "",
+    "reading": "うずめる",
     "type": "verb",
     "meaning": "cover, bury"
   },
   {
     "frequency": 2354,
     "word": "トップ",
-    "reading": "",
+    "reading": "トップ",
     "type": "noun",
     "meaning": "top"
   },
   {
     "frequency": 2355,
     "word": "依頼",
-    "reading": "",
+    "reading": "いらい",
     "type": "noun",
     "meaning": "request"
   },
@@ -18746,7 +18746,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2356,
     "word": "もはや",
-    "reading": "",
+    "reading": "もはや",
     "type": "adverb",
     "meaning": "now, already; not ... any longer"
   },
@@ -18760,7 +18760,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2358,
     "word": "出産",
-    "reading": "",
+    "reading": "しゅっさん",
     "type": "noun",
     "meaning": "birth"
   },
@@ -18774,7 +18774,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2359,
     "word": "達成",
-    "reading": "",
+    "reading": "たっせい",
     "type": "noun",
     "meaning": "achievement, attainment"
   },
@@ -18788,7 +18788,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2360,
     "word": "申請",
-    "reading": "",
+    "reading": "しんせい",
     "type": "noun",
     "meaning": "application, petition"
   },
@@ -18802,105 +18802,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2361,
     "word": "知り合う",
-    "reading": "",
+    "reading": "しりあう",
     "type": "verb",
     "meaning": "get to know"
   },
   {
     "frequency": 2362,
     "word": "親子",
-    "reading": "",
+    "reading": "おやこ",
     "type": "noun",
     "meaning": "parent and child, parents and children"
   },
   {
     "frequency": 2363,
     "word": "取り組み",
-    "reading": "",
+    "reading": "とりくみ",
     "type": "noun",
     "meaning": "match; approach"
   },
   {
     "frequency": 2364,
     "word": "招く",
-    "reading": "",
+    "reading": "まねく",
     "type": "verb",
     "meaning": "invite"
   },
   {
     "frequency": 2365,
     "word": "二十日",
-    "reading": "",
+    "reading": "はつか",
     "type": "noun",
     "meaning": "twentieth (date); twenty days"
   },
   {
     "frequency": 2366,
     "word": "政治家",
-    "reading": "",
+    "reading": "せいじか",
     "type": "noun",
     "meaning": "politician"
   },
   {
     "frequency": 2367,
     "word": "飛び出す",
-    "reading": "",
+    "reading": "とびだす",
     "type": "verb",
     "meaning": "spring out; come rushing out"
   },
   {
     "frequency": 2368,
     "word": "陥る",
-    "reading": "",
+    "reading": "おちいる",
     "type": "verb",
     "meaning": "fall into"
   },
   {
     "frequency": 2369,
     "word": "寄せる",
-    "reading": "",
+    "reading": "よせる",
     "type": "verb",
     "meaning": "let come near, bring near; put; be dependent on"
   },
   {
     "frequency": 2370,
     "word": "定員",
-    "reading": "",
+    "reading": "ていいん",
     "type": "noun",
     "meaning": "capacity (people)"
   },
   {
     "frequency": 2371,
     "word": "駐車場",
-    "reading": "",
+    "reading": "ちゅうしゃじょう",
     "type": "noun",
     "meaning": "parking space, parking lot, car park"
   },
   {
     "frequency": 2372,
     "word": "彼氏",
-    "reading": "",
+    "reading": "かれし",
     "type": "noun",
     "meaning": "boyfriend"
   },
   {
     "frequency": 2373,
     "word": "式",
-    "reading": "",
+    "reading": "しき",
     "type": "noun",
     "meaning": "ceremony"
   },
   {
     "frequency": 2374,
     "word": "によっては",
-    "reading": "",
+    "reading": "によっては",
     "type": "compound",
     "meaning": "depending on"
   },
   {
     "frequency": 2375,
     "word": "蓋",
-    "reading": "",
+    "reading": "ふた",
     "type": "noun",
     "meaning": "lid"
   },
@@ -18914,35 +18914,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2377,
     "word": "社会人",
-    "reading": "",
+    "reading": "しゃかいじん",
     "type": "noun",
     "meaning": "adult; full member of society"
   },
   {
     "frequency": 2378,
     "word": "墓",
-    "reading": "",
+    "reading": "はか",
     "type": "noun",
     "meaning": "grave"
   },
   {
     "frequency": 2379,
     "word": "十三",
-    "reading": "",
+    "reading": "じゅうさん",
     "type": "numeral",
     "meaning": "thirteen"
   },
   {
     "frequency": 2380,
     "word": "宿",
-    "reading": "",
+    "reading": "しゅく",
     "type": "noun",
     "meaning": "inn, hotel"
   },
   {
     "frequency": 2381,
     "word": "都心",
-    "reading": "",
+    "reading": "としん",
     "type": "noun",
     "meaning": "city center, downtown area"
   },
@@ -18956,35 +18956,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2383,
     "word": "役立つ",
-    "reading": "",
+    "reading": "やくだつ",
     "type": "verb",
     "meaning": "useful"
   },
   {
     "frequency": 2384,
     "word": "土曜日",
-    "reading": "",
+    "reading": "どようび",
     "type": "noun",
     "meaning": "Saturday"
   },
   {
     "frequency": 2385,
     "word": "労働者",
-    "reading": "",
+    "reading": "ろうどうしゃ",
     "type": "noun",
     "meaning": "laborer, working man"
   },
   {
     "frequency": 2386,
     "word": "五日",
-    "reading": "",
+    "reading": "いつか",
     "type": "noun",
     "meaning": "fifth (date); five days"
   },
   {
     "frequency": 2387,
     "word": "発売",
-    "reading": "",
+    "reading": "はつばい",
     "type": "noun",
     "meaning": "sale"
   },
@@ -18998,301 +18998,301 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2388,
     "word": "成り立つ",
-    "reading": "",
+    "reading": "なりたつ",
     "type": "verb",
     "meaning": "be concluded; consist of"
   },
   {
     "frequency": 2389,
     "word": "人数",
-    "reading": "",
+    "reading": "にんずう",
     "type": "noun",
     "meaning": "number of people"
   },
   {
     "frequency": 2390,
     "word": "物質",
-    "reading": "",
+    "reading": "ぶっしつ",
     "type": "noun",
     "meaning": "matter, material"
   },
   {
     "frequency": 2391,
     "word": "温度",
-    "reading": "",
+    "reading": "おんど",
     "type": "noun",
     "meaning": "temperature; heat"
   },
   {
     "frequency": 2392,
     "word": "性質",
-    "reading": "",
+    "reading": "せいしつ",
     "type": "noun",
     "meaning": "nature, disposition"
   },
   {
     "frequency": 2393,
     "word": "方針",
-    "reading": "",
+    "reading": "ほうしん",
     "type": "noun",
     "meaning": "course, line; policy, plan; principle"
   },
   {
     "frequency": 2394,
     "word": "ひたすら",
-    "reading": "",
+    "reading": "ひたすら",
     "type": "adverb",
     "meaning": "determinedly, earnestly"
   },
   {
     "frequency": 2395,
     "word": "秘密",
-    "reading": "",
+    "reading": "ひみつ",
     "type": "noun",
     "meaning": "secret, confidence"
   },
   {
     "frequency": 2396,
     "word": "該当",
-    "reading": "",
+    "reading": "がいとう",
     "type": "noun",
     "meaning": "fall under, be applicable, correspond"
   },
   {
     "frequency": 2397,
     "word": "案内",
-    "reading": "",
+    "reading": "あんない",
     "type": "noun",
     "meaning": "guidance; guide, sign"
   },
   {
     "frequency": 2398,
     "word": "基礎",
-    "reading": "",
+    "reading": "きそ",
     "type": "noun",
     "meaning": "basis, basics, foundation"
   },
   {
     "frequency": 2399,
     "word": "単なる",
-    "reading": "",
+    "reading": "たんなる",
     "type": "adnominal",
     "meaning": "mere, simple"
   },
   {
     "frequency": 2400,
     "word": "草",
-    "reading": "",
+    "reading": "くさ",
     "type": "noun",
     "meaning": "grass, weed"
   },
   {
     "frequency": 2401,
     "word": "食品",
-    "reading": "",
+    "reading": "しょくひん",
     "type": "noun",
     "meaning": "food"
   },
   {
     "frequency": 2402,
     "word": "トラブル",
-    "reading": "",
+    "reading": "トラブル",
     "type": "noun",
     "meaning": "trouble"
   },
   {
     "frequency": 2403,
     "word": "植える",
-    "reading": "",
+    "reading": "うえる",
     "type": "verb",
     "meaning": "plant"
   },
   {
     "frequency": 2404,
     "word": "定義",
-    "reading": "",
+    "reading": "ていぎ",
     "type": "noun",
     "meaning": "definition"
   },
   {
     "frequency": 2405,
     "word": "盛り上がる",
-    "reading": "",
+    "reading": "もりあがる",
     "type": "verb",
     "meaning": "swell, rise; liven up"
   },
   {
     "frequency": 2406,
     "word": "祖父",
-    "reading": "",
+    "reading": "そふ",
     "type": "noun",
     "meaning": "grandfather"
   },
   {
     "frequency": 2407,
     "word": "扉",
-    "reading": "",
+    "reading": "とびら",
     "type": "noun",
     "meaning": "door"
   },
   {
     "frequency": 2408,
     "word": "僕達",
-    "reading": "",
+    "reading": "ぼくたち",
     "type": "pronoun",
     "meaning": "we (used by male speakers)"
   },
   {
     "frequency": 2409,
     "word": "にわたって",
-    "reading": "",
+    "reading": "にわたって",
     "type": "compound",
     "meaning": "throughout, over a period of"
   },
   {
     "frequency": 2410,
     "word": "廊下",
-    "reading": "",
+    "reading": "ろうか",
     "type": "noun",
     "meaning": "corridor"
   },
   {
     "frequency": 2411,
     "word": "要請",
-    "reading": "",
+    "reading": "ようせい",
     "type": "noun",
     "meaning": "request"
   },
   {
     "frequency": 2412,
     "word": "お姉さん",
-    "reading": "",
+    "reading": "おねえさん",
     "type": "noun",
     "meaning": "elder sister"
   },
   {
     "frequency": 2413,
     "word": "プログラム",
-    "reading": "",
+    "reading": "プログラム",
     "type": "noun",
     "meaning": "program"
   },
   {
     "frequency": 2414,
     "word": "職業",
-    "reading": "",
+    "reading": "しょくぎょう",
     "type": "noun",
     "meaning": "occupation, trade, profession"
   },
   {
     "frequency": 2415,
     "word": "限界",
-    "reading": "",
+    "reading": "げんかい",
     "type": "noun",
     "meaning": "limit, boundary"
   },
   {
     "frequency": 2416,
     "word": "地位",
-    "reading": "",
+    "reading": "ちい",
     "type": "noun",
     "meaning": "rank, position"
   },
   {
     "frequency": 2417,
     "word": "負う",
-    "reading": "",
+    "reading": "おう",
     "type": "verb",
     "meaning": "take, assume"
   },
   {
     "frequency": 2418,
     "word": "何しろ",
-    "reading": "",
+    "reading": "なにしろ",
     "type": "adverb",
     "meaning": "anyhow, anyway"
   },
   {
     "frequency": 2419,
     "word": "何と",
-    "reading": "",
+    "reading": "なんと",
     "type": "adverb",
     "meaning": "how, what"
   },
   {
     "frequency": 2420,
     "word": "エンジン",
-    "reading": "",
+    "reading": "エンジン",
     "type": "noun",
     "meaning": "engine"
   },
   {
     "frequency": 2421,
     "word": "コンビニ",
-    "reading": "",
+    "reading": "コンビニ",
     "type": "noun",
     "meaning": "convenience store"
   },
   {
     "frequency": 2422,
     "word": "質",
-    "reading": "",
+    "reading": "しつ",
     "type": "noun",
     "meaning": "nature, quality"
   },
   {
     "frequency": 2423,
     "word": "漢字",
-    "reading": "",
+    "reading": "かんじ",
     "type": "noun",
     "meaning": "kanji, Chinese character"
   },
   {
     "frequency": 2424,
     "word": "政策",
-    "reading": "",
+    "reading": "せいさく",
     "type": "noun",
     "meaning": "policy"
   },
   {
     "frequency": 2425,
     "word": "本物",
-    "reading": "",
+    "reading": "ほんもの",
     "type": "noun",
     "meaning": "real (thing), genuine"
   },
   {
     "frequency": 2426,
     "word": "作り出す",
-    "reading": "",
+    "reading": "つくりだす",
     "type": "verb",
     "meaning": "make, create"
   },
   {
     "frequency": 2427,
     "word": "解消",
-    "reading": "",
+    "reading": "かいしょう",
     "type": "noun",
     "meaning": "cancellation, annulment; cancel, dissolve"
   },
   {
     "frequency": 2428,
     "word": "キャンプ",
-    "reading": "",
+    "reading": "キャンプ",
     "type": "noun",
     "meaning": "camp"
   },
   {
     "frequency": 2429,
     "word": "アルバム",
-    "reading": "",
+    "reading": "アルバム",
     "type": "noun",
     "meaning": "album"
   },
   {
     "frequency": 2430,
     "word": "運命",
-    "reading": "",
+    "reading": "うんめい",
     "type": "noun",
     "meaning": "destiny, fate"
   },
@@ -19306,84 +19306,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2432,
     "word": "発する",
-    "reading": "",
+    "reading": "はっする",
     "type": "verb",
     "meaning": "emit, release"
   },
   {
     "frequency": 2433,
     "word": "ロボット",
-    "reading": "",
+    "reading": "ロボット",
     "type": "noun",
     "meaning": "robot"
   },
   {
     "frequency": 2434,
     "word": "水分",
-    "reading": "",
+    "reading": "すいぶん",
     "type": "noun",
     "meaning": "water, moisture"
   },
   {
     "frequency": 2435,
     "word": "天皇",
-    "reading": "",
+    "reading": "てんのう",
     "type": "noun",
     "meaning": "Emperor (of Japan)"
   },
   {
     "frequency": 2436,
     "word": "布",
-    "reading": "",
+    "reading": "ぬの",
     "type": "noun",
     "meaning": "cloth"
   },
   {
     "frequency": 2437,
     "word": "生物",
-    "reading": "",
+    "reading": "せいぶつ",
     "type": "noun",
     "meaning": "living thing; biology"
   },
   {
     "frequency": 2438,
     "word": "根",
-    "reading": "",
+    "reading": "ね",
     "type": "noun",
     "meaning": "root"
   },
   {
     "frequency": 2439,
     "word": "信用",
-    "reading": "",
+    "reading": "しんよう",
     "type": "noun",
     "meaning": "trust, rely on"
   },
   {
     "frequency": 2440,
     "word": "ロシア",
-    "reading": "",
+    "reading": "ロシア",
     "type": "noun",
     "meaning": "Russia"
   },
   {
     "frequency": 2441,
     "word": "農業",
-    "reading": "",
+    "reading": "のうぎょう",
     "type": "noun",
     "meaning": "agriculture"
   },
   {
     "frequency": 2442,
     "word": "思想",
-    "reading": "",
+    "reading": "しそう",
     "type": "noun",
     "meaning": "thought, idea"
   },
   {
     "frequency": 2443,
     "word": "丁寧",
-    "reading": "",
+    "reading": "ていねい",
     "type": "na-adjective",
     "meaning": "careful, polite"
   },
@@ -19397,91 +19397,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2445,
     "word": "書類",
-    "reading": "",
+    "reading": "しょるい",
     "type": "noun",
     "meaning": "document"
   },
   {
     "frequency": 2446,
     "word": "疑う",
-    "reading": "",
+    "reading": "うたがう",
     "type": "verb",
     "meaning": "suspect, doubt"
   },
   {
     "frequency": 2447,
     "word": "神様",
-    "reading": "",
+    "reading": "かみさま",
     "type": "noun",
     "meaning": "god, God"
   },
   {
     "frequency": 2448,
     "word": "悔しい",
-    "reading": "",
+    "reading": "くやしい",
     "type": "i-adjective",
     "meaning": "regrettable, frustrating; feel regret"
   },
   {
     "frequency": 2449,
     "word": "農家",
-    "reading": "",
+    "reading": "のうか",
     "type": "noun",
     "meaning": "farmer"
   },
   {
     "frequency": 2450,
     "word": "市町村",
-    "reading": "",
+    "reading": "しちょうそん",
     "type": "noun",
     "meaning": "municipality"
   },
   {
     "frequency": 2451,
     "word": "被害者",
-    "reading": "",
+    "reading": "ひがいしゃ",
     "type": "noun",
     "meaning": "victim"
   },
   {
     "frequency": 2452,
     "word": "時計",
-    "reading": "",
+    "reading": "とけい",
     "type": "noun",
     "meaning": "watch; clock"
   },
   {
     "frequency": 2453,
     "word": "雲",
-    "reading": "",
+    "reading": "くも",
     "type": "noun",
     "meaning": "cloud"
   },
   {
     "frequency": 2454,
     "word": "ぱっと",
-    "reading": "",
+    "reading": "ぱっと",
     "type": "adverb",
     "meaning": "suddenly"
   },
   {
     "frequency": 2455,
     "word": "メッセージ",
-    "reading": "",
+    "reading": "メッセージ",
     "type": "noun",
     "meaning": "message"
   },
   {
     "frequency": 2456,
     "word": "いじめ",
-    "reading": "",
+    "reading": "いじめ",
     "type": "noun",
     "meaning": "bullying"
   },
   {
     "frequency": 2457,
     "word": "離婚",
-    "reading": "",
+    "reading": "りこん",
     "type": "noun",
     "meaning": "divorce"
   },
@@ -19495,14 +19495,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2458,
     "word": "効果的",
-    "reading": "",
+    "reading": "こうかてき",
     "type": "na-adjective",
     "meaning": "effective"
   },
   {
     "frequency": 2459,
     "word": "掲載",
-    "reading": "",
+    "reading": "けいさい",
     "type": "noun",
     "meaning": "publication"
   },
@@ -19516,21 +19516,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2460,
     "word": "しょっちゅう",
-    "reading": "",
+    "reading": "しょっちゅう",
     "type": "adverb",
     "meaning": "often, always"
   },
   {
     "frequency": 2461,
     "word": "オリンピック",
-    "reading": "",
+    "reading": "オリンピック",
     "type": "noun",
     "meaning": "Olympics"
   },
   {
     "frequency": 2462,
     "word": "操作",
-    "reading": "",
+    "reading": "そうさ",
     "type": "noun",
     "meaning": "operation"
   },
@@ -19544,84 +19544,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2463,
     "word": "知恵",
-    "reading": "",
+    "reading": "ちえ",
     "type": "noun",
     "meaning": "wisdom"
   },
   {
     "frequency": 2464,
     "word": "伝統",
-    "reading": "",
+    "reading": "でんとう",
     "type": "noun",
     "meaning": "tradition"
   },
   {
     "frequency": 2465,
     "word": "留まる",
-    "reading": "",
+    "reading": "とまる",
     "type": "verb",
     "meaning": "stay"
   },
   {
     "frequency": 2466,
     "word": "受かる",
-    "reading": "",
+    "reading": "うかる",
     "type": "verb",
     "meaning": "pass"
   },
   {
     "frequency": 2467,
     "word": "恐れる",
-    "reading": "",
+    "reading": "おそれる",
     "type": "verb",
     "meaning": "fear, be afraid"
   },
   {
     "frequency": 2468,
     "word": "著しい",
-    "reading": "",
+    "reading": "いちじるしい",
     "type": "i-adjective",
     "meaning": "significant"
   },
   {
     "frequency": 2469,
     "word": "カレー",
-    "reading": "",
+    "reading": "カレー",
     "type": "noun",
     "meaning": "curry"
   },
   {
     "frequency": 2470,
     "word": "ウインドウズ",
-    "reading": "",
+    "reading": "ウインドウズ",
     "type": "noun",
     "meaning": "Windows"
   },
   {
     "frequency": 2471,
     "word": "救う",
-    "reading": "",
+    "reading": "すくう",
     "type": "verb",
     "meaning": "save, rescue"
   },
   {
     "frequency": 2472,
     "word": "助かる",
-    "reading": "",
+    "reading": "たすかる",
     "type": "verb",
     "meaning": "survive, be saved; be helpful"
   },
   {
     "frequency": 2473,
     "word": "巡る",
-    "reading": "",
+    "reading": "めぐる",
     "type": "verb",
     "meaning": "go around"
   },
   {
     "frequency": 2474,
     "word": "予約",
-    "reading": "",
+    "reading": "よやく",
     "type": "noun",
     "meaning": "reservation"
   },
@@ -19635,21 +19635,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2475,
     "word": "響く",
-    "reading": "",
+    "reading": "ひびく",
     "type": "verb",
     "meaning": "affect"
   },
   {
     "frequency": 2476,
     "word": "事前",
-    "reading": "",
+    "reading": "じぜん",
     "type": "noun",
     "meaning": "prior"
   },
   {
     "frequency": 2477,
     "word": "進行",
-    "reading": "",
+    "reading": "しんこう",
     "type": "noun",
     "meaning": "progression"
   },
@@ -19663,7 +19663,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2478,
     "word": "解説",
-    "reading": "",
+    "reading": "かいせつ",
     "type": "noun",
     "meaning": "explanation, comment, description"
   },
@@ -19677,63 +19677,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2479,
     "word": "潰す",
-    "reading": "",
+    "reading": "つぶす",
     "type": "verb",
     "meaning": "smash; crush, squash; ruin"
   },
   {
     "frequency": 2480,
     "word": "二時",
-    "reading": "",
+    "reading": "ふたとき",
     "type": "noun",
     "meaning": "two o’clock"
   },
   {
     "frequency": 2481,
     "word": "行事",
-    "reading": "",
+    "reading": "ぎょうじ",
     "type": "noun",
     "meaning": "event"
   },
   {
     "frequency": 2482,
     "word": "男女",
-    "reading": "",
+    "reading": "だんじょ",
     "type": "noun",
     "meaning": "men and women"
   },
   {
     "frequency": 2483,
     "word": "メイン",
-    "reading": "",
+    "reading": "メイン",
     "type": "noun",
     "meaning": "main"
   },
   {
     "frequency": 2484,
     "word": "かむ",
-    "reading": "",
+    "reading": "かむ",
     "type": "verb",
     "meaning": "bite; chew"
   },
   {
     "frequency": 2485,
     "word": "温める",
-    "reading": "",
+    "reading": "あたためる",
     "type": "verb",
     "meaning": "warm, heat"
   },
   {
     "frequency": 2486,
     "word": "概念",
-    "reading": "",
+    "reading": "がいねん",
     "type": "noun",
     "meaning": "notion, idea, concept"
   },
   {
     "frequency": 2487,
     "word": "重視",
-    "reading": "",
+    "reading": "じゅうし",
     "type": "noun",
     "meaning": "respect"
   },
@@ -19747,21 +19747,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2488,
     "word": "複数",
-    "reading": "",
+    "reading": "ふくすう",
     "type": "noun",
     "meaning": "plural"
   },
   {
     "frequency": 2489,
     "word": "三十",
-    "reading": "",
+    "reading": "さんじゅう",
     "type": "numeral",
     "meaning": "thirty"
   },
   {
     "frequency": 2490,
     "word": "興奮",
-    "reading": "",
+    "reading": "こうふん",
     "type": "noun",
     "meaning": "excitement"
   },
@@ -19775,28 +19775,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2491,
     "word": "突っ込む",
-    "reading": "",
+    "reading": "つっこむ",
     "type": "verb",
     "meaning": "thrust, stick; dip; shove"
   },
   {
     "frequency": 2492,
     "word": "牛",
-    "reading": "",
+    "reading": "うし",
     "type": "noun",
     "meaning": "cattle, cow, ox"
   },
   {
     "frequency": 2493,
     "word": "鏡",
-    "reading": "",
+    "reading": "かがみ",
     "type": "noun",
     "meaning": "mirror"
   },
   {
     "frequency": 2494,
     "word": "ないし",
-    "reading": "",
+    "reading": "ないし",
     "type": "conjunction",
     "meaning": "or, otherwise"
   },
@@ -19810,14 +19810,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2496,
     "word": "煙",
-    "reading": "",
+    "reading": "けむり",
     "type": "noun",
     "meaning": "smoke, fumes; fog"
   },
   {
     "frequency": 2497,
     "word": "参照",
-    "reading": "",
+    "reading": "さんしょう",
     "type": "noun",
     "meaning": "reference"
   },
@@ -19831,28 +19831,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2498,
     "word": "価値観",
-    "reading": "",
+    "reading": "かちかん",
     "type": "noun",
     "meaning": "sense of values"
   },
   {
     "frequency": 2499,
     "word": "バター",
-    "reading": "",
+    "reading": "バター",
     "type": "noun",
     "meaning": "butter"
   },
   {
     "frequency": 2500,
     "word": "スープ",
-    "reading": "",
+    "reading": "スープ",
     "type": "noun",
     "meaning": "soup"
   },
   {
     "frequency": 2501,
     "word": "自殺",
-    "reading": "",
+    "reading": "じさつ",
     "type": "noun",
     "meaning": "suicide"
   },
@@ -19866,63 +19866,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2502,
     "word": "トラック",
-    "reading": "",
+    "reading": "トラック",
     "type": "noun",
     "meaning": "truck"
   },
   {
     "frequency": 2503,
     "word": "委員",
-    "reading": "",
+    "reading": "いいん",
     "type": "noun",
     "meaning": "committee member; councillor"
   },
   {
     "frequency": 2504,
     "word": "行政",
-    "reading": "",
+    "reading": "ぎょうせい",
     "type": "noun",
     "meaning": "administration, government"
   },
   {
     "frequency": 2505,
     "word": "一年生",
-    "reading": "",
+    "reading": "いちねんせい",
     "type": "noun",
     "meaning": "first grade, first year"
   },
   {
     "frequency": 2506,
     "word": "犯す",
-    "reading": "",
+    "reading": "おかす",
     "type": "verb",
     "meaning": "commit, offend; break"
   },
   {
     "frequency": 2507,
     "word": "膨らむ",
-    "reading": "",
+    "reading": "ふくらむ",
     "type": "verb",
     "meaning": "swell, expand"
   },
   {
     "frequency": 2508,
     "word": "とうとう",
-    "reading": "",
+    "reading": "とうとう",
     "type": "adverb",
     "meaning": "finally"
   },
   {
     "frequency": 2509,
     "word": "このごろ",
-    "reading": "",
+    "reading": "このごろ",
     "type": "noun",
     "meaning": "these days"
   },
   {
     "frequency": 2510,
     "word": "女子",
-    "reading": "",
+    "reading": "じょし",
     "type": "noun",
     "meaning": "woman, girl"
   },
@@ -19936,56 +19936,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2512,
     "word": "言語",
-    "reading": "",
+    "reading": "げんご",
     "type": "noun",
     "meaning": "language, tongue, speech"
   },
   {
     "frequency": 2513,
     "word": "とる",
-    "reading": "",
+    "reading": "とる",
     "type": "auxiliary",
     "meaning": "[shortened form of “teoru”]"
   },
   {
     "frequency": 2514,
     "word": "以来",
-    "reading": "",
+    "reading": "いらい",
     "type": "noun",
     "meaning": "since"
   },
   {
     "frequency": 2515,
     "word": "市内",
-    "reading": "",
+    "reading": "しない",
     "type": "noun",
     "meaning": "within the city"
   },
   {
     "frequency": 2516,
     "word": "しかしながら",
-    "reading": "",
+    "reading": "しかしながら",
     "type": "auxiliary",
     "meaning": "however, but"
   },
   {
     "frequency": 2517,
     "word": "針",
-    "reading": "",
+    "reading": "はり",
     "type": "noun",
     "meaning": "needle; stitch"
   },
   {
     "frequency": 2518,
     "word": "集団",
-    "reading": "",
+    "reading": "しゅうだん",
     "type": "noun",
     "meaning": "group, mass"
   },
   {
     "frequency": 2519,
     "word": "体調",
-    "reading": "",
+    "reading": "たいちょう",
     "type": "noun",
     "meaning": "physical condition"
   },
@@ -19999,49 +19999,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2521,
     "word": "手前",
-    "reading": "",
+    "reading": "てまえ",
     "type": "noun",
     "meaning": "this side"
   },
   {
     "frequency": 2522,
     "word": "幼い",
-    "reading": "",
+    "reading": "おさない",
     "type": "i-adjective",
     "meaning": "young, immature, childish"
   },
   {
     "frequency": 2523,
     "word": "説",
-    "reading": "",
+    "reading": "せつ",
     "type": "noun",
     "meaning": "theory; explanation"
   },
   {
     "frequency": 2524,
     "word": "神社",
-    "reading": "",
+    "reading": "じんじゃ",
     "type": "noun",
     "meaning": "shrine"
   },
   {
     "frequency": 2525,
     "word": "列車",
-    "reading": "",
+    "reading": "れっしゃ",
     "type": "noun",
     "meaning": "train"
   },
   {
     "frequency": 2526,
     "word": "夢中",
-    "reading": "",
+    "reading": "むちゅう",
     "type": "noun, na-adjective",
     "meaning": "crazy about, obsessed with"
   },
   {
     "frequency": 2527,
     "word": "トレーニング",
-    "reading": "",
+    "reading": "トレーニング",
     "type": "noun",
     "meaning": "training"
   },
@@ -20055,21 +20055,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2529,
     "word": "どうせ",
-    "reading": "",
+    "reading": "どうせ",
     "type": "adverb",
     "meaning": "anyway"
   },
   {
     "frequency": 2530,
     "word": "坂",
-    "reading": "",
+    "reading": "さか",
     "type": "noun",
     "meaning": "slope, hill"
   },
   {
     "frequency": 2531,
     "word": "検索",
-    "reading": "",
+    "reading": "けんさく",
     "type": "noun",
     "meaning": "search"
   },
@@ -20083,35 +20083,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2532,
     "word": "アップ",
-    "reading": "",
+    "reading": "アップ",
     "type": "noun",
     "meaning": "raise"
   },
   {
     "frequency": 2532,
     "word": "アップする",
-    "reading": "",
+    "reading": "アップする",
     "type": "verb",
     "meaning": "go up"
   },
   {
     "frequency": 2533,
     "word": "絶える",
-    "reading": "",
+    "reading": "たえる",
     "type": "verb",
     "meaning": "cease, fail"
   },
   {
     "frequency": 2534,
     "word": "三十一日",
-    "reading": "",
+    "reading": "さんじゅういちにち",
     "type": "noun",
     "meaning": "thirty-first (date); thirty one days"
   },
   {
     "frequency": 2535,
     "word": "取材",
-    "reading": "",
+    "reading": "しゅざい",
     "type": "noun",
     "meaning": "interview, report"
   },
@@ -20125,49 +20125,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2536,
     "word": "ぶつかる",
-    "reading": "",
+    "reading": "ぶつかる",
     "type": "verb",
     "meaning": "strike, bump, collide"
   },
   {
     "frequency": 2537,
     "word": "曲がる",
-    "reading": "",
+    "reading": "まがる",
     "type": "verb",
     "meaning": "bend, wind; turn"
   },
   {
     "frequency": 2538,
     "word": "ては",
-    "reading": "",
+    "reading": "ては",
     "type": "particle, conjunction",
     "meaning": "alternately do ... and ..."
   },
   {
     "frequency": 2539,
     "word": "前年",
-    "reading": "",
+    "reading": "ぜんねん",
     "type": "noun",
     "meaning": "previous year, year before"
   },
   {
     "frequency": 2540,
     "word": "飽きる",
-    "reading": "",
+    "reading": "あきる",
     "type": "verb",
     "meaning": "tire, weary, be tired of, get bored"
   },
   {
     "frequency": 2541,
     "word": "三十日",
-    "reading": "",
+    "reading": "さんじゅうにち",
     "type": "noun",
     "meaning": "thirtieth (date); thirty days"
   },
   {
     "frequency": 2542,
     "word": "分類",
-    "reading": "",
+    "reading": "ぶんるい",
     "type": "noun",
     "meaning": "classification"
   },
@@ -20181,21 +20181,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2543,
     "word": "どっち",
-    "reading": "",
+    "reading": "どっち",
     "type": "pronoun",
     "meaning": "which"
   },
   {
     "frequency": 2544,
     "word": "自分なり",
-    "reading": "",
+    "reading": "じぶんなり",
     "type": "noun",
     "meaning": "in one’s own way"
   },
   {
     "frequency": 2545,
     "word": "覚悟",
-    "reading": "",
+    "reading": "かくご",
     "type": "noun",
     "meaning": "readiness, preparedness"
   },
@@ -20209,14 +20209,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2546,
     "word": "糸",
-    "reading": "",
+    "reading": "いと",
     "type": "noun",
     "meaning": "thread, string"
   },
   {
     "frequency": 2547,
     "word": "逮捕",
-    "reading": "",
+    "reading": "たいほ",
     "type": "noun",
     "meaning": "arrest"
   },
@@ -20230,14 +20230,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2548,
     "word": "収まる",
-    "reading": "",
+    "reading": "おさまる",
     "type": "verb",
     "meaning": "hold, pack"
   },
   {
     "frequency": 2549,
     "word": "交渉",
-    "reading": "",
+    "reading": "こうしょう",
     "type": "noun",
     "meaning": "negotiation, treaty"
   },
@@ -20251,56 +20251,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2550,
     "word": "枝",
-    "reading": "",
+    "reading": "えだ",
     "type": "noun",
     "meaning": "branch, twig, bough"
   },
   {
     "frequency": 2551,
     "word": "なにより",
-    "reading": "",
+    "reading": "なにより",
     "type": "adverb",
     "meaning": "above all, chiefly, more than anything"
   },
   {
     "frequency": 2552,
     "word": "教科書",
-    "reading": "",
+    "reading": "きょうかしょ",
     "type": "noun",
     "meaning": "textbook"
   },
   {
     "frequency": 2553,
     "word": "六時",
-    "reading": "",
+    "reading": "ろくじ",
     "type": "noun",
     "meaning": "six o’clock"
   },
   {
     "frequency": 2554,
     "word": "取り引き",
-    "reading": "",
+    "reading": "とりひき",
     "type": "noun",
     "meaning": "business, dealing, trade"
   },
   {
     "frequency": 2555,
     "word": "免許",
-    "reading": "",
+    "reading": "めんきょ",
     "type": "noun",
     "meaning": "license, permit"
   },
   {
     "frequency": 2556,
     "word": "講ずる",
-    "reading": "",
+    "reading": "こうずる",
     "type": "verb",
     "meaning": "take"
   },
   {
     "frequency": 2557,
     "word": "太い",
-    "reading": "",
+    "reading": "ふとい",
     "type": "i-adjective",
     "meaning": "thick; heavy; bold"
   },
@@ -20314,56 +20314,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2559,
     "word": "及ぼす",
-    "reading": "",
+    "reading": "およぼす",
     "type": "verb",
     "meaning": "influence, affect"
   },
   {
     "frequency": 2560,
     "word": "千円",
-    "reading": "",
+    "reading": "せんえん",
     "type": "noun",
     "meaning": "one thousand yen"
   },
   {
     "frequency": 2561,
     "word": "独自",
-    "reading": "",
+    "reading": "どくじ",
     "type": "na-adjective",
     "meaning": "original, own"
   },
   {
     "frequency": 2562,
     "word": "夕食",
-    "reading": "",
+    "reading": "ゆうしょく",
     "type": "noun",
     "meaning": "dinner"
   },
   {
     "frequency": 2563,
     "word": "震える",
-    "reading": "",
+    "reading": "ふるえる",
     "type": "verb",
     "meaning": "shake, tremble"
   },
   {
     "frequency": 2564,
     "word": "心臓",
-    "reading": "",
+    "reading": "しんぞう",
     "type": "noun",
     "meaning": "heart"
   },
   {
     "frequency": 2565,
     "word": "世界的",
-    "reading": "",
+    "reading": "せかいてき",
     "type": "na-adjective",
     "meaning": "world, global"
   },
   {
     "frequency": 2566,
     "word": "所属",
-    "reading": "",
+    "reading": "しょぞく",
     "type": "noun",
     "meaning": "affiliation"
   },
@@ -20377,126 +20377,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2567,
     "word": "騒ぐ",
-    "reading": "",
+    "reading": "さわぐ",
     "type": "verb",
     "meaning": "make a noise, make a fuss"
   },
   {
     "frequency": 2568,
     "word": "そっと",
-    "reading": "",
+    "reading": "そっと",
     "type": "adverb",
     "meaning": "softly, lightly"
   },
   {
     "frequency": 2569,
     "word": "溜める",
-    "reading": "",
+    "reading": "ためる",
     "type": "verb",
     "meaning": "save, store, accumulate"
   },
   {
     "frequency": 2570,
     "word": "晩",
-    "reading": "",
+    "reading": "ばん",
     "type": "noun",
     "meaning": "night, evening"
   },
   {
     "frequency": 2571,
     "word": "小屋",
-    "reading": "",
+    "reading": "こや",
     "type": "noun",
     "meaning": "hut, cabin, barn, shed"
   },
   {
     "frequency": 2572,
     "word": "会議",
-    "reading": "",
+    "reading": "かいぎ",
     "type": "noun",
     "meaning": "meeting"
   },
   {
     "frequency": 2573,
     "word": "個性",
-    "reading": "",
+    "reading": "こせい",
     "type": "noun",
     "meaning": "personality, character"
   },
   {
     "frequency": 2574,
     "word": "たがる",
-    "reading": "",
+    "reading": "たがる",
     "type": "auxiliary",
     "meaning": "want to"
   },
   {
     "frequency": 2575,
     "word": "理想",
-    "reading": "",
+    "reading": "りそう",
     "type": "noun",
     "meaning": "ideal, dream"
   },
   {
     "frequency": 2576,
     "word": "給料",
-    "reading": "",
+    "reading": "きゅうりょう",
     "type": "noun",
     "meaning": "salary"
   },
   {
     "frequency": 2577,
     "word": "マスコミ",
-    "reading": "",
+    "reading": "マスコミ",
     "type": "noun",
     "meaning": "mass media, mass communication"
   },
   {
     "frequency": 2578,
     "word": "おい",
-    "reading": "",
+    "reading": "おい",
     "type": "interjection",
     "meaning": "hey"
   },
   {
     "frequency": 2579,
     "word": "屋根",
-    "reading": "",
+    "reading": "やね",
     "type": "noun",
     "meaning": "roof"
   },
   {
     "frequency": 2580,
     "word": "クリスマス",
-    "reading": "",
+    "reading": "クリスマス",
     "type": "noun",
     "meaning": "Christmas"
   },
   {
     "frequency": 2581,
     "word": "重なる",
-    "reading": "",
+    "reading": "かさなる",
     "type": "verb",
     "meaning": "pile up; conspire"
   },
   {
     "frequency": 2582,
     "word": "各地",
-    "reading": "",
+    "reading": "かくち",
     "type": "noun",
     "meaning": "each place"
   },
   {
     "frequency": 2583,
     "word": "落ち込む",
-    "reading": "",
+    "reading": "おちこむ",
     "type": "verb",
     "meaning": "sink, go down; be depressed"
   },
   {
     "frequency": 2584,
     "word": "進化",
-    "reading": "",
+    "reading": "しんか",
     "type": "noun",
     "meaning": "evolution"
   },
@@ -20510,42 +20510,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2585,
     "word": "とんでも",
-    "reading": "",
+    "reading": "とんでも",
     "type": "adverb",
     "meaning": "unexpected; outrageous, very offensive"
   },
   {
     "frequency": 2586,
     "word": "思い付く",
-    "reading": "",
+    "reading": "おもいつく",
     "type": "verb",
     "meaning": "think of, guess, conceive"
   },
   {
     "frequency": 2587,
     "word": "新幹線",
-    "reading": "",
+    "reading": "しんかんせん",
     "type": "noun",
     "meaning": "bullet train"
   },
   {
     "frequency": 2588,
     "word": "第三",
-    "reading": "",
+    "reading": "だいさん",
     "type": "noun",
     "meaning": "third"
   },
   {
     "frequency": 2589,
     "word": "数える",
-    "reading": "",
+    "reading": "かぞえる",
     "type": "verb",
     "meaning": "count, number"
   },
   {
     "frequency": 2590,
     "word": "公開",
-    "reading": "",
+    "reading": "こうかい",
     "type": "noun",
     "meaning": "exhibition, presentation"
   },
@@ -20559,14 +20559,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2591,
     "word": "地面",
-    "reading": "",
+    "reading": "じめん",
     "type": "noun",
     "meaning": "ground, land"
   },
   {
     "frequency": 2592,
     "word": "貢献",
-    "reading": "",
+    "reading": "こうけん",
     "type": "noun",
     "meaning": "contribution, service"
   },
@@ -20580,35 +20580,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2593,
     "word": "台風",
-    "reading": "",
+    "reading": "たいふう",
     "type": "noun",
     "meaning": "typhoon"
   },
   {
     "frequency": 2594,
     "word": "映る",
-    "reading": "",
+    "reading": "うつる",
     "type": "verb",
     "meaning": "reflect"
   },
   {
     "frequency": 2595,
     "word": "大臣",
-    "reading": "",
+    "reading": "だいじん",
     "type": "noun",
     "meaning": "Cabinet minister, minister of state"
   },
   {
     "frequency": 2596,
     "word": "十四",
-    "reading": "",
+    "reading": "じゅうし",
     "type": "numeral",
     "meaning": "fourteen"
   },
   {
     "frequency": 2597,
     "word": "入学",
-    "reading": "",
+    "reading": "にゅうがく",
     "type": "noun",
     "meaning": "(school etc.) entrance, admission"
   },
@@ -20622,49 +20622,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2598,
     "word": "紅茶",
-    "reading": "",
+    "reading": "こうちゃ",
     "type": "noun",
     "meaning": "tea (black)"
   },
   {
     "frequency": 2599,
     "word": "控える",
-    "reading": "",
+    "reading": "ひかえる",
     "type": "verb",
     "meaning": "abstain, hold back, refrain"
   },
   {
     "frequency": 2600,
     "word": "促す",
-    "reading": "",
+    "reading": "うながす",
     "type": "verb",
     "meaning": "urge"
   },
   {
     "frequency": 2601,
     "word": "何事",
-    "reading": "",
+    "reading": "なにごと",
     "type": "noun",
     "meaning": "what"
   },
   {
     "frequency": 2602,
     "word": "プレゼント",
-    "reading": "",
+    "reading": "プレゼント",
     "type": "noun",
     "meaning": "present"
   },
   {
     "frequency": 2603,
     "word": "配る",
-    "reading": "",
+    "reading": "くばる",
     "type": "verb",
     "meaning": "deal, distribute, deliver"
   },
   {
     "frequency": 2604,
     "word": "改革",
-    "reading": "",
+    "reading": "かいかく",
     "type": "noun",
     "meaning": "reform"
   },
@@ -20678,7 +20678,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2605,
     "word": "一致",
-    "reading": "",
+    "reading": "いっち",
     "type": "noun",
     "meaning": "agreement, accord"
   },
@@ -20692,21 +20692,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2606,
     "word": "ゼロ",
-    "reading": "",
+    "reading": "ゼロ",
     "type": "noun",
     "meaning": "zero"
   },
   {
     "frequency": 2607,
     "word": "義務",
-    "reading": "",
+    "reading": "ぎむ",
     "type": "noun",
     "meaning": "duty, obligation"
   },
   {
     "frequency": 2608,
     "word": "出席",
-    "reading": "",
+    "reading": "しゅっせき",
     "type": "noun",
     "meaning": "attendance"
   },
@@ -20720,14 +20720,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2609,
     "word": "十人",
-    "reading": "",
+    "reading": "じゅうにん",
     "type": "noun",
     "meaning": "ten people"
   },
   {
     "frequency": 2610,
     "word": "処分",
-    "reading": "",
+    "reading": "しょぶん",
     "type": "noun",
     "meaning": "disposal, disposition"
   },
@@ -20741,14 +20741,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2611,
     "word": "年間",
-    "reading": "",
+    "reading": "ねんかん",
     "type": "noun",
     "meaning": "year; annual"
   },
   {
     "frequency": 2612,
     "word": "広島",
-    "reading": "",
+    "reading": "ひろしま",
     "type": "noun",
     "meaning": "Hiroshima"
   },
@@ -20762,7 +20762,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2614,
     "word": "設計",
-    "reading": "",
+    "reading": "せっけい",
     "type": "noun",
     "meaning": "plan, design"
   },
@@ -20776,14 +20776,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2615,
     "word": "飛び込む",
-    "reading": "",
+    "reading": "とびこむ",
     "type": "verb",
     "meaning": "dive, plunge"
   },
   {
     "frequency": 2616,
     "word": "邪魔",
-    "reading": "",
+    "reading": "じゃま",
     "type": "noun",
     "meaning": "obstacle, disturbance, interruption"
   },
@@ -20797,56 +20797,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2617,
     "word": "ゆでる",
-    "reading": "",
+    "reading": "ゆでる",
     "type": "verb",
     "meaning": "boil"
   },
   {
     "frequency": 2618,
     "word": "プール",
-    "reading": "",
+    "reading": "プール",
     "type": "noun",
     "meaning": "pool"
   },
   {
     "frequency": 2619,
     "word": "弁護士",
-    "reading": "",
+    "reading": "べんごし",
     "type": "noun",
     "meaning": "lawyer, counsellor"
   },
   {
     "frequency": 2620,
     "word": "叱る",
-    "reading": "",
+    "reading": "しかる",
     "type": "verb",
     "meaning": "scold, admonish"
   },
   {
     "frequency": 2621,
     "word": "恋人",
-    "reading": "",
+    "reading": "こいびと",
     "type": "noun",
     "meaning": "lover, boyfriend, girlfriend"
   },
   {
     "frequency": 2622,
     "word": "暮らし",
-    "reading": "",
+    "reading": "くらし",
     "type": "noun",
     "meaning": "life, livelihood"
   },
   {
     "frequency": 2623,
     "word": "王",
-    "reading": "",
+    "reading": "おう",
     "type": "noun",
     "meaning": "king, monarch"
   },
   {
     "frequency": 2624,
     "word": "真似",
-    "reading": "",
+    "reading": "まね",
     "type": "noun",
     "meaning": "imitation, mimicry, impersonation"
   },
@@ -20860,105 +20860,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2625,
     "word": "税金",
-    "reading": "",
+    "reading": "ぜいきん",
     "type": "noun",
     "meaning": "tax"
   },
   {
     "frequency": 2626,
     "word": "預ける",
-    "reading": "",
+    "reading": "あずける",
     "type": "verb",
     "meaning": "leave, check, deposit"
   },
   {
     "frequency": 2627,
     "word": "軟らかい",
-    "reading": "",
+    "reading": "やわらかい",
     "type": "i-adjective",
     "meaning": "soft, tender"
   },
   {
     "frequency": 2628,
     "word": "物事",
-    "reading": "",
+    "reading": "ものごと",
     "type": "noun",
     "meaning": "thing"
   },
   {
     "frequency": 2629,
     "word": "相変わらず",
-    "reading": "",
+    "reading": "あいかわらず",
     "type": "adverb",
     "meaning": "as ever, as usual, the same, as before [always]"
   },
   {
     "frequency": 2630,
     "word": "年金",
-    "reading": "",
+    "reading": "ねんきん",
     "type": "noun",
     "meaning": "pension, annuity"
   },
   {
     "frequency": 2631,
     "word": "やりとり",
-    "reading": "",
+    "reading": "やりとり",
     "type": "noun",
     "meaning": "exchange, interchange"
   },
   {
     "frequency": 2632,
     "word": "ホーム",
-    "reading": "",
+    "reading": "ホーム",
     "type": "noun",
     "meaning": "platform"
   },
   {
     "frequency": 2633,
     "word": "頼る",
-    "reading": "",
+    "reading": "たよる",
     "type": "verb",
     "meaning": "depend, turn to, trust"
   },
   {
     "frequency": 2634,
     "word": "学生時代",
-    "reading": "",
+    "reading": "がくせいじだい",
     "type": "noun",
     "meaning": "student days, university days"
   },
   {
     "frequency": 2635,
     "word": "憧れ",
-    "reading": "",
+    "reading": "あこがれ",
     "type": "noun",
     "meaning": "admiration"
   },
   {
     "frequency": 2636,
     "word": "内側",
-    "reading": "",
+    "reading": "うちがわ",
     "type": "noun",
     "meaning": "inside, interior, inner"
   },
   {
     "frequency": 2637,
     "word": "講師",
-    "reading": "",
+    "reading": "こうし",
     "type": "noun",
     "meaning": "speaker, lecturer"
   },
   {
     "frequency": 2638,
     "word": "池",
-    "reading": "",
+    "reading": "いけ",
     "type": "noun",
     "meaning": "pond"
   },
   {
     "frequency": 2639,
     "word": "接続",
-    "reading": "",
+    "reading": "せつぞく",
     "type": "noun",
     "meaning": "connection"
   },
@@ -20972,49 +20972,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2640,
     "word": "役者",
-    "reading": "",
+    "reading": "やくしゃ",
     "type": "noun",
     "meaning": "actor, actress"
   },
   {
     "frequency": 2641,
     "word": "光る",
-    "reading": "",
+    "reading": "ひかる",
     "type": "verb",
     "meaning": "shine, glitter, twinkle"
   },
   {
     "frequency": 2642,
     "word": "富士山",
-    "reading": "",
+    "reading": "ふじさん",
     "type": "noun",
     "meaning": "Mt. Fuji"
   },
   {
     "frequency": 2643,
     "word": "必要性",
-    "reading": "",
+    "reading": "ひつようせい",
     "type": "noun",
     "meaning": "necessity"
   },
   {
     "frequency": 2644,
     "word": "七時",
-    "reading": "",
+    "reading": "しちじ",
     "type": "noun",
     "meaning": "seven o’clock"
   },
   {
     "frequency": 2645,
     "word": "としたら",
-    "reading": "",
+    "reading": "としたら",
     "type": "conjunctive particle",
     "meaning": "if so"
   },
   {
     "frequency": 2646,
     "word": "出演",
-    "reading": "",
+    "reading": "しゅつえん",
     "type": "noun",
     "meaning": "appearance, broadcast"
   },
@@ -21028,35 +21028,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2647,
     "word": "柱",
-    "reading": "",
+    "reading": "はしら",
     "type": "noun",
     "meaning": "pillar, post"
   },
   {
     "frequency": 2648,
     "word": "間に合う",
-    "reading": "",
+    "reading": "まにあう",
     "type": "verb",
     "meaning": "catch, get, make it"
   },
   {
     "frequency": 2649,
     "word": "年代",
-    "reading": "",
+    "reading": "ねんだい",
     "type": "noun",
     "meaning": "era; generation; date"
   },
   {
     "frequency": 2650,
     "word": "鉄",
-    "reading": "",
+    "reading": "てつ",
     "type": "noun",
     "meaning": "iron, steel"
   },
   {
     "frequency": 2651,
     "word": "継続",
-    "reading": "",
+    "reading": "けいぞく",
     "type": "noun",
     "meaning": "continuation"
   },
@@ -21070,119 +21070,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2652,
     "word": "特殊",
-    "reading": "",
+    "reading": "とくしゅ",
     "type": "na-adjective",
     "meaning": "special"
   },
   {
     "frequency": 2653,
     "word": "引き上げる",
-    "reading": "",
+    "reading": "ひきあげる",
     "type": "verb",
     "meaning": "pull up; increase, raise"
   },
   {
     "frequency": 2654,
     "word": "スペイン",
-    "reading": "",
+    "reading": "スペイン",
     "type": "noun",
     "meaning": "Spain"
   },
   {
     "frequency": 2655,
     "word": "裁判",
-    "reading": "",
+    "reading": "さいばん",
     "type": "noun",
     "meaning": "trial; judgment; justice"
   },
   {
     "frequency": 2656,
     "word": "はあ",
-    "reading": "",
+    "reading": "はあ",
     "type": "interjection",
     "meaning": "oh, Oh boy, Oh dear"
   },
   {
     "frequency": 2657,
     "word": "上回る",
-    "reading": "",
+    "reading": "うわまわる",
     "type": "verb",
     "meaning": "exceed, surpass"
   },
   {
     "frequency": 2658,
     "word": "地下鉄",
-    "reading": "",
+    "reading": "ちかてつ",
     "type": "noun",
     "meaning": "subway, underground"
   },
   {
     "frequency": 2659,
     "word": "専門家",
-    "reading": "",
+    "reading": "せんもんか",
     "type": "noun",
     "meaning": "expert, specialist"
   },
   {
     "frequency": 2660,
     "word": "内部",
-    "reading": "",
+    "reading": "ないぶ",
     "type": "noun",
     "meaning": "inside, interior"
   },
   {
     "frequency": 2661,
     "word": "割る",
-    "reading": "",
+    "reading": "わる",
     "type": "verb",
     "meaning": "break; crack"
   },
   {
     "frequency": 2662,
     "word": "スペース",
-    "reading": "",
+    "reading": "スペース",
     "type": "noun",
     "meaning": "space, room"
   },
   {
     "frequency": 2663,
     "word": "結果的",
-    "reading": "",
+    "reading": "けっかてき",
     "type": "na-adjective",
     "meaning": "result"
   },
   {
     "frequency": 2664,
     "word": "飲める",
-    "reading": "",
+    "reading": "のめる",
     "type": "verb",
     "meaning": "be able to drink"
   },
   {
     "frequency": 2665,
     "word": "割",
-    "reading": "",
+    "reading": "わり",
     "type": "noun",
     "meaning": "cost, rate"
   },
   {
     "frequency": 2666,
     "word": "日記",
-    "reading": "",
+    "reading": "にっき",
     "type": "noun",
     "meaning": "diary"
   },
   {
     "frequency": 2667,
     "word": "担う",
-    "reading": "",
+    "reading": "になう",
     "type": "verb",
     "meaning": "cover, carry, take"
   },
   {
     "frequency": 2668,
     "word": "揺れる",
-    "reading": "",
+    "reading": "ゆれる",
     "type": "verb",
     "meaning": "shake, wave, swing"
   },
@@ -21196,63 +21196,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2670,
     "word": "一匹",
-    "reading": "",
+    "reading": "いっぴき",
     "type": "noun",
     "meaning": "one (animal)"
   },
   {
     "frequency": 2671,
     "word": "憲法",
-    "reading": "",
+    "reading": "けんぽう",
     "type": "noun",
     "meaning": "constitution"
   },
   {
     "frequency": 2672,
     "word": "件",
-    "reading": "",
+    "reading": "くだん",
     "type": "noun",
     "meaning": "affair, matter, issue"
   },
   {
     "frequency": 2673,
     "word": "江戸時代",
-    "reading": "",
+    "reading": "えどじだい",
     "type": "noun",
     "meaning": "Edo era"
   },
   {
     "frequency": 2674,
     "word": "むく",
-    "reading": "",
+    "reading": "むく",
     "type": "verb",
     "meaning": "peel, pare"
   },
   {
     "frequency": 2675,
     "word": "親切",
-    "reading": "",
+    "reading": "しんせつ",
     "type": "na-adjective",
     "meaning": "kind"
   },
   {
     "frequency": 2676,
     "word": "埼玉県",
-    "reading": "",
+    "reading": "さいたまけん",
     "type": "noun",
     "meaning": "Saitama prefecture"
   },
   {
     "frequency": 2677,
     "word": "急速",
-    "reading": "",
+    "reading": "きゅうそく",
     "type": "na-adjective",
     "meaning": "rapid, speedy"
   },
   {
     "frequency": 2678,
     "word": "燃える",
-    "reading": "",
+    "reading": "もえる",
     "type": "verb",
     "meaning": "burn, flame, glow, be on fire"
   },
@@ -21266,35 +21266,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2680,
     "word": "胃",
-    "reading": "",
+    "reading": "い",
     "type": "noun",
     "meaning": "stomach, belly"
   },
   {
     "frequency": 2681,
     "word": "九州",
-    "reading": "",
+    "reading": "きゅうしゅう",
     "type": "noun",
     "meaning": "Kyushu"
   },
   {
     "frequency": 2682,
     "word": "ブログ",
-    "reading": "",
+    "reading": "ブログ",
     "type": "noun",
     "meaning": "blog"
   },
   {
     "frequency": 2683,
     "word": "にすぎない",
-    "reading": "",
+    "reading": "にすぎない",
     "type": "auxiliary",
     "meaning": "just, mere"
   },
   {
     "frequency": 2684,
     "word": "想定",
-    "reading": "",
+    "reading": "そうてい",
     "type": "noun",
     "meaning": "assumption, supposition"
   },
@@ -21308,7 +21308,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2685,
     "word": "学習",
-    "reading": "",
+    "reading": "がくしゅう",
     "type": "noun",
     "meaning": "learning, study"
   },
@@ -21322,7 +21322,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2686,
     "word": "ケーキ",
-    "reading": "",
+    "reading": "ケーキ",
     "type": "noun",
     "meaning": "cake"
   },
@@ -21336,28 +21336,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2688,
     "word": "袋",
-    "reading": "",
+    "reading": "ふくろ",
     "type": "noun",
     "meaning": "bag, sack, pouch"
   },
   {
     "frequency": 2689,
     "word": "医療",
-    "reading": "",
+    "reading": "いりょう",
     "type": "noun",
     "meaning": "medical care, medical treatment"
   },
   {
     "frequency": 2690,
     "word": "増大",
-    "reading": "",
+    "reading": "ぞうだい",
     "type": "noun",
     "meaning": "increase, growth; increase, grow"
   },
   {
     "frequency": 2691,
     "word": "競争",
-    "reading": "",
+    "reading": "きょうそう",
     "type": "noun",
     "meaning": "competition, contest"
   },
@@ -21371,7 +21371,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2692,
     "word": "投資",
-    "reading": "",
+    "reading": "とうし",
     "type": "noun",
     "meaning": "investment"
   },
@@ -21385,21 +21385,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2693,
     "word": "ほっとする",
-    "reading": "",
+    "reading": "ほっとする",
     "type": "verb",
     "meaning": "be relieved"
   },
   {
     "frequency": 2694,
     "word": "お土産",
-    "reading": "",
+    "reading": "おみやげ",
     "type": "noun",
     "meaning": "present, souvenir"
   },
   {
     "frequency": 2695,
     "word": "記述",
-    "reading": "",
+    "reading": "きじゅつ",
     "type": "noun",
     "meaning": "description, account"
   },
@@ -21413,21 +21413,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2696,
     "word": "謝る",
-    "reading": "",
+    "reading": "あやまる",
     "type": "verb",
     "meaning": "apologize"
   },
   {
     "frequency": 2697,
     "word": "にもかかわらず",
-    "reading": "",
+    "reading": "にもかかわらず",
     "type": "conjunctive particle",
     "meaning": "in spite of, though, despite"
   },
   {
     "frequency": 2698,
     "word": "獲得",
-    "reading": "",
+    "reading": "かくとく",
     "type": "noun",
     "meaning": "acquisition"
   },
@@ -21441,56 +21441,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2699,
     "word": "見直す",
-    "reading": "",
+    "reading": "みなおす",
     "type": "verb",
     "meaning": "review, look over"
   },
   {
     "frequency": 2700,
     "word": "無人",
-    "reading": "",
+    "reading": "むじん",
     "type": "noun",
     "meaning": "uninhabited, empty"
   },
   {
     "frequency": 2701,
     "word": "心がける",
-    "reading": "",
+    "reading": "こころがける",
     "type": "verb",
     "meaning": "be careful, be prudent"
   },
   {
     "frequency": 2702,
     "word": "テープ",
-    "reading": "",
+    "reading": "テープ",
     "type": "noun",
     "meaning": "tape"
   },
   {
     "frequency": 2703,
     "word": "七日",
-    "reading": "",
+    "reading": "なのか",
     "type": "noun",
     "meaning": "seventh (date); seven days"
   },
   {
     "frequency": 2704,
     "word": "二つ目",
-    "reading": "",
+    "reading": "ふたつめ",
     "type": "noun",
     "meaning": "second"
   },
   {
     "frequency": 2705,
     "word": "板",
-    "reading": "",
+    "reading": "いた",
     "type": "noun",
     "meaning": "board, plate"
   },
   {
     "frequency": 2706,
     "word": "自慢",
-    "reading": "",
+    "reading": "じまん",
     "type": "noun",
     "meaning": "pride, boast"
   },
@@ -21504,21 +21504,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2707,
     "word": "前項",
-    "reading": "",
+    "reading": "ぜんこう",
     "type": "noun",
     "meaning": "previous page"
   },
   {
     "frequency": 2708,
     "word": "選挙",
-    "reading": "",
+    "reading": "せんきょ",
     "type": "noun",
     "meaning": "election"
   },
   {
     "frequency": 2709,
     "word": "更新",
-    "reading": "",
+    "reading": "こうしん",
     "type": "noun",
     "meaning": "renewal"
   },
@@ -21539,112 +21539,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2711,
     "word": "あちら",
-    "reading": "",
+    "reading": "あちら",
     "type": "pronoun",
     "meaning": "that way; that place, there; that"
   },
   {
     "frequency": 2712,
     "word": "受け止める",
-    "reading": "",
+    "reading": "うけとめる",
     "type": "verb",
     "meaning": "take, catch"
   },
   {
     "frequency": 2713,
     "word": "景気",
-    "reading": "",
+    "reading": "けいき",
     "type": "noun",
     "meaning": "business conditions, economy"
   },
   {
     "frequency": 2714,
     "word": "二十五日",
-    "reading": "",
+    "reading": "にじゅうごにち",
     "type": "noun",
     "meaning": "twenty-fifth (date); twenty-five days"
   },
   {
     "frequency": 2715,
     "word": "根拠",
-    "reading": "",
+    "reading": "こんきょ",
     "type": "noun",
     "meaning": "ground, evidence"
   },
   {
     "frequency": 2716,
     "word": "チケット",
-    "reading": "",
+    "reading": "チケット",
     "type": "noun",
     "meaning": "ticket"
   },
   {
     "frequency": 2717,
     "word": "民間",
-    "reading": "",
+    "reading": "みんかん",
     "type": "noun",
     "meaning": "private, non government"
   },
   {
     "frequency": 2718,
     "word": "口調",
-    "reading": "",
+    "reading": "くちょう",
     "type": "noun",
     "meaning": "tone, voice"
   },
   {
     "frequency": 2719,
     "word": "ふさわしい",
-    "reading": "",
+    "reading": "ふさわしい",
     "type": "i-adjective",
     "meaning": "suitable, appropriate"
   },
   {
     "frequency": 2720,
     "word": "といっても",
-    "reading": "",
+    "reading": "といっても",
     "type": "particle",
     "meaning": "even though"
   },
   {
     "frequency": 2721,
     "word": "眼鏡",
-    "reading": "",
+    "reading": "メガネ",
     "type": "noun",
     "meaning": "glasses, spectacles"
   },
   {
     "frequency": 2722,
     "word": "脇",
-    "reading": "",
+    "reading": "わき",
     "type": "noun",
     "meaning": "side"
   },
   {
     "frequency": 2723,
     "word": "持ち込む",
-    "reading": "",
+    "reading": "もちこむ",
     "type": "verb",
     "meaning": "bring, import"
   },
   {
     "frequency": 2724,
     "word": "全身",
-    "reading": "",
+    "reading": "ぜんしん",
     "type": "noun",
     "meaning": "all over, whole body"
   },
   {
     "frequency": 2725,
     "word": "兄さん",
-    "reading": "",
+    "reading": "にいさん",
     "type": "noun",
     "meaning": "elder brother"
   },
   {
     "frequency": 2726,
     "word": "予測",
-    "reading": "",
+    "reading": "よそく",
     "type": "noun",
     "meaning": "prospect"
   },
@@ -21658,49 +21658,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2727,
     "word": "あれ",
-    "reading": "",
+    "reading": "あれ",
     "type": "interjection",
     "meaning": "Oh"
   },
   {
     "frequency": 2728,
     "word": "つながり",
-    "reading": "",
+    "reading": "つながり",
     "type": "noun",
     "meaning": "connection, relation"
   },
   {
     "frequency": 2729,
     "word": "欠ける",
-    "reading": "",
+    "reading": "かける",
     "type": "verb",
     "meaning": "lack; chip"
   },
   {
     "frequency": 2730,
     "word": "嫌う",
-    "reading": "",
+    "reading": "きらう",
     "type": "verb",
     "meaning": "hate, detest"
   },
   {
     "frequency": 2731,
     "word": "保険料",
-    "reading": "",
+    "reading": "ほけんりょう",
     "type": "noun",
     "meaning": "insurance premium"
   },
   {
     "frequency": 2732,
     "word": "飛ばす",
-    "reading": "",
+    "reading": "とばす",
     "type": "verb",
     "meaning": "let fly, fly"
   },
   {
     "frequency": 2733,
     "word": "教わる",
-    "reading": "",
+    "reading": "おそわる",
     "type": "verb",
     "meaning": "learn"
   },
@@ -21714,28 +21714,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2735,
     "word": "後半",
-    "reading": "",
+    "reading": "こうはん",
     "type": "noun",
     "meaning": "latter half, second half"
   },
   {
     "frequency": 2736,
     "word": "たく",
-    "reading": "",
+    "reading": "たく",
     "type": "verb",
     "meaning": "burn"
   },
   {
     "frequency": 2737,
     "word": "何日",
-    "reading": "",
+    "reading": "なんにち",
     "type": "noun",
     "meaning": "many days; how many days"
   },
   {
     "frequency": 2738,
     "word": "防止",
-    "reading": "",
+    "reading": "ぼうし",
     "type": "noun",
     "meaning": "prevention"
   },
@@ -21749,56 +21749,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2739,
     "word": "遺伝子",
-    "reading": "",
+    "reading": "いでんし",
     "type": "noun",
     "meaning": "gene"
   },
   {
     "frequency": 2740,
     "word": "本屋",
-    "reading": "",
+    "reading": "ほんおく",
     "type": "noun",
     "meaning": "bookshop"
   },
   {
     "frequency": 2741,
     "word": "明日",
-    "reading": "",
+    "reading": "あした",
     "type": "noun",
     "meaning": "tomorrow"
   },
   {
     "frequency": 2742,
     "word": "早め",
-    "reading": "",
+    "reading": "はやめ",
     "type": "noun",
     "meaning": "early"
   },
   {
     "frequency": 2743,
     "word": "独特",
-    "reading": "",
+    "reading": "どくとく",
     "type": "na-adjective",
     "meaning": "peculiar, unique; personal"
   },
   {
     "frequency": 2744,
     "word": "今夜",
-    "reading": "",
+    "reading": "こんや",
     "type": "noun",
     "meaning": "tonight"
   },
   {
     "frequency": 2745,
     "word": "ゆえ",
-    "reading": "",
+    "reading": "ゆえ",
     "type": "noun",
     "meaning": "reason; therefore"
   },
   {
     "frequency": 2746,
     "word": "リズム",
-    "reading": "",
+    "reading": "リズム",
     "type": "noun",
     "meaning": "rhythm"
   },
@@ -21812,14 +21812,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2748,
     "word": "魂",
-    "reading": "",
+    "reading": "たましい",
     "type": "noun",
     "meaning": "soul, spirit"
   },
   {
     "frequency": 2749,
     "word": "滞在",
-    "reading": "",
+    "reading": "たいざい",
     "type": "noun",
     "meaning": "stay, visit"
   },
@@ -21833,7 +21833,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2750,
     "word": "連携",
-    "reading": "",
+    "reading": "れんけい",
     "type": "noun",
     "meaning": "cooperation"
   },
@@ -21847,21 +21847,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2751,
     "word": "ライブ",
-    "reading": "",
+    "reading": "ライブ",
     "type": "noun",
     "meaning": "live (music)"
   },
   {
     "frequency": 2752,
     "word": "演ずる",
-    "reading": "",
+    "reading": "えんずる",
     "type": "verb",
     "meaning": "play, perform"
   },
   {
     "frequency": 2753,
     "word": "廃止",
-    "reading": "",
+    "reading": "はいし",
     "type": "noun",
     "meaning": "abolition"
   },
@@ -21875,7 +21875,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2754,
     "word": "復活",
-    "reading": "",
+    "reading": "ふっかつ",
     "type": "noun",
     "meaning": "revival, restoration"
   },
@@ -21889,7 +21889,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2755,
     "word": "借金",
-    "reading": "",
+    "reading": "しゃっきん",
     "type": "noun",
     "meaning": "debt, loan"
   },
@@ -21903,56 +21903,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2756,
     "word": "常識",
-    "reading": "",
+    "reading": "じょうしき",
     "type": "noun",
     "meaning": "common sense, general knowledge"
   },
   {
     "frequency": 2757,
     "word": "闇",
-    "reading": "",
+    "reading": "やみ",
     "type": "noun",
     "meaning": "darkness, dark"
   },
   {
     "frequency": 2758,
     "word": "見守る",
-    "reading": "",
+    "reading": "みまもる",
     "type": "verb",
     "meaning": "watch, observe"
   },
   {
     "frequency": 2759,
     "word": "不便",
-    "reading": "",
+    "reading": "ふべん",
     "type": "noun",
     "meaning": "inconvenience"
   },
   {
     "frequency": 2759,
     "word": "不便",
-    "reading": "",
+    "reading": "ふべん",
     "type": "na-adjective",
     "meaning": "inconvenient"
   },
   {
     "frequency": 2760,
     "word": "栄養",
-    "reading": "",
+    "reading": "えいよう",
     "type": "noun",
     "meaning": "nutrition"
   },
   {
     "frequency": 2761,
     "word": "フランス語",
-    "reading": "",
+    "reading": "フランスご",
     "type": "noun",
     "meaning": "French language"
   },
   {
     "frequency": 2762,
     "word": "アクセス",
-    "reading": "",
+    "reading": "アクセス",
     "type": "noun",
     "meaning": "access"
   },
@@ -21966,84 +21966,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2764,
     "word": "不幸",
-    "reading": "",
+    "reading": "ふこう",
     "type": "na-adjective",
     "meaning": "unhappiness, misfortune"
   },
   {
     "frequency": 2765,
     "word": "こだわる",
-    "reading": "",
+    "reading": "こだわる",
     "type": "verb",
     "meaning": "stick to; be particular about"
   },
   {
     "frequency": 2766,
     "word": "カット",
-    "reading": "",
+    "reading": "カット",
     "type": "noun",
     "meaning": "cut"
   },
   {
     "frequency": 2767,
     "word": "乾く",
-    "reading": "",
+    "reading": "かわく",
     "type": "verb",
     "meaning": "dry"
   },
   {
     "frequency": 2768,
     "word": "おまけ",
-    "reading": "",
+    "reading": "おまけ",
     "type": "noun",
     "meaning": "addition, free gift"
   },
   {
     "frequency": 2769,
     "word": "をはじめ",
-    "reading": "",
+    "reading": "をはじめ",
     "type": "particle",
     "meaning": "starting with ... , including"
   },
   {
     "frequency": 2770,
     "word": "ついで",
-    "reading": "",
+    "reading": "ついで",
     "type": "noun",
     "meaning": "on one’s way, along the way"
   },
   {
     "frequency": 2771,
     "word": "名称",
-    "reading": "",
+    "reading": "めいしょう",
     "type": "noun",
     "meaning": "name"
   },
   {
     "frequency": 2772,
     "word": "鍛える",
-    "reading": "",
+    "reading": "きたえる",
     "type": "verb",
     "meaning": "train, discipline"
   },
   {
     "frequency": 2773,
     "word": "大学生",
-    "reading": "",
+    "reading": "だいがくせい",
     "type": "noun",
     "meaning": "college student, university student"
   },
   {
     "frequency": 2774,
     "word": "左手",
-    "reading": "",
+    "reading": "ひだりて",
     "type": "noun",
     "meaning": "left hand; on one’s left"
   },
   {
     "frequency": 2775,
     "word": "乾燥",
-    "reading": "",
+    "reading": "かんそう",
     "type": "noun",
     "meaning": "dryness"
   },
@@ -22057,49 +22057,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2776,
     "word": "たった",
-    "reading": "",
+    "reading": "たった",
     "type": "adverb",
     "meaning": "just, only"
   },
   {
     "frequency": 2777,
     "word": "およそ",
-    "reading": "",
+    "reading": "およそ",
     "type": "adverb",
     "meaning": "around, about"
   },
   {
     "frequency": 2778,
     "word": "八日",
-    "reading": "",
+    "reading": "ようか",
     "type": "noun",
     "meaning": "eighth (date); eight days"
   },
   {
     "frequency": 2779,
     "word": "ぴったり",
-    "reading": "",
+    "reading": "ぴったり",
     "type": "adverb",
     "meaning": "tight; exactly"
   },
   {
     "frequency": 2780,
     "word": "添える",
-    "reading": "",
+    "reading": "そえる",
     "type": "verb",
     "meaning": "attach, add"
   },
   {
     "frequency": 2781,
     "word": "ノート",
-    "reading": "",
+    "reading": "ノート",
     "type": "noun",
     "meaning": "notebook"
   },
   {
     "frequency": 2782,
     "word": "配置",
-    "reading": "",
+    "reading": "はいち",
     "type": "noun",
     "meaning": "arrangement, layout"
   },
@@ -22113,7 +22113,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2783,
     "word": "輸出",
-    "reading": "",
+    "reading": "ゆしゅつ",
     "type": "noun",
     "meaning": "exportation"
   },
@@ -22127,98 +22127,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2784,
     "word": "陰",
-    "reading": "",
+    "reading": "いん",
     "type": "noun",
     "meaning": "shade, shadow; behind someone’s back"
   },
   {
     "frequency": 2785,
     "word": "漬ける",
-    "reading": "",
+    "reading": "つける",
     "type": "verb",
     "meaning": "soak; pickle"
   },
   {
     "frequency": 2786,
     "word": "果物",
-    "reading": "",
+    "reading": "くだもの",
     "type": "noun",
     "meaning": "fruit"
   },
   {
     "frequency": 2787,
     "word": "個々",
-    "reading": "",
+    "reading": "ここ",
     "type": "noun",
     "meaning": "individual, each"
   },
   {
     "frequency": 2788,
     "word": "十六日",
-    "reading": "",
+    "reading": "じゅうろくにち",
     "type": "noun",
     "meaning": "sixteenth (date); sixteen days"
   },
   {
     "frequency": 2789,
     "word": "電話番号",
-    "reading": "",
+    "reading": "でんわばんごう",
     "type": "noun",
     "meaning": "telephone number"
   },
   {
     "frequency": 2790,
     "word": "混む",
-    "reading": "",
+    "reading": "こむ",
     "type": "verb",
     "meaning": "be crowded"
   },
   {
     "frequency": 2791,
     "word": "築く",
-    "reading": "",
+    "reading": "きずく",
     "type": "verb",
     "meaning": "build, have"
   },
   {
     "frequency": 2792,
     "word": "穏やか",
-    "reading": "",
+    "reading": "おだやか",
     "type": "na-adjective",
     "meaning": "mild; calm, peaceful"
   },
   {
     "frequency": 2793,
     "word": "結び付く",
-    "reading": "",
+    "reading": "むすびつく",
     "type": "verb",
     "meaning": "join, be connected with"
   },
   {
     "frequency": 2794,
     "word": "崩れる",
-    "reading": "",
+    "reading": "くずれる",
     "type": "verb",
     "meaning": "crumble, collapse"
   },
   {
     "frequency": 2795,
     "word": "届ける",
-    "reading": "",
+    "reading": "とどける",
     "type": "verb",
     "meaning": "deliver; send; report"
   },
   {
     "frequency": 2796,
     "word": "プレー",
-    "reading": "",
+    "reading": "プレー",
     "type": "noun",
     "meaning": "play"
   },
   {
     "frequency": 2797,
     "word": "進歩",
-    "reading": "",
+    "reading": "しんぽ",
     "type": "noun",
     "meaning": "progress, advance"
   },
@@ -22232,7 +22232,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2798,
     "word": "百",
-    "reading": "",
+    "reading": "ひゃく",
     "type": "noun",
     "meaning": "hundred"
   },
@@ -22253,21 +22253,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2801,
     "word": "産業",
-    "reading": "",
+    "reading": "さんぎょう",
     "type": "noun",
     "meaning": "industry"
   },
   {
     "frequency": 2802,
     "word": "前日",
-    "reading": "",
+    "reading": "ぜんじつ",
     "type": "noun",
     "meaning": "eve, previous day"
   },
   {
     "frequency": 2803,
     "word": "吸収",
-    "reading": "",
+    "reading": "きゅうしゅう",
     "type": "noun",
     "meaning": "absorption, assimilation"
   },
@@ -22281,70 +22281,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2804,
     "word": "驚き",
-    "reading": "",
+    "reading": "おどろき",
     "type": "noun",
     "meaning": "surprise, amazement"
   },
   {
     "frequency": 2805,
     "word": "ソ連",
-    "reading": "",
+    "reading": "ソれん",
     "type": "noun",
     "meaning": "the Soviet Union"
   },
   {
     "frequency": 2806,
     "word": "悲しみ",
-    "reading": "",
+    "reading": "かなしみ",
     "type": "noun",
     "meaning": "sadness, grief"
   },
   {
     "frequency": 2807,
     "word": "十一日",
-    "reading": "",
+    "reading": "じゅういちにち",
     "type": "noun",
     "meaning": "eleventh (date); eleven days"
   },
   {
     "frequency": 2808,
     "word": "最低",
-    "reading": "",
+    "reading": "さいてい",
     "type": "noun",
     "meaning": "minimum, lowest"
   },
   {
     "frequency": 2809,
     "word": "十六",
-    "reading": "",
+    "reading": "じゅうろく",
     "type": "numeral",
     "meaning": "sixteen"
   },
   {
     "frequency": 2810,
     "word": "にんにく",
-    "reading": "",
+    "reading": "にんにく",
     "type": "noun",
     "meaning": "garlic"
   },
   {
     "frequency": 2811,
     "word": "順番",
-    "reading": "",
+    "reading": "じゅんばん",
     "type": "noun",
     "meaning": "turn, order"
   },
   {
     "frequency": 2812,
     "word": "裁判所",
-    "reading": "",
+    "reading": "さいばんしょ",
     "type": "noun",
     "meaning": "court, courthouse"
   },
   {
     "frequency": 2813,
     "word": "観光",
-    "reading": "",
+    "reading": "かんこう",
     "type": "noun",
     "meaning": "sightseeing"
   },
@@ -22358,63 +22358,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2814,
     "word": "申し訳",
-    "reading": "",
+    "reading": "もうしわけ",
     "type": "noun",
     "meaning": "excuse, apology"
   },
   {
     "frequency": 2815,
     "word": "葉っぱ",
-    "reading": "",
+    "reading": "はっぱ",
     "type": "noun",
     "meaning": "leaf"
   },
   {
     "frequency": 2816,
     "word": "生き物",
-    "reading": "",
+    "reading": "いきもの",
     "type": "noun",
     "meaning": "creature, life"
   },
   {
     "frequency": 2817,
     "word": "演出",
-    "reading": "",
+    "reading": "えんしゅつ",
     "type": "noun, verb",
     "meaning": "direction, direct"
   },
   {
     "frequency": 2818,
     "word": "ですが",
-    "reading": "",
+    "reading": "ですが",
     "type": "conjunction",
     "meaning": "but, however"
   },
   {
     "frequency": 2819,
     "word": "本気",
-    "reading": "",
+    "reading": "ほんき",
     "type": "noun",
     "meaning": "seriousness, earnestness"
   },
   {
     "frequency": 2819,
     "word": "本気",
-    "reading": "",
+    "reading": "ほんき",
     "type": "na-adjective",
     "meaning": "serious, earnest"
   },
   {
     "frequency": 2820,
     "word": "三年生",
-    "reading": "",
+    "reading": "さんねんせい",
     "type": "noun",
     "meaning": "third grade, third year"
   },
   {
     "frequency": 2821,
     "word": "記入",
-    "reading": "",
+    "reading": "きにゅう",
     "type": "noun",
     "meaning": "entry"
   },
@@ -22428,49 +22428,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2822,
     "word": "見上げる",
-    "reading": "",
+    "reading": "みあげる",
     "type": "verb",
     "meaning": "look up; respect"
   },
   {
     "frequency": 2823,
     "word": "話し合い",
-    "reading": "",
+    "reading": "はなしあい",
     "type": "noun",
     "meaning": "discussion, meeting"
   },
   {
     "frequency": 2824,
     "word": "値",
-    "reading": "",
+    "reading": "あたい",
     "type": "noun",
     "meaning": "price"
   },
   {
     "frequency": 2825,
     "word": "一人暮らし",
-    "reading": "",
+    "reading": "ひとりぐらし",
     "type": "noun",
     "meaning": "living alone, single life"
   },
   {
     "frequency": 2826,
     "word": "趣旨",
-    "reading": "",
+    "reading": "しゅし",
     "type": "noun",
     "meaning": "purpose, intention, point"
   },
   {
     "frequency": 2827,
     "word": "柔らかい",
-    "reading": "",
+    "reading": "やわらかい",
     "type": "i-adjective",
     "meaning": "soft"
   },
   {
     "frequency": 2828,
     "word": "舌",
-    "reading": "",
+    "reading": "した",
     "type": "noun",
     "meaning": "tongue"
   },
@@ -22484,7 +22484,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2830,
     "word": "後悔",
-    "reading": "",
+    "reading": "こうかい",
     "type": "noun",
     "meaning": "repentance, regret"
   },
@@ -22498,21 +22498,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2831,
     "word": "詰める",
-    "reading": "",
+    "reading": "つめる",
     "type": "verb",
     "meaning": "plug, pack, stuff"
   },
   {
     "frequency": 2832,
     "word": "勝利",
-    "reading": "",
+    "reading": "しょうり",
     "type": "noun",
     "meaning": "victory, triumph, winning"
   },
   {
     "frequency": 2833,
     "word": "自覚",
-    "reading": "",
+    "reading": "じかく",
     "type": "noun",
     "meaning": "consciousness, awareness"
   },
@@ -22526,28 +22526,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2834,
     "word": "今朝",
-    "reading": "",
+    "reading": "けさ",
     "type": "noun",
     "meaning": "this morning"
   },
   {
     "frequency": 2835,
     "word": "総合的",
-    "reading": "",
+    "reading": "そうごうてき",
     "type": "na-adjective",
     "meaning": "synthetic, integrated, comprehensive"
   },
   {
     "frequency": 2836,
     "word": "美しさ",
-    "reading": "",
+    "reading": "うつくしさ",
     "type": "noun",
     "meaning": "beauty"
   },
   {
     "frequency": 2837,
     "word": "法人",
-    "reading": "",
+    "reading": "ほうじん",
     "type": "noun",
     "meaning": "corporation"
   },
@@ -22561,14 +22561,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2839,
     "word": "極端",
-    "reading": "",
+    "reading": "きょくたん",
     "type": "na-adjective",
     "meaning": "extreme"
   },
   {
     "frequency": 2840,
     "word": "留学",
-    "reading": "",
+    "reading": "りゅうがく",
     "type": "noun",
     "meaning": "study abroad"
   },
@@ -22582,14 +22582,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2841,
     "word": "念",
-    "reading": "",
+    "reading": "ねん",
     "type": "noun",
     "meaning": "sense, feeling"
   },
   {
     "frequency": 2842,
     "word": "銀座",
-    "reading": "",
+    "reading": "ぎんざ",
     "type": "noun",
     "meaning": "Ginza (place name)"
   },
@@ -22603,105 +22603,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2844,
     "word": "漂う",
-    "reading": "",
+    "reading": "ただよう",
     "type": "verb",
     "meaning": "drift, float"
   },
   {
     "frequency": 2845,
     "word": "測る",
-    "reading": "",
+    "reading": "はかる",
     "type": "verb",
     "meaning": "measure; weigh"
   },
   {
     "frequency": 2846,
     "word": "永遠",
-    "reading": "",
+    "reading": "えいえん",
     "type": "noun",
     "meaning": "eternity, permanence"
   },
   {
     "frequency": 2847,
     "word": "十四日",
-    "reading": "",
+    "reading": "じゅうよっか",
     "type": "noun",
     "meaning": "fourteenth (date); fourteen days"
   },
   {
     "frequency": 2848,
     "word": "取り戻す",
-    "reading": "",
+    "reading": "とりもどす",
     "type": "verb",
     "meaning": "take back, repossess"
   },
   {
     "frequency": 2849,
     "word": "いっぺん",
-    "reading": "",
+    "reading": "いっぺん",
     "type": "noun",
     "meaning": "at the same time; altogether"
   },
   {
     "frequency": 2850,
     "word": "門",
-    "reading": "",
+    "reading": "と",
     "type": "noun",
     "meaning": "gate"
   },
   {
     "frequency": 2851,
     "word": "伸び",
-    "reading": "",
+    "reading": "のび",
     "type": "noun",
     "meaning": "growth"
   },
   {
     "frequency": 2852,
     "word": "たどる",
-    "reading": "",
+    "reading": "たどる",
     "type": "verb",
     "meaning": "follow, trace, search"
   },
   {
     "frequency": 2853,
     "word": "事例",
-    "reading": "",
+    "reading": "じれい",
     "type": "noun",
     "meaning": "case"
   },
   {
     "frequency": 2854,
     "word": "どなた",
-    "reading": "",
+    "reading": "どなた",
     "type": "pronoun",
     "meaning": "who"
   },
   {
     "frequency": 2855,
     "word": "やばい",
-    "reading": "",
+    "reading": "やばい",
     "type": "i-adjective",
     "meaning": "risky, chancy"
   },
   {
     "frequency": 2856,
     "word": "冗談",
-    "reading": "",
+    "reading": "じょうだん",
     "type": "noun",
     "meaning": "joke"
   },
   {
     "frequency": 2857,
     "word": "巣",
-    "reading": "",
+    "reading": "す",
     "type": "noun",
     "meaning": "nest"
   },
   {
     "frequency": 2858,
     "word": "進展",
-    "reading": "",
+    "reading": "しんてん",
     "type": "noun",
     "meaning": "progress, development, evolution"
   },
@@ -22715,14 +22715,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2859,
     "word": "手伝い",
-    "reading": "",
+    "reading": "てつだい",
     "type": "noun",
     "meaning": "help"
   },
   {
     "frequency": 2860,
     "word": "死亡",
-    "reading": "",
+    "reading": "しぼう",
     "type": "noun",
     "meaning": "death, decease"
   },
@@ -22736,35 +22736,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2861,
     "word": "細胞",
-    "reading": "",
+    "reading": "さいぼう",
     "type": "noun",
     "meaning": "cell"
   },
   {
     "frequency": 2862,
     "word": "犠牲",
-    "reading": "",
+    "reading": "ぎせい",
     "type": "noun",
     "meaning": "sacrifice, expense"
   },
   {
     "frequency": 2863,
     "word": "殴る",
-    "reading": "",
+    "reading": "なぐる",
     "type": "verb",
     "meaning": "hit, strike"
   },
   {
     "frequency": 2864,
     "word": "前後",
-    "reading": "",
+    "reading": "ぜんご",
     "type": "noun",
     "meaning": "back and forth"
   },
   {
     "frequency": 2865,
     "word": "対立",
-    "reading": "",
+    "reading": "たいりつ",
     "type": "noun",
     "meaning": "opposition, conflict"
   },
@@ -22778,56 +22778,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2866,
     "word": "六日",
-    "reading": "",
+    "reading": "むいか",
     "type": "noun",
     "meaning": "sixth (date); six days"
   },
   {
     "frequency": 2867,
     "word": "比率",
-    "reading": "",
+    "reading": "ひりつ",
     "type": "noun",
     "meaning": "ratio, proportion"
   },
   {
     "frequency": 2868,
     "word": "タイ",
-    "reading": "",
+    "reading": "タイ",
     "type": "noun",
     "meaning": "Thailand"
   },
   {
     "frequency": 2869,
     "word": "放つ",
-    "reading": "",
+    "reading": "はなつ",
     "type": "verb",
     "meaning": "fly, loose"
   },
   {
     "frequency": 2870,
     "word": "香港",
-    "reading": "",
+    "reading": "ホンコン",
     "type": "noun",
     "meaning": "Hong Kong"
   },
   {
     "frequency": 2871,
     "word": "湖",
-    "reading": "",
+    "reading": "みずうみ",
     "type": "noun",
     "meaning": "lake"
   },
   {
     "frequency": 2872,
     "word": "稼ぐ",
-    "reading": "",
+    "reading": "かせぐ",
     "type": "verb",
     "meaning": "earn"
   },
   {
     "frequency": 2873,
     "word": "出現",
-    "reading": "",
+    "reading": "しゅつげん",
     "type": "noun",
     "meaning": "appearance, dawn, birth, advent"
   },
@@ -22841,21 +22841,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2874,
     "word": "真実",
-    "reading": "",
+    "reading": "しんじつ",
     "type": "noun",
     "meaning": "truth, reality"
   },
   {
     "frequency": 2875,
     "word": "前回",
-    "reading": "",
+    "reading": "ぜんかい",
     "type": "noun",
     "meaning": "last time, previous time"
   },
   {
     "frequency": 2876,
     "word": "工事",
-    "reading": "",
+    "reading": "こうじ",
     "type": "noun",
     "meaning": "construction, work"
   },
@@ -22869,28 +22869,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2877,
     "word": "科学",
-    "reading": "",
+    "reading": "かがく",
     "type": "noun",
     "meaning": "science"
   },
   {
     "frequency": 2878,
     "word": "順",
-    "reading": "",
+    "reading": "じゅん",
     "type": "noun",
     "meaning": "order"
   },
   {
     "frequency": 2879,
     "word": "読者",
-    "reading": "",
+    "reading": "どくしゃ",
     "type": "noun",
     "meaning": "reader"
   },
   {
     "frequency": 2880,
     "word": "不足",
-    "reading": "",
+    "reading": "ふそく",
     "type": "noun",
     "meaning": "lack, shortage"
   },
@@ -22904,14 +22904,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2881,
     "word": "社会的",
-    "reading": "",
+    "reading": "しゃかいてき",
     "type": "na-adjective",
     "meaning": "social"
   },
   {
     "frequency": 2882,
     "word": "限定",
-    "reading": "",
+    "reading": "げんてい",
     "type": "noun",
     "meaning": "restriction, limitation"
   },
@@ -22925,49 +22925,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2883,
     "word": "劇団",
-    "reading": "",
+    "reading": "げきだん",
     "type": "noun",
     "meaning": "theatrical company"
   },
   {
     "frequency": 2884,
     "word": "看護婦",
-    "reading": "",
+    "reading": "かんごふ",
     "type": "noun",
     "meaning": "nurse (female)"
   },
   {
     "frequency": 2885,
     "word": "人参",
-    "reading": "",
+    "reading": "にんじん",
     "type": "noun",
     "meaning": "carrot"
   },
   {
     "frequency": 2886,
     "word": "一面",
-    "reading": "",
+    "reading": "いちめん",
     "type": "noun",
     "meaning": "side, facet"
   },
   {
     "frequency": 2887,
     "word": "生涯",
-    "reading": "",
+    "reading": "しょうがい",
     "type": "noun",
     "meaning": "life, lifetime; career"
   },
   {
     "frequency": 2888,
     "word": "意思",
-    "reading": "",
+    "reading": "いし",
     "type": "noun",
     "meaning": "will, intention"
   },
   {
     "frequency": 2889,
     "word": "追加",
-    "reading": "",
+    "reading": "ついか",
     "type": "noun",
     "meaning": "addition, supplement"
   },
@@ -22981,98 +22981,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2890,
     "word": "台湾",
-    "reading": "",
+    "reading": "たいわん",
     "type": "noun",
     "meaning": "Taiwan"
   },
   {
     "frequency": 2891,
     "word": "日常生活",
-    "reading": "",
+    "reading": "にちじょうせいかつ",
     "type": "noun",
     "meaning": "daily life"
   },
   {
     "frequency": 2892,
     "word": "拭く",
-    "reading": "",
+    "reading": "ふく",
     "type": "verb",
     "meaning": "wipe, dry"
   },
   {
     "frequency": 2893,
     "word": "レース",
-    "reading": "",
+    "reading": "レース",
     "type": "noun",
     "meaning": "race"
   },
   {
     "frequency": 2894,
     "word": "民族",
-    "reading": "",
+    "reading": "みんぞく",
     "type": "noun",
     "meaning": "people, race, nation"
   },
   {
     "frequency": 2895,
     "word": "天",
-    "reading": "",
+    "reading": "てん",
     "type": "noun",
     "meaning": "sky, heaven"
   },
   {
     "frequency": 2896,
     "word": "花火",
-    "reading": "",
+    "reading": "はなび",
     "type": "noun",
     "meaning": "firework"
   },
   {
     "frequency": 2897,
     "word": "項目",
-    "reading": "",
+    "reading": "こうもく",
     "type": "noun",
     "meaning": "item, heading"
   },
   {
     "frequency": 2898,
     "word": "動向",
-    "reading": "",
+    "reading": "どうこう",
     "type": "noun",
     "meaning": "trend, movement"
   },
   {
     "frequency": 2899,
     "word": "にしろ",
-    "reading": "",
+    "reading": "にしろ",
     "type": "conjunctive particle",
     "meaning": "even if"
   },
   {
     "frequency": 2900,
     "word": "日頃",
-    "reading": "",
+    "reading": "ひごろ",
     "type": "noun",
     "meaning": "everyday"
   },
   {
     "frequency": 2901,
     "word": "砂",
-    "reading": "",
+    "reading": "すな",
     "type": "noun",
     "meaning": "sand"
   },
   {
     "frequency": 2902,
     "word": "大根",
-    "reading": "",
+    "reading": "だいこん",
     "type": "noun",
     "meaning": "Japanese radish, radish"
   },
   {
     "frequency": 2903,
     "word": "感激",
-    "reading": "",
+    "reading": "かんげき",
     "type": "noun",
     "meaning": "deep emotion"
   },
@@ -23086,77 +23086,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2904,
     "word": "浮く",
-    "reading": "",
+    "reading": "うく",
     "type": "verb",
     "meaning": "float, suspend"
   },
   {
     "frequency": 2905,
     "word": "まして",
-    "reading": "",
+    "reading": "まして",
     "type": "adverb",
     "meaning": "much less, much more"
   },
   {
     "frequency": 2906,
     "word": "リスク",
-    "reading": "",
+    "reading": "リスク",
     "type": "noun",
     "meaning": "risk"
   },
   {
     "frequency": 2907,
     "word": "引っ掛かる",
-    "reading": "",
+    "reading": "ひっかかる",
     "type": "verb",
     "meaning": "catch; be caught"
   },
   {
     "frequency": 2908,
     "word": "オークション",
-    "reading": "",
+    "reading": "オークション",
     "type": "noun",
     "meaning": "auction"
   },
   {
     "frequency": 2909,
     "word": "二十一日",
-    "reading": "",
+    "reading": "にじゅういちにち",
     "type": "noun",
     "meaning": "twenty-first (date); twenty-one days"
   },
   {
     "frequency": 2910,
     "word": "ほら",
-    "reading": "",
+    "reading": "ほら",
     "type": "interjection",
     "meaning": "Look!"
   },
   {
     "frequency": 2911,
     "word": "を通して",
-    "reading": "",
+    "reading": "をとおして",
     "type": "compound",
     "meaning": "according to; through"
   },
   {
     "frequency": 2912,
     "word": "武器",
-    "reading": "",
+    "reading": "ぶき",
     "type": "noun",
     "meaning": "weapon"
   },
   {
     "frequency": 2913,
     "word": "都内",
-    "reading": "",
+    "reading": "とない",
     "type": "noun",
     "meaning": "in the city"
   },
   {
     "frequency": 2914,
     "word": "違反",
-    "reading": "",
+    "reading": "いはん",
     "type": "noun",
     "meaning": "violation"
   },
@@ -23170,56 +23170,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2915,
     "word": "すっきり",
-    "reading": "",
+    "reading": "すっきり",
     "type": "adverb, verb",
     "meaning": "feel refreshed"
   },
   {
     "frequency": 2916,
     "word": "十二日",
-    "reading": "",
+    "reading": "じゅうににち",
     "type": "noun",
     "meaning": "twelfth (date), twelve days"
   },
   {
     "frequency": 2917,
     "word": "別に",
-    "reading": "",
+    "reading": "べつに",
     "type": "adverb",
     "meaning": "(not) particularly"
   },
   {
     "frequency": 2918,
     "word": "十八日",
-    "reading": "",
+    "reading": "じゅうはちにち",
     "type": "noun",
     "meaning": "eighteenth (date); eighteen days"
   },
   {
     "frequency": 2919,
     "word": "お宅",
-    "reading": "",
+    "reading": "おたく",
     "type": "noun",
     "meaning": "your house"
   },
   {
     "frequency": 2920,
     "word": "交通",
-    "reading": "",
+    "reading": "こうつう",
     "type": "noun",
     "meaning": "traffic; transportation"
   },
   {
     "frequency": 2921,
     "word": "業界",
-    "reading": "",
+    "reading": "ぎょうかい",
     "type": "noun",
     "meaning": "business world"
   },
   {
     "frequency": 2922,
     "word": "解放",
-    "reading": "",
+    "reading": "かいほう",
     "type": "noun",
     "meaning": "liberation"
   },
@@ -23233,42 +23233,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2923,
     "word": "需要",
-    "reading": "",
+    "reading": "じゅよう",
     "type": "noun",
     "meaning": "demand"
   },
   {
     "frequency": 2924,
     "word": "高度",
-    "reading": "",
+    "reading": "こうど",
     "type": "noun",
     "meaning": "altitude"
   },
   {
     "frequency": 2924,
     "word": "高度",
-    "reading": "",
+    "reading": "こうど",
     "type": "na-adjective",
     "meaning": "high, advanced"
   },
   {
     "frequency": 2925,
     "word": "帰国",
-    "reading": "",
+    "reading": "きこく",
     "type": "noun, verb",
     "meaning": "going/coming back to one’s own country"
   },
   {
     "frequency": 2926,
     "word": "午前中",
-    "reading": "",
+    "reading": "ごぜんちゅう",
     "type": "noun",
     "meaning": "in the morning, throughout the morning"
   },
   {
     "frequency": 2927,
     "word": "実践",
-    "reading": "",
+    "reading": "じっせん",
     "type": "noun",
     "meaning": "practice"
   },
@@ -23282,35 +23282,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2928,
     "word": "深刻",
-    "reading": "",
+    "reading": "しんこく",
     "type": "na-adjective",
     "meaning": "serious"
   },
   {
     "frequency": 2929,
     "word": "十八",
-    "reading": "",
+    "reading": "じゅうはち",
     "type": "numeral",
     "meaning": "eighteen"
   },
   {
     "frequency": 2930,
     "word": "関係者",
-    "reading": "",
+    "reading": "かんけいしゃ",
     "type": "noun",
     "meaning": "person concerned"
   },
   {
     "frequency": 2931,
     "word": "追いかける",
-    "reading": "",
+    "reading": "おいかける",
     "type": "verb",
     "meaning": "run after, chase"
   },
   {
     "frequency": 2932,
     "word": "作用",
-    "reading": "",
+    "reading": "さよう",
     "type": "noun",
     "meaning": "action"
   },
@@ -23324,28 +23324,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2933,
     "word": "毎週",
-    "reading": "",
+    "reading": "まいしゅう",
     "type": "adverb",
     "meaning": "every week"
   },
   {
     "frequency": 2934,
     "word": "五つ",
-    "reading": "",
+    "reading": "いつつ",
     "type": "numeral",
     "meaning": "five"
   },
   {
     "frequency": 2935,
     "word": "頻繁",
-    "reading": "",
+    "reading": "ひんぱん",
     "type": "na-adjective",
     "meaning": "frequent"
   },
   {
     "frequency": 2936,
     "word": "差別",
-    "reading": "",
+    "reading": "さべつ",
     "type": "noun",
     "meaning": "discrimination"
   },
@@ -23359,42 +23359,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2937,
     "word": "大声",
-    "reading": "",
+    "reading": "おおごえ",
     "type": "noun",
     "meaning": "loud voice"
   },
   {
     "frequency": 2938,
     "word": "長年",
-    "reading": "",
+    "reading": "ながねん",
     "type": "adverb",
     "meaning": "long time; many years"
   },
   {
     "frequency": 2939,
     "word": "固まり",
-    "reading": "",
+    "reading": "かたまり",
     "type": "noun",
     "meaning": "mass, lump"
   },
   {
     "frequency": 2940,
     "word": "快適",
-    "reading": "",
+    "reading": "かいてき",
     "type": "na-adjective",
     "meaning": "comfortable"
   },
   {
     "frequency": 2941,
     "word": "あいつ",
-    "reading": "",
+    "reading": "あいつ",
     "type": "pronoun",
     "meaning": "that fellow; that thing"
   },
   {
     "frequency": 2942,
     "word": "研修",
-    "reading": "",
+    "reading": "けんしゅう",
     "type": "noun",
     "meaning": "training"
   },
@@ -23408,91 +23408,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2943,
     "word": "沈む",
-    "reading": "",
+    "reading": "しずむ",
     "type": "verb",
     "meaning": "sink, go down"
   },
   {
     "frequency": 2944,
     "word": "男子",
-    "reading": "",
+    "reading": "だんし",
     "type": "noun",
     "meaning": "boy, man"
   },
   {
     "frequency": 2945,
     "word": "爪",
-    "reading": "",
+    "reading": "つめ",
     "type": "noun",
     "meaning": "nail; claw"
   },
   {
     "frequency": 2946,
     "word": "青年",
-    "reading": "",
+    "reading": "せいねん",
     "type": "noun",
     "meaning": "young man"
   },
   {
     "frequency": 2947,
     "word": "捕まえる",
-    "reading": "",
+    "reading": "つかまえる",
     "type": "verb",
     "meaning": "catch, arrest"
   },
   {
     "frequency": 2948,
     "word": "こいつ",
-    "reading": "",
+    "reading": "こいつ",
     "type": "pronoun",
     "meaning": "this fellow; this thing"
   },
   {
     "frequency": 2949,
     "word": "氷",
-    "reading": "",
+    "reading": "こおり",
     "type": "noun",
     "meaning": "ice"
   },
   {
     "frequency": 2950,
     "word": "十七日",
-    "reading": "",
+    "reading": "じゅうしちにち",
     "type": "noun",
     "meaning": "seventeenth (date); seventeen days"
   },
   {
     "frequency": 2951,
     "word": "鋭い",
-    "reading": "",
+    "reading": "するどい",
     "type": "i-adjective",
     "meaning": "sharp, pointed"
   },
   {
     "frequency": 2952,
     "word": "いじめる",
-    "reading": "",
+    "reading": "いじめる",
     "type": "verb",
     "meaning": "torment, bully, tease"
   },
   {
     "frequency": 2953,
     "word": "業者",
-    "reading": "",
+    "reading": "ぎょうしゃ",
     "type": "noun",
     "meaning": "dealer, agent, operator"
   },
   {
     "frequency": 2954,
     "word": "大半",
-    "reading": "",
+    "reading": "たいはん",
     "type": "noun",
     "meaning": "better part, most part"
   },
   {
     "frequency": 2955,
     "word": "作り上げる",
-    "reading": "",
+    "reading": "つくりあげる",
     "type": "verb",
     "meaning": "make up, build up"
   },
@@ -23506,21 +23506,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2957,
     "word": "称する",
-    "reading": "",
+    "reading": "しょうする",
     "type": "verb",
     "meaning": "call; pretend"
   },
   {
     "frequency": 2958,
     "word": "とすれば",
-    "reading": "",
+    "reading": "とすれば",
     "type": "conjunctive particle",
     "meaning": "if that is the case"
   },
   {
     "frequency": 2959,
     "word": "支持",
-    "reading": "",
+    "reading": "しじ",
     "type": "noun",
     "meaning": "support"
   },
@@ -23534,35 +23534,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2960,
     "word": "九日",
-    "reading": "",
+    "reading": "ここのか",
     "type": "noun",
     "meaning": "ninth (date); nine days"
   },
   {
     "frequency": 2961,
     "word": "雌",
-    "reading": "",
+    "reading": "めす",
     "type": "noun",
     "meaning": "female animal"
   },
   {
     "frequency": 2962,
     "word": "跡",
-    "reading": "",
+    "reading": "あと",
     "type": "noun",
     "meaning": "track, trail; mark, sign"
   },
   {
     "frequency": 2963,
     "word": "トマト",
-    "reading": "",
+    "reading": "トマト",
     "type": "noun",
     "meaning": "tomato"
   },
   {
     "frequency": 2964,
     "word": "エピソード",
-    "reading": "",
+    "reading": "エピソード",
     "type": "noun",
     "meaning": "episode, anecdote"
   },
@@ -23576,7 +23576,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2966,
     "word": "訪問",
-    "reading": "",
+    "reading": "ほうもん",
     "type": "noun",
     "meaning": "visit, call"
   },
@@ -23590,63 +23590,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2967,
     "word": "スピーチ",
-    "reading": "",
+    "reading": "スピーチ",
     "type": "noun",
     "meaning": "speech"
   },
   {
     "frequency": 2968,
     "word": "一見",
-    "reading": "",
+    "reading": "いっけん",
     "type": "adverb",
     "meaning": "at a glance"
   },
   {
     "frequency": 2969,
     "word": "足元",
-    "reading": "",
+    "reading": "あしもと",
     "type": "noun",
     "meaning": "at one’s feet; step"
   },
   {
     "frequency": 2970,
     "word": "台所",
-    "reading": "",
+    "reading": "だいどころ",
     "type": "noun",
     "meaning": "kitchen"
   },
   {
     "frequency": 2971,
     "word": "ねばならない",
-    "reading": "",
+    "reading": "ねばならない",
     "type": "compound",
     "meaning": "must, have to"
   },
   {
     "frequency": 2972,
     "word": "毛",
-    "reading": "",
+    "reading": "け",
     "type": "noun",
     "meaning": "hair; fur; wool"
   },
   {
     "frequency": 2973,
     "word": "一点",
-    "reading": "",
+    "reading": "いってん",
     "type": "noun",
     "meaning": "point, single point"
   },
   {
     "frequency": 2974,
     "word": "二十三日",
-    "reading": "",
+    "reading": "にじゅうさんにち",
     "type": "noun",
     "meaning": "twenty-third (date); twenty-three days"
   },
   {
     "frequency": 2975,
     "word": "支給",
-    "reading": "",
+    "reading": "しきゅう",
     "type": "noun",
     "meaning": "provision, payment"
   },
@@ -23660,21 +23660,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2976,
     "word": "経費",
-    "reading": "",
+    "reading": "けいひ",
     "type": "noun",
     "meaning": "expense, cost"
   },
   {
     "frequency": 2977,
     "word": "晴れる",
-    "reading": "",
+    "reading": "はれる",
     "type": "verb",
     "meaning": "clear up, be dispelled; be refreshed"
   },
   {
     "frequency": 2978,
     "word": "感心",
-    "reading": "",
+    "reading": "かんしん",
     "type": "noun",
     "meaning": "admiration"
   },
@@ -23688,14 +23688,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2979,
     "word": "ポケット",
-    "reading": "",
+    "reading": "ポケット",
     "type": "noun",
     "meaning": "pocket"
   },
   {
     "frequency": 2980,
     "word": "決意",
-    "reading": "",
+    "reading": "けつい",
     "type": "noun",
     "meaning": "determination"
   },
@@ -23709,42 +23709,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2981,
     "word": "法則",
-    "reading": "",
+    "reading": "ほうそく",
     "type": "noun",
     "meaning": "law"
   },
   {
     "frequency": 2982,
     "word": "とはいえ",
-    "reading": "",
+    "reading": "とはいえ",
     "type": "conjunctive particle",
     "meaning": "though, however"
   },
   {
     "frequency": 2983,
     "word": "資産",
-    "reading": "",
+    "reading": "しさん",
     "type": "noun",
     "meaning": "assets, property"
   },
   {
     "frequency": 2984,
     "word": "慎重",
-    "reading": "",
+    "reading": "しんちょう",
     "type": "na-adjective",
     "meaning": "careful, discreet"
   },
   {
     "frequency": 2985,
     "word": "二十四日",
-    "reading": "",
+    "reading": "にじゅうよっか",
     "type": "noun",
     "meaning": "twenty-fourth (date); twenty-four days"
   },
   {
     "frequency": 2986,
     "word": "尊敬",
-    "reading": "",
+    "reading": "そんけい",
     "type": "noun",
     "meaning": "respect"
   },
@@ -23758,42 +23758,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2987,
     "word": "尽くす",
-    "reading": "",
+    "reading": "つくす",
     "type": "verb",
     "meaning": "do one’s best, devote; exhaust"
   },
   {
     "frequency": 2988,
     "word": "謎",
-    "reading": "",
+    "reading": "なぞ",
     "type": "noun",
     "meaning": "mystery, riddle"
   },
   {
     "frequency": 2989,
     "word": "田んぼ",
-    "reading": "",
+    "reading": "たんぼ",
     "type": "noun",
     "meaning": "rice field"
   },
   {
     "frequency": 2990,
     "word": "評判",
-    "reading": "",
+    "reading": "ひょうばん",
     "type": "noun",
     "meaning": "reputation; popularity"
   },
   {
     "frequency": 2991,
     "word": "寒さ",
-    "reading": "",
+    "reading": "さむさ",
     "type": "noun",
     "meaning": "cold"
   },
   {
     "frequency": 2992,
     "word": "天井",
-    "reading": "",
+    "reading": "てんじょう",
     "type": "noun",
     "meaning": "ceiling"
   },
@@ -23807,70 +23807,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 2994,
     "word": "せめて",
-    "reading": "",
+    "reading": "せめて",
     "type": "adverb",
     "meaning": "at least, at most"
   },
   {
     "frequency": 2995,
     "word": "喫茶店",
-    "reading": "",
+    "reading": "きっさてん",
     "type": "noun",
     "meaning": "tearoom, coffee shop, café"
   },
   {
     "frequency": 2996,
     "word": "従業員",
-    "reading": "",
+    "reading": "じゅうぎょういん",
     "type": "noun",
     "meaning": "employee, worker"
   },
   {
     "frequency": 2997,
     "word": "嫁",
-    "reading": "",
+    "reading": "よめ",
     "type": "noun",
     "meaning": "wife; bride; daughter-in-law"
   },
   {
     "frequency": 2998,
     "word": "浮かべる",
-    "reading": "",
+    "reading": "うかべる",
     "type": "verb",
     "meaning": "float; show; imagine"
   },
   {
     "frequency": 2999,
     "word": "災害",
-    "reading": "",
+    "reading": "さいがい",
     "type": "noun",
     "meaning": "disaster, calamity"
   },
   {
     "frequency": 3000,
     "word": "国際的",
-    "reading": "",
+    "reading": "こくさいてき",
     "type": "na-adjective",
     "meaning": "international"
   },
   {
     "frequency": 3001,
     "word": "髪の毛",
-    "reading": "",
+    "reading": "かみのけ",
     "type": "noun",
     "meaning": "hair"
   },
   {
     "frequency": 3002,
     "word": "ないといけない",
-    "reading": "",
+    "reading": "ないといけない",
     "type": "compound",
     "meaning": "must, have to"
   },
   {
     "frequency": 3003,
     "word": "加入",
-    "reading": "",
+    "reading": "かにゅう",
     "type": "noun",
     "meaning": "admission, joining"
   },
@@ -23884,7 +23884,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3004,
     "word": "受け付け",
-    "reading": "",
+    "reading": "うけつけ",
     "type": "noun",
     "meaning": "acceptance, information desk, reception (desk)"
   },
@@ -23898,28 +23898,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3006,
     "word": "型",
-    "reading": "",
+    "reading": "かた",
     "type": "noun",
     "meaning": "model, pattern, type"
   },
   {
     "frequency": 3007,
     "word": "順調",
-    "reading": "",
+    "reading": "じゅんちょう",
     "type": "na-adjective",
     "meaning": "satisfactory, favorable, smooth"
   },
   {
     "frequency": 3008,
     "word": "専門",
-    "reading": "",
+    "reading": "せんもん",
     "type": "noun",
     "meaning": "specialty, speciality"
   },
   {
     "frequency": 3009,
     "word": "供給",
-    "reading": "",
+    "reading": "きょうきゅう",
     "type": "noun",
     "meaning": "supply"
   },
@@ -23933,21 +23933,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3010,
     "word": "振り",
-    "reading": "",
+    "reading": "ふり",
     "type": "noun",
     "meaning": "pretence"
   },
   {
     "frequency": 3011,
     "word": "売り上げ",
-    "reading": "",
+    "reading": "うりあげ",
     "type": "noun",
     "meaning": "sales"
   },
   {
     "frequency": 3012,
     "word": "建築",
-    "reading": "",
+    "reading": "けんちく",
     "type": "noun",
     "meaning": "architecture, construction"
   },
@@ -23961,42 +23961,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3013,
     "word": "利用者",
-    "reading": "",
+    "reading": "りようしゃ",
     "type": "noun",
     "meaning": "user"
   },
   {
     "frequency": 3014,
     "word": "多様",
-    "reading": "",
+    "reading": "たよう",
     "type": "na-adjective",
     "meaning": "various"
   },
   {
     "frequency": 3015,
     "word": "地方公共団体",
-    "reading": "",
+    "reading": "ちほうこうきょうだんたい",
     "type": "noun",
     "meaning": "local public body"
   },
   {
     "frequency": 3016,
     "word": "じゃん",
-    "reading": "",
+    "reading": "じゃん",
     "type": "discourse particle",
     "meaning": "isn’t it?"
   },
   {
     "frequency": 3017,
     "word": "鉄道",
-    "reading": "",
+    "reading": "てつどう",
     "type": "noun",
     "meaning": "railroad, railway"
   },
   {
     "frequency": 3018,
     "word": "誕生日",
-    "reading": "",
+    "reading": "たんじょうび",
     "type": "noun",
     "meaning": "birthday"
   },
@@ -24010,21 +24010,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3020,
     "word": "役員",
-    "reading": "",
+    "reading": "やくいん",
     "type": "noun",
     "meaning": "official, director"
   },
   {
     "frequency": 3021,
     "word": "設備",
-    "reading": "",
+    "reading": "せつび",
     "type": "noun",
     "meaning": "equipment, facilities"
   },
   {
     "frequency": 3022,
     "word": "悪化",
-    "reading": "",
+    "reading": "あっか",
     "type": "noun",
     "meaning": "change for the worse"
   },
@@ -24038,35 +24038,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3023,
     "word": "用",
-    "reading": "",
+    "reading": "よう",
     "type": "noun",
     "meaning": "something to do; use"
   },
   {
     "frequency": 3024,
     "word": "ただいま",
-    "reading": "",
+    "reading": "ただいま",
     "type": "adverb",
     "meaning": "now, just now, at once; I’m back!"
   },
   {
     "frequency": 3025,
     "word": "十三日",
-    "reading": "",
+    "reading": "じゅうさんにち",
     "type": "noun",
     "meaning": "thirteenth (date); thirteen days"
   },
   {
     "frequency": 3026,
     "word": "遺跡",
-    "reading": "",
+    "reading": "いせき",
     "type": "noun",
     "meaning": "ruins, remains"
   },
   {
     "frequency": 3027,
     "word": "消費",
-    "reading": "",
+    "reading": "しょうひ",
     "type": "noun",
     "meaning": "consumption"
   },
@@ -24080,21 +24080,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3028,
     "word": "模様",
-    "reading": "",
+    "reading": "もよう",
     "type": "noun",
     "meaning": "pattern, design, look"
   },
   {
     "frequency": 3029,
     "word": "深める",
-    "reading": "",
+    "reading": "ふかめる",
     "type": "verb",
     "meaning": "deepen"
   },
   {
     "frequency": 3030,
     "word": "パパ",
-    "reading": "",
+    "reading": "パパ",
     "type": "noun",
     "meaning": "papa, dad"
   },
@@ -24108,14 +24108,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3032,
     "word": "中国人",
-    "reading": "",
+    "reading": "ちゅうごくじん",
     "type": "noun",
     "meaning": "Chinese (person)"
   },
   {
     "frequency": 3033,
     "word": "活性化",
-    "reading": "",
+    "reading": "かっせいか",
     "type": "noun",
     "meaning": "revitalization"
   },
@@ -24129,21 +24129,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3034,
     "word": "聖書",
-    "reading": "",
+    "reading": "せいしょ",
     "type": "noun",
     "meaning": "Bible"
   },
   {
     "frequency": 3035,
     "word": "神経",
-    "reading": "",
+    "reading": "しんけい",
     "type": "noun",
     "meaning": "nerve"
   },
   {
     "frequency": 3036,
     "word": "混乱",
-    "reading": "",
+    "reading": "こんらん",
     "type": "noun",
     "meaning": "confusion"
   },
@@ -24157,28 +24157,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3037,
     "word": "ど",
-    "reading": "",
+    "reading": "ど",
     "type": "particle",
     "meaning": "but (Classical)"
   },
   {
     "frequency": 3038,
     "word": "癒す",
-    "reading": "",
+    "reading": "いやす",
     "type": "verb",
     "meaning": "heal, cure, recover from"
   },
   {
     "frequency": 3039,
     "word": "磨く",
-    "reading": "",
+    "reading": "みがく",
     "type": "verb",
     "meaning": "polish, brush; improve"
   },
   {
     "frequency": 3040,
     "word": "動作",
-    "reading": "",
+    "reading": "どうさ",
     "type": "noun",
     "meaning": "movement, operation"
   },
@@ -24192,28 +24192,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3041,
     "word": "コンサート",
-    "reading": "",
+    "reading": "コンサート",
     "type": "noun",
     "meaning": "concert"
   },
   {
     "frequency": 3042,
     "word": "粉",
-    "reading": "",
+    "reading": "こな",
     "type": "noun",
     "meaning": "flour, powder"
   },
   {
     "frequency": 3043,
     "word": "身長",
-    "reading": "",
+    "reading": "しんちょう",
     "type": "noun",
     "meaning": "height"
   },
   {
     "frequency": 3044,
     "word": "賛成",
-    "reading": "",
+    "reading": "さんせい",
     "type": "noun",
     "meaning": "agreement"
   },
@@ -24227,42 +24227,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3045,
     "word": "形態",
-    "reading": "",
+    "reading": "けいたい",
     "type": "noun",
     "meaning": "form"
   },
   {
     "frequency": 3046,
     "word": "につれて",
-    "reading": "",
+    "reading": "につれて",
     "type": "compound",
     "meaning": "as"
   },
   {
     "frequency": 3047,
     "word": "部下",
-    "reading": "",
+    "reading": "ぶか",
     "type": "noun",
     "meaning": "subordinate"
   },
   {
     "frequency": 3048,
     "word": "二十世紀",
-    "reading": "",
+    "reading": "にじっせいき",
     "type": "noun",
     "meaning": "twentieth century"
   },
   {
     "frequency": 3049,
     "word": "ひょっとする",
-    "reading": "",
+    "reading": "ひょっとする",
     "type": "verb",
     "meaning": "perhaps"
   },
   {
     "frequency": 3050,
     "word": "勤務",
-    "reading": "",
+    "reading": "きんむ",
     "type": "noun",
     "meaning": "service, duty, work"
   },
@@ -24276,7 +24276,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3051,
     "word": "恋愛",
-    "reading": "",
+    "reading": "れんあい",
     "type": "noun",
     "meaning": "love (romantic)"
   },
@@ -24290,14 +24290,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3052,
     "word": "都道府県",
-    "reading": "",
+    "reading": "とどうふけん",
     "type": "noun",
     "meaning": "prefectures"
   },
   {
     "frequency": 3053,
     "word": "誤解",
-    "reading": "",
+    "reading": "ごかい",
     "type": "noun",
     "meaning": "misunderstanding"
   },
@@ -24311,14 +24311,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3054,
     "word": "直前",
-    "reading": "",
+    "reading": "ちょくぜん",
     "type": "noun",
     "meaning": "just before"
   },
   {
     "frequency": 3055,
     "word": "平均",
-    "reading": "",
+    "reading": "へいきん",
     "type": "noun",
     "meaning": "average"
   },
@@ -24332,35 +24332,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3056,
     "word": "出身",
-    "reading": "",
+    "reading": "しゅっしん",
     "type": "noun",
     "meaning": "hometown; alma mater"
   },
   {
     "frequency": 3057,
     "word": "区",
-    "reading": "",
+    "reading": "く",
     "type": "noun",
     "meaning": "ward, district"
   },
   {
     "frequency": 3058,
     "word": "しょう油",
-    "reading": "",
+    "reading": "しょうゆ",
     "type": "noun",
     "meaning": "soy sauce"
   },
   {
     "frequency": 3059,
     "word": "こつ",
-    "reading": "",
+    "reading": "こつ",
     "type": "noun",
     "meaning": "knack"
   },
   {
     "frequency": 3060,
     "word": "翻訳",
-    "reading": "",
+    "reading": "ほんやく",
     "type": "noun",
     "meaning": "translation"
   },
@@ -24374,63 +24374,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3061,
     "word": "ぼおっと",
-    "reading": "",
+    "reading": "ぼおっと",
     "type": "adverb",
     "meaning": "vacantly; dimly"
   },
   {
     "frequency": 3062,
     "word": "ソース",
-    "reading": "",
+    "reading": "ソース",
     "type": "noun",
     "meaning": "sauce; source"
   },
   {
     "frequency": 3063,
     "word": "二十二日",
-    "reading": "",
+    "reading": "にじゅうににち",
     "type": "noun",
     "meaning": "twenty-second (date); twenty-two days"
   },
   {
     "frequency": 3064,
     "word": "固まる",
-    "reading": "",
+    "reading": "かたまる",
     "type": "verb",
     "meaning": "harden; become certain"
   },
   {
     "frequency": 3065,
     "word": "ステージ",
-    "reading": "",
+    "reading": "ステージ",
     "type": "noun",
     "meaning": "stage"
   },
   {
     "frequency": 3066,
     "word": "ストーリー",
-    "reading": "",
+    "reading": "ストーリー",
     "type": "noun",
     "meaning": "story"
   },
   {
     "frequency": 3067,
     "word": "越す",
-    "reading": "",
+    "reading": "こす",
     "type": "verb",
     "meaning": "cross, pass"
   },
   {
     "frequency": 3068,
     "word": "まとまる",
-    "reading": "",
+    "reading": "まとまる",
     "type": "verb",
     "meaning": "be well arranged; be united; be settled"
   },
   {
     "frequency": 3069,
     "word": "始まり",
-    "reading": "",
+    "reading": "はじまり",
     "type": "noun",
     "meaning": "beginning, origin"
   },
@@ -24444,35 +24444,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3071,
     "word": "別れ",
-    "reading": "",
+    "reading": "わかれ",
     "type": "noun",
     "meaning": "parting, farewell"
   },
   {
     "frequency": 3072,
     "word": "女房",
-    "reading": "",
+    "reading": "にょうぼう",
     "type": "noun",
     "meaning": "wife"
   },
   {
     "frequency": 3073,
     "word": "才能",
-    "reading": "",
+    "reading": "さいのう",
     "type": "noun",
     "meaning": "talent, ability"
   },
   {
     "frequency": 3074,
     "word": "背後",
-    "reading": "",
+    "reading": "はいご",
     "type": "noun",
     "meaning": "back; background"
   },
   {
     "frequency": 3075,
     "word": "通過",
-    "reading": "",
+    "reading": "つうか",
     "type": "noun",
     "meaning": "passage"
   },
@@ -24486,7 +24486,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3076,
     "word": "確信",
-    "reading": "",
+    "reading": "かくしん",
     "type": "noun",
     "meaning": "conviction"
   },
@@ -24500,63 +24500,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3077,
     "word": "株",
-    "reading": "",
+    "reading": "かぶ",
     "type": "noun",
     "meaning": "stump; stock, share"
   },
   {
     "frequency": 3078,
     "word": "いまさら",
-    "reading": "",
+    "reading": "いまさら",
     "type": "adverb",
     "meaning": "now (after such a long time)"
   },
   {
     "frequency": 3079,
     "word": "強力",
-    "reading": "",
+    "reading": "きょうりょく",
     "type": "na-adjective",
     "meaning": "strong, powerful"
   },
   {
     "frequency": 3080,
     "word": "神戸",
-    "reading": "",
+    "reading": "こうべ",
     "type": "noun",
     "meaning": "Kobe"
   },
   {
     "frequency": 3081,
     "word": "見出だす",
-    "reading": "",
+    "reading": "みいだす",
     "type": "verb",
     "meaning": "find, discover"
   },
   {
     "frequency": 3082,
     "word": "北朝鮮",
-    "reading": "",
+    "reading": "きたちょうせん",
     "type": "noun",
     "meaning": "Democratic People’s Republic of Korea, North Korea"
   },
   {
     "frequency": 3083,
     "word": "側面",
-    "reading": "",
+    "reading": "そくめん",
     "type": "noun",
     "meaning": "side; flank"
   },
   {
     "frequency": 3084,
     "word": "誇り",
-    "reading": "",
+    "reading": "ほこり",
     "type": "noun",
     "meaning": "pride, honor"
   },
   {
     "frequency": 3085,
     "word": "作り",
-    "reading": "",
+    "reading": "つくり",
     "type": "noun",
     "meaning": "make, construction"
   },
@@ -24570,7 +24570,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3087,
     "word": "崩壊",
-    "reading": "",
+    "reading": "ほうかい",
     "type": "noun",
     "meaning": "collapse"
   },
@@ -24591,56 +24591,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3089,
     "word": "直ちに",
-    "reading": "",
+    "reading": "ただちに",
     "type": "adverb",
     "meaning": "immediately, directly"
   },
   {
     "frequency": 3090,
     "word": "バッグ",
-    "reading": "",
+    "reading": "バッグ",
     "type": "noun",
     "meaning": "bag"
   },
   {
     "frequency": 3091,
     "word": "本書",
-    "reading": "",
+    "reading": "ほんしょ",
     "type": "noun",
     "meaning": "this book"
   },
   {
     "frequency": 3092,
     "word": "器",
-    "reading": "",
+    "reading": "うつわ",
     "type": "noun",
     "meaning": "container"
   },
   {
     "frequency": 3093,
     "word": "血液",
-    "reading": "",
+    "reading": "けつえき",
     "type": "noun",
     "meaning": "blood"
   },
   {
     "frequency": 3094,
     "word": "衝撃",
-    "reading": "",
+    "reading": "しょうげき",
     "type": "noun",
     "meaning": "shock, impact"
   },
   {
     "frequency": 3095,
     "word": "嫌がる",
-    "reading": "",
+    "reading": "いやがる",
     "type": "verb",
     "meaning": "be reluctant; hate"
   },
   {
     "frequency": 3096,
     "word": "製造",
-    "reading": "",
+    "reading": "せいぞう",
     "type": "noun",
     "meaning": "production"
   },
@@ -24654,35 +24654,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3097,
     "word": "とりわけ",
-    "reading": "",
+    "reading": "とりわけ",
     "type": "adverb",
     "meaning": "especially"
   },
   {
     "frequency": 3098,
     "word": "小麦粉",
-    "reading": "",
+    "reading": "こむぎこ",
     "type": "noun",
     "meaning": "flour"
   },
   {
     "frequency": 3099,
     "word": "気配",
-    "reading": "",
+    "reading": "けはい",
     "type": "noun",
     "meaning": "indication, sign"
   },
   {
     "frequency": 3100,
     "word": "理論",
-    "reading": "",
+    "reading": "りろん",
     "type": "noun",
     "meaning": "theory"
   },
   {
     "frequency": 3101,
     "word": "流行",
-    "reading": "",
+    "reading": "りゅうこう",
     "type": "noun",
     "meaning": "fashion, epidemic"
   },
@@ -24696,14 +24696,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3102,
     "word": "見解",
-    "reading": "",
+    "reading": "けんかい",
     "type": "noun",
     "meaning": "opinion, view"
   },
   {
     "frequency": 3103,
     "word": "承認",
-    "reading": "",
+    "reading": "しょうにん",
     "type": "noun",
     "meaning": "approval"
   },
@@ -24717,70 +24717,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3104,
     "word": "いかにも",
-    "reading": "",
+    "reading": "いかにも",
     "type": "adverb",
     "meaning": "indeed, really, just"
   },
   {
     "frequency": 3105,
     "word": "単位",
-    "reading": "",
+    "reading": "たんい",
     "type": "noun",
     "meaning": "unit, credit"
   },
   {
     "frequency": 3106,
     "word": "掘る",
-    "reading": "",
+    "reading": "ほる",
     "type": "verb",
     "meaning": "dig"
   },
   {
     "frequency": 3107,
     "word": "歌詞",
-    "reading": "",
+    "reading": "かし",
     "type": "noun",
     "meaning": "song lyrics"
   },
   {
     "frequency": 3108,
     "word": "絡む",
-    "reading": "",
+    "reading": "からむ",
     "type": "verb",
     "meaning": "get entangled, involve; pick a quarrel"
   },
   {
     "frequency": 3109,
     "word": "文明",
-    "reading": "",
+    "reading": "ぶんめい",
     "type": "noun",
     "meaning": "civilization"
   },
   {
     "frequency": 3110,
     "word": "長崎",
-    "reading": "",
+    "reading": "ながさき",
     "type": "noun",
     "meaning": "Nagasaki"
   },
   {
     "frequency": 3111,
     "word": "構える",
-    "reading": "",
+    "reading": "かまえる",
     "type": "verb",
     "meaning": "get set, get ready; set up"
   },
   {
     "frequency": 3112,
     "word": "わー",
-    "reading": "",
+    "reading": "わー",
     "type": "interjection",
     "meaning": "wow!"
   },
   {
     "frequency": 3113,
     "word": "発音",
-    "reading": "",
+    "reading": "はつおん",
     "type": "noun",
     "meaning": "pronunciation"
   },
@@ -24794,7 +24794,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3114,
     "word": "共有",
-    "reading": "",
+    "reading": "きょうゆう",
     "type": "noun",
     "meaning": "share"
   },
@@ -24808,7 +24808,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3115,
     "word": "勝負",
-    "reading": "",
+    "reading": "しょうぶ",
     "type": "noun",
     "meaning": "victory or defeat, match"
   },
@@ -24822,35 +24822,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3116,
     "word": "住まい",
-    "reading": "",
+    "reading": "すまい",
     "type": "noun",
     "meaning": "house, residence"
   },
   {
     "frequency": 3117,
     "word": "二十八日",
-    "reading": "",
+    "reading": "にじゅうはちにち",
     "type": "noun",
     "meaning": "twenty-eighth (date); twenty-eight days"
   },
   {
     "frequency": 3118,
     "word": "重大",
-    "reading": "",
+    "reading": "じゅうだい",
     "type": "na-adjective",
     "meaning": "serious, important"
   },
   {
     "frequency": 3119,
     "word": "各国",
-    "reading": "",
+    "reading": "かっこく",
     "type": "noun",
     "meaning": "each country, various countries"
   },
   {
     "frequency": 3120,
     "word": "無理矢理",
-    "reading": "",
+    "reading": "むりやり",
     "type": "adverb",
     "meaning": "forcibly, against one’s will"
   },
@@ -24864,7 +24864,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3122,
     "word": "出品",
-    "reading": "",
+    "reading": "しゅっぴん",
     "type": "noun",
     "meaning": "exhibit"
   },
@@ -24878,7 +24878,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3123,
     "word": "祈る",
-    "reading": "",
+    "reading": "いのる",
     "type": "verb",
     "meaning": "pray, wish"
   },
@@ -24892,84 +24892,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3125,
     "word": "メモ",
-    "reading": "",
+    "reading": "メモ",
     "type": "noun",
     "meaning": "memo"
   },
   {
     "frequency": 3125,
     "word": "メモする",
-    "reading": "",
+    "reading": "メモする",
     "type": "verb",
     "meaning": "take notes"
   },
   {
     "frequency": 3126,
     "word": "平日",
-    "reading": "",
+    "reading": "へいじつ",
     "type": "noun",
     "meaning": "weekday"
   },
   {
     "frequency": 3127,
     "word": "支払い",
-    "reading": "",
+    "reading": "しはらい",
     "type": "noun",
     "meaning": "payment"
   },
   {
     "frequency": 3128,
     "word": "皮膚",
-    "reading": "",
+    "reading": "ひふ",
     "type": "noun",
     "meaning": "skin"
   },
   {
     "frequency": 3129,
     "word": "反面",
-    "reading": "",
+    "reading": "はんめん",
     "type": "noun",
     "meaning": "other side"
   },
   {
     "frequency": 3130,
     "word": "代表的",
-    "reading": "",
+    "reading": "だいひょうてき",
     "type": "na-adjective",
     "meaning": "representative, typical"
   },
   {
     "frequency": 3131,
     "word": "整う",
-    "reading": "",
+    "reading": "ととのう",
     "type": "verb",
     "meaning": "be ready; be well-regulated"
   },
   {
     "frequency": 3132,
     "word": "初心者",
-    "reading": "",
+    "reading": "しょしんしゃ",
     "type": "noun",
     "meaning": "beginner"
   },
   {
     "frequency": 3133,
     "word": "たどり着く",
-    "reading": "",
+    "reading": "たどりつく",
     "type": "verb",
     "meaning": "finally arrive at, struggle along to"
   },
   {
     "frequency": 3134,
     "word": "焼ける",
-    "reading": "",
+    "reading": "やける",
     "type": "verb",
     "meaning": "be burned; be roasted; be sunburned"
   },
   {
     "frequency": 3135,
     "word": "合併",
-    "reading": "",
+    "reading": "がっぺい",
     "type": "noun",
     "meaning": "combination, merger"
   },
@@ -24983,14 +24983,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3136,
     "word": "ウサギ",
-    "reading": "",
+    "reading": "ウサギ",
     "type": "noun",
     "meaning": "rabbit"
   },
   {
     "frequency": 3137,
     "word": "徹底",
-    "reading": "",
+    "reading": "てってい",
     "type": "noun",
     "meaning": "thoroughgoing, out-and-out"
   },
@@ -25004,7 +25004,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3138,
     "word": "脱ぐ",
-    "reading": "",
+    "reading": "ぬぐ",
     "type": "verb",
     "meaning": "take off"
   },
@@ -25018,35 +25018,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3140,
     "word": "ですけれど",
-    "reading": "",
+    "reading": "ですけれど",
     "type": "conjunction",
     "meaning": "but"
   },
   {
     "frequency": 3141,
     "word": "意",
-    "reading": "",
+    "reading": "い",
     "type": "noun",
     "meaning": "mind; will; sense"
   },
   {
     "frequency": 3142,
     "word": "自民党",
-    "reading": "",
+    "reading": "じみんとう",
     "type": "noun",
     "meaning": "Liberal Democratic Party"
   },
   {
     "frequency": 3143,
     "word": "地下",
-    "reading": "",
+    "reading": "ちか",
     "type": "noun",
     "meaning": "basement; underground"
   },
   {
     "frequency": 3144,
     "word": "構築",
-    "reading": "",
+    "reading": "こうちく",
     "type": "noun",
     "meaning": "construction"
   },
@@ -25060,105 +25060,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3145,
     "word": "両者",
-    "reading": "",
+    "reading": "りょうしゃ",
     "type": "noun",
     "meaning": "both, the two"
   },
   {
     "frequency": 3146,
     "word": "適する",
-    "reading": "",
+    "reading": "てきする",
     "type": "verb",
     "meaning": "suit, fit"
   },
   {
     "frequency": 3147,
     "word": "引き受ける",
-    "reading": "",
+    "reading": "ひきうける",
     "type": "verb",
     "meaning": "undertake"
   },
   {
     "frequency": 3148,
     "word": "番号",
-    "reading": "",
+    "reading": "ばんごう",
     "type": "noun",
     "meaning": "number"
   },
   {
     "frequency": 3149,
     "word": "経営者",
-    "reading": "",
+    "reading": "けいえいしゃ",
     "type": "noun",
     "meaning": "manager, proprietor"
   },
   {
     "frequency": 3150,
     "word": "焦る",
-    "reading": "",
+    "reading": "あせる",
     "type": "verb",
     "meaning": "be in a hurry; be impatient; be eager"
   },
   {
     "frequency": 3151,
     "word": "論文",
-    "reading": "",
+    "reading": "ろんぶん",
     "type": "noun",
     "meaning": "essay, thesis, paper, dissertation"
   },
   {
     "frequency": 3152,
     "word": "タイミング",
-    "reading": "",
+    "reading": "タイミング",
     "type": "noun",
     "meaning": "timing"
   },
   {
     "frequency": 3153,
     "word": "百パーセント",
-    "reading": "",
+    "reading": "ひゃくパーセント",
     "type": "noun",
     "meaning": "one hundred percent"
   },
   {
     "frequency": 3154,
     "word": "週末",
-    "reading": "",
+    "reading": "しゅうまつ",
     "type": "noun",
     "meaning": "weekend"
   },
   {
     "frequency": 3155,
     "word": "出品者",
-    "reading": "",
+    "reading": "しゅっぴんしゃ",
     "type": "noun",
     "meaning": "exhibitor"
   },
   {
     "frequency": 3156,
     "word": "二十六日",
-    "reading": "",
+    "reading": "にじゅうろくにち",
     "type": "noun",
     "meaning": "twenty-sixth (date); twenty-six days"
   },
   {
     "frequency": 3157,
     "word": "正式",
-    "reading": "",
+    "reading": "せいしき",
     "type": "na-adjective",
     "meaning": "formal, official"
   },
   {
     "frequency": 3158,
     "word": "カラオケ",
-    "reading": "",
+    "reading": "カラオケ",
     "type": "noun",
     "meaning": "karaoke"
   },
   {
     "frequency": 3159,
     "word": "退職",
-    "reading": "",
+    "reading": "たいしょく",
     "type": "noun",
     "meaning": "retirement, resignation"
   },
@@ -25172,280 +25172,280 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3160,
     "word": "満ちる",
-    "reading": "",
+    "reading": "みちる",
     "type": "verb",
     "meaning": "be full; rise"
   },
   {
     "frequency": 3161,
     "word": "おとなしい",
-    "reading": "",
+    "reading": "おとなしい",
     "type": "i-adjective",
     "meaning": "gentle, well‐behaved, quiet"
   },
   {
     "frequency": 3162,
     "word": "知人",
-    "reading": "",
+    "reading": "ちじん",
     "type": "noun",
     "meaning": "acquaintance"
   },
   {
     "frequency": 3163,
     "word": "刻む",
-    "reading": "",
+    "reading": "きざむ",
     "type": "verb",
     "meaning": "cut into fine pieces; engrave; tick"
   },
   {
     "frequency": 3164,
     "word": "十九日",
-    "reading": "",
+    "reading": "じゅうくにち",
     "type": "noun",
     "meaning": "nineteenth (date); nineteen days"
   },
   {
     "frequency": 3165,
     "word": "千葉県",
-    "reading": "",
+    "reading": "ちばけん",
     "type": "noun",
     "meaning": "Chiba prefecture"
   },
   {
     "frequency": 3166,
     "word": "食材",
-    "reading": "",
+    "reading": "しょくざい",
     "type": "noun",
     "meaning": "ingredient, foodstuff"
   },
   {
     "frequency": 3167,
     "word": "携わる",
-    "reading": "",
+    "reading": "たずさわる",
     "type": "verb",
     "meaning": "participate, be engaged"
   },
   {
     "frequency": 3168,
     "word": "組み合わせ",
-    "reading": "",
+    "reading": "くみあわせ",
     "type": "noun",
     "meaning": "combination, matching"
   },
   {
     "frequency": 3169,
     "word": "冷静",
-    "reading": "",
+    "reading": "れいせい",
     "type": "na-adjective",
     "meaning": "calm"
   },
   {
     "frequency": 3170,
     "word": "台詞",
-    "reading": "",
+    "reading": "せりふ",
     "type": "noun",
     "meaning": "lines, speech, words"
   },
   {
     "frequency": 3171,
     "word": "コート",
-    "reading": "",
+    "reading": "コート",
     "type": "noun",
     "meaning": "coat; court"
   },
   {
     "frequency": 3172,
     "word": "二年生",
-    "reading": "",
+    "reading": "にねんせい",
     "type": "noun",
     "meaning": "second grade, second year"
   },
   {
     "frequency": 3173,
     "word": "ロック",
-    "reading": "",
+    "reading": "ロック",
     "type": "noun",
     "meaning": "rock; lock"
   },
   {
     "frequency": 3174,
     "word": "国会",
-    "reading": "",
+    "reading": "こっかい",
     "type": "noun",
     "meaning": "national assembly, Diet"
   },
   {
     "frequency": 3175,
     "word": "編む",
-    "reading": "",
+    "reading": "あむ",
     "type": "verb",
     "meaning": "knit, braid"
   },
   {
     "frequency": 3176,
     "word": "破る",
-    "reading": "",
+    "reading": "わる",
     "type": "verb",
     "meaning": "tear; break; beat"
   },
   {
     "frequency": 3177,
     "word": "真っ赤",
-    "reading": "",
+    "reading": "まっか",
     "type": "na-adjective",
     "meaning": "bright red; downright"
   },
   {
     "frequency": 3178,
     "word": "意図",
-    "reading": "",
+    "reading": "いと",
     "type": "noun",
     "meaning": "intention"
   },
   {
     "frequency": 3179,
     "word": "さらす",
-    "reading": "",
+    "reading": "さらす",
     "type": "verb",
     "meaning": "expose"
   },
   {
     "frequency": 3180,
     "word": "手間",
-    "reading": "",
+    "reading": "てま",
     "type": "noun",
     "meaning": "labour; time"
   },
   {
     "frequency": 3181,
     "word": "可愛がる",
-    "reading": "",
+    "reading": "かわいがる",
     "type": "verb",
     "meaning": "love, treat with affection"
   },
   {
     "frequency": 3182,
     "word": "森林",
-    "reading": "",
+    "reading": "しんりん",
     "type": "noun",
     "meaning": "forest, woods"
   },
   {
     "frequency": 3183,
     "word": "マイナス",
-    "reading": "",
+    "reading": "マイナス",
     "type": "noun",
     "meaning": "minus"
   },
   {
     "frequency": 3184,
     "word": "ラーメン",
-    "reading": "",
+    "reading": "ラーメン",
     "type": "noun",
     "meaning": "Chinese noodles"
   },
   {
     "frequency": 3185,
     "word": "帽子",
-    "reading": "",
+    "reading": "ぼうし",
     "type": "noun",
     "meaning": "hat, cap"
   },
   {
     "frequency": 3186,
     "word": "オープン",
-    "reading": "",
+    "reading": "オープン",
     "type": "noun, verb",
     "meaning": "open"
   },
   {
     "frequency": 3187,
     "word": "名古屋",
-    "reading": "",
+    "reading": "なごや",
     "type": "noun",
     "meaning": "Nagoya"
   },
   {
     "frequency": 3188,
     "word": "離す",
-    "reading": "",
+    "reading": "はなす",
     "type": "verb",
     "meaning": "separate, divide; keep apart"
   },
   {
     "frequency": 3189,
     "word": "数値",
-    "reading": "",
+    "reading": "すうち",
     "type": "noun",
     "meaning": "numerical value; score, count"
   },
   {
     "frequency": 3190,
     "word": "熱心",
-    "reading": "",
+    "reading": "ねっしん",
     "type": "na-adjective",
     "meaning": "eager, enthusiastic"
   },
   {
     "frequency": 3191,
     "word": "見直し",
-    "reading": "",
+    "reading": "みなおし",
     "type": "noun",
     "meaning": "review, reconsideration"
   },
   {
     "frequency": 3192,
     "word": "盗む",
-    "reading": "",
+    "reading": "ぬすむ",
     "type": "verb",
     "meaning": "steal"
   },
   {
     "frequency": 3193,
     "word": "一冊",
-    "reading": "",
+    "reading": "いっさつ",
     "type": "noun",
     "meaning": "one (book)"
   },
   {
     "frequency": 3194,
     "word": "強さ",
-    "reading": "",
+    "reading": "つよさ",
     "type": "noun",
     "meaning": "strength, power"
   },
   {
     "frequency": 3195,
     "word": "紐",
-    "reading": "",
+    "reading": "ひも",
     "type": "noun",
     "meaning": "string; lace"
   },
   {
     "frequency": 3196,
     "word": "岩",
-    "reading": "",
+    "reading": "いわ",
     "type": "noun",
     "meaning": "rock"
   },
   {
     "frequency": 3197,
     "word": "ミス",
-    "reading": "",
+    "reading": "ミス",
     "type": "noun",
     "meaning": "mistake"
   },
   {
     "frequency": 3197,
     "word": "ミスする",
-    "reading": "",
+    "reading": "ミスする",
     "type": "verb",
     "meaning": "make a mistake"
   },
   {
     "frequency": 3198,
     "word": "移行",
-    "reading": "",
+    "reading": "いこう",
     "type": "noun",
     "meaning": "shift"
   },
@@ -25459,7 +25459,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3199,
     "word": "味方",
-    "reading": "",
+    "reading": "みかた",
     "type": "noun",
     "meaning": "supporter"
   },
@@ -25473,14 +25473,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3200,
     "word": "純粋",
-    "reading": "",
+    "reading": "じゅんすい",
     "type": "na-adjective",
     "meaning": "pure; genuine"
   },
   {
     "frequency": 3201,
     "word": "転勤",
-    "reading": "",
+    "reading": "てんきん",
     "type": "noun",
     "meaning": "transfer"
   },
@@ -25494,98 +25494,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3202,
     "word": "ビートルズ",
-    "reading": "",
+    "reading": "ビートルズ",
     "type": "noun",
     "meaning": "Beatles"
   },
   {
     "frequency": 3203,
     "word": "フライパン",
-    "reading": "",
+    "reading": "フライパン",
     "type": "noun",
     "meaning": "frying pan"
   },
   {
     "frequency": 3204,
     "word": "一階",
-    "reading": "",
+    "reading": "いっかい",
     "type": "noun",
     "meaning": "first floor, ground floor"
   },
   {
     "frequency": 3205,
     "word": "さっぱり",
-    "reading": "",
+    "reading": "さっぱり",
     "type": "adverb",
     "meaning": "not at all"
   },
   {
     "frequency": 3206,
     "word": "正面",
-    "reading": "",
+    "reading": "しょうめん",
     "type": "noun",
     "meaning": "front"
   },
   {
     "frequency": 3207,
     "word": "演劇",
-    "reading": "",
+    "reading": "えんげき",
     "type": "noun",
     "meaning": "drama, play"
   },
   {
     "frequency": 3208,
     "word": "疲れ",
-    "reading": "",
+    "reading": "つかれ",
     "type": "noun",
     "meaning": "fatigue, exhaustion, tiredness"
   },
   {
     "frequency": 3209,
     "word": "経緯",
-    "reading": "",
+    "reading": "けいい",
     "type": "noun",
     "meaning": "details, process"
   },
   {
     "frequency": 3210,
     "word": "探る",
-    "reading": "",
+    "reading": "さぐる",
     "type": "verb",
     "meaning": "fumble; probe"
   },
   {
     "frequency": 3211,
     "word": "数学",
-    "reading": "",
+    "reading": "すうがく",
     "type": "noun",
     "meaning": "mathematics"
   },
   {
     "frequency": 3212,
     "word": "関わり",
-    "reading": "",
+    "reading": "かかわり",
     "type": "noun",
     "meaning": "relation, connection"
   },
   {
     "frequency": 3213,
     "word": "英国",
-    "reading": "",
+    "reading": "えいこく",
     "type": "noun",
     "meaning": "United Kingdom, Britain"
   },
   {
     "frequency": 3214,
     "word": "巻き込む",
-    "reading": "",
+    "reading": "まきこむ",
     "type": "verb",
     "meaning": "involve"
   },
   {
     "frequency": 3215,
     "word": "退院",
-    "reading": "",
+    "reading": "たいいん",
     "type": "noun",
     "meaning": "leaving hospital"
   },
@@ -25599,63 +25599,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3216,
     "word": "覚え",
-    "reading": "",
+    "reading": "おぼえ",
     "type": "noun",
     "meaning": "memory"
   },
   {
     "frequency": 3217,
     "word": "優秀",
-    "reading": "",
+    "reading": "ゆうしゅう",
     "type": "na-adjective",
     "meaning": "excellent"
   },
   {
     "frequency": 3218,
     "word": "リラックス",
-    "reading": "",
+    "reading": "リラックス",
     "type": "noun, verb",
     "meaning": "relax"
   },
   {
     "frequency": 3219,
     "word": "施策",
-    "reading": "",
+    "reading": "しさく",
     "type": "noun",
     "meaning": "policy, measure"
   },
   {
     "frequency": 3220,
     "word": "瞳",
-    "reading": "",
+    "reading": "ひとみ",
     "type": "noun",
     "meaning": "pupil; eye"
   },
   {
     "frequency": 3221,
     "word": "二十七日",
-    "reading": "",
+    "reading": "にじゅうしちにち",
     "type": "noun",
     "meaning": "twenty-seventh (date); twenty-seven days"
   },
   {
     "frequency": 3222,
     "word": "権限",
-    "reading": "",
+    "reading": "けんげん",
     "type": "noun",
     "meaning": "authority, power"
   },
   {
     "frequency": 3223,
     "word": "十七",
-    "reading": "",
+    "reading": "じゅうなな",
     "type": "numeral",
     "meaning": "seventeen"
   },
   {
     "frequency": 3224,
     "word": "展示",
-    "reading": "",
+    "reading": "てんじ",
     "type": "noun",
     "meaning": "display, exhibition"
   },
@@ -25676,14 +25676,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3226,
     "word": "朝食",
-    "reading": "",
+    "reading": "ちょうしょく",
     "type": "noun",
     "meaning": "breakfast"
   },
   {
     "frequency": 3227,
     "word": "診断",
-    "reading": "",
+    "reading": "しんだん",
     "type": "noun",
     "meaning": "diagnosis"
   },
@@ -25697,49 +25697,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3228,
     "word": "ご免",
-    "reading": "",
+    "reading": "ごめん",
     "type": "noun",
     "meaning": "pardon, sorry [to decline]"
   },
   {
     "frequency": 3229,
     "word": "缶詰",
-    "reading": "",
+    "reading": "かんづめ",
     "type": "noun",
     "meaning": "canned food"
   },
   {
     "frequency": 3230,
     "word": "こしょう",
-    "reading": "",
+    "reading": "こしょう",
     "type": "noun",
     "meaning": "pepper"
   },
   {
     "frequency": 3231,
     "word": "潰れる",
-    "reading": "",
+    "reading": "つぶれる",
     "type": "verb",
     "meaning": "be crushed; go bankrupt; become useless"
   },
   {
     "frequency": 3232,
     "word": "海岸",
-    "reading": "",
+    "reading": "かいがん",
     "type": "noun",
     "meaning": "seashore, seaside"
   },
   {
     "frequency": 3233,
     "word": "領域",
-    "reading": "",
+    "reading": "りょういき",
     "type": "noun",
     "meaning": "territory, field"
   },
   {
     "frequency": 3234,
     "word": "出版",
-    "reading": "",
+    "reading": "しゅっぱん",
     "type": "noun",
     "meaning": "publication"
   },
@@ -25753,21 +25753,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3235,
     "word": "映画館",
-    "reading": "",
+    "reading": "えいがかん",
     "type": "noun",
     "meaning": "movie theater, cinema"
   },
   {
     "frequency": 3236,
     "word": "気温",
-    "reading": "",
+    "reading": "きおん",
     "type": "noun",
     "meaning": "temperature"
   },
   {
     "frequency": 3237,
     "word": "由来",
-    "reading": "",
+    "reading": "ゆらい",
     "type": "noun",
     "meaning": "origin, history"
   },
@@ -25781,28 +25781,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3238,
     "word": "引き起こす",
-    "reading": "",
+    "reading": "ひきおこす",
     "type": "verb",
     "meaning": "raise up, cause"
   },
   {
     "frequency": 3239,
     "word": "筋",
-    "reading": "",
+    "reading": "すじ",
     "type": "noun",
     "meaning": "tendon; line; reason"
   },
   {
     "frequency": 3240,
     "word": "ガラス",
-    "reading": "",
+    "reading": "ガラス",
     "type": "noun",
     "meaning": "glass"
   },
   {
     "frequency": 3241,
     "word": "同意",
-    "reading": "",
+    "reading": "どうい",
     "type": "noun",
     "meaning": "agreement, consent"
   },
@@ -25816,14 +25816,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3242,
     "word": "土日",
-    "reading": "",
+    "reading": "どにち",
     "type": "noun",
     "meaning": "Saturday and Sunday"
   },
   {
     "frequency": 3243,
     "word": "認定",
-    "reading": "",
+    "reading": "にんてい",
     "type": "noun",
     "meaning": "authorization"
   },
@@ -25837,7 +25837,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3244,
     "word": "おもちゃ",
-    "reading": "",
+    "reading": "おもちゃ",
     "type": "noun",
     "meaning": "toy"
   },
@@ -25851,7 +25851,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3246,
     "word": "丘",
-    "reading": "",
+    "reading": "おか",
     "type": "noun",
     "meaning": "hill"
   },
@@ -25865,84 +25865,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3248,
     "word": "メディア",
-    "reading": "",
+    "reading": "メディア",
     "type": "noun",
     "meaning": "media"
   },
   {
     "frequency": 3249,
     "word": "一台",
-    "reading": "",
+    "reading": "いちだい",
     "type": "noun",
     "meaning": "one (machine/vehicle)"
   },
   {
     "frequency": 3250,
     "word": "翌年",
-    "reading": "",
+    "reading": "よくねん",
     "type": "noun",
     "meaning": "the next year, the following year"
   },
   {
     "frequency": 3251,
     "word": "酸素",
-    "reading": "",
+    "reading": "さんそ",
     "type": "noun",
     "meaning": "oxygen"
   },
   {
     "frequency": 3252,
     "word": "よし",
-    "reading": "",
+    "reading": "よし",
     "type": "interjection",
     "meaning": "All right!, Good!"
   },
   {
     "frequency": 3253,
     "word": "いまや",
-    "reading": "",
+    "reading": "いまや",
     "type": "adverb",
     "meaning": "now"
   },
   {
     "frequency": 3254,
     "word": "贅沢",
-    "reading": "",
+    "reading": "ぜいたく",
     "type": "noun",
     "meaning": "luxury"
   },
   {
     "frequency": 3254,
     "word": "贅沢",
-    "reading": "",
+    "reading": "ぜいたく",
     "type": "na-adjective",
     "meaning": "luxurious"
   },
   {
     "frequency": 3255,
     "word": "金融機関",
-    "reading": "",
+    "reading": "きんゆうきかん",
     "type": "noun",
     "meaning": "financial institution"
   },
   {
     "frequency": 3256,
     "word": "百円",
-    "reading": "",
+    "reading": "ひゃくえん",
     "type": "noun",
     "meaning": "one hundred yen"
   },
   {
     "frequency": 3257,
     "word": "黄色",
-    "reading": "",
+    "reading": "きいろ",
     "type": "noun",
     "meaning": "yellow"
   },
   {
     "frequency": 3258,
     "word": "制定",
-    "reading": "",
+    "reading": "せいてい",
     "type": "noun",
     "meaning": "enactment"
   },
@@ -25956,133 +25956,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3259,
     "word": "文書",
-    "reading": "",
+    "reading": "ぶんしょ",
     "type": "noun",
     "meaning": "document; writing"
   },
   {
     "frequency": 3260,
     "word": "初期",
-    "reading": "",
+    "reading": "しょき",
     "type": "noun",
     "meaning": "early days, initial stage"
   },
   {
     "frequency": 3261,
     "word": "ぬれる",
-    "reading": "",
+    "reading": "ぬれる",
     "type": "verb",
     "meaning": "get wet"
   },
   {
     "frequency": 3262,
     "word": "はがき",
-    "reading": "",
+    "reading": "はがき",
     "type": "noun",
     "meaning": "postcard"
   },
   {
     "frequency": 3263,
     "word": "巨人",
-    "reading": "",
+    "reading": "きょじん",
     "type": "noun",
     "meaning": "giant"
   },
   {
     "frequency": 3264,
     "word": "俺達",
-    "reading": "",
+    "reading": "おれたち",
     "type": "noun",
     "meaning": "we (used by male speakers)"
   },
   {
     "frequency": 3265,
     "word": "苦痛",
-    "reading": "",
+    "reading": "くつう",
     "type": "noun",
     "meaning": "pain"
   },
   {
     "frequency": 3266,
     "word": "パワー",
-    "reading": "",
+    "reading": "パワー",
     "type": "noun",
     "meaning": "power"
   },
   {
     "frequency": 3267,
     "word": "いかなる",
-    "reading": "",
+    "reading": "いかなる",
     "type": "adnominal",
     "meaning": "what kind of, any"
   },
   {
     "frequency": 3268,
     "word": "あちこち",
-    "reading": "",
+    "reading": "あちこち",
     "type": "pronoun",
     "meaning": "here and there, everywhere"
   },
   {
     "frequency": 3269,
     "word": "実力",
-    "reading": "",
+    "reading": "じつりょく",
     "type": "noun",
     "meaning": "real ability"
   },
   {
     "frequency": 3270,
     "word": "面する",
-    "reading": "",
+    "reading": "めんする",
     "type": "verb",
     "meaning": "face"
   },
   {
     "frequency": 3271,
     "word": "もったいない",
-    "reading": "",
+    "reading": "もったいない",
     "type": "i-adjective",
     "meaning": "wasteful; too good"
   },
   {
     "frequency": 3272,
     "word": "港",
-    "reading": "",
+    "reading": "みなと",
     "type": "noun",
     "meaning": "harbour, port"
   },
   {
     "frequency": 3273,
     "word": "片方",
-    "reading": "",
+    "reading": "かたほう",
     "type": "noun",
     "meaning": "one side; the other one"
   },
   {
     "frequency": 3274,
     "word": "最悪",
-    "reading": "",
+    "reading": "さいあく",
     "type": "na-adjective",
     "meaning": "worst"
   },
   {
     "frequency": 3275,
     "word": "ぎりぎり",
-    "reading": "",
+    "reading": "ぎりぎり",
     "type": "adverb",
     "meaning": "barely"
   },
   {
     "frequency": 3276,
     "word": "二十九日",
-    "reading": "",
+    "reading": "にじゅうくにち",
     "type": "noun",
     "meaning": "twenty-ninth (date); twenty-nine days"
   },
   {
     "frequency": 3277,
     "word": "市販",
-    "reading": "",
+    "reading": "しはん",
     "type": "noun",
     "meaning": "on the market"
   },
@@ -26096,63 +26096,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3278,
     "word": "この世",
-    "reading": "",
+    "reading": "このよ",
     "type": "noun",
     "meaning": "this world"
   },
   {
     "frequency": 3279,
     "word": "片手",
-    "reading": "",
+    "reading": "かたて",
     "type": "noun",
     "meaning": "one hand"
   },
   {
     "frequency": 3280,
     "word": "サイン",
-    "reading": "",
+    "reading": "サイン",
     "type": "noun",
     "meaning": "signature, autograph"
   },
   {
     "frequency": 3280,
     "word": "サインする",
-    "reading": "",
+    "reading": "サインする",
     "type": "verb",
     "meaning": "sign"
   },
   {
     "frequency": 3281,
     "word": "キリスト教",
-    "reading": "",
+    "reading": "キリストきょう",
     "type": "noun",
     "meaning": "Christianity"
   },
   {
     "frequency": 3282,
     "word": "年寄り",
-    "reading": "",
+    "reading": "としより",
     "type": "noun",
     "meaning": "old people"
   },
   {
     "frequency": 3283,
     "word": "気軽",
-    "reading": "",
+    "reading": "きがる",
     "type": "na-adjective",
     "meaning": "light-hearted, feel free"
   },
   {
     "frequency": 3284,
     "word": "鳴く",
-    "reading": "",
+    "reading": "なく",
     "type": "verb",
     "meaning": "cry, sing"
   },
   {
     "frequency": 3285,
     "word": "呼吸",
-    "reading": "",
+    "reading": "こきゅう",
     "type": "noun",
     "meaning": "breath"
   },
@@ -26166,21 +26166,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3286,
     "word": "コーナー",
-    "reading": "",
+    "reading": "コーナー",
     "type": "noun",
     "meaning": "corner"
   },
   {
     "frequency": 3287,
     "word": "徒歩",
-    "reading": "",
+    "reading": "とほ",
     "type": "noun",
     "meaning": "on foot, walk"
   },
   {
     "frequency": 3288,
     "word": "延長",
-    "reading": "",
+    "reading": "えんちょう",
     "type": "noun",
     "meaning": "extension"
   },
@@ -26194,14 +26194,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3289,
     "word": "眠い",
-    "reading": "",
+    "reading": "ねむい",
     "type": "i-adjective",
     "meaning": "sleepy"
   },
   {
     "frequency": 3290,
     "word": "厚い",
-    "reading": "",
+    "reading": "あつい",
     "type": "i-adjective",
     "meaning": "thick; kind; abundant"
   },
@@ -26215,7 +26215,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3292,
     "word": "中小企業",
-    "reading": "",
+    "reading": "ちゅうしょうきぎょう",
     "type": "noun",
     "meaning": "small and medium-sized enterprises"
   },
@@ -26229,35 +26229,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3294,
     "word": "完璧",
-    "reading": "",
+    "reading": "かんぺき",
     "type": "na-adjective",
     "meaning": "perfect"
   },
   {
     "frequency": 3295,
     "word": "傷付ける",
-    "reading": "",
+    "reading": "きずつける",
     "type": "verb",
     "meaning": "hurt; damage"
   },
   {
     "frequency": 3296,
     "word": "とく",
-    "reading": "",
+    "reading": "とく",
     "type": "noun, adj.",
     "meaning": "[shortened form of “teoku”]"
   },
   {
     "frequency": 3297,
     "word": "あご",
-    "reading": "",
+    "reading": "あご",
     "type": "noun",
     "meaning": "jaw, chin"
   },
   {
     "frequency": 3298,
     "word": "紅葉",
-    "reading": "",
+    "reading": "こうよう",
     "type": "noun",
     "meaning": "autumn leaves"
   },
@@ -26271,14 +26271,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3299,
     "word": "では",
-    "reading": "",
+    "reading": "では",
     "type": "particle",
     "meaning": "in; on; as for"
   },
   {
     "frequency": 3300,
     "word": "信仰",
-    "reading": "",
+    "reading": "しんこう",
     "type": "noun",
     "meaning": "religious faith"
   },
@@ -26292,35 +26292,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3301,
     "word": "ねた",
-    "reading": "",
+    "reading": "ねた",
     "type": "noun",
     "meaning": "material; ingredient"
   },
   {
     "frequency": 3302,
     "word": "雇う",
-    "reading": "",
+    "reading": "やとう",
     "type": "verb",
     "meaning": "employ, hire"
   },
   {
     "frequency": 3303,
     "word": "雄",
-    "reading": "",
+    "reading": "おす",
     "type": "noun",
     "meaning": "male animal"
   },
   {
     "frequency": 3304,
     "word": "欧米",
-    "reading": "",
+    "reading": "おうべい",
     "type": "noun",
     "meaning": "Europe and America"
   },
   {
     "frequency": 3305,
     "word": "運用",
-    "reading": "",
+    "reading": "うんよう",
     "type": "noun",
     "meaning": "making use of"
   },
@@ -26334,42 +26334,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3306,
     "word": "酢",
-    "reading": "",
+    "reading": "す",
     "type": "noun",
     "meaning": "vinegar"
   },
   {
     "frequency": 3307,
     "word": "半ば",
-    "reading": "",
+    "reading": "なかば",
     "type": "noun",
     "meaning": "half, middle"
   },
   {
     "frequency": 3307,
     "word": "半ば",
-    "reading": "",
+    "reading": "なかば",
     "type": "adverb",
     "meaning": "partly"
   },
   {
     "frequency": 3308,
     "word": "印象的",
-    "reading": "",
+    "reading": "いんしょうてき",
     "type": "na-adjective",
     "meaning": "impressive"
   },
   {
     "frequency": 3309,
     "word": "権力",
-    "reading": "",
+    "reading": "けんりょく",
     "type": "noun",
     "meaning": "power, authority"
   },
   {
     "frequency": 3310,
     "word": "拒否",
-    "reading": "",
+    "reading": "きょひ",
     "type": "noun",
     "meaning": "refusal"
   },
@@ -26390,42 +26390,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3312,
     "word": "ビジネス",
-    "reading": "",
+    "reading": "ビジネス",
     "type": "noun",
     "meaning": "business"
   },
   {
     "frequency": 3313,
     "word": "幅広い",
-    "reading": "",
+    "reading": "はばひろい",
     "type": "i-adjective",
     "meaning": "wide, broad"
   },
   {
     "frequency": 3314,
     "word": "アイデア",
-    "reading": "",
+    "reading": "アイデア",
     "type": "noun",
     "meaning": "idea"
   },
   {
     "frequency": 3315,
     "word": "十二時",
-    "reading": "",
+    "reading": "じゅうにじ",
     "type": "noun",
     "meaning": "twelve o’clock"
   },
   {
     "frequency": 3316,
     "word": "ベトナム",
-    "reading": "",
+    "reading": "ベトナム",
     "type": "noun",
     "meaning": "Vietnam"
   },
   {
     "frequency": 3317,
     "word": "落札",
-    "reading": "",
+    "reading": "らくさつ",
     "type": "noun",
     "meaning": "successful bid"
   },
@@ -26439,7 +26439,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3318,
     "word": "出場",
-    "reading": "",
+    "reading": "しゅつじょう",
     "type": "noun",
     "meaning": "participation"
   },
@@ -26453,35 +26453,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3319,
     "word": "だます",
-    "reading": "",
+    "reading": "だます",
     "type": "verb",
     "meaning": "cheat, trick, deceive"
   },
   {
     "frequency": 3320,
     "word": "片付ける",
-    "reading": "",
+    "reading": "かたづける",
     "type": "verb",
     "meaning": "put in order, tidy; clear away; finish"
   },
   {
     "frequency": 3321,
     "word": "組み合わせる",
-    "reading": "",
+    "reading": "くみあわせる",
     "type": "verb",
     "meaning": "combine, put together, match"
   },
   {
     "frequency": 3322,
     "word": "むろん",
-    "reading": "",
+    "reading": "むろん",
     "type": "adverb",
     "meaning": "of course"
   },
   {
     "frequency": 3323,
     "word": "雇用",
-    "reading": "",
+    "reading": "こよう",
     "type": "noun",
     "meaning": "employment"
   },
@@ -26495,49 +26495,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3324,
     "word": "乗り越える",
-    "reading": "",
+    "reading": "のりこえる",
     "type": "verb",
     "meaning": "climb over; overcome"
   },
   {
     "frequency": 3325,
     "word": "休日",
-    "reading": "",
+    "reading": "きゅうじつ",
     "type": "noun",
     "meaning": "holiday, day off"
   },
   {
     "frequency": 3326,
     "word": "寝袋",
-    "reading": "",
+    "reading": "ねぶくろ",
     "type": "noun",
     "meaning": "sleeping bag"
   },
   {
     "frequency": 3327,
     "word": "疑い",
-    "reading": "",
+    "reading": "うたがい",
     "type": "noun",
     "meaning": "doubt, suspicion"
   },
   {
     "frequency": 3328,
     "word": "引き出す",
-    "reading": "",
+    "reading": "ひきだす",
     "type": "verb",
     "meaning": "pull out, bring out; withdraw"
   },
   {
     "frequency": 3329,
     "word": "折",
-    "reading": "",
+    "reading": "おり",
     "type": "noun",
     "meaning": "occasion, opportunity"
   },
   {
     "frequency": 3330,
     "word": "印刷",
-    "reading": "",
+    "reading": "いんさつ",
     "type": "noun",
     "meaning": "printing"
   },
@@ -26551,28 +26551,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3331,
     "word": "こなす",
-    "reading": "",
+    "reading": "こなす",
     "type": "verb",
     "meaning": "cope with; finish"
   },
   {
     "frequency": 3332,
     "word": "パチンコ",
-    "reading": "",
+    "reading": "パチンコ",
     "type": "noun",
     "meaning": "pachinko, Japanese pinball"
   },
   {
     "frequency": 3333,
     "word": "導く",
-    "reading": "",
+    "reading": "みちびく",
     "type": "verb",
     "meaning": "guide, lead"
   },
   {
     "frequency": 3334,
     "word": "中止",
-    "reading": "",
+    "reading": "ちゅうし",
     "type": "noun",
     "meaning": "cancellation"
   },
@@ -26586,7 +26586,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3335,
     "word": "連続",
-    "reading": "",
+    "reading": "れんぞく",
     "type": "noun",
     "meaning": "continuation, succession"
   },
@@ -26600,63 +26600,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3336,
     "word": "折る",
-    "reading": "",
+    "reading": "おる",
     "type": "verb",
     "meaning": "break; fold; bend"
   },
   {
     "frequency": 3337,
     "word": "関西",
-    "reading": "",
+    "reading": "かんさい",
     "type": "noun",
     "meaning": "Kansai region"
   },
   {
     "frequency": 3338,
     "word": "単語",
-    "reading": "",
+    "reading": "たんご",
     "type": "noun",
     "meaning": "word"
   },
   {
     "frequency": 3339,
     "word": "曖昧",
-    "reading": "",
+    "reading": "あいまい",
     "type": "na-adjective",
     "meaning": "vague, ambiguous"
   },
   {
     "frequency": 3340,
     "word": "死体",
-    "reading": "",
+    "reading": "したい",
     "type": "noun",
     "meaning": "dead body"
   },
   {
     "frequency": 3341,
     "word": "アフリカ",
-    "reading": "",
+    "reading": "アフリカ",
     "type": "noun",
     "meaning": "Africa"
   },
   {
     "frequency": 3342,
     "word": "なくてはならない",
-    "reading": "",
+    "reading": "なくてはならない",
     "type": "compound",
     "meaning": "must"
   },
   {
     "frequency": 3343,
     "word": "幸福",
-    "reading": "",
+    "reading": "こうふく",
     "type": "noun",
     "meaning": "happiness"
   },
   {
     "frequency": 3344,
     "word": "説得",
-    "reading": "",
+    "reading": "せっとく",
     "type": "noun",
     "meaning": "persuasion"
   },
@@ -26670,21 +26670,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3345,
     "word": "籠もる",
-    "reading": "",
+    "reading": "こもる",
     "type": "verb",
     "meaning": "shut oneself up; be full of"
   },
   {
     "frequency": 3346,
     "word": "レッスン",
-    "reading": "",
+    "reading": "レッスン",
     "type": "noun",
     "meaning": "lesson"
   },
   {
     "frequency": 3347,
     "word": "放置",
-    "reading": "",
+    "reading": "ほうち",
     "type": "noun",
     "meaning": "leaving something as it is"
   },
@@ -26698,28 +26698,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3348,
     "word": "危機",
-    "reading": "",
+    "reading": "きき",
     "type": "noun",
     "meaning": "crisis, critical moment"
   },
   {
     "frequency": 3349,
     "word": "アーティスト",
-    "reading": "",
+    "reading": "アーティスト",
     "type": "noun",
     "meaning": "artist"
   },
   {
     "frequency": 3350,
     "word": "子達",
-    "reading": "",
+    "reading": "こたち",
     "type": "noun",
     "meaning": "children"
   },
   {
     "frequency": 3351,
     "word": "編集",
-    "reading": "",
+    "reading": "へんしゅう",
     "type": "noun",
     "meaning": "editing"
   },
@@ -26733,28 +26733,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3352,
     "word": "くっ付く",
-    "reading": "",
+    "reading": "くっつく",
     "type": "verb",
     "meaning": "stick, keep close; go out"
   },
   {
     "frequency": 3353,
     "word": "取り付ける",
-    "reading": "",
+    "reading": "とりつける",
     "type": "verb",
     "meaning": "install, arrange"
   },
   {
     "frequency": 3354,
     "word": "原稿",
-    "reading": "",
+    "reading": "げんこう",
     "type": "noun",
     "meaning": "manuscript, draft"
   },
   {
     "frequency": 3355,
     "word": "象徴",
-    "reading": "",
+    "reading": "しょうちょう",
     "type": "noun",
     "meaning": "symbol"
   },
@@ -26768,21 +26768,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3356,
     "word": "説く",
-    "reading": "",
+    "reading": "とく",
     "type": "verb",
     "meaning": "explain; preach; persuade"
   },
   {
     "frequency": 3357,
     "word": "服装",
-    "reading": "",
+    "reading": "ふくそう",
     "type": "noun",
     "meaning": "clothes, dress"
   },
   {
     "frequency": 3358,
     "word": "見学",
-    "reading": "",
+    "reading": "けんがく",
     "type": "noun",
     "meaning": "studying by observation, field trip"
   },
@@ -26796,7 +26796,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3359,
     "word": "六人",
-    "reading": "",
+    "reading": "ろくにん",
     "type": "noun",
     "meaning": "six people"
   },
@@ -26810,7 +26810,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3361,
     "word": "応募",
-    "reading": "",
+    "reading": "おうぼ",
     "type": "noun",
     "meaning": "application"
   },
@@ -26824,7 +26824,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3362,
     "word": "ラッキー",
-    "reading": "",
+    "reading": "ラッキー",
     "type": "na-adjective",
     "meaning": "lucky"
   },
@@ -26838,21 +26838,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3364,
     "word": "棒",
-    "reading": "",
+    "reading": "ぼう",
     "type": "noun",
     "meaning": "stick, pole, bar"
   },
   {
     "frequency": 3365,
     "word": "こととなる",
-    "reading": "",
+    "reading": "こととなる",
     "type": "auxiliary",
     "meaning": "it has been decided that"
   },
   {
     "frequency": 3366,
     "word": "固定",
-    "reading": "",
+    "reading": "こてい",
     "type": "noun",
     "meaning": "fixing"
   },
@@ -26866,7 +26866,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3367,
     "word": "告白",
-    "reading": "",
+    "reading": "こくはく",
     "type": "noun",
     "meaning": "confession"
   },
@@ -26880,14 +26880,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3368,
     "word": "圧倒的",
-    "reading": "",
+    "reading": "あっとうてき",
     "type": "na-adjective",
     "meaning": "overwhelming"
   },
   {
     "frequency": 3369,
     "word": "策定",
-    "reading": "",
+    "reading": "さくてい",
     "type": "noun",
     "meaning": "settling on"
   },
@@ -26901,7 +26901,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3370,
     "word": "矛盾",
-    "reading": "",
+    "reading": "むじゅん",
     "type": "noun",
     "meaning": "contradiction, conflict"
   },
@@ -26915,14 +26915,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3371,
     "word": "引き取る",
-    "reading": "",
+    "reading": "ひきとる",
     "type": "verb",
     "meaning": "take back, collect; leave"
   },
   {
     "frequency": 3372,
     "word": "保証",
-    "reading": "",
+    "reading": "ほしょう",
     "type": "noun",
     "meaning": "guarantee"
   },
@@ -26936,77 +26936,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3373,
     "word": "団地",
-    "reading": "",
+    "reading": "だんち",
     "type": "noun",
     "meaning": "housing development"
   },
   {
     "frequency": 3374,
     "word": "会長",
-    "reading": "",
+    "reading": "かいちょう",
     "type": "noun",
     "meaning": "president, chairperson"
   },
   {
     "frequency": 3375,
     "word": "利点",
-    "reading": "",
+    "reading": "りてん",
     "type": "noun",
     "meaning": "advantage"
   },
   {
     "frequency": 3376,
     "word": "ジャンル",
-    "reading": "",
+    "reading": "ジャンル",
     "type": "noun",
     "meaning": "genre, category"
   },
   {
     "frequency": 3377,
     "word": "縦",
-    "reading": "",
+    "reading": "たて",
     "type": "noun",
     "meaning": "length; height; vertical"
   },
   {
     "frequency": 3378,
     "word": "隙間",
-    "reading": "",
+    "reading": "すきま",
     "type": "noun",
     "meaning": "crevice, opening, gap"
   },
   {
     "frequency": 3379,
     "word": "歴史的",
-    "reading": "",
+    "reading": "れきしてき",
     "type": "na-adjective",
     "meaning": "historical, historic"
   },
   {
     "frequency": 3380,
     "word": "羨ましい",
-    "reading": "",
+    "reading": "うらやましい",
     "type": "i-adjective",
     "meaning": "envious; enviable"
   },
   {
     "frequency": 3381,
     "word": "ガス",
-    "reading": "",
+    "reading": "ガス",
     "type": "noun",
     "meaning": "gas"
   },
   {
     "frequency": 3382,
     "word": "ウイルス",
-    "reading": "",
+    "reading": "ウイルス",
     "type": "noun",
     "meaning": "virus"
   },
   {
     "frequency": 3383,
     "word": "公表",
-    "reading": "",
+    "reading": "こうひょう",
     "type": "noun",
     "meaning": "publication"
   },
@@ -27027,14 +27027,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3385,
     "word": "古く",
-    "reading": "",
+    "reading": "ふるく",
     "type": "noun",
     "meaning": "ancient times"
   },
   {
     "frequency": 3385,
     "word": "古く",
-    "reading": "",
+    "reading": "ふるく",
     "type": "adverb",
     "meaning": "anciently"
   },
@@ -27048,63 +27048,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3387,
     "word": "一万円",
-    "reading": "",
+    "reading": "いちまんえん",
     "type": "noun",
     "meaning": "ten thousand yen"
   },
   {
     "frequency": 3388,
     "word": "意義",
-    "reading": "",
+    "reading": "いぎ",
     "type": "noun",
     "meaning": "meaning, significance"
   },
   {
     "frequency": 3389,
     "word": "憧れる",
-    "reading": "",
+    "reading": "あこがれる",
     "type": "verb",
     "meaning": "long for; admire"
   },
   {
     "frequency": 3390,
     "word": "前向き",
-    "reading": "",
+    "reading": "まえむき",
     "type": "na-adjective",
     "meaning": "facing forward; positive"
   },
   {
     "frequency": 3391,
     "word": "ゆったり",
-    "reading": "",
+    "reading": "ゆったり",
     "type": "adverb",
     "meaning": "comfortably; calm; loose"
   },
   {
     "frequency": 3392,
     "word": "漏れる",
-    "reading": "",
+    "reading": "もれる",
     "type": "verb",
     "meaning": "leak, escape; be omitted"
   },
   {
     "frequency": 3393,
     "word": "品物",
-    "reading": "",
+    "reading": "しなもの",
     "type": "noun",
     "meaning": "goods, article"
   },
   {
     "frequency": 3394,
     "word": "前述",
-    "reading": "",
+    "reading": "ぜんじゅつ",
     "type": "noun, verb",
     "meaning": "above-mentioned, mentioned above"
   },
   {
     "frequency": 3395,
     "word": "あら",
-    "reading": "",
+    "reading": "あら",
     "type": "interjection",
     "meaning": "Oh! (used by female speakers)"
   },
@@ -27118,14 +27118,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3397,
     "word": "まとも",
-    "reading": "",
+    "reading": "まとも",
     "type": "na-adjective",
     "meaning": "direct; honest; proper"
   },
   {
     "frequency": 3398,
     "word": "入手",
-    "reading": "",
+    "reading": "にゅうしゅ",
     "type": "noun",
     "meaning": "acquisition"
   },
@@ -27139,84 +27139,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3399,
     "word": "二十代",
-    "reading": "",
+    "reading": "にじゅうだい",
     "type": "noun",
     "meaning": "twenties"
   },
   {
     "frequency": 3400,
     "word": "孤独",
-    "reading": "",
+    "reading": "こどく",
     "type": "na-adjective",
     "meaning": "lonely"
   },
   {
     "frequency": 3401,
     "word": "平等",
-    "reading": "",
+    "reading": "びょうどう",
     "type": "noun",
     "meaning": "equality"
   },
   {
     "frequency": 3401,
     "word": "平等",
-    "reading": "",
+    "reading": "びょうどう",
     "type": "na-adjective",
     "meaning": "equal"
   },
   {
     "frequency": 3402,
     "word": "崩す",
-    "reading": "",
+    "reading": "くずす",
     "type": "verb",
     "meaning": "destroy; put into disorder; change"
   },
   {
     "frequency": 3403,
     "word": "競馬",
-    "reading": "",
+    "reading": "けいば",
     "type": "noun",
     "meaning": "horse racing"
   },
   {
     "frequency": 3404,
     "word": "格好良い",
-    "reading": "",
+    "reading": "かっこいい",
     "type": "i-adjective",
     "meaning": "cool, good-looking"
   },
   {
     "frequency": 3405,
     "word": "交わす",
-    "reading": "",
+    "reading": "かわす",
     "type": "verb",
     "meaning": "exchange"
   },
   {
     "frequency": 3406,
     "word": "伝統的",
-    "reading": "",
+    "reading": "でんとうてき",
     "type": "na-adjective",
     "meaning": "traditional"
   },
   {
     "frequency": 3407,
     "word": "パーティー",
-    "reading": "",
+    "reading": "パーティー",
     "type": "noun",
     "meaning": "party"
   },
   {
     "frequency": 3408,
     "word": "役目",
-    "reading": "",
+    "reading": "やくめ",
     "type": "noun",
     "meaning": "duty, role"
   },
   {
     "frequency": 3409,
     "word": "通知",
-    "reading": "",
+    "reading": "つうち",
     "type": "noun",
     "meaning": "notice, notification"
   },
@@ -27230,7 +27230,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3410,
     "word": "要望",
-    "reading": "",
+    "reading": "ようぼう",
     "type": "noun",
     "meaning": "demand"
   },
@@ -27244,77 +27244,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3411,
     "word": "をめぐる",
-    "reading": "",
+    "reading": "をめぐる",
     "type": "compound",
     "meaning": "over, concerning"
   },
   {
     "frequency": 3412,
     "word": "営む",
-    "reading": "",
+    "reading": "いとなむ",
     "type": "verb",
     "meaning": "run a business; engage in; hold a ceremony"
   },
   {
     "frequency": 3413,
     "word": "パート",
-    "reading": "",
+    "reading": "パート",
     "type": "noun",
     "meaning": "part; part-time"
   },
   {
     "frequency": 3414,
     "word": "手のひら",
-    "reading": "",
+    "reading": "てのひら",
     "type": "noun",
     "meaning": "palm of the hand"
   },
   {
     "frequency": 3415,
     "word": "地上",
-    "reading": "",
+    "reading": "ちじょう",
     "type": "noun",
     "meaning": "ground"
   },
   {
     "frequency": 3416,
     "word": "踊り",
-    "reading": "",
+    "reading": "おどり",
     "type": "noun",
     "meaning": "dance"
   },
   {
     "frequency": 3417,
     "word": "押し付ける",
-    "reading": "",
+    "reading": "おしつける",
     "type": "verb",
     "meaning": "press against, force"
   },
   {
     "frequency": 3418,
     "word": "溶ける",
-    "reading": "",
+    "reading": "とける",
     "type": "verb",
     "meaning": "melt, thaw; dissolve"
   },
   {
     "frequency": 3419,
     "word": "奇妙",
-    "reading": "",
+    "reading": "きみょう",
     "type": "na-adjective",
     "meaning": "strange, odd"
   },
   {
     "frequency": 3420,
     "word": "最中",
-    "reading": "",
+    "reading": "さいちゅう",
     "type": "noun",
     "meaning": "in the middle of"
   },
   {
     "frequency": 3421,
     "word": "定着",
-    "reading": "",
+    "reading": "ていちゃく",
     "type": "noun",
     "meaning": "fixing"
   },
@@ -27328,91 +27328,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3422,
     "word": "依然",
-    "reading": "",
+    "reading": "いぜん",
     "type": "adverb",
     "meaning": "still, as before"
   },
   {
     "frequency": 3423,
     "word": "素早い",
-    "reading": "",
+    "reading": "すばやい",
     "type": "i-adjective",
     "meaning": "quick"
   },
   {
     "frequency": 3424,
     "word": "そこらへん",
-    "reading": "",
+    "reading": "そこらへん",
     "type": "noun",
     "meaning": "around there; such a matter"
   },
   {
     "frequency": 3425,
     "word": "有利",
-    "reading": "",
+    "reading": "ゆうり",
     "type": "na-adjective",
     "meaning": "profitable, advantageous"
   },
   {
     "frequency": 3426,
     "word": "水準",
-    "reading": "",
+    "reading": "すいじゅん",
     "type": "noun",
     "meaning": "standard, level"
   },
   {
     "frequency": 3427,
     "word": "じっくり",
-    "reading": "",
+    "reading": "じっくり",
     "type": "adverb",
     "meaning": "without haste, deliberately"
   },
   {
     "frequency": 3428,
     "word": "首相",
-    "reading": "",
+    "reading": "しゅしょう",
     "type": "noun",
     "meaning": "prime minister"
   },
   {
     "frequency": 3429,
     "word": "レコード",
-    "reading": "",
+    "reading": "レコード",
     "type": "noun",
     "meaning": "record"
   },
   {
     "frequency": 3430,
     "word": "際に",
-    "reading": "",
+    "reading": "さいに",
     "type": "particle",
     "meaning": "when"
   },
   {
     "frequency": 3431,
     "word": "滅多",
-    "reading": "",
+    "reading": "めった",
     "type": "na-adjective",
     "meaning": "rash, thoughtless; seldom"
   },
   {
     "frequency": 3432,
     "word": "機関",
-    "reading": "",
+    "reading": "からくり",
     "type": "noun",
     "meaning": "engine; organization; facilities"
   },
   {
     "frequency": 3433,
     "word": "手作り",
-    "reading": "",
+    "reading": "てづくり",
     "type": "noun",
     "meaning": "handmade, homemade"
   },
   {
     "frequency": 3434,
     "word": "提示",
-    "reading": "",
+    "reading": "ていじ",
     "type": "noun",
     "meaning": "presentation"
   },
@@ -27426,28 +27426,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3435,
     "word": "エジプト",
-    "reading": "",
+    "reading": "エジプト",
     "type": "noun",
     "meaning": "Egypt"
   },
   {
     "frequency": 3436,
     "word": "下町",
-    "reading": "",
+    "reading": "したまち",
     "type": "noun",
     "meaning": "Shitamachi (place name); traditional working-class neighborhood"
   },
   {
     "frequency": 3437,
     "word": "ううん",
-    "reading": "",
+    "reading": "ううん",
     "type": "interjection",
     "meaning": "no; well"
   },
   {
     "frequency": 3438,
     "word": "優先",
-    "reading": "",
+    "reading": "ゆうせん",
     "type": "noun",
     "meaning": "priority"
   },
@@ -27461,28 +27461,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3439,
     "word": "大部分",
-    "reading": "",
+    "reading": "だいぶぶん",
     "type": "noun",
     "meaning": "majority"
   },
   {
     "frequency": 3439,
     "word": "大部分",
-    "reading": "",
+    "reading": "だいぶぶん",
     "type": "adverb",
     "meaning": "mostly"
   },
   {
     "frequency": 3440,
     "word": "戦前",
-    "reading": "",
+    "reading": "せんぜん",
     "type": "noun",
     "meaning": "pre-war"
   },
   {
     "frequency": 3441,
     "word": "制作",
-    "reading": "",
+    "reading": "せいさく",
     "type": "noun",
     "meaning": "production"
   },
@@ -27496,126 +27496,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3442,
     "word": "いい加減",
-    "reading": "",
+    "reading": "いいかげん",
     "type": "na-adjective",
     "meaning": "irresponsible, groundless"
   },
   {
     "frequency": 3443,
     "word": "後者",
-    "reading": "",
+    "reading": "こうしゃ",
     "type": "noun",
     "meaning": "the latter"
   },
   {
     "frequency": 3444,
     "word": "五十",
-    "reading": "",
+    "reading": "いそじ",
     "type": "numeral",
     "meaning": "fifty"
   },
   {
     "frequency": 3445,
     "word": "入り込む",
-    "reading": "",
+    "reading": "はいりこむ",
     "type": "verb",
     "meaning": "go into; come into"
   },
   {
     "frequency": 3446,
     "word": "シャワー",
-    "reading": "",
+    "reading": "シャワー",
     "type": "noun",
     "meaning": "shower"
   },
   {
     "frequency": 3447,
     "word": "栗",
-    "reading": "",
+    "reading": "くり",
     "type": "noun",
     "meaning": "chestnut"
   },
   {
     "frequency": 3448,
     "word": "札幌",
-    "reading": "",
+    "reading": "さっぽろ",
     "type": "noun",
     "meaning": "Sapporo"
   },
   {
     "frequency": 3449,
     "word": "主体",
-    "reading": "",
+    "reading": "しゅたい",
     "type": "noun",
     "meaning": "main constituent; subject"
   },
   {
     "frequency": 3450,
     "word": "家内",
-    "reading": "",
+    "reading": "かない",
     "type": "noun",
     "meaning": "one’s family; my wife"
   },
   {
     "frequency": 3451,
     "word": "看板",
-    "reading": "",
+    "reading": "かんばん",
     "type": "noun",
     "meaning": "signboard, billboard; attraction"
   },
   {
     "frequency": 3452,
     "word": "将棋",
-    "reading": "",
+    "reading": "しょうぎ",
     "type": "noun",
     "meaning": "shogi, Japanese chess"
   },
   {
     "frequency": 3453,
     "word": "家事",
-    "reading": "",
+    "reading": "かじ",
     "type": "noun",
     "meaning": "housework"
   },
   {
     "frequency": 3454,
     "word": "捕まる",
-    "reading": "",
+    "reading": "つかまる",
     "type": "verb",
     "meaning": "be caught, be arrested; hold"
   },
   {
     "frequency": 3455,
     "word": "他方",
-    "reading": "",
+    "reading": "たほう",
     "type": "noun",
     "meaning": "the other side"
   },
   {
     "frequency": 3456,
     "word": "交通事故",
-    "reading": "",
+    "reading": "こうつうじこ",
     "type": "noun",
     "meaning": "traffic accident"
   },
   {
     "frequency": 3457,
     "word": "手順",
-    "reading": "",
+    "reading": "てじゅん",
     "type": "noun",
     "meaning": "order, process, plan"
   },
   {
     "frequency": 3458,
     "word": "コスト",
-    "reading": "",
+    "reading": "コスト",
     "type": "noun",
     "meaning": "cost"
   },
   {
     "frequency": 3459,
     "word": "余る",
-    "reading": "",
+    "reading": "あまる",
     "type": "verb",
     "meaning": "be left over; be too many"
   },
@@ -27629,28 +27629,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3461,
     "word": "ならびに",
-    "reading": "",
+    "reading": "ならびに",
     "type": "conjunction",
     "meaning": "and, both . . . and"
   },
   {
     "frequency": 3462,
     "word": "男達",
-    "reading": "",
+    "reading": "おとこだて",
     "type": "noun",
     "meaning": "men"
   },
   {
     "frequency": 3463,
     "word": "地名",
-    "reading": "",
+    "reading": "ちめい",
     "type": "noun",
     "meaning": "place name"
   },
   {
     "frequency": 3464,
     "word": "合意",
-    "reading": "",
+    "reading": "ごうい",
     "type": "noun",
     "meaning": "mutual agreement"
   },
@@ -27664,21 +27664,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3465,
     "word": "大手",
-    "reading": "",
+    "reading": "おおて",
     "type": "noun",
     "meaning": "major companies"
   },
   {
     "frequency": 3466,
     "word": "本番",
-    "reading": "",
+    "reading": "ほんばん",
     "type": "noun",
     "meaning": "performance"
   },
   {
     "frequency": 3467,
     "word": "同僚",
-    "reading": "",
+    "reading": "どうりょう",
     "type": "noun",
     "meaning": "colleague"
   },
@@ -27699,28 +27699,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3470,
     "word": "技",
-    "reading": "",
+    "reading": "わざ",
     "type": "noun",
     "meaning": "skill, technique, trick"
   },
   {
     "frequency": 3471,
     "word": "たちまち",
-    "reading": "",
+    "reading": "たちまち",
     "type": "adverb",
     "meaning": "in a moment, at once; suddenly"
   },
   {
     "frequency": 3472,
     "word": "仕上げる",
-    "reading": "",
+    "reading": "しあげる",
     "type": "verb",
     "meaning": "finish, complete"
   },
   {
     "frequency": 3473,
     "word": "回収",
-    "reading": "",
+    "reading": "かいしゅう",
     "type": "noun",
     "meaning": "collection"
   },
@@ -27734,7 +27734,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3474,
     "word": "再生",
-    "reading": "",
+    "reading": "さいせい",
     "type": "noun",
     "meaning": "rebirth"
   },
@@ -27748,77 +27748,77 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3475,
     "word": "わがまま",
-    "reading": "",
+    "reading": "わがまま",
     "type": "na-adjective",
     "meaning": "selfish, disobedient"
   },
   {
     "frequency": 3475,
     "word": "わがまま",
-    "reading": "",
+    "reading": "わがまま",
     "type": "noun",
     "meaning": "selfishness"
   },
   {
     "frequency": 3476,
     "word": "小さじ",
-    "reading": "",
+    "reading": "こさじ",
     "type": "noun",
     "meaning": "teaspoon"
   },
   {
     "frequency": 3477,
     "word": "コントロール",
-    "reading": "",
+    "reading": "コントロール",
     "type": "noun",
     "meaning": "control"
   },
   {
     "frequency": 3477,
     "word": "コントロールする",
-    "reading": "",
+    "reading": "コントロールする",
     "type": "verb",
     "meaning": "control"
   },
   {
     "frequency": 3478,
     "word": "深夜",
-    "reading": "",
+    "reading": "しんや",
     "type": "noun",
     "meaning": "middle of the night"
   },
   {
     "frequency": 3479,
     "word": "なおかつ",
-    "reading": "",
+    "reading": "なおかつ",
     "type": "adverb",
     "meaning": "besides, and yet"
   },
   {
     "frequency": 3480,
     "word": "活発",
-    "reading": "",
+    "reading": "かっぱつ",
     "type": "na-adjective",
     "meaning": "lively, active; brisk"
   },
   {
     "frequency": 3481,
     "word": "芸術",
-    "reading": "",
+    "reading": "げいじゅつ",
     "type": "noun",
     "meaning": "art"
   },
   {
     "frequency": 3482,
     "word": "ブラジル",
-    "reading": "",
+    "reading": "ブラジル",
     "type": "noun",
     "meaning": "Brazil"
   },
   {
     "frequency": 3483,
     "word": "施行",
-    "reading": "",
+    "reading": "しこう",
     "type": "noun",
     "meaning": "enforcement"
   },
@@ -27832,21 +27832,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3484,
     "word": "チーズ",
-    "reading": "",
+    "reading": "チーズ",
     "type": "noun",
     "meaning": "cheese"
   },
   {
     "frequency": 3485,
     "word": "教え",
-    "reading": "",
+    "reading": "おしえ",
     "type": "noun",
     "meaning": "teaching, lesson, doctrine"
   },
   {
     "frequency": 3486,
     "word": "追及",
-    "reading": "",
+    "reading": "ついきゅう",
     "type": "noun",
     "meaning": "pursuit"
   },
@@ -27860,35 +27860,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3487,
     "word": "今月",
-    "reading": "",
+    "reading": "こんげつ",
     "type": "noun",
     "meaning": "this month"
   },
   {
     "frequency": 3488,
     "word": "仙台",
-    "reading": "",
+    "reading": "せんだい",
     "type": "noun",
     "meaning": "Sendai"
   },
   {
     "frequency": 3489,
     "word": "特許",
-    "reading": "",
+    "reading": "とっきょ",
     "type": "noun",
     "meaning": "patent"
   },
   {
     "frequency": 3490,
     "word": "株式",
-    "reading": "",
+    "reading": "かぶしき",
     "type": "noun",
     "meaning": "stock, shares"
   },
   {
     "frequency": 3491,
     "word": "労働",
-    "reading": "",
+    "reading": "ろうどう",
     "type": "noun",
     "meaning": "work, labor"
   },
@@ -27902,35 +27902,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3492,
     "word": "カフェ",
-    "reading": "",
+    "reading": "カフェ",
     "type": "noun",
     "meaning": "café"
   },
   {
     "frequency": 3493,
     "word": "シンプル",
-    "reading": "",
+    "reading": "シンプル",
     "type": "na-adjective",
     "meaning": "simple"
   },
   {
     "frequency": 3494,
     "word": "規則",
-    "reading": "",
+    "reading": "きそく",
     "type": "noun",
     "meaning": "rule, regulation"
   },
   {
     "frequency": 3495,
     "word": "客観的",
-    "reading": "",
+    "reading": "きゃっかんてき",
     "type": "na-adjective",
     "meaning": "objective"
   },
   {
     "frequency": 3496,
     "word": "帰宅",
-    "reading": "",
+    "reading": "きたく",
     "type": "noun",
     "meaning": "coming home"
   },
@@ -27944,21 +27944,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3497,
     "word": "つくづく",
-    "reading": "",
+    "reading": "つくづく",
     "type": "adverb",
     "meaning": "thoroughly, deeply, carefully"
   },
   {
     "frequency": 3498,
     "word": "一つ目",
-    "reading": "",
+    "reading": "ひとつめ",
     "type": "noun",
     "meaning": "first"
   },
   {
     "frequency": 3499,
     "word": "汚染",
-    "reading": "",
+    "reading": "おせん",
     "type": "noun",
     "meaning": "pollution"
   },
@@ -27972,7 +27972,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3500,
     "word": "転換",
-    "reading": "",
+    "reading": "てんかん",
     "type": "noun",
     "meaning": "conversion"
   },
@@ -27986,7 +27986,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3501,
     "word": "たんぱく質",
-    "reading": "",
+    "reading": "たんぱくしつ",
     "type": "noun",
     "meaning": "protein"
   },
@@ -28000,7 +28000,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3503,
     "word": "予防",
-    "reading": "",
+    "reading": "よぼう",
     "type": "noun",
     "meaning": "prevention"
   },
@@ -28014,49 +28014,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3504,
     "word": "頬",
-    "reading": "",
+    "reading": "ほお",
     "type": "noun",
     "meaning": "cheek"
   },
   {
     "frequency": 3505,
     "word": "面積",
-    "reading": "",
+    "reading": "めんせき",
     "type": "noun",
     "meaning": "area, size"
   },
   {
     "frequency": 3506,
     "word": "大正",
-    "reading": "",
+    "reading": "たいしょう",
     "type": "noun",
     "meaning": "Taisho era"
   },
   {
     "frequency": 3507,
     "word": "固める",
-    "reading": "",
+    "reading": "かためる",
     "type": "verb",
     "meaning": "make something hard, strengthen"
   },
   {
     "frequency": 3508,
     "word": "反する",
-    "reading": "",
+    "reading": "はんする",
     "type": "verb",
     "meaning": "go against, be contrary"
   },
   {
     "frequency": 3509,
     "word": "振るう",
-    "reading": "",
+    "reading": "ふるう",
     "type": "verb",
     "meaning": "flourish, prosper"
   },
   {
     "frequency": 3510,
     "word": "宣言",
-    "reading": "",
+    "reading": "せんげん",
     "type": "noun",
     "meaning": "declaration"
   },
@@ -28070,35 +28070,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3511,
     "word": "直後",
-    "reading": "",
+    "reading": "ちょくご",
     "type": "noun",
     "meaning": "immediately after, just after"
   },
   {
     "frequency": 3512,
     "word": "ねえ",
-    "reading": "",
+    "reading": "ねえ",
     "type": "interjection",
     "meaning": "hey"
   },
   {
     "frequency": 3513,
     "word": "せいぜい",
-    "reading": "",
+    "reading": "せいぜい",
     "type": "adverb",
     "meaning": "at most"
   },
   {
     "frequency": 3514,
     "word": "特性",
-    "reading": "",
+    "reading": "とくせい",
     "type": "noun",
     "meaning": "character, property"
   },
   {
     "frequency": 3515,
     "word": "解散",
-    "reading": "",
+    "reading": "かいさん",
     "type": "noun",
     "meaning": "dissolution"
   },
@@ -28112,14 +28112,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3516,
     "word": "貧しい",
-    "reading": "",
+    "reading": "まずしい",
     "type": "i-adjective",
     "meaning": "poor"
   },
   {
     "frequency": 3517,
     "word": "回転",
-    "reading": "",
+    "reading": "かいてん",
     "type": "noun",
     "meaning": "revolution"
   },
@@ -28133,84 +28133,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3518,
     "word": "マナー",
-    "reading": "",
+    "reading": "マナー",
     "type": "noun",
     "meaning": "manners"
   },
   {
     "frequency": 3519,
     "word": "いちいち",
-    "reading": "",
+    "reading": "いちいち",
     "type": "adverb",
     "meaning": "one by one; everything"
   },
   {
     "frequency": 3520,
     "word": "政令",
-    "reading": "",
+    "reading": "せいれい",
     "type": "noun",
     "meaning": "government ordinance"
   },
   {
     "frequency": 3521,
     "word": "王様",
-    "reading": "",
+    "reading": "おうさま",
     "type": "noun",
     "meaning": "king"
   },
   {
     "frequency": 3522,
     "word": "折れる",
-    "reading": "",
+    "reading": "おれる",
     "type": "verb",
     "meaning": "break"
   },
   {
     "frequency": 3523,
     "word": "竹",
-    "reading": "",
+    "reading": "たけ",
     "type": "noun",
     "meaning": "bamboo"
   },
   {
     "frequency": 3524,
     "word": "暴力",
-    "reading": "",
+    "reading": "ぼうりょく",
     "type": "noun",
     "meaning": "violence"
   },
   {
     "frequency": 3525,
     "word": "えび",
-    "reading": "",
+    "reading": "えび",
     "type": "noun",
     "meaning": "prawn, shrimp"
   },
   {
     "frequency": 3526,
     "word": "担任",
-    "reading": "",
+    "reading": "たんにん",
     "type": "noun",
     "meaning": "class teacher"
   },
   {
     "frequency": 3527,
     "word": "角度",
-    "reading": "",
+    "reading": "かくど",
     "type": "noun",
     "meaning": "angle"
   },
   {
     "frequency": 3528,
     "word": "革命",
-    "reading": "",
+    "reading": "かくめい",
     "type": "noun",
     "meaning": "revolution"
   },
   {
     "frequency": 3529,
     "word": "合宿",
-    "reading": "",
+    "reading": "がっしゅく",
     "type": "noun",
     "meaning": "training camp"
   },
@@ -28224,105 +28224,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3530,
     "word": "後輩",
-    "reading": "",
+    "reading": "こうはい",
     "type": "noun",
     "meaning": "one’s junior"
   },
   {
     "frequency": 3531,
     "word": "一連",
-    "reading": "",
+    "reading": "いちれん",
     "type": "noun",
     "meaning": "course of, series of"
   },
   {
     "frequency": 3532,
     "word": "自動的",
-    "reading": "",
+    "reading": "じどうてき",
     "type": "na-adjective",
     "meaning": "automatic"
   },
   {
     "frequency": 3533,
     "word": "郵便局",
-    "reading": "",
+    "reading": "ゆうびんきょく",
     "type": "noun",
     "meaning": "post office"
   },
   {
     "frequency": 3534,
     "word": "概要",
-    "reading": "",
+    "reading": "がいよう",
     "type": "noun",
     "meaning": "outline, summary"
   },
   {
     "frequency": 3535,
     "word": "ローマ",
-    "reading": "",
+    "reading": "ローマ",
     "type": "noun",
     "meaning": "Rome"
   },
   {
     "frequency": 3536,
     "word": "にわたる",
-    "reading": "",
+    "reading": "にわたる",
     "type": "compound",
     "meaning": "ranging, covering"
   },
   {
     "frequency": 3537,
     "word": "体制",
-    "reading": "",
+    "reading": "たいせい",
     "type": "noun",
     "meaning": "system, structure"
   },
   {
     "frequency": 3538,
     "word": "セックス",
-    "reading": "",
+    "reading": "セックス",
     "type": "noun",
     "meaning": "sex"
   },
   {
     "frequency": 3538,
     "word": "セックスする",
-    "reading": "",
+    "reading": "セックスする",
     "type": "verb",
     "meaning": "have sex"
   },
   {
     "frequency": 3539,
     "word": "上記",
-    "reading": "",
+    "reading": "じょうき",
     "type": "noun",
     "meaning": "the above, above-mentioned"
   },
   {
     "frequency": 3540,
     "word": "何時",
-    "reading": "",
+    "reading": "いつ",
     "type": "noun",
     "meaning": "what time"
   },
   {
     "frequency": 3541,
     "word": "親友",
-    "reading": "",
+    "reading": "しんゆう",
     "type": "noun",
     "meaning": "best friend, close friend"
   },
   {
     "frequency": 3542,
     "word": "お袋",
-    "reading": "",
+    "reading": "おふくろ",
     "type": "noun",
     "meaning": "mother"
   },
   {
     "frequency": 3543,
     "word": "所有",
-    "reading": "",
+    "reading": "しょゆう",
     "type": "noun",
     "meaning": "ownership"
   },
@@ -28336,7 +28336,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3544,
     "word": "進出",
-    "reading": "",
+    "reading": "しんしゅつ",
     "type": "noun",
     "meaning": "advance"
   },
@@ -28350,14 +28350,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3545,
     "word": "大げさ",
-    "reading": "",
+    "reading": "おおげさ",
     "type": "na-adjective",
     "meaning": "exaggerated"
   },
   {
     "frequency": 3546,
     "word": "測定",
-    "reading": "",
+    "reading": "そくてい",
     "type": "noun",
     "meaning": "measurement"
   },
@@ -28371,49 +28371,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3547,
     "word": "そこそこ",
-    "reading": "",
+    "reading": "そこそこ",
     "type": "adverb",
     "meaning": "about; in a hurry; all right"
   },
   {
     "frequency": 3548,
     "word": "論ずる",
-    "reading": "",
+    "reading": "ろんずる",
     "type": "verb",
     "meaning": "argue, discuss"
   },
   {
     "frequency": 3549,
     "word": "家賃",
-    "reading": "",
+    "reading": "やちん",
     "type": "noun",
     "meaning": "rent"
   },
   {
     "frequency": 3550,
     "word": "蛇",
-    "reading": "",
+    "reading": "へび",
     "type": "noun",
     "meaning": "snake"
   },
   {
     "frequency": 3551,
     "word": "自身",
-    "reading": "",
+    "reading": "じしん",
     "type": "noun",
     "meaning": "oneself"
   },
   {
     "frequency": 3552,
     "word": "譲る",
-    "reading": "",
+    "reading": "ゆずる",
     "type": "verb",
     "meaning": "give; sell; offer"
   },
   {
     "frequency": 3553,
     "word": "修理",
-    "reading": "",
+    "reading": "しゅうり",
     "type": "noun",
     "meaning": "repair"
   },
@@ -28427,14 +28427,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3554,
     "word": "遡る",
-    "reading": "",
+    "reading": "さかのぼる",
     "type": "verb",
     "meaning": "go back; be retroactive"
   },
   {
     "frequency": 3555,
     "word": "加工",
-    "reading": "",
+    "reading": "かこう",
     "type": "noun",
     "meaning": "processing"
   },
@@ -28448,56 +28448,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3556,
     "word": "鶏",
-    "reading": "",
+    "reading": "にわとり",
     "type": "noun",
     "meaning": "chicken; baby bird"
   },
   {
     "frequency": 3557,
     "word": "保護者",
-    "reading": "",
+    "reading": "ほごしゃ",
     "type": "noun",
     "meaning": "protector"
   },
   {
     "frequency": 3558,
     "word": "いえ",
-    "reading": "",
+    "reading": "いえ",
     "type": "interjection",
     "meaning": "no"
   },
   {
     "frequency": 3559,
     "word": "施す",
-    "reading": "",
+    "reading": "ほどこす",
     "type": "verb",
     "meaning": "give, do, apply, add"
   },
   {
     "frequency": 3560,
     "word": "人材",
-    "reading": "",
+    "reading": "じんざい",
     "type": "noun",
     "meaning": "talent"
   },
   {
     "frequency": 3561,
     "word": "かすか",
-    "reading": "",
+    "reading": "かすか",
     "type": "na-adjective",
     "meaning": "a few, a little"
   },
   {
     "frequency": 3562,
     "word": "取り込む",
-    "reading": "",
+    "reading": "とりこむ",
     "type": "verb",
     "meaning": "take in"
   },
   {
     "frequency": 3563,
     "word": "排除",
-    "reading": "",
+    "reading": "はいじょ",
     "type": "noun",
     "meaning": "removal"
   },
@@ -28511,7 +28511,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3564,
     "word": "育成",
-    "reading": "",
+    "reading": "いくせい",
     "type": "noun",
     "meaning": "cultivation"
   },
@@ -28525,7 +28525,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3565,
     "word": "移転",
-    "reading": "",
+    "reading": "いてん",
     "type": "noun",
     "meaning": "move"
   },
@@ -28539,28 +28539,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3566,
     "word": "動機",
-    "reading": "",
+    "reading": "どうき",
     "type": "noun",
     "meaning": "motive"
   },
   {
     "frequency": 3567,
     "word": "兼ねる",
-    "reading": "",
+    "reading": "かねる",
     "type": "verb",
     "meaning": "combine; serve both"
   },
   {
     "frequency": 3568,
     "word": "ネットワーク",
-    "reading": "",
+    "reading": "ネットワーク",
     "type": "noun",
     "meaning": "network"
   },
   {
     "frequency": 3569,
     "word": "自立",
-    "reading": "",
+    "reading": "じりつ",
     "type": "noun",
     "meaning": "independence"
   },
@@ -28574,154 +28574,154 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3570,
     "word": "ハムスター",
-    "reading": "",
+    "reading": "ハムスター",
     "type": "noun",
     "meaning": "hamster"
   },
   {
     "frequency": 3571,
     "word": "でかい",
-    "reading": "",
+    "reading": "でかい",
     "type": "i-adjective",
     "meaning": "big, huge"
   },
   {
     "frequency": 3572,
     "word": "下す",
-    "reading": "",
+    "reading": "くだす",
     "type": "verb",
     "meaning": "give, issue; make a decision"
   },
   {
     "frequency": 3573,
     "word": "やたら",
-    "reading": "",
+    "reading": "やたら",
     "type": "adverb",
     "meaning": "freely, thoughtlessly"
   },
   {
     "frequency": 3574,
     "word": "二十五",
-    "reading": "",
+    "reading": "にじゅうご",
     "type": "numeral",
     "meaning": "twenty-five"
   },
   {
     "frequency": 3575,
     "word": "黄色い",
-    "reading": "",
+    "reading": "きいろい",
     "type": "i-adjective",
     "meaning": "yellow"
   },
   {
     "frequency": 3576,
     "word": "確率",
-    "reading": "",
+    "reading": "かくりつ",
     "type": "noun",
     "meaning": "probability"
   },
   {
     "frequency": 3577,
     "word": "ペース",
-    "reading": "",
+    "reading": "ペース",
     "type": "noun",
     "meaning": "pace"
   },
   {
     "frequency": 3578,
     "word": "大統領",
-    "reading": "",
+    "reading": "だいとうりょう",
     "type": "noun",
     "meaning": "President"
   },
   {
     "frequency": 3579,
     "word": "スムーズ",
-    "reading": "",
+    "reading": "スムーズ",
     "type": "na-adjective",
     "meaning": "smooth"
   },
   {
     "frequency": 3580,
     "word": "欠点",
-    "reading": "",
+    "reading": "けってん",
     "type": "noun",
     "meaning": "fault, defect; drawback, weak point"
   },
   {
     "frequency": 3581,
     "word": "適正",
-    "reading": "",
+    "reading": "てきせい",
     "type": "na-adjective",
     "meaning": "appropriate, proper, reasonable"
   },
   {
     "frequency": 3582,
     "word": "千葉",
-    "reading": "",
+    "reading": "ちば",
     "type": "noun",
     "meaning": "Chiba"
   },
   {
     "frequency": 3583,
     "word": "望ましい",
-    "reading": "",
+    "reading": "のぞましい",
     "type": "i-adjective",
     "meaning": "desirable"
   },
   {
     "frequency": 3584,
     "word": "鳴らす",
-    "reading": "",
+    "reading": "ならす",
     "type": "verb",
     "meaning": "ring"
   },
   {
     "frequency": 3585,
     "word": "ブランド",
-    "reading": "",
+    "reading": "ブランド",
     "type": "noun",
     "meaning": "brand"
   },
   {
     "frequency": 3586,
     "word": "学問",
-    "reading": "",
+    "reading": "がくもん",
     "type": "noun",
     "meaning": "study, learning"
   },
   {
     "frequency": 3587,
     "word": "共同",
-    "reading": "",
+    "reading": "きょうどう",
     "type": "noun",
     "meaning": "cooperation; common"
   },
   {
     "frequency": 3588,
     "word": "取り除く",
-    "reading": "",
+    "reading": "とりのぞく",
     "type": "verb",
     "meaning": "remove"
   },
   {
     "frequency": 3589,
     "word": "不可欠",
-    "reading": "",
+    "reading": "ふかけつ",
     "type": "na-adjective",
     "meaning": "indispensable"
   },
   {
     "frequency": 3590,
     "word": "十九",
-    "reading": "",
+    "reading": "じゅうきゅう",
     "type": "numeral",
     "meaning": "nineteen"
   },
   {
     "frequency": 3591,
     "word": "神奈川県",
-    "reading": "",
+    "reading": "かながわけん",
     "type": "noun",
     "meaning": "Kanagawa Prefecture"
   },
@@ -28735,14 +28735,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3593,
     "word": "ばれる",
-    "reading": "",
+    "reading": "ばれる",
     "type": "verb",
     "meaning": "come out, be discovered"
   },
   {
     "frequency": 3594,
     "word": "乗り込む",
-    "reading": "",
+    "reading": "のりこむ",
     "type": "verb",
     "meaning": "board, get into"
   },
@@ -28756,14 +28756,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3596,
     "word": "窓口",
-    "reading": "",
+    "reading": "まどぐち",
     "type": "noun",
     "meaning": "window, counter"
   },
   {
     "frequency": 3597,
     "word": "収穫",
-    "reading": "",
+    "reading": "しゅうかく",
     "type": "noun",
     "meaning": "harvest"
   },
@@ -28777,49 +28777,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3598,
     "word": "バラ",
-    "reading": "",
+    "reading": "バラ",
     "type": "noun",
     "meaning": "rose"
   },
   {
     "frequency": 3599,
     "word": "血管",
-    "reading": "",
+    "reading": "けっかん",
     "type": "noun",
     "meaning": "blood vessel"
   },
   {
     "frequency": 3600,
     "word": "方言",
-    "reading": "",
+    "reading": "ほうげん",
     "type": "noun",
     "meaning": "dialect"
   },
   {
     "frequency": 3601,
     "word": "時間帯",
-    "reading": "",
+    "reading": "じかんたい",
     "type": "noun",
     "meaning": "time (period), time zone"
   },
   {
     "frequency": 3602,
     "word": "全体的",
-    "reading": "",
+    "reading": "ぜんたいてき",
     "type": "na-adjective",
     "meaning": "whole, overall"
   },
   {
     "frequency": 3603,
     "word": "割れる",
-    "reading": "",
+    "reading": "われる",
     "type": "verb",
     "meaning": "split; break"
   },
   {
     "frequency": 3604,
     "word": "抽選",
-    "reading": "",
+    "reading": "ちゅうせん",
     "type": "noun",
     "meaning": "lottery"
   },
@@ -28833,42 +28833,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3605,
     "word": "手法",
-    "reading": "",
+    "reading": "しゅほう",
     "type": "noun",
     "meaning": "technique, method"
   },
   {
     "frequency": 3606,
     "word": "肉体",
-    "reading": "",
+    "reading": "にくたい",
     "type": "noun",
     "meaning": "body"
   },
   {
     "frequency": 3607,
     "word": "生き生き",
-    "reading": "",
+    "reading": "いきいき",
     "type": "adverb",
     "meaning": "lively, fresh"
   },
   {
     "frequency": 3608,
     "word": "狂う",
-    "reading": "",
+    "reading": "くるう",
     "type": "verb",
     "meaning": "go mad"
   },
   {
     "frequency": 3609,
     "word": "一口",
-    "reading": "",
+    "reading": "ひとくち",
     "type": "noun",
     "meaning": "bite, sip, mouthful"
   },
   {
     "frequency": 3610,
     "word": "協議",
-    "reading": "",
+    "reading": "きょうぎ",
     "type": "noun",
     "meaning": "consultation, discussion"
   },
@@ -28882,14 +28882,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3611,
     "word": "重要性",
-    "reading": "",
+    "reading": "じゅうようせい",
     "type": "noun",
     "meaning": "importance"
   },
   {
     "frequency": 3612,
     "word": "発酵",
-    "reading": "",
+    "reading": "はっこう",
     "type": "noun",
     "meaning": "fermentation"
   },
@@ -28903,14 +28903,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3613,
     "word": "繰り返し",
-    "reading": "",
+    "reading": "くりかえし",
     "type": "noun",
     "meaning": "repetition"
   },
   {
     "frequency": 3614,
     "word": "入札",
-    "reading": "",
+    "reading": "にゅうさつ",
     "type": "noun",
     "meaning": "bid, tender"
   },
@@ -28924,63 +28924,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3615,
     "word": "覚める",
-    "reading": "",
+    "reading": "さめる",
     "type": "verb",
     "meaning": "wake up"
   },
   {
     "frequency": 3616,
     "word": "ベスト",
-    "reading": "",
+    "reading": "ベスト",
     "type": "noun",
     "meaning": "best; vest"
   },
   {
     "frequency": 3617,
     "word": "羽根",
-    "reading": "",
+    "reading": "はね",
     "type": "noun",
     "meaning": "wing; feather"
   },
   {
     "frequency": 3618,
     "word": "背負う",
-    "reading": "",
+    "reading": "せおう",
     "type": "verb",
     "meaning": "carry something on one’s back"
   },
   {
     "frequency": 3619,
     "word": "いつか",
-    "reading": "",
+    "reading": "いつか",
     "type": "adverb",
     "meaning": "someday"
   },
   {
     "frequency": 3620,
     "word": "次回",
-    "reading": "",
+    "reading": "じかい",
     "type": "noun",
     "meaning": "next time"
   },
   {
     "frequency": 3621,
     "word": "基盤",
-    "reading": "",
+    "reading": "きばん",
     "type": "noun",
     "meaning": "base, basis"
   },
   {
     "frequency": 3622,
     "word": "丸",
-    "reading": "",
+    "reading": "まる",
     "type": "noun",
     "meaning": "circle, ring"
   },
   {
     "frequency": 3623,
     "word": "感染",
-    "reading": "",
+    "reading": "かんせん",
     "type": "noun",
     "meaning": "infection"
   },
@@ -28994,7 +28994,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3624,
     "word": "尊重",
-    "reading": "",
+    "reading": "そんちょう",
     "type": "noun",
     "meaning": "respect"
   },
@@ -29008,21 +29008,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3625,
     "word": "オフィス",
-    "reading": "",
+    "reading": "オフィス",
     "type": "noun",
     "meaning": "office"
   },
   {
     "frequency": 3626,
     "word": "否",
-    "reading": "",
+    "reading": "ひ",
     "type": "noun",
     "meaning": "no"
   },
   {
     "frequency": 3627,
     "word": "素人",
-    "reading": "",
+    "reading": "しろうと",
     "type": "noun",
     "meaning": "amateur, beginner"
   },
@@ -29036,14 +29036,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3629,
     "word": "一環",
-    "reading": "",
+    "reading": "いっかん",
     "type": "noun",
     "meaning": "part of"
   },
   {
     "frequency": 3630,
     "word": "洗濯",
-    "reading": "",
+    "reading": "せんたく",
     "type": "noun",
     "meaning": "washing"
   },
@@ -29057,42 +29057,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3631,
     "word": "争う",
-    "reading": "",
+    "reading": "あらそう",
     "type": "verb",
     "meaning": "compete"
   },
   {
     "frequency": 3632,
     "word": "一時的",
-    "reading": "",
+    "reading": "いちじてき",
     "type": "na-adjective",
     "meaning": "temporary"
   },
   {
     "frequency": 3633,
     "word": "観光客",
-    "reading": "",
+    "reading": "かんこうきゃく",
     "type": "noun",
     "meaning": "tourist"
   },
   {
     "frequency": 3634,
     "word": "主要",
-    "reading": "",
+    "reading": "しゅよう",
     "type": "na-adjective",
     "meaning": "major, main"
   },
   {
     "frequency": 3635,
     "word": "魅力的",
-    "reading": "",
+    "reading": "みりょくてき",
     "type": "na-adjective",
     "meaning": "charming, attractive"
   },
   {
     "frequency": 3636,
     "word": "外側",
-    "reading": "",
+    "reading": "そとがわ",
     "type": "noun",
     "meaning": "outside"
   },
@@ -29106,56 +29106,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3638,
     "word": "この間",
-    "reading": "",
+    "reading": "このあいだ",
     "type": "noun",
     "meaning": "adv. a few days ago; recently, lately"
   },
   {
     "frequency": 3639,
     "word": "臭い",
-    "reading": "",
+    "reading": "くさい",
     "type": "i-adjective",
     "meaning": "smelly"
   },
   {
     "frequency": 3640,
     "word": "手元",
-    "reading": "",
+    "reading": "てもと",
     "type": "noun",
     "meaning": "at hand, with one"
   },
   {
     "frequency": 3641,
     "word": "食",
-    "reading": "",
+    "reading": "しょく",
     "type": "noun",
     "meaning": "meal, diet"
   },
   {
     "frequency": 3642,
     "word": "ため息",
-    "reading": "",
+    "reading": "ためいき",
     "type": "noun",
     "meaning": "sigh"
   },
   {
     "frequency": 3643,
     "word": "急激",
-    "reading": "",
+    "reading": "きゅうげき",
     "type": "na-adjective",
     "meaning": "sudden; drastic"
   },
   {
     "frequency": 3644,
     "word": "お仕舞い",
-    "reading": "",
+    "reading": "おしまい",
     "type": "noun",
     "meaning": "end, be all up with"
   },
   {
     "frequency": 3645,
     "word": "修正",
-    "reading": "",
+    "reading": "しゅうせい",
     "type": "noun",
     "meaning": "revision"
   },
@@ -29169,56 +29169,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3646,
     "word": "たいして",
-    "reading": "",
+    "reading": "たいして",
     "type": "adverb",
     "meaning": "(not) very much"
   },
   {
     "frequency": 3647,
     "word": "インタビュー",
-    "reading": "",
+    "reading": "インタビュー",
     "type": "noun",
     "meaning": "interview"
   },
   {
     "frequency": 3647,
     "word": "インタビューする",
-    "reading": "",
+    "reading": "インタビューする",
     "type": "verb",
     "meaning": "interview"
   },
   {
     "frequency": 3648,
     "word": "同級生",
-    "reading": "",
+    "reading": "どうきゅうせい",
     "type": "noun",
     "meaning": "schoolmate"
   },
   {
     "frequency": 3649,
     "word": "受け継ぐ",
-    "reading": "",
+    "reading": "うけつぐ",
     "type": "verb",
     "meaning": "inherit"
   },
   {
     "frequency": 3650,
     "word": "重さ",
-    "reading": "",
+    "reading": "おもさ",
     "type": "noun",
     "meaning": "weight"
   },
   {
     "frequency": 3651,
     "word": "町作り",
-    "reading": "",
+    "reading": "まちづくり",
     "type": "noun",
     "meaning": "town development"
   },
   {
     "frequency": 3652,
     "word": "削減",
-    "reading": "",
+    "reading": "さくげん",
     "type": "noun",
     "meaning": "cut, reduction"
   },
@@ -29232,14 +29232,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3653,
     "word": "顧客",
-    "reading": "",
+    "reading": "こきゃく",
     "type": "noun",
     "meaning": "customer"
   },
   {
     "frequency": 3654,
     "word": "爆発",
-    "reading": "",
+    "reading": "ばくはつ",
     "type": "noun",
     "meaning": "explosion"
   },
@@ -29253,42 +29253,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3655,
     "word": "スイス",
-    "reading": "",
+    "reading": "スイス",
     "type": "noun",
     "meaning": "Switzerland"
   },
   {
     "frequency": 3656,
     "word": "うかがう",
-    "reading": "",
+    "reading": "うかがう",
     "type": "verb",
     "meaning": "peep, peer; watch for (the chance)"
   },
   {
     "frequency": 3657,
     "word": "軍隊",
-    "reading": "",
+    "reading": "ぐんたい",
     "type": "noun",
     "meaning": "army, troops"
   },
   {
     "frequency": 3658,
     "word": "そいつ",
-    "reading": "",
+    "reading": "そいつ",
     "type": "noun",
     "meaning": "that guy"
   },
   {
     "frequency": 3659,
     "word": "試みる",
-    "reading": "",
+    "reading": "こころみる",
     "type": "verb",
     "meaning": "try"
   },
   {
     "frequency": 3660,
     "word": "決心",
-    "reading": "",
+    "reading": "けっしん",
     "type": "noun",
     "meaning": "resolution"
   },
@@ -29302,28 +29302,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3661,
     "word": "所得",
-    "reading": "",
+    "reading": "しょとく",
     "type": "noun",
     "meaning": "income"
   },
   {
     "frequency": 3662,
     "word": "難い",
-    "reading": "",
+    "reading": "かたい",
     "type": "suffix",
     "meaning": "hard to ..."
   },
   {
     "frequency": 3663,
     "word": "リーダー",
-    "reading": "",
+    "reading": "リーダー",
     "type": "noun",
     "meaning": "leader"
   },
   {
     "frequency": 3664,
     "word": "調理",
-    "reading": "",
+    "reading": "ちょうり",
     "type": "noun",
     "meaning": "cooking"
   },
@@ -29337,70 +29337,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3665,
     "word": "地区",
-    "reading": "",
+    "reading": "ちく",
     "type": "noun",
     "meaning": "area"
   },
   {
     "frequency": 3666,
     "word": "家具",
-    "reading": "",
+    "reading": "かぐ",
     "type": "noun",
     "meaning": "furniture"
   },
   {
     "frequency": 3667,
     "word": "自治体",
-    "reading": "",
+    "reading": "じちたい",
     "type": "noun",
     "meaning": "municipality"
   },
   {
     "frequency": 3668,
     "word": "剣",
-    "reading": "",
+    "reading": "けん",
     "type": "noun",
     "meaning": "sword"
   },
   {
     "frequency": 3669,
     "word": "介護保険",
-    "reading": "",
+    "reading": "かいごほけん",
     "type": "noun",
     "meaning": "nursing care insurance"
   },
   {
     "frequency": 3670,
     "word": "キス",
-    "reading": "",
+    "reading": "キス",
     "type": "noun",
     "meaning": "kiss"
   },
   {
     "frequency": 3670,
     "word": "キスする",
-    "reading": "",
+    "reading": "キスする",
     "type": "verb",
     "meaning": "kiss"
   },
   {
     "frequency": 3671,
     "word": "不況",
-    "reading": "",
+    "reading": "ふきょう",
     "type": "noun",
     "meaning": "recession"
   },
   {
     "frequency": 3672,
     "word": "松",
-    "reading": "",
+    "reading": "まつ",
     "type": "noun",
     "meaning": "pine"
   },
   {
     "frequency": 3673,
     "word": "停止",
-    "reading": "",
+    "reading": "ていし",
     "type": "noun",
     "meaning": "stop, suspension"
   },
@@ -29414,56 +29414,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3674,
     "word": "古代",
-    "reading": "",
+    "reading": "こだい",
     "type": "noun",
     "meaning": "ancient times"
   },
   {
     "frequency": 3675,
     "word": "四十",
-    "reading": "",
+    "reading": "よんじゅう",
     "type": "numeral",
     "meaning": "forty"
   },
   {
     "frequency": 3676,
     "word": "シリーズ",
-    "reading": "",
+    "reading": "シリーズ",
     "type": "noun",
     "meaning": "series"
   },
   {
     "frequency": 3677,
     "word": "食生活",
-    "reading": "",
+    "reading": "しょくせいかつ",
     "type": "noun",
     "meaning": "eating habits"
   },
   {
     "frequency": 3678,
     "word": "申し込む",
-    "reading": "",
+    "reading": "もうしこむ",
     "type": "verb",
     "meaning": "apply"
   },
   {
     "frequency": 3679,
     "word": "デビュー",
-    "reading": "",
+    "reading": "デビュー",
     "type": "noun",
     "meaning": "debut"
   },
   {
     "frequency": 3679,
     "word": "デビューする",
-    "reading": "",
+    "reading": "デビューする",
     "type": "verb",
     "meaning": "make one’s debut"
   },
   {
     "frequency": 3680,
     "word": "足る",
-    "reading": "",
+    "reading": "たる",
     "type": "verb",
     "meaning": "be enough; deserve"
   },
@@ -29477,28 +29477,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3682,
     "word": "思い込む",
-    "reading": "",
+    "reading": "おもいこむ",
     "type": "verb",
     "meaning": "be obsessed with the idea"
   },
   {
     "frequency": 3683,
     "word": "予備校",
-    "reading": "",
+    "reading": "よびこう",
     "type": "noun",
     "meaning": "cram school preparing for university entrance examinations"
   },
   {
     "frequency": 3684,
     "word": "膨大",
-    "reading": "",
+    "reading": "ぼうだい",
     "type": "na-adjective",
     "meaning": "enormous"
   },
   {
     "frequency": 3685,
     "word": "統一",
-    "reading": "",
+    "reading": "とういつ",
     "type": "noun",
     "meaning": "unity"
   },
@@ -29512,119 +29512,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3686,
     "word": "寿命",
-    "reading": "",
+    "reading": "じゅみょう",
     "type": "noun",
     "meaning": "life expectancy"
   },
   {
     "frequency": 3687,
     "word": "根本的",
-    "reading": "",
+    "reading": "こんぽんてき",
     "type": "na-adjective",
     "meaning": "fundamental, basic"
   },
   {
     "frequency": 3688,
     "word": "幕府",
-    "reading": "",
+    "reading": "ばくふ",
     "type": "noun",
     "meaning": "shogunate"
   },
   {
     "frequency": 3689,
     "word": "苦しみ",
-    "reading": "",
+    "reading": "くるしみ",
     "type": "noun",
     "meaning": "suffering, agony"
   },
   {
     "frequency": 3690,
     "word": "要件",
-    "reading": "",
+    "reading": "ようけん",
     "type": "noun",
     "meaning": "important matter; requirement"
   },
   {
     "frequency": 3691,
     "word": "図表",
-    "reading": "",
+    "reading": "ずひょう",
     "type": "noun",
     "meaning": "chart"
   },
   {
     "frequency": 3692,
     "word": "逃れる",
-    "reading": "",
+    "reading": "のがれる",
     "type": "verb",
     "meaning": "escape"
   },
   {
     "frequency": 3693,
     "word": "反対側",
-    "reading": "",
+    "reading": "はんたいがわ",
     "type": "noun",
     "meaning": "opposite side"
   },
   {
     "frequency": 3694,
     "word": "プロジェクト",
-    "reading": "",
+    "reading": "プロジェクト",
     "type": "noun",
     "meaning": "project"
   },
   {
     "frequency": 3695,
     "word": "励ます",
-    "reading": "",
+    "reading": "はげます",
     "type": "verb",
     "meaning": "cheer up, encourage"
   },
   {
     "frequency": 3696,
     "word": "存ずる",
-    "reading": "",
+    "reading": "ぞんずる",
     "type": "verb",
     "meaning": "know"
   },
   {
     "frequency": 3697,
     "word": "辞書",
-    "reading": "",
+    "reading": "じしょ",
     "type": "noun",
     "meaning": "dictionary"
   },
   {
     "frequency": 3698,
     "word": "中国語",
-    "reading": "",
+    "reading": "ちゅうごくご",
     "type": "noun",
     "meaning": "Chinese (language)"
   },
   {
     "frequency": 3699,
     "word": "までもない",
-    "reading": "",
+    "reading": "までもない",
     "type": "compound",
     "meaning": "needless"
   },
   {
     "frequency": 3700,
     "word": "カラス",
-    "reading": "",
+    "reading": "カラス",
     "type": "noun",
     "meaning": "crow"
   },
   {
     "frequency": 3701,
     "word": "問い",
-    "reading": "",
+    "reading": "とい",
     "type": "noun",
     "meaning": "question"
   },
   {
     "frequency": 3702,
     "word": "派手",
-    "reading": "",
+    "reading": "はで",
     "type": "na-adjective",
     "meaning": "flamboyant, flashy"
   },
@@ -29638,7 +29638,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3704,
     "word": "発明",
-    "reading": "",
+    "reading": "はつめい",
     "type": "noun",
     "meaning": "invention"
   },
@@ -29659,28 +29659,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3706,
     "word": "干す",
-    "reading": "",
+    "reading": "ほす",
     "type": "verb",
     "meaning": "dry"
   },
   {
     "frequency": 3707,
     "word": "披露宴",
-    "reading": "",
+    "reading": "ひろうえん",
     "type": "noun",
     "meaning": "wedding reception"
   },
   {
     "frequency": 3708,
     "word": "気候",
-    "reading": "",
+    "reading": "きこう",
     "type": "noun",
     "meaning": "climate"
   },
   {
     "frequency": 3709,
     "word": "非難",
-    "reading": "",
+    "reading": "ひなん",
     "type": "noun",
     "meaning": "criticism"
   },
@@ -29694,21 +29694,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3710,
     "word": "唱える",
-    "reading": "",
+    "reading": "となえる",
     "type": "verb",
     "meaning": "recite; advocate"
   },
   {
     "frequency": 3711,
     "word": "作者",
-    "reading": "",
+    "reading": "さくしゃ",
     "type": "noun",
     "meaning": "author"
   },
   {
     "frequency": 3712,
     "word": "助け",
-    "reading": "",
+    "reading": "たすけ",
     "type": "noun",
     "meaning": "help, assistance"
   },
@@ -29722,63 +29722,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3714,
     "word": "関東",
-    "reading": "",
+    "reading": "かんとう",
     "type": "noun",
     "meaning": "Kanto region"
   },
   {
     "frequency": 3715,
     "word": "なめる",
-    "reading": "",
+    "reading": "なめる",
     "type": "verb",
     "meaning": "lick; suck"
   },
   {
     "frequency": 3716,
     "word": "不明",
-    "reading": "",
+    "reading": "ふめい",
     "type": "na-adjective, noun",
     "meaning": "unknown, unidentified"
   },
   {
     "frequency": 3717,
     "word": "スケジュール",
-    "reading": "",
+    "reading": "スケジュール",
     "type": "noun",
     "meaning": "schedule"
   },
   {
     "frequency": 3718,
     "word": "差し出す",
-    "reading": "",
+    "reading": "さしだす",
     "type": "verb",
     "meaning": "hold out"
   },
   {
     "frequency": 3719,
     "word": "外部",
-    "reading": "",
+    "reading": "がいぶ",
     "type": "noun",
     "meaning": "outside"
   },
   {
     "frequency": 3720,
     "word": "ネズミ",
-    "reading": "",
+    "reading": "ネズミ",
     "type": "noun",
     "meaning": "rat; mouse"
   },
   {
     "frequency": 3721,
     "word": "ニーズ",
-    "reading": "",
+    "reading": "ニーズ",
     "type": "noun",
     "meaning": "needs"
   },
   {
     "frequency": 3722,
     "word": "現金",
-    "reading": "",
+    "reading": "げんきん",
     "type": "noun",
     "meaning": "cash"
   },
@@ -29806,21 +29806,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3726,
     "word": "がっかりする",
-    "reading": "",
+    "reading": "がっかりする",
     "type": "verb",
     "meaning": "be disappointed"
   },
   {
     "frequency": 3727,
     "word": "しも",
-    "reading": "",
+    "reading": "しも",
     "type": "particle",
     "meaning": "EMPHASIS (Classical)"
   },
   {
     "frequency": 3728,
     "word": "福祉",
-    "reading": "",
+    "reading": "ふくし",
     "type": "noun",
     "meaning": "welfare"
   },
@@ -29834,21 +29834,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3730,
     "word": "汚れ",
-    "reading": "",
+    "reading": "けがれ",
     "type": "noun",
     "meaning": "dirt"
   },
   {
     "frequency": 3731,
     "word": "書き込む",
-    "reading": "",
+    "reading": "かきこむ",
     "type": "verb",
     "meaning": "write in, jot down"
   },
   {
     "frequency": 3732,
     "word": "栽培",
-    "reading": "",
+    "reading": "さいばい",
     "type": "noun",
     "meaning": "cultivation"
   },
@@ -29862,21 +29862,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3733,
     "word": "視野",
-    "reading": "",
+    "reading": "しや",
     "type": "noun",
     "meaning": "perspective, view"
   },
   {
     "frequency": 3734,
     "word": "隅",
-    "reading": "",
+    "reading": "すみ",
     "type": "noun",
     "meaning": "corner"
   },
   {
     "frequency": 3735,
     "word": "保障",
-    "reading": "",
+    "reading": "ほしょう",
     "type": "noun",
     "meaning": "guarantee"
   },
@@ -29890,42 +29890,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3736,
     "word": "三十代",
-    "reading": "",
+    "reading": "さんじゅうだい",
     "type": "noun",
     "meaning": "thirties"
   },
   {
     "frequency": 3737,
     "word": "バック",
-    "reading": "",
+    "reading": "バック",
     "type": "noun",
     "meaning": "back, background"
   },
   {
     "frequency": 3737,
     "word": "バックする",
-    "reading": "",
+    "reading": "バックする",
     "type": "verb",
     "meaning": "reverse, back"
   },
   {
     "frequency": 3738,
     "word": "一斉",
-    "reading": "",
+    "reading": "いっせい",
     "type": "noun",
     "meaning": "all at once"
   },
   {
     "frequency": 3739,
     "word": "お盆",
-    "reading": "",
+    "reading": "おぼん",
     "type": "noun",
     "meaning": "Bon Festival, Obon"
   },
   {
     "frequency": 3740,
     "word": "審査",
-    "reading": "",
+    "reading": "しんさ",
     "type": "noun",
     "meaning": "examination"
   },
@@ -29939,28 +29939,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3741,
     "word": "ゆとり",
-    "reading": "",
+    "reading": "ゆとり",
     "type": "noun",
     "meaning": "have something to spare"
   },
   {
     "frequency": 3742,
     "word": "打ち込む",
-    "reading": "",
+    "reading": "うちこむ",
     "type": "verb",
     "meaning": "devote oneself"
   },
   {
     "frequency": 3743,
     "word": "福岡",
-    "reading": "",
+    "reading": "ふくおか",
     "type": "noun",
     "meaning": "Fukuoka"
   },
   {
     "frequency": 3744,
     "word": "通勤",
-    "reading": "",
+    "reading": "つうきん",
     "type": "noun",
     "meaning": "commute"
   },
@@ -29974,21 +29974,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3745,
     "word": "準用",
-    "reading": "",
+    "reading": "じゅんよう",
     "type": "noun, verb",
     "meaning": "apply mutatis mutandis, with necessary modification"
   },
   {
     "frequency": 3746,
     "word": "右側",
-    "reading": "",
+    "reading": "みぎがわ",
     "type": "noun",
     "meaning": "right side"
   },
   {
     "frequency": 3747,
     "word": "推測",
-    "reading": "",
+    "reading": "すいそく",
     "type": "noun",
     "meaning": "assumption, guess"
   },
@@ -30002,21 +30002,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3748,
     "word": "ライン",
-    "reading": "",
+    "reading": "ライン",
     "type": "noun",
     "meaning": "line"
   },
   {
     "frequency": 3749,
     "word": "預かる",
-    "reading": "",
+    "reading": "あずかる",
     "type": "verb",
     "meaning": "keep, look after"
   },
   {
     "frequency": 3750,
     "word": "美術館",
-    "reading": "",
+    "reading": "びじゅつかん",
     "type": "noun",
     "meaning": "art gallery, museum of art"
   },
@@ -30030,21 +30030,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3752,
     "word": "冷やす",
-    "reading": "",
+    "reading": "ひやす",
     "type": "verb",
     "meaning": "keep cool, cool"
   },
   {
     "frequency": 3753,
     "word": "仏教",
-    "reading": "",
+    "reading": "ぶっきょう",
     "type": "noun",
     "meaning": "Buddhism"
   },
   {
     "frequency": 3754,
     "word": "接触",
-    "reading": "",
+    "reading": "せっしょく",
     "type": "noun",
     "meaning": "touch, contact"
   },
@@ -30058,14 +30058,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3755,
     "word": "意欲",
-    "reading": "",
+    "reading": "いよく",
     "type": "noun",
     "meaning": "will, motivation"
   },
   {
     "frequency": 3756,
     "word": "本音",
-    "reading": "",
+    "reading": "ほんね",
     "type": "noun",
     "meaning": "true feeling; truth"
   },
@@ -30079,63 +30079,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3758,
     "word": "主役",
-    "reading": "",
+    "reading": "しゅやく",
     "type": "noun",
     "meaning": "main character"
   },
   {
     "frequency": 3759,
     "word": "次男",
-    "reading": "",
+    "reading": "じなん",
     "type": "noun",
     "meaning": "second son"
   },
   {
     "frequency": 3760,
     "word": "多々",
-    "reading": "",
+    "reading": "たた",
     "type": "adverb",
     "meaning": "many"
   },
   {
     "frequency": 3761,
     "word": "定期的",
-    "reading": "",
+    "reading": "ていきてき",
     "type": "na-adjective",
     "meaning": "regular"
   },
   {
     "frequency": 3762,
     "word": "しめる",
-    "reading": "",
+    "reading": "しめる",
     "type": "auxiliary",
     "meaning": "(Classical)"
   },
   {
     "frequency": 3763,
     "word": "通り過ぎる",
-    "reading": "",
+    "reading": "とおりすぎる",
     "type": "verb",
     "meaning": "pass, go past"
   },
   {
     "frequency": 3764,
     "word": "スーツ",
-    "reading": "",
+    "reading": "スーツ",
     "type": "noun",
     "meaning": "suit"
   },
   {
     "frequency": 3765,
     "word": "形式",
-    "reading": "",
+    "reading": "けいしき",
     "type": "noun",
     "meaning": "form"
   },
   {
     "frequency": 3766,
     "word": "ピンク",
-    "reading": "",
+    "reading": "ピンク",
     "type": "noun",
     "meaning": "pink"
   },
@@ -30149,21 +30149,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3768,
     "word": "生きがい",
-    "reading": "",
+    "reading": "いきがい",
     "type": "noun",
     "meaning": "pupose in life, something to live for"
   },
   {
     "frequency": 3769,
     "word": "にぎやか",
-    "reading": "",
+    "reading": "にぎやか",
     "type": "na-adjective",
     "meaning": "busy, bustling"
   },
   {
     "frequency": 3770,
     "word": "結成",
-    "reading": "",
+    "reading": "けっせい",
     "type": "noun",
     "meaning": "formation"
   },
@@ -30177,28 +30177,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3771,
     "word": "研究者",
-    "reading": "",
+    "reading": "けんきゅうしゃ",
     "type": "noun",
     "meaning": "researcher"
   },
   {
     "frequency": 3772,
     "word": "名付ける",
-    "reading": "",
+    "reading": "なづける",
     "type": "verb",
     "meaning": "name"
   },
   {
     "frequency": 3773,
     "word": "信号",
-    "reading": "",
+    "reading": "しんごう",
     "type": "noun",
     "meaning": "traffic light, signal"
   },
   {
     "frequency": 3774,
     "word": "就職活動",
-    "reading": "",
+    "reading": "しゅうしょくかつどう",
     "type": "noun",
     "meaning": "job-hunting"
   },
@@ -30212,7 +30212,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3775,
     "word": "捜査",
-    "reading": "",
+    "reading": "そうさ",
     "type": "noun",
     "meaning": "criminal investigation"
   },
@@ -30226,126 +30226,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3776,
     "word": "現に",
-    "reading": "",
+    "reading": "げんに",
     "type": "adverb",
     "meaning": "as a matter of fact, actually"
   },
   {
     "frequency": 3777,
     "word": "黒人",
-    "reading": "",
+    "reading": "くろうと",
     "type": "noun",
     "meaning": "black person"
   },
   {
     "frequency": 3778,
     "word": "事柄",
-    "reading": "",
+    "reading": "ことがら",
     "type": "noun",
     "meaning": "matter, issue"
   },
   {
     "frequency": 3779,
     "word": "早く",
-    "reading": "",
+    "reading": "はやく",
     "type": "noun",
     "meaning": "early, soon"
   },
   {
     "frequency": 3780,
     "word": "速度",
-    "reading": "",
+    "reading": "そくど",
     "type": "noun",
     "meaning": "speed"
   },
   {
     "frequency": 3781,
     "word": "奥様",
-    "reading": "",
+    "reading": "おくさま",
     "type": "noun",
     "meaning": "wife (honorific)"
   },
   {
     "frequency": 3782,
     "word": "まれ",
-    "reading": "",
+    "reading": "まれ",
     "type": "na-adjective",
     "meaning": "rare"
   },
   {
     "frequency": 3783,
     "word": "じゃが芋",
-    "reading": "",
+    "reading": "じゃがいも",
     "type": "noun",
     "meaning": "potato"
   },
   {
     "frequency": 3784,
     "word": "数多く",
-    "reading": "",
+    "reading": "かずおおく",
     "type": "adverb",
     "meaning": "many, a number of"
   },
   {
     "frequency": 3785,
     "word": "ひそか",
-    "reading": "",
+    "reading": "ひそか",
     "type": "na-adjective",
     "meaning": "secret, confidential"
   },
   {
     "frequency": 3785,
     "word": "ひそか",
-    "reading": "",
+    "reading": "ひそか",
     "type": "adverb",
     "meaning": "secretly"
   },
   {
     "frequency": 3786,
     "word": "照らす",
-    "reading": "",
+    "reading": "てらす",
     "type": "verb",
     "meaning": "light"
   },
   {
     "frequency": 3787,
     "word": "ミュージカル",
-    "reading": "",
+    "reading": "ミュージカル",
     "type": "noun",
     "meaning": "musical"
   },
   {
     "frequency": 3788,
     "word": "怪しい",
-    "reading": "",
+    "reading": "あやしい",
     "type": "i-adjective",
     "meaning": "eerie; doubtful"
   },
   {
     "frequency": 3789,
     "word": "友",
-    "reading": "",
+    "reading": "とも",
     "type": "noun",
     "meaning": "friend"
   },
   {
     "frequency": 3790,
     "word": "傾ける",
-    "reading": "",
+    "reading": "かたむける",
     "type": "verb",
     "meaning": "tilt, incline"
   },
   {
     "frequency": 3791,
     "word": "鉛筆",
-    "reading": "",
+    "reading": "えんぴつ",
     "type": "noun",
     "meaning": "pencil"
   },
   {
     "frequency": 3792,
     "word": "判決",
-    "reading": "",
+    "reading": "はんけつ",
     "type": "noun",
     "meaning": "decision"
   },
@@ -30359,28 +30359,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3793,
     "word": "マラソン",
-    "reading": "",
+    "reading": "マラソン",
     "type": "noun",
     "meaning": "marathon"
   },
   {
     "frequency": 3794,
     "word": "広さ",
-    "reading": "",
+    "reading": "ひろさ",
     "type": "noun",
     "meaning": "area; width; extent"
   },
   {
     "frequency": 3795,
     "word": "リスト",
-    "reading": "",
+    "reading": "リスト",
     "type": "noun",
     "meaning": "list"
   },
   {
     "frequency": 3796,
     "word": "振り向く",
-    "reading": "",
+    "reading": "ふりむく",
     "type": "verb",
     "meaning": "look around, turn around"
   },
@@ -30394,7 +30394,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3798,
     "word": "関与",
-    "reading": "",
+    "reading": "かんよ",
     "type": "noun",
     "meaning": "participation"
   },
@@ -30408,7 +30408,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3799,
     "word": "遂げる",
-    "reading": "",
+    "reading": "とげる",
     "type": "verb",
     "meaning": "achieve"
   },
@@ -30422,56 +30422,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3801,
     "word": "タオル",
-    "reading": "",
+    "reading": "タオル",
     "type": "noun",
     "meaning": "towel"
   },
   {
     "frequency": 3802,
     "word": "一泊",
-    "reading": "",
+    "reading": "いっぱく",
     "type": "noun",
     "meaning": "one night stay"
   },
   {
     "frequency": 3803,
     "word": "ごちそう",
-    "reading": "",
+    "reading": "ごちそう",
     "type": "noun",
     "meaning": "feast"
   },
   {
     "frequency": 3803,
     "word": "ごちそうする",
-    "reading": "",
+    "reading": "ごちそうする",
     "type": "verb",
     "meaning": "give a dinner, treat"
   },
   {
     "frequency": 3804,
     "word": "的確",
-    "reading": "",
+    "reading": "てきかく",
     "type": "na-adjective",
     "meaning": "precise, exact"
   },
   {
     "frequency": 3805,
     "word": "運転手",
-    "reading": "",
+    "reading": "うんてんしゅ",
     "type": "noun",
     "meaning": "driver"
   },
   {
     "frequency": 3806,
     "word": "各種",
-    "reading": "",
+    "reading": "かくしゅ",
     "type": "noun",
     "meaning": "various, all sorts of"
   },
   {
     "frequency": 3807,
     "word": "録音",
-    "reading": "",
+    "reading": "ろくおん",
     "type": "noun",
     "meaning": "record"
   },
@@ -30485,7 +30485,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3808,
     "word": "沈黙",
-    "reading": "",
+    "reading": "ちんもく",
     "type": "noun",
     "meaning": "silence"
   },
@@ -30499,49 +30499,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3809,
     "word": "再度",
-    "reading": "",
+    "reading": "さいど",
     "type": "adverb",
     "meaning": "twice, again"
   },
   {
     "frequency": 3810,
     "word": "以後",
-    "reading": "",
+    "reading": "いご",
     "type": "adverb",
     "meaning": "after this, since then"
   },
   {
     "frequency": 3811,
     "word": "熊",
-    "reading": "",
+    "reading": "くま",
     "type": "noun",
     "meaning": "bear"
   },
   {
     "frequency": 3812,
     "word": "八王子",
-    "reading": "",
+    "reading": "はちおうじ",
     "type": "noun",
     "meaning": "Hachioji (place name)"
   },
   {
     "frequency": 3813,
     "word": "贈る",
-    "reading": "",
+    "reading": "おくる",
     "type": "verb",
     "meaning": "give (as a present), send"
   },
   {
     "frequency": 3814,
     "word": "林",
-    "reading": "",
+    "reading": "はやし",
     "type": "noun",
     "meaning": "grove, forest, wood"
   },
   {
     "frequency": 3815,
     "word": "懸念",
-    "reading": "",
+    "reading": "けねん",
     "type": "noun",
     "meaning": "fear"
   },
@@ -30555,42 +30555,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3816,
     "word": "燃やす",
-    "reading": "",
+    "reading": "もやす",
     "type": "verb",
     "meaning": "burn"
   },
   {
     "frequency": 3817,
     "word": "枠",
-    "reading": "",
+    "reading": "わく",
     "type": "noun",
     "meaning": "frame"
   },
   {
     "frequency": 3818,
     "word": "児童",
-    "reading": "",
+    "reading": "じどう",
     "type": "noun",
     "meaning": "pupil"
   },
   {
     "frequency": 3819,
     "word": "真っ白",
-    "reading": "",
+    "reading": "まっしろ",
     "type": "na-adjective",
     "meaning": "pure white"
   },
   {
     "frequency": 3820,
     "word": "さっと",
-    "reading": "",
+    "reading": "さっと",
     "type": "adverb",
     "meaning": "quickly"
   },
   {
     "frequency": 3821,
     "word": "定年",
-    "reading": "",
+    "reading": "ていねん",
     "type": "noun",
     "meaning": "retirement"
   },
@@ -30604,7 +30604,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3822,
     "word": "育児",
-    "reading": "",
+    "reading": "いくじ",
     "type": "noun",
     "meaning": "childcare"
   },
@@ -30618,28 +30618,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3823,
     "word": "蹴る",
-    "reading": "",
+    "reading": "ける",
     "type": "verb",
     "meaning": "kick"
   },
   {
     "frequency": 3824,
     "word": "蜂蜜",
-    "reading": "",
+    "reading": "はちみつ",
     "type": "noun",
     "meaning": "honey"
   },
   {
     "frequency": 3825,
     "word": "度々",
-    "reading": "",
+    "reading": "たびたび",
     "type": "adverb",
     "meaning": "often"
   },
   {
     "frequency": 3826,
     "word": "完了",
-    "reading": "",
+    "reading": "かんりょう",
     "type": "noun",
     "meaning": "complete"
   },
@@ -30660,28 +30660,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3828,
     "word": "通訳",
-    "reading": "",
+    "reading": "つうやく",
     "type": "noun",
     "meaning": "interpreter"
   },
   {
     "frequency": 3829,
     "word": "飼い主",
-    "reading": "",
+    "reading": "かいぬし",
     "type": "noun",
     "meaning": "pet owner"
   },
   {
     "frequency": 3830,
     "word": "傍ら",
-    "reading": "",
+    "reading": "かたわら",
     "type": "noun",
     "meaning": "side, besides"
   },
   {
     "frequency": 3831,
     "word": "宣伝",
-    "reading": "",
+    "reading": "せんでん",
     "type": "noun",
     "meaning": "advertisement"
   },
@@ -30695,21 +30695,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3832,
     "word": "室内",
-    "reading": "",
+    "reading": "しつない",
     "type": "noun",
     "meaning": "indoor"
   },
   {
     "frequency": 3833,
     "word": "会員",
-    "reading": "",
+    "reading": "かいいん",
     "type": "noun",
     "meaning": "member"
   },
   {
     "frequency": 3834,
     "word": "思考",
-    "reading": "",
+    "reading": "しこう",
     "type": "noun",
     "meaning": "thought"
   },
@@ -30723,91 +30723,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3835,
     "word": "衣装",
-    "reading": "",
+    "reading": "いしょう",
     "type": "noun",
     "meaning": "costume"
   },
   {
     "frequency": 3836,
     "word": "足す",
-    "reading": "",
+    "reading": "たす",
     "type": "verb",
     "meaning": "add"
   },
   {
     "frequency": 3837,
     "word": "シャツ",
-    "reading": "",
+    "reading": "シャツ",
     "type": "noun",
     "meaning": "shirt"
   },
   {
     "frequency": 3838,
     "word": "イラク",
-    "reading": "",
+    "reading": "イラク",
     "type": "noun",
     "meaning": "Iraq"
   },
   {
     "frequency": 3839,
     "word": "取り扱う",
-    "reading": "",
+    "reading": "とりあつかう",
     "type": "verb",
     "meaning": "handle, treat"
   },
   {
     "frequency": 3840,
     "word": "わざと",
-    "reading": "",
+    "reading": "わざと",
     "type": "adverb",
     "meaning": "intentionally"
   },
   {
     "frequency": 3841,
     "word": "前年度",
-    "reading": "",
+    "reading": "ぜんねんど",
     "type": "noun",
     "meaning": "preceding year"
   },
   {
     "frequency": 3842,
     "word": "新郎",
-    "reading": "",
+    "reading": "しんろう",
     "type": "noun",
     "meaning": "groom, bridegroom"
   },
   {
     "frequency": 3843,
     "word": "幹部",
-    "reading": "",
+    "reading": "かんぶ",
     "type": "noun",
     "meaning": "executive"
   },
   {
     "frequency": 3844,
     "word": "シェア",
-    "reading": "",
+    "reading": "シェア",
     "type": "noun",
     "meaning": "share"
   },
   {
     "frequency": 3844,
     "word": "シェアする",
-    "reading": "",
+    "reading": "シェアする",
     "type": "verb",
     "meaning": "share"
   },
   {
     "frequency": 3845,
     "word": "ガソリン",
-    "reading": "",
+    "reading": "ガソリン",
     "type": "noun",
     "meaning": "gasoline, petrol"
   },
   {
     "frequency": 3846,
     "word": "記念",
-    "reading": "",
+    "reading": "きねん",
     "type": "noun",
     "meaning": "commemoration"
   },
@@ -30821,28 +30821,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3847,
     "word": "強烈",
-    "reading": "",
+    "reading": "きょうれつ",
     "type": "na-adjective",
     "meaning": "strong, intense"
   },
   {
     "frequency": 3848,
     "word": "俳句",
-    "reading": "",
+    "reading": "はいく",
     "type": "noun",
     "meaning": "haiku (Japanese poem of seventeen syllables)"
   },
   {
     "frequency": 3849,
     "word": "特色",
-    "reading": "",
+    "reading": "とくしょく",
     "type": "noun",
     "meaning": "characteristic, feature"
   },
   {
     "frequency": 3850,
     "word": "引退",
-    "reading": "",
+    "reading": "いんたい",
     "type": "noun",
     "meaning": "retirement"
   },
@@ -30856,91 +30856,91 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3851,
     "word": "飲み物",
-    "reading": "",
+    "reading": "のみもの",
     "type": "noun",
     "meaning": "drink"
   },
   {
     "frequency": 3852,
     "word": "いいえ",
-    "reading": "",
+    "reading": "いいえ",
     "type": "interjection",
     "meaning": "no"
   },
   {
     "frequency": 3853,
     "word": "部",
-    "reading": "",
+    "reading": "ぶ",
     "type": "noun",
     "meaning": "division, department, section; club"
   },
   {
     "frequency": 3854,
     "word": "オランダ",
-    "reading": "",
+    "reading": "オランダ",
     "type": "noun",
     "meaning": "Netherlands"
   },
   {
     "frequency": 3855,
     "word": "華やか",
-    "reading": "",
+    "reading": "はなやか",
     "type": "na-adjective",
     "meaning": "gorgeous"
   },
   {
     "frequency": 3856,
     "word": "高価",
-    "reading": "",
+    "reading": "こうか",
     "type": "na-adjective",
     "meaning": "expensive"
   },
   {
     "frequency": 3857,
     "word": "なじむ",
-    "reading": "",
+    "reading": "なじむ",
     "type": "verb",
     "meaning": "become accustomed"
   },
   {
     "frequency": 3858,
     "word": "誇る",
-    "reading": "",
+    "reading": "ほこる",
     "type": "verb",
     "meaning": "be proud, boast"
   },
   {
     "frequency": 3859,
     "word": "左側",
-    "reading": "",
+    "reading": "ひだりがわ",
     "type": "noun",
     "meaning": "left, left side"
   },
   {
     "frequency": 3860,
     "word": "浮気",
-    "reading": "",
+    "reading": "うわき",
     "type": "noun",
     "meaning": "affair"
   },
   {
     "frequency": 3861,
     "word": "デート",
-    "reading": "",
+    "reading": "デート",
     "type": "noun",
     "meaning": "date"
   },
   {
     "frequency": 3861,
     "word": "デートする",
-    "reading": "",
+    "reading": "デートする",
     "type": "verb",
     "meaning": "date"
   },
   {
     "frequency": 3862,
     "word": "抑制",
-    "reading": "",
+    "reading": "よくせい",
     "type": "noun",
     "meaning": "control, restraint"
   },
@@ -30954,105 +30954,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3863,
     "word": "好奇心",
-    "reading": "",
+    "reading": "こうきしん",
     "type": "noun",
     "meaning": "curiosity"
   },
   {
     "frequency": 3864,
     "word": "公務員",
-    "reading": "",
+    "reading": "こうむいん",
     "type": "noun",
     "meaning": "civil servant, government employee"
   },
   {
     "frequency": 3865,
     "word": "列",
-    "reading": "",
+    "reading": "れつ",
     "type": "noun",
     "meaning": "line"
   },
   {
     "frequency": 3866,
     "word": "ソファー",
-    "reading": "",
+    "reading": "ソファー",
     "type": "noun",
     "meaning": "sofa"
   },
   {
     "frequency": 3867,
     "word": "初日",
-    "reading": "",
+    "reading": "しょにち",
     "type": "noun",
     "meaning": "first day"
   },
   {
     "frequency": 3868,
     "word": "プロセス",
-    "reading": "",
+    "reading": "プロセス",
     "type": "noun",
     "meaning": "process"
   },
   {
     "frequency": 3869,
     "word": "郊外",
-    "reading": "",
+    "reading": "こうがい",
     "type": "noun",
     "meaning": "suburb"
   },
   {
     "frequency": 3870,
     "word": "六十",
-    "reading": "",
+    "reading": "ろくじゅう",
     "type": "numeral",
     "meaning": "sixty"
   },
   {
     "frequency": 3871,
     "word": "痛む",
-    "reading": "",
+    "reading": "いたむ",
     "type": "verb",
     "meaning": "ache, hurt, pain"
   },
   {
     "frequency": 3872,
     "word": "自衛隊",
-    "reading": "",
+    "reading": "じえいたい",
     "type": "noun",
     "meaning": "Self-Defense Forces"
   },
   {
     "frequency": 3873,
     "word": "尽きる",
-    "reading": "",
+    "reading": "つきる",
     "type": "verb",
     "meaning": "run out"
   },
   {
     "frequency": 3874,
     "word": "国連",
-    "reading": "",
+    "reading": "こくれん",
     "type": "noun",
     "meaning": "United Nations"
   },
   {
     "frequency": 3875,
     "word": "手軽",
-    "reading": "",
+    "reading": "てがる",
     "type": "na-adjective",
     "meaning": "light; simple; reasonable"
   },
   {
     "frequency": 3876,
     "word": "町並み",
-    "reading": "",
+    "reading": "まちなみ",
     "type": "noun",
     "meaning": "street, row of town houses"
   },
   {
     "frequency": 3877,
     "word": "推定",
-    "reading": "",
+    "reading": "すいてい",
     "type": "noun",
     "meaning": "presumption, estimation"
   },
@@ -31066,119 +31066,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3878,
     "word": "ちまう",
-    "reading": "",
+    "reading": "ちまう",
     "type": "auxiliary",
     "meaning": "do something completely"
   },
   {
     "frequency": 3879,
     "word": "文部省",
-    "reading": "",
+    "reading": "もんぶしょう",
     "type": "noun",
     "meaning": "Ministry of Education, Culture, Sports"
   },
   {
     "frequency": 3880,
     "word": "結びつける",
-    "reading": "",
+    "reading": "むすびつける",
     "type": "verb",
     "meaning": "connect, tie, bind"
   },
   {
     "frequency": 3881,
     "word": "例外",
-    "reading": "",
+    "reading": "れいがい",
     "type": "noun",
     "meaning": "exception"
   },
   {
     "frequency": 3882,
     "word": "プロ野球",
-    "reading": "",
+    "reading": "プロやきゅう",
     "type": "noun",
     "meaning": "professional baseball"
   },
   {
     "frequency": 3883,
     "word": "二枚",
-    "reading": "",
+    "reading": "にまい",
     "type": "noun",
     "meaning": "two (sheets)"
   },
   {
     "frequency": 3884,
     "word": "まさしく",
-    "reading": "",
+    "reading": "まさしく",
     "type": "adverb",
     "meaning": "surely, exactly"
   },
   {
     "frequency": 3885,
     "word": "変わり",
-    "reading": "",
+    "reading": "かわり",
     "type": "noun",
     "meaning": "change"
   },
   {
     "frequency": 3886,
     "word": "用事",
-    "reading": "",
+    "reading": "ようじ",
     "type": "noun",
     "meaning": "business"
   },
   {
     "frequency": 3887,
     "word": "効率",
-    "reading": "",
+    "reading": "こうりつ",
     "type": "noun",
     "meaning": "efficiency"
   },
   {
     "frequency": 3888,
     "word": "クリア",
-    "reading": "",
+    "reading": "クリア",
     "type": "noun",
     "meaning": "clearing, clearance"
   },
   {
     "frequency": 3888,
     "word": "クリア",
-    "reading": "",
+    "reading": "クリア",
     "type": "na-adjective",
     "meaning": "clear"
   },
   {
     "frequency": 3888,
     "word": "クリアする",
-    "reading": "",
+    "reading": "クリアする",
     "type": "verb",
     "meaning": "clear"
   },
   {
     "frequency": 3889,
     "word": "だけど",
-    "reading": "",
+    "reading": "だけど",
     "type": "conjunction",
     "meaning": "but, however"
   },
   {
     "frequency": 3890,
     "word": "財布",
-    "reading": "",
+    "reading": "さいふ",
     "type": "noun",
     "meaning": "wallet"
   },
   {
     "frequency": 3891,
     "word": "徹底的",
-    "reading": "",
+    "reading": "てっていてき",
     "type": "na-adjective",
     "meaning": "thorough, complete"
   },
   {
     "frequency": 3892,
     "word": "直面",
-    "reading": "",
+    "reading": "ちょくめん",
     "type": "noun",
     "meaning": "confrontation"
   },
@@ -31192,35 +31192,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3893,
     "word": "己",
-    "reading": "",
+    "reading": "おのれ",
     "type": "noun",
     "meaning": "oneself (first person pronoun)"
   },
   {
     "frequency": 3894,
     "word": "目安",
-    "reading": "",
+    "reading": "めやす",
     "type": "noun",
     "meaning": "standard, criterion"
   },
   {
     "frequency": 3895,
     "word": "目覚める",
-    "reading": "",
+    "reading": "めざめる",
     "type": "verb",
     "meaning": "wake up"
   },
   {
     "frequency": 3896,
     "word": "等しい",
-    "reading": "",
+    "reading": "ひとしい",
     "type": "i-adjective",
     "meaning": "equal"
   },
   {
     "frequency": 3897,
     "word": "休憩",
-    "reading": "",
+    "reading": "きゅうけい",
     "type": "noun",
     "meaning": "rest, break"
   },
@@ -31234,14 +31234,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3898,
     "word": "一日中",
-    "reading": "",
+    "reading": "いちにちじゅう",
     "type": "noun",
     "meaning": "all day"
   },
   {
     "frequency": 3899,
     "word": "有無",
-    "reading": "",
+    "reading": "うむ",
     "type": "noun",
     "meaning": "existence, presence"
   },
@@ -31255,21 +31255,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3901,
     "word": "不要",
-    "reading": "",
+    "reading": "ふよう",
     "type": "na-adjective",
     "meaning": "unnecessary"
   },
   {
     "frequency": 3902,
     "word": "猿",
-    "reading": "",
+    "reading": "さる",
     "type": "noun",
     "meaning": "monkey"
   },
   {
     "frequency": 3903,
     "word": "従事",
-    "reading": "",
+    "reading": "じゅうじ",
     "type": "noun",
     "meaning": "engagement in"
   },
@@ -31283,7 +31283,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3904,
     "word": "蓄積",
-    "reading": "",
+    "reading": "ちくせき",
     "type": "noun",
     "meaning": "storage, accumulation"
   },
@@ -31297,49 +31297,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3905,
     "word": "よみがえる",
-    "reading": "",
+    "reading": "よみがえる",
     "type": "verb",
     "meaning": "revive, come back"
   },
   {
     "frequency": 3906,
     "word": "年賀状",
-    "reading": "",
+    "reading": "ねんがじょう",
     "type": "noun",
     "meaning": "New Year’s card"
   },
   {
     "frequency": 3907,
     "word": "バブル",
-    "reading": "",
+    "reading": "バブル",
     "type": "noun",
     "meaning": "bubble"
   },
   {
     "frequency": 3908,
     "word": "毎朝",
-    "reading": "",
+    "reading": "まいあさ",
     "type": "adverb",
     "meaning": "every morning"
   },
   {
     "frequency": 3908,
     "word": "毎朝",
-    "reading": "",
+    "reading": "まいあさ",
     "type": "noun",
     "meaning": "every morning"
   },
   {
     "frequency": 3909,
     "word": "地味",
-    "reading": "",
+    "reading": "じみ",
     "type": "na-adjective",
     "meaning": "simple"
   },
   {
     "frequency": 3910,
     "word": "文学",
-    "reading": "",
+    "reading": "ぶんがく",
     "type": "noun",
     "meaning": "literature"
   },
@@ -31353,21 +31353,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3912,
     "word": "放る",
-    "reading": "",
+    "reading": "ほうる",
     "type": "verb",
     "meaning": "throw; leave something undone"
   },
   {
     "frequency": 3913,
     "word": "攻める",
-    "reading": "",
+    "reading": "せめる",
     "type": "verb",
     "meaning": "attack"
   },
   {
     "frequency": 3914,
     "word": "位置付ける",
-    "reading": "",
+    "reading": "いちづける",
     "type": "verb",
     "meaning": "rank; evaluate"
   },
@@ -31381,14 +31381,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3916,
     "word": "マーク",
-    "reading": "",
+    "reading": "マーク",
     "type": "noun",
     "meaning": "mark"
   },
   {
     "frequency": 3917,
     "word": "アルコール",
-    "reading": "",
+    "reading": "アルコール",
     "type": "noun",
     "meaning": "alcohol"
   },
@@ -31402,63 +31402,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3919,
     "word": "漠然",
-    "reading": "",
+    "reading": "ばくぜん",
     "type": "adverb",
     "meaning": "vague, obscure"
   },
   {
     "frequency": 3920,
     "word": "偉大",
-    "reading": "",
+    "reading": "いだい",
     "type": "na-adjective",
     "meaning": "great, grand"
   },
   {
     "frequency": 3921,
     "word": "脂肪",
-    "reading": "",
+    "reading": "しぼう",
     "type": "noun",
     "meaning": "fat"
   },
   {
     "frequency": 3922,
     "word": "言い出す",
-    "reading": "",
+    "reading": "いいだす",
     "type": "verb",
     "meaning": "propose, suggest"
   },
   {
     "frequency": 3923,
     "word": "青",
-    "reading": "",
+    "reading": "あお",
     "type": "noun",
     "meaning": "blue"
   },
   {
     "frequency": 3924,
     "word": "キーワード",
-    "reading": "",
+    "reading": "キーワード",
     "type": "noun",
     "meaning": "keyword"
   },
   {
     "frequency": 3925,
     "word": "ベランダ",
-    "reading": "",
+    "reading": "ベランダ",
     "type": "noun",
     "meaning": "porch, balcony"
   },
   {
     "frequency": 3926,
     "word": "炎",
-    "reading": "",
+    "reading": "ほのお",
     "type": "noun",
     "meaning": "flame"
   },
   {
     "frequency": 3927,
     "word": "交付",
-    "reading": "",
+    "reading": "こうふ",
     "type": "noun",
     "meaning": "issue"
   },
@@ -31472,7 +31472,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3928,
     "word": "証言",
-    "reading": "",
+    "reading": "しょうげん",
     "type": "noun",
     "meaning": "evidence"
   },
@@ -31486,21 +31486,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3929,
     "word": "敏感",
-    "reading": "",
+    "reading": "びんかん",
     "type": "na-adjective",
     "meaning": "sensitive"
   },
   {
     "frequency": 3930,
     "word": "鮮やか",
-    "reading": "",
+    "reading": "あざやか",
     "type": "na-adjective",
     "meaning": "vivid, lively; skillful"
   },
   {
     "frequency": 3931,
     "word": "解明",
-    "reading": "",
+    "reading": "かいめい",
     "type": "noun",
     "meaning": "clarification"
   },
@@ -31514,56 +31514,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3932,
     "word": "方式",
-    "reading": "",
+    "reading": "ほうしき",
     "type": "noun",
     "meaning": "method"
   },
   {
     "frequency": 3933,
     "word": "瓶",
-    "reading": "",
+    "reading": "かめ",
     "type": "noun",
     "meaning": "bottle"
   },
   {
     "frequency": 3934,
     "word": "そっくり",
-    "reading": "",
+    "reading": "そっくり",
     "type": "na-adjective",
     "meaning": "resembling, just like"
   },
   {
     "frequency": 3934,
     "word": "そっくり",
-    "reading": "",
+    "reading": "そっくり",
     "type": "adverb",
     "meaning": "altogether"
   },
   {
     "frequency": 3935,
     "word": "縛る",
-    "reading": "",
+    "reading": "しばる",
     "type": "verb",
     "meaning": "bind, tie"
   },
   {
     "frequency": 3936,
     "word": "実情",
-    "reading": "",
+    "reading": "じつじょう",
     "type": "noun",
     "meaning": "case, actual situation"
   },
   {
     "frequency": 3937,
     "word": "円",
-    "reading": "",
+    "reading": "えん",
     "type": "noun",
     "meaning": "yen; circle"
   },
   {
     "frequency": 3938,
     "word": "化粧",
-    "reading": "",
+    "reading": "けしょう",
     "type": "noun",
     "meaning": "makeup"
   },
@@ -31584,14 +31584,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3940,
     "word": "数々",
-    "reading": "",
+    "reading": "しばしば",
     "type": "noun",
     "meaning": "many, numerous"
   },
   {
     "frequency": 3941,
     "word": "持参",
-    "reading": "",
+    "reading": "じさん",
     "type": "noun",
     "meaning": "bringing, taking"
   },
@@ -31605,7 +31605,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3942,
     "word": "引用",
-    "reading": "",
+    "reading": "いんよう",
     "type": "noun",
     "meaning": "quotation"
   },
@@ -31619,203 +31619,203 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3943,
     "word": "同期",
-    "reading": "",
+    "reading": "どうき",
     "type": "noun",
     "meaning": "same period, same class"
   },
   {
     "frequency": 3944,
     "word": "健全",
-    "reading": "",
+    "reading": "けんぜん",
     "type": "na-adjective",
     "meaning": "healthy"
   },
   {
     "frequency": 3945,
     "word": "西洋",
-    "reading": "",
+    "reading": "せいよう",
     "type": "noun",
     "meaning": "the West"
   },
   {
     "frequency": 3946,
     "word": "プレッシャー",
-    "reading": "",
+    "reading": "プレッシャー",
     "type": "noun",
     "meaning": "pressure"
   },
   {
     "frequency": 3947,
     "word": "赤ん坊",
-    "reading": "",
+    "reading": "あかんぼう",
     "type": "noun",
     "meaning": "baby"
   },
   {
     "frequency": 3948,
     "word": "打ち合わせ",
-    "reading": "",
+    "reading": "うちあわせ",
     "type": "noun",
     "meaning": "meeting"
   },
   {
     "frequency": 3949,
     "word": "欲望",
-    "reading": "",
+    "reading": "よくぼう",
     "type": "noun",
     "meaning": "desire, passion"
   },
   {
     "frequency": 3950,
     "word": "軍",
-    "reading": "",
+    "reading": "ぐん",
     "type": "noun",
     "meaning": "army"
   },
   {
     "frequency": 3951,
     "word": "パス",
-    "reading": "",
+    "reading": "パス",
     "type": "noun",
     "meaning": "pass"
   },
   {
     "frequency": 3951,
     "word": "パスする",
-    "reading": "",
+    "reading": "パスする",
     "type": "verb",
     "meaning": "pass"
   },
   {
     "frequency": 3952,
     "word": "頼り",
-    "reading": "",
+    "reading": "たより",
     "type": "noun",
     "meaning": "support, dependence"
   },
   {
     "frequency": 3953,
     "word": "扱い",
-    "reading": "",
+    "reading": "あつかい",
     "type": "noun",
     "meaning": "treatment"
   },
   {
     "frequency": 3954,
     "word": "本質",
-    "reading": "",
+    "reading": "ほんしつ",
     "type": "noun",
     "meaning": "nature, essence"
   },
   {
     "frequency": 3955,
     "word": "市役所",
-    "reading": "",
+    "reading": "しやくしょ",
     "type": "noun",
     "meaning": "city hall"
   },
   {
     "frequency": 3956,
     "word": "車両",
-    "reading": "",
+    "reading": "しゃりょう",
     "type": "noun",
     "meaning": "car, carriage"
   },
   {
     "frequency": 3957,
     "word": "株価",
-    "reading": "",
+    "reading": "かぶか",
     "type": "noun",
     "meaning": "stock prices"
   },
   {
     "frequency": 3958,
     "word": "昼食",
-    "reading": "",
+    "reading": "ちゅうしょく",
     "type": "noun",
     "meaning": "lunch"
   },
   {
     "frequency": 3959,
     "word": "注射",
-    "reading": "",
+    "reading": "ちゅうしゃ",
     "type": "noun",
     "meaning": "injection"
   },
   {
     "frequency": 3960,
     "word": "臨む",
-    "reading": "",
+    "reading": "のぞむ",
     "type": "verb",
     "meaning": "face"
   },
   {
     "frequency": 3961,
     "word": "職",
-    "reading": "",
+    "reading": "しょく",
     "type": "noun",
     "meaning": "job, work"
   },
   {
     "frequency": 3962,
     "word": "見た目",
-    "reading": "",
+    "reading": "みため",
     "type": "noun",
     "meaning": "appearance, looks"
   },
   {
     "frequency": 3963,
     "word": "アピール",
-    "reading": "",
+    "reading": "アピール",
     "type": "noun",
     "meaning": "appeal"
   },
   {
     "frequency": 3963,
     "word": "アピールする",
-    "reading": "",
+    "reading": "アピールする",
     "type": "verb",
     "meaning": "appeal"
   },
   {
     "frequency": 3964,
     "word": "三分の一",
-    "reading": "",
+    "reading": "さんぶんのいち",
     "type": "noun, numeral",
     "meaning": "one-third"
   },
   {
     "frequency": 3965,
     "word": "全国的",
-    "reading": "",
+    "reading": "ぜんこくてき",
     "type": "na-adjective",
     "meaning": "nationwide"
   },
   {
     "frequency": 3966,
     "word": "豚",
-    "reading": "",
+    "reading": "ぶた",
     "type": "noun",
     "meaning": "pig"
   },
   {
     "frequency": 3967,
     "word": "資本",
-    "reading": "",
+    "reading": "しほん",
     "type": "noun",
     "meaning": "capital"
   },
   {
     "frequency": 3968,
     "word": "思いやり",
-    "reading": "",
+    "reading": "おもいやり",
     "type": "noun",
     "meaning": "consideration"
   },
   {
     "frequency": 3969,
     "word": "見通し",
-    "reading": "",
+    "reading": "みとおし",
     "type": "noun",
     "meaning": "prospect, outlook"
   },
@@ -31829,42 +31829,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3971,
     "word": "きっちり",
-    "reading": "",
+    "reading": "きっちり",
     "type": "adverb",
     "meaning": "tightly"
   },
   {
     "frequency": 3972,
     "word": "砂漠",
-    "reading": "",
+    "reading": "さばく",
     "type": "noun",
     "meaning": "desert"
   },
   {
     "frequency": 3973,
     "word": "エレベーター",
-    "reading": "",
+    "reading": "エレベーター",
     "type": "noun",
     "meaning": "elevator"
   },
   {
     "frequency": 3974,
     "word": "浅い",
-    "reading": "",
+    "reading": "あさい",
     "type": "i-adjective",
     "meaning": "shallow"
   },
   {
     "frequency": 3975,
     "word": "カバー",
-    "reading": "",
+    "reading": "カバー",
     "type": "noun",
     "meaning": "cover"
   },
   {
     "frequency": 3976,
     "word": "交代",
-    "reading": "",
+    "reading": "こうたい",
     "type": "noun",
     "meaning": "change, shift"
   },
@@ -31878,49 +31878,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3977,
     "word": "資源",
-    "reading": "",
+    "reading": "しげん",
     "type": "noun",
     "meaning": "resource"
   },
   {
     "frequency": 3978,
     "word": "現実的",
-    "reading": "",
+    "reading": "げんじつてき",
     "type": "na-adjective",
     "meaning": "realistic"
   },
   {
     "frequency": 3979,
     "word": "苦笑",
-    "reading": "",
+    "reading": "くしょう",
     "type": "verb",
     "meaning": "wry smile"
   },
   {
     "frequency": 3980,
     "word": "餃子",
-    "reading": "",
+    "reading": "ギョーザ",
     "type": "noun",
     "meaning": "Chinese dumpling"
   },
   {
     "frequency": 3981,
     "word": "食堂",
-    "reading": "",
+    "reading": "しょくどう",
     "type": "noun",
     "meaning": "cafeteria, dining room"
   },
   {
     "frequency": 3982,
     "word": "もっぱら",
-    "reading": "",
+    "reading": "もっぱら",
     "type": "adverb",
     "meaning": "entirely"
   },
   {
     "frequency": 3983,
     "word": "締結",
-    "reading": "",
+    "reading": "ていけつ",
     "type": "noun",
     "meaning": "conclusion"
   },
@@ -31934,28 +31934,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3984,
     "word": "裸",
-    "reading": "",
+    "reading": "はだか",
     "type": "noun",
     "meaning": "naked, nude"
   },
   {
     "frequency": 3985,
     "word": "そうこう",
-    "reading": "",
+    "reading": "そうこう",
     "type": "adverb",
     "meaning": "in the meantime"
   },
   {
     "frequency": 3986,
     "word": "いらいらする",
-    "reading": "",
+    "reading": "いらいらする",
     "type": "verb",
     "meaning": "be annoyed, be irritated, be impatient"
   },
   {
     "frequency": 3987,
     "word": "収集",
-    "reading": "",
+    "reading": "しゅうしゅう",
     "type": "noun",
     "meaning": "collection"
   },
@@ -31969,14 +31969,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3988,
     "word": "記者",
-    "reading": "",
+    "reading": "きしゃ",
     "type": "noun",
     "meaning": "journalist, reporter"
   },
   {
     "frequency": 3989,
     "word": "脱出",
-    "reading": "",
+    "reading": "だっしゅつ",
     "type": "noun",
     "meaning": "escape"
   },
@@ -31990,84 +31990,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 3990,
     "word": "呼び出す",
-    "reading": "",
+    "reading": "よびだす",
     "type": "verb",
     "meaning": "call, summon"
   },
   {
     "frequency": 3991,
     "word": "主流",
-    "reading": "",
+    "reading": "しゅりゅう",
     "type": "noun",
     "meaning": "mainstream"
   },
   {
     "frequency": 3992,
     "word": "さほど",
-    "reading": "",
+    "reading": "さほど",
     "type": "adverb",
     "meaning": "(not) particularly"
   },
   {
     "frequency": 3993,
     "word": "事務",
-    "reading": "",
+    "reading": "じむ",
     "type": "noun",
     "meaning": "office work"
   },
   {
     "frequency": 3994,
     "word": "付け加える",
-    "reading": "",
+    "reading": "つけくわえる",
     "type": "verb",
     "meaning": "add"
   },
   {
     "frequency": 3995,
     "word": "国々",
-    "reading": "",
+    "reading": "くにぐに",
     "type": "noun",
     "meaning": "countries"
   },
   {
     "frequency": 3996,
     "word": "地球上",
-    "reading": "",
+    "reading": "ちきゅうじょう",
     "type": "noun",
     "meaning": "on the earth"
   },
   {
     "frequency": 3997,
     "word": "大企業",
-    "reading": "",
+    "reading": "だいきぎょう",
     "type": "noun",
     "meaning": "big business"
   },
   {
     "frequency": 3998,
     "word": "倒す",
-    "reading": "",
+    "reading": "たおす",
     "type": "verb",
     "meaning": "knock down"
   },
   {
     "frequency": 3999,
     "word": "写る",
-    "reading": "",
+    "reading": "うつる",
     "type": "verb",
     "meaning": "photograph"
   },
   {
     "frequency": 4000,
     "word": "漏らす",
-    "reading": "",
+    "reading": "もらす",
     "type": "verb",
     "meaning": "betray"
   },
   {
     "frequency": 4001,
     "word": "上達",
-    "reading": "",
+    "reading": "じょうたつ",
     "type": "noun",
     "meaning": "improvement"
   },
@@ -32088,14 +32088,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4003,
     "word": "行使",
-    "reading": "",
+    "reading": "こうし",
     "type": "noun",
     "meaning": "exercise"
   },
   {
     "frequency": 4004,
     "word": "表明",
-    "reading": "",
+    "reading": "ひょうめい",
     "type": "noun",
     "meaning": "expression, manifestation"
   },
@@ -32109,14 +32109,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4005,
     "word": "体育",
-    "reading": "",
+    "reading": "たいいく",
     "type": "noun",
     "meaning": "physical education, gymnastics"
   },
   {
     "frequency": 4006,
     "word": "読書",
-    "reading": "",
+    "reading": "どくしょ",
     "type": "noun",
     "meaning": "reading"
   },
@@ -32130,14 +32130,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4008,
     "word": "ずれる",
-    "reading": "",
+    "reading": "ずれる",
     "type": "verb",
     "meaning": "be out of step, slip"
   },
   {
     "frequency": 4009,
     "word": "通用",
-    "reading": "",
+    "reading": "つうよう",
     "type": "noun",
     "meaning": "currency"
   },
@@ -32151,35 +32151,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4010,
     "word": "支障",
-    "reading": "",
+    "reading": "ししょう",
     "type": "noun",
     "meaning": "obstacle"
   },
   {
     "frequency": 4011,
     "word": "カウンター",
-    "reading": "",
+    "reading": "カウンター",
     "type": "noun",
     "meaning": "counter"
   },
   {
     "frequency": 4012,
     "word": "大規模",
-    "reading": "",
+    "reading": "だいきぼ",
     "type": "na-adjective",
     "meaning": "large-scale"
   },
   {
     "frequency": 4013,
     "word": "大家さん",
-    "reading": "",
+    "reading": "おおやさん",
     "type": "noun",
     "meaning": "landlord, owner"
   },
   {
     "frequency": 4014,
     "word": "昨夜",
-    "reading": "",
+    "reading": "ゆうべ",
     "type": "noun",
     "meaning": "last night"
   },
@@ -32193,14 +32193,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4016,
     "word": "ニコニコする",
-    "reading": "",
+    "reading": "ニコニコする",
     "type": "verb",
     "meaning": "smile"
   },
   {
     "frequency": 4016,
     "word": "ニコニコ",
-    "reading": "",
+    "reading": "ニコニコ",
     "type": "adverb",
     "meaning": "smiling"
   },
@@ -32214,28 +32214,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4018,
     "word": "撫でる",
-    "reading": "",
+    "reading": "なでる",
     "type": "verb",
     "meaning": "stroke"
   },
   {
     "frequency": 4019,
     "word": "金利",
-    "reading": "",
+    "reading": "きんり",
     "type": "noun",
     "meaning": "interest"
   },
   {
     "frequency": 4020,
     "word": "わくわくする",
-    "reading": "",
+    "reading": "わくわくする",
     "type": "verb",
     "meaning": "be bubbling; be excited"
   },
   {
     "frequency": 4021,
     "word": "仮定",
-    "reading": "",
+    "reading": "かてい",
     "type": "noun",
     "meaning": "assumption, supposition"
   },
@@ -32249,21 +32249,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4022,
     "word": "引きずる",
-    "reading": "",
+    "reading": "ひきずる",
     "type": "verb",
     "meaning": "drag, trail"
   },
   {
     "frequency": 4023,
     "word": "バラバラ",
-    "reading": "",
+    "reading": "バラバラ",
     "type": "na-adjective",
     "meaning": "separate"
   },
   {
     "frequency": 4024,
     "word": "依存",
-    "reading": "",
+    "reading": "いぞん",
     "type": "noun",
     "meaning": "dependence, reliance"
   },
@@ -32284,7 +32284,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4026,
     "word": "同居",
-    "reading": "",
+    "reading": "どうきょ",
     "type": "noun",
     "meaning": "coexistence, living together"
   },
@@ -32298,7 +32298,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4027,
     "word": "スカート",
-    "reading": "",
+    "reading": "スカート",
     "type": "noun",
     "meaning": "skirt"
   },
@@ -32312,35 +32312,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4029,
     "word": "回数",
-    "reading": "",
+    "reading": "かいすう",
     "type": "noun",
     "meaning": "frequency"
   },
   {
     "frequency": 4030,
     "word": "ユーザー",
-    "reading": "",
+    "reading": "ユーザー",
     "type": "noun",
     "meaning": "user"
   },
   {
     "frequency": 4031,
     "word": "筆者",
-    "reading": "",
+    "reading": "ひっしゃ",
     "type": "noun",
     "meaning": "writer, author"
   },
   {
     "frequency": 4032,
     "word": "筆",
-    "reading": "",
+    "reading": "ふで",
     "type": "noun",
     "meaning": "brush"
   },
   {
     "frequency": 4033,
     "word": "制約",
-    "reading": "",
+    "reading": "せいやく",
     "type": "noun",
     "meaning": "restriction, constraint"
   },
@@ -32354,133 +32354,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4034,
     "word": "絵本",
-    "reading": "",
+    "reading": "えほん",
     "type": "noun",
     "meaning": "picture book"
   },
   {
     "frequency": 4035,
     "word": "町中",
-    "reading": "",
+    "reading": "まちなか",
     "type": "noun",
     "meaning": "downtown"
   },
   {
     "frequency": 4036,
     "word": "著者",
-    "reading": "",
+    "reading": "ちょしゃ",
     "type": "noun",
     "meaning": "author, writer"
   },
   {
     "frequency": 4037,
     "word": "芽",
-    "reading": "",
+    "reading": "め",
     "type": "noun",
     "meaning": "bud, shoot"
   },
   {
     "frequency": 4038,
     "word": "担当者",
-    "reading": "",
+    "reading": "たんとうしゃ",
     "type": "noun",
     "meaning": "person in charge"
   },
   {
     "frequency": 4039,
     "word": "嵐",
-    "reading": "",
+    "reading": "あらし",
     "type": "noun",
     "meaning": "storm"
   },
   {
     "frequency": 4040,
     "word": "厚生省",
-    "reading": "",
+    "reading": "こうせいしょう",
     "type": "noun",
     "meaning": "Ministry of Welfare"
   },
   {
     "frequency": 4041,
     "word": "豆",
-    "reading": "",
+    "reading": "まめ",
     "type": "noun",
     "meaning": "bean, pea"
   },
   {
     "frequency": 4042,
     "word": "損",
-    "reading": "",
+    "reading": "そん",
     "type": "noun",
     "meaning": "loss, damage"
   },
   {
     "frequency": 4043,
     "word": "肝心",
-    "reading": "",
+    "reading": "かんじん",
     "type": "na-adjective",
     "meaning": "main, essential, important"
   },
   {
     "frequency": 4044,
     "word": "保育園",
-    "reading": "",
+    "reading": "ほいくえん",
     "type": "noun",
     "meaning": "nursery school, day care"
   },
   {
     "frequency": 4045,
     "word": "ポスト",
-    "reading": "",
+    "reading": "ポスト",
     "type": "noun",
     "meaning": "post, postbox, mailbox"
   },
   {
     "frequency": 4046,
     "word": "呼びかける",
-    "reading": "",
+    "reading": "よびかける",
     "type": "verb",
     "meaning": "call out, appeal"
   },
   {
     "frequency": 4047,
     "word": "余談",
-    "reading": "",
+    "reading": "よだん",
     "type": "noun",
     "meaning": "digression"
   },
   {
     "frequency": 4048,
     "word": "凝る",
-    "reading": "",
+    "reading": "こごる",
     "type": "verb",
     "meaning": "be absorbed, be devoted; become stiff"
   },
   {
     "frequency": 4049,
     "word": "水道",
-    "reading": "",
+    "reading": "すいどう",
     "type": "noun",
     "meaning": "water supply"
   },
   {
     "frequency": 4050,
     "word": "人形",
-    "reading": "",
+    "reading": "にんぎょう",
     "type": "noun",
     "meaning": "doll"
   },
   {
     "frequency": 4051,
     "word": "狙い",
-    "reading": "",
+    "reading": "ねらい",
     "type": "noun",
     "meaning": "aim, target"
   },
   {
     "frequency": 4052,
     "word": "決断",
-    "reading": "",
+    "reading": "けつだん",
     "type": "noun",
     "meaning": "decision"
   },
@@ -32501,21 +32501,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4054,
     "word": "よそ",
-    "reading": "",
+    "reading": "よそ",
     "type": "noun",
     "meaning": "other, elsewhere"
   },
   {
     "frequency": 4055,
     "word": "蚊",
-    "reading": "",
+    "reading": "か",
     "type": "noun",
     "meaning": "mosquito"
   },
   {
     "frequency": 4056,
     "word": "監視",
-    "reading": "",
+    "reading": "かんし",
     "type": "noun",
     "meaning": "observation"
   },
@@ -32529,63 +32529,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4057,
     "word": "同年",
-    "reading": "",
+    "reading": "どうねん",
     "type": "noun",
     "meaning": "same year"
   },
   {
     "frequency": 4058,
     "word": "あっさり",
-    "reading": "",
+    "reading": "あっさり",
     "type": "adverb",
     "meaning": "easily, flatly, simple, plain"
   },
   {
     "frequency": 4059,
     "word": "微笑む",
-    "reading": "",
+    "reading": "ほほえむ",
     "type": "verb",
     "meaning": "smile"
   },
   {
     "frequency": 4060,
     "word": "駆け付ける",
-    "reading": "",
+    "reading": "かけつける",
     "type": "verb",
     "meaning": "run, rush"
   },
   {
     "frequency": 4061,
     "word": "ゴール",
-    "reading": "",
+    "reading": "ゴール",
     "type": "noun",
     "meaning": "goal"
   },
   {
     "frequency": 4062,
     "word": "三本",
-    "reading": "",
+    "reading": "さんぼん",
     "type": "noun",
     "meaning": "three (long/cylindrical objects)"
   },
   {
     "frequency": 4063,
     "word": "棚",
-    "reading": "",
+    "reading": "たな",
     "type": "noun",
     "meaning": "shelf"
   },
   {
     "frequency": 4064,
     "word": "しっぽ",
-    "reading": "",
+    "reading": "しっぽ",
     "type": "noun",
     "meaning": "tail"
   },
   {
     "frequency": 4065,
     "word": "虐待",
-    "reading": "",
+    "reading": "ぎゃくたい",
     "type": "noun",
     "meaning": "abuse"
   },
@@ -32599,21 +32599,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4066,
     "word": "然り",
-    "reading": "",
+    "reading": "しかり",
     "type": "verb",
     "meaning": "(Classical) to be so"
   },
   {
     "frequency": 4067,
     "word": "正常",
-    "reading": "",
+    "reading": "せいじょう",
     "type": "na-adjective",
     "meaning": "normal"
   },
   {
     "frequency": 4068,
     "word": "配布",
-    "reading": "",
+    "reading": "はいふ",
     "type": "noun",
     "meaning": "distribution"
   },
@@ -32627,49 +32627,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4069,
     "word": "持ち上げる",
-    "reading": "",
+    "reading": "もちあげる",
     "type": "verb",
     "meaning": "lift, raise"
   },
   {
     "frequency": 4070,
     "word": "見送る",
-    "reading": "",
+    "reading": "みおくる",
     "type": "verb",
     "meaning": "see off"
   },
   {
     "frequency": 4071,
     "word": "引き継ぐ",
-    "reading": "",
+    "reading": "ひきつぐ",
     "type": "verb",
     "meaning": "take over"
   },
   {
     "frequency": 4072,
     "word": "違和感",
-    "reading": "",
+    "reading": "いわかん",
     "type": "noun",
     "meaning": "uncomfortable feeling"
   },
   {
     "frequency": 4073,
     "word": "ジャズ",
-    "reading": "",
+    "reading": "ジャズ",
     "type": "noun",
     "meaning": "jazz"
   },
   {
     "frequency": 4074,
     "word": "次いで",
-    "reading": "",
+    "reading": "ついで",
     "type": "adverb",
     "meaning": "next, after that"
   },
   {
     "frequency": 4075,
     "word": "向き",
-    "reading": "",
+    "reading": "むき",
     "type": "noun",
     "meaning": "direction, aspect; suitable"
   },
@@ -32683,63 +32683,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4077,
     "word": "安全性",
-    "reading": "",
+    "reading": "あんぜんせい",
     "type": "noun",
     "meaning": "safety, security"
   },
   {
     "frequency": 4078,
     "word": "国境",
-    "reading": "",
+    "reading": "こっきょう",
     "type": "noun",
     "meaning": "border"
   },
   {
     "frequency": 4079,
     "word": "包丁",
-    "reading": "",
+    "reading": "ほうちょう",
     "type": "noun",
     "meaning": "kitchen knife"
   },
   {
     "frequency": 4080,
     "word": "キー",
-    "reading": "",
+    "reading": "キー",
     "type": "noun",
     "meaning": "key"
   },
   {
     "frequency": 4081,
     "word": "どきどきする",
-    "reading": "",
+    "reading": "どきどきする",
     "type": "verb",
     "meaning": "throb, beat fast"
   },
   {
     "frequency": 4082,
     "word": "賑わう",
-    "reading": "",
+    "reading": "にぎわう",
     "type": "verb",
     "meaning": "be crowded with"
   },
   {
     "frequency": 4083,
     "word": "地獄",
-    "reading": "",
+    "reading": "じごく",
     "type": "noun",
     "meaning": "hell"
   },
   {
     "frequency": 4084,
     "word": "豪華",
-    "reading": "",
+    "reading": "ごうか",
     "type": "na-adjective",
     "meaning": "luxurious, gorgeous"
   },
   {
     "frequency": 4085,
     "word": "救急車",
-    "reading": "",
+    "reading": "きゅうきゅうしゃ",
     "type": "noun",
     "meaning": "ambulance"
   },
@@ -32753,21 +32753,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4087,
     "word": "不動産",
-    "reading": "",
+    "reading": "ふどうさん",
     "type": "noun",
     "meaning": "real estate, property"
   },
   {
     "frequency": 4088,
     "word": "広まる",
-    "reading": "",
+    "reading": "ひろまる",
     "type": "verb",
     "meaning": "spread, get around"
   },
   {
     "frequency": 4089,
     "word": "外出",
-    "reading": "",
+    "reading": "がいしゅつ",
     "type": "noun",
     "meaning": "going out, outing"
   },
@@ -32781,133 +32781,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4090,
     "word": "グラス",
-    "reading": "",
+    "reading": "グラス",
     "type": "noun",
     "meaning": "glass"
   },
   {
     "frequency": 4091,
     "word": "曲げる",
-    "reading": "",
+    "reading": "まげる",
     "type": "verb",
     "meaning": "bend, twist"
   },
   {
     "frequency": 4092,
     "word": "屋敷",
-    "reading": "",
+    "reading": "やしき",
     "type": "noun",
     "meaning": "mansion, residence, estate"
   },
   {
     "frequency": 4093,
     "word": "専門的",
-    "reading": "",
+    "reading": "せんもんてき",
     "type": "na-adjective",
     "meaning": "technical, academic"
   },
   {
     "frequency": 4094,
     "word": "切り替える",
-    "reading": "",
+    "reading": "きりかえる",
     "type": "verb",
     "meaning": "switch, change"
   },
   {
     "frequency": 4095,
     "word": "染める",
-    "reading": "",
+    "reading": "そめる",
     "type": "verb",
     "meaning": "dye, color"
   },
   {
     "frequency": 4096,
     "word": "スキー場",
-    "reading": "",
+    "reading": "スキーじょう",
     "type": "noun",
     "meaning": "ski ground, ski resort"
   },
   {
     "frequency": 4097,
     "word": "ヒント",
-    "reading": "",
+    "reading": "ヒント",
     "type": "noun",
     "meaning": "hint, clue"
   },
   {
     "frequency": 4098,
     "word": "講義",
-    "reading": "",
+    "reading": "こうぎ",
     "type": "noun",
     "meaning": "lecture"
   },
   {
     "frequency": 4099,
     "word": "裏切る",
-    "reading": "",
+    "reading": "うらぎる",
     "type": "verb",
     "meaning": "betray"
   },
   {
     "frequency": 4100,
     "word": "余地",
-    "reading": "",
+    "reading": "よち",
     "type": "noun",
     "meaning": "room, space"
   },
   {
     "frequency": 4101,
     "word": "富む",
-    "reading": "",
+    "reading": "とむ",
     "type": "verb",
     "meaning": "be rich (in); grow"
   },
   {
     "frequency": 4102,
     "word": "手書き",
-    "reading": "",
+    "reading": "てがき",
     "type": "noun",
     "meaning": "handwriting"
   },
   {
     "frequency": 4103,
     "word": "ブーム",
-    "reading": "",
+    "reading": "ブーム",
     "type": "noun",
     "meaning": "boom"
   },
   {
     "frequency": 4104,
     "word": "ワールドカップ",
-    "reading": "",
+    "reading": "ワールドカップ",
     "type": "noun",
     "meaning": "World Cup"
   },
   {
     "frequency": 4105,
     "word": "鬼",
-    "reading": "",
+    "reading": "おに",
     "type": "noun",
     "meaning": "ogre, devil, demon"
   },
   {
     "frequency": 4106,
     "word": "ホール",
-    "reading": "",
+    "reading": "ホール",
     "type": "noun",
     "meaning": "hall"
   },
   {
     "frequency": 4107,
     "word": "似合う",
-    "reading": "",
+    "reading": "にあう",
     "type": "verb",
     "meaning": "suit"
   },
   {
     "frequency": 4108,
     "word": "節約",
-    "reading": "",
+    "reading": "せつやく",
     "type": "noun",
     "meaning": "saving, economy"
   },
@@ -32921,196 +32921,196 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4109,
     "word": "実績",
-    "reading": "",
+    "reading": "じっせき",
     "type": "noun",
     "meaning": "achievement"
   },
   {
     "frequency": 4110,
     "word": "訳す",
-    "reading": "",
+    "reading": "やくす",
     "type": "verb",
     "meaning": "translate"
   },
   {
     "frequency": 4111,
     "word": "奴ら",
-    "reading": "",
+    "reading": "やつら",
     "type": "noun",
     "meaning": "fellow"
   },
   {
     "frequency": 4112,
     "word": "キッチン",
-    "reading": "",
+    "reading": "キッチン",
     "type": "noun",
     "meaning": "kitchen"
   },
   {
     "frequency": 4113,
     "word": "課する",
-    "reading": "",
+    "reading": "かする",
     "type": "verb",
     "meaning": "assign, charge, impose"
   },
   {
     "frequency": 4114,
     "word": "養う",
-    "reading": "",
+    "reading": "やしなう",
     "type": "verb",
     "meaning": "bring up, keep, support"
   },
   {
     "frequency": 4115,
     "word": "別々",
-    "reading": "",
+    "reading": "べつべつ",
     "type": "na-adjective",
     "meaning": "separate, individual"
   },
   {
     "frequency": 4116,
     "word": "手足",
-    "reading": "",
+    "reading": "てあし",
     "type": "noun",
     "meaning": "limb"
   },
   {
     "frequency": 4117,
     "word": "物価",
-    "reading": "",
+    "reading": "ぶっか",
     "type": "noun",
     "meaning": "prices"
   },
   {
     "frequency": 4118,
     "word": "部品",
-    "reading": "",
+    "reading": "ぶひん",
     "type": "noun",
     "meaning": "parts, components"
   },
   {
     "frequency": 4119,
     "word": "最適",
-    "reading": "",
+    "reading": "さいてき",
     "type": "na-adjective",
     "meaning": "best, optimum"
   },
   {
     "frequency": 4120,
     "word": "宿題",
-    "reading": "",
+    "reading": "しゅくだい",
     "type": "noun",
     "meaning": "homework"
   },
   {
     "frequency": 4121,
     "word": "氏名",
-    "reading": "",
+    "reading": "しめい",
     "type": "noun",
     "meaning": "name"
   },
   {
     "frequency": 4122,
     "word": "ダンス",
-    "reading": "",
+    "reading": "ダンス",
     "type": "noun",
     "meaning": "dancing"
   },
   {
     "frequency": 4123,
     "word": "溶かす",
-    "reading": "",
+    "reading": "とかす",
     "type": "verb",
     "meaning": "dissolve; melt"
   },
   {
     "frequency": 4124,
     "word": "人種",
-    "reading": "",
+    "reading": "じんしゅ",
     "type": "noun",
     "meaning": "race"
   },
   {
     "frequency": 4125,
     "word": "歌手",
-    "reading": "",
+    "reading": "かしゅ",
     "type": "noun",
     "meaning": "singer"
   },
   {
     "frequency": 4126,
     "word": "銀",
-    "reading": "",
+    "reading": "ぎん",
     "type": "noun",
     "meaning": "silver"
   },
   {
     "frequency": 4127,
     "word": "ルート",
-    "reading": "",
+    "reading": "ルート",
     "type": "noun",
     "meaning": "route"
   },
   {
     "frequency": 4128,
     "word": "第一号",
-    "reading": "",
+    "reading": "だいいちごう",
     "type": "noun",
     "meaning": "first"
   },
   {
     "frequency": 4129,
     "word": "従兄弟",
-    "reading": "",
+    "reading": "いとこ",
     "type": "noun",
     "meaning": "cousin"
   },
   {
     "frequency": 4130,
     "word": "概ね",
-    "reading": "",
+    "reading": "おおむね",
     "type": "adverb",
     "meaning": "mostly, mainly, generally"
   },
   {
     "frequency": 4131,
     "word": "往復",
-    "reading": "",
+    "reading": "おうふく",
     "type": "noun",
     "meaning": "round trip"
   },
   {
     "frequency": 4132,
     "word": "起源",
-    "reading": "",
+    "reading": "きげん",
     "type": "noun",
     "meaning": "origin"
   },
   {
     "frequency": 4133,
     "word": "広場",
-    "reading": "",
+    "reading": "ひろば",
     "type": "noun",
     "meaning": "square, plaza"
   },
   {
     "frequency": 4134,
     "word": "レモン",
-    "reading": "",
+    "reading": "レモン",
     "type": "noun",
     "meaning": "lemon"
   },
   {
     "frequency": 4135,
     "word": "円滑",
-    "reading": "",
+    "reading": "えんかつ",
     "type": "na-adjective",
     "meaning": "smooth"
   },
   {
     "frequency": 4136,
     "word": "広大",
-    "reading": "",
+    "reading": "こうだい",
     "type": "na-adjective",
     "meaning": "vast, huge, extensive"
   },
@@ -33124,28 +33124,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4138,
     "word": "カップル",
-    "reading": "",
+    "reading": "カップル",
     "type": "noun",
     "meaning": "couple"
   },
   {
     "frequency": 4139,
     "word": "納豆",
-    "reading": "",
+    "reading": "なっとう",
     "type": "noun",
     "meaning": "fermented soybeans"
   },
   {
     "frequency": 4140,
     "word": "堂々",
-    "reading": "",
+    "reading": "どうどう",
     "type": "adverb",
     "meaning": "nobly, openly"
   },
   {
     "frequency": 4141,
     "word": "肝臓",
-    "reading": "",
+    "reading": "かんぞう",
     "type": "noun",
     "meaning": "liver"
   },
@@ -33159,14 +33159,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4143,
     "word": "電源",
-    "reading": "",
+    "reading": "でんげん",
     "type": "noun",
     "meaning": "power supply"
   },
   {
     "frequency": 4144,
     "word": "分割",
-    "reading": "",
+    "reading": "ぶんかつ",
     "type": "noun",
     "meaning": "division"
   },
@@ -33180,7 +33180,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4145,
     "word": "縮小",
-    "reading": "",
+    "reading": "しゅくしょう",
     "type": "noun",
     "meaning": "reduction"
   },
@@ -33194,21 +33194,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4146,
     "word": "練る",
-    "reading": "",
+    "reading": "ねる",
     "type": "verb",
     "meaning": "knead; polish; elaborate"
   },
   {
     "frequency": 4147,
     "word": "飲み込む",
-    "reading": "",
+    "reading": "のみこむ",
     "type": "verb",
     "meaning": "swallow"
   },
   {
     "frequency": 4148,
     "word": "職人",
-    "reading": "",
+    "reading": "しょくにん",
     "type": "noun",
     "meaning": "craftsman, workman"
   },
@@ -33222,35 +33222,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4150,
     "word": "キャラクター",
-    "reading": "",
+    "reading": "キャラクター",
     "type": "noun",
     "meaning": "character"
   },
   {
     "frequency": 4151,
     "word": "大地",
-    "reading": "",
+    "reading": "だいち",
     "type": "noun",
     "meaning": "earth, ground"
   },
   {
     "frequency": 4152,
     "word": "具",
-    "reading": "",
+    "reading": "ぐ",
     "type": "noun",
     "meaning": "ingredient"
   },
   {
     "frequency": 4153,
     "word": "戸惑う",
-    "reading": "",
+    "reading": "とまどう",
     "type": "verb",
     "meaning": "confuse, puzzle"
   },
   {
     "frequency": 4154,
     "word": "寂しさ",
-    "reading": "",
+    "reading": "さびしさ",
     "type": "noun",
     "meaning": "loneliness"
   },
@@ -33264,56 +33264,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4156,
     "word": "カーテン",
-    "reading": "",
+    "reading": "カーテン",
     "type": "noun",
     "meaning": "curtain"
   },
   {
     "frequency": 4157,
     "word": "情けない",
-    "reading": "",
+    "reading": "なさけない",
     "type": "i-adjective",
     "meaning": "miserable"
   },
   {
     "frequency": 4158,
     "word": "飯",
-    "reading": "",
+    "reading": "めし",
     "type": "noun",
     "meaning": "rice"
   },
   {
     "frequency": 4159,
     "word": "幼児",
-    "reading": "",
+    "reading": "おさなご",
     "type": "noun",
     "meaning": "infant"
   },
   {
     "frequency": 4160,
     "word": "法案",
-    "reading": "",
+    "reading": "ほうあん",
     "type": "noun",
     "meaning": "bill"
   },
   {
     "frequency": 4161,
     "word": "病",
-    "reading": "",
+    "reading": "やまい",
     "type": "noun",
     "meaning": "illness, disease"
   },
   {
     "frequency": 4162,
     "word": "切符",
-    "reading": "",
+    "reading": "きっぷ",
     "type": "noun",
     "meaning": "ticket"
   },
   {
     "frequency": 4163,
     "word": "消滅",
-    "reading": "",
+    "reading": "しょうめつ",
     "type": "noun",
     "meaning": "disappearance"
   },
@@ -33327,35 +33327,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4164,
     "word": "障害者",
-    "reading": "",
+    "reading": "しょうがいしゃ",
     "type": "noun",
     "meaning": "disabled person, handicapped person"
   },
   {
     "frequency": 4165,
     "word": "台",
-    "reading": "",
+    "reading": "だい",
     "type": "noun",
     "meaning": "stand, rack"
   },
   {
     "frequency": 4166,
     "word": "面白さ",
-    "reading": "",
+    "reading": "おもしろさ",
     "type": "noun",
     "meaning": "interest, fun"
   },
   {
     "frequency": 4167,
     "word": "生まれ",
-    "reading": "",
+    "reading": "うまれ",
     "type": "noun",
     "meaning": "birth; birthplace"
   },
   {
     "frequency": 4168,
     "word": "保有",
-    "reading": "",
+    "reading": "ほゆう",
     "type": "noun",
     "meaning": "possession"
   },
@@ -33369,7 +33369,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4169,
     "word": "反発",
-    "reading": "",
+    "reading": "はんぱつ",
     "type": "noun",
     "meaning": "repulsion, resistance"
   },
@@ -33383,42 +33383,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4170,
     "word": "アレンジ",
-    "reading": "",
+    "reading": "アレンジ",
     "type": "noun",
     "meaning": "arrangement"
   },
   {
     "frequency": 4170,
     "word": "アレンジする",
-    "reading": "",
+    "reading": "アレンジする",
     "type": "verb",
     "meaning": "arrange"
   },
   {
     "frequency": 4171,
     "word": "しつけ",
-    "reading": "",
+    "reading": "しつけ",
     "type": "noun",
     "meaning": "tacking (sewing); discipline"
   },
   {
     "frequency": 4172,
     "word": "指導者",
-    "reading": "",
+    "reading": "しどうしゃ",
     "type": "noun",
     "meaning": "leader, coach"
   },
   {
     "frequency": 4173,
     "word": "原理",
-    "reading": "",
+    "reading": "げんり",
     "type": "noun",
     "meaning": "principle"
   },
   {
     "frequency": 4174,
     "word": "東南アジア",
-    "reading": "",
+    "reading": "とうなんアジア",
     "type": "noun",
     "meaning": "Southeast Asia"
   },
@@ -33432,49 +33432,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4176,
     "word": "金属",
-    "reading": "",
+    "reading": "きんぞく",
     "type": "noun",
     "meaning": "metal"
   },
   {
     "frequency": 4177,
     "word": "しわ",
-    "reading": "",
+    "reading": "しわ",
     "type": "noun",
     "meaning": "wrinkle, line"
   },
   {
     "frequency": 4178,
     "word": "思い浮かべる",
-    "reading": "",
+    "reading": "おもいうかべる",
     "type": "verb",
     "meaning": "recall, remember"
   },
   {
     "frequency": 4179,
     "word": "一分",
-    "reading": "",
+    "reading": "いちぶ",
     "type": "noun",
     "meaning": "one minute"
   },
   {
     "frequency": 4180,
     "word": "当面",
-    "reading": "",
+    "reading": "とうめん",
     "type": "noun",
     "meaning": "present, current; for the time being"
   },
   {
     "frequency": 4181,
     "word": "貯金",
-    "reading": "",
+    "reading": "ちょきん",
     "type": "noun",
     "meaning": "savings, deposit"
   },
   {
     "frequency": 4182,
     "word": "技術的",
-    "reading": "",
+    "reading": "ぎじゅつてき",
     "type": "na-adjective",
     "meaning": "technical, practical"
   },
@@ -33488,147 +33488,147 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4184,
     "word": "ダンボール",
-    "reading": "",
+    "reading": "ダンボール",
     "type": "noun",
     "meaning": "cardboard"
   },
   {
     "frequency": 4185,
     "word": "生クリーム",
-    "reading": "",
+    "reading": "なまクリーム",
     "type": "noun",
     "meaning": "fresh cream"
   },
   {
     "frequency": 4186,
     "word": "名乗る",
-    "reading": "",
+    "reading": "なのる",
     "type": "verb",
     "meaning": "give one’s name"
   },
   {
     "frequency": 4187,
     "word": "金曜日",
-    "reading": "",
+    "reading": "きんようび",
     "type": "noun",
     "meaning": "Friday"
   },
   {
     "frequency": 4188,
     "word": "生き残る",
-    "reading": "",
+    "reading": "いきのこる",
     "type": "verb",
     "meaning": "survive"
   },
   {
     "frequency": 4189,
     "word": "演技",
-    "reading": "",
+    "reading": "えんぎ",
     "type": "noun",
     "meaning": "performance"
   },
   {
     "frequency": 4190,
     "word": "取り巻く",
-    "reading": "",
+    "reading": "とりまく",
     "type": "verb",
     "meaning": "surround, enclose"
   },
   {
     "frequency": 4191,
     "word": "体質",
-    "reading": "",
+    "reading": "たいしつ",
     "type": "noun",
     "meaning": "constitution (physical)"
   },
   {
     "frequency": 4192,
     "word": "ドイツ語",
-    "reading": "",
+    "reading": "ドイツご",
     "type": "noun",
     "meaning": "German language"
   },
   {
     "frequency": 4193,
     "word": "仕方が無い",
-    "reading": "",
+    "reading": "しかたがない",
     "type": "compound",
     "meaning": "cannot be helped, no use"
   },
   {
     "frequency": 4194,
     "word": "参加者",
-    "reading": "",
+    "reading": "さんかしゃ",
     "type": "noun",
     "meaning": "participant"
   },
   {
     "frequency": 4195,
     "word": "第三者",
-    "reading": "",
+    "reading": "だいさんしゃ",
     "type": "noun",
     "meaning": "outsider, third party"
   },
   {
     "frequency": 4196,
     "word": "感性",
-    "reading": "",
+    "reading": "かんせい",
     "type": "noun",
     "meaning": "sensitivity, sensibility"
   },
   {
     "frequency": 4197,
     "word": "谷",
-    "reading": "",
+    "reading": "たに",
     "type": "noun",
     "meaning": "valley; ravine, gorge"
   },
   {
     "frequency": 4198,
     "word": "本社",
-    "reading": "",
+    "reading": "ほんしゃ",
     "type": "noun",
     "meaning": "head office"
   },
   {
     "frequency": 4199,
     "word": "都度",
-    "reading": "",
+    "reading": "つど",
     "type": "noun",
     "meaning": "every time"
   },
   {
     "frequency": 4200,
     "word": "ぼんやり",
-    "reading": "",
+    "reading": "ぼんやり",
     "type": "adverb",
     "meaning": "vacantly, vaguely, dimly"
   },
   {
     "frequency": 4200,
     "word": "ぼんやりする",
-    "reading": "",
+    "reading": "ぼんやりする",
     "type": "verb",
     "meaning": "be vague, be blurred"
   },
   {
     "frequency": 4201,
     "word": "死者",
-    "reading": "",
+    "reading": "ししゃ",
     "type": "noun",
     "meaning": "dead"
   },
   {
     "frequency": 4202,
     "word": "四季",
-    "reading": "",
+    "reading": "しき",
     "type": "noun",
     "meaning": "four seasons"
   },
   {
     "frequency": 4203,
     "word": "倒産",
-    "reading": "",
+    "reading": "とうさん",
     "type": "noun",
     "meaning": "bankruptcy"
   },
@@ -33642,21 +33642,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4204,
     "word": "ニュージーランド",
-    "reading": "",
+    "reading": "ニュージーランド",
     "type": "noun",
     "meaning": "New Zealand"
   },
   {
     "frequency": 4205,
     "word": "センター",
-    "reading": "",
+    "reading": "センター",
     "type": "noun",
     "meaning": "center"
   },
   {
     "frequency": 4206,
     "word": "保全",
-    "reading": "",
+    "reading": "ほぜん",
     "type": "noun",
     "meaning": "preservation, maintenance"
   },
@@ -33670,7 +33670,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4207,
     "word": "結合",
-    "reading": "",
+    "reading": "けつごう",
     "type": "noun",
     "meaning": "combination"
   },
@@ -33684,98 +33684,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4208,
     "word": "発送",
-    "reading": "",
+    "reading": "はっそう",
     "type": "noun, verb",
     "meaning": "send, ship, dispatch"
   },
   {
     "frequency": 4209,
     "word": "パンツ",
-    "reading": "",
+    "reading": "パンツ",
     "type": "noun",
     "meaning": "pants, shorts, underpants"
   },
   {
     "frequency": 4210,
     "word": "ぐるぐる",
-    "reading": "",
+    "reading": "ぐるぐる",
     "type": "adverb",
     "meaning": "round and round"
   },
   {
     "frequency": 4211,
     "word": "ナンバー",
-    "reading": "",
+    "reading": "ナンバー",
     "type": "noun",
     "meaning": "number"
   },
   {
     "frequency": 4212,
     "word": "持ち主",
-    "reading": "",
+    "reading": "もちぬし",
     "type": "noun",
     "meaning": "owner"
   },
   {
     "frequency": 4213,
     "word": "到底",
-    "reading": "",
+    "reading": "とうてい",
     "type": "adverb",
     "meaning": "(cannot) possibly, no matter how"
   },
   {
     "frequency": 4214,
     "word": "夕日",
-    "reading": "",
+    "reading": "ゆうひ",
     "type": "noun",
     "meaning": "evening sun, sunset"
   },
   {
     "frequency": 4215,
     "word": "乗り換える",
-    "reading": "",
+    "reading": "のりかえる",
     "type": "verb",
     "meaning": "change, transfer"
   },
   {
     "frequency": 4216,
     "word": "リストラ",
-    "reading": "",
+    "reading": "リストラ",
     "type": "noun",
     "meaning": "restructuring, downsizing"
   },
   {
     "frequency": 4217,
     "word": "答弁",
-    "reading": "",
+    "reading": "とうべん",
     "type": "noun",
     "meaning": "answer, defense"
   },
   {
     "frequency": 4218,
     "word": "哲学",
-    "reading": "",
+    "reading": "てつがく",
     "type": "noun",
     "meaning": "philosophy"
   },
   {
     "frequency": 4219,
     "word": "おかしな",
-    "reading": "",
+    "reading": "おかしな",
     "type": "adnominal",
     "meaning": "funny, ridiculous"
   },
   {
     "frequency": 4220,
     "word": "当事者",
-    "reading": "",
+    "reading": "とうじしゃ",
     "type": "noun",
     "meaning": "parties concerned"
   },
   {
     "frequency": 4221,
     "word": "シーズン",
-    "reading": "",
+    "reading": "シーズン",
     "type": "noun",
     "meaning": "season"
   },
@@ -33789,21 +33789,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4223,
     "word": "高速道路",
-    "reading": "",
+    "reading": "こうそくどうろ",
     "type": "noun",
     "meaning": "freeway"
   },
   {
     "frequency": 4224,
     "word": "一員",
-    "reading": "",
+    "reading": "いちいん",
     "type": "noun",
     "meaning": "member"
   },
   {
     "frequency": 4225,
     "word": "確定",
-    "reading": "",
+    "reading": "かくてい",
     "type": "noun",
     "meaning": "determination, decision"
   },
@@ -33817,35 +33817,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4226,
     "word": "委員会",
-    "reading": "",
+    "reading": "いいんかい",
     "type": "noun",
     "meaning": "committee"
   },
   {
     "frequency": 4227,
     "word": "混ぜ合わせる",
-    "reading": "",
+    "reading": "まぜあわせる",
     "type": "verb",
     "meaning": "mix"
   },
   {
     "frequency": 4228,
     "word": "興味深い",
-    "reading": "",
+    "reading": "きょうみぶかい",
     "type": "i-adjective",
     "meaning": "interesting"
   },
   {
     "frequency": 4229,
     "word": "あれこれ",
-    "reading": "",
+    "reading": "あれこれ",
     "type": "adverb",
     "meaning": "this and that"
   },
   {
     "frequency": 4230,
     "word": "分布",
-    "reading": "",
+    "reading": "ぶんぷ",
     "type": "noun",
     "meaning": "distribution"
   },
@@ -33859,42 +33859,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4231,
     "word": "観客",
-    "reading": "",
+    "reading": "かんきゃく",
     "type": "noun",
     "meaning": "audience"
   },
   {
     "frequency": 4232,
     "word": "鮎",
-    "reading": "",
+    "reading": "あゆ",
     "type": "noun",
     "meaning": "sweetfish, ayu"
   },
   {
     "frequency": 4233,
     "word": "正午",
-    "reading": "",
+    "reading": "しょうご",
     "type": "noun",
     "meaning": "noon, midday"
   },
   {
     "frequency": 4234,
     "word": "首都",
-    "reading": "",
+    "reading": "しゅと",
     "type": "noun",
     "meaning": "capital city"
   },
   {
     "frequency": 4235,
     "word": "体内",
-    "reading": "",
+    "reading": "たいない",
     "type": "noun",
     "meaning": "inside the body"
   },
   {
     "frequency": 4236,
     "word": "調和",
-    "reading": "",
+    "reading": "ちょうわ",
     "type": "noun",
     "meaning": "harmony, balance"
   },
@@ -33908,70 +33908,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4237,
     "word": "権威",
-    "reading": "",
+    "reading": "けんい",
     "type": "noun",
     "meaning": "authority"
   },
   {
     "frequency": 4238,
     "word": "シンガポール",
-    "reading": "",
+    "reading": "シンガポール",
     "type": "noun",
     "meaning": "Singapore"
   },
   {
     "frequency": 4239,
     "word": "酔う",
-    "reading": "",
+    "reading": "よう",
     "type": "verb",
     "meaning": "get drunk, feel sick"
   },
   {
     "frequency": 4240,
     "word": "最低限",
-    "reading": "",
+    "reading": "さいていげん",
     "type": "noun",
     "meaning": "minimum"
   },
   {
     "frequency": 4241,
     "word": "傷つく",
-    "reading": "",
+    "reading": "きずつく",
     "type": "verb",
     "meaning": "be injured, be hurt"
   },
   {
     "frequency": 4242,
     "word": "カボチャ",
-    "reading": "",
+    "reading": "カボチャ",
     "type": "noun",
     "meaning": "pumpkin"
   },
   {
     "frequency": 4243,
     "word": "老後",
-    "reading": "",
+    "reading": "ろうご",
     "type": "noun",
     "meaning": "old age"
   },
   {
     "frequency": 4244,
     "word": "当てはまる",
-    "reading": "",
+    "reading": "あてはまる",
     "type": "verb",
     "meaning": "apply"
   },
   {
     "frequency": 4245,
     "word": "害",
-    "reading": "",
+    "reading": "がい",
     "type": "noun",
     "meaning": "harm, damage"
   },
   {
     "frequency": 4246,
     "word": "稽古",
-    "reading": "",
+    "reading": "けいこ",
     "type": "noun",
     "meaning": "practice, exercise"
   },
@@ -33985,35 +33985,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4247,
     "word": "一位",
-    "reading": "",
+    "reading": "いちい",
     "type": "noun",
     "meaning": "first prize"
   },
   {
     "frequency": 4248,
     "word": "率いる",
-    "reading": "",
+    "reading": "ひきいる",
     "type": "verb",
     "meaning": "head, lead, command"
   },
   {
     "frequency": 4249,
     "word": "前者",
-    "reading": "",
+    "reading": "ぜんしゃ",
     "type": "noun",
     "meaning": "former"
   },
   {
     "frequency": 4250,
     "word": "数人",
-    "reading": "",
+    "reading": "すうにん",
     "type": "noun",
     "meaning": "several people"
   },
   {
     "frequency": 4251,
     "word": "創造",
-    "reading": "",
+    "reading": "そうぞう",
     "type": "noun",
     "meaning": "creation"
   },
@@ -34027,7 +34027,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4252,
     "word": "届け出",
-    "reading": "",
+    "reading": "とどけで",
     "type": "noun",
     "meaning": "report, notification"
   },
@@ -34041,84 +34041,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4254,
     "word": "スイッチ",
-    "reading": "",
+    "reading": "スイッチ",
     "type": "noun",
     "meaning": "switch"
   },
   {
     "frequency": 4255,
     "word": "試み",
-    "reading": "",
+    "reading": "こころみ",
     "type": "noun",
     "meaning": "attempt, try"
   },
   {
     "frequency": 4256,
     "word": "歩む",
-    "reading": "",
+    "reading": "あゆむ",
     "type": "verb",
     "meaning": "walk, go through"
   },
   {
     "frequency": 4257,
     "word": "立ち止まる",
-    "reading": "",
+    "reading": "たちどまる",
     "type": "verb",
     "meaning": "stop, pause"
   },
   {
     "frequency": 4258,
     "word": "いまいち",
-    "reading": "",
+    "reading": "いまいち",
     "type": "adverb",
     "meaning": "not quite, not really"
   },
   {
     "frequency": 4259,
     "word": "麺",
-    "reading": "",
+    "reading": "めん",
     "type": "noun",
     "meaning": "noodles"
   },
   {
     "frequency": 4260,
     "word": "不安定",
-    "reading": "",
+    "reading": "ふあんてい",
     "type": "na-adjective",
     "meaning": "unstable, uneasy"
   },
   {
     "frequency": 4261,
     "word": "原点",
-    "reading": "",
+    "reading": "げんてん",
     "type": "noun",
     "meaning": "starting point, origin"
   },
   {
     "frequency": 4262,
     "word": "一向",
-    "reading": "",
+    "reading": "ひたすら",
     "type": "adverb",
     "meaning": "(not) at all; completely"
   },
   {
     "frequency": 4263,
     "word": "それゆえ",
-    "reading": "",
+    "reading": "それゆえ",
     "type": "adverb",
     "meaning": "therefore, thus"
   },
   {
     "frequency": 4264,
     "word": "ジュース",
-    "reading": "",
+    "reading": "ジュース",
     "type": "noun",
     "meaning": "juice"
   },
   {
     "frequency": 4265,
     "word": "軽減",
-    "reading": "",
+    "reading": "けいげん",
     "type": "noun",
     "meaning": "reduction"
   },
@@ -34132,28 +34132,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4266,
     "word": "不自由",
-    "reading": "",
+    "reading": "ふじゆう",
     "type": "noun",
     "meaning": "inconvenience; disability"
   },
   {
     "frequency": 4267,
     "word": "悲鳴",
-    "reading": "",
+    "reading": "ひめい",
     "type": "noun",
     "meaning": "scream"
   },
   {
     "frequency": 4268,
     "word": "落札者",
-    "reading": "",
+    "reading": "らくさつしゃ",
     "type": "noun",
     "meaning": "successful bidder"
   },
   {
     "frequency": 4269,
     "word": "融資",
-    "reading": "",
+    "reading": "ゆうし",
     "type": "noun",
     "meaning": "loan"
   },
@@ -34167,7 +34167,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4270,
     "word": "破綻",
-    "reading": "",
+    "reading": "はたん",
     "type": "noun",
     "meaning": "bankruptcy, collapse"
   },
@@ -34188,105 +34188,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4272,
     "word": "アドレス",
-    "reading": "",
+    "reading": "アドレス",
     "type": "noun",
     "meaning": "address"
   },
   {
     "frequency": 4273,
     "word": "励む",
-    "reading": "",
+    "reading": "はげむ",
     "type": "verb",
     "meaning": "work hard, make efforts"
   },
   {
     "frequency": 4274,
     "word": "双方",
-    "reading": "",
+    "reading": "そうほう",
     "type": "noun",
     "meaning": "both sides, both parties"
   },
   {
     "frequency": 4275,
     "word": "原爆",
-    "reading": "",
+    "reading": "げんばく",
     "type": "noun",
     "meaning": "atomic bomb"
   },
   {
     "frequency": 4276,
     "word": "傘",
-    "reading": "",
+    "reading": "かさ",
     "type": "noun",
     "meaning": "umbrella"
   },
   {
     "frequency": 4277,
     "word": "チャレンジ",
-    "reading": "",
+    "reading": "チャレンジ",
     "type": "noun",
     "meaning": "challenge"
   },
   {
     "frequency": 4278,
     "word": "炭",
-    "reading": "",
+    "reading": "すみ",
     "type": "noun",
     "meaning": "charcoal"
   },
   {
     "frequency": 4279,
     "word": "不意",
-    "reading": "",
+    "reading": "ふい",
     "type": "na-adjective",
     "meaning": "sudden, unexpected"
   },
   {
     "frequency": 4279,
     "word": "不意",
-    "reading": "",
+    "reading": "ふい",
     "type": "noun",
     "meaning": "suddenness"
   },
   {
     "frequency": 4280,
     "word": "リサイクル",
-    "reading": "",
+    "reading": "リサイクル",
     "type": "noun",
     "meaning": "recycling"
   },
   {
     "frequency": 4280,
     "word": "リサイクルする",
-    "reading": "",
+    "reading": "リサイクルする",
     "type": "verb",
     "meaning": "recycle"
   },
   {
     "frequency": 4281,
     "word": "ミルク",
-    "reading": "",
+    "reading": "ミルク",
     "type": "noun",
     "meaning": "milk"
   },
   {
     "frequency": 4282,
     "word": "子孫",
-    "reading": "",
+    "reading": "しそん",
     "type": "noun",
     "meaning": "descendant; posterity"
   },
   {
     "frequency": 4283,
     "word": "近頃",
-    "reading": "",
+    "reading": "ちかごろ",
     "type": "noun",
     "meaning": "recently, lately"
   },
   {
     "frequency": 4284,
     "word": "鞄",
-    "reading": "",
+    "reading": "かばん",
     "type": "noun",
     "meaning": "bag"
   },
@@ -34300,21 +34300,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4286,
     "word": "圧力",
-    "reading": "",
+    "reading": "あつりょく",
     "type": "noun",
     "meaning": "pressure, stress"
   },
   {
     "frequency": 4287,
     "word": "斜め",
-    "reading": "",
+    "reading": "ななめ",
     "type": "noun",
     "meaning": "diagonal"
   },
   {
     "frequency": 4288,
     "word": "補助",
-    "reading": "",
+    "reading": "ほじょ",
     "type": "noun",
     "meaning": "help, aid, assistance"
   },
@@ -34328,98 +34328,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4289,
     "word": "改良",
-    "reading": "",
+    "reading": "かいりょう",
     "type": "noun",
     "meaning": "improvement"
   },
   {
     "frequency": 4290,
     "word": "俳優",
-    "reading": "",
+    "reading": "はいゆう",
     "type": "noun",
     "meaning": "actor"
   },
   {
     "frequency": 4291,
     "word": "フィリピン",
-    "reading": "",
+    "reading": "フィリピン",
     "type": "noun",
     "meaning": "Philippines"
   },
   {
     "frequency": 4292,
     "word": "効率的",
-    "reading": "",
+    "reading": "こうりつてき",
     "type": "na-adjective",
     "meaning": "efficient"
   },
   {
     "frequency": 4293,
     "word": "情熱",
-    "reading": "",
+    "reading": "じょうねつ",
     "type": "noun",
     "meaning": "passion"
   },
   {
     "frequency": 4294,
     "word": "七人",
-    "reading": "",
+    "reading": "しちにん",
     "type": "noun",
     "meaning": "seven people"
   },
   {
     "frequency": 4295,
     "word": "焦点",
-    "reading": "",
+    "reading": "しょうてん",
     "type": "noun",
     "meaning": "focus"
   },
   {
     "frequency": 4296,
     "word": "旅館",
-    "reading": "",
+    "reading": "りょかん",
     "type": "noun",
     "meaning": "inn, Japanese-style hotel"
   },
   {
     "frequency": 4297,
     "word": "食卓",
-    "reading": "",
+    "reading": "しょくたく",
     "type": "noun",
     "meaning": "dining table"
   },
   {
     "frequency": 4298,
     "word": "歩き回る",
-    "reading": "",
+    "reading": "あるきまわる",
     "type": "verb",
     "meaning": "walk about"
   },
   {
     "frequency": 4299,
     "word": "悲劇",
-    "reading": "",
+    "reading": "ひげき",
     "type": "noun",
     "meaning": "tragedy"
   },
   {
     "frequency": 4300,
     "word": "長女",
-    "reading": "",
+    "reading": "ちょうじょ",
     "type": "noun",
     "meaning": "eldest daughter"
   },
   {
     "frequency": 4301,
     "word": "議会",
-    "reading": "",
+    "reading": "ぎかい",
     "type": "noun",
     "meaning": "Diet, Parliament, Congress"
   },
   {
     "frequency": 4302,
     "word": "侵入",
-    "reading": "",
+    "reading": "しんにゅう",
     "type": "noun",
     "meaning": "invasion"
   },
@@ -34440,84 +34440,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4304,
     "word": "転ずる",
-    "reading": "",
+    "reading": "てんずる",
     "type": "verb",
     "meaning": "switch, shift"
   },
   {
     "frequency": 4305,
     "word": "祭る",
-    "reading": "",
+    "reading": "まつる",
     "type": "verb",
     "meaning": "enshrine; worship; deify"
   },
   {
     "frequency": 4306,
     "word": "笑み",
-    "reading": "",
+    "reading": "えみ",
     "type": "noun",
     "meaning": "smile"
   },
   {
     "frequency": 4307,
     "word": "三度",
-    "reading": "",
+    "reading": "さんど",
     "type": "noun",
     "meaning": "three times"
   },
   {
     "frequency": 4308,
     "word": "冷える",
-    "reading": "",
+    "reading": "ひえる",
     "type": "verb",
     "meaning": "chill, become cold, feel cold"
   },
   {
     "frequency": 4309,
     "word": "案",
-    "reading": "",
+    "reading": "あん",
     "type": "noun",
     "meaning": "plan, proposal, idea"
   },
   {
     "frequency": 4310,
     "word": "心理",
-    "reading": "",
+    "reading": "しんり",
     "type": "noun",
     "meaning": "psychology"
   },
   {
     "frequency": 4311,
     "word": "縫う",
-    "reading": "",
+    "reading": "ぬう",
     "type": "verb",
     "meaning": "sew"
   },
   {
     "frequency": 4312,
     "word": "おしゃべり",
-    "reading": "",
+    "reading": "おしゃべり",
     "type": "noun",
     "meaning": "chat, talk"
   },
   {
     "frequency": 4312,
     "word": "おしゃべりする",
-    "reading": "",
+    "reading": "おしゃべりする",
     "type": "verb",
     "meaning": "chat, talk"
   },
   {
     "frequency": 4313,
     "word": "次ぐ",
-    "reading": "",
+    "reading": "つぐ",
     "type": "verb",
     "meaning": "next to, after"
   },
   {
     "frequency": 4314,
     "word": "復帰",
-    "reading": "",
+    "reading": "ふっき",
     "type": "noun",
     "meaning": "return, comeback"
   },
@@ -34531,7 +34531,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4315,
     "word": "衝突",
-    "reading": "",
+    "reading": "しょうとつ",
     "type": "noun",
     "meaning": "collision"
   },
@@ -34545,35 +34545,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4316,
     "word": "持ち出す",
-    "reading": "",
+    "reading": "もちだす",
     "type": "verb",
     "meaning": "carry out, take out"
   },
   {
     "frequency": 4317,
     "word": "浸かる",
-    "reading": "",
+    "reading": "つかる",
     "type": "verb",
     "meaning": "be flooded; soak"
   },
   {
     "frequency": 4318,
     "word": "ドライブ",
-    "reading": "",
+    "reading": "ドライブ",
     "type": "noun",
     "meaning": "drive"
   },
   {
     "frequency": 4319,
     "word": "テキスト",
-    "reading": "",
+    "reading": "テキスト",
     "type": "noun",
     "meaning": "textbook"
   },
   {
     "frequency": 4320,
     "word": "変動",
-    "reading": "",
+    "reading": "へんどう",
     "type": "noun",
     "meaning": "change, fluctuation, movement"
   },
@@ -34587,63 +34587,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4321,
     "word": "吸い込む",
-    "reading": "",
+    "reading": "すいこむ",
     "type": "verb",
     "meaning": "breathe in; suck up"
   },
   {
     "frequency": 4322,
     "word": "木々",
-    "reading": "",
+    "reading": "きぎ",
     "type": "noun",
     "meaning": "trees"
   },
   {
     "frequency": 4323,
     "word": "ヒット",
-    "reading": "",
+    "reading": "ヒット",
     "type": "noun",
     "meaning": "hit"
   },
   {
     "frequency": 4324,
     "word": "箸",
-    "reading": "",
+    "reading": "はし",
     "type": "noun",
     "meaning": "chopsticks"
   },
   {
     "frequency": 4325,
     "word": "食欲",
-    "reading": "",
+    "reading": "しょくよく",
     "type": "noun",
     "meaning": "appetite"
   },
   {
     "frequency": 4326,
     "word": "語",
-    "reading": "",
+    "reading": "ご",
     "type": "noun",
     "meaning": "word; language"
   },
   {
     "frequency": 4327,
     "word": "通信",
-    "reading": "",
+    "reading": "つうしん",
     "type": "noun",
     "meaning": "correspondence, communication"
   },
   {
     "frequency": 4328,
     "word": "一家",
-    "reading": "",
+    "reading": "いっか",
     "type": "noun",
     "meaning": "family, house, household"
   },
   {
     "frequency": 4329,
     "word": "怒鳴る",
-    "reading": "",
+    "reading": "どなる",
     "type": "verb",
     "meaning": "shout"
   },
@@ -34657,84 +34657,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4331,
     "word": "専業主婦",
-    "reading": "",
+    "reading": "せんぎょうしゅふ",
     "type": "noun",
     "meaning": "housewife"
   },
   {
     "frequency": 4332,
     "word": "滝",
-    "reading": "",
+    "reading": "たき",
     "type": "noun",
     "meaning": "waterfall"
   },
   {
     "frequency": 4333,
     "word": "ひねる",
-    "reading": "",
+    "reading": "ひねる",
     "type": "verb",
     "meaning": "twist"
   },
   {
     "frequency": 4334,
     "word": "身分",
-    "reading": "",
+    "reading": "みぶん",
     "type": "noun",
     "meaning": "position, status"
   },
   {
     "frequency": 4335,
     "word": "敷地",
-    "reading": "",
+    "reading": "しきち",
     "type": "noun",
     "meaning": "site, ground"
   },
   {
     "frequency": 4336,
     "word": "冷める",
-    "reading": "",
+    "reading": "さめる",
     "type": "verb",
     "meaning": "cool, get cold"
   },
   {
     "frequency": 4337,
     "word": "ブルー",
-    "reading": "",
+    "reading": "ブルー",
     "type": "noun",
     "meaning": "blue"
   },
   {
     "frequency": 4338,
     "word": "先進国",
-    "reading": "",
+    "reading": "せんしんこく",
     "type": "noun",
     "meaning": "developed country"
   },
   {
     "frequency": 4339,
     "word": "バナナ",
-    "reading": "",
+    "reading": "バナナ",
     "type": "noun",
     "meaning": "banana"
   },
   {
     "frequency": 4340,
     "word": "取り扱い",
-    "reading": "",
+    "reading": "とりあつかい",
     "type": "noun",
     "meaning": "treatment, handling"
   },
   {
     "frequency": 4341,
     "word": "フィルム",
-    "reading": "",
+    "reading": "フィルム",
     "type": "noun",
     "meaning": "film"
   },
   {
     "frequency": 4342,
     "word": "日本酒",
-    "reading": "",
+    "reading": "にほんしゅ",
     "type": "noun",
     "meaning": "sake, Japanese rice wine"
   },
@@ -34748,21 +34748,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4344,
     "word": "透明",
-    "reading": "",
+    "reading": "とうめい",
     "type": "na-adjective",
     "meaning": "transparent, clear"
   },
   {
     "frequency": 4345,
     "word": "即",
-    "reading": "",
+    "reading": "そく",
     "type": "adverb",
     "meaning": "at once, immediately"
   },
   {
     "frequency": 4346,
     "word": "克服",
-    "reading": "",
+    "reading": "こくふく",
     "type": "noun",
     "meaning": "conquest"
   },
@@ -34776,7 +34776,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4347,
     "word": "専門学校",
-    "reading": "",
+    "reading": "せんもんがっこう",
     "type": "noun",
     "meaning": "technical school, college, vocational school"
   },
@@ -34790,84 +34790,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4349,
     "word": "朝日",
-    "reading": "",
+    "reading": "あさひ",
     "type": "noun",
     "meaning": "rising sun, morning sun"
   },
   {
     "frequency": 4350,
     "word": "スタジオ",
-    "reading": "",
+    "reading": "スタジオ",
     "type": "noun",
     "meaning": "studio"
   },
   {
     "frequency": 4351,
     "word": "長期",
-    "reading": "",
+    "reading": "ちょうき",
     "type": "noun",
     "meaning": "long term"
   },
   {
     "frequency": 4352,
     "word": "美人",
-    "reading": "",
+    "reading": "びじん",
     "type": "noun",
     "meaning": "beautiful woman, beauty"
   },
   {
     "frequency": 4353,
     "word": "筆記用具",
-    "reading": "",
+    "reading": "ひっきようぐ",
     "type": "noun",
     "meaning": "stationery, writing materials"
   },
   {
     "frequency": 4354,
     "word": "石油",
-    "reading": "",
+    "reading": "せきゆ",
     "type": "noun",
     "meaning": "oil"
   },
   {
     "frequency": 4355,
     "word": "早朝",
-    "reading": "",
+    "reading": "そうちょう",
     "type": "noun",
     "meaning": "early morning"
   },
   {
     "frequency": 4356,
     "word": "店内",
-    "reading": "",
+    "reading": "てんない",
     "type": "noun",
     "meaning": "inside a shop"
   },
   {
     "frequency": 4357,
     "word": "賃金",
-    "reading": "",
+    "reading": "ちんぎん",
     "type": "noun",
     "meaning": "salary, wage"
   },
   {
     "frequency": 4358,
     "word": "見回す",
-    "reading": "",
+    "reading": "みまわす",
     "type": "verb",
     "meaning": "look around, look about"
   },
   {
     "frequency": 4359,
     "word": "日程",
-    "reading": "",
+    "reading": "にってい",
     "type": "noun",
     "meaning": "schedule, itinerary"
   },
   {
     "frequency": 4360,
     "word": "応用",
-    "reading": "",
+    "reading": "おうよう",
     "type": "noun",
     "meaning": "application"
   },
@@ -34881,28 +34881,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4361,
     "word": "真っ暗",
-    "reading": "",
+    "reading": "まっくら",
     "type": "na-adjective",
     "meaning": "black"
   },
   {
     "frequency": 4361,
     "word": "真っ暗",
-    "reading": "",
+    "reading": "まっくら",
     "type": "noun",
     "meaning": "pitch-dark"
   },
   {
     "frequency": 4362,
     "word": "眉",
-    "reading": "",
+    "reading": "まゆ",
     "type": "noun",
     "meaning": "eyebrow"
   },
   {
     "frequency": 4363,
     "word": "レンズ",
-    "reading": "",
+    "reading": "レンズ",
     "type": "noun",
     "meaning": "lens"
   },
@@ -34916,112 +34916,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4365,
     "word": "俗",
-    "reading": "",
+    "reading": "ぞく",
     "type": "noun, na-adjective",
     "meaning": "common, popular"
   },
   {
     "frequency": 4366,
     "word": "パスタ",
-    "reading": "",
+    "reading": "パスタ",
     "type": "noun",
     "meaning": "pasta"
   },
   {
     "frequency": 4367,
     "word": "差し込む",
-    "reading": "",
+    "reading": "さしこむ",
     "type": "verb",
     "meaning": "insert, plug in; come in, shine in"
   },
   {
     "frequency": 4368,
     "word": "性能",
-    "reading": "",
+    "reading": "せいのう",
     "type": "noun",
     "meaning": "performance, capability"
   },
   {
     "frequency": 4369,
     "word": "絵画",
-    "reading": "",
+    "reading": "かいが",
     "type": "noun",
     "meaning": "painting, picture"
   },
   {
     "frequency": 4370,
     "word": "刀",
-    "reading": "",
+    "reading": "かたな",
     "type": "noun",
     "meaning": "sword"
   },
   {
     "frequency": 4371,
     "word": "理念",
-    "reading": "",
+    "reading": "りねん",
     "type": "noun",
     "meaning": "philosophy"
   },
   {
     "frequency": 4372,
     "word": "裁判官",
-    "reading": "",
+    "reading": "さいばんかん",
     "type": "noun",
     "meaning": "judge"
   },
   {
     "frequency": 4373,
     "word": "戦略",
-    "reading": "",
+    "reading": "せんりゃく",
     "type": "noun",
     "meaning": "strategy"
   },
   {
     "frequency": 4374,
     "word": "核",
-    "reading": "",
+    "reading": "かく",
     "type": "noun",
     "meaning": "nucleus, core"
   },
   {
     "frequency": 4375,
     "word": "農民",
-    "reading": "",
+    "reading": "のうみん",
     "type": "noun",
     "meaning": "farmer"
   },
   {
     "frequency": 4376,
     "word": "コンクリート",
-    "reading": "",
+    "reading": "コンクリート",
     "type": "noun",
     "meaning": "concrete"
   },
   {
     "frequency": 4377,
     "word": "環境問題",
-    "reading": "",
+    "reading": "かんきょうもんだい",
     "type": "noun",
     "meaning": "environmental problem"
   },
   {
     "frequency": 4378,
     "word": "ライター",
-    "reading": "",
+    "reading": "ライター",
     "type": "noun",
     "meaning": "lighter"
   },
   {
     "frequency": 4379,
     "word": "手入れ",
-    "reading": "",
+    "reading": "ていれ",
     "type": "noun",
     "meaning": "repair, maintenance"
   },
   {
     "frequency": 4380,
     "word": "判定",
-    "reading": "",
+    "reading": "はんてい",
     "type": "noun",
     "meaning": "decision, judgment"
   },
@@ -35035,28 +35035,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4381,
     "word": "帯びる",
-    "reading": "",
+    "reading": "おびる",
     "type": "verb",
     "meaning": "have a trace of, be tinged with"
   },
   {
     "frequency": 4382,
     "word": "日曜",
-    "reading": "",
+    "reading": "にちよう",
     "type": "noun",
     "meaning": "Sunday"
   },
   {
     "frequency": 4383,
     "word": "昨今",
-    "reading": "",
+    "reading": "さっこん",
     "type": "noun",
     "meaning": "nowadays"
   },
   {
     "frequency": 4384,
     "word": "対話",
-    "reading": "",
+    "reading": "たいわ",
     "type": "noun",
     "meaning": "dialogue, conversation"
   },
@@ -35070,119 +35070,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4385,
     "word": "帯",
-    "reading": "",
+    "reading": "おび",
     "type": "noun",
     "meaning": "kimono sash, belt"
   },
   {
     "frequency": 4386,
     "word": "お好み焼き",
-    "reading": "",
+    "reading": "おこのみやき",
     "type": "noun",
     "meaning": "okonomiyaki (Japanese-style savoury pancake with vegetables, meat, seafood etc.)"
   },
   {
     "frequency": 4387,
     "word": "羊",
-    "reading": "",
+    "reading": "ひつじ",
     "type": "noun",
     "meaning": "sheep"
   },
   {
     "frequency": 4388,
     "word": "前半",
-    "reading": "",
+    "reading": "ぜんはん",
     "type": "noun",
     "meaning": "first half"
   },
   {
     "frequency": 4389,
     "word": "ショー",
-    "reading": "",
+    "reading": "ショー",
     "type": "noun",
     "meaning": "show"
   },
   {
     "frequency": 4390,
     "word": "研究所",
-    "reading": "",
+    "reading": "けんきゅうじょ",
     "type": "noun",
     "meaning": "research institute, laboratory"
   },
   {
     "frequency": 4391,
     "word": "生姜",
-    "reading": "",
+    "reading": "しょうが",
     "type": "noun",
     "meaning": "ginger"
   },
   {
     "frequency": 4392,
     "word": "冒頭",
-    "reading": "",
+    "reading": "ぼうとう",
     "type": "noun",
     "meaning": "beginning"
   },
   {
     "frequency": 4393,
     "word": "メジャー",
-    "reading": "",
+    "reading": "メジャー",
     "type": "noun",
     "meaning": "measure"
   },
   {
     "frequency": 4394,
     "word": "公演",
-    "reading": "",
+    "reading": "こうえん",
     "type": "noun",
     "meaning": "performance"
   },
   {
     "frequency": 4395,
     "word": "剣道",
-    "reading": "",
+    "reading": "けんどう",
     "type": "noun",
     "meaning": "kendo"
   },
   {
     "frequency": 4396,
     "word": "倉庫",
-    "reading": "",
+    "reading": "そうこ",
     "type": "noun",
     "meaning": "warehouse, storehouse"
   },
   {
     "frequency": 4397,
     "word": "浴衣",
-    "reading": "",
+    "reading": "ゆかた",
     "type": "noun",
     "meaning": "yukata, cotton kimono"
   },
   {
     "frequency": 4398,
     "word": "直径",
-    "reading": "",
+    "reading": "ちょっけい",
     "type": "noun",
     "meaning": "diameter"
   },
   {
     "frequency": 4399,
     "word": "残業",
-    "reading": "",
+    "reading": "ざんぎょう",
     "type": "noun",
     "meaning": "overtime work"
   },
   {
     "frequency": 4400,
     "word": "殺人",
-    "reading": "",
+    "reading": "さつじん",
     "type": "noun",
     "meaning": "murder"
   },
   {
     "frequency": 4401,
     "word": "判明",
-    "reading": "",
+    "reading": "はんめい",
     "type": "noun",
     "meaning": "proving"
   },
@@ -35196,7 +35196,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4402,
     "word": "統合",
-    "reading": "",
+    "reading": "とうごう",
     "type": "noun",
     "meaning": "integration"
   },
@@ -35210,56 +35210,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4403,
     "word": "水気",
-    "reading": "",
+    "reading": "みずけ",
     "type": "noun",
     "meaning": "moisture"
   },
   {
     "frequency": 4404,
     "word": "我ら",
-    "reading": "",
+    "reading": "われら",
     "type": "pronoun",
     "meaning": "we"
   },
   {
     "frequency": 4405,
     "word": "原料",
-    "reading": "",
+    "reading": "げんりょう",
     "type": "noun",
     "meaning": "raw material, ingredient"
   },
   {
     "frequency": 4406,
     "word": "群れ",
-    "reading": "",
+    "reading": "むれ",
     "type": "noun",
     "meaning": "group; herd"
   },
   {
     "frequency": 4407,
     "word": "新婦",
-    "reading": "",
+    "reading": "しんぷ",
     "type": "noun",
     "meaning": "bride"
   },
   {
     "frequency": 4408,
     "word": "持ち物",
-    "reading": "",
+    "reading": "もちもの",
     "type": "noun",
     "meaning": "personal belongings"
   },
   {
     "frequency": 4409,
     "word": "転がる",
-    "reading": "",
+    "reading": "ころがる",
     "type": "verb",
     "meaning": "roll"
   },
   {
     "frequency": 4410,
     "word": "おはよう",
-    "reading": "",
+    "reading": "おはよう",
     "type": "interjection",
     "meaning": "good morning"
   },
@@ -35273,21 +35273,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4412,
     "word": "天候",
-    "reading": "",
+    "reading": "てんこう",
     "type": "noun",
     "meaning": "weather"
   },
   {
     "frequency": 4413,
     "word": "危険性",
-    "reading": "",
+    "reading": "きけんせい",
     "type": "noun",
     "meaning": "danger"
   },
   {
     "frequency": 4414,
     "word": "創設",
-    "reading": "",
+    "reading": "そうせつ",
     "type": "noun",
     "meaning": "foundation, creation"
   },
@@ -35301,35 +35301,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4415,
     "word": "年末",
-    "reading": "",
+    "reading": "ねんまつ",
     "type": "noun",
     "meaning": "end of the year"
   },
   {
     "frequency": 4416,
     "word": "感",
-    "reading": "",
+    "reading": "かん",
     "type": "noun",
     "meaning": "feeling, emotion"
   },
   {
     "frequency": 4417,
     "word": "イコール",
-    "reading": "",
+    "reading": "イコール",
     "type": "noun",
     "meaning": "equal"
   },
   {
     "frequency": 4418,
     "word": "実質的",
-    "reading": "",
+    "reading": "じっしつてき",
     "type": "na-adjective",
     "meaning": "substantial; essential"
   },
   {
     "frequency": 4419,
     "word": "響き",
-    "reading": "",
+    "reading": "どよめき",
     "type": "noun",
     "meaning": "sound; echo"
   },
@@ -35343,49 +35343,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4421,
     "word": "プラン",
-    "reading": "",
+    "reading": "プラン",
     "type": "noun",
     "meaning": "plan"
   },
   {
     "frequency": 4422,
     "word": "グラウンド",
-    "reading": "",
+    "reading": "グラウンド",
     "type": "noun",
     "meaning": "ground, playground, sports field"
   },
   {
     "frequency": 4423,
     "word": "メキシコ",
-    "reading": "",
+    "reading": "メキシコ",
     "type": "noun",
     "meaning": "Mexico"
   },
   {
     "frequency": 4424,
     "word": "バー",
-    "reading": "",
+    "reading": "バー",
     "type": "noun",
     "meaning": "bar"
   },
   {
     "frequency": 4425,
     "word": "カップ",
-    "reading": "",
+    "reading": "カップ",
     "type": "noun",
     "meaning": "cup"
   },
   {
     "frequency": 4426,
     "word": "訴訟",
-    "reading": "",
+    "reading": "そしょう",
     "type": "noun",
     "meaning": "suit, action"
   },
   {
     "frequency": 4427,
     "word": "流通",
-    "reading": "",
+    "reading": "りゅうつう",
     "type": "noun",
     "meaning": "circulation, distribution"
   },
@@ -35399,49 +35399,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4428,
     "word": "郵送",
-    "reading": "",
+    "reading": "ゆうそう",
     "type": "noun",
     "meaning": "mail, post"
   },
   {
     "frequency": 4429,
     "word": "平ら",
-    "reading": "",
+    "reading": "たいら",
     "type": "na-adjective",
     "meaning": "flat"
   },
   {
     "frequency": 4430,
     "word": "赤字",
-    "reading": "",
+    "reading": "あかじ",
     "type": "noun",
     "meaning": "deficit, loss, the red"
   },
   {
     "frequency": 4431,
     "word": "二位",
-    "reading": "",
+    "reading": "にい",
     "type": "noun",
     "meaning": "second place"
   },
   {
     "frequency": 4432,
     "word": "刃物",
-    "reading": "",
+    "reading": "はもの",
     "type": "noun",
     "meaning": "cutlery, edged tool, knife"
   },
   {
     "frequency": 4433,
     "word": "苦情",
-    "reading": "",
+    "reading": "くじょう",
     "type": "noun",
     "meaning": "complaint"
   },
   {
     "frequency": 4434,
     "word": "入社",
-    "reading": "",
+    "reading": "にゅうしゃ",
     "type": "noun",
     "meaning": "entry to a company"
   },
@@ -35455,7 +35455,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4435,
     "word": "役所",
-    "reading": "",
+    "reading": "やくしょ",
     "type": "noun",
     "meaning": "government office"
   },
@@ -35469,14 +35469,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4437,
     "word": "チラシ",
-    "reading": "",
+    "reading": "チラシ",
     "type": "noun",
     "meaning": "flyer, leaflet, handout"
   },
   {
     "frequency": 4438,
     "word": "成人",
-    "reading": "",
+    "reading": "せいじん",
     "type": "noun",
     "meaning": "adult"
   },
@@ -35490,28 +35490,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4439,
     "word": "工具",
-    "reading": "",
+    "reading": "こうぐ",
     "type": "noun",
     "meaning": "tool"
   },
   {
     "frequency": 4440,
     "word": "先週",
-    "reading": "",
+    "reading": "せんしゅう",
     "type": "noun",
     "meaning": "last week"
   },
   {
     "frequency": 4441,
     "word": "境",
-    "reading": "",
+    "reading": "さかい",
     "type": "noun",
     "meaning": "boundary, border"
   },
   {
     "frequency": 4442,
     "word": "国語",
-    "reading": "",
+    "reading": "こくご",
     "type": "noun",
     "meaning": "Japanese language"
   },
@@ -35525,63 +35525,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4444,
     "word": "兵士",
-    "reading": "",
+    "reading": "へいし",
     "type": "noun",
     "meaning": "soldier"
   },
   {
     "frequency": 4445,
     "word": "芸能人",
-    "reading": "",
+    "reading": "げいのうじん",
     "type": "noun",
     "meaning": "entertainer"
   },
   {
     "frequency": 4446,
     "word": "こんにちは",
-    "reading": "",
+    "reading": "こんにちは",
     "type": "interjection",
     "meaning": "Hello, Good afternoon"
   },
   {
     "frequency": 4447,
     "word": "ふっと",
-    "reading": "",
+    "reading": "ふっと",
     "type": "adverb",
     "meaning": "suddenly"
   },
   {
     "frequency": 4448,
     "word": "日付け",
-    "reading": "",
+    "reading": "ひづけ",
     "type": "noun",
     "meaning": "date, day"
   },
   {
     "frequency": 4449,
     "word": "相違",
-    "reading": "",
+    "reading": "そうい",
     "type": "noun",
     "meaning": "difference, disagreement"
   },
   {
     "frequency": 4450,
     "word": "決定的",
-    "reading": "",
+    "reading": "けっていてき",
     "type": "na-adjective",
     "meaning": "definitive, absolute"
   },
   {
     "frequency": 4451,
     "word": "無意識",
-    "reading": "",
+    "reading": "むいしき",
     "type": "noun",
     "meaning": "unconsciousness"
   },
   {
     "frequency": 4451,
     "word": "無意識",
-    "reading": "",
+    "reading": "むいしき",
     "type": "na-adjective",
     "meaning": "unconscious"
   },
@@ -35595,7 +35595,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4453,
     "word": "債務者",
-    "reading": "",
+    "reading": "さいむしゃ",
     "type": "noun",
     "meaning": "debtor"
   },
@@ -35609,7 +35609,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4455,
     "word": "始末",
-    "reading": "",
+    "reading": "しまつ",
     "type": "noun",
     "meaning": "disposal, circumstances"
   },
@@ -35623,42 +35623,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4456,
     "word": "合間",
-    "reading": "",
+    "reading": "あいま",
     "type": "noun",
     "meaning": "interval, pause, spare moment"
   },
   {
     "frequency": 4457,
     "word": "副作用",
-    "reading": "",
+    "reading": "ふくさよう",
     "type": "noun",
     "meaning": "side effect"
   },
   {
     "frequency": 4458,
     "word": "成分",
-    "reading": "",
+    "reading": "せいぶん",
     "type": "noun",
     "meaning": "ingredient, constituent, component"
   },
   {
     "frequency": 4459,
     "word": "初",
-    "reading": "",
+    "reading": "はつ",
     "type": "noun",
     "meaning": "first"
   },
   {
     "frequency": 4460,
     "word": "ドライバー",
-    "reading": "",
+    "reading": "ドライバー",
     "type": "noun",
     "meaning": "driver"
   },
   {
     "frequency": 4461,
     "word": "渋滞",
-    "reading": "",
+    "reading": "じゅうたい",
     "type": "noun",
     "meaning": "traffic jam, delay"
   },
@@ -35672,7 +35672,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4462,
     "word": "遠慮",
-    "reading": "",
+    "reading": "えんりょ",
     "type": "noun",
     "meaning": "reserve"
   },
@@ -35693,28 +35693,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4464,
     "word": "今週",
-    "reading": "",
+    "reading": "こんしゅう",
     "type": "noun",
     "meaning": "this week"
   },
   {
     "frequency": 4465,
     "word": "慰める",
-    "reading": "",
+    "reading": "なぐさめる",
     "type": "verb",
     "meaning": "console, comfort"
   },
   {
     "frequency": 4466,
     "word": "一方的",
-    "reading": "",
+    "reading": "いっぽうてき",
     "type": "na-adjective",
     "meaning": "unilateral, one-sided"
   },
   {
     "frequency": 4467,
     "word": "開設",
-    "reading": "",
+    "reading": "かいせつ",
     "type": "noun",
     "meaning": "establishment"
   },
@@ -35728,42 +35728,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4468,
     "word": "アニメ",
-    "reading": "",
+    "reading": "アニメ",
     "type": "noun",
     "meaning": "animation"
   },
   {
     "frequency": 4469,
     "word": "さっさと",
-    "reading": "",
+    "reading": "さっさと",
     "type": "adverb",
     "meaning": "quickly"
   },
   {
     "frequency": 4470,
     "word": "勢力",
-    "reading": "",
+    "reading": "せいりょく",
     "type": "noun",
     "meaning": "power, influence, strength"
   },
   {
     "frequency": 4471,
     "word": "梅",
-    "reading": "",
+    "reading": "うめ",
     "type": "noun",
     "meaning": "plum, Japanese apricot"
   },
   {
     "frequency": 4472,
     "word": "霊",
-    "reading": "",
+    "reading": "れい",
     "type": "noun",
     "meaning": "spirit, soul"
   },
   {
     "frequency": 4473,
     "word": "予感",
-    "reading": "",
+    "reading": "よかん",
     "type": "noun",
     "meaning": "presentiment, foreboding, hunch"
   },
@@ -35777,42 +35777,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4474,
     "word": "学者",
-    "reading": "",
+    "reading": "がくしゃ",
     "type": "noun",
     "meaning": "scholar"
   },
   {
     "frequency": 4475,
     "word": "車椅子",
-    "reading": "",
+    "reading": "くるまいす",
     "type": "noun",
     "meaning": "wheelchair"
   },
   {
     "frequency": 4476,
     "word": "月曜日",
-    "reading": "",
+    "reading": "げつようび",
     "type": "noun",
     "meaning": "Monday"
   },
   {
     "frequency": 4477,
     "word": "北京",
-    "reading": "",
+    "reading": "ペキン",
     "type": "noun",
     "meaning": "Beijing"
   },
   {
     "frequency": 4478,
     "word": "論理",
-    "reading": "",
+    "reading": "ろんり",
     "type": "noun",
     "meaning": "logic"
   },
   {
     "frequency": 4479,
     "word": "見込む",
-    "reading": "",
+    "reading": "みこむ",
     "type": "verb",
     "meaning": "expect, trust"
   },
@@ -35826,7 +35826,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4481,
     "word": "歩道",
-    "reading": "",
+    "reading": "ほどう",
     "type": "noun",
     "meaning": "sidewalk, pavement"
   },
@@ -35840,7 +35840,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4483,
     "word": "政治的",
-    "reading": "",
+    "reading": "せいじてき",
     "type": "na-adjective",
     "meaning": "political"
   },
@@ -35854,49 +35854,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4485,
     "word": "欠く",
-    "reading": "",
+    "reading": "かく",
     "type": "verb",
     "meaning": "lack; chip"
   },
   {
     "frequency": 4486,
     "word": "報告書",
-    "reading": "",
+    "reading": "ほうこくしょ",
     "type": "noun",
     "meaning": "report"
   },
   {
     "frequency": 4487,
     "word": "近づける",
-    "reading": "",
+    "reading": "ちかづける",
     "type": "verb",
     "meaning": "bring close"
   },
   {
     "frequency": 4488,
     "word": "壼",
-    "reading": "",
+    "reading": "つぼ",
     "type": "noun",
     "meaning": "pot, vase"
   },
   {
     "frequency": 4489,
     "word": "講座",
-    "reading": "",
+    "reading": "こうざ",
     "type": "noun",
     "meaning": "course, lecture"
   },
   {
     "frequency": 4490,
     "word": "レシピ",
-    "reading": "",
+    "reading": "レシピ",
     "type": "noun",
     "meaning": "recipe"
   },
   {
     "frequency": 4491,
     "word": "行列",
-    "reading": "",
+    "reading": "ぎょうれつ",
     "type": "noun",
     "meaning": "procession, line, parade"
   },
@@ -35910,7 +35910,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4492,
     "word": "計上",
-    "reading": "",
+    "reading": "けいじょう",
     "type": "noun",
     "meaning": "appropriation"
   },
@@ -35924,7 +35924,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4493,
     "word": "受診",
-    "reading": "",
+    "reading": "じゅしん",
     "type": "noun",
     "meaning": "(medical) consultation"
   },
@@ -35938,7 +35938,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4494,
     "word": "指揮",
-    "reading": "",
+    "reading": "しき",
     "type": "noun",
     "meaning": "direction, command"
   },
@@ -35952,7 +35952,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4495,
     "word": "保管",
-    "reading": "",
+    "reading": "ほかん",
     "type": "noun",
     "meaning": "keeping, storage"
   },
@@ -35966,14 +35966,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4496,
     "word": "パートナー",
-    "reading": "",
+    "reading": "パートナー",
     "type": "noun",
     "meaning": "partner"
   },
   {
     "frequency": 4497,
     "word": "発足",
-    "reading": "",
+    "reading": "ほっそく",
     "type": "noun",
     "meaning": "start"
   },
@@ -35987,21 +35987,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4498,
     "word": "火事",
-    "reading": "",
+    "reading": "かじ",
     "type": "noun",
     "meaning": "fire"
   },
   {
     "frequency": 4499,
     "word": "中世",
-    "reading": "",
+    "reading": "ちゅうせい",
     "type": "noun",
     "meaning": "Middle Ages, medieval"
   },
   {
     "frequency": 4500,
     "word": "考察",
-    "reading": "",
+    "reading": "こうさつ",
     "type": "noun",
     "meaning": "consideration, examination"
   },
@@ -36015,28 +36015,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4501,
     "word": "祝い",
-    "reading": "",
+    "reading": "いわい",
     "type": "noun",
     "meaning": "celebration"
   },
   {
     "frequency": 4502,
     "word": "儲ける",
-    "reading": "",
+    "reading": "もうける",
     "type": "verb",
     "meaning": "profit, earn, gain"
   },
   {
     "frequency": 4503,
     "word": "指差す",
-    "reading": "",
+    "reading": "ゆびさす",
     "type": "verb",
     "meaning": "point"
   },
   {
     "frequency": 4504,
     "word": "認可",
-    "reading": "",
+    "reading": "にんか",
     "type": "noun",
     "meaning": "permission, approval"
   },
@@ -36050,42 +36050,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4505,
     "word": "劣る",
-    "reading": "",
+    "reading": "おとる",
     "type": "verb",
     "meaning": "be inferior"
   },
   {
     "frequency": 4506,
     "word": "ぶつける",
-    "reading": "",
+    "reading": "ぶつける",
     "type": "verb",
     "meaning": "hit; throw"
   },
   {
     "frequency": 4507,
     "word": "条約",
-    "reading": "",
+    "reading": "じょうやく",
     "type": "noun",
     "meaning": "treaty, agreement"
   },
   {
     "frequency": 4508,
     "word": "像",
-    "reading": "",
+    "reading": "ぞう",
     "type": "noun",
     "meaning": "figure, statue"
   },
   {
     "frequency": 4509,
     "word": "マッチ",
-    "reading": "",
+    "reading": "マッチ",
     "type": "noun",
     "meaning": "match"
   },
   {
     "frequency": 4509,
     "word": "マッチする",
-    "reading": "",
+    "reading": "マッチする",
     "type": "verb",
     "meaning": "match"
   },
@@ -36099,28 +36099,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4511,
     "word": "キャベツ",
-    "reading": "",
+    "reading": "キャベツ",
     "type": "noun",
     "meaning": "cabbage"
   },
   {
     "frequency": 4512,
     "word": "デザート",
-    "reading": "",
+    "reading": "デザート",
     "type": "noun",
     "meaning": "dessert"
   },
   {
     "frequency": 4513,
     "word": "議員",
-    "reading": "",
+    "reading": "ぎいん",
     "type": "noun",
     "meaning": "member of Diet/Congress/Parliament"
   },
   {
     "frequency": 4514,
     "word": "審議",
-    "reading": "",
+    "reading": "しんぎ",
     "type": "noun",
     "meaning": "discussion, deliberation"
   },
@@ -36134,84 +36134,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4515,
     "word": "涼しい",
-    "reading": "",
+    "reading": "すずしい",
     "type": "i-adjective",
     "meaning": "cool"
   },
   {
     "frequency": 4516,
     "word": "性",
-    "reading": "",
+    "reading": "さが",
     "type": "noun",
     "meaning": "sex, gender"
   },
   {
     "frequency": 4517,
     "word": "仕草",
-    "reading": "",
+    "reading": "しぐさ",
     "type": "noun",
     "meaning": "behavior, gesture"
   },
   {
     "frequency": 4518,
     "word": "マスター",
-    "reading": "",
+    "reading": "マスター",
     "type": "noun",
     "meaning": "master"
   },
   {
     "frequency": 4518,
     "word": "マスターする",
-    "reading": "",
+    "reading": "マスターする",
     "type": "verb",
     "meaning": "master"
   },
   {
     "frequency": 4519,
     "word": "泡",
-    "reading": "",
+    "reading": "あわ",
     "type": "noun",
     "meaning": "bubble, foam"
   },
   {
     "frequency": 4520,
     "word": "年配",
-    "reading": "",
+    "reading": "ねんぱい",
     "type": "noun",
     "meaning": "elderly person"
   },
   {
     "frequency": 4521,
     "word": "万が一",
-    "reading": "",
+    "reading": "まんがいち",
     "type": "adverb",
     "meaning": "just in case"
   },
   {
     "frequency": 4522,
     "word": "挙げ句",
-    "reading": "",
+    "reading": "あげく",
     "type": "noun",
     "meaning": "in the end, finally"
   },
   {
     "frequency": 4523,
     "word": "つなげる",
-    "reading": "",
+    "reading": "つなげる",
     "type": "verb",
     "meaning": "connect, tie"
   },
   {
     "frequency": 4524,
     "word": "弟子",
-    "reading": "",
+    "reading": "でし",
     "type": "noun",
     "meaning": "pupil, disciple"
   },
   {
     "frequency": 4525,
     "word": "分解",
-    "reading": "",
+    "reading": "ぶんかい",
     "type": "noun",
     "meaning": "analysis"
   },
@@ -36225,21 +36225,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4526,
     "word": "一発",
-    "reading": "",
+    "reading": "いっぱつ",
     "type": "noun",
     "meaning": "shot, punch"
   },
   {
     "frequency": 4527,
     "word": "ささやく",
-    "reading": "",
+    "reading": "ささやく",
     "type": "verb",
     "meaning": "whisper"
   },
   {
     "frequency": 4528,
     "word": "調達",
-    "reading": "",
+    "reading": "ちょうたつ",
     "type": "noun",
     "meaning": "supply, procurement"
   },
@@ -36253,119 +36253,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4529,
     "word": "二十六",
-    "reading": "",
+    "reading": "にじゅうろく",
     "type": "numeral",
     "meaning": "twenty-six"
   },
   {
     "frequency": 4530,
     "word": "制服",
-    "reading": "",
+    "reading": "せいふく",
     "type": "noun",
     "meaning": "uniform"
   },
   {
     "frequency": 4531,
     "word": "オーブン",
-    "reading": "",
+    "reading": "オーブン",
     "type": "noun",
     "meaning": "oven"
   },
   {
     "frequency": 4532,
     "word": "パンフレット",
-    "reading": "",
+    "reading": "パンフレット",
     "type": "noun",
     "meaning": "brochure"
   },
   {
     "frequency": 4533,
     "word": "賞",
-    "reading": "",
+    "reading": "しょう",
     "type": "noun",
     "meaning": "prize, award"
   },
   {
     "frequency": 4534,
     "word": "白人",
-    "reading": "",
+    "reading": "はくじん",
     "type": "noun",
     "meaning": "white person"
   },
   {
     "frequency": 4535,
     "word": "いささか",
-    "reading": "",
+    "reading": "いささか",
     "type": "adverb",
     "meaning": "a little, slightly, rather"
   },
   {
     "frequency": 4536,
     "word": "先頭",
-    "reading": "",
+    "reading": "せんとう",
     "type": "noun",
     "meaning": "head, lead"
   },
   {
     "frequency": 4537,
     "word": "真っ黒",
-    "reading": "",
+    "reading": "まっくろ",
     "type": "na-adjective",
     "meaning": "black"
   },
   {
     "frequency": 4538,
     "word": "すっと",
-    "reading": "",
+    "reading": "すっと",
     "type": "adverb",
     "meaning": "quickly; quietly; straight"
   },
   {
     "frequency": 4539,
     "word": "公共",
-    "reading": "",
+    "reading": "こうきょう",
     "type": "noun",
     "meaning": "public, common"
   },
   {
     "frequency": 4540,
     "word": "貴族",
-    "reading": "",
+    "reading": "きぞく",
     "type": "noun",
     "meaning": "noble, nobility, aristocracy"
   },
   {
     "frequency": 4541,
     "word": "散る",
-    "reading": "",
+    "reading": "ちる",
     "type": "verb",
     "meaning": "fall, drop"
   },
   {
     "frequency": 4542,
     "word": "路地",
-    "reading": "",
+    "reading": "ろじ",
     "type": "noun",
     "meaning": "alley, lane"
   },
   {
     "frequency": 4543,
     "word": "緑色",
-    "reading": "",
+    "reading": "みどりいろ",
     "type": "noun",
     "meaning": "green"
   },
   {
     "frequency": 4544,
     "word": "逃げ出す",
-    "reading": "",
+    "reading": "にげだす",
     "type": "verb",
     "meaning": "run away"
   },
   {
     "frequency": 4545,
     "word": "繁栄",
-    "reading": "",
+    "reading": "はんえい",
     "type": "noun",
     "meaning": "prosperity"
   },
@@ -36379,56 +36379,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4546,
     "word": "銃",
-    "reading": "",
+    "reading": "じゅう",
     "type": "noun",
     "meaning": "gun"
   },
   {
     "frequency": 4547,
     "word": "今後とも",
-    "reading": "",
+    "reading": "こんごとも",
     "type": "adverb",
     "meaning": "from now on, in the future"
   },
   {
     "frequency": 4548,
     "word": "担ぐ",
-    "reading": "",
+    "reading": "かつぐ",
     "type": "verb",
     "meaning": "carry, shoulder"
   },
   {
     "frequency": 4549,
     "word": "撒く",
-    "reading": "",
+    "reading": "まく",
     "type": "verb",
     "meaning": "scatter, water"
   },
   {
     "frequency": 4550,
     "word": "合理的",
-    "reading": "",
+    "reading": "ごうりてき",
     "type": "na-adjective",
     "meaning": "reasonable, rational"
   },
   {
     "frequency": 4551,
     "word": "果て",
-    "reading": "",
+    "reading": "はて",
     "type": "noun",
     "meaning": "the end"
   },
   {
     "frequency": 4552,
     "word": "霧",
-    "reading": "",
+    "reading": "きり",
     "type": "noun",
     "meaning": "fog"
   },
   {
     "frequency": 4553,
     "word": "主催",
-    "reading": "",
+    "reading": "しゅさい",
     "type": "noun",
     "meaning": "promotion, organizing"
   },
@@ -36442,21 +36442,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4554,
     "word": "選択肢",
-    "reading": "",
+    "reading": "せんたくし",
     "type": "noun",
     "meaning": "choices, alternatives"
   },
   {
     "frequency": 4555,
     "word": "密接",
-    "reading": "",
+    "reading": "みっせつ",
     "type": "na-adjective",
     "meaning": "close"
   },
   {
     "frequency": 4556,
     "word": "煮込む",
-    "reading": "",
+    "reading": "にこむ",
     "type": "verb",
     "meaning": "stew"
   },
@@ -36470,7 +36470,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4558,
     "word": "錯覚",
-    "reading": "",
+    "reading": "さっかく",
     "type": "noun",
     "meaning": "illusion, delusion, trick"
   },
@@ -36484,21 +36484,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4559,
     "word": "乗り物",
-    "reading": "",
+    "reading": "のりもの",
     "type": "noun",
     "meaning": "vehicle; (amusement park) ride"
   },
   {
     "frequency": 4560,
     "word": "スパゲッティー",
-    "reading": "",
+    "reading": "スパゲッティー",
     "type": "noun",
     "meaning": "spaghetti"
   },
   {
     "frequency": 4561,
     "word": "隣接",
-    "reading": "",
+    "reading": "りんせつ",
     "type": "noun",
     "meaning": "adjacent, adjoin, next to"
   },
@@ -36519,49 +36519,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4563,
     "word": "ごまかす",
-    "reading": "",
+    "reading": "ごまかす",
     "type": "verb",
     "meaning": "cheat, deceive"
   },
   {
     "frequency": 4564,
     "word": "テクニック",
-    "reading": "",
+    "reading": "テクニック",
     "type": "noun",
     "meaning": "technique"
   },
   {
     "frequency": 4565,
     "word": "ステップ",
-    "reading": "",
+    "reading": "ステップ",
     "type": "noun",
     "meaning": "step"
   },
   {
     "frequency": 4566,
     "word": "任務",
-    "reading": "",
+    "reading": "にんむ",
     "type": "noun",
     "meaning": "duty, task, mission, role"
   },
   {
     "frequency": 4567,
     "word": "小川",
-    "reading": "",
+    "reading": "おがわ",
     "type": "noun",
     "meaning": "stream"
   },
   {
     "frequency": 4568,
     "word": "ロープ",
-    "reading": "",
+    "reading": "ロープ",
     "type": "noun",
     "meaning": "rope"
   },
   {
     "frequency": 4569,
     "word": "到達",
-    "reading": "",
+    "reading": "とうたつ",
     "type": "noun",
     "meaning": "arrival"
   },
@@ -36575,112 +36575,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4570,
     "word": "イエス",
-    "reading": "",
+    "reading": "イエス",
     "type": "noun",
     "meaning": "yes; Jesus (Christ)"
   },
   {
     "frequency": 4571,
     "word": "上海",
-    "reading": "",
+    "reading": "シャンハイ",
     "type": "noun",
     "meaning": "Shanghai"
   },
   {
     "frequency": 4572,
     "word": "顕著",
-    "reading": "",
+    "reading": "けんちょ",
     "type": "na-adjective",
     "meaning": "conspicuous, remarkable"
   },
   {
     "frequency": 4573,
     "word": "生まれ育つ",
-    "reading": "",
+    "reading": "うまれそだつ",
     "type": "verb",
     "meaning": "be born and raised"
   },
   {
     "frequency": 4574,
     "word": "ファッション",
-    "reading": "",
+    "reading": "ファッション",
     "type": "noun",
     "meaning": "fashion"
   },
   {
     "frequency": 4575,
     "word": "緊張感",
-    "reading": "",
+    "reading": "きんちょうかん",
     "type": "noun",
     "meaning": "tension"
   },
   {
     "frequency": 4576,
     "word": "容器",
-    "reading": "",
+    "reading": "ようき",
     "type": "noun",
     "meaning": "container, vessel"
   },
   {
     "frequency": 4577,
     "word": "サポート",
-    "reading": "",
+    "reading": "サポート",
     "type": "noun",
     "meaning": "support"
   },
   {
     "frequency": 4577,
     "word": "サポートする",
-    "reading": "",
+    "reading": "サポートする",
     "type": "verb",
     "meaning": "support"
   },
   {
     "frequency": 4578,
     "word": "転ぶ",
-    "reading": "",
+    "reading": "ころぶ",
     "type": "verb",
     "meaning": "fall, slip"
   },
   {
     "frequency": 4579,
     "word": "まし",
-    "reading": "",
+    "reading": "まし",
     "type": "na-adjective",
     "meaning": "better"
   },
   {
     "frequency": 4579,
     "word": "まし",
-    "reading": "",
+    "reading": "まし",
     "type": "noun",
     "meaning": "increase"
   },
   {
     "frequency": 4580,
     "word": "東北",
-    "reading": "",
+    "reading": "とうほく",
     "type": "noun",
     "meaning": "Northeast, Tohoku region"
   },
   {
     "frequency": 4581,
     "word": "亡くす",
-    "reading": "",
+    "reading": "なくす",
     "type": "verb",
     "meaning": "lose"
   },
   {
     "frequency": 4582,
     "word": "サラダ",
-    "reading": "",
+    "reading": "サラダ",
     "type": "noun",
     "meaning": "salad"
   },
   {
     "frequency": 4583,
     "word": "注意点",
-    "reading": "",
+    "reading": "ちゅういてん",
     "type": "noun",
     "meaning": "important point"
   },
@@ -36694,28 +36694,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4585,
     "word": "米軍",
-    "reading": "",
+    "reading": "べいぐん",
     "type": "noun",
     "meaning": "US armed forces"
   },
   {
     "frequency": 4586,
     "word": "デメリット",
-    "reading": "",
+    "reading": "デメリット",
     "type": "noun",
     "meaning": "disadvantage"
   },
   {
     "frequency": 4587,
     "word": "国道",
-    "reading": "",
+    "reading": "こくどう",
     "type": "noun",
     "meaning": "national highway"
   },
   {
     "frequency": 4588,
     "word": "浸透",
-    "reading": "",
+    "reading": "しんとう",
     "type": "noun",
     "meaning": "soaking, penetration"
   },
@@ -36729,7 +36729,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4589,
     "word": "合図",
-    "reading": "",
+    "reading": "あいず",
     "type": "noun",
     "meaning": "signal, sign"
   },
@@ -36743,28 +36743,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4590,
     "word": "フェリー",
-    "reading": "",
+    "reading": "フェリー",
     "type": "noun",
     "meaning": "ferry"
   },
   {
     "frequency": 4591,
     "word": "貿易",
-    "reading": "",
+    "reading": "ぼうえき",
     "type": "noun",
     "meaning": "trade, commerce"
   },
   {
     "frequency": 4592,
     "word": "照明",
-    "reading": "",
+    "reading": "しょうめい",
     "type": "noun",
     "meaning": "lighting"
   },
   {
     "frequency": 4593,
     "word": "招待",
-    "reading": "",
+    "reading": "しょうたい",
     "type": "noun",
     "meaning": "invitation"
   },
@@ -36778,7 +36778,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4594,
     "word": "年々",
-    "reading": "",
+    "reading": "ねんねん",
     "type": "adverb",
     "meaning": "year after year"
   },
@@ -36792,21 +36792,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4596,
     "word": "武士",
-    "reading": "",
+    "reading": "ぶし",
     "type": "noun",
     "meaning": "warrior, samurai"
   },
   {
     "frequency": 4597,
     "word": "そりゃ",
-    "reading": "",
+    "reading": "そりゃ",
     "type": "pronoun",
     "meaning": "that is"
   },
   {
     "frequency": 4598,
     "word": "対抗",
-    "reading": "",
+    "reading": "たいこう",
     "type": "noun",
     "meaning": "competition, rivalry"
   },
@@ -36827,35 +36827,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4600,
     "word": "警察官",
-    "reading": "",
+    "reading": "けいさつかん",
     "type": "noun",
     "meaning": "police officer"
   },
   {
     "frequency": 4601,
     "word": "丸める",
-    "reading": "",
+    "reading": "まるめる",
     "type": "verb",
     "meaning": "curl, wad"
   },
   {
     "frequency": 4602,
     "word": "最新",
-    "reading": "",
+    "reading": "さいしん",
     "type": "noun",
     "meaning": "newest, latest"
   },
   {
     "frequency": 4603,
     "word": "他者",
-    "reading": "",
+    "reading": "たしゃ",
     "type": "noun",
     "meaning": "another person, others"
   },
   {
     "frequency": 4604,
     "word": "挿入",
-    "reading": "",
+    "reading": "そうにゅう",
     "type": "noun",
     "meaning": "insertion"
   },
@@ -36869,98 +36869,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4605,
     "word": "賢い",
-    "reading": "",
+    "reading": "かしこい",
     "type": "i-adjective",
     "meaning": "wise, clever"
   },
   {
     "frequency": 4606,
     "word": "腐る",
-    "reading": "",
+    "reading": "くさる",
     "type": "verb",
     "meaning": "rot, decay, go off"
   },
   {
     "frequency": 4607,
     "word": "こだわり",
-    "reading": "",
+    "reading": "こだわり",
     "type": "noun",
     "meaning": "concern, obsession"
   },
   {
     "frequency": 4608,
     "word": "悲惨",
-    "reading": "",
+    "reading": "ひさん",
     "type": "na-adjective",
     "meaning": "miserable"
   },
   {
     "frequency": 4609,
     "word": "キリスト",
-    "reading": "",
+    "reading": "キリスト",
     "type": "noun",
     "meaning": "Christ"
   },
   {
     "frequency": 4610,
     "word": "辛さ",
-    "reading": "",
+    "reading": "つらさ",
     "type": "noun",
     "meaning": "pain"
   },
   {
     "frequency": 4611,
     "word": "二三日",
-    "reading": "",
+    "reading": "にじゅうさんにち",
     "type": "noun",
     "meaning": "two or three days"
   },
   {
     "frequency": 4612,
     "word": "講演",
-    "reading": "",
+    "reading": "こうえん",
     "type": "noun",
     "meaning": "lecture, talk"
   },
   {
     "frequency": 4613,
     "word": "誤る",
-    "reading": "",
+    "reading": "あやまる",
     "type": "verb",
     "meaning": "make a mistake, be wrong"
   },
   {
     "frequency": 4614,
     "word": "人権",
-    "reading": "",
+    "reading": "じんけん",
     "type": "noun",
     "meaning": "human rights"
   },
   {
     "frequency": 4615,
     "word": "両側",
-    "reading": "",
+    "reading": "りょうがわ",
     "type": "noun",
     "meaning": "both sides"
   },
   {
     "frequency": 4616,
     "word": "餅",
-    "reading": "",
+    "reading": "もち",
     "type": "noun",
     "meaning": "rice cake"
   },
   {
     "frequency": 4617,
     "word": "鎌倉",
-    "reading": "",
+    "reading": "かまくら",
     "type": "noun",
     "meaning": "Kamakura"
   },
   {
     "frequency": 4618,
     "word": "運動会",
-    "reading": "",
+    "reading": "うんどうかい",
     "type": "noun",
     "meaning": "sports meeting"
   },
@@ -36974,7 +36974,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4620,
     "word": "分離",
-    "reading": "",
+    "reading": "ぶんり",
     "type": "noun",
     "meaning": "separation, detachment"
   },
@@ -36988,49 +36988,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4621,
     "word": "日常的",
-    "reading": "",
+    "reading": "にちじょうてき",
     "type": "na-adjective",
     "meaning": "routine"
   },
   {
     "frequency": 4622,
     "word": "掲示板",
-    "reading": "",
+    "reading": "けいじばん",
     "type": "noun",
     "meaning": "bulletin board, noticeboard"
   },
   {
     "frequency": 4623,
     "word": "住宅地",
-    "reading": "",
+    "reading": "じゅうたくち",
     "type": "noun",
     "meaning": "residential area"
   },
   {
     "frequency": 4624,
     "word": "亀",
-    "reading": "",
+    "reading": "かめ",
     "type": "noun",
     "meaning": "turtle, tortoise"
   },
   {
     "frequency": 4625,
     "word": "四十代",
-    "reading": "",
+    "reading": "よんじゅうだい",
     "type": "noun",
     "meaning": "forties"
   },
   {
     "frequency": 4626,
     "word": "メロディー",
-    "reading": "",
+    "reading": "メロディー",
     "type": "noun",
     "meaning": "melody"
   },
   {
     "frequency": 4627,
     "word": "民衆",
-    "reading": "",
+    "reading": "みんしゅう",
     "type": "noun",
     "meaning": "people, public"
   },
@@ -37044,28 +37044,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4629,
     "word": "貫く",
-    "reading": "",
+    "reading": "つらぬく",
     "type": "verb",
     "meaning": "persist, stick to; pierce"
   },
   {
     "frequency": 4630,
     "word": "新潟",
-    "reading": "",
+    "reading": "にいがた",
     "type": "noun",
     "meaning": "Niigata"
   },
   {
     "frequency": 4631,
     "word": "箇所",
-    "reading": "",
+    "reading": "かしょ",
     "type": "noun",
     "meaning": "place, point, part"
   },
   {
     "frequency": 4632,
     "word": "正解",
-    "reading": "",
+    "reading": "せいかい",
     "type": "noun",
     "meaning": "correct answer"
   },
@@ -37079,28 +37079,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4633,
     "word": "悟る",
-    "reading": "",
+    "reading": "さとる",
     "type": "verb",
     "meaning": "realize"
   },
   {
     "frequency": 4634,
     "word": "擦る",
-    "reading": "",
+    "reading": "こする",
     "type": "verb",
     "meaning": "rub, strike; lose"
   },
   {
     "frequency": 4635,
     "word": "体育館",
-    "reading": "",
+    "reading": "たいいくかん",
     "type": "noun",
     "meaning": "gym"
   },
   {
     "frequency": 4636,
     "word": "再会",
-    "reading": "",
+    "reading": "さいかい",
     "type": "noun",
     "meaning": "reunion"
   },
@@ -37114,84 +37114,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4637,
     "word": "儀式",
-    "reading": "",
+    "reading": "ぎしき",
     "type": "noun",
     "meaning": "ceremony, ritual"
   },
   {
     "frequency": 4638,
     "word": "いやあ",
-    "reading": "",
+    "reading": "いやあ",
     "type": "interjection",
     "meaning": "Well, sorry"
   },
   {
     "frequency": 4639,
     "word": "店舗",
-    "reading": "",
+    "reading": "てんぽ",
     "type": "noun",
     "meaning": "store, shop"
   },
   {
     "frequency": 4640,
     "word": "捕らわれる",
-    "reading": "",
+    "reading": "とらわれる",
     "type": "verb",
     "meaning": "be arrested, be captured, stick to"
   },
   {
     "frequency": 4641,
     "word": "日本一",
-    "reading": "",
+    "reading": "にほんいち",
     "type": "noun",
     "meaning": "most ... in Japan"
   },
   {
     "frequency": 4642,
     "word": "トンネル",
-    "reading": "",
+    "reading": "トンネル",
     "type": "noun",
     "meaning": "tunnel"
   },
   {
     "frequency": 4643,
     "word": "一歳",
-    "reading": "",
+    "reading": "いっさい",
     "type": "noun",
     "meaning": "one year old"
   },
   {
     "frequency": 4644,
     "word": "暑さ",
-    "reading": "",
+    "reading": "あつさ",
     "type": "noun",
     "meaning": "heat"
   },
   {
     "frequency": 4645,
     "word": "ビタミン",
-    "reading": "",
+    "reading": "ビタミン",
     "type": "noun",
     "meaning": "vitamin"
   },
   {
     "frequency": 4646,
     "word": "おめでとう",
-    "reading": "",
+    "reading": "おめでとう",
     "type": "interjection",
     "meaning": "congratulations"
   },
   {
     "frequency": 4647,
     "word": "用途",
-    "reading": "",
+    "reading": "ようと",
     "type": "noun",
     "meaning": "use"
   },
   {
     "frequency": 4648,
     "word": "進学",
-    "reading": "",
+    "reading": "しんがく",
     "type": "noun",
     "meaning": "going on to the next level of education"
   },
@@ -37205,119 +37205,119 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4649,
     "word": "タイヤ",
-    "reading": "",
+    "reading": "タイヤ",
     "type": "noun",
     "meaning": "tire"
   },
   {
     "frequency": 4650,
     "word": "朝鮮",
-    "reading": "",
+    "reading": "ちょうせん",
     "type": "noun",
     "meaning": "Korea"
   },
   {
     "frequency": 4651,
     "word": "三味線",
-    "reading": "",
+    "reading": "しゃみせん",
     "type": "noun",
     "meaning": "shamisen"
   },
   {
     "frequency": 4652,
     "word": "保険会社",
-    "reading": "",
+    "reading": "ほけんがいしゃ",
     "type": "noun",
     "meaning": "insurance company"
   },
   {
     "frequency": 4653,
     "word": "写す",
-    "reading": "",
+    "reading": "うつす",
     "type": "verb",
     "meaning": "copy, trace"
   },
   {
     "frequency": 4654,
     "word": "チョコレート",
-    "reading": "",
+    "reading": "チョコレート",
     "type": "noun",
     "meaning": "chocolate"
   },
   {
     "frequency": 4655,
     "word": "走り回る",
-    "reading": "",
+    "reading": "はしりまわる",
     "type": "verb",
     "meaning": "run around"
   },
   {
     "frequency": 4656,
     "word": "有力",
-    "reading": "",
+    "reading": "ゆうりょく",
     "type": "na-adjective",
     "meaning": "powerful, strong, important"
   },
   {
     "frequency": 4657,
     "word": "仕掛け",
-    "reading": "",
+    "reading": "しかけ",
     "type": "noun",
     "meaning": "device, system"
   },
   {
     "frequency": 4658,
     "word": "ポスター",
-    "reading": "",
+    "reading": "ポスター",
     "type": "noun",
     "meaning": "poster"
   },
   {
     "frequency": 4659,
     "word": "杉",
-    "reading": "",
+    "reading": "すぎ",
     "type": "noun",
     "meaning": "Japanese cedar"
   },
   {
     "frequency": 4660,
     "word": "可愛らしい",
-    "reading": "",
+    "reading": "かわいらしい",
     "type": "i-adjective",
     "meaning": "lovely"
   },
   {
     "frequency": 4661,
     "word": "彫刻",
-    "reading": "",
+    "reading": "ちょうこく",
     "type": "noun",
     "meaning": "sculpture, carving"
   },
   {
     "frequency": 4662,
     "word": "眠り",
-    "reading": "",
+    "reading": "ねむり",
     "type": "noun",
     "meaning": "sleep"
   },
   {
     "frequency": 4663,
     "word": "見込み",
-    "reading": "",
+    "reading": "みこみ",
     "type": "noun",
     "meaning": "hope, chance, expectation"
   },
   {
     "frequency": 4664,
     "word": "爽やか",
-    "reading": "",
+    "reading": "さわやか",
     "type": "na-adjective",
     "meaning": "fresh, refreshing"
   },
   {
     "frequency": 4665,
     "word": "就任",
-    "reading": "",
+    "reading": "しゅうにん",
     "type": "noun",
     "meaning": "assumption"
   },
@@ -37331,14 +37331,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4666,
     "word": "先端",
-    "reading": "",
+    "reading": "せんたん",
     "type": "noun",
     "meaning": "tip, point, forefront"
   },
   {
     "frequency": 4667,
     "word": "装置",
-    "reading": "",
+    "reading": "そうち",
     "type": "noun",
     "meaning": "device, equipment"
   },
@@ -37352,42 +37352,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4668,
     "word": "伝説",
-    "reading": "",
+    "reading": "でんせつ",
     "type": "noun",
     "meaning": "legend, tradition"
   },
   {
     "frequency": 4669,
     "word": "今頃",
-    "reading": "",
+    "reading": "いまごろ",
     "type": "noun",
     "meaning": "this time"
   },
   {
     "frequency": 4670,
     "word": "学部",
-    "reading": "",
+    "reading": "がくぶ",
     "type": "noun",
     "meaning": "faculty, department"
   },
   {
     "frequency": 4671,
     "word": "水泳",
-    "reading": "",
+    "reading": "すいえい",
     "type": "noun",
     "meaning": "swimming"
   },
   {
     "frequency": 4672,
     "word": "羽目",
-    "reading": "",
+    "reading": "はめ",
     "type": "noun",
     "meaning": "plight, predicament"
   },
   {
     "frequency": 4673,
     "word": "上京",
-    "reading": "",
+    "reading": "じょうきょう",
     "type": "noun",
     "meaning": "coming/going to Tokyo"
   },
@@ -37401,56 +37401,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4674,
     "word": "ビザ",
-    "reading": "",
+    "reading": "ビザ",
     "type": "noun",
     "meaning": "visa"
   },
   {
     "frequency": 4675,
     "word": "将軍",
-    "reading": "",
+    "reading": "しょうぐん",
     "type": "noun",
     "meaning": "general, shogun"
   },
   {
     "frequency": 4676,
     "word": "青少年",
-    "reading": "",
+    "reading": "せいしょうねん",
     "type": "noun",
     "meaning": "young people, juvenile"
   },
   {
     "frequency": 4677,
     "word": "肘",
-    "reading": "",
+    "reading": "ひじ",
     "type": "noun",
     "meaning": "elbow"
   },
   {
     "frequency": 4678,
     "word": "延々",
-    "reading": "",
+    "reading": "えんえん",
     "type": "adverb",
     "meaning": "on and on, dragging on"
   },
   {
     "frequency": 4679,
     "word": "食器",
-    "reading": "",
+    "reading": "しょっき",
     "type": "noun",
     "meaning": "dish"
   },
   {
     "frequency": 4680,
     "word": "引き付ける",
-    "reading": "",
+    "reading": "ひきつける",
     "type": "verb",
     "meaning": "attract"
   },
   {
     "frequency": 4681,
     "word": "深さ",
-    "reading": "",
+    "reading": "ふかさ",
     "type": "noun",
     "meaning": "depth"
   },
@@ -37464,147 +37464,147 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4683,
     "word": "パスポート",
-    "reading": "",
+    "reading": "パスポート",
     "type": "noun",
     "meaning": "passport"
   },
   {
     "frequency": 4684,
     "word": "ぼろぼろ",
-    "reading": "",
+    "reading": "ぼろぼろ",
     "type": "na-adjective",
     "meaning": "ragged, worn out"
   },
   {
     "frequency": 4684,
     "word": "ぼろぼろ",
-    "reading": "",
+    "reading": "ぼろぼろ",
     "type": "adverb",
     "meaning": "in drops"
   },
   {
     "frequency": 4685,
     "word": "いつ頃",
-    "reading": "",
+    "reading": "いつごろ",
     "type": "noun",
     "meaning": "around what time"
   },
   {
     "frequency": 4686,
     "word": "二重",
-    "reading": "",
+    "reading": "にじゅう",
     "type": "noun",
     "meaning": "double"
   },
   {
     "frequency": 4687,
     "word": "埼玉",
-    "reading": "",
+    "reading": "さいたま",
     "type": "noun",
     "meaning": "Saitama"
   },
   {
     "frequency": 4688,
     "word": "いたずら",
-    "reading": "",
+    "reading": "いたずら",
     "type": "noun",
     "meaning": "mischief, trick, joke"
   },
   {
     "frequency": 4688,
     "word": "いたずらする",
-    "reading": "",
+    "reading": "いたずらする",
     "type": "verb",
     "meaning": "be mischievous, play a trick"
   },
   {
     "frequency": 4689,
     "word": "受け付ける",
-    "reading": "",
+    "reading": "うけつける",
     "type": "verb",
     "meaning": "accept"
   },
   {
     "frequency": 4690,
     "word": "こねる",
-    "reading": "",
+    "reading": "こねる",
     "type": "verb",
     "meaning": "knead, squeeze, work"
   },
   {
     "frequency": 4691,
     "word": "這う",
-    "reading": "",
+    "reading": "はう",
     "type": "verb",
     "meaning": "creep, crawl"
   },
   {
     "frequency": 4692,
     "word": "ふらふら",
-    "reading": "",
+    "reading": "ふらふら",
     "type": "adverb",
     "meaning": "aimlessly, unsteadily"
   },
   {
     "frequency": 4692,
     "word": "ふらふら",
-    "reading": "",
+    "reading": "ふらふら",
     "type": "na-adjective",
     "meaning": "unsteady on one’s feet"
   },
   {
     "frequency": 4692,
     "word": "ふらふらする",
-    "reading": "",
+    "reading": "ふらふらする",
     "type": "verb",
     "meaning": "stagger, be dizzy"
   },
   {
     "frequency": 4693,
     "word": "捧げる",
-    "reading": "",
+    "reading": "ささげる",
     "type": "verb",
     "meaning": "offer, dedicate, sacrifice"
   },
   {
     "frequency": 4694,
     "word": "居酒屋",
-    "reading": "",
+    "reading": "いざかや",
     "type": "noun",
     "meaning": "(Japanese style) bar, tavern"
   },
   {
     "frequency": 4695,
     "word": "見下ろす",
-    "reading": "",
+    "reading": "みおろす",
     "type": "verb",
     "meaning": "look down, overlook"
   },
   {
     "frequency": 4696,
     "word": "一貫",
-    "reading": "",
+    "reading": "いっかん",
     "type": "noun",
     "meaning": "consistent"
   },
   {
     "frequency": 4697,
     "word": "文献",
-    "reading": "",
+    "reading": "ぶんけん",
     "type": "noun",
     "meaning": "literature"
   },
   {
     "frequency": 4698,
     "word": "やがる",
-    "reading": "",
+    "reading": "やがる",
     "type": "auxiliary",
     "meaning": "VERB SUFFIX (vulgarism)"
   },
   {
     "frequency": 4699,
     "word": "ワープロ",
-    "reading": "",
+    "reading": "ワープロ",
     "type": "noun",
     "meaning": "word processor"
   },
@@ -37618,7 +37618,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4701,
     "word": "共感",
-    "reading": "",
+    "reading": "きょうかん",
     "type": "noun",
     "meaning": "sympathy"
   },
@@ -37632,28 +37632,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4702,
     "word": "ズボン",
-    "reading": "",
+    "reading": "ズボン",
     "type": "noun",
     "meaning": "pants, trousers"
   },
   {
     "frequency": 4703,
     "word": "迅速",
-    "reading": "",
+    "reading": "じんそく",
     "type": "na-adjective",
     "meaning": "quick, swift"
   },
   {
     "frequency": 4704,
     "word": "豆腐",
-    "reading": "",
+    "reading": "とうふ",
     "type": "noun",
     "meaning": "tofu, bean curd"
   },
   {
     "frequency": 4705,
     "word": "司会",
-    "reading": "",
+    "reading": "しかい",
     "type": "noun",
     "meaning": "host, emcee"
   },
@@ -37667,21 +37667,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4706,
     "word": "幸運",
-    "reading": "",
+    "reading": "こううん",
     "type": "noun",
     "meaning": "(good) luck, fortune"
   },
   {
     "frequency": 4706,
     "word": "幸運",
-    "reading": "",
+    "reading": "こううん",
     "type": "na-adjective",
     "meaning": "lucky, fortunate"
   },
   {
     "frequency": 4707,
     "word": "緩和",
-    "reading": "",
+    "reading": "かんわ",
     "type": "noun",
     "meaning": "relaxation, relief"
   },
@@ -37695,21 +37695,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4708,
     "word": "鉄板",
-    "reading": "",
+    "reading": "てっぱん",
     "type": "noun",
     "meaning": "hot plate, iron plate"
   },
   {
     "frequency": 4709,
     "word": "明ける",
-    "reading": "",
+    "reading": "あける",
     "type": "verb",
     "meaning": "begin, dawn, break"
   },
   {
     "frequency": 4710,
     "word": "反論",
-    "reading": "",
+    "reading": "はんろん",
     "type": "noun",
     "meaning": "argument, objection"
   },
@@ -37723,105 +37723,105 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4711,
     "word": "引っ繰り返す",
-    "reading": "",
+    "reading": "ひっくりかえす",
     "type": "verb",
     "meaning": "overturn, upset, turn over"
   },
   {
     "frequency": 4712,
     "word": "儲かる",
-    "reading": "",
+    "reading": "もうかる",
     "type": "verb",
     "meaning": "profit, gain"
   },
   {
     "frequency": 4713,
     "word": "久々",
-    "reading": "",
+    "reading": "ひさびさ",
     "type": "noun, adverb",
     "meaning": "for the first time in a long time"
   },
   {
     "frequency": 4714,
     "word": "効力",
-    "reading": "",
+    "reading": "こうりょく",
     "type": "noun",
     "meaning": "effect"
   },
   {
     "frequency": 4715,
     "word": "枯れる",
-    "reading": "",
+    "reading": "かれる",
     "type": "verb",
     "meaning": "wither, die"
   },
   {
     "frequency": 4716,
     "word": "絆",
-    "reading": "",
+    "reading": "きずな",
     "type": "noun",
     "meaning": "tie, bond"
   },
   {
     "frequency": 4717,
     "word": "相性",
-    "reading": "",
+    "reading": "あいしょう",
     "type": "noun",
     "meaning": "compatibility"
   },
   {
     "frequency": 4718,
     "word": "三分",
-    "reading": "",
+    "reading": "さんぶん",
     "type": "noun",
     "meaning": "three minutes"
   },
   {
     "frequency": 4719,
     "word": "砂浜",
-    "reading": "",
+    "reading": "すなはま",
     "type": "noun",
     "meaning": "beach, sand"
   },
   {
     "frequency": 4720,
     "word": "責める",
-    "reading": "",
+    "reading": "せめる",
     "type": "verb",
     "meaning": "accuse, blame"
   },
   {
     "frequency": 4721,
     "word": "参加費",
-    "reading": "",
+    "reading": "さんかひ",
     "type": "noun",
     "meaning": "participation fee"
   },
   {
     "frequency": 4722,
     "word": "井戸",
-    "reading": "",
+    "reading": "いど",
     "type": "noun",
     "meaning": "well"
   },
   {
     "frequency": 4723,
     "word": "五十代",
-    "reading": "",
+    "reading": "ごじゅうだい",
     "type": "noun",
     "meaning": "fifties"
   },
   {
     "frequency": 4724,
     "word": "債務",
-    "reading": "",
+    "reading": "さいむ",
     "type": "noun",
     "meaning": "debt, obligation"
   },
   {
     "frequency": 4725,
     "word": "寄与",
-    "reading": "",
+    "reading": "きよ",
     "type": "noun",
     "meaning": "contribution"
   },
@@ -37835,98 +37835,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4726,
     "word": "社宅",
-    "reading": "",
+    "reading": "しゃたく",
     "type": "noun",
     "meaning": "company housing"
   },
   {
     "frequency": 4727,
     "word": "下記",
-    "reading": "",
+    "reading": "かき",
     "type": "noun",
     "meaning": "the following, mentioned below"
   },
   {
     "frequency": 4728,
     "word": "委員長",
-    "reading": "",
+    "reading": "いいんちょう",
     "type": "noun",
     "meaning": "chairperson"
   },
   {
     "frequency": 4729,
     "word": "槍",
-    "reading": "",
+    "reading": "やり",
     "type": "noun",
     "meaning": "spear"
   },
   {
     "frequency": 4730,
     "word": "くわえる",
-    "reading": "",
+    "reading": "くわえる",
     "type": "verb",
     "meaning": "take, hold"
   },
   {
     "frequency": 4731,
     "word": "店員",
-    "reading": "",
+    "reading": "てんいん",
     "type": "noun",
     "meaning": "clerk, sales assistant"
   },
   {
     "frequency": 4732,
     "word": "秩序",
-    "reading": "",
+    "reading": "ちつじょ",
     "type": "noun",
     "meaning": "order, system"
   },
   {
     "frequency": 4733,
     "word": "散々",
-    "reading": "",
+    "reading": "さんざん",
     "type": "adverb",
     "meaning": "severely, repeatedly"
   },
   {
     "frequency": 4734,
     "word": "刺し身",
-    "reading": "",
+    "reading": "さしみ",
     "type": "noun",
     "meaning": "sashimi"
   },
   {
     "frequency": 4735,
     "word": "おかず",
-    "reading": "",
+    "reading": "おかず",
     "type": "noun",
     "meaning": "food, side dish"
   },
   {
     "frequency": 4736,
     "word": "豚肉",
-    "reading": "",
+    "reading": "ぶたにく",
     "type": "noun",
     "meaning": "pork"
   },
   {
     "frequency": 4737,
     "word": "兵",
-    "reading": "",
+    "reading": "いくさ",
     "type": "noun",
     "meaning": "soldier, troops"
   },
   {
     "frequency": 4738,
     "word": "部長",
-    "reading": "",
+    "reading": "ぶちょう",
     "type": "noun",
     "meaning": "head of department, manager"
   },
   {
     "frequency": 4739,
     "word": "サミット",
-    "reading": "",
+    "reading": "サミット",
     "type": "noun",
     "meaning": "summit"
   },
@@ -37940,28 +37940,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4741,
     "word": "二倍",
-    "reading": "",
+    "reading": "にばい",
     "type": "noun",
     "meaning": "twice, double"
   },
   {
     "frequency": 4742,
     "word": "ベンチ",
-    "reading": "",
+    "reading": "ベンチ",
     "type": "noun",
     "meaning": "bench"
   },
   {
     "frequency": 4743,
     "word": "補う",
-    "reading": "",
+    "reading": "おぎなう",
     "type": "verb",
     "meaning": "supplement, compensate"
   },
   {
     "frequency": 4744,
     "word": "投入",
-    "reading": "",
+    "reading": "とうにゅう",
     "type": "noun",
     "meaning": "investment"
   },
@@ -37975,35 +37975,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4745,
     "word": "争い",
-    "reading": "",
+    "reading": "あらそい",
     "type": "noun",
     "meaning": "fight, struggle, competition"
   },
   {
     "frequency": 4746,
     "word": "センス",
-    "reading": "",
+    "reading": "センス",
     "type": "noun",
     "meaning": "sense"
   },
   {
     "frequency": 4747,
     "word": "ハード",
-    "reading": "",
+    "reading": "ハード",
     "type": "na-adjective",
     "meaning": "hard, tight"
   },
   {
     "frequency": 4748,
     "word": "見逃す",
-    "reading": "",
+    "reading": "みのがす",
     "type": "verb",
     "meaning": "miss, overlook"
   },
   {
     "frequency": 4749,
     "word": "線路",
-    "reading": "",
+    "reading": "せんろ",
     "type": "noun",
     "meaning": "track, railroad"
   },
@@ -38017,28 +38017,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4751,
     "word": "リンク",
-    "reading": "",
+    "reading": "リンク",
     "type": "noun",
     "meaning": "link"
   },
   {
     "frequency": 4751,
     "word": "リンクする",
-    "reading": "",
+    "reading": "リンクする",
     "type": "verb",
     "meaning": "link"
   },
   {
     "frequency": 4752,
     "word": "大蔵省",
-    "reading": "",
+    "reading": "おおくらしょう",
     "type": "noun",
     "meaning": "Ministry of Finance"
   },
   {
     "frequency": 4753,
     "word": "製作",
-    "reading": "",
+    "reading": "せいさく",
     "type": "noun",
     "meaning": "production"
   },
@@ -38052,21 +38052,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4754,
     "word": "世帯",
-    "reading": "",
+    "reading": "せたい",
     "type": "noun",
     "meaning": "household, family"
   },
   {
     "frequency": 4755,
     "word": "覗き込む",
-    "reading": "",
+    "reading": "のぞきこむ",
     "type": "verb",
     "meaning": "look into"
   },
   {
     "frequency": 4756,
     "word": "区分",
-    "reading": "",
+    "reading": "くぶん",
     "type": "noun",
     "meaning": "division, classification"
   },
@@ -38080,7 +38080,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4757,
     "word": "放棄",
-    "reading": "",
+    "reading": "ほうき",
     "type": "noun",
     "meaning": "abandonment, renunciation"
   },
@@ -38094,7 +38094,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4758,
     "word": "転職",
-    "reading": "",
+    "reading": "てんしょく",
     "type": "noun",
     "meaning": "change of job"
   },
@@ -38108,35 +38108,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4759,
     "word": "類い",
-    "reading": "",
+    "reading": "たぐい",
     "type": "noun",
     "meaning": "kind, sort, type"
   },
   {
     "frequency": 4760,
     "word": "活気",
-    "reading": "",
+    "reading": "かっき",
     "type": "noun",
     "meaning": "vigor, energy, liveliness"
   },
   {
     "frequency": 4761,
     "word": "日差し",
-    "reading": "",
+    "reading": "ひざし",
     "type": "noun",
     "meaning": "sunshine"
   },
   {
     "frequency": 4762,
     "word": "人格",
-    "reading": "",
+    "reading": "じんかく",
     "type": "noun",
     "meaning": "character, personality"
   },
   {
     "frequency": 4763,
     "word": "避難",
-    "reading": "",
+    "reading": "ひなん",
     "type": "noun",
     "meaning": "evacuation"
   },
@@ -38150,14 +38150,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4764,
     "word": "ラスベガス",
-    "reading": "",
+    "reading": "ラスベガス",
     "type": "noun",
     "meaning": "Las Vegas"
   },
   {
     "frequency": 4765,
     "word": "鐘",
-    "reading": "",
+    "reading": "かね",
     "type": "noun",
     "meaning": "bell, chime"
   },
@@ -38171,14 +38171,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4767,
     "word": "集まり",
-    "reading": "",
+    "reading": "あつまり",
     "type": "noun",
     "meaning": "meeting, gathering, group"
   },
   {
     "frequency": 4768,
     "word": "変換",
-    "reading": "",
+    "reading": "へんかん",
     "type": "noun",
     "meaning": "change, conversion"
   },
@@ -38192,7 +38192,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4769,
     "word": "歓迎",
-    "reading": "",
+    "reading": "かんげい",
     "type": "noun",
     "meaning": "reception, welcome"
   },
@@ -38206,126 +38206,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4770,
     "word": "川崎",
-    "reading": "",
+    "reading": "かわさき",
     "type": "noun",
     "meaning": "Kawasaki"
   },
   {
     "frequency": 4771,
     "word": "支出",
-    "reading": "",
+    "reading": "ししゅつ",
     "type": "noun",
     "meaning": "expenses, payment, expenditure, spending"
   },
   {
     "frequency": 4772,
     "word": "軸",
-    "reading": "",
+    "reading": "じく",
     "type": "noun",
     "meaning": "axis; shaft; stem"
   },
   {
     "frequency": 4773,
     "word": "食物",
-    "reading": "",
+    "reading": "しょくもつ",
     "type": "noun",
     "meaning": "food, dish"
   },
   {
     "frequency": 4774,
     "word": "損害",
-    "reading": "",
+    "reading": "そんがい",
     "type": "noun",
     "meaning": "damage, loss"
   },
   {
     "frequency": 4775,
     "word": "のみならず",
-    "reading": "",
+    "reading": "のみならず",
     "type": "particle",
     "meaning": "not only ... but, as well as"
   },
   {
     "frequency": 4776,
     "word": "正義",
-    "reading": "",
+    "reading": "せいぎ",
     "type": "noun",
     "meaning": "justice, right"
   },
   {
     "frequency": 4777,
     "word": "一目",
-    "reading": "",
+    "reading": "ひとめ",
     "type": "noun",
     "meaning": "glance"
   },
   {
     "frequency": 4778,
     "word": "百年",
-    "reading": "",
+    "reading": "ひゃくねん",
     "type": "noun",
     "meaning": "hundred years, century"
   },
   {
     "frequency": 4779,
     "word": "ガイド",
-    "reading": "",
+    "reading": "ガイド",
     "type": "noun",
     "meaning": "guide, conductor"
   },
   {
     "frequency": 4779,
     "word": "ガイドする",
-    "reading": "",
+    "reading": "ガイドする",
     "type": "verb",
     "meaning": "guide"
   },
   {
     "frequency": 4780,
     "word": "大型",
-    "reading": "",
+    "reading": "おおがた",
     "type": "noun",
     "meaning": "big, large"
   },
   {
     "frequency": 4781,
     "word": "頂上",
-    "reading": "",
+    "reading": "ちょうじょう",
     "type": "noun",
     "meaning": "top, summit"
   },
   {
     "frequency": 4782,
     "word": "睡眠",
-    "reading": "",
+    "reading": "すいみん",
     "type": "noun",
     "meaning": "sleep"
   },
   {
     "frequency": 4783,
     "word": "緩やか",
-    "reading": "",
+    "reading": "ゆるやか",
     "type": "na-adjective",
     "meaning": "gentle, soft, mild"
   },
   {
     "frequency": 4784,
     "word": "相互",
-    "reading": "",
+    "reading": "そうご",
     "type": "noun",
     "meaning": "mutual, each other"
   },
   {
     "frequency": 4785,
     "word": "二十七",
-    "reading": "",
+    "reading": "にじゅうしち",
     "type": "noun",
     "meaning": "num. twenty-seven"
   },
   {
     "frequency": 4786,
     "word": "披露",
-    "reading": "",
+    "reading": "ひろう",
     "type": "noun",
     "meaning": "announcement, introduction"
   },
@@ -38346,98 +38346,98 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4788,
     "word": "この方",
-    "reading": "",
+    "reading": "このかた",
     "type": "pronoun",
     "meaning": "this person"
   },
   {
     "frequency": 4789,
     "word": "上位",
-    "reading": "",
+    "reading": "じょうい",
     "type": "noun",
     "meaning": "higher rank"
   },
   {
     "frequency": 4790,
     "word": "リード",
-    "reading": "",
+    "reading": "リード",
     "type": "noun",
     "meaning": "lead"
   },
   {
     "frequency": 4790,
     "word": "リードする",
-    "reading": "",
+    "reading": "リードする",
     "type": "verb",
     "meaning": "take a lead"
   },
   {
     "frequency": 4791,
     "word": "心身",
-    "reading": "",
+    "reading": "しんしん",
     "type": "noun",
     "meaning": "mind and body"
   },
   {
     "frequency": 4792,
     "word": "債権者",
-    "reading": "",
+    "reading": "さいけんしゃ",
     "type": "noun",
     "meaning": "creditor"
   },
   {
     "frequency": 4793,
     "word": "燃料",
-    "reading": "",
+    "reading": "ねんりょう",
     "type": "noun",
     "meaning": "fuel"
   },
   {
     "frequency": 4794,
     "word": "ショップ",
-    "reading": "",
+    "reading": "ショップ",
     "type": "noun",
     "meaning": "shop"
   },
   {
     "frequency": 4795,
     "word": "長官",
-    "reading": "",
+    "reading": "ちょうかん",
     "type": "noun",
     "meaning": "director general"
   },
   {
     "frequency": 4796,
     "word": "強いる",
-    "reading": "",
+    "reading": "しいる",
     "type": "verb",
     "meaning": "force"
   },
   {
     "frequency": 4797,
     "word": "シート",
-    "reading": "",
+    "reading": "シート",
     "type": "noun",
     "meaning": "seat; sheet"
   },
   {
     "frequency": 4798,
     "word": "追い込む",
-    "reading": "",
+    "reading": "おいこむ",
     "type": "verb",
     "meaning": "drive into"
   },
   {
     "frequency": 4799,
     "word": "プライド",
-    "reading": "",
+    "reading": "プライド",
     "type": "noun",
     "meaning": "pride"
   },
   {
     "frequency": 4800,
     "word": "題名",
-    "reading": "",
+    "reading": "だいめい",
     "type": "noun",
     "meaning": "title"
   },
@@ -38451,28 +38451,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4802,
     "word": "葱",
-    "reading": "",
+    "reading": "ねぎ",
     "type": "noun",
     "meaning": "leek"
   },
   {
     "frequency": 4803,
     "word": "据える",
-    "reading": "",
+    "reading": "すえる",
     "type": "verb",
     "meaning": "set, place"
   },
   {
     "frequency": 4804,
     "word": "業績",
-    "reading": "",
+    "reading": "ぎょうせき",
     "type": "noun",
     "meaning": "achievements"
   },
   {
     "frequency": 4805,
     "word": "起動",
-    "reading": "",
+    "reading": "きどう",
     "type": "noun",
     "meaning": "starting"
   },
@@ -38486,14 +38486,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4806,
     "word": "学年",
-    "reading": "",
+    "reading": "がくねん",
     "type": "noun",
     "meaning": "grade, year"
   },
   {
     "frequency": 4807,
     "word": "助成",
-    "reading": "",
+    "reading": "じょせい",
     "type": "noun",
     "meaning": "subsidy"
   },
@@ -38507,28 +38507,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4808,
     "word": "天下",
-    "reading": "",
+    "reading": "てんか",
     "type": "noun",
     "meaning": "the whole world"
   },
   {
     "frequency": 4809,
     "word": "打ち出す",
-    "reading": "",
+    "reading": "うちだす",
     "type": "verb",
     "meaning": "work out, come up with; announce"
   },
   {
     "frequency": 4810,
     "word": "栄える",
-    "reading": "",
+    "reading": "さかえる",
     "type": "verb",
     "meaning": "prosper, flourish"
   },
   {
     "frequency": 4811,
     "word": "科学的",
-    "reading": "",
+    "reading": "かがくてき",
     "type": "na-adjective",
     "meaning": "scientific"
   },
@@ -38542,7 +38542,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4813,
     "word": "庶民",
-    "reading": "",
+    "reading": "しょみん",
     "type": "noun",
     "meaning": "common people, ordinary people, masses"
   },
@@ -38556,35 +38556,35 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4815,
     "word": "乗り出す",
-    "reading": "",
+    "reading": "のりだす",
     "type": "verb",
     "meaning": "venture out; embark on"
   },
   {
     "frequency": 4816,
     "word": "そんなこんな",
-    "reading": "",
+    "reading": "そんなこんな",
     "type": "adverb",
     "meaning": "what with one thing and another; after many twists and turns"
   },
   {
     "frequency": 4817,
     "word": "覚ます",
-    "reading": "",
+    "reading": "さます",
     "type": "verb",
     "meaning": "wake up"
   },
   {
     "frequency": 4818,
     "word": "住居",
-    "reading": "",
+    "reading": "すまい",
     "type": "noun",
     "meaning": "house"
   },
   {
     "frequency": 4819,
     "word": "沸騰",
-    "reading": "",
+    "reading": "ふっとう",
     "type": "noun",
     "meaning": "boiling"
   },
@@ -38598,49 +38598,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4820,
     "word": "仕掛ける",
-    "reading": "",
+    "reading": "しかける",
     "type": "verb",
     "meaning": "begin, start; set"
   },
   {
     "frequency": 4821,
     "word": "一年半",
-    "reading": "",
+    "reading": "いちねんはん",
     "type": "noun",
     "meaning": "one year and a half"
   },
   {
     "frequency": 4822,
     "word": "こっそり",
-    "reading": "",
+    "reading": "こっそり",
     "type": "adverb",
     "meaning": "secretly, on the sly"
   },
   {
     "frequency": 4823,
     "word": "へん",
-    "reading": "",
+    "reading": "へん",
     "type": "auxiliary",
     "meaning": "NEGATION (dialectal)"
   },
   {
     "frequency": 4824,
     "word": "組み立てる",
-    "reading": "",
+    "reading": "くみたてる",
     "type": "verb",
     "meaning": "assemble"
   },
   {
     "frequency": 4825,
     "word": "案外",
-    "reading": "",
+    "reading": "あんがい",
     "type": "adverb",
     "meaning": "unexpectedly"
   },
   {
     "frequency": 4826,
     "word": "譲渡",
-    "reading": "",
+    "reading": "じょうと",
     "type": "noun",
     "meaning": "transfer"
   },
@@ -38654,14 +38654,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4827,
     "word": "でもある",
-    "reading": "",
+    "reading": "でもある",
     "type": "auxiliary",
     "meaning": "be ... , too"
   },
   {
     "frequency": 4828,
     "word": "挫折",
-    "reading": "",
+    "reading": "ざせつ",
     "type": "noun",
     "meaning": "setback"
   },
@@ -38675,14 +38675,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4829,
     "word": "きゅうり",
-    "reading": "",
+    "reading": "きゅうり",
     "type": "noun",
     "meaning": "cucumber"
   },
   {
     "frequency": 4830,
     "word": "検証",
-    "reading": "",
+    "reading": "けんしょう",
     "type": "noun",
     "meaning": "verification"
   },
@@ -38696,84 +38696,84 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4831,
     "word": "株主",
-    "reading": "",
+    "reading": "かぶぬし",
     "type": "noun",
     "meaning": "stockholder, shareholder"
   },
   {
     "frequency": 4832,
     "word": "見渡す",
-    "reading": "",
+    "reading": "みわたす",
     "type": "verb",
     "meaning": "look around"
   },
   {
     "frequency": 4833,
     "word": "誓う",
-    "reading": "",
+    "reading": "ちかう",
     "type": "verb",
     "meaning": "vow, swear"
   },
   {
     "frequency": 4834,
     "word": "マッサージ",
-    "reading": "",
+    "reading": "マッサージ",
     "type": "noun",
     "meaning": "massage"
   },
   {
     "frequency": 4834,
     "word": "マッサージする",
-    "reading": "",
+    "reading": "マッサージする",
     "type": "verb",
     "meaning": "massage"
   },
   {
     "frequency": 4835,
     "word": "二度目",
-    "reading": "",
+    "reading": "にどめ",
     "type": "noun",
     "meaning": "second time"
   },
   {
     "frequency": 4836,
     "word": "年上",
-    "reading": "",
+    "reading": "としうえ",
     "type": "noun",
     "meaning": "older, senior"
   },
   {
     "frequency": 4837,
     "word": "力強い",
-    "reading": "",
+    "reading": "ちからづよい",
     "type": "i-adjective",
     "meaning": "strong, powerful"
   },
   {
     "frequency": 4838,
     "word": "ピーク",
-    "reading": "",
+    "reading": "ピーク",
     "type": "noun",
     "meaning": "peak"
   },
   {
     "frequency": 4839,
     "word": "みじん切り",
-    "reading": "",
+    "reading": "みじんぎり",
     "type": "noun",
     "meaning": "minced, cut into fine pieces, chopped"
   },
   {
     "frequency": 4840,
     "word": "強める",
-    "reading": "",
+    "reading": "つよめる",
     "type": "verb",
     "meaning": "strengthen, increase"
   },
   {
     "frequency": 4841,
     "word": "禁煙",
-    "reading": "",
+    "reading": "きんえん",
     "type": "noun",
     "meaning": "no-smoking"
   },
@@ -38787,70 +38787,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4842,
     "word": "厚さ",
-    "reading": "",
+    "reading": "あつさ",
     "type": "noun",
     "meaning": "thickness"
   },
   {
     "frequency": 4843,
     "word": "十代",
-    "reading": "",
+    "reading": "じゅうだい",
     "type": "noun",
     "meaning": "teen years, teens"
   },
   {
     "frequency": 4844,
     "word": "タレント",
-    "reading": "",
+    "reading": "タレント",
     "type": "noun",
     "meaning": "celebrity, entertainer"
   },
   {
     "frequency": 4845,
     "word": "ふさぐ",
-    "reading": "",
+    "reading": "ふさぐ",
     "type": "verb",
     "meaning": "cover; stop; block"
   },
   {
     "frequency": 4846,
     "word": "ごと",
-    "reading": "",
+    "reading": "ごと",
     "type": "suffix",
     "meaning": "every"
   },
   {
     "frequency": 4847,
     "word": "牛肉",
-    "reading": "",
+    "reading": "ぎゅうにく",
     "type": "noun",
     "meaning": "beef"
   },
   {
     "frequency": 4848,
     "word": "枠組み",
-    "reading": "",
+    "reading": "わくぐみ",
     "type": "noun",
     "meaning": "frame, framework"
   },
   {
     "frequency": 4849,
     "word": "かゆい",
-    "reading": "",
+    "reading": "かゆい",
     "type": "i-adjective",
     "meaning": "itchy"
   },
   {
     "frequency": 4850,
     "word": "七十",
-    "reading": "",
+    "reading": "ななじゅう",
     "type": "numeral",
     "meaning": "seventy"
   },
   {
     "frequency": 4851,
     "word": "多様化",
-    "reading": "",
+    "reading": "たようか",
     "type": "noun",
     "meaning": "diversification"
   },
@@ -38864,21 +38864,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4852,
     "word": "着せる",
-    "reading": "",
+    "reading": "きせる",
     "type": "verb",
     "meaning": "put on, dress"
   },
   {
     "frequency": 4853,
     "word": "インストール",
-    "reading": "",
+    "reading": "インストール",
     "type": "noun",
     "meaning": "installation"
   },
   {
     "frequency": 4853,
     "word": "インストールする",
-    "reading": "",
+    "reading": "インストールする",
     "type": "verb",
     "meaning": "install"
   },
@@ -38892,14 +38892,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4855,
     "word": "機構",
-    "reading": "",
+    "reading": "きこう",
     "type": "noun",
     "meaning": "mechanism, structure, system"
   },
   {
     "frequency": 4856,
     "word": "着実",
-    "reading": "",
+    "reading": "ちゃくじつ",
     "type": "na-adjective",
     "meaning": "steady"
   },
@@ -38913,21 +38913,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4858,
     "word": "里",
-    "reading": "",
+    "reading": "さと",
     "type": "noun",
     "meaning": "village, countryside, one’s parents’ home"
   },
   {
     "frequency": 4859,
     "word": "決まり",
-    "reading": "",
+    "reading": "きまり",
     "type": "noun",
     "meaning": "regulation; arrangement, settlement"
   },
   {
     "frequency": 4860,
     "word": "独身",
-    "reading": "",
+    "reading": "どくしん",
     "type": "noun",
     "meaning": "single, unmarried"
   },
@@ -38941,133 +38941,133 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4862,
     "word": "高齢化",
-    "reading": "",
+    "reading": "こうれいか",
     "type": "noun",
     "meaning": "aging; increase in age"
   },
   {
     "frequency": 4863,
     "word": "鮮明",
-    "reading": "",
+    "reading": "せんめい",
     "type": "na-adjective",
     "meaning": "clear, vivid"
   },
   {
     "frequency": 4864,
     "word": "エアコン",
-    "reading": "",
+    "reading": "エアコン",
     "type": "noun",
     "meaning": "air-conditioning, air conditioner"
   },
   {
     "frequency": 4865,
     "word": "期限",
-    "reading": "",
+    "reading": "きげん",
     "type": "noun",
     "meaning": "period; deadline; term"
   },
   {
     "frequency": 4866,
     "word": "物件",
-    "reading": "",
+    "reading": "ぶっけん",
     "type": "noun",
     "meaning": "article, object; property"
   },
   {
     "frequency": 4867,
     "word": "前条",
-    "reading": "",
+    "reading": "ぜんじょう",
     "type": "noun",
     "meaning": "preceding article"
   },
   {
     "frequency": 4868,
     "word": "中間",
-    "reading": "",
+    "reading": "ちゅうかん",
     "type": "noun",
     "meaning": "middle, halfway"
   },
   {
     "frequency": 4869,
     "word": "カラー",
-    "reading": "",
+    "reading": "カラー",
     "type": "noun",
     "meaning": "color"
   },
   {
     "frequency": 4870,
     "word": "スポーツクラブ",
-    "reading": "",
+    "reading": "スポーツクラブ",
     "type": "noun",
     "meaning": "sports club, gym"
   },
   {
     "frequency": 4871,
     "word": "群馬県",
-    "reading": "",
+    "reading": "ぐんまけん",
     "type": "noun",
     "meaning": "Gunma Prefecture"
   },
   {
     "frequency": 4872,
     "word": "フルーツ",
-    "reading": "",
+    "reading": "フルーツ",
     "type": "noun",
     "meaning": "fruit"
   },
   {
     "frequency": 4873,
     "word": "グラフ",
-    "reading": "",
+    "reading": "グラフ",
     "type": "noun",
     "meaning": "graph"
   },
   {
     "frequency": 4874,
     "word": "画家",
-    "reading": "",
+    "reading": "がか",
     "type": "noun",
     "meaning": "artist, painter"
   },
   {
     "frequency": 4875,
     "word": "組み込む",
-    "reading": "",
+    "reading": "くみこむ",
     "type": "verb",
     "meaning": "build in; insert; integrate"
   },
   {
     "frequency": 4876,
     "word": "マイク",
-    "reading": "",
+    "reading": "マイク",
     "type": "noun",
     "meaning": "microphone"
   },
   {
     "frequency": 4877,
     "word": "着替える",
-    "reading": "",
+    "reading": "きがえる",
     "type": "verb",
     "meaning": "change clothes; get dressed"
   },
   {
     "frequency": 4878,
     "word": "計画的",
-    "reading": "",
+    "reading": "けいかくてき",
     "type": "na-adjective",
     "meaning": "planned, deliberate, premeditated"
   },
   {
     "frequency": 4879,
     "word": "典型的",
-    "reading": "",
+    "reading": "てんけいてき",
     "type": "na-adjective",
     "meaning": "typical"
   },
   {
     "frequency": 4880,
     "word": "調節",
-    "reading": "",
+    "reading": "ちょうせつ",
     "type": "noun",
     "meaning": "adjustment"
   },
@@ -39081,7 +39081,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4881,
     "word": "回避",
-    "reading": "",
+    "reading": "かいひ",
     "type": "noun",
     "meaning": "avoidance"
   },
@@ -39095,126 +39095,126 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4882,
     "word": "打ち明ける",
-    "reading": "",
+    "reading": "うちあける",
     "type": "verb",
     "meaning": "speak one’s mind; confess"
   },
   {
     "frequency": 4883,
     "word": "書物",
-    "reading": "",
+    "reading": "しょもつ",
     "type": "noun",
     "meaning": "book"
   },
   {
     "frequency": 4884,
     "word": "隙",
-    "reading": "",
+    "reading": "すき",
     "type": "noun",
     "meaning": "space, room, gap"
   },
   {
     "frequency": 4885,
     "word": "範囲内",
-    "reading": "",
+    "reading": "はんいない",
     "type": "noun",
     "meaning": "in range, within the limits"
   },
   {
     "frequency": 4886,
     "word": "遊園地",
-    "reading": "",
+    "reading": "ゆうえんち",
     "type": "noun",
     "meaning": "amusement park"
   },
   {
     "frequency": 4887,
     "word": "六つ",
-    "reading": "",
+    "reading": "むっつ",
     "type": "numeral",
     "meaning": "six"
   },
   {
     "frequency": 4888,
     "word": "二十歳",
-    "reading": "",
+    "reading": "はたち",
     "type": "noun",
     "meaning": "twenty years old"
   },
   {
     "frequency": 4889,
     "word": "偏見",
-    "reading": "",
+    "reading": "へんけん",
     "type": "noun",
     "meaning": "prejudice, bias"
   },
   {
     "frequency": 4890,
     "word": "理屈",
-    "reading": "",
+    "reading": "りくつ",
     "type": "noun",
     "meaning": "reason, logic, theory"
   },
   {
     "frequency": 4891,
     "word": "契機",
-    "reading": "",
+    "reading": "けいき",
     "type": "noun",
     "meaning": "momentum; opportunity, chance"
   },
   {
     "frequency": 4892,
     "word": "一軒",
-    "reading": "",
+    "reading": "いっけん",
     "type": "noun",
     "meaning": "one building"
   },
   {
     "frequency": 4893,
     "word": "紛争",
-    "reading": "",
+    "reading": "ふんそう",
     "type": "noun",
     "meaning": "dispute, trouble, strife"
   },
   {
     "frequency": 4894,
     "word": "魔法",
-    "reading": "",
+    "reading": "まほう",
     "type": "noun",
     "meaning": "magic"
   },
   {
     "frequency": 4895,
     "word": "影響力",
-    "reading": "",
+    "reading": "えいきょうりょく",
     "type": "noun",
     "meaning": "influence, impact"
   },
   {
     "frequency": 4896,
     "word": "触れ合い",
-    "reading": "",
+    "reading": "ふれあい",
     "type": "noun",
     "meaning": "touching, contact"
   },
   {
     "frequency": 4897,
     "word": "極力",
-    "reading": "",
+    "reading": "きょくりょく",
     "type": "adverb",
     "meaning": "as much as possible"
   },
   {
     "frequency": 4898,
     "word": "私立",
-    "reading": "",
+    "reading": "しりつ",
     "type": "noun",
     "meaning": "private"
   },
   {
     "frequency": 4899,
     "word": "明記",
-    "reading": "",
+    "reading": "めいき",
     "type": "noun",
     "meaning": "writing clearly"
   },
@@ -39228,112 +39228,112 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4900,
     "word": "塩分",
-    "reading": "",
+    "reading": "えんぶん",
     "type": "noun",
     "meaning": "salt"
   },
   {
     "frequency": 4901,
     "word": "同一",
-    "reading": "",
+    "reading": "どういつ",
     "type": "na-adjective",
     "meaning": "same, identical"
   },
   {
     "frequency": 4902,
     "word": "顔色",
-    "reading": "",
+    "reading": "かおいろ",
     "type": "noun",
     "meaning": "complexion"
   },
   {
     "frequency": 4903,
     "word": "何せ",
-    "reading": "",
+    "reading": "なにせ",
     "type": "adverb",
     "meaning": "anyhow, after all, in any case"
   },
   {
     "frequency": 4904,
     "word": "資する",
-    "reading": "",
+    "reading": "しする",
     "type": "verb",
     "meaning": "contribute"
   },
   {
     "frequency": 4905,
     "word": "埃",
-    "reading": "",
+    "reading": "ほこり",
     "type": "noun",
     "meaning": "dust"
   },
   {
     "frequency": 4906,
     "word": "既存",
-    "reading": "",
+    "reading": "きそん",
     "type": "noun",
     "meaning": "existing"
   },
   {
     "frequency": 4907,
     "word": "網",
-    "reading": "",
+    "reading": "あみ",
     "type": "noun",
     "meaning": "net"
   },
   {
     "frequency": 4908,
     "word": "つ",
-    "reading": "",
+    "reading": "つ",
     "type": "particle",
     "meaning": "[indicating contrasts or coordinations]"
   },
   {
     "frequency": 4909,
     "word": "刑事",
-    "reading": "",
+    "reading": "でか",
     "type": "noun",
     "meaning": "police detective"
   },
   {
     "frequency": 4910,
     "word": "ボーリング",
-    "reading": "",
+    "reading": "ボーリング",
     "type": "noun",
     "meaning": "bowling"
   },
   {
     "frequency": 4911,
     "word": "感触",
-    "reading": "",
+    "reading": "かんしょく",
     "type": "noun",
     "meaning": "feel, touch"
   },
   {
     "frequency": 4912,
     "word": "明く",
-    "reading": "",
+    "reading": "あく",
     "type": "verb",
     "meaning": "open"
   },
   {
     "frequency": 4913,
     "word": "人柄",
-    "reading": "",
+    "reading": "ひとがら",
     "type": "noun",
     "meaning": "personality"
   },
   {
     "frequency": 4914,
     "word": "各々",
-    "reading": "",
+    "reading": "おのおの",
     "type": "noun",
     "meaning": "each"
   },
   {
     "frequency": 4915,
     "word": "職務",
-    "reading": "",
+    "reading": "しょくむ",
     "type": "noun",
     "meaning": "duty"
   },
@@ -39347,7 +39347,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4917,
     "word": "出し",
-    "reading": "",
+    "reading": "だし",
     "type": "noun",
     "meaning": "soup stock"
   },
@@ -39361,14 +39361,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4919,
     "word": "薄れる",
-    "reading": "",
+    "reading": "うすれる",
     "type": "verb",
     "meaning": "become dim"
   },
   {
     "frequency": 4920,
     "word": "執行",
-    "reading": "",
+    "reading": "しっこう",
     "type": "noun",
     "meaning": "execution, enforcement"
   },
@@ -39382,70 +39382,70 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4921,
     "word": "分量",
-    "reading": "",
+    "reading": "ぶんりょう",
     "type": "noun",
     "meaning": "quantity, amount"
   },
   {
     "frequency": 4922,
     "word": "大概",
-    "reading": "",
+    "reading": "たいがい",
     "type": "noun",
     "meaning": "generally"
   },
   {
     "frequency": 4923,
     "word": "熱する",
-    "reading": "",
+    "reading": "ねっする",
     "type": "verb",
     "meaning": "heat"
   },
   {
     "frequency": 4924,
     "word": "味わい",
-    "reading": "",
+    "reading": "あじわい",
     "type": "noun",
     "meaning": "profound, thought-provoking"
   },
   {
     "frequency": 4925,
     "word": "中途半端",
-    "reading": "",
+    "reading": "ちゅうとはんぱ",
     "type": "na-adjective",
     "meaning": "unfinished, half-done"
   },
   {
     "frequency": 4926,
     "word": "はたち",
-    "reading": "",
+    "reading": "はたち",
     "type": "noun",
     "meaning": "twenty years old"
   },
   {
     "frequency": 4927,
     "word": "一周",
-    "reading": "",
+    "reading": "いっしゅう",
     "type": "noun",
     "meaning": "one round"
   },
   {
     "frequency": 4928,
     "word": "異様",
-    "reading": "",
+    "reading": "いよう",
     "type": "na-adjective",
     "meaning": "strange"
   },
   {
     "frequency": 4929,
     "word": "髭",
-    "reading": "",
+    "reading": "ひげ",
     "type": "noun",
     "meaning": "mustache"
   },
   {
     "frequency": 4930,
     "word": "支度",
-    "reading": "",
+    "reading": "したく",
     "type": "noun",
     "meaning": "preparations"
   },
@@ -39459,21 +39459,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4931,
     "word": "留める",
-    "reading": "",
+    "reading": "とめる",
     "type": "verb",
     "meaning": "hold, keep"
   },
   {
     "frequency": 4932,
     "word": "立ち上げる",
-    "reading": "",
+    "reading": "たちあげる",
     "type": "verb",
     "meaning": "boot up, start"
   },
   {
     "frequency": 4933,
     "word": "受賞",
-    "reading": "",
+    "reading": "じゅしょう",
     "type": "noun",
     "meaning": "winning a prize"
   },
@@ -39487,56 +39487,56 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4934,
     "word": "国鉄",
-    "reading": "",
+    "reading": "こくてつ",
     "type": "noun",
     "meaning": "national railway"
   },
   {
     "frequency": 4935,
     "word": "乏しい",
-    "reading": "",
+    "reading": "とぼしい",
     "type": "i-adjective",
     "meaning": "few, little"
   },
   {
     "frequency": 4936,
     "word": "祝う",
-    "reading": "",
+    "reading": "いわう",
     "type": "verb",
     "meaning": "celebrate"
   },
   {
     "frequency": 4937,
     "word": "倍",
-    "reading": "",
+    "reading": "ばい",
     "type": "noun",
     "meaning": "times"
   },
   {
     "frequency": 4938,
     "word": "ただただ",
-    "reading": "",
+    "reading": "ただただ",
     "type": "adverb",
     "meaning": "all (someone) can do is, simply, nothing but"
   },
   {
     "frequency": 4939,
     "word": "業種",
-    "reading": "",
+    "reading": "ぎょうしゅ",
     "type": "noun",
     "meaning": "category of business, type of industry"
   },
   {
     "frequency": 4940,
     "word": "汽車",
-    "reading": "",
+    "reading": "きしゃ",
     "type": "noun",
     "meaning": "train"
   },
   {
     "frequency": 4941,
     "word": "うどん",
-    "reading": "",
+    "reading": "うどん",
     "type": "noun",
     "meaning": "udon, thick white noodles"
   },
@@ -39550,21 +39550,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4943,
     "word": "適度",
-    "reading": "",
+    "reading": "てきど",
     "type": "na-adjective",
     "meaning": "moderate"
   },
   {
     "frequency": 4944,
     "word": "日中",
-    "reading": "",
+    "reading": "にっちゅう",
     "type": "noun",
     "meaning": "during the day"
   },
   {
     "frequency": 4945,
     "word": "作曲",
-    "reading": "",
+    "reading": "さっきょく",
     "type": "noun",
     "meaning": "musical composition"
   },
@@ -39578,42 +39578,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4946,
     "word": "大嫌い",
-    "reading": "",
+    "reading": "だいきらい",
     "type": "na-adjective",
     "meaning": "hate"
   },
   {
     "frequency": 4947,
     "word": "居間",
-    "reading": "",
+    "reading": "いま",
     "type": "noun",
     "meaning": "living room"
   },
   {
     "frequency": 4948,
     "word": "心境",
-    "reading": "",
+    "reading": "しんきょう",
     "type": "noun",
     "meaning": "state of mind"
   },
   {
     "frequency": 4949,
     "word": "住宅街",
-    "reading": "",
+    "reading": "じゅうたくがい",
     "type": "noun",
     "meaning": "housing; residential area"
   },
   {
     "frequency": 4950,
     "word": "無言",
-    "reading": "",
+    "reading": "むごん",
     "type": "noun",
     "meaning": "silence, in silence, without speaking"
   },
   {
     "frequency": 4951,
     "word": "調味料",
-    "reading": "",
+    "reading": "ちょうみりょう",
     "type": "noun",
     "meaning": "seasoning, spice"
   },
@@ -39627,28 +39627,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4953,
     "word": "何時間",
-    "reading": "",
+    "reading": "なんじかん",
     "type": "noun",
     "meaning": "how many hours"
   },
   {
     "frequency": 4954,
     "word": "みそ",
-    "reading": "",
+    "reading": "みそ",
     "type": "noun",
     "meaning": "miso; key point"
   },
   {
     "frequency": 4955,
     "word": "花粉",
-    "reading": "",
+    "reading": "かふん",
     "type": "noun",
     "meaning": "pollen"
   },
   {
     "frequency": 4956,
     "word": "抗議",
-    "reading": "",
+    "reading": "こうぎ",
     "type": "noun",
     "meaning": "protest, objection"
   },
@@ -39662,63 +39662,63 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4957,
     "word": "あきれる",
-    "reading": "",
+    "reading": "あきれる",
     "type": "verb",
     "meaning": "be amazed, be disgusted"
   },
   {
     "frequency": 4958,
     "word": "数日",
-    "reading": "",
+    "reading": "すうじつ",
     "type": "noun",
     "meaning": "few days"
   },
   {
     "frequency": 4959,
     "word": "信念",
-    "reading": "",
+    "reading": "しんねん",
     "type": "noun",
     "meaning": "belief, faith"
   },
   {
     "frequency": 4960,
     "word": "イスラエル",
-    "reading": "",
+    "reading": "イスラエル",
     "type": "noun",
     "meaning": "Israel"
   },
   {
     "frequency": 4961,
     "word": "遅く",
-    "reading": "",
+    "reading": "おそく",
     "type": "noun",
     "meaning": "late"
   },
   {
     "frequency": 4962,
     "word": "追い詰める",
-    "reading": "",
+    "reading": "おいつめる",
     "type": "verb",
     "meaning": "run down, corner"
   },
   {
     "frequency": 4963,
     "word": "プラスチック",
-    "reading": "",
+    "reading": "プラスチック",
     "type": "noun",
     "meaning": "plastic"
   },
   {
     "frequency": 4964,
     "word": "しつこい",
-    "reading": "",
+    "reading": "しつこい",
     "type": "i-adjective",
     "meaning": "persistent; over-rich (food)"
   },
   {
     "frequency": 4965,
     "word": "塔",
-    "reading": "",
+    "reading": "とう",
     "type": "noun",
     "meaning": "tower"
   },
@@ -39739,42 +39739,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4968,
     "word": "手話",
-    "reading": "",
+    "reading": "しゅわ",
     "type": "noun",
     "meaning": "sign language"
   },
   {
     "frequency": 4969,
     "word": "痛める",
-    "reading": "",
+    "reading": "いためる",
     "type": "verb",
     "meaning": "hurt"
   },
   {
     "frequency": 4970,
     "word": "研究開発",
-    "reading": "",
+    "reading": "けんきゅうかいはつ",
     "type": "noun",
     "meaning": "research and development"
   },
   {
     "frequency": 4971,
     "word": "切り取る",
-    "reading": "",
+    "reading": "きりとる",
     "type": "verb",
     "meaning": "cut off, tear off"
   },
   {
     "frequency": 4972,
     "word": "民法",
-    "reading": "",
+    "reading": "みんぽう",
     "type": "noun",
     "meaning": "civil law"
   },
   {
     "frequency": 4973,
     "word": "返済",
-    "reading": "",
+    "reading": "へんさい",
     "type": "noun",
     "meaning": "repayment"
   },
@@ -39788,42 +39788,42 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4974,
     "word": "例える",
-    "reading": "",
+    "reading": "たとえる",
     "type": "verb",
     "meaning": "compare"
   },
   {
     "frequency": 4975,
     "word": "なじみ",
-    "reading": "",
+    "reading": "なじみ",
     "type": "noun",
     "meaning": "familiarity"
   },
   {
     "frequency": 4976,
     "word": "二十九",
-    "reading": "",
+    "reading": "にじゅうきゅう",
     "type": "noun",
     "meaning": "twenty-nine"
   },
   {
     "frequency": 4977,
     "word": "地形",
-    "reading": "",
+    "reading": "ちけい",
     "type": "noun",
     "meaning": "topography, landform"
   },
   {
     "frequency": 4978,
     "word": "本能",
-    "reading": "",
+    "reading": "ほんのう",
     "type": "noun",
     "meaning": "instinct"
   },
   {
     "frequency": 4979,
     "word": "解除",
-    "reading": "",
+    "reading": "かいじょ",
     "type": "noun",
     "meaning": "cancellation"
   },
@@ -39837,7 +39837,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4980,
     "word": "放出",
-    "reading": "",
+    "reading": "ほうしゅつ",
     "type": "noun",
     "meaning": "emission"
   },
@@ -39851,28 +39851,28 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4981,
     "word": "にらむ",
-    "reading": "",
+    "reading": "にらむ",
     "type": "verb",
     "meaning": "stare"
   },
   {
     "frequency": 4982,
     "word": "悪魔",
-    "reading": "",
+    "reading": "あくま",
     "type": "noun",
     "meaning": "devil, demon"
   },
   {
     "frequency": 4983,
     "word": "ハム",
-    "reading": "",
+    "reading": "ハム",
     "type": "noun",
     "meaning": "ham"
   },
   {
     "frequency": 4984,
     "word": "診察",
-    "reading": "",
+    "reading": "しんさつ",
     "type": "noun",
     "meaning": "medical examination, consultation"
   },
@@ -39893,14 +39893,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4986,
     "word": "柿",
-    "reading": "",
+    "reading": "かき",
     "type": "noun",
     "meaning": "persimmon"
   },
   {
     "frequency": 4987,
     "word": "給付",
-    "reading": "",
+    "reading": "きゅうふ",
     "type": "noun",
     "meaning": "provision"
   },
@@ -39914,7 +39914,7 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4988,
     "word": "署名",
-    "reading": "",
+    "reading": "しょめい",
     "type": "noun",
     "meaning": "signature"
   },
@@ -39928,21 +39928,21 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4989,
     "word": "詩人",
-    "reading": "",
+    "reading": "しじん",
     "type": "noun",
     "meaning": "poet"
   },
   {
     "frequency": 4990,
     "word": "しみじみ",
-    "reading": "",
+    "reading": "しみじみ",
     "type": "adverb",
     "meaning": "keenly, heartily, from one’s heart"
   },
   {
     "frequency": 4991,
     "word": "示唆",
-    "reading": "",
+    "reading": "しさ",
     "type": "noun",
     "meaning": "suggestion"
   },
@@ -39963,49 +39963,49 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 4993,
     "word": "来週",
-    "reading": "",
+    "reading": "らいしゅう",
     "type": "noun",
     "meaning": "next week"
   },
   {
     "frequency": 4994,
     "word": "気楽",
-    "reading": "",
+    "reading": "きらく",
     "type": "na-adjective",
     "meaning": "comfortable, easy, easygoing"
   },
   {
     "frequency": 4995,
     "word": "略",
-    "reading": "",
+    "reading": "ほぼ",
     "type": "noun",
     "meaning": "omission, abbreviation"
   },
   {
     "frequency": 4996,
     "word": "免れる",
-    "reading": "",
+    "reading": "まぬがれる",
     "type": "verb",
     "meaning": "escape, avoid"
   },
   {
     "frequency": 4997,
     "word": "相次ぐ",
-    "reading": "",
+    "reading": "あいつぐ",
     "type": "verb",
     "meaning": "happen one after another"
   },
   {
     "frequency": 4998,
     "word": "一段",
-    "reading": "",
+    "reading": "いちだん",
     "type": "noun",
     "meaning": "one step"
   },
   {
     "frequency": 4999,
     "word": "動揺",
-    "reading": "",
+    "reading": "どうよう",
     "type": "noun",
     "meaning": "unrest"
   },
@@ -40019,14 +40019,14 @@ export const japaneseFrequencyData: JapaneseFrequencyEntry[] = [
   {
     "frequency": 5000,
     "word": "まあまあ",
-    "reading": "",
+    "reading": "まあまあ",
     "type": "na-adjective",
     "meaning": "so-so, not bad"
   },
   {
     "frequency": 5000,
     "word": "まあまあ",
-    "reading": "",
+    "reading": "まあまあ",
     "type": "adverb",
     "meaning": "fairly, moderately"
   }
