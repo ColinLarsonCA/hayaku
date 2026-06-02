@@ -449,6 +449,23 @@ h1 {
   min-width: 0;
 }
 
+.word-deck-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+.pagination-info {
+  font-size: 0.82rem;
+  color: var(--text-body);
+  min-width: 120px;
+  text-align: center;
+}
+
 .deck-table-block {
   display: grid;
   gap: 0.45rem;

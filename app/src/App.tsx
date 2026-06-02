@@ -790,6 +790,8 @@ const formatDeckColumnLabel = (column: string) => {
   return column
 }
 
+const WORD_DECK_GROUPS_PER_PAGE = 5
+
 function App() {
   const [theme, setTheme] = useState<Theme>(() => {
     const saved = window.localStorage.getItem('hayaku-theme')
@@ -847,6 +849,7 @@ function App() {
   const [wordDeckRangeStart, setWordDeckRangeStart] = useState('1')
   const [wordDeckRangeEnd, setWordDeckRangeEnd] = useState('100')
   const [excludeGrammarOnSelect, setExcludeGrammarOnSelect] = useState(false)
+  const [wordDeckPage, setWordDeckPage] = useState(0)
   const activeWordSessionLength = wordQuizStates[wordQuizMode].session.remainingIndexes.length
   const answerInputRef = useRef<HTMLInputElement>(null)
   const focusAnswerInput = (immediate = false) => {
@@ -1475,73 +1478,111 @@ function App() {
       </div>
 
       <div className="word-deck-list" role="list" aria-label="Word deck by frequency">
-        {wordDeckGroups.map((group) => {
-          const groupFrequencies = group.entries.map((entry) => entry.frequency)
-          const groupAllSelected = groupFrequencies.every((frequency) => selectedWordFrequencies.has(frequency))
-          return (
-            <section key={group.groupStart} className="word-deck-group">
-              <div className="word-deck-group-header">
-                <p className="word-deck-group-label">
-                  {group.groupStart}-{group.groupEnd}
-                </p>
-                <button
-                  type="button"
-                  className="ghost-action deck-quick-action-btn"
-                  onClick={() => toggleWordGroup(groupFrequencies)}
-                >
-                  {groupAllSelected ? 'Unselect group' : 'Select group'}
-                </button>
-              </div>
+        {(() => {
+          const totalPages = Math.ceil(wordDeckGroups.length / WORD_DECK_GROUPS_PER_PAGE)
+          const clampedPage = Math.max(0, Math.min(wordDeckPage, totalPages - 1))
+          const startIdx = clampedPage * WORD_DECK_GROUPS_PER_PAGE
+          const endIdx = startIdx + WORD_DECK_GROUPS_PER_PAGE
+          const visibleGroups = wordDeckGroups.slice(startIdx, endIdx)
 
-              <div className="word-deck-group-rows">
-                {group.entries.map((entry, index) => {
-                  const isSelected = selectedWordFrequencies.has(entry.frequency)
-                  const isGrammarEntry = hasGrammarType(entry.type)
-                  const isDisabledByGrammarFilter = excludeGrammarOnSelect && isGrammarEntry
-                  const showReading =
-                    entry.reading.length > 0 && normalizeInput(entry.reading) !== normalizeInput(entry.word)
-                  return (
-                    <div
-                      key={`${group.groupStart}-${index}-${entry.frequency}-${entry.word}-${entry.reading}-${entry.type}-${entry.meaning}`}
-                      className={`word-deck-row ${isSelected ? 'is-selected' : ''} ${
-                        isDisabledByGrammarFilter ? 'is-disabled' : ''
-                      }`}
-                    >
+          return (
+            <>
+              {visibleGroups.map((group) => {
+                const groupFrequencies = group.entries.map((entry) => entry.frequency)
+                const groupAllSelected = groupFrequencies.every((frequency) => selectedWordFrequencies.has(frequency))
+                return (
+                  <section key={group.groupStart} className="word-deck-group">
+                    <div className="word-deck-group-header">
+                      <p className="word-deck-group-label">
+                        {group.groupStart}-{group.groupEnd}
+                      </p>
                       <button
                         type="button"
-                        className="word-deck-row-toggle"
-                        onClick={() => toggleWordFrequency(entry.frequency)}
-                        aria-pressed={isSelected}
-                        disabled={isDisabledByGrammarFilter}
-                        aria-disabled={isDisabledByGrammarFilter}
+                        className="ghost-action deck-quick-action-btn"
+                        onClick={() => toggleWordGroup(groupFrequencies)}
                       >
-                        <span className={`word-deck-radio ${isSelected ? 'is-selected' : ''}`} aria-hidden="true" />
-                        <span className="word-deck-frequency">{entry.frequency}</span>
-                        <span className="word-deck-primary">
-                          <span className="word-deck-word">{entry.word}</span>
-                          {showReading ? <span className="word-deck-reading">{entry.reading}</span> : null}
-                        </span>
-                        <span className="word-deck-secondary">
-                          <span className="word-deck-type">{entry.type}</span>
-                          <span className="word-deck-meaning">{entry.meaning}</span>
-                        </span>
+                        {groupAllSelected ? 'Unselect group' : 'Select group'}
                       </button>
-                      <a
-                        href={getJishoSearchUrl(entry.word)}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="word-deck-jisho-link"
-                        aria-label={`Open ${entry.word} in Jisho`}
-                      >
-                        jisho
-                      </a>
                     </div>
-                  )
-                })}
-              </div>
-            </section>
+
+                    <div className="word-deck-group-rows">
+                      {group.entries.map((entry, index) => {
+                        const isSelected = selectedWordFrequencies.has(entry.frequency)
+                        const isGrammarEntry = hasGrammarType(entry.type)
+                        const isDisabledByGrammarFilter = excludeGrammarOnSelect && isGrammarEntry
+                        const showReading =
+                          entry.reading.length > 0 && normalizeInput(entry.reading) !== normalizeInput(entry.word)
+                        return (
+                          <div
+                            key={`${group.groupStart}-${index}-${entry.frequency}-${entry.word}-${entry.reading}-${entry.type}-${entry.meaning}`}
+                            className={`word-deck-row ${isSelected ? 'is-selected' : ''} ${
+                              isDisabledByGrammarFilter ? 'is-disabled' : ''
+                            }`}
+                          >
+                            <button
+                              type="button"
+                              className="word-deck-row-toggle"
+                              onClick={() => toggleWordFrequency(entry.frequency)}
+                              aria-pressed={isSelected}
+                              disabled={isDisabledByGrammarFilter}
+                              aria-disabled={isDisabledByGrammarFilter}
+                            >
+                              <span className={`word-deck-radio ${isSelected ? 'is-selected' : ''}`} aria-hidden="true" />
+                              <span className="word-deck-frequency">{entry.frequency}</span>
+                              <span className="word-deck-primary">
+                                <span className="word-deck-word">{entry.word}</span>
+                                {showReading ? <span className="word-deck-reading">{entry.reading}</span> : null}
+                              </span>
+                              <span className="word-deck-secondary">
+                                <span className="word-deck-type">{entry.type}</span>
+                                <span className="word-deck-meaning">{entry.meaning}</span>
+                              </span>
+                            </button>
+                            <a
+                              href={getJishoSearchUrl(entry.word)}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="word-deck-jisho-link"
+                              aria-label={`Open ${entry.word} in Jisho`}
+                            >
+                              jisho
+                            </a>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </section>
+                )
+              })}
+
+              {totalPages > 1 && (
+                <div className="word-deck-pagination" role="group" aria-label="Word deck pagination">
+                  <button
+                    type="button"
+                    className="ghost-action deck-quick-action-btn"
+                    onClick={() => setWordDeckPage((p) => Math.max(0, p - 1))}
+                    disabled={clampedPage === 0}
+                    aria-label="Previous page"
+                  >
+                    ← Previous
+                  </button>
+                  <span className="pagination-info" aria-live="polite">
+                    Page {clampedPage + 1} of {totalPages}
+                  </span>
+                  <button
+                    type="button"
+                    className="ghost-action deck-quick-action-btn"
+                    onClick={() => setWordDeckPage((p) => Math.min(totalPages - 1, p + 1))}
+                    disabled={clampedPage === totalPages - 1}
+                    aria-label="Next page"
+                  >
+                    Next →
+                  </button>
+                </div>
+              )}
+            </>
           )
-        })}
+        })()}
       </div>
     </div>
   )
