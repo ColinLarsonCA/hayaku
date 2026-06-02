@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Sun, Moon, RotateCcw } from 'lucide-react'
+import { Sun, Moon, RotateCcw, Eye } from 'lucide-react'
 import { japaneseFrequencyData } from './data/japaneseFrequencyData'
 import './App.css'
 
@@ -298,6 +298,11 @@ const containsKanji = (value: string) => /[\u3400-\u9FFF]/.test(value)
 
 const normalizeMeaning = (value: string) =>
   normalizeInput(value.replace(/^["']+/, '').replace(/["']+$/, ''))
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+
+const stripLeadingTo = (value: string) => value.replace(/^to\s+/, '').trim()
 
 const parseMeaningAnswers = (meaning: string) => {
   const fullMeaning = normalizeMeaning(meaning)
@@ -726,6 +731,8 @@ function App() {
   })
   const [isDeckEditorOpen, setIsDeckEditorOpen] = useState(false)
   const [isWordDeckEditorOpen, setIsWordDeckEditorOpen] = useState(false)
+  const [isKanaPeekVisible, setIsKanaPeekVisible] = useState(false)
+  const [isWordPeekVisible, setIsWordPeekVisible] = useState(false)
   const hiraganaDeckCards = useMemo(() => getCardsForDeck(HIRAGANA_CARDS, hiraganaDeck), [hiraganaDeck])
   const katakanaDeckCards = useMemo(() => getCardsForDeck(KATAKANA_CARDS, katakanaDeck), [katakanaDeck])
   const [hiraganaSession, setHiraganaSession] = useState<HiraganaSession>(() => {
@@ -851,6 +858,8 @@ function App() {
   const currentWordIndex = wordSession.remainingIndexes[0]
   const currentWordCard = wordCards[currentWordIndex]
   const wordCompletedCount = wordCards.length - wordSession.remainingIndexes.length
+  const kanaPeekAnswer = currentCard?.answers.join(' / ') ?? ''
+  const wordPeekAnswer = currentWordCard?.meaning ?? ''
   const allWordDeckEntries = useMemo(
     () => [...japaneseFrequencyData].sort((a, b) => a.frequency - b.frequency),
     [],
@@ -900,6 +909,7 @@ function App() {
 
     const isMatch = currentCard.answers.includes(normalizedInput)
     if (isMatch) {
+      setIsKanaPeekVisible(false)
       setCurrentSession((currentSessionState) => ({
         ...(currentSessionState.remainingCharacters.length <= 1
           ? createNewKanaSession(cards)
@@ -918,6 +928,7 @@ function App() {
   }
 
   const startNewSession = () => {
+    setIsKanaPeekVisible(false)
     setCurrentSession(createNewKanaSession(cards))
     focusAnswerInput(true)
   }
@@ -929,8 +940,14 @@ function App() {
     }
 
     const acceptedMeanings = parseMeaningAnswers(currentWordCard.meaning)
-    const isMatch = acceptedMeanings.includes(normalizedInput)
+    const isVerbType = normalizeInput(currentWordCard.type).includes('verb')
+    const comparedInput = isVerbType ? stripLeadingTo(normalizedInput) : normalizedInput
+    const isMatch = acceptedMeanings.some((meaning) => {
+      const comparedMeaning = isVerbType ? stripLeadingTo(meaning) : meaning
+      return comparedMeaning === comparedInput
+    })
     if (isMatch) {
+      setIsWordPeekVisible(false)
       setWordSession((currentWordSession) => ({
         ...(currentWordSession.remainingIndexes.length <= 1
           ? createNewWordSession(wordCards)
@@ -949,11 +966,23 @@ function App() {
   }
 
   const startNewWordSession = () => {
+    setIsWordPeekVisible(false)
     setWordSession(createNewWordSession(wordCards))
     focusAnswerInput(true)
   }
 
+  const revealKanaPeekAnswer = () => {
+    setIsKanaPeekVisible(true)
+    focusAnswerInput(true)
+  }
+
+  const revealWordPeekAnswer = () => {
+    setIsWordPeekVisible(true)
+    focusAnswerInput(true)
+  }
+
   const applyWordDeckConfig = (nextWordDeck: WordDeckConfig) => {
+    setIsWordPeekVisible(false)
     setWordDeck(nextWordDeck)
     const nextWordCards = getWordsForDeck(japaneseFrequencyData, nextWordDeck)
     setWordSession(createNewWordSession(nextWordCards))
@@ -1330,7 +1359,7 @@ function App() {
         </button>
         <div className="session-meta" role="status" aria-live="polite">
           <span>
-            Correct: {completedCount}/{cards.length}
+            {completedCount}/{cards.length}
           </span>
         </div>
       </div>
@@ -1350,20 +1379,35 @@ function App() {
             {currentCharacter}
           </p>
           <div className="card-controls">
-            <input
-              id={`${modeName}-answer`}
-              ref={answerInputRef}
-              className="answer-input"
-              type="text"
-              autoCapitalize="off"
-              autoCorrect="off"
-              autoComplete="off"
-              spellCheck={false}
-              value={currentSession.currentInput}
-              onChange={(event) => updateInputAndCheckAnswer(event.target.value)}
-              placeholder="Type romaji answer"
-              aria-label="Romaji answer"
-            />
+            <div className="answer-input-stack">
+              {isKanaPeekVisible ? (
+                <p className="peek-answer-text">{kanaPeekAnswer}</p>
+              ) : (
+                <button
+                  type="button"
+                  className="peek-answer-btn"
+                  onClick={revealKanaPeekAnswer}
+                  aria-label="Peek answer"
+                  disabled={!currentCard}
+                >
+                  <Eye size={16} />
+                </button>
+              )}
+              <input
+                id={`${modeName}-answer`}
+                ref={answerInputRef}
+                className="answer-input"
+                type="text"
+                autoCapitalize="off"
+                autoCorrect="off"
+                autoComplete="off"
+                spellCheck={false}
+                value={currentSession.currentInput}
+                onChange={(event) => updateInputAndCheckAnswer(event.target.value)}
+                placeholder="Type romaji answer"
+                aria-label="Romaji answer"
+              />
+            </div>
             <button
               type="button"
               className="ghost-action session-reset-btn"
@@ -1391,7 +1435,7 @@ function App() {
         </button>
         <div className="session-meta" role="status" aria-live="polite">
           <span>
-            Correct: {wordCompletedCount}/{wordCards.length}
+            {wordCompletedCount}/{wordCards.length}
           </span>
         </div>
       </div>
@@ -1432,20 +1476,35 @@ function App() {
             )}
           </p>
           <div className="card-controls">
-            <input
-              id="frequency-answer"
-              ref={answerInputRef}
-              className="answer-input"
-              type="text"
-              autoCapitalize="off"
-              autoCorrect="off"
-              autoComplete="off"
-              spellCheck={false}
-              value={wordSession.currentInput}
-              onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
-              placeholder="Type one meaning"
-              aria-label="Meaning answer"
-            />
+            <div className="answer-input-stack">
+              {isWordPeekVisible ? (
+                <p className="peek-answer-text">{wordPeekAnswer}</p>
+              ) : (
+                <button
+                  type="button"
+                  className="peek-answer-btn"
+                  onClick={revealWordPeekAnswer}
+                  aria-label="Peek answer"
+                  disabled={!currentWordCard}
+                >
+                  <Eye size={16} />
+                </button>
+              )}
+              <input
+                id="frequency-answer"
+                ref={answerInputRef}
+                className="answer-input"
+                type="text"
+                autoCapitalize="off"
+                autoCorrect="off"
+                autoComplete="off"
+                spellCheck={false}
+                value={wordSession.currentInput}
+                onChange={(event) => updateWordInputAndCheckAnswer(event.target.value)}
+                placeholder="Type one meaning"
+                aria-label="Meaning answer"
+              />
+            </div>
             <button
               type="button"
               className="ghost-action session-reset-btn"
@@ -1484,6 +1543,8 @@ function App() {
               setMode(key)
               setIsDeckEditorOpen(false)
               setIsWordDeckEditorOpen(false)
+              setIsKanaPeekVisible(false)
+              setIsWordPeekVisible(false)
               focusAnswerInput(true)
             }}
             aria-pressed={mode === key}
