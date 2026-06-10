@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Sun, Moon, RotateCcw, Eye } from 'lucide-react'
 import { toHiragana } from 'wanakana'
 import { japaneseFrequencyData } from './data/japaneseFrequencyData'
@@ -852,17 +852,34 @@ function App() {
   const [wordDeckPage, setWordDeckPage] = useState(0)
   const activeWordSessionLength = wordQuizStates[wordQuizMode].session.remainingIndexes.length
   const answerInputRef = useRef<HTMLInputElement>(null)
-  const focusAnswerInput = (immediate = false) => {
+  const drillCardRef = useRef<HTMLDivElement>(null)
+  const keepDrillCardVisible = useCallback(() => {
+    const drillCard = drillCardRef.current
+    if (!drillCard) {
+      return
+    }
+
+    drillCard.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'auto' })
+  }, [])
+  const focusAnswerInput = useCallback((immediate = false) => {
     const tryFocus = () => {
       const input = answerInputRef.current
       if (!input) {
         return
       }
 
+      if (mode === 'frequency') {
+        keepDrillCardVisible()
+      }
+
       input.focus({ preventScroll: true })
       // iOS Safari is more likely to keep focus when selection is explicitly set.
       const length = input.value.length
       input.setSelectionRange(length, length)
+
+      if (mode === 'frequency') {
+        requestAnimationFrame(keepDrillCardVisible)
+      }
     }
 
     if (immediate) {
@@ -871,7 +888,7 @@ function App() {
 
     requestAnimationFrame(tryFocus)
     setTimeout(tryFocus, 0)
-  }
+  }, [keepDrillCardVisible, mode])
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
@@ -935,6 +952,7 @@ function App() {
     activeWordSessionLength,
     isDeckEditorOpen,
     isWordDeckEditorOpen,
+    focusAnswerInput,
   ])
 
   const toggleTheme = () => {
@@ -1091,6 +1109,19 @@ function App() {
     }
 
     if (isReadingWordQuiz) {
+      setWordQuizStates((currentWordQuizStates) => {
+        const currentWordQuizState = currentWordQuizStates[wordQuizMode]
+        return {
+          ...currentWordQuizStates,
+          [wordQuizMode]: {
+            ...currentWordQuizState,
+            session: {
+              ...currentWordQuizState.session,
+              currentInput: readingInputValue,
+            },
+          },
+        }
+      })
       return
     }
 
@@ -1647,14 +1678,14 @@ function App() {
       {isDeckEditorOpen ? (
         renderDeckEditor()
       ) : cards.length === 0 ? (
-        <div className="drill-card">
+        <div className="drill-card" ref={drillCardRef}>
           <div className="deck-empty-state" role="status" aria-live="polite">
             <p className="deck-empty-title">No characters selected.</p>
             <p className="deck-empty-copy">Open Deck and choose at least one character.</p>
           </div>
         </div>
       ) : (
-        <div className="drill-card">
+        <div className="drill-card" ref={drillCardRef}>
           <p className="hiragana-character" aria-live="polite">
             {currentCharacter}
           </p>
@@ -1777,7 +1808,6 @@ function App() {
               )}
               {isReadingWordQuiz ? (
                 <input
-                  key={`reading-${wordQuizMode}-${currentWordIndex ?? 'none'}`}
                   id="frequency-answer"
                   ref={answerInputRef}
                   className="answer-input"
@@ -1786,14 +1816,13 @@ function App() {
                   autoCorrect="off"
                   autoComplete="off"
                   spellCheck={false}
-                  defaultValue={wordSession.currentInput}
+                  value={wordSession.currentInput}
                   onChange={(event) => updateWordInputAndCheckAnswer(event.target.value, event.currentTarget)}
                   placeholder="Type the reading"
                   aria-label="Reading answer"
                 />
               ) : (
                 <input
-                  key={`meaning-${wordQuizMode}-${currentWordIndex ?? 'none'}`}
                   id="frequency-answer"
                   ref={answerInputRef}
                   className="answer-input"
