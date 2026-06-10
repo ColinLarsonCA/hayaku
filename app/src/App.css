@@ -775,7 +775,8 @@ h1 {
 @media (max-width: 760px) {
   .practice-toolbar {
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
   }
 
   .deck-toggle-btn {
@@ -784,17 +785,45 @@ h1 {
   }
 
   .word-quiz-toolbar-controls {
-    width: 100%;
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
   }
 
   .word-quiz-mode-toggle {
-    width: 100%;
-    justify-content: space-between;
+    width: auto;
+    min-width: 0;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    gap: 0.2rem;
+    padding: 0.08rem;
   }
 
   .word-quiz-mode-btn {
     flex: 1 1 0;
     text-align: center;
+    padding: 0.25rem 0.4rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.02em;
+  }
+
+  .session-actions {
+    flex: 0 0 auto;
+    gap: 0.32rem;
+  }
+
+  .session-meta {
+    font-size: 0.78rem;
+  }
+
+  .session-meta span {
+    padding: 0.2rem 0.42rem;
+  }
+
+  .toolbar-reset-btn {
+    min-width: 1.75rem;
+    min-height: 1.75rem;
   }
 
   .deck-grid-row {
