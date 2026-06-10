@@ -24,6 +24,37 @@
   padding: clamp(0.7rem, 1.5vw, 0.95rem) clamp(0.9rem, 2vw, 1.2rem);
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.topbar-icon-btn {
+  width: 2.9rem;
+  height: 2.9rem;
+  min-width: 2.9rem;
+  min-height: 2.9rem;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-base);
+  color: var(--text-strong);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.topbar-icon-btn svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.topbar-icon-btn:hover {
+  border-color: var(--accent-soft);
+}
+
 h1 {
   margin: 0;
   font-size: clamp(1.45rem, 2.6vw, 2rem);
@@ -77,6 +108,11 @@ h1 {
 }
 
 .mode-btn {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   background: transparent;
   color: var(--text-muted);
   padding: 0.7rem 0.85rem;
@@ -773,6 +809,18 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  .topbar-icon-btn {
+    width: 2.2rem;
+    height: 2.2rem;
+    min-width: 2.2rem;
+    min-height: 2.2rem;
+  }
+
+  .topbar-icon-btn svg {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
+
   .practice-toolbar {
     align-items: center;
     flex-wrap: nowrap;

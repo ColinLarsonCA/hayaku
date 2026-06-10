@@ -1,16 +1,20 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Sun, Moon, RotateCcw, Eye } from 'lucide-react'
+import { RotateCcw, Eye, BookSearch } from 'lucide-react'
 import { toHiragana } from 'wanakana'
+import {
+  buildDeckCells,
+  buildDeckMatrix,
+  formatDeckColumnLabel,
+  formatDeckRowLabel,
+  type DeckMatrix,
+} from './kanaDeck.ts'
+import { HIRAGANA_CARDS, KATAKANA_CARDS, type KanaCard as HiraganaCard } from './kanaData'
+import { useAppTheme } from './useAppTheme'
+import CoreHeader from './components/CoreHeader'
 import { japaneseFrequencyData } from './data/japaneseFrequencyData'
 import './App.css'
 
-type Theme = 'light' | 'dark'
 type PracticeMode = 'hiragana' | 'katakana' | 'frequency'
-
-type HiraganaCard = {
-  character: string
-  answers: string[]
-}
 
 type HiraganaSession = {
   remainingCharacters: string[]
@@ -37,22 +41,6 @@ type WordQuizState = {
   session: WordSession
 }
 
-type DeckCell = {
-  character: string
-  displayRomaji: string
-  positionRomaji: string
-  row: string
-  column: string
-}
-
-type DeckMatrix = {
-  rows: string[]
-  columns: string[]
-  rowCharacters: Map<string, string[]>
-  columnCharacters: Map<string, string[]>
-  cellMap: Map<string, DeckCell>
-}
-
 const modes: Record<PracticeMode, { label: string; mobileLabel: string; title: string }> = {
   hiragana: {
     label: 'ひらがな / HIRAGANA',
@@ -70,229 +58,6 @@ const modes: Record<PracticeMode, { label: string; mobileLabel: string; title: s
     title: '言葉 / WORDS',
   },
 }
-
-const getSystemTheme = (): Theme =>
-  window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-
-const HIRAGANA_CARDS: HiraganaCard[] = [
-  { character: 'あ', answers: ['a'] },
-  { character: 'い', answers: ['i'] },
-  { character: 'う', answers: ['u'] },
-  { character: 'え', answers: ['e'] },
-  { character: 'お', answers: ['o'] },
-  { character: 'か', answers: ['ka'] },
-  { character: 'き', answers: ['ki'] },
-  { character: 'く', answers: ['ku'] },
-  { character: 'け', answers: ['ke'] },
-  { character: 'こ', answers: ['ko'] },
-  { character: 'さ', answers: ['sa'] },
-  { character: 'し', answers: ['shi', 'si'] },
-  { character: 'す', answers: ['su'] },
-  { character: 'せ', answers: ['se'] },
-  { character: 'そ', answers: ['so'] },
-  { character: 'た', answers: ['ta'] },
-  { character: 'ち', answers: ['chi', 'ti'] },
-  { character: 'つ', answers: ['tsu', 'tu'] },
-  { character: 'て', answers: ['te'] },
-  { character: 'と', answers: ['to'] },
-  { character: 'な', answers: ['na'] },
-  { character: 'に', answers: ['ni'] },
-  { character: 'ぬ', answers: ['nu'] },
-  { character: 'ね', answers: ['ne'] },
-  { character: 'の', answers: ['no'] },
-  { character: 'は', answers: ['ha'] },
-  { character: 'ひ', answers: ['hi'] },
-  { character: 'ふ', answers: ['fu', 'hu'] },
-  { character: 'へ', answers: ['he'] },
-  { character: 'ほ', answers: ['ho'] },
-  { character: 'ま', answers: ['ma'] },
-  { character: 'み', answers: ['mi'] },
-  { character: 'む', answers: ['mu'] },
-  { character: 'め', answers: ['me'] },
-  { character: 'も', answers: ['mo'] },
-  { character: 'や', answers: ['ya'] },
-  { character: 'ゆ', answers: ['yu'] },
-  { character: 'よ', answers: ['yo'] },
-  { character: 'ら', answers: ['ra'] },
-  { character: 'り', answers: ['ri'] },
-  { character: 'る', answers: ['ru'] },
-  { character: 'れ', answers: ['re'] },
-  { character: 'ろ', answers: ['ro'] },
-  { character: 'わ', answers: ['wa'] },
-  { character: 'を', answers: ['wo', 'o'] },
-  { character: 'ん', answers: ['n'] },
-  { character: 'が', answers: ['ga'] },
-  { character: 'ぎ', answers: ['gi'] },
-  { character: 'ぐ', answers: ['gu'] },
-  { character: 'げ', answers: ['ge'] },
-  { character: 'ご', answers: ['go'] },
-  { character: 'ざ', answers: ['za'] },
-  { character: 'じ', answers: ['ji', 'zi'] },
-  { character: 'ず', answers: ['zu'] },
-  { character: 'ぜ', answers: ['ze'] },
-  { character: 'ぞ', answers: ['zo'] },
-  { character: 'だ', answers: ['da'] },
-  { character: 'ぢ', answers: ['ji', 'di'] },
-  { character: 'づ', answers: ['zu', 'du'] },
-  { character: 'で', answers: ['de'] },
-  { character: 'ど', answers: ['do'] },
-  { character: 'ば', answers: ['ba'] },
-  { character: 'び', answers: ['bi'] },
-  { character: 'ぶ', answers: ['bu'] },
-  { character: 'べ', answers: ['be'] },
-  { character: 'ぼ', answers: ['bo'] },
-  { character: 'ぱ', answers: ['pa'] },
-  { character: 'ぴ', answers: ['pi'] },
-  { character: 'ぷ', answers: ['pu'] },
-  { character: 'ぺ', answers: ['pe'] },
-  { character: 'ぽ', answers: ['po'] },
-  { character: 'きゃ', answers: ['kya'] },
-  { character: 'きゅ', answers: ['kyu'] },
-  { character: 'きょ', answers: ['kyo'] },
-  { character: 'しゃ', answers: ['sha', 'sya'] },
-  { character: 'しゅ', answers: ['shu', 'syu'] },
-  { character: 'しょ', answers: ['sho', 'syo'] },
-  { character: 'ちゃ', answers: ['cha', 'tya', 'cya'] },
-  { character: 'ちゅ', answers: ['chu', 'tyu', 'cyu'] },
-  { character: 'ちょ', answers: ['cho', 'tyo', 'cyo'] },
-  { character: 'にゃ', answers: ['nya'] },
-  { character: 'にゅ', answers: ['nyu'] },
-  { character: 'にょ', answers: ['nyo'] },
-  { character: 'ひゃ', answers: ['hya'] },
-  { character: 'ひゅ', answers: ['hyu'] },
-  { character: 'ひょ', answers: ['hyo'] },
-  { character: 'みゃ', answers: ['mya'] },
-  { character: 'みゅ', answers: ['myu'] },
-  { character: 'みょ', answers: ['myo'] },
-  { character: 'りゃ', answers: ['rya'] },
-  { character: 'りゅ', answers: ['ryu'] },
-  { character: 'りょ', answers: ['ryo'] },
-  { character: 'ぎゃ', answers: ['gya'] },
-  { character: 'ぎゅ', answers: ['gyu'] },
-  { character: 'ぎょ', answers: ['gyo'] },
-  { character: 'じゃ', answers: ['ja', 'jya', 'zya'] },
-  { character: 'じゅ', answers: ['ju', 'jyu', 'zyu'] },
-  { character: 'じょ', answers: ['jo', 'jyo', 'zyo'] },
-  { character: 'ぢゃ', answers: ['ja', 'dya'] },
-  { character: 'ぢゅ', answers: ['ju', 'dyu'] },
-  { character: 'ぢょ', answers: ['jo', 'dyo'] },
-  { character: 'びゃ', answers: ['bya'] },
-  { character: 'びゅ', answers: ['byu'] },
-  { character: 'びょ', answers: ['byo'] },
-  { character: 'ぴゃ', answers: ['pya'] },
-  { character: 'ぴゅ', answers: ['pyu'] },
-  { character: 'ぴょ', answers: ['pyo'] },
-]
-
-const KATAKANA_CARDS: HiraganaCard[] = [
-  { character: 'ア', answers: ['a'] },
-  { character: 'イ', answers: ['i'] },
-  { character: 'ウ', answers: ['u'] },
-  { character: 'エ', answers: ['e'] },
-  { character: 'オ', answers: ['o'] },
-  { character: 'カ', answers: ['ka'] },
-  { character: 'キ', answers: ['ki'] },
-  { character: 'ク', answers: ['ku'] },
-  { character: 'ケ', answers: ['ke'] },
-  { character: 'コ', answers: ['ko'] },
-  { character: 'サ', answers: ['sa'] },
-  { character: 'シ', answers: ['shi', 'si'] },
-  { character: 'ス', answers: ['su'] },
-  { character: 'セ', answers: ['se'] },
-  { character: 'ソ', answers: ['so'] },
-  { character: 'タ', answers: ['ta'] },
-  { character: 'チ', answers: ['chi', 'ti'] },
-  { character: 'ツ', answers: ['tsu', 'tu'] },
-  { character: 'テ', answers: ['te'] },
-  { character: 'ト', answers: ['to'] },
-  { character: 'ナ', answers: ['na'] },
-  { character: 'ニ', answers: ['ni'] },
-  { character: 'ヌ', answers: ['nu'] },
-  { character: 'ネ', answers: ['ne'] },
-  { character: 'ノ', answers: ['no'] },
-  { character: 'ハ', answers: ['ha'] },
-  { character: 'ヒ', answers: ['hi'] },
-  { character: 'フ', answers: ['fu', 'hu'] },
-  { character: 'ヘ', answers: ['he'] },
-  { character: 'ホ', answers: ['ho'] },
-  { character: 'マ', answers: ['ma'] },
-  { character: 'ミ', answers: ['mi'] },
-  { character: 'ム', answers: ['mu'] },
-  { character: 'メ', answers: ['me'] },
-  { character: 'モ', answers: ['mo'] },
-  { character: 'ヤ', answers: ['ya'] },
-  { character: 'ユ', answers: ['yu'] },
-  { character: 'ヨ', answers: ['yo'] },
-  { character: 'ラ', answers: ['ra'] },
-  { character: 'リ', answers: ['ri'] },
-  { character: 'ル', answers: ['ru'] },
-  { character: 'レ', answers: ['re'] },
-  { character: 'ロ', answers: ['ro'] },
-  { character: 'ワ', answers: ['wa'] },
-  { character: 'ヲ', answers: ['wo', 'o'] },
-  { character: 'ン', answers: ['n'] },
-  { character: 'ガ', answers: ['ga'] },
-  { character: 'ギ', answers: ['gi'] },
-  { character: 'グ', answers: ['gu'] },
-  { character: 'ゲ', answers: ['ge'] },
-  { character: 'ゴ', answers: ['go'] },
-  { character: 'ザ', answers: ['za'] },
-  { character: 'ジ', answers: ['ji', 'zi'] },
-  { character: 'ズ', answers: ['zu'] },
-  { character: 'ゼ', answers: ['ze'] },
-  { character: 'ゾ', answers: ['zo'] },
-  { character: 'ダ', answers: ['da'] },
-  { character: 'ヂ', answers: ['ji', 'di'] },
-  { character: 'ヅ', answers: ['zu', 'du'] },
-  { character: 'デ', answers: ['de'] },
-  { character: 'ド', answers: ['do'] },
-  { character: 'バ', answers: ['ba'] },
-  { character: 'ビ', answers: ['bi'] },
-  { character: 'ブ', answers: ['bu'] },
-  { character: 'ベ', answers: ['be'] },
-  { character: 'ボ', answers: ['bo'] },
-  { character: 'パ', answers: ['pa'] },
-  { character: 'ピ', answers: ['pi'] },
-  { character: 'プ', answers: ['pu'] },
-  { character: 'ペ', answers: ['pe'] },
-  { character: 'ポ', answers: ['po'] },
-  { character: 'キャ', answers: ['kya'] },
-  { character: 'キュ', answers: ['kyu'] },
-  { character: 'キョ', answers: ['kyo'] },
-  { character: 'シャ', answers: ['sha', 'sya'] },
-  { character: 'シュ', answers: ['shu', 'syu'] },
-  { character: 'ショ', answers: ['sho', 'syo'] },
-  { character: 'チャ', answers: ['cha', 'tya', 'cya'] },
-  { character: 'チュ', answers: ['chu', 'tyu', 'cyu'] },
-  { character: 'チョ', answers: ['cho', 'tyo', 'cyo'] },
-  { character: 'ニャ', answers: ['nya'] },
-  { character: 'ニュ', answers: ['nyu'] },
-  { character: 'ニョ', answers: ['nyo'] },
-  { character: 'ヒャ', answers: ['hya'] },
-  { character: 'ヒュ', answers: ['hyu'] },
-  { character: 'ヒョ', answers: ['hyo'] },
-  { character: 'ミャ', answers: ['mya'] },
-  { character: 'ミュ', answers: ['myu'] },
-  { character: 'ミョ', answers: ['myo'] },
-  { character: 'リャ', answers: ['rya'] },
-  { character: 'リュ', answers: ['ryu'] },
-  { character: 'リョ', answers: ['ryo'] },
-  { character: 'ギャ', answers: ['gya'] },
-  { character: 'ギュ', answers: ['gyu'] },
-  { character: 'ギョ', answers: ['gyo'] },
-  { character: 'ジャ', answers: ['ja', 'jya', 'zya'] },
-  { character: 'ジュ', answers: ['ju', 'jyu', 'zyu'] },
-  { character: 'ジョ', answers: ['jo', 'jyo', 'zyo'] },
-  { character: 'ヂャ', answers: ['ja', 'dya'] },
-  { character: 'ヂュ', answers: ['ju', 'dyu'] },
-  { character: 'ヂョ', answers: ['jo', 'dyo'] },
-  { character: 'ビャ', answers: ['bya'] },
-  { character: 'ビュ', answers: ['byu'] },
-  { character: 'ビョ', answers: ['byo'] },
-  { character: 'ピャ', answers: ['pya'] },
-  { character: 'ピュ', answers: ['pyu'] },
-  { character: 'ピョ', answers: ['pyo'] },
-]
 
 const HIRAGANA_SESSION_KEY = 'hayaku-hiragana-session-v1'
 const KATAKANA_SESSION_KEY = 'hayaku-katakana-session-v1'
@@ -561,146 +326,6 @@ const parseStoredWordSession = (
   }
 }
 
-const getDeckPositionRomajiForCard = (card: HiraganaCard) => {
-  const overrideByCharacter: Record<string, string> = {
-    'し': 'si',
-    'シ': 'si',
-    'ち': 'ti',
-    'チ': 'ti',
-    'じ': 'zi',
-    'ジ': 'zi',
-    'ぢ': 'di',
-    'ヂ': 'di',
-    'つ': 'tu',
-    'ツ': 'tu',
-    'づ': 'du',
-    'ヅ': 'du',
-    'ふ': 'hu',
-    'フ': 'hu',
-  }
-
-  return overrideByCharacter[card.character] ?? card.answers[0]
-}
-
-const getDeckDisplayRomajiForCard = (card: HiraganaCard) => card.answers[0]
-
-const parseRomajiToGridPosition = (romaji: string) => {
-  const normalized = normalizeInput(romaji)
-  if (normalized === 'n') {
-    return { row: 'n', column: 'n' }
-  }
-
-  const match = normalized.match(/^(.*?)([aiueo])$/)
-  if (!match) {
-    return { row: normalized, column: 'other' }
-  }
-
-  return {
-    row: match[1],
-    column: match[2],
-  }
-}
-
-const buildDeckCells = (cards: HiraganaCard[]): DeckCell[] => {
-  return cards.map((card) => {
-    const positionRomaji = getDeckPositionRomajiForCard(card)
-    const displayRomaji = getDeckDisplayRomajiForCard(card)
-    const position = parseRomajiToGridPosition(positionRomaji)
-    return {
-      character: card.character,
-      displayRomaji,
-      positionRomaji,
-      row: position.row,
-      column: position.column,
-    }
-  })
-}
-
-const ROW_ORDER = [
-  '',
-  'k',
-  's',
-  't',
-  'n',
-  'h',
-  'm',
-  'y',
-  'r',
-  'w',
-  'g',
-  'z',
-  'd',
-  'b',
-  'p',
-  'f',
-  'ts',
-  'j',
-  'ch',
-  'sh',
-  'ky',
-  'ny',
-  'hy',
-  'my',
-  'ry',
-  'gy',
-  'by',
-  'py',
-  'dy',
-]
-
-const COLUMN_ORDER = ['a', 'i', 'u', 'e', 'o', 'n', 'other']
-
-const sortByKnownOrder = (items: string[], order: string[]) => {
-  const orderIndex = new Map(order.map((item, index) => [item, index]))
-  return [...items].sort((a, b) => {
-    const aIndex = orderIndex.get(a)
-    const bIndex = orderIndex.get(b)
-    if (aIndex !== undefined && bIndex !== undefined) {
-      return aIndex - bIndex
-    }
-    if (aIndex !== undefined) {
-      return -1
-    }
-    if (bIndex !== undefined) {
-      return 1
-    }
-    return a.localeCompare(b)
-  })
-}
-
-const buildDeckMatrix = (cells: DeckCell[]): DeckMatrix => {
-  const rows = sortByKnownOrder([...new Set(cells.map((cell) => cell.row))], ROW_ORDER)
-  const columns = sortByKnownOrder([...new Set(cells.map((cell) => cell.column))], COLUMN_ORDER)
-
-  const rowCharacters = new Map<string, string[]>()
-  rows.forEach((row) => {
-    rowCharacters.set(
-      row,
-      cells.filter((cell) => cell.row === row).map((cell) => cell.character),
-    )
-  })
-
-  const columnCharacters = new Map<string, string[]>()
-  columns.forEach((column) => {
-    columnCharacters.set(
-      column,
-      cells.filter((cell) => cell.column === column).map((cell) => cell.character),
-    )
-  })
-
-  const cellMap = new Map<string, DeckCell>()
-  cells.forEach((cell) => {
-    cellMap.set(`${cell.row}:${cell.column}`, cell)
-  })
-
-  return {
-    rows,
-    columns,
-    rowCharacters,
-    columnCharacters,
-    cellMap,
-  }
-}
 
 const createDefaultDeckConfig = (cards: HiraganaCard[]): DeckConfig => ({
   includedCharacters: cards.map((card) => card.character),
@@ -773,33 +398,10 @@ const getSelectionState = (characters: string[], selectedCharacters: Set<string>
   return 'partial'
 }
 
-const formatDeckRowLabel = (row: string) => {
-  if (row === '') {
-    return 'vowels'
-  }
-  if (row === 'n') {
-    return 'n'
-  }
-  return `${row}-`
-}
-
-const formatDeckColumnLabel = (column: string) => {
-  if (column === 'other') {
-    return 'other'
-  }
-  return column
-}
-
 const WORD_DECK_GROUPS_PER_PAGE = 5
 
 function App() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    const saved = window.localStorage.getItem('hayaku-theme')
-    if (saved === 'light' || saved === 'dark') {
-      return saved
-    }
-    return getSystemTheme()
-  })
+  const { theme, toggleTheme } = useAppTheme()
   const [mode, setMode] = useState<PracticeMode>(() => {
     const saved = window.localStorage.getItem('hayaku-mode')
     if (saved === 'hiragana' || saved === 'katakana' || saved === 'frequency') {
@@ -891,12 +493,6 @@ function App() {
   }, [keepDrillCardVisible, mode])
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
-    document.documentElement.style.colorScheme = theme
-    window.localStorage.setItem('hayaku-theme', theme)
-  }, [theme])
-
-  useEffect(() => {
     window.localStorage.setItem(HIRAGANA_SESSION_KEY, JSON.stringify(hiraganaSession))
   }, [hiraganaSession])
 
@@ -954,10 +550,6 @@ function App() {
     isWordDeckEditorOpen,
     focusAnswerInput,
   ])
-
-  const toggleTheme = () => {
-    setTheme((current) => (current === 'light' ? 'dark' : 'light'))
-  }
 
   const wordQuizState = wordQuizStates[wordQuizMode]
   const wordDeck = wordQuizState.deck
@@ -1846,17 +1438,14 @@ function App() {
 
   return (
     <main className="app-shell">
-      <header className="topbar reveal reveal-1">
-        <h1 className="brand-title">早く / HAYAKU STUDY</h1>
-        <button
-          type="button"
-          className="theme-toggle"
-          onClick={toggleTheme}
-          aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
-        >
-          {theme === 'light' ? <Moon size={18} /> : <Sun size={18} />}
-        </button>
-      </header>
+      <CoreHeader
+        title="早く / HAYAKU STUDY"
+        theme={theme}
+        onToggleTheme={toggleTheme}
+        primaryActionTo="/hiragana"
+        primaryActionLabel="Reference"
+        PrimaryActionIcon={BookSearch}
+      />
 
       <nav className="mode-nav reveal reveal-2" aria-label="Practice modes">
         {(Object.keys(modes) as PracticeMode[]).map((key) => (
