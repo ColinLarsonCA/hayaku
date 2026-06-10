@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
 import { BookOpenCheck } from 'lucide-react'
-import { NavLink } from 'react-router-dom'
 import type { KanaCard } from '../kanaData'
 import { buildDeckCells, buildDeckMatrix } from '../kanaDeck.ts'
 import { useAppTheme } from '../useAppTheme'
 import CoreHeader from '../components/CoreHeader'
+import ReferenceModeNav from '../components/ReferenceModeNav'
 
 type KanaReferencePageProps = {
   cards: KanaCard[]
@@ -83,16 +83,7 @@ function KanaReferencePage({ cards }: KanaReferencePageProps) {
         PrimaryActionIcon={BookOpenCheck}
       />
 
-      <nav className="mode-nav reveal reveal-2" aria-label="Reference pages">
-        <NavLink to="/hiragana" className={({ isActive }) => `mode-btn ${isActive ? 'is-active' : ''}`}>
-          <span className="mode-label-desktop">ひらがな / HIRAGANA</span>
-          <span className="mode-label-mobile">HIRAGANA</span>
-        </NavLink>
-        <NavLink to="/katakana" className={({ isActive }) => `mode-btn ${isActive ? 'is-active' : ''}`}>
-          <span className="mode-label-desktop">カタカナ / KATAKANA</span>
-          <span className="mode-label-mobile">KATAKANA</span>
-        </NavLink>
-      </nav>
+      <ReferenceModeNav />
 
       <section className="practice-panel reveal reveal-3" aria-live="polite">
         <p>Reference chart only. This page is intentionally non-interactive.</p>

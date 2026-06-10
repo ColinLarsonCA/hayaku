@@ -12,6 +12,15 @@ import { HIRAGANA_CARDS, KATAKANA_CARDS, type KanaCard as HiraganaCard } from '.
 import { useAppTheme } from './useAppTheme'
 import CoreHeader from './components/CoreHeader'
 import { japaneseFrequencyData } from './data/japaneseFrequencyData'
+import {
+  WORD_GROUPS_PER_PAGE,
+  buildWordFrequencyGroups,
+  filterWordEntries,
+  getJishoSearchUrl,
+  hasGrammarType,
+  sortWordEntriesByFrequency,
+  type JapaneseFrequencyEntry,
+} from './wordUtils'
 import './App.css'
 
 type PracticeMode = 'hiragana' | 'katakana' | 'frequency'
@@ -25,7 +34,6 @@ type WordSession = {
   remainingIndexes: number[]
   currentInput: string
 }
-type JapaneseFrequencyEntry = (typeof japaneseFrequencyData)[number]
 type DeckConfig = {
   includedCharacters: string[]
 }
@@ -231,33 +239,7 @@ const getWordsForDeck = (
   return wordCards.filter((card) => includedFrequencies.has(card.frequency))
 }
 
-const GRAMMAR_WORD_TYPES = new Set([
-  'adnominal',
-  'particle',
-  'discourse particle',
-  'case particle',
-  'conjunctive particle',
-  'conjunction',
-  'auxiliary',
-  'prefix',
-  'suffix',
-  'counter',
-])
-
-const parseWordTypeParts = (wordType: string) =>
-  wordType
-    .split(',')
-    .map((part) => normalizeInput(part))
-    .filter(Boolean)
-
-const hasGrammarType = (wordType: string) =>
-  parseWordTypeParts(wordType).some((part) => GRAMMAR_WORD_TYPES.has(part))
-
-const getFrequencyGroupStart = (frequency: number) => Math.floor((frequency - 1) / 100) * 100 + 1
-
 const clampRangeValue = (value: number, min: number, max: number) => Math.max(min, Math.min(max, value))
-
-const getJishoSearchUrl = (word: string) => `https://jisho.org/search/${encodeURIComponent(word)}`
 
 const parseStoredSession = (value: string | null, validCards: HiraganaCard[]): HiraganaSession | null => {
   if (!value) {
@@ -397,8 +379,6 @@ const getSelectionState = (characters: string[], selectedCharacters: Set<string>
   }
   return 'partial'
 }
-
-const WORD_DECK_GROUPS_PER_PAGE = 5
 
 function App() {
   const { theme, toggleTheme } = useAppTheme()
@@ -569,10 +549,7 @@ function App() {
   const currentWordCard = wordCards[currentWordIndex]
   const wordCompletedCount = wordCards.length - wordSession.remainingIndexes.length
   const kanaPeekAnswer = currentCard?.answers.join(' / ') ?? ''
-  const allWordDeckEntries = useMemo(
-    () => [...japaneseFrequencyData].sort((a, b) => a.frequency - b.frequency),
-    [],
-  )
+  const allWordDeckEntries = useMemo(() => sortWordEntriesByFrequency(japaneseFrequencyData), [])
   const allWordFrequencies = useMemo(
     () => allWordDeckEntries.map((entry) => entry.frequency),
     [allWordDeckEntries],
@@ -581,34 +558,14 @@ function App() {
     () => new Set(wordDeck.includedFrequencies),
     [wordDeck.includedFrequencies],
   )
-  const normalizedWordDeckSearch = normalizeInput(wordDeckSearch)
-  const visibleWordDeckEntries = useMemo(() => {
-    if (!normalizedWordDeckSearch) {
-      return allWordDeckEntries
-    }
-
-    return allWordDeckEntries.filter((entry) => {
-      const haystacks = [entry.word, entry.reading, entry.meaning]
-      return haystacks.some((value) => normalizeInput(value).includes(normalizedWordDeckSearch))
-    })
-  }, [allWordDeckEntries, normalizedWordDeckSearch])
-  const wordDeckGroups = useMemo(() => {
-    const groups = new Map<number, JapaneseFrequencyEntry[]>()
-    visibleWordDeckEntries.forEach((entry) => {
-      const groupStart = getFrequencyGroupStart(entry.frequency)
-      const group = groups.get(groupStart) ?? []
-      group.push(entry)
-      groups.set(groupStart, group)
-    })
-
-    return [...groups.entries()]
-      .sort((a, b) => a[0] - b[0])
-      .map(([groupStart, entries]) => ({
-        groupStart,
-        groupEnd: groupStart + 99,
-        entries,
-      }))
-  }, [visibleWordDeckEntries])
+  const visibleWordDeckEntries = useMemo(
+    () => filterWordEntries(allWordDeckEntries, { search: wordDeckSearch }),
+    [allWordDeckEntries, wordDeckSearch],
+  )
+  const wordDeckGroups = useMemo(
+    () => buildWordFrequencyGroups(visibleWordDeckEntries),
+    [visibleWordDeckEntries],
+  )
 
   const wordPeekAnswer = currentWordCard
     ? isReadingWordQuiz
@@ -1102,10 +1059,10 @@ function App() {
 
       <div className="word-deck-list" role="list" aria-label="Word deck by frequency">
         {(() => {
-          const totalPages = Math.ceil(wordDeckGroups.length / WORD_DECK_GROUPS_PER_PAGE)
+          const totalPages = Math.ceil(wordDeckGroups.length / WORD_GROUPS_PER_PAGE)
           const clampedPage = Math.max(0, Math.min(wordDeckPage, totalPages - 1))
-          const startIdx = clampedPage * WORD_DECK_GROUPS_PER_PAGE
-          const endIdx = startIdx + WORD_DECK_GROUPS_PER_PAGE
+          const startIdx = clampedPage * WORD_GROUPS_PER_PAGE
+          const endIdx = startIdx + WORD_GROUPS_PER_PAGE
           const visibleGroups = wordDeckGroups.slice(startIdx, endIdx)
 
           return (

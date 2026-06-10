@@ -257,7 +257,9 @@ h1 {
 }
 
 .word-deck-panel {
+  --word-deck-pad: clamp(0.8rem, 2.2vw, 1rem);
   max-height: min(70vh, 700px);
+  padding: 0;
   overflow: auto;
   position: relative;
 }
@@ -270,9 +272,10 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.35rem;
-  padding-bottom: 0.45rem;
+  padding: var(--word-deck-pad) var(--word-deck-pad) 0.45rem;
   background: color-mix(in srgb, var(--surface-elevated), var(--surface-base) 16%);
   border-bottom: 1px solid color-mix(in srgb, var(--surface-border), transparent 36%);
+  box-shadow: 0 8px 18px -16px var(--surface-shadow);
 }
 
 .word-deck-search {
@@ -300,6 +303,30 @@ h1 {
   gap: 0.3rem;
   flex: 1 1 auto;
   min-width: 0;
+}
+
+.word-type-filter-label {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.word-type-filter {
+  min-width: 10rem;
+  max-width: 100%;
+  padding: 0.34rem 0.45rem;
+  border-radius: 10px;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-base);
+  color: var(--text-strong);
+  font: inherit;
+  font-size: 0.8rem;
+}
+
+.word-type-filter:focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 2px;
 }
 
 .word-deck-secondary-row {
@@ -343,6 +370,14 @@ h1 {
 .word-deck-list {
   display: grid;
   gap: 0.9rem;
+  padding: 0.65rem var(--word-deck-pad) var(--word-deck-pad);
+}
+
+.word-reference-meta {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
 }
 
 .word-deck-group {
@@ -414,6 +449,12 @@ h1 {
 
 .word-deck-row-toggle:disabled {
   pointer-events: none;
+}
+
+.word-deck-row-static {
+  cursor: default;
+  padding-right: 0.48rem;
+  grid-template-columns: 3rem minmax(4rem, 1.2fr) minmax(0, 2fr);
 }
 
 .word-deck-jisho-link {
@@ -888,12 +929,26 @@ h1 {
     align-items: start;
   }
 
+  .word-deck-row-static {
+    grid-template-columns: 2.2rem minmax(2.7rem, 1fr);
+  }
+
+  .word-deck-row-static .word-deck-primary,
+  .word-deck-row-static .word-deck-secondary {
+    grid-column: 2;
+  }
+
   .word-deck-search {
     flex-basis: 100%;
     min-width: 0;
   }
 
   .word-deck-actions {
+    width: 100%;
+  }
+
+  .word-type-filter {
+    min-width: 0;
     width: 100%;
   }
 
